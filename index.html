@@ -12,7 +12,7 @@
 
     <meta
         name="description"
-        content="ICAT科研前沿雷达：发现AI应用、科研提效工具、重大科技突破及Nature期刊最新文章。"
+        content="ICAT科研前沿雷达：聚合热点、AI应用、科研提效工具、重大科技突破及Nature相关最新研究。"
     >
 
     <title>
@@ -30,6 +30,10 @@
 <body>
 
 
+<!-- =====================================================
+     顶部
+===================================================== -->
+
 <header class="header">
 
     <div class="header-inner">
@@ -43,7 +47,7 @@
         </h1>
 
         <p class="subtitle">
-            新工具 · 新发现 · 新数据 · 新突破
+            热点 · 新工具 · 新发现 · 新数据 · 新突破
         </p>
 
         <div
@@ -59,10 +63,16 @@
 
 
 
+<!-- =====================================================
+     主体
+===================================================== -->
+
 <main class="container">
 
 
-    <!-- 雷达概览 -->
+    <!-- =================================================
+         今日提示
+    ================================================== -->
 
     <section class="intro">
 
@@ -78,12 +88,17 @@
 
 
 
-    <!-- 导航 -->
+    <!-- =================================================
+         顶部导航
+    ================================================== -->
 
     <nav
         class="filters"
         aria-label="资讯分类"
     >
+
+
+        <!-- 全部 -->
 
         <button
             type="button"
@@ -95,6 +110,20 @@
         </button>
 
 
+        <!-- 热点 -->
+
+        <button
+            type="button"
+            class="filter hotspot-filter"
+            data-filter-type="hotspot"
+            data-filter-value="hotspot"
+        >
+            热点
+        </button>
+
+
+        <!-- AI变现 -->
+
         <button
             type="button"
             class="filter"
@@ -104,6 +133,8 @@
             AI变现
         </button>
 
+
+        <!-- 提效工具 -->
 
         <button
             type="button"
@@ -115,6 +146,8 @@
         </button>
 
 
+        <!-- 前沿动态 -->
+
         <button
             type="button"
             class="filter"
@@ -124,6 +157,8 @@
             前沿动态
         </button>
 
+
+        <!-- Scientific Data -->
 
         <button
             type="button"
@@ -135,6 +170,8 @@
         </button>
 
 
+        <!-- Nature Cities -->
+
         <button
             type="button"
             class="filter journal-filter"
@@ -144,11 +181,68 @@
             Nature Cities
         </button>
 
+
     </nav>
 
 
 
-    <!-- 最新突破 -->
+    <!-- =================================================
+         热点模块
+         
+         默认隐藏。
+         点击“热点”后由 app.js 显示。
+    ================================================== -->
+
+    <section
+        id="hotspot-section"
+        class="hotspot-section"
+        hidden
+    >
+
+        <div class="section-heading hotspot-heading">
+
+            <div>
+
+                <h2 class="section-title">
+                    🔥 热点
+                </h2>
+
+                <p class="section-description">
+                    从公众热点中寻找值得用 Nature 研究解读的内容方向
+                </p>
+
+            </div>
+
+
+            <span
+                id="hotspot-count"
+                class="result-count"
+            >
+            </span>
+
+        </div>
+
+
+        <div
+            id="hotspot-list"
+            class="hotspot-list"
+        >
+
+            <div class="empty">
+                正在读取热点……
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =================================================
+         最新突破
+         
+         只在“全部”和“前沿动态”显示
+    ================================================== -->
 
     <section
         id="featured-section"
@@ -180,9 +274,14 @@
 
 
 
-    <!-- 最新资讯 -->
+    <!-- =================================================
+         普通资讯
+    ================================================== -->
 
-    <section class="news-section">
+    <section
+        id="news-section"
+        class="news-section"
+    >
 
         <div class="section-heading">
 
@@ -207,8 +306,10 @@
             class="news-grid"
         >
 
-            <div class="empty">
+            <div class="empty full-grid">
+
                 正在读取最新资讯……
+
             </div>
 
         </div>
@@ -220,6 +321,10 @@
 
 
 
+<!-- =====================================================
+     页脚
+===================================================== -->
+
 <footer class="footer">
 
     <strong>
@@ -227,11 +332,16 @@
     </strong>
 
     <p>
-        发现值得关注的新工具、新数据与科技突破
+        发现值得关注的热点、新工具、新数据与科研突破
     </p>
 
 </footer>
 
+
+
+<!-- =====================================================
+     JavaScript
+===================================================== -->
 
 <script src="./app.js"></script>
 
