@@ -1,6 +1,7 @@
 {
-  "updated_at": "2026-08-14T08:37:58.198254+00:00",
-  "count": 74,
+  "updated_at": "2026-08-14T08:46:07.780987+00:00",
+  "count": 76,
+  "hotspot_count": 8,
   "breakthrough_count": 7,
   "category_counts": {
     "AI变现": 12,
@@ -8,9 +9,379 @@
     "前沿动态": 7
   },
   "source_counts": {
-    "Scientific Data": 3,
-    "Nature Cities": 20
+    "Scientific Data": 11,
+    "Nature Cities": 14
   },
+  "hotspots": [
+    {
+      "id": "ab9a1933f2f1bfbe",
+      "title": "这些中国机器人“小众”却好用",
+      "summary": "当机器人走出展会的聚光灯，它们悄然进入真实的产业场景：在制衣车间里查验布料，在商圈咖啡店中调制拉花，在百米高的大桥斜拉索... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E2%80%9C%E5%B0%8F%E4%BC%97%E2%80%9D%E5%8D%B4%E5%A5%BD%E7%94%A8&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 4,
+      "hot_index": 7617880,
+      "topic": "人工智能",
+      "score": 97,
+      "recommended_title": "这些中国机器人“小众”却好用刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/2d5b23449b4d71b1c5c4353e79405e70?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 32
+        },
+        {
+          "id": "a83366e9da2241c5",
+          "title": "Interpretable self-driving sputtering epitaxy reveals human-usable growth rules for β -Ga 2 O 3 films",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76533-0",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Materials growth requires navigating complex conditions. Here, the authors combine automated sputtering, Bayesian optimization, and interpretable machine learning in a self-driving laboratory to optimize β -Ga2O3 growth and extract practical rules.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-428426740&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76533-0%26doi%3D10.1038/s41467-026-76533-0%26techmeta%3D128%26subjmeta%3D1005,1007,1034,1037,301,639%26kwrd%3DComputational+methods,Electronic+devices",
+          "match_score": 25
+        },
+        {
+          "id": "7015b42a6e5f3edd",
+          "title": "Imaging and hyperspectral data from colorectal cancer tissue samples for multimodal machine learning models",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-07873-1",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "Colorectal cancer is one of the most common and deadly cancer types worldwide, with diagnosis and treatment outcomes heavily relying on histopathological assessment. While Whole Slide Images remain the gold standard for tissue data evaluation, techniques such as Fourier transf...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-1898372838&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-07873-1%26doi%3D10.1038/s41597-026-07873-1%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
+          "match_score": 23
+        }
+      ],
+      "updated_at": "2026-08-14T08:46:04.438532+00:00"
+    },
+    {
+      "id": "31488821922145b2",
+      "title": "所谓“包治百病”都是骗局",
+      "summary": "浙江义乌一老人因健康焦虑陷入保健品、高额保险骗局，家人劝说无果报警。辅警上门劝导揭穿套路，提醒老年人谨防推销陷阱。 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%89%80%E8%B0%93%E2%80%9C%E5%8C%85%E6%B2%BB%E7%99%BE%E7%97%85%E2%80%9D%E9%83%BD%E6%98%AF%E9%AA%97%E5%B1%80&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 12,
+      "hot_index": 6855024,
+      "topic": "健康医学",
+      "score": 90,
+      "recommended_title": "所谓“包治百病”都是骗局为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/f6860bb7fb8a4aec4a0147194d9873ab?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "b7eecf6aa392bf20",
+          "title": "Rb-driven transcription limits its tumour-suppressive effects in breast cancer",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10886-w",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "CDK4/6 inhibition redirects Rb chromatin occupancy to activate oestrogen-responsive genes, counteracting its own ability to maintain therapeutic cell-cycle arrest.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10886-w/MediaObjects/41586_2026_10886_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "27d685119fd86e4e",
+          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04564-7",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
+          "match_score": 35
+        },
+        {
+          "id": "0050fea59bb7b392",
+          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04537-w",
+          "published_at": "2026-08-11T00:00:00+00:00",
+          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-08-14T08:46:04.452056+00:00"
+    },
+    {
+      "id": "f8f629249dc74e44",
+      "title": "虎王发呆被游客吓得“虎躯一震”",
+      "summary": "近日，宝山前野生动物园里一头虎王在展区发呆休憩时，突然受到游客惊扰猛地浑身一颤，呆萌反差的模样十分有趣。 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%99%8E%E7%8E%8B%E5%8F%91%E5%91%86%E8%A2%AB%E6%B8%B8%E5%AE%A2%E5%90%93%E5%BE%97%E2%80%9C%E8%99%8E%E8%BA%AF%E4%B8%80%E9%9C%87%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 21,
+      "hot_index": 6000496,
+      "topic": "生态生命",
+      "score": 83,
+      "recommended_title": "虎王发呆被游客吓得“虎躯一震”背后的科学问题：Nature研究给出了哪些线索？",
+      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释其背后的生态过程和环境意义。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/19d77f4a45995555268020c2b8aa06dd?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "30fe5c469e32a8d8",
+          "title": "Tree species richness relates to long-term forest photosynthesis increase",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02698-7",
+          "published_at": "2026-07-27T00:00:00+00:00",
+          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig1_HTML.png?as=webp",
+          "match_score": 37
+        },
+        {
+          "id": "a3a59c8b57e1676f",
+          "title": "Balancing marine species conservation with cost-effective renewable energy development",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02696-9",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "The authors consider the potential conflict between renewable energy development (offshore wind) and wildlife (North Atlantic right whales, Eubalaena glacialis ). They demonstrate a framework to identify trade-offs under different scenarios, maximizing conservation with minima...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02696-9/MediaObjects/41558_2026_2696_Fig1_HTML.png",
+          "match_score": 37
+        },
+        {
+          "id": "ab9f93ba4e854e31",
+          "title": "Species intraspecific variation drives tropical forest drought resistance",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10870-4",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "Substantial intraspecific variation, together with species turnover, drives coordinated shifts in drought resistance such as increased embolism resistance and wider stomatal safety margins in drier forests.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-10870-4/MediaObjects/41586_2026_10870_Fig2_HTML.png?as=webp",
+          "match_score": 36
+        }
+      ],
+      "updated_at": "2026-08-14T08:46:04.462669+00:00"
+    },
+    {
+      "id": "e3e433607589ee12",
+      "title": "派出所所长4次横渡洪水救出一家三口",
+      "summary": "8月12日，湖北谷城县南河镇遭遇特大暴雨，一家三口被洪水围困车顶。南河派出所所长彭冉带队赶赴现场，面对水位持续上涨，4次... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%B4%BE%E5%87%BA%E6%89%80%E6%89%80%E9%95%BF4%E6%AC%A1%E6%A8%AA%E6%B8%A1%E6%B4%AA%E6%B0%B4%E6%95%91%E5%87%BA%E4%B8%80%E5%AE%B6%E4%B8%89%E5%8F%A3&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 29,
+      "hot_index": 5219147,
+      "topic": "气候环境",
+      "score": 77,
+      "recommended_title": "派出所所长4次横渡洪水救出一家三口背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释极端事件形成机制、风险变化和长期趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/01b8fa50c6c42965d7d1cc99eec7a822?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 29
+        },
+        {
+          "id": "ebb28cc17a3ef851",
+          "title": "Cascading continental-scale floods across Europe in 1342–1343",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10888-8",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "Tracing cascading continental-scale medieval megafloods across Europe indicates that current flood management is unprepared for such sequences, highlighting the urgent need for proactive flood risk management strategies that account for unusual series of extreme flood events.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10888-8/MediaObjects/41586_2026_10888_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        }
+      ],
+      "updated_at": "2026-08-14T08:46:04.473289+00:00"
+    },
+    {
+      "id": "e9d95e12520130d2",
+      "title": "浙江湖州暴雨致山体滑坡",
+      "summary": "8月14日，浙江湖州暴雨致山体滑坡，树被冲倒，路面一片汪洋，有地区水淹到自建房三楼。目前湖州已启动防汛Ⅲ级应急响应。 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%99%E6%B1%9F%E6%B9%96%E5%B7%9E%E6%9A%B4%E9%9B%A8%E8%87%B4%E5%B1%B1%E4%BD%93%E6%BB%91%E5%9D%A1&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 38,
+      "hot_index": 4352699,
+      "topic": "气候环境",
+      "score": 70,
+      "recommended_title": "浙江湖州暴雨致山体滑坡背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释极端事件形成机制、风险变化和长期趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/f6b8abb440ed0212fbb4f7e5deade3a0?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 29
+        },
+        {
+          "id": "ebb28cc17a3ef851",
+          "title": "Cascading continental-scale floods across Europe in 1342–1343",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10888-8",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "Tracing cascading continental-scale medieval megafloods across Europe indicates that current flood management is unprepared for such sequences, highlighting the urgent need for proactive flood risk management strategies that account for unusual series of extreme flood events.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10888-8/MediaObjects/41586_2026_10888_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        }
+      ],
+      "updated_at": "2026-08-14T08:46:04.484101+00:00"
+    },
+    {
+      "id": "7b81fc29dbae382f",
+      "title": "新一代“人造太阳”要来了",
+      "summary": "在地球上“种个太阳”，听起来像是天方夜谭。但今天的科技，正在加速渲染我们想象中的场景。“人造太阳”，也就是可控核聚变，就... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%96%B0%E4%B8%80%E4%BB%A3%E2%80%9C%E4%BA%BA%E9%80%A0%E5%A4%AA%E9%98%B3%E2%80%9D%E8%A6%81%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 41,
+      "hot_index": 4078597,
+      "topic": "前沿科技",
+      "score": 67,
+      "recommended_title": "新一代“人造太阳”要来了意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/e4d1120dc1cc930c62f65b0725b44963?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "134270e9f50f2df4",
+          "title": "Lead carboxylates passivation for meter-scale perovskite solar modules",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10994-7",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "Environmentally sensitive ammonium halides have emerged as indispensable surface passivators for perovskite solar cells, demonstrating broadly effective performance at the laboratory scale1-4. However, the sensitivity of ammonium halides to humidity typically necessitates oper...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature.com/article&sz=728x90&c=2098919609&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41586-026-10994-7%26doi%3D10.1038/s41586-026-10994-7%26techmeta%3D120,128,131,140,145,146%26subjmeta%3D299,301,4077,4096,4101,639,909,946%26kwrd%3DSolar+cells",
+          "match_score": 36
+        },
+        {
+          "id": "d1094bb8ab7febdc",
+          "title": "Towards an equitable future of global photovoltaic waste recycling",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10905-w",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "Global photovoltaic waste will reach 297–402 million tonnes by 2060, and regionally adapted recycling strategies and international cooperation will be needed to provide equitable and scalable PV waste circularity.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10905-w/MediaObjects/41586_2026_10905_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "3d28ebea390939e3",
+          "title": "Physics-aligned causal inference of driving styles on electric vehicles battery aging",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-66428-x",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Lithium-ion batteries (LIBs) remain the core service life bottleneck of electric vehicles (EVs), and driving style is a critical human factor dominating EV battery degradation as assessed via aging proxy indicators and semi-empirical model predictions. Existing studies mostly...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/scientific_reports/article&sz=728x90&c=-850673612&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41598-026-66428-x%26doi%3D10.1038/s41598-026-66428-x%26subjmeta%3D166,639,705,766%26kwrd%3DEngineering,Mathematics+and+computing,Physics",
+          "match_score": 21
+        }
+      ],
+      "updated_at": "2026-08-14T08:46:04.494753+00:00"
+    },
+    {
+      "id": "50f4b252b3055866",
+      "title": "浙江长兴山洪泥石流致1死3失联",
+      "summary": "受突发短时强降雨极端天气影响，8月14日6时30分许，浙江长兴县和平镇滩龙桥村发生泥石流，初步判定为山洪引发，致一栋民房... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%99%E6%B1%9F%E9%95%BF%E5%85%B4%E5%B1%B1%E6%B4%AA%E6%B3%A5%E7%9F%B3%E6%B5%81%E8%87%B41%E6%AD%BB3%E5%A4%B1%E8%81%94&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 47,
+      "hot_index": 3505012,
+      "topic": "气候环境",
+      "score": 63,
+      "recommended_title": "浙江长兴山洪泥石流致1死3失联背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释极端事件形成机制、风险变化和长期趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/bdd8ceef972367f907ebfe1ea3c2191b?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 29
+        },
+        {
+          "id": "ebb28cc17a3ef851",
+          "title": "Cascading continental-scale floods across Europe in 1342–1343",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10888-8",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "Tracing cascading continental-scale medieval megafloods across Europe indicates that current flood management is unprepared for such sequences, highlighting the urgent need for proactive flood risk management strategies that account for unusual series of extreme flood events.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10888-8/MediaObjects/41586_2026_10888_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        }
+      ],
+      "updated_at": "2026-08-14T08:46:04.505534+00:00"
+    },
+    {
+      "id": "8bc1187de22842b5",
+      "title": "员工台风天请假被罚 公司道歉",
+      "summary": "8月13日，上海一位员工称因受台风影响，临时请一小时假被公司扣款近1500元，相关事件引发网友热议。据悉，涉事公司确对3... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%91%98%E5%B7%A5%E5%8F%B0%E9%A3%8E%E5%A4%A9%E8%AF%B7%E5%81%87%E8%A2%AB%E7%BD%9A+%E5%85%AC%E5%8F%B8%E9%81%93%E6%AD%89&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 48,
+      "hot_index": 3403555,
+      "topic": "气候环境",
+      "score": 63,
+      "recommended_title": "员工台风天请假被罚 公司道歉背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释极端事件形成机制、风险变化和长期趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/cd6f4181aa99226471ab4e96aeb3795b?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 29
+        },
+        {
+          "id": "ebb28cc17a3ef851",
+          "title": "Cascading continental-scale floods across Europe in 1342–1343",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10888-8",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "Tracing cascading continental-scale medieval megafloods across Europe indicates that current flood management is unprepared for such sequences, highlighting the urgent need for proactive flood risk management strategies that account for unusual series of extreme flood events.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10888-8/MediaObjects/41586_2026_10888_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        }
+      ],
+      "updated_at": "2026-08-14T08:46:04.516224+00:00"
+    }
+  ],
   "items": [
     {
       "id": "03db865904642761",
@@ -24,7 +395,7 @@
       "summary": "科学网-单个星系中首现三个活跃的超大质量黑洞",
       "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a7e771ce4b078fce44aedef.jpeg",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": true,
@@ -42,7 +413,7 @@
       "summary": "科学网-化学造镜，读透细胞：超分辨化学显微镜诞生",
       "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a7d7a0be4b078fce44aed53.jpg",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": true,
@@ -58,9 +429,9 @@
       "published_at": "2026-08-14T08:37:40.223637+00:00",
       "detected_at": "2026-08-14T08:37:40.223639+00:00",
       "summary": "高温超导机理是凝聚态物理领域的“世纪难题”。中国科学技术大学何俊峰教授研究组与南方科技大学薛其坤院士等合作，在新型镍基高温超导的机理研究中取得重大突破：首次为镍基高温超导机制的两个核心问题“超导能隙对称性”和“超导配对机制”提供了关键实验证据。相关研究成果5月21日发表于《科学》。",
-      "image_url": "https://statics.kjrb.com.cn/resource/kjw/images/pinglun.png",
+      "image_url": "https://statics.kjrb.com.cn/resource/kjw/img/20240301dzv.png",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": true,
@@ -78,7 +449,7 @@
       "summary": "随着视觉语言模型分辨率与图文理解能力持续升级，图像会被编码为数百至上万个视觉Token。",
       "image_url": "http://www.qbitai.com/wp-content/themes/liangziwei/imagesnew/head.jpg",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
@@ -96,7 +467,7 @@
       "summary": "2026年8月12日，全球领先的AI终端生态公司荣耀（HONOR）在广州举办“嗨！新朋友”荣耀Robot Phone全球新品发布会，正式推出全球首款机器人手机荣耀Robot Phone。",
       "image_url": "http://www.qbitai.com/wp-content/uploads/2019/06/200.jpg",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": true,
@@ -114,7 +485,7 @@
       "summary": "腾讯开源AI智能体浏览器工具BrowserSkill，专为智能体高效处理网页任务设计，区别于传统大模型插件。其核心亮点包括支持完整复用等特性，显著提升自动化效率。",
       "image_url": "https://upload.chinaz.com/2026/0811/6392203751767614668285327.png",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
@@ -132,7 +503,7 @@
       "summary": "微信朋友圈正灰度上线“AI帮写”功能，用户发图文或纯文字时，可唤出AI助手“小微”自动生成文案。该功能支持语音与文字交互，能识别图片内容，按用户指令提供简洁、调侃、文艺三种风格候选，大幅降低创作门槛，选定即可使用。",
       "image_url": "https://pic.chinaz.com/picmap/202301111159418279_0.jpg",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
@@ -150,7 +521,7 @@
       "summary": "SemiAnalysis报告称，谷歌或已搁置Gemini 3.5 Pro，拟提前宣传Gemini 4系列弥补旗舰模型延迟造成的市场空档。该模型此前因代码等关键能力需优化而推迟发布。谷歌CEO曾在I/O大会预告该模型，但计划可能生变。",
       "image_url": "https://pic.chinaz.com/picmap/202605061415496310_0.jpg",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "B",
       "language": "zh",
       "is_breakthrough": false,
@@ -168,7 +539,7 @@
       "summary": "8月13日AI产品密集发布，马斯克推出Grok4.6、千问开源Qwen3.8Max。DeepSeek同步低调上线V4Pro正式版DeepSeek-V4-Pro-0813，API与Chat端均已更新，用户按原方式指定名称即可接入。官方跑分显示其核心指标表现优异。",
       "image_url": "https://upload.chinaz.com/2026/0813/6392220925919436176045700.png",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
@@ -186,7 +557,7 @@
       "summary": "近日，Anthropic未发布科研版Claude在挑战黎曼猜想时虽未成功，却将黎曼zeta函数临界线零点比例下界从41.6%大幅提升至67.2%，引发学界热议。需澄清，该成果并非证明猜想67.2%的正确性，而是零点比例界限的突破。",
       "image_url": "https://upload.chinaz.com/2026/0811/6392206248993961103142217.png",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "B",
       "language": "zh",
       "is_breakthrough": false,
@@ -204,7 +575,7 @@
       "summary": "据AI内幕记者ChrisGPT爆料，OpenAI即使面临政府审查，仍将在8月发布GPT-6（曾暂停的Astra模型）。其参数或达10万亿，为GPT-4的五倍以上，预训练规模空前。9个月前，因发现Anthropic领先，OpenAI紧急重新分配算力资源，如今进入收获期。但8月的GPT-6可能只是“前菜”，ChrisGPT",
       "image_url": "https://upload.chinaz.com/2026/0810/6392195460555811923308985.png",
       "image_method": "body",
-      "image_rule_version": 6,
+      "image_rule_version": 8,
       "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
@@ -226,7 +597,7 @@
       "meta": {},
       "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a7c370de4b078fce44aece9.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "5cf6b92c71a1e678",
@@ -244,7 +615,7 @@
       "meta": {},
       "image_url": "http://rmtzx.sciencenet.cn/kxwsprint/1C82D6765C30124C5A1B531AF4D26CD5.jpg",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "6f38f823d53f560f",
@@ -262,7 +633,7 @@
       "meta": {},
       "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a7d4b9ee4b078fce44aed2d.jpg",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "6fd23469195500da",
@@ -280,7 +651,7 @@
       "is_breakthrough": false,
       "image_url": "https://upload.chinaz.com/2026/0807/6392171015666247391684217.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "deef9b70bd7e45ca",
@@ -298,7 +669,7 @@
       "is_breakthrough": false,
       "image_url": "https://upload.chinaz.com/2026/0807/6392171051247192797290667.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "c90313c89532c49f",
@@ -316,7 +687,7 @@
       "is_breakthrough": false,
       "image_url": "https://upload.chinaz.com/2026/0807/6392171166775335142023052.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "8498188e7994c49c",
@@ -334,7 +705,7 @@
       "is_breakthrough": false,
       "image_url": "https://upload.chinaz.com/2026/0807/6392171325220007521019087.jpg",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "c827309f7c4e6d53",
@@ -352,7 +723,7 @@
       "is_breakthrough": false,
       "image_url": "https://upload.chinaz.com/2026/0807/6392170817233229284882789.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "8416a0225a1f0288",
@@ -370,7 +741,7 @@
       "is_breakthrough": false,
       "image_url": "https://upload.chinaz.com/2026/0807/6392169953693619125771063.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "451fabb9a27eb60f",
@@ -381,32 +752,32 @@
       "url": "https://www.nature.com/articles/s41597-026-08112-3",
       "published_at": "2026-08-13T00:00:00+00:00",
       "detected_at": "2026-08-14T07:45:28.220929+00:00",
-      "summary": "Scientific Data, Published online: 13 August 2026; doi:10.1038/s41597-026-08112-3 An Acupuncture Clinical Practice Guideline Dataset for Enhancing Clinical Usability",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-025-04934-9/MediaObjects/41597_2025_4934_Fig1_HTML.png",
+      "summary": "A significant gap exists between evidence-based acupuncture guidelines and clinical practice, with accessibility barriers and implementation difficulties being key contributing factors. To address this challenge, we constructed an Acupuncture Clinical Practice Guidelines (Acu-...",
+      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-1763149111&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08112-3%26doi%3D10.1038/s41597-026-08112-3%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
       "priority": "A",
       "language": "en",
       "is_breakthrough": false,
       "meta": {},
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
-      "id": "acb0f858a64f23b1",
-      "title": "An integrated single-cell transcriptomic and microbiome dataset of orbital adipose tissue in thyroid eye disease",
-      "display_title": "An integrated single-cell transcriptomic and microbiome dataset of orbital adipose tissue in thyroid eye disease",
+      "id": "8d23444300958ef6",
+      "title": "A Dataset for Fish Segmentation and Tracking in Underwater Videos",
+      "display_title": "A Dataset for Fish Segmentation and Tracking in Underwater Videos",
       "source": "Scientific Data",
       "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08064-8",
-      "published_at": "2026-08-13T00:00:00+00:00",
-      "detected_at": "2026-08-14T07:45:28.222429+00:00",
-      "summary": "Scientific Data, Published online: 13 August 2026; doi:10.1038/s41597-026-08064-8 An integrated single-cell transcriptomic and microbiome dataset of orbital adipose tissue in thyroid eye disease",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41433-024-02967-9/MediaObjects/41433_2024_2967_Fig1_HTML.png",
+      "url": "https://www.nature.com/articles/s41597-026-07786-z",
+      "published_at": "2026-08-12T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.530080+00:00",
+      "summary": "The automatic monitoring of fish in underwater imagery plays a key role in marine ecology, fisheries management, and environmental monitoring, yet progress is limited by the lack of large, high-quality fish-focused datasets. We present a new dataset of underwater videos of fis...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07786-z/MediaObjects/41597_2026_7786_Fig2_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
       "priority": "A",
       "language": "en",
       "is_breakthrough": false,
-      "meta": {},
-      "image_method": "body",
-      "image_rule_version": 6
+      "meta": {}
     },
     {
       "id": "001166d4e786ba02",
@@ -427,7 +798,7 @@
       "is_breakthrough": false,
       "image_url": "https://github.com/lensback940701/Evidence-Bound-Press-Conference-Revision-Skill/raw/main/assets/readme/hero.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "be2d7379dfe9ae64",
@@ -448,7 +819,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/798509b4df525f56802b56f8096862487f08023e3d7561c68656f8dab10d0d6e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d4170616368652d2d322e302d626c75652e737667",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "6a29a3a532fa53d0",
@@ -470,7 +841,79 @@
       "display_title": "yangzc/ainote",
       "image_url": "https://camo.githubusercontent.com/988904178bb2e00359ac3e71f0fd1daf773efd8fd5ae6738169d1cf7f225d176/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f79616e677a632f61696e6f74653f7374796c653d666c61742d73717561726526636f6c6f723d626c7565",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
+    },
+    {
+      "id": "0c636bf87b14ac98",
+      "title": "Functional Annotation of Coding Sequences in the Cyanogenic Millipede Cherokia georgiana",
+      "display_title": "Functional Annotation of Coding Sequences in the Cyanogenic Millipede Cherokia georgiana",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07811-1",
+      "published_at": "2026-08-11T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.532049+00:00",
+      "summary": "Across thousands of known millipede species, genetic data is extremely limited. Many interesting biological processes in millipedes are ill-defined, such as the production of a defensive hydrogen cyanide secretion and UV fluorescence. We describe a transcriptomic dataset of th...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07811-1/MediaObjects/41597_2026_7811_Fig1_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "8192524aa201f1e2",
+      "title": "A large-scale dataset of functional mouse ganglion cell layer responses",
+      "display_title": "A large-scale dataset of functional mouse ganglion cell layer responses",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08026-0",
+      "published_at": "2026-08-11T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.532262+00:00",
+      "summary": "We present the ALL-GCL dataset, a large-scale resource of functional two-photon Ca2+-imaging recordings with rich metadata information from more than 80,000 cells in the ganglion cell layer (GCL) of the ex vivo mouse retina. Collected over nine years across more than 155 exper...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-08026-0/MediaObjects/41597_2026_8026_Fig2_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "5f1603c6afbdcb31",
+      "title": "A Global 3D Chlorophyll Concentration Dataset (1997–2024): 4 km Spatial Resolution, Monthly Scale, 0–220 m",
+      "display_title": "A Global 3D Chlorophyll Concentration Dataset (1997–2024): 4 km Spatial Resolution, Monthly Scale, 0–220 m",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07795-y",
+      "published_at": "2026-08-11T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.532533+00:00",
+      "summary": "Oceanic chlorophyll-a (Chl-a) 3D distribution is critical for quantifying marine primary productivity, ecosystem dynamics, and the oceanic carbon cycle. However, existing global 3D Chl-a datasets have coarse spatial resolution (≥0.25°), limiting their ability to resolve mesosc...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07795-y/MediaObjects/41597_2026_7795_Fig1_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "b9fc16558f3fc46d",
+      "title": "JCp-1-NP: New and compiled LA-ICP-MS elemental compositional data of the nano-powdered reference material",
+      "display_title": "JCp-1-NP: New and compiled LA-ICP-MS elemental compositional data of the nano-powdered reference material",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07812-0",
+      "published_at": "2026-08-11T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.532762+00:00",
+      "summary": "JCp-1-NP is a commercially distributed pressed nano-powder pellet calcium carbonate reference material. It is widely used as a matrix-matched reference material in Laser Ablation-Inductively Coupled Plasma-Mass Spectrometry (LA-ICP-MS) analyses, yet its composition is not well...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07812-0/MediaObjects/41597_2026_7812_Fig1_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
     },
     {
       "id": "53d1af708fc502e4",
@@ -491,7 +934,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/b29de0acdfd19013f1f02689b15c933e4a6c145be9efa718288f88ba3280b1c5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e73652d417061636865253230322e302d626c75652e737667",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "7e4e3e8a4570e53c",
@@ -510,9 +953,9 @@
       "display_title": "awesome-ai-startups-hiring：Discover a curated list of 160+ well-funded AI startups actively hiring...",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://private-user-images.githubusercontent.com/20594326/634184290-6010546a-3d22-40e2-b1cc-094e3901e7e6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY2OTY5NzUsIm5iZiI6MTc4NjY5NjY3NSwicGF0aCI6Ii8yMDU5NDMyNi82MzQxODQyOTAtNjAxMDU0NmEtM2QyMi00MGUyLWIxY2MtMDk0ZTM5MDFlN2U2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDA4Mzc1NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWUzYjBlMDI3OTQxY2E5ODQ0YmQ0OGMzYjUxMDMxNDBhYzkyZjdhNzMzMWQ0NDY5ZWIwMTFjM2M3MWJiNmYwYzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.27PMKGLO1c3dKde6rAkRw4_p6BzUDw-VO5t4-oA0PRE",
+      "image_url": "https://private-user-images.githubusercontent.com/20594326/634184290-6010546a-3d22-40e2-b1cc-094e3901e7e6.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODY2OTc0NDAsIm5iZiI6MTc4NjY5NzE0MCwicGF0aCI6Ii8yMDU5NDMyNi82MzQxODQyOTAtNjAxMDU0NmEtM2QyMi00MGUyLWIxY2MtMDk0ZTM5MDFlN2U2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MTQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODE0VDA4NDU0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk1NWZjOGUzMzEzZDg2ZjFlMDg3NjAzMmI0MjlmM2ZhMWQ1OTk0ODY0MzZiZTJmYTVmMTU4YjI0YjM3ZjdiYjImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRnBuZyJ9.9RQrg3BfMcCdlFM15KhNCmSBZlIcHnDmnHE8PFd5oX4",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "fa23c3261fda038f",
@@ -533,7 +976,7 @@
       "is_breakthrough": false,
       "image_url": "https://github.com/AOROM/paperreading/actions/workflows/ci.yml/badge.svg",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "0c483c5ae6126c5c",
@@ -549,9 +992,9 @@
       "display_title": "Make school-gate foodscapes safer, not invisible",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00506-z/MediaObjects/44284_2026_506_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00506-z/MediaObjects/44284_2026_506_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "05a6b1e851158d33",
@@ -561,15 +1004,87 @@
       "url": "https://www.nature.com/articles/s44284-026-00493-1",
       "published_at": "2026-08-10T00:00:00+00:00",
       "detected_at": "2026-08-14T03:18:18.494948+00:00",
-      "summary": "Nature Cities, Published online: 10 August 2026; doi:10.1038/s44284-026-00493-1 Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones...",
+      "summary": "Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones become less resilient socially and ecologically as they transition.",
       "priority": "A",
       "meta": {},
       "display_title": "Temporary loss of social-ecological system resilience during rural to urban transition",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig3_HTML.png",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig3_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
+    },
+    {
+      "id": "46fc0df8429f0af3",
+      "title": "A dataset of fluvial fish richness metrics for stream reaches across the conterminous U.S.",
+      "display_title": "A dataset of fluvial fish richness metrics for stream reaches across the conterminous U.S.",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07177-4",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.533874+00:00",
+      "summary": "Fluvial fishes, those primarily inhabiting rivers and streams, are facing substantial threats in their native ranges from habitat degradation which contributes to decreases in richness and abundance of many species. Because distributions of fluvial species are often not well d...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07177-4/MediaObjects/41597_2026_7177_Fig1_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "b9d29ec769d2f218",
+      "title": "A Spatial Millimetre-Wave Radar Point Cloud Dataset for Health Applications",
+      "display_title": "A Spatial Millimetre-Wave Radar Point Cloud Dataset for Health Applications",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07808-w",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.534085+00:00",
+      "summary": "This work presents a controlled millimetre-wave radar point-cloud dataset for analysing guided daily and rehabilitation-related movements in standardised indoor settings. The dataset is designed to support radar-based human motion analysis: radar point clouds serve as the prim...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07808-w/MediaObjects/41597_2026_7808_Fig4_HTML.png",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "0849b9e38aa485a4",
+      "title": "A Dataset for Depth in Robotic Endoscopy with Dynamic Scenarios (DRENDS)",
+      "display_title": "A Dataset for Depth in Robotic Endoscopy with Dynamic Scenarios (DRENDS)",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07775-2",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.534298+00:00",
+      "summary": "Depth perception in robotic minimally invasive surgery remains a critical challenge for many downstream tasks, demanding advanced depth estimation techniques and ground truth data for their validation. Current datasets lack data with ground-truth depth information in dynamic s...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07775-2/MediaObjects/41597_2026_7775_Fig1_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "28b652ae94eabc81",
+      "title": "A Multimodal fNIRS–EEG Dataset for Unilateral Limb Motor Imagery",
+      "display_title": "A Multimodal fNIRS–EEG Dataset for Unilateral Limb Motor Imagery",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07807-x",
+      "published_at": "2026-08-10T00:00:00+00:00",
+      "detected_at": "2026-08-14T08:45:36.534564+00:00",
+      "summary": "Unilateral limb motor imagery (MI) plays an important role in upper-limb motor rehabilitation and precise control of external devices, and places higher demands on spatial resolution. However, most existing public datasets focus on binary- or four-class left–right limb paradig...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07807-x/MediaObjects/41597_2026_7807_Fig1_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
     },
     {
       "id": "55d93c9cb51c76f9",
@@ -591,7 +1106,7 @@
       "display_title": "yushenglin01/AiAdsCenter",
       "image_url": "https://github.com/yushenglin01/AiAdsCenter/raw/main/docs/assets/adnova-hero-v2.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "f6f8f650542395b8",
@@ -606,13 +1121,13 @@
       "priority": "B",
       "language": "en",
       "meta": {
-        "stars": 80,
+        "stars": 81,
         "language": "Python"
       },
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/e2337c6b4f23911b9f1f859fff1f6c8a4ec941df0da216710b24662e2931bf20/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d332e31322532422d3337373641423f6c6f676f3d707974686f6e266c6f676f436f6c6f723d7768697465",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "04f4eb45412b495b",
@@ -634,7 +1149,7 @@
       "display_title": "Yu-xm/Awesome-Agentic-Gen",
       "image_url": "https://github.com/Yu-xm/Awesome-Agentic-Gen/raw/main/assets/ed048cd69337aa1bd8679ae5457ad42d.jpg",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "c28e7f6cd947d454",
@@ -655,7 +1170,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/0ef8d132aae593e8f571663b1e8d16afa498bb14bdf4a5e493068d003006dd39/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f707572656a73696d6167653f7374796c653d666f722d7468652d6261646765266c6f676f3d6e706d266c6f676f436f6c6f723d776869746526636f6c6f723d636233383337",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "724ffdd32199125b",
@@ -676,7 +1191,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/a279d5b4a94de7d95a09f502cd11badaf2d04a7f0b1ee2e13b0f9c191cffb645/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f7061706572732d3534392d3643354345373f7374796c653d666c61742d737175617265",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "3904485c7b2c3e7e",
@@ -697,7 +1212,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/a7e65aee57b11d28e4caff8b945729a66be0bb663f7f93bd24c5aa65699f148e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4d49542d626c75652e7376673f7374796c653d666c61742d737175617265",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "b34824c6bc188fe0",
@@ -718,7 +1233,7 @@
       "is_breakthrough": false,
       "image_url": "https://opengraph.githubassets.com/90e3780a16d1bd12f1cb39792b51221180a9effaaed296154fd020e949d58e54/VictorSimon1/ufo-browser",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "5d767bac38a6b5e0",
@@ -734,9 +1249,9 @@
       "display_title": "Generative AI in urban science and practice",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00492-2/MediaObjects/44284_2026_492_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00492-2/MediaObjects/44284_2026_492_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "50c349a816c8082e",
@@ -752,9 +1267,9 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {},
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07790-3/MediaObjects/41597_2026_7790_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07790-3/MediaObjects/41597_2026_7790_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "a514a23191796d5f",
@@ -776,7 +1291,7 @@
       "display_title": "lifefloating/keyHunter-skill",
       "image_url": "https://opengraph.githubassets.com/7f85f9780a3ca3e47c3449e06c9c20b2185876b0d91558e941d109a733f8de8f/lifefloating/keyHunter-skill",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "551c74be262d422f",
@@ -798,7 +1313,7 @@
       "display_title": "nico-martin/LFM2.5-2.6B-WebGPU",
       "image_url": "https://opengraph.githubassets.com/6dff35ff5d95d542f33763c813020484d76f17f27259a462cd62122f0ef89044/nico-martin/LFM2.5-2.6B-WebGPU",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "a16790cae04da7fe",
@@ -819,7 +1334,7 @@
       "is_breakthrough": false,
       "image_url": "https://opengraph.githubassets.com/26d360be82cf013e348a2c2339e1ac6697539dc084e150deeba7bb43b805a3e9/zhouhao1024/Awesome-Self-Evolving-Coding-Agents",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "9c2fed0ec7d372ef",
@@ -840,7 +1355,7 @@
       "is_breakthrough": false,
       "image_url": "https://opengraph.githubassets.com/841a868dcfa98dd4c0df854788d825483b4aab0a74c5997b4a0a3e8ada6b2093/sparkgeo/geo-mcp-servers",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "ed15303389f1fbef",
@@ -859,9 +1374,9 @@
       "display_title": "crm：Comp AI CRM is an open source, CRM designed for AI agents",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://github.com/trycompai/crm/raw/release/docs/images/product-shot.png",
+      "image_url": "https://camo.githubusercontent.com/84ba0b50ad44e854f0382b3a99afaef96f3d4db9e861686a3297ccd3bd397de7/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c6963656e63652d4d49542d626c75652e737667",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "324e0c5b99df5d19",
@@ -882,7 +1397,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/8765da1015847f8489002ce9999162244acaab3d659b8daf186a913c70e0a64f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4170616368652d2d322e302d3442353536333f7374796c653d666c61742d737175617265",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "b038e14e9c1b7da2",
@@ -903,7 +1418,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/f7051dc939faa29b8bd9260beb6ef68b584952d671b80d21276ccab8d1508edf/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732f6c6974746c656c656c657068616e742f6c6974657261747572652d7265766965772d6167656e743f7374796c653d666c61742d737175617265266c6162656c3d4f70656e253230497373756573",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "f7dbc8684701f4c0",
@@ -919,27 +1434,9 @@
       "display_title": "Cities, not rural areas, power the digital infrastructure of the USA",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00488-y/MediaObjects/44284_2026_488_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00488-y/MediaObjects/44284_2026_488_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
-    },
-    {
-      "id": "0e7c05c8f89b1466",
-      "title": "Living bioreactive facades for visible carbon reduction in cities",
-      "source": "Nature Cities",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s44284-026-00502-3",
-      "published_at": "2026-07-31T00:00:00+00:00",
-      "detected_at": "2026-08-14T03:18:18.495904+00:00",
-      "summary": "Nature Cities, Published online: 31 July 2026; doi:10.1038/s44284-026-00502-3 The ‘imperceptibility’ of carbon emissions weakens the willingness of the public to act on urban carbon reduction. Wenlei Zhu proposes visualizing urban decarbonization by using b...",
-      "priority": "A",
-      "meta": {},
-      "display_title": "Living bioreactive facades for visible carbon reduction in cities",
-      "language": "en",
-      "is_breakthrough": false,
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs44284-026-00502-3/MediaObjects/44284_2026_502_Figa_HTML.png",
-      "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "0d46a2cc3e13a806",
@@ -949,15 +1446,15 @@
       "url": "https://www.nature.com/articles/s44284-026-00487-z",
       "published_at": "2026-07-31T00:00:00+00:00",
       "detected_at": "2026-08-14T03:18:18.496208+00:00",
-      "summary": "Nature Cities, Published online: 31 July 2026; doi:10.1038/s44284-026-00487-z Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of inf...",
+      "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
       "priority": "A",
       "meta": {},
       "display_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig2_HTML.png",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig2_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "1b634f9d71814d9d",
@@ -978,7 +1475,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/940b8b2da7ff959a07f1ae625e9f767a4ee24dd92c39931919f5f1e1693db29a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f736b696c6c2d6261636b656e642d2d696e74656772617465642d626c7565",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "63f7860c80a685a3",
@@ -999,7 +1496,7 @@
       "is_breakthrough": false,
       "image_url": "https://opengraph.githubassets.com/e94897df665f23d94bcd59dc2b24e03455fa7cc1ab23c3e31595829a7a8f4979/Funluned/vetresearch-workbench",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "df50f21ee489944b",
@@ -1020,7 +1517,7 @@
       "is_breakthrough": false,
       "image_url": "https://github.com/HezaoHezao/poirot/raw/master/resource/assets/poirot-readme-hero.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "2b21532ebf255033",
@@ -1041,7 +1538,7 @@
       "is_breakthrough": false,
       "image_url": "https://opengraph.githubassets.com/2f8404cb792a64bf3d88f773335a4c7d45b849f1fe345383c465e30d7ed994a5/TOPDEV99999/ai-healthcare-platform",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "9425b62dca2d2175",
@@ -1062,7 +1559,7 @@
       "is_breakthrough": false,
       "image_url": "https://opengraph.githubassets.com/fc27cd1310da6261d5c59366fa9a3fec1935010b121de5297b50914f6f4b8bce/h9-tec/ai-system-design",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "f9a98a5449ac0bb4",
@@ -1083,7 +1580,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/9d49598b873146ec650fb3f275e8a532c765dabb1f61d5afa25be41e79891aa7/68747470733a2f2f617765736f6d652e72652f62616467652e737667",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "07316a5fd95c502f",
@@ -1104,7 +1601,7 @@
       "is_breakthrough": false,
       "image_url": "https://opengraph.githubassets.com/8a2ec74e72089d0d3cf0885a2a9c5206602b8ba01061957df87f2b1a8e72f425/ogulcancelik/herdr-browser",
       "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "95b3cea76a162c60",
@@ -1125,7 +1622,7 @@
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/0689a7ea74917c2d301b6e7629c3d57e263d2edc6f1348e11c087ef0367c9eb0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476f2d312e32352e31322532422d3030414444383f6c6f676f3d676f266c6f676f436f6c6f723d7768697465",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "6b6464aea5cf975f",
@@ -1146,7 +1643,7 @@
       "is_breakthrough": false,
       "image_url": "https://github.com/cocofhu/approving/actions/workflows/ci-server.yml/badge.svg",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "e08689f3c2c13a44",
@@ -1167,7 +1664,7 @@
       "is_breakthrough": false,
       "image_url": "https://github.com/irzix/experia/raw/main/banner.png",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "bffd692ce97a652a",
@@ -1182,13 +1679,13 @@
       "priority": "A",
       "language": "en",
       "meta": {
-        "stars": 748,
+        "stars": 750,
         "language": "JavaScript"
       },
       "is_breakthrough": false,
       "image_url": "https://camo.githubusercontent.com/607aa2f9d02da171a4f7c2f6808123ce16e8218f360abcf74bd5e21b739500b8/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f50696e766f752f70696e766f752d6167656e74",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "89300d04a2133351",
@@ -1198,15 +1695,15 @@
       "url": "https://www.nature.com/articles/s44284-026-00474-4",
       "published_at": "2026-07-24T00:00:00+00:00",
       "detected_at": "2026-08-14T03:18:18.496489+00:00",
-      "summary": "Nature Cities, Published online: 24 July 2026; doi:10.1038/s44284-026-00474-4 This study identifies rising urban air-conditioning energy demand for dehumidification under climate change, alongside spatially divergent contributions to total urban air-conditi...",
+      "summary": "This study identifies rising urban air-conditioning energy demand for dehumidification under climate change, alongside spatially divergent contributions to total urban air-conditioning demand.",
       "priority": "A",
       "meta": {},
       "display_title": "Divergent humidity-driven growth in urban air-conditioning energy demand under climate change",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00474-4/MediaObjects/44284_2026_474_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00474-4/MediaObjects/44284_2026_474_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "1ac7e29baccfaa42",
@@ -1216,15 +1713,15 @@
       "url": "https://www.nature.com/articles/s44284-026-00489-x",
       "published_at": "2026-07-24T00:00:00+00:00",
       "detected_at": "2026-08-14T03:18:18.496797+00:00",
-      "summary": "Nature Cities, Published online: 24 July 2026; doi:10.1038/s44284-026-00489-x Urbanization challenges plant communities. This study in Antananarivo, Madagascar, finds declines in the diversity of native, but not exotic, plants with greater urban intensity a...",
+      "summary": "Urbanization challenges plant communities. This study in Antananarivo, Madagascar, finds declines in the diversity of native, but not exotic, plants with greater urban intensity and that ‘sacred’ forest fragments supported the highest native plant diversity.",
       "priority": "A",
       "meta": {},
       "display_title": "Sacred sites as refuges for native plant diversity in an urbanized tropical landscape",
       "language": "en",
       "is_breakthrough": false,
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00489-x/MediaObjects/44284_2026_489_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00489-x/MediaObjects/44284_2026_489_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "a5f8d6fa8075c734",
@@ -1235,14 +1732,14 @@
       "url": "https://www.nature.com/articles/s44284-026-00475-3",
       "published_at": "2026-07-24T00:00:00+00:00",
       "detected_at": "2026-08-14T07:26:29.528293+00:00",
-      "summary": "This study analyzes the costs and benefits of urban building energy efficiency improvements in China from 2020 to 2050. The results reveal strong cost-effectiveness as well as a mismatch between who pays and who benefits, highlighting the need for policy in...",
+      "summary": "This study analyzes the costs and benefits of urban building energy efficiency improvements in China from 2020 to 2050. The results reveal strong cost-effectiveness as well as a mismatch between who pays and who benefits, highlighting the need for policy intervention.",
       "priority": "A",
       "language": "en",
       "is_breakthrough": false,
       "meta": {},
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00475-3/MediaObjects/44284_2026_475_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00475-3/MediaObjects/44284_2026_475_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "49da466fdb8f4e4a",
@@ -1260,25 +1757,7 @@
       "meta": {},
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig1_HTML.png",
       "image_method": "body",
-      "image_rule_version": 6
-    },
-    {
-      "id": "aa19c0f4f4bedcac",
-      "title": "Self-deploying concrete systems for low‑carbon urban construction",
-      "display_title": "Self-deploying concrete systems for low‑carbon urban construction",
-      "source": "Nature Cities",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s44284-026-00499-9",
-      "published_at": "2026-07-23T00:00:00+00:00",
-      "detected_at": "2026-08-14T07:26:29.528608+00:00",
-      "summary": "Nature Cities - Self-deploying concrete systems for low‑carbon urban construction",
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {},
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs44284-026-00499-9/MediaObjects/44284_2026_499_Figa_HTML.png",
-      "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "35f064a7ebe2fe13",
@@ -1294,9 +1773,9 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {},
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00479-z/MediaObjects/44284_2026_479_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00479-z/MediaObjects/44284_2026_479_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "29d931053e085b6d",
@@ -1312,27 +1791,9 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {},
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
-    },
-    {
-      "id": "00a8bf5e1adb8298",
-      "title": "Integrating construction and solar expansion can reduce disposal and dependency",
-      "display_title": "Integrating construction and solar expansion can reduce disposal and dependency",
-      "source": "Nature Cities",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s44284-026-00483-3",
-      "published_at": "2026-07-17T00:00:00+00:00",
-      "detected_at": "2026-08-14T07:26:29.529812+00:00",
-      "summary": "Cities across the Middle East are rapidly expanding through construction while simultaneously scaling solar energy, yet these transitions remain materially disconnected. Recognizing construction waste as part of urban resource systems could help to close th...",
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {},
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs44284-026-00483-3/MediaObjects/44284_2026_483_Figa_HTML.png",
-      "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "743a63e147745fca",
@@ -1348,27 +1809,9 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {},
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00462-8/MediaObjects/44284_2026_462_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00462-8/MediaObjects/44284_2026_462_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
-    },
-    {
-      "id": "b48281633ee8b6e0",
-      "title": "Kashan’s path from ancient culture to the modern creative city",
-      "display_title": "Kashan’s path from ancient culture to the modern creative city",
-      "source": "Nature Cities",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s44284-026-00482-4",
-      "published_at": "2026-07-17T00:00:00+00:00",
-      "detected_at": "2026-08-14T07:26:29.530170+00:00",
-      "summary": "Traditional architecture in Kashan reflects centuries of adaptation to climate, culture and community life. The revitalization of Kashan’s historic neighborhoods demonstrates how heritage can remain relevant by informing contemporary approaches to urban ide...",
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {},
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs44284-026-00482-4/MediaObjects/44284_2026_482_Figa_HTML.png",
-      "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "d171a6cc0ca34746",
@@ -1384,27 +1827,9 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {},
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00476-2/MediaObjects/44284_2026_476_Fig3_HTML.png",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00476-2/MediaObjects/44284_2026_476_Fig3_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
-    },
-    {
-      "id": "b5af6f3c1b546dd0",
-      "title": "Building future cities with civil engineers",
-      "display_title": "Building future cities with civil engineers",
-      "source": "Nature Cities",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s44284-026-00481-5",
-      "published_at": "2026-07-13T00:00:00+00:00",
-      "detected_at": "2026-08-14T07:26:29.942559+00:00",
-      "summary": "Bringing together researchers, engineers and industry professionals, the recent International Conference on Computing in Civil Engineering (i3CE) highlighted how cutting-edge advances are transforming cities into safer, more sustainable and technologically...",
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {},
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs44284-026-00481-5/MediaObjects/44284_2026_481_Figa_HTML.png",
-      "image_method": "og",
-      "image_rule_version": 6
+      "image_rule_version": 8
     },
     {
       "id": "9ba0c14d894ad758",
@@ -1420,27 +1845,9 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {},
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00466-4/MediaObjects/44284_2026_466_Fig1_HTML.png",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00466-4/MediaObjects/44284_2026_466_Fig1_HTML.png?as=webp",
       "image_method": "body",
-      "image_rule_version": 6
-    },
-    {
-      "id": "62867d8a4b9cb4e4",
-      "title": "eDNA, forensic ecologies and the barcoding of urban life",
-      "display_title": "eDNA, forensic ecologies and the barcoding of urban life",
-      "source": "Nature Cities",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s44284-026-00470-8",
-      "published_at": "2026-07-01T00:00:00+00:00",
-      "detected_at": "2026-08-14T07:26:29.943198+00:00",
-      "summary": "Environmental DNA and associated techniques are transforming urban ecology and its conception of cities. Matthew Gandy argues for leveraging such ‘forensic ecologies’ for a post-positivist conceptual synthesis with the social and historical sciences.",
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {},
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-026-41937-x/MediaObjects/41598_2026_41937_Fig1_HTML.png",
-      "image_method": "body",
-      "image_rule_version": 6
+      "image_rule_version": 8
     }
   ]
 }
