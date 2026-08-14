@@ -5,6 +5,7 @@ import hashlib
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin, urlparse
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 import feedparser
@@ -15,7 +16,7 @@ from urllib3.util.retry import Retry
 
 
 # =========================================================
-# 基础设置
+# 基础配置
 # =========================================================
 
 DATA_FILE = Path("data/news.json")
@@ -23,9 +24,15 @@ DATA_FILE = Path("data/news.json")
 MAX_ITEMS = 500
 KEEP_DAYS = 45
 
-# 每次 Action 最多额外访问多少篇文章获取封面图
-# 防止第一次运行请求过多
-IMAGE_FETCH_LIMIT = 60
+# 图片抓取规则版本
+# 升级这个数字后，旧数据会重新抓图
+IMAGE_RULE_VERSION = 6
+
+# 一次 Action 最多进入多少个详情页
+DETAIL_FETCH_LIMIT = 220
+
+# 并行数
+DETAIL_WORKERS = 10
 
 
 # =========================================================
@@ -68,7 +75,7 @@ NATURE_CITIES_HTML = (
 
 
 # =========================================================
-# HTTP Session
+# HTTP
 # =========================================================
 
 HEADERS = {
@@ -78,8 +85,7 @@ HEADERS = {
         "(KHTML, like Gecko) "
         "Chrome/124.0 Safari/537.36"
     ),
-    "Accept-Language":
-        "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
 }
 
 
@@ -143,6 +149,7 @@ BREAKTHROUGH_KEYWORDS = [
     "首次证实",
     "首次观测",
     "首次揭示",
+    "首次验证",
     "首次完成",
     "首次构建",
     "首次研制",
@@ -173,8 +180,8 @@ BREAKTHROUGH_KEYWORDS = [
 
     "重大突破",
     "关键突破",
-    "实现突破",
     "取得突破",
+    "实现突破",
     "新突破",
 
     "重大进展",
@@ -194,7 +201,7 @@ BREAKTHROUGH_KEYWORDS = [
 
 
 # =========================================================
-# AI / 工具相关关键词
+# AI关键词
 # =========================================================
 
 AI_KEYWORDS = [
@@ -308,6 +315,7 @@ GITHUB_NEGATIVE = [
     "protein",
     "genome",
     "genomic",
+
     "clinical",
     "cancer",
     "tumor",
@@ -327,7 +335,7 @@ GITHUB_NEGATIVE = [
 
 
 # =========================================================
-# 基础文本
+# 文本
 # =========================================================
 
 def clean_text(text):
@@ -366,7 +374,213 @@ def contains_chinese(text):
 
 
 # =========================================================
-# 标题精炼
+# 乱码检测
+# =========================================================
+
+def looks_mojibake(text):
+
+    if not text:
+        return False
+
+    bad_tokens = [
+        "Ã",
+        "Â",
+        "â€",
+        "â€™",
+        "â€œ",
+        "â€˜",
+        "å",
+        "æ",
+        "ç",
+        "é",
+        "ï",
+        "ð",
+        "锟斤拷",
+        "�",
+    ]
+
+    score = sum(
+        text.count(token)
+        for token in bad_tokens
+    )
+
+    return score >= 2
+
+
+def clean_summary(text):
+
+    text = clean_text(
+        text
+    )
+
+    if not text:
+        return ""
+
+    if looks_mojibake(
+        text
+    ):
+        return ""
+
+    # 只有一个句号之类
+    if len(text) < 12:
+        return ""
+
+    if text in {
+        ".",
+        "。",
+        "…",
+        "...",
+    }:
+        return ""
+
+    if len(text) > 260:
+
+        text = (
+            text[:257]
+            .rstrip()
+            + "..."
+        )
+
+    return text
+
+
+# =========================================================
+# 正确读取网页编码
+# =========================================================
+
+def decode_response(response):
+
+    raw = response.content
+
+    charset = None
+
+
+    # -------------------------
+    # HTTP Header
+    # -------------------------
+
+    content_type = (
+        response.headers
+        .get(
+            "content-type",
+            ""
+        )
+    )
+
+    match = re.search(
+        r"charset\s*=\s*['\"]?"
+        r"([a-zA-Z0-9_\-]+)",
+        content_type,
+        flags=re.I
+    )
+
+    if match:
+
+        charset = (
+            match.group(1)
+            .lower()
+        )
+
+
+    # -------------------------
+    # HTML meta
+    # -------------------------
+
+    if not charset:
+
+        head = raw[:8192]
+
+        match = re.search(
+            br"charset\s*=\s*[\"']?"
+            br"([a-zA-Z0-9_\-]+)",
+            head,
+            flags=re.I
+        )
+
+        if match:
+
+            try:
+
+                charset = (
+                    match.group(1)
+                    .decode(
+                        "ascii",
+                        errors="ignore"
+                    )
+                    .lower()
+                )
+
+            except Exception:
+
+                charset = None
+
+
+    # -------------------------
+    # 编码映射
+    # -------------------------
+
+    if charset in {
+        "gb2312",
+        "gbk",
+        "gb_2312",
+    }:
+
+        charset = "gb18030"
+
+
+    # -------------------------
+    # 首先采用网页声明
+    # -------------------------
+
+    if charset:
+
+        try:
+
+            return raw.decode(
+                charset,
+                errors="replace"
+            )
+
+        except Exception:
+            pass
+
+
+    # -------------------------
+    # UTF-8
+    # -------------------------
+
+    try:
+
+        return raw.decode(
+            "utf-8"
+        )
+
+    except UnicodeDecodeError:
+        pass
+
+
+    # -------------------------
+    # 中文旧网页
+    # -------------------------
+
+    try:
+
+        return raw.decode(
+            "gb18030"
+        )
+
+    except Exception:
+        pass
+
+
+    return raw.decode(
+        "utf-8",
+        errors="replace"
+    )
+
+
+# =========================================================
+# 标题处理
 # =========================================================
 
 def refine_title(title):
@@ -378,22 +592,20 @@ def refine_title(title):
     if not title:
         return ""
 
-    # 删除 #1 #2
     title = re.sub(
         r"^#\s*\d+\s*",
         "",
         title
     )
 
-    # 删除栏目头
     title = re.sub(
-        r"^(AI日报|AI资讯)[：:\s]*",
+        r"^(AI日报|AI资讯)"
+        r"[：:\s]*",
         "",
         title,
         flags=re.I
     )
 
-    # 删除营销前缀
     patterns = [
 
         r"^刚刚[！!，,:：\s]*",
@@ -424,7 +636,7 @@ def refine_title(title):
 
 
 # =========================================================
-# ID
+# ID / 日期
 # =========================================================
 
 def make_id(
@@ -440,13 +652,11 @@ def make_id(
     )
 
     return hashlib.sha1(
-        raw.encode("utf-8")
+        raw.encode(
+            "utf-8"
+        )
     ).hexdigest()[:16]
 
-
-# =========================================================
-# 日期
-# =========================================================
 
 def parse_date(value):
 
@@ -484,18 +694,18 @@ def extract_date_from_text(text):
 
     patterns = [
 
-        # 2026-08-14 12:30
-        r"(\d{4}[-/.]\d{1,2}[-/.]\d{1,2}"
-        r"(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?)",
+        r"(\d{4}[-/.]\d{1,2}"
+        r"[-/.]\d{1,2}"
+        r"(?:\s+\d{1,2}:\d{2}"
+        r"(?::\d{2})?)?)",
 
-        # 14 Aug 2026
         r"(\d{1,2}\s+"
-        r"(?:Jan|Feb|Mar|Apr|May|Jun|"
-        r"Jul|Aug|Sep|Oct|Nov|Dec)"
+        r"(?:Jan|Feb|Mar|Apr|May|"
+        r"Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
         r"\s+\d{4})",
 
-        # 2026年8月14日
-        r"(\d{4}年\d{1,2}月\d{1,2}日"
+        r"(\d{4}年\d{1,2}月"
+        r"\d{1,2}日"
         r"(?:\s*\d{1,2}:\d{2})?)",
     ]
 
@@ -515,7 +725,7 @@ def extract_date_from_text(text):
 
 
 # =========================================================
-# 突破判断
+# 突破
 # =========================================================
 
 def is_breakthrough(text):
@@ -532,8 +742,33 @@ def is_breakthrough(text):
 
 
 # =========================================================
-# URL 图片
+# 图片 URL
 # =========================================================
+
+BAD_IMAGE_TOKENS = [
+
+    "logo",
+    "favicon",
+    "avatar",
+
+    "icon",
+    "sprite",
+
+    "placeholder",
+    "default",
+
+    "loading",
+    "blank",
+
+    "qrcode",
+    "qr-code",
+    "weixin",
+    "wechat",
+
+    "transparent",
+    "pixel",
+]
+
 
 def normalize_image_url(
     image_url,
@@ -543,7 +778,10 @@ def normalize_image_url(
     if not image_url:
         return ""
 
-    image_url = image_url.strip()
+    image_url = (
+        image_url
+        .strip()
+    )
 
     if image_url.startswith(
         "data:"
@@ -559,176 +797,746 @@ def normalize_image_url(
         image_url
     )
 
-    if parsed.scheme not in (
+    if parsed.scheme not in {
         "http",
-        "https"
-    ):
+        "https",
+    }:
         return ""
 
     return image_url
 
 
-def extract_image_from_container(
-    container,
+def image_is_bad(
+    url,
+    alt=""
+):
+
+    text = (
+        f"{url} {alt}"
+    ).lower()
+
+    return any(
+        token in text
+        for token
+        in BAD_IMAGE_TOKENS
+    )
+
+
+# =========================================================
+# img src
+# =========================================================
+
+def get_img_src(
+    img,
     page_url
 ):
 
-    if container is None:
-        return ""
+    candidates = [
 
-    image = container.find(
-        "img"
+        img.get(
+            "data-original"
+        ),
+
+        img.get(
+            "data-src"
+        ),
+
+        img.get(
+            "data-lazy-src"
+        ),
+
+        img.get(
+            "data-url"
+        ),
+
+        img.get(
+            "src"
+        ),
+    ]
+
+
+    # srcset
+    srcset = img.get(
+        "srcset"
     )
 
-    if not image:
-        return ""
+    if srcset:
 
-    candidate = (
-        image.get("data-src")
-        or image.get("data-original")
-        or image.get("src")
-        or ""
-    )
+        parts = []
 
-    return normalize_image_url(
-        candidate,
-        page_url
-    )
+        for item in (
+            srcset.split(",")
+        ):
+
+            url = (
+                item.strip()
+                .split(" ")[0]
+            )
+
+            if url:
+
+                parts.append(
+                    url
+                )
+
+        if parts:
+
+            candidates.insert(
+                0,
+                parts[-1]
+            )
+
+
+    for candidate in candidates:
+
+        url = normalize_image_url(
+            candidate,
+            page_url
+        )
+
+        if url:
+
+            return url
+
+    return ""
 
 
 # =========================================================
-# 获取文章 OG 图片 / description
+# 图片评分
 # =========================================================
 
-PAGE_META_CACHE = {}
+def get_numeric_attr(
+    img,
+    name
+):
 
+    value = img.get(
+        name
+    )
 
-def fetch_page_meta(url):
+    if not value:
+        return 0
 
-    if not url:
-        return {
-            "image_url": "",
-            "description": "",
-        }
+    match = re.search(
+        r"\d+",
+        str(value)
+    )
 
-    if url in PAGE_META_CACHE:
-
-        return PAGE_META_CACHE[
-            url
-        ]
-
-    result = {
-        "image_url": "",
-        "description": "",
-    }
+    if not match:
+        return 0
 
     try:
 
-        response = SESSION.get(
+        return int(
+            match.group(0)
+        )
+
+    except Exception:
+
+        return 0
+
+
+def image_score(
+    img,
+    page_url
+):
+
+    url = get_img_src(
+        img,
+        page_url
+    )
+
+    if not url:
+        return -9999
+
+
+    alt = clean_text(
+        img.get(
+            "alt",
+            ""
+        )
+    )
+
+
+    if image_is_bad(
+        url,
+        alt
+    ):
+
+        return -9999
+
+
+    score = 0
+
+
+    # -------------------------
+    # header/footer/nav图排除
+    # -------------------------
+
+    for ancestor in (
+        img.parents
+    ):
+
+        name = getattr(
+            ancestor,
+            "name",
+            ""
+        )
+
+        if name in {
+            "header",
+            "footer",
+            "nav",
+            "aside",
+        }:
+
+            score -= 500
+
+            break
+
+
+    # -------------------------
+    # figure 高优先级
+    # -------------------------
+
+    if img.find_parent(
+        "figure"
+    ):
+
+        score += 140
+
+
+    # -------------------------
+    # article/main
+    # -------------------------
+
+    if img.find_parent(
+        "article"
+    ):
+
+        score += 80
+
+
+    if img.find_parent(
+        "main"
+    ):
+
+        score += 40
+
+
+    # -------------------------
+    # class / id 语义
+    # -------------------------
+
+    ancestor_text = ""
+
+    for ancestor in list(
+        img.parents
+    )[:6]:
+
+        classes = (
+            ancestor.get(
+                "class",
+                []
+            )
+            if hasattr(
+                ancestor,
+                "get"
+            )
+            else []
+        )
+
+        element_id = (
+            ancestor.get(
+                "id",
+                ""
+            )
+            if hasattr(
+                ancestor,
+                "get"
+            )
+            else ""
+        )
+
+        ancestor_text += (
+            " "
+            + " ".join(
+                classes
+                if isinstance(
+                    classes,
+                    list
+                )
+                else [str(classes)]
+            )
+            + " "
+            + str(
+                element_id
+            )
+        )
+
+
+    ancestor_text = (
+        ancestor_text.lower()
+    )
+
+
+    good_context = [
+
+        "article",
+        "content",
+        "detail",
+        "正文",
+        "news",
+        "post",
+        "body",
+        "figure",
+    ]
+
+
+    if any(
+        word in ancestor_text
+        for word in good_context
+    ):
+
+        score += 80
+
+
+    bad_context = [
+
+        "recommend",
+        "related",
+        "sidebar",
+        "footer",
+        "header",
+        "logo",
+        "menu",
+        "nav",
+        "author",
+    ]
+
+
+    if any(
+        word in ancestor_text
+        for word in bad_context
+    ):
+
+        score -= 150
+
+
+    # -------------------------
+    # 尺寸
+    # -------------------------
+
+    width = get_numeric_attr(
+        img,
+        "width"
+    )
+
+    height = get_numeric_attr(
+        img,
+        "height"
+    )
+
+
+    if width >= 600:
+
+        score += 80
+
+    elif width >= 350:
+
+        score += 45
+
+    elif (
+        width
+        and width < 160
+    ):
+
+        score -= 100
+
+
+    if height >= 300:
+
+        score += 40
+
+    elif (
+        height
+        and height < 100
+    ):
+
+        score -= 70
+
+
+    # -------------------------
+    # alt正文说明
+    # -------------------------
+
+    if len(alt) >= 6:
+
+        score += 15
+
+
+    # -------------------------
+    # 常见正文图片路径
+    # -------------------------
+
+    path_lower = (
+        urlparse(
+            url
+        ).path.lower()
+    )
+
+    good_path = [
+
+        "/upload/",
+        "/uploads/",
+        "/image/",
+        "/images/",
+        "/media/",
+        "/figure/",
+    ]
+
+
+    if any(
+        token in path_lower
+        for token
+        in good_path
+    ):
+
+        score += 15
+
+
+    return score
+
+
+# =========================================================
+# 正文图片
+# =========================================================
+
+def extract_best_content_image(
+    soup,
+    page_url
+):
+
+    candidates = []
+
+
+    for img in soup.find_all(
+        "img"
+    ):
+
+        score = image_score(
+            img,
+            page_url
+        )
+
+        if score < 20:
+            continue
+
+        url = get_img_src(
+            img,
+            page_url
+        )
+
+        if not url:
+            continue
+
+        candidates.append(
+            (
+                score,
+                url
+            )
+        )
+
+
+    if not candidates:
+
+        return ""
+
+
+    candidates.sort(
+        key=lambda x:
+            x[0],
+        reverse=True
+    )
+
+
+    return candidates[
+        0
+    ][1]
+
+
+# =========================================================
+# OG 图片
+# =========================================================
+
+def extract_og_image(
+    soup,
+    page_url
+):
+
+    selectors = [
+
+        'meta[property="og:image"]',
+
+        'meta[property="og:image:secure_url"]',
+
+        'meta[name="twitter:image"]',
+
+        'meta[property="twitter:image"]',
+    ]
+
+
+    for selector in selectors:
+
+        node = soup.select_one(
+            selector
+        )
+
+        if not node:
+            continue
+
+
+        url = normalize_image_url(
+            node.get(
+                "content",
+                ""
+            ),
+            page_url
+        )
+
+
+        if not url:
+            continue
+
+
+        if image_is_bad(
+            url
+        ):
+            continue
+
+
+        return url
+
+
+    return ""
+
+
+# =========================================================
+# 正文摘要
+# =========================================================
+
+def extract_article_summary(
+    soup
+):
+
+    # -------------------------
+    # meta description
+    # -------------------------
+
+    selectors = [
+
+        'meta[property="og:description"]',
+        'meta[name="description"]',
+        'meta[name="twitter:description"]',
+    ]
+
+
+    for selector in selectors:
+
+        node = soup.select_one(
+            selector
+        )
+
+        if not node:
+            continue
+
+
+        text = clean_summary(
+            node.get(
+                "content",
+                ""
+            )
+        )
+
+
+        if text:
+
+            return text
+
+
+    # -------------------------
+    # 正文第一段
+    # -------------------------
+
+    paragraph_selectors = [
+
+        "article p",
+
+        ".article-content p",
+        ".article_content p",
+
+        ".article-body p",
+        ".articleBody p",
+
+        ".news-content p",
+        ".news_content p",
+
+        ".content p",
+        ".detail p",
+
+        "main p",
+    ]
+
+
+    for selector in paragraph_selectors:
+
+        for p in soup.select(
+            selector
+        ):
+
+            text = clean_summary(
+                p.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+            if len(text) >= 30:
+
+                return text
+
+
+    return ""
+
+
+# =========================================================
+# 文章详情页
+# =========================================================
+
+def fetch_page_details(
+    url,
+    source
+):
+
+    result = {
+
+        "image_url": "",
+        "summary": "",
+        "image_method": "",
+    }
+
+
+    if not url:
+
+        return result
+
+
+    try:
+
+        response = requests.get(
             url,
-            timeout=12
+            headers=HEADERS,
+            timeout=10
         )
 
         response.raise_for_status()
 
-        if not response.encoding:
 
-            response.encoding = (
-                response.apparent_encoding
-                or "utf-8"
-            )
+        html = decode_response(
+            response
+        )
+
 
         soup = BeautifulSoup(
-            response.text,
+            html,
             "html.parser"
         )
 
 
-        # -------------------------
-        # OG image
-        # -------------------------
+        # =================================================
+        # 1. 永远优先正文图片
+        # =================================================
 
-        image_selectors = [
+        image_url = (
+            extract_best_content_image(
+                soup,
+                url
+            )
+        )
 
-            'meta[property="og:image"]',
-            'meta[property="og:image:secure_url"]',
-            'meta[name="twitter:image"]',
-            'meta[property="twitter:image"]',
-            'meta[itemprop="image"]',
-        ]
 
-        for selector in image_selectors:
+        if image_url:
 
-            node = soup.select_one(
-                selector
+            result[
+                "image_url"
+            ] = image_url
+
+            result[
+                "image_method"
+            ] = "body"
+
+
+        # =================================================
+        # 2. 正文没有图片再尝试 OG
+        #
+        # 科学网禁用 OG：
+        # 防止反复抓到科学网 Logo
+        # =================================================
+
+        allow_og = (
+            source
+            != "科学网"
+        )
+
+
+        if (
+            not result[
+                "image_url"
+            ]
+            and allow_og
+        ):
+
+            og_image = (
+                extract_og_image(
+                    soup,
+                    url
+                )
             )
 
-            if node:
 
-                image_url = (
-                    node.get("content")
-                    or ""
-                )
+            if og_image:
 
-                image_url = (
-                    normalize_image_url(
-                        image_url,
-                        url
-                    )
-                )
+                result[
+                    "image_url"
+                ] = og_image
 
-                if image_url:
-
-                    result[
-                        "image_url"
-                    ] = image_url
-
-                    break
+                result[
+                    "image_method"
+                ] = "og"
 
 
-        # -------------------------
-        # description
-        # -------------------------
+        # =================================================
+        # 摘要
+        # =================================================
 
-        description_selectors = [
-
-            'meta[property="og:description"]',
-            'meta[name="description"]',
-            'meta[name="twitter:description"]',
-        ]
-
-        for selector in description_selectors:
-
-            node = soup.select_one(
-                selector
+        result[
+            "summary"
+        ] = (
+            extract_article_summary(
+                soup
             )
+        )
 
-            if node:
-
-                description = clean_text(
-                    node.get("content")
-                )
-
-                if description:
-
-                    result[
-                        "description"
-                    ] = description
-
-                    break
 
     except Exception as e:
 
         print(
-            "Page meta failed:",
+            "Detail failed:",
+            source,
             url,
             e
         )
 
-
-    PAGE_META_CACHE[
-        url
-    ] = result
 
     return result
 
@@ -747,7 +1555,6 @@ def make_item(
     priority="B",
     language="zh",
     display_title=None,
-    image_url="",
     is_breakthrough_item=False,
     meta=None,
 ):
@@ -769,7 +1576,9 @@ def make_item(
         "display_title":
             clean_text(
                 display_title
-                or refine_title(title)
+                or refine_title(
+                    title
+                )
             ),
 
         "source":
@@ -791,13 +1600,20 @@ def make_item(
                 timezone.utc
             ).isoformat(),
 
+        # 详情页后续补充
         "summary":
-            clean_text(
+            clean_summary(
                 summary
             ),
 
         "image_url":
-            image_url or "",
+            "",
+
+        "image_method":
+            "",
+
+        "image_rule_version":
+            IMAGE_RULE_VERSION,
 
         "priority":
             priority,
@@ -816,83 +1632,18 @@ def make_item(
 
 
 # =========================================================
-# 上下文
-# =========================================================
-
-def extract_context(
-    node,
-    title,
-    max_len=220
-):
-
-    parent = node
-
-    for _ in range(4):
-
-        if parent is None:
-            break
-
-        if getattr(
-            parent,
-            "name",
-            None
-        ) in {
-            "article",
-            "li",
-        }:
-            break
-
-        parent = parent.parent
-
-
-    if parent is None:
-
-        parent = node.parent
-
-
-    if parent is None:
-        return ""
-
-
-    text = clean_text(
-        parent.get_text(
-            " ",
-            strip=True
-        )
-    )
-
-    if title:
-
-        text = text.replace(
-            title,
-            "",
-            1
-        ).strip()
-
-    if len(text) > max_len:
-
-        text = (
-            text[:max_len]
-            .rstrip()
-            + "…"
-        )
-
-    return text
-
-
-# =========================================================
-# AI判断
+# AI
 # =========================================================
 
 def useful_ai_text(text):
 
-    text = clean_text(
+    low = clean_text(
         text
     ).lower()
 
     return any(
         keyword.lower()
-        in text
+        in low
         for keyword
         in AI_KEYWORDS
     )
@@ -900,39 +1651,46 @@ def useful_ai_text(text):
 
 def ai_priority(text):
 
-    text_lower = clean_text(
-        text
-    ).lower()
-
     if is_breakthrough(
         text
     ):
+
         return "A"
 
+
+    low = clean_text(
+        text
+    ).lower()
+
+
     strong = [
+
         "开源",
         "免费",
         "发布",
         "推出",
         "上线",
+
         "agent",
         "智能体",
         "api",
     ]
 
+
     if any(
-        keyword in text_lower
-        for keyword
+        word in low
+        for word
         in strong
     ):
+
         return "A"
+
 
     return "B"
 
 
 # =========================================================
 # AIBase
-# → AI变现
 # =========================================================
 
 def fetch_aibase():
@@ -944,6 +1702,7 @@ def fetch_aibase():
     results = []
     seen = set()
 
+
     try:
 
         response = SESSION.get(
@@ -953,7 +1712,10 @@ def fetch_aibase():
 
         response.raise_for_status()
 
-        response.encoding = "utf-8"
+        html = decode_response(
+            response
+        )
+
 
     except Exception as e:
 
@@ -966,7 +1728,7 @@ def fetch_aibase():
 
 
     soup = BeautifulSoup(
-        response.text,
+        html,
         "html.parser"
     )
 
@@ -981,14 +1743,15 @@ def fetch_aibase():
             ""
         )
 
+
         if not re.search(
             r"/zh/news/\d+",
             href
         ):
+
             continue
 
 
-        # 优先寻找真正的标题元素
         heading = node.find(
             [
                 "h2",
@@ -996,6 +1759,7 @@ def fetch_aibase():
                 "h4",
             ]
         )
+
 
         if heading:
 
@@ -1017,10 +1781,13 @@ def fetch_aibase():
 
 
         if not (
-            contains_chinese(title)
+            contains_chinese(
+                title
+            )
             and
             8 <= len(title) <= 120
         ):
+
             continue
 
 
@@ -1031,45 +1798,19 @@ def fetch_aibase():
 
 
         if url in seen:
+
             continue
 
 
-        context = extract_context(
-            node,
-            title
-        )
-
-
         if not useful_ai_text(
-            f"{title} {context}"
+            title
         ):
+
             continue
 
 
         seen.add(
             url
-        )
-
-
-        parent = node.find_parent(
-            [
-                "article",
-                "li",
-            ]
-        )
-
-        image_url = (
-            extract_image_from_container(
-                parent,
-                AIBASE_URL
-            )
-        )
-
-
-        breakthrough = (
-            is_breakthrough(
-                f"{title} {context}"
-            )
         )
 
 
@@ -1085,20 +1826,17 @@ def fetch_aibase():
 
                 url=url,
 
-                summary=context,
-
                 priority=
                     ai_priority(
-                        f"{title} {context}"
+                        title
                     ),
 
                 language="zh",
 
-                image_url=
-                    image_url,
-
                 is_breakthrough_item=
-                    breakthrough,
+                    is_breakthrough(
+                        title
+                    ),
             )
         )
 
@@ -1108,13 +1846,11 @@ def fetch_aibase():
         len(results)
     )
 
-    return results[:40]
+    return results[:45]
 
 
 # =========================================================
 # 量子位
-# 普通工具 → 提效工具
-# 突破 → 前沿动态
 # =========================================================
 
 def fetch_qbitai():
@@ -1126,6 +1862,7 @@ def fetch_qbitai():
     results = []
     seen = set()
 
+
     try:
 
         response = SESSION.get(
@@ -1135,10 +1872,10 @@ def fetch_qbitai():
 
         response.raise_for_status()
 
-        response.encoding = (
-            response.apparent_encoding
-            or "utf-8"
+        html = decode_response(
+            response
         )
+
 
     except Exception as e:
 
@@ -1151,7 +1888,7 @@ def fetch_qbitai():
 
 
     soup = BeautifulSoup(
-        response.text,
+        html,
         "html.parser"
     )
 
@@ -1167,17 +1904,22 @@ def fetch_qbitai():
             )
         )
 
+
         href = node.get(
             "href",
             ""
         )
 
+
         if not (
-            contains_chinese(title)
+            contains_chinese(
+                title
+            )
             and
             8 <= len(title) <= 120
             and href
         ):
+
             continue
 
 
@@ -1193,22 +1935,19 @@ def fetch_qbitai():
                 url
             ).netloc
         ):
+
             continue
 
 
         if url in seen:
+
             continue
 
 
-        context = extract_context(
-            node,
-            title
-        )
-
-
         if not useful_ai_text(
-            f"{title} {context}"
+            title
         ):
+
             continue
 
 
@@ -1217,24 +1956,9 @@ def fetch_qbitai():
         )
 
 
-        parent = node.find_parent(
-            [
-                "article",
-                "li",
-            ]
-        )
-
-        image_url = (
-            extract_image_from_container(
-                parent,
-                QBITAI_URL
-            )
-        )
-
-
         breakthrough = (
             is_breakthrough(
-                f"{title} {context}"
+                title
             )
         )
 
@@ -1258,21 +1982,15 @@ def fetch_qbitai():
 
                 url=url,
 
-                summary=context,
-
-                priority=
-                    (
-                        "A"
-                        if breakthrough
-                        else ai_priority(
-                            f"{title} {context}"
-                        )
-                    ),
+                priority=(
+                    "A"
+                    if breakthrough
+                    else ai_priority(
+                        title
+                    )
+                ),
 
                 language="zh",
-
-                image_url=
-                    image_url,
 
                 is_breakthrough_item=
                     breakthrough,
@@ -1289,8 +2007,7 @@ def fetch_qbitai():
 
 
 # =========================================================
-# 科技日报：科技新突破
-# → 前沿动态
+# 科技日报
 # =========================================================
 
 def fetch_stdaily():
@@ -1302,6 +2019,7 @@ def fetch_stdaily():
     results = []
     seen = set()
 
+
     try:
 
         response = SESSION.get(
@@ -1311,10 +2029,10 @@ def fetch_stdaily():
 
         response.raise_for_status()
 
-        response.encoding = (
-            response.apparent_encoding
-            or "utf-8"
+        html = decode_response(
+            response
         )
+
 
     except Exception as e:
 
@@ -1327,7 +2045,7 @@ def fetch_stdaily():
 
 
     soup = BeautifulSoup(
-        response.text,
+        html,
         "html.parser"
     )
 
@@ -1345,7 +2063,9 @@ def fetch_stdaily():
             href=True
         )
 
+
         if not node:
+
             continue
 
 
@@ -1358,16 +2078,21 @@ def fetch_stdaily():
 
 
         if not (
-            contains_chinese(title)
+            contains_chinese(
+                title
+            )
             and
             6 <= len(title) <= 120
         ):
+
             continue
 
 
         url = urljoin(
             STD_BREAKTHROUGH_URL,
-            node.get("href")
+            node.get(
+                "href"
+            )
         )
 
 
@@ -1377,43 +2102,17 @@ def fetch_stdaily():
                 url
             ).netloc
         ):
+
             continue
 
 
         if url in seen:
+
             continue
 
 
         seen.add(
             url
-        )
-
-
-        context = extract_context(
-            heading,
-            title
-        )
-
-
-        published = (
-            extract_date_from_text(
-                context
-            )
-        )
-
-
-        parent = heading.find_parent(
-            [
-                "article",
-                "li",
-            ]
-        )
-
-        image_url = (
-            extract_image_from_container(
-                parent,
-                STD_BREAKTHROUGH_URL
-            )
         )
 
 
@@ -1429,21 +2128,13 @@ def fetch_stdaily():
 
                 url=url,
 
-                published_at=
-                    published,
-
-                summary="",
-
                 priority="A",
 
                 language="zh",
 
-                image_url=
-                    image_url,
-
                 is_breakthrough_item=
                     is_breakthrough(
-                        f"{title} {context}"
+                        title
                     ),
             )
         )
@@ -1459,7 +2150,6 @@ def fetch_stdaily():
 
 # =========================================================
 # 科学网
-# 只保留突破信息
 # =========================================================
 
 def fetch_sciencenet():
@@ -1471,6 +2161,7 @@ def fetch_sciencenet():
     results = []
     seen = set()
 
+
     try:
 
         response = SESSION.get(
@@ -1480,10 +2171,10 @@ def fetch_sciencenet():
 
         response.raise_for_status()
 
-        response.encoding = (
-            response.apparent_encoding
-            or "utf-8"
+        html = decode_response(
+            response
         )
+
 
     except Exception as e:
 
@@ -1496,7 +2187,7 @@ def fetch_sciencenet():
 
 
     soup = BeautifulSoup(
-        response.text,
+        html,
         "html.parser"
     )
 
@@ -1511,6 +2202,7 @@ def fetch_sciencenet():
             ""
         )
 
+
         url = urljoin(
             SCIENCENET_URL,
             href
@@ -1523,13 +2215,12 @@ def fetch_sciencenet():
                 url
             ).netloc
         ):
+
             continue
 
 
-        if not re.search(
-            r"/htmlnews/",
-            url
-        ):
+        if "/htmlnews/" not in url:
+
             continue
 
 
@@ -1542,58 +2233,31 @@ def fetch_sciencenet():
 
 
         if not (
-            contains_chinese(title)
+            contains_chinese(
+                title
+            )
             and
             6 <= len(title) <= 120
         ):
+
             continue
 
 
         if url in seen:
+
             continue
 
 
-        context = extract_context(
-            node,
-            title
-        )
-
-
-        combined = (
-            f"{title} {context}"
-        )
-
-
+        # 科学网只收突破类
         if not is_breakthrough(
-            combined
+            title
         ):
+
             continue
 
 
         seen.add(
             url
-        )
-
-
-        published = (
-            extract_date_from_text(
-                context
-            )
-        )
-
-
-        parent = node.find_parent(
-            [
-                "article",
-                "li",
-            ]
-        )
-
-        image_url = (
-            extract_image_from_container(
-                parent,
-                SCIENCENET_URL
-            )
         )
 
 
@@ -1609,17 +2273,9 @@ def fetch_sciencenet():
 
                 url=url,
 
-                published_at=
-                    published,
-
-                summary=context,
-
                 priority="A",
 
                 language="zh",
-
-                image_url=
-                    image_url,
 
                 is_breakthrough_item=True,
             )
@@ -1636,7 +2292,6 @@ def fetch_sciencenet():
 
 # =========================================================
 # DeepTech
-# 仅突破类
 # =========================================================
 
 def fetch_deeptech():
@@ -1648,6 +2303,7 @@ def fetch_deeptech():
     results = []
     seen = set()
 
+
     try:
 
         response = SESSION.get(
@@ -1657,10 +2313,10 @@ def fetch_deeptech():
 
         response.raise_for_status()
 
-        response.encoding = (
-            response.apparent_encoding
-            or "utf-8"
+        html = decode_response(
+            response
         )
+
 
     except Exception as e:
 
@@ -1673,7 +2329,7 @@ def fetch_deeptech():
 
 
     soup = BeautifulSoup(
-        response.text,
+        html,
         "html.parser"
     )
 
@@ -1690,6 +2346,7 @@ def fetch_deeptech():
             )
         )
 
+
         href = node.get(
             "href",
             ""
@@ -1697,11 +2354,14 @@ def fetch_deeptech():
 
 
         if not (
-            contains_chinese(title)
+            contains_chinese(
+                title
+            )
             and
             8 <= len(title) <= 120
             and href
         ):
+
             continue
 
 
@@ -1717,42 +2377,24 @@ def fetch_deeptech():
                 url
             ).netloc
         ):
+
             continue
 
 
         if url in seen:
+
             continue
 
 
-        context = extract_context(
-            node,
-            title
-        )
-
-
         if not is_breakthrough(
-            f"{title} {context}"
+            title
         ):
+
             continue
 
 
         seen.add(
             url
-        )
-
-
-        parent = node.find_parent(
-            [
-                "article",
-                "li",
-            ]
-        )
-
-        image_url = (
-            extract_image_from_container(
-                parent,
-                DEEPTECH_URL
-            )
         )
 
 
@@ -1768,14 +2410,9 @@ def fetch_deeptech():
 
                 url=url,
 
-                summary=context,
-
                 priority="A",
 
                 language="zh",
-
-                image_url=
-                    image_url,
 
                 is_breakthrough_item=True,
             )
@@ -1787,237 +2424,15 @@ def fetch_deeptech():
         len(results)
     )
 
-    return results[:25]
+    return results[:30]
 
 
 # =========================================================
-# Nature RSS 图片
-# =========================================================
-
-def extract_feed_image(
-    entry
-):
-
-    media_content = entry.get(
-        "media_content"
-    )
-
-    if media_content:
-
-        try:
-
-            url = media_content[
-                0
-            ].get(
-                "url",
-                ""
-            )
-
-            if url:
-                return url
-
-        except Exception:
-            pass
-
-
-    media_thumbnail = entry.get(
-        "media_thumbnail"
-    )
-
-    if media_thumbnail:
-
-        try:
-
-            url = media_thumbnail[
-                0
-            ].get(
-                "url",
-                ""
-            )
-
-            if url:
-                return url
-
-        except Exception:
-            pass
-
-
-    return ""
-
-
-# =========================================================
-# Nature HTML fallback
-# =========================================================
-
-def fetch_nature_html(
-    page_url,
-    source
-):
-
-    results = []
-
-    try:
-
-        response = SESSION.get(
-            page_url,
-            params={
-                "year":
-                    datetime.now().year,
-
-                "sort":
-                    "PubDate",
-            },
-            timeout=40
-        )
-
-        response.raise_for_status()
-
-    except Exception as e:
-
-        print(
-            source,
-            "HTML fallback failed:",
-            e
-        )
-
-        return results
-
-
-    soup = BeautifulSoup(
-        response.text,
-        "html.parser"
-    )
-
-
-    cards = soup.select(
-        "li.app-article-list-row__item"
-    )
-
-
-    if not cards:
-
-        cards = soup.select(
-            "article"
-        )
-
-
-    for card in cards:
-
-        link = card.select_one(
-            'h3 a[href*="/articles/"], '
-            'h2 a[href*="/articles/"]'
-        )
-
-        if not link:
-            continue
-
-
-        title = clean_text(
-            link.get_text(
-                " ",
-                strip=True
-            )
-        )
-
-
-        url = urljoin(
-            "https://www.nature.com",
-            link.get(
-                "href",
-                ""
-            )
-        )
-
-
-        if not title or not url:
-            continue
-
-
-        text = clean_text(
-            card.get_text(
-                " ",
-                strip=True
-            )
-        )
-
-
-        published = (
-            extract_date_from_text(
-                text
-            )
-        )
-
-
-        summary = ""
-
-        for p in card.find_all(
-            "p"
-        ):
-
-            candidate = clean_text(
-                p.get_text(
-                    " ",
-                    strip=True
-                )
-            )
-
-            if len(
-                candidate
-            ) >= 40:
-
-                summary = candidate
-
-                break
-
-
-        image_url = (
-            extract_image_from_container(
-                card,
-                page_url
-            )
-        )
-
-
-        results.append(
-
-            make_item(
-
-                title=title,
-
-                source=source,
-
-                category="期刊论文",
-
-                url=url,
-
-                published_at=
-                    published,
-
-                summary=summary,
-
-                priority="A",
-
-                language="en",
-
-                image_url=
-                    image_url,
-
-                is_breakthrough_item=
-                    False,
-            )
-        )
-
-
-    return results
-
-
-# =========================================================
-# Nature RSS
+# Nature
 # =========================================================
 
 def fetch_nature_journal(
     feed_url,
-    html_url,
     source
 ):
 
@@ -2026,6 +2441,7 @@ def fetch_nature_journal(
         source,
         "..."
     )
+
 
     results = []
 
@@ -2046,6 +2462,7 @@ def fetch_nature_journal(
                 )
             )
 
+
             url = entry.get(
                 "link",
                 ""
@@ -2053,10 +2470,11 @@ def fetch_nature_journal(
 
 
             if not title or not url:
+
                 continue
 
 
-            summary = clean_text(
+            summary = clean_summary(
                 entry.get(
                     "summary",
                     ""
@@ -2075,13 +2493,6 @@ def fetch_nature_journal(
             )
 
 
-            image_url = (
-                extract_feed_image(
-                    entry
-                )
-            )
-
-
             results.append(
 
                 make_item(
@@ -2090,21 +2501,20 @@ def fetch_nature_journal(
 
                     source=source,
 
-                    category="期刊论文",
+                    category=
+                        "期刊论文",
 
                     url=url,
 
                     published_at=
                         published,
 
-                    summary=summary,
+                    summary=
+                        summary,
 
                     priority="A",
 
                     language="en",
-
-                    image_url=
-                        image_url,
 
                     is_breakthrough_item=
                         False,
@@ -2116,19 +2526,8 @@ def fetch_nature_journal(
 
         print(
             source,
-            "RSS failed:",
+            "failed:",
             e
-        )
-
-
-    # RSS失效时自动回退网页
-    if not results:
-
-        results = (
-            fetch_nature_html(
-                html_url,
-                source
-            )
         )
 
 
@@ -2138,7 +2537,8 @@ def fetch_nature_journal(
         len(results)
     )
 
-    return results[:40]
+
+    return results[:45]
 
 
 # =========================================================
@@ -2146,12 +2546,12 @@ def fetch_nature_journal(
 # =========================================================
 
 def github_relevant(
-    full_name,
+    name,
     description
 ):
 
     text = (
-        f"{full_name} "
+        f"{name} "
         f"{description}"
     ).lower()
 
@@ -2182,6 +2582,7 @@ def github_priority(
         created = dtparser.parse(
             created_at
         )
+
 
         if created.tzinfo is None:
 
@@ -2215,6 +2616,7 @@ def github_priority(
         stars >= 500
         or speed >= 50
     ):
+
         return "A"
 
 
@@ -2222,6 +2624,7 @@ def github_priority(
         stars >= 100
         or speed >= 10
     ):
+
         return "B"
 
 
@@ -2246,6 +2649,7 @@ def github_display_title(
 
 
     if not description:
+
         return repo_name
 
 
@@ -2383,6 +2787,7 @@ def fetch_github():
                 not url
                 or url in seen
             ):
+
                 continue
 
 
@@ -2393,6 +2798,7 @@ def fetch_github():
 
 
             if stars < 30:
+
                 continue
 
 
@@ -2414,6 +2820,7 @@ def fetch_github():
                 full_name,
                 description
             ):
+
                 continue
 
 
@@ -2442,7 +2849,8 @@ def fetch_github():
 
                     source="GitHub",
 
-                    category="提效工具",
+                    category=
+                        "提效工具",
 
                     url=url,
 
@@ -2459,8 +2867,6 @@ def fetch_github():
                         ),
 
                     language="en",
-
-                    image_url="",
 
                     is_breakthrough_item=
                         False,
@@ -2483,11 +2889,12 @@ def fetch_github():
         len(results)
     )
 
+
     return results
 
 
 # =========================================================
-# 旧数据
+# 历史数据
 # =========================================================
 
 def load_old_data():
@@ -2522,7 +2929,7 @@ def load_old_data():
 
 
 # =========================================================
-# 旧分类迁移
+# 旧数据迁移
 # =========================================================
 
 def normalize_old_items(
@@ -2540,9 +2947,23 @@ def normalize_old_items(
         )
 
 
+        title = item.get(
+            "title",
+            ""
+        )
+
+
+        summary = clean_summary(
+            item.get(
+                "summary",
+                ""
+            )
+        )
+
+
         text = (
-            f"{item.get('title', '')} "
-            f"{item.get('summary', '')}"
+            f"{title} "
+            f"{summary}"
         )
 
 
@@ -2590,14 +3011,8 @@ def normalize_old_items(
         elif source == "GitHub":
 
             if not github_relevant(
-                item.get(
-                    "title",
-                    ""
-                ),
-                item.get(
-                    "summary",
-                    ""
-                )
+                title,
+                summary
             ):
 
                 continue
@@ -2610,8 +3025,12 @@ def normalize_old_items(
 
         else:
 
-            # 淘汰以前的AI-Bot等旧来源
             continue
+
+
+        item[
+            "summary"
+        ] = summary
 
 
         if not item.get(
@@ -2621,20 +3040,37 @@ def normalize_old_items(
             item[
                 "display_title"
             ] = refine_title(
-                item.get(
-                    "title",
-                    ""
-                )
+                title
             )
 
 
-        if not item.get(
-            "image_url"
+        # =================================================
+        # 旧图片规则不是 V6
+        # 全部清掉重新抓
+        #
+        # 这是解决当前 ScienceNet Logo
+        # 和 TOOL 占位问题的关键
+        # =================================================
+
+        if (
+            item.get(
+                "image_rule_version"
+            )
+            != IMAGE_RULE_VERSION
         ):
 
             item[
                 "image_url"
             ] = ""
+
+            item[
+                "image_method"
+            ] = ""
+
+
+        item[
+            "image_rule_version"
+        ] = IMAGE_RULE_VERSION
 
 
         item[
@@ -2654,7 +3090,9 @@ def normalize_old_items(
                     "Nature Cities",
                     "GitHub",
                 }
+
                 and
+
                 is_breakthrough(
                     text
                 )
@@ -2671,188 +3109,328 @@ def normalize_old_items(
 
 
 # =========================================================
-# 新资讯 / 旧资讯封面补全
+# 批量进入详情页
 # =========================================================
 
-def enrich_images(
-    old_items,
-    new_items
+def enrich_details(
+    items
 ):
 
-    old_map = {
+    # =====================================================
+    # 需要进入详情页的：
+    #
+    # 1. 没有图片
+    # 2. 摘要乱码
+    # 3. 中文媒体没有摘要
+    # =====================================================
 
-        item.get("id"):
-            item
-
-        for item in old_items
-
-        if item.get(
-            "id"
-        )
-    }
+    candidates = []
 
 
-    request_count = 0
+    for item in items:
 
-
-    # -------------------------
-    # 新数据优先
-    # -------------------------
-
-    for item in new_items:
-
-        old = old_map.get(
-            item.get(
-                "id"
-            )
-        )
-
-
-        # 旧图片直接继承
-        if old:
-
-            if old.get(
-                "image_url"
-            ):
-
-                item[
-                    "image_url"
-                ] = old[
-                    "image_url"
-                ]
-
-
-            if (
-                not item.get(
-                    "summary"
-                )
-                and old.get(
-                    "summary"
-                )
-            ):
-
-                item[
-                    "summary"
-                ] = old[
-                    "summary"
-                ]
-
-
-        # 没图片才访问文章页
-        if (
+        need_image = (
             not item.get(
                 "image_url"
             )
-            and
-            request_count
-            <
-            IMAGE_FETCH_LIMIT
+        )
+
+
+        need_summary = (
+            not item.get(
+                "summary"
+            )
+
+            or
+
+            looks_mojibake(
+                item.get(
+                    "summary",
+                    ""
+                )
+            )
+        )
+
+
+        if (
+            need_image
+            or need_summary
         ):
 
-            meta = fetch_page_meta(
-                item.get(
-                    "url"
-                )
+            candidates.append(
+                item
             )
 
-            request_count += 1
+
+    # 去重URL
+    unique = {}
+
+    for item in candidates:
+
+        url = item.get(
+            "url"
+        )
+
+        if (
+            url
+            and url not in unique
+        ):
+
+            unique[
+                url
+            ] = item
 
 
-            if meta.get(
-                "image_url"
-            ):
-
-                item[
-                    "image_url"
-                ] = meta[
-                    "image_url"
-                ]
-
-
-            if (
-                not item.get(
-                    "summary"
-                )
-                and meta.get(
-                    "description"
-                )
-            ):
-
-                item[
-                    "summary"
-                ] = meta[
-                    "description"
-                ]
-
-
-    # -------------------------
-    # 如果还有额度，给历史数据补图
-    # -------------------------
-
-    if request_count < IMAGE_FETCH_LIMIT:
-
-        for item in old_items:
-
-            if request_count >= IMAGE_FETCH_LIMIT:
-                break
-
-
-            if item.get(
-                "image_url"
-            ):
-                continue
-
-
-            meta = fetch_page_meta(
-                item.get(
-                    "url"
-                )
-            )
-
-            request_count += 1
-
-
-            if meta.get(
-                "image_url"
-            ):
-
-                item[
-                    "image_url"
-                ] = meta[
-                    "image_url"
-                ]
-
-
-            if (
-                not item.get(
-                    "summary"
-                )
-                and meta.get(
-                    "description"
-                )
-            ):
-
-                item[
-                    "summary"
-                ] = meta[
-                    "description"
-                ]
+    candidates = list(
+        unique.values()
+    )[:DETAIL_FETCH_LIMIT]
 
 
     print(
-        "Page metadata requests:",
-        request_count
+        "Detail pages:",
+        len(candidates)
+    )
+
+
+    details_map = {}
+
+
+    with ThreadPoolExecutor(
+        max_workers=
+            DETAIL_WORKERS
+    ) as executor:
+
+
+        futures = {
+
+            executor.submit(
+                fetch_page_details,
+                item.get(
+                    "url"
+                ),
+                item.get(
+                    "source"
+                )
+            ):
+            item
+
+            for item in candidates
+        }
+
+
+        for future in as_completed(
+            futures
+        ):
+
+            item = futures[
+                future
+            ]
+
+
+            url = item.get(
+                "url"
+            )
+
+
+            try:
+
+                details_map[
+                    url
+                ] = future.result()
+
+            except Exception:
+
+                details_map[
+                    url
+                ] = {
+                    "image_url": "",
+                    "summary": "",
+                    "image_method": "",
+                }
+
+
+    # =====================================================
+    # 写回
+    # =====================================================
+
+    for item in items:
+
+        details = details_map.get(
+            item.get(
+                "url"
+            )
+        )
+
+
+        if not details:
+
+            continue
+
+
+        image_url = details.get(
+            "image_url"
+        )
+
+
+        if image_url:
+
+            item[
+                "image_url"
+            ] = image_url
+
+            item[
+                "image_method"
+            ] = details.get(
+                "image_method",
+                ""
+            )
+
+
+        detail_summary = (
+            clean_summary(
+                details.get(
+                    "summary",
+                    ""
+                )
+            )
+        )
+
+
+        if (
+            detail_summary
+            and
+            (
+                not item.get(
+                    "summary"
+                )
+
+                or
+
+                looks_mojibake(
+                    item.get(
+                        "summary",
+                        ""
+                    )
+                )
+            )
+        ):
+
+            item[
+                "summary"
+            ] = detail_summary
+
+
+    return items
+
+
+# =========================================================
+# 删除没有图片的资讯
+# =========================================================
+
+def only_items_with_images(
+    items
+):
+
+    output = []
+
+
+    for item in items:
+
+        image_url = item.get(
+            "image_url",
+            ""
+        )
+
+
+        if not image_url:
+
+            continue
+
+
+        if image_is_bad(
+            image_url
+        ):
+
+            continue
+
+
+        output.append(
+            item
+        )
+
+
+    return output
+
+
+# =========================================================
+# 图片不能重复
+# =========================================================
+
+def image_key(url):
+
+    if not url:
+
+        return ""
+
+
+    parsed = urlparse(
+        url
     )
 
 
     return (
-        old_items,
-        new_items
-    )
+        parsed.scheme
+        + "://"
+        + parsed.netloc
+        + parsed.path
+    ).lower()
+
+
+def remove_duplicate_images(
+    items
+):
+
+    seen_images = set()
+
+    output = []
+
+
+    for item in items:
+
+        key = image_key(
+            item.get(
+                "image_url"
+            )
+        )
+
+
+        if not key:
+
+            continue
+
+
+        # 同一张图已经出现
+        # 后面的资讯不再收录
+        if key in seen_images:
+
+            continue
+
+
+        seen_images.add(
+            key
+        )
+
+
+        output.append(
+            item
+        )
+
+
+    return output
 
 
 # =========================================================
-# 删除旧数据
+# 删除旧新闻
 # =========================================================
 
 def remove_old_items(
@@ -2999,26 +3577,9 @@ def merge_items(
             )
 
 
-            image_url = (
-                item.get(
-                    "image_url"
-                )
-                or
-                old.get(
-                    "image_url"
-                )
-                or ""
-            )
-
-
             old.update(
                 item
             )
-
-
-            old[
-                "image_url"
-            ] = image_url
 
 
             if detected_at:
@@ -3223,46 +3784,66 @@ def save_data(items):
 def main():
 
     print(
-        "=" * 55
+        "=" * 60
     )
 
     print(
-        "ICAT Research Radar V5"
+        "ICAT Research Radar V6"
     )
 
     print(
-        "=" * 55
+        "=" * 60
     )
 
 
-    old_items = load_old_data()
+    # =====================================================
+    # 旧数据
+    # =====================================================
 
-    old_items = normalize_old_items(
-        old_items
+    old_items = (
+        load_old_data()
     )
 
 
-    print(
-        "Old items:",
-        len(old_items)
+    old_items = (
+        normalize_old_items(
+            old_items
+        )
     )
 
 
-    aibase_items = fetch_aibase()
+    # =====================================================
+    # 新数据
+    # =====================================================
 
-    qbitai_items = fetch_qbitai()
+    aibase_items = (
+        fetch_aibase()
+    )
 
-    stdaily_items = fetch_stdaily()
 
-    sciencenet_items = fetch_sciencenet()
+    qbitai_items = (
+        fetch_qbitai()
+    )
 
-    deeptech_items = fetch_deeptech()
+
+    stdaily_items = (
+        fetch_stdaily()
+    )
+
+
+    sciencenet_items = (
+        fetch_sciencenet()
+    )
+
+
+    deeptech_items = (
+        fetch_deeptech()
+    )
 
 
     scientific_items = (
         fetch_nature_journal(
             SCIENTIFIC_DATA_RSS,
-            SCIENTIFIC_DATA_HTML,
             "Scientific Data"
         )
     )
@@ -3271,44 +3852,117 @@ def main():
     nature_cities_items = (
         fetch_nature_journal(
             NATURE_CITIES_RSS,
-            NATURE_CITIES_HTML,
             "Nature Cities"
         )
     )
 
 
-    github_items = fetch_github()
+    github_items = (
+        fetch_github()
+    )
 
 
     new_items = (
 
         aibase_items
+
         + qbitai_items
+
         + stdaily_items
+
         + sciencenet_items
+
         + deeptech_items
+
         + scientific_items
+
         + nature_cities_items
+
         + github_items
     )
 
 
-    old_items, new_items = (
-        enrich_images(
+    # =====================================================
+    # 合并
+    # =====================================================
+
+    all_items = (
+        merge_items(
             old_items,
             new_items
         )
     )
 
 
-    final_items = merge_items(
-        old_items,
-        new_items
+    print(
+        "Before details:",
+        len(all_items)
     )
 
 
+    # =====================================================
+    # 所有没有合格图片的内容
+    # 进入详情页抓正文图
+    # =====================================================
+
+    all_items = (
+        enrich_details(
+            all_items
+        )
+    )
+
+
+    # =====================================================
+    # 乱码摘要再次清理
+    # =====================================================
+
+    for item in all_items:
+
+        item[
+            "summary"
+        ] = clean_summary(
+            item.get(
+                "summary",
+                ""
+            )
+        )
+
+
+    # =====================================================
+    # 没有真实图片
+    # 直接淘汰
+    # =====================================================
+
+    all_items = (
+        only_items_with_images(
+            all_items
+        )
+    )
+
+
+    # =====================================================
+    # 图片重复
+    # 只留第一条
+    # =====================================================
+
+    all_items = (
+        remove_duplicate_images(
+            all_items
+        )
+    )
+
+
+    # =====================================================
+    # 最终限制
+    # =====================================================
+
+    all_items = all_items[
+        :MAX_ITEMS
+    ]
+
+
     save_data(
-        final_items
+        all_items
     )
 
 
@@ -3357,12 +4011,12 @@ def main():
     )
 
     print(
-        "Final:",
-        len(final_items)
+        "Visible with image:",
+        len(all_items)
     )
 
     print(
-        "=" * 55
+        "=" * 60
     )
 
 
