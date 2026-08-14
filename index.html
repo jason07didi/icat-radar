@@ -1,1 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
 
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>科研前沿雷达</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<header class="header">
+
+    <div class="header-inner">
+
+        <div class="site-label">
+            ICAT · Research Radar
+        </div>
+
+        <h1>
+            科研前沿雷达
+        </h1>
+
+        <p>
+            新工具 · 新数据 · 新研究 · GitHub
+        </p>
+
+        <div
+            id="update-time"
+            class="update-time"
+        >
+            正在读取最新资讯……
+        </div>
+
+    </div>
+
+</header>
+
+
+<main class="container">
+
+
+    <section class="intro">
+
+        <h2>
+            今日提示
+        </h2>
+
+        <p id="today-summary">
+            正在载入最新科研动态。
+        </p>
+
+    </section>
+
+
+    <nav class="filters">
+
+        <button
+            class="filter active"
+            data-category="all"
+        >
+            全部
+        </button>
+
+        <button
+            class="filter"
+            data-category="AI工具"
+        >
+            AI工具
+        </button>
+
+        <button
+            class="filter"
+            data-category="新数据"
+        >
+            新数据
+        </button>
+
+        <button
+            class="filter"
+            data-category="新研究"
+        >
+            Nature Cities
+        </button>
+
+        <button
+            class="filter"
+            data-category="GitHub"
+        >
+            GitHub
+        </button>
+
+    </nav>
+
+
+    <section>
+
+        <h2 class="section-title">
+            最新资讯
+        </h2>
+
+        <div id="news-list">
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<footer>
+
+    科研前沿雷达 · ICAT
+
+</footer>
+
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
