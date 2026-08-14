@@ -1,9 +1,20 @@
 let allItems = [];
 
+let currentCategory = "all";
+
+
+/* =========================================
+   HTML转义
+========================================= */
 
 function escapeHTML(value) {
 
-    if (!value) return "";
+    if (
+        value === null ||
+        value === undefined
+    ) {
+        return "";
+    }
 
     return String(value)
         .replaceAll("&", "&amp;")
@@ -11,16 +22,20 @@ function escapeHTML(value) {
         .replaceAll(">", "&gt;")
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
-
 }
 
 
+/* =========================================
+   日期
+========================================= */
+
 function formatDate(value) {
 
-    if (!value) return "";
+    if (!value) {
+        return "";
+    }
 
-    const date =
-        new Date(value);
+    const date = new Date(value);
 
     if (
         Number.isNaN(
@@ -33,14 +48,308 @@ function formatDate(value) {
     return date.toLocaleDateString(
         "zh-CN",
         {
+            timeZone: "Asia/Shanghai",
             year: "numeric",
             month: "2-digit",
             day: "2-digit"
         }
     );
-
 }
 
+
+/* =========================================
+   最近扫描时间
+========================================= */
+
+function formatUpdateTime(value) {
+
+    if (!value) {
+        return "等待首次自动更新";
+    }
+
+    const date = new Date(value);
+
+    if (
+        Number.isNaN(
+            date.getTime()
+        )
+    ) {
+        return "最近更新时间未知";
+    }
+
+
+    const text =
+        date.toLocaleString(
+            "zh-CN",
+            {
+                timeZone:
+                    "Asia/Shanghai",
+
+                year:
+                    "numeric",
+
+                month:
+                    "2-digit",
+
+                day:
+                    "2-digit",
+
+                hour:
+                    "2-digit",
+
+                minute:
+                    "2-digit",
+
+                hour12:
+                    false
+            }
+        );
+
+
+    return (
+        `最近更新：${text}`
+        + `（北京时间）`
+    );
+}
+
+
+/* =========================================
+   安全URL
+========================================= */
+
+function safeURL(value) {
+
+    if (!value) {
+        return "#";
+    }
+
+    try {
+
+        const url =
+            new URL(value);
+
+        if (
+            url.protocol === "http:"
+            ||
+            url.protocol === "https:"
+        ) {
+
+            return value;
+        }
+
+    }
+
+    catch (error) {
+
+        console.warn(
+            "Invalid URL:",
+            value
+        );
+    }
+
+    return "#";
+}
+
+
+/* =========================================
+   priority
+========================================= */
+
+function getPriority(value) {
+
+    if (
+        value === "A"
+        ||
+        value === "B"
+        ||
+        value === "C"
+    ) {
+
+        return value;
+    }
+
+    return "B";
+}
+
+
+/* =========================================
+   创建卡片
+========================================= */
+
+function createCard(item) {
+
+    const priority =
+        getPriority(
+            item.priority
+        );
+
+
+    const card =
+        document.createElement(
+            "article"
+        );
+
+
+    card.className =
+        `news-card card-${priority}`;
+
+
+    const title =
+        item.display_title
+        ||
+        item.title
+        ||
+        "未命名资讯";
+
+
+    /* -------------------------
+       突破标签
+    -------------------------- */
+
+    const breakthroughBadge =
+        item.is_breakthrough
+        ? `
+            <span class="breakthrough">
+                🔥 突破
+            </span>
+          `
+        : "";
+
+
+    /* -------------------------
+       摘要
+    -------------------------- */
+
+    const summary =
+        item.summary
+        ? `
+            <p class="summary">
+                ${escapeHTML(
+                    item.summary
+                )}
+            </p>
+          `
+        : "";
+
+
+    /* -------------------------
+       GitHub Stars
+    -------------------------- */
+
+    const stars =
+        item.meta &&
+        item.meta.stars
+        ? `
+            <span>
+                ⭐ ${escapeHTML(
+                    item.meta.stars
+                )}
+            </span>
+          `
+        : "";
+
+
+    /* -------------------------
+       程序语言
+    -------------------------- */
+
+    const language =
+        item.meta &&
+        item.meta.language
+        ? `
+            <span>
+                ${escapeHTML(
+                    item.meta.language
+                )}
+            </span>
+          `
+        : "";
+
+
+    card.innerHTML = `
+
+        <div class="card-header">
+
+            <span
+                class="priority
+                priority-${priority}"
+            >
+                ${priority}
+            </span>
+
+
+            <span class="category">
+                ${escapeHTML(
+                    item.category
+                    || "其他"
+                )}
+            </span>
+
+
+            ${breakthroughBadge}
+
+        </div>
+
+
+        <h3>
+
+            <a
+                href="${escapeHTML(
+                    safeURL(
+                        item.url
+                    )
+                )}"
+
+                target="_blank"
+
+                rel="noopener noreferrer"
+            >
+                ${escapeHTML(
+                    title
+                )}
+            </a>
+
+        </h3>
+
+
+        ${summary}
+
+
+        <div class="meta">
+
+            <span class="source">
+                ${escapeHTML(
+                    item.source
+                    || "未知来源"
+                )}
+            </span>
+
+
+            <span>
+                ${escapeHTML(
+                    formatDate(
+                        item.published_at
+                    )
+                )}
+            </span>
+
+
+            ${stars}
+
+            ${language}
+
+        </div>
+
+    `;
+
+
+    return card;
+}
+
+
+/* =========================================
+   渲染
+========================================= */
 
 function renderItems(items) {
 
@@ -49,15 +358,45 @@ function renderItems(items) {
             "news-list"
         );
 
+
+    const resultCount =
+        document.getElementById(
+            "result-count"
+        );
+
+
+    if (!container) {
+        return;
+    }
+
+
     container.innerHTML = "";
+
+
+    if (resultCount) {
+
+        resultCount.textContent =
+            `共 ${items.length} 条`;
+    }
 
 
     if (!items.length) {
 
-        container.innerHTML =
-            `<div class="empty">
-                暂无符合条件的资讯
-            </div>`;
+        container.innerHTML = `
+
+            <div class="empty">
+
+                <strong>
+                    暂无符合条件的资讯
+                </strong>
+
+                <p>
+                    当前栏目尚未抓取到符合筛选条件的最新内容。
+                </p>
+
+            </div>
+
+        `;
 
         return;
     }
@@ -65,128 +404,218 @@ function renderItems(items) {
 
     items.forEach(item => {
 
-        const card =
-            document.createElement(
-                "article"
-            );
-
-        card.className =
-            `news-card card-${item.priority}`;
-
-
-        const stars =
-            item.meta &&
-            item.meta.stars
-                ? `⭐ ${escapeHTML(
-                    item.meta.stars
-                )}`
-                : "";
-
-
-        const language =
-            item.meta &&
-            item.meta.language
-                ? escapeHTML(
-                    item.meta.language
-                )
-                : "";
-
-
-        const summary =
-            item.summary
-                ? `
-                    <p class="summary">
-                        ${escapeHTML(
-                            item.summary
-                        )}
-                    </p>
-                  `
-                : "";
-
-
-        card.innerHTML = `
-
-            <div class="card-header">
-
-                <span
-                    class="priority
-                    priority-${escapeHTML(
-                        item.priority
-                    )}"
-                >
-                    ${escapeHTML(
-                        item.priority
-                    )}
-                </span>
-
-                <span class="category">
-                    ${escapeHTML(
-                        item.category
-                    )}
-                </span>
-
-            </div>
-
-
-            <h3>
-
-                <a
-                    href="${escapeHTML(
-                        item.url
-                    )}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    ${escapeHTML(
-                        item.title
-                    )}
-                </a>
-
-            </h3>
-
-
-            ${summary}
-
-
-            <div class="meta">
-
-                <span>
-                    ${escapeHTML(
-                        item.source
-                    )}
-                </span>
-
-                <span>
-                    ${formatDate(
-                        item.published_at
-                    )}
-                </span>
-
-                ${
-                    stars
-                        ? `<span>${stars}</span>`
-                        : ""
-                }
-
-                ${
-                    language
-                        ? `<span>${language}</span>`
-                        : ""
-                }
-
-            </div>
-
-        `;
-
-
         container.appendChild(
-            card
+            createCard(item)
         );
 
     });
-
 }
 
+
+/* =========================================
+   分类数量
+========================================= */
+
+function getCounts() {
+
+    const counts = {
+
+        all:
+            allItems.length,
+
+        "AI变现":
+            0,
+
+        "提效工具":
+            0,
+
+        "多源数据":
+            0,
+
+        "前沿研究":
+            0
+    };
+
+
+    allItems.forEach(item => {
+
+        if (
+            Object.prototype
+                .hasOwnProperty.call(
+                    counts,
+                    item.category
+                )
+        ) {
+
+            counts[
+                item.category
+            ] += 1;
+        }
+
+    });
+
+
+    return counts;
+}
+
+
+/* =========================================
+   更新按钮数量
+========================================= */
+
+function updateFilterCounts() {
+
+    const counts =
+        getCounts();
+
+
+    document
+        .querySelectorAll(
+            ".filter"
+        )
+        .forEach(button => {
+
+            const category =
+                button.dataset.category;
+
+
+            if (
+                !button.dataset.label
+            ) {
+
+                button.dataset.label =
+                    button.textContent.trim();
+            }
+
+
+            const label =
+                button.dataset.label;
+
+
+            const count =
+                counts[category]
+                || 0;
+
+
+            button.innerHTML = `
+
+                <span>
+                    ${escapeHTML(
+                        label
+                    )}
+                </span>
+
+                <span class="filter-count">
+                    ${count}
+                </span>
+
+            `;
+
+        });
+}
+
+
+/* =========================================
+   今日提示
+========================================= */
+
+function updateSummary(
+    data
+) {
+
+    const element =
+        document.getElementById(
+            "today-summary"
+        );
+
+
+    if (!element) {
+        return;
+    }
+
+
+    const counts =
+        getCounts();
+
+
+    const breakthroughCount =
+        data.breakthrough_count
+        || allItems.filter(
+            item =>
+                item.is_breakthrough
+        ).length;
+
+
+    element.textContent =
+
+        `目前收录 ${allItems.length} 条最新动态，`
+
+        + `其中突破性资讯 ${breakthroughCount} 条；`
+
+        + `AI变现 ${counts["AI变现"]} 条，`
+
+        + `提效工具 ${counts["提效工具"]} 条，`
+
+        + `多源数据 ${counts["多源数据"]} 条，`
+
+        + `前沿研究 ${counts["前沿研究"]} 条。`;
+}
+
+
+/* =========================================
+   筛选
+========================================= */
+
+function applyFilter(category) {
+
+    currentCategory =
+        category;
+
+
+    document
+        .querySelectorAll(
+            ".filter"
+        )
+        .forEach(button => {
+
+            button.classList.toggle(
+                "active",
+                button.dataset.category
+                === category
+            );
+
+        });
+
+
+    if (
+        category === "all"
+    ) {
+
+        renderItems(
+            allItems
+        );
+
+        return;
+    }
+
+
+    const filtered =
+        allItems.filter(
+            item =>
+                item.category
+                === category
+        );
+
+
+    renderItems(
+        filtered
+    );
+}
+
+
+/* =========================================
+   读取JSON
+========================================= */
 
 async function loadNews() {
 
@@ -194,16 +623,21 @@ async function loadNews() {
 
         const response =
             await fetch(
-                `data/news.json?t=${Date.now()}`
+
+                `./data/news.json?t=${Date.now()}`,
+
+                {
+                    cache:
+                        "no-store"
+                }
             );
 
 
         if (!response.ok) {
 
             throw new Error(
-                "无法读取 news.json"
+                `HTTP ${response.status}`
             );
-
         }
 
 
@@ -211,109 +645,133 @@ async function loadNews() {
             await response.json();
 
 
+        if (
+            !data
+            ||
+            !Array.isArray(
+                data.items
+            )
+        ) {
+
+            throw new Error(
+                "news.json格式错误"
+            );
+        }
+
+
         allItems =
-            data.items || [];
+            data.items;
 
 
-        document.getElementById(
-            "update-time"
-        ).textContent =
-            data.updated_at
-                ? `最近更新：${
-                    new Date(
-                        data.updated_at
-                    ).toLocaleString(
-                        "zh-CN"
-                    )
-                }`
-                : "等待首次自动更新";
+        /* -------------------------
+           更新时间
+        -------------------------- */
+
+        const updateElement =
+            document.getElementById(
+                "update-time"
+            );
 
 
-        document.getElementById(
-            "today-summary"
-        ).textContent =
-            `目前共收录 ${
-                allItems.length
-            } 条最新动态，重点监控 AI 工具、GitHub、Scientific Data 与 Nature Cities。`;
+        if (updateElement) {
+
+            updateElement.textContent =
+                formatUpdateTime(
+                    data.updated_at
+                );
+        }
 
 
-        renderItems(
-            allItems
+        /* -------------------------
+           数量
+        -------------------------- */
+
+        updateFilterCounts();
+
+
+        /* -------------------------
+           今日提示
+        -------------------------- */
+
+        updateSummary(
+            data
+        );
+
+
+        /* -------------------------
+           默认全部
+        -------------------------- */
+
+        applyFilter(
+            currentCategory
         );
 
     }
+
 
     catch (error) {
 
         console.error(
+            "加载资讯失败：",
             error
         );
 
-        document.getElementById(
-            "news-list"
-        ).innerHTML =
-            `<div class="empty">
-                数据加载失败，请稍后刷新。
-            </div>`;
+
+        const container =
+            document.getElementById(
+                "news-list"
+            );
+
+
+        if (container) {
+
+            container.innerHTML = `
+
+                <div class="empty error-box">
+
+                    <strong>
+                        数据加载失败
+                    </strong>
+
+                    <p>
+                        请稍后刷新页面。
+                    </p>
+
+                </div>
+
+            `;
+        }
 
     }
-
 }
 
 
-document.querySelectorAll(
-    ".filter"
-).forEach(button => {
+/* =========================================
+   按钮事件
+========================================= */
 
-    button.addEventListener(
-        "click",
-        () => {
+document
+    .querySelectorAll(
+        ".filter"
+    )
+    .forEach(button => {
 
-            document.querySelectorAll(
-                ".filter"
-            ).forEach(
-                item =>
-                    item.classList.remove(
-                        "active"
-                    )
-            );
+        button.addEventListener(
+            "click",
+            () => {
 
-
-            button.classList.add(
-                "active"
-            );
-
-
-            const category =
-                button.dataset.category;
-
-
-            if (
-                category === "all"
-            ) {
-
-                renderItems(
-                    allItems
+                applyFilter(
+                    button.dataset.category
                 );
 
             }
+        );
 
-            else {
+    });
 
-                renderItems(
-                    allItems.filter(
-                        item =>
-                            item.category
-                            === category
-                    )
-                );
 
-            }
-
-        }
-    );
-
-});
-
+/* =========================================
+   启动
+========================================= */
 
 loadNews();
