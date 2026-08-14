@@ -24,12 +24,12 @@ NATURE_FEEDS = [
     {
         "name": "Scientific Data",
         "url": "https://www.nature.com/sdata.rss",
-        "category": "新数据"
+        "category": "多源数据"
     },
     {
         "name": "Nature Cities",
         "url": "https://www.nature.com/natcities.rss",
-        "category": "新研究"
+        "category": "前沿研究"
     }
 ]
 
