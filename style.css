@@ -44,7 +44,7 @@ body {
     color: white;
 
     padding:
-        30px 20px 32px;
+        30px 22px 34px;
 }
 
 
@@ -52,7 +52,7 @@ body {
 
     width: 100%;
 
-    max-width: 920px;
+    max-width: 1180px;
 
     margin: 0 auto;
 }
@@ -72,9 +72,9 @@ body {
 
     margin: 0;
 
-    font-size: 32px;
+    font-size: 34px;
 
-    font-weight: 750;
+    font-weight: 760;
 }
 
 
@@ -112,19 +112,19 @@ body {
 
 
 /* =========================================
-   页面主体
+   主体
 ========================================= */
 
 .container {
 
     width: 100%;
 
-    max-width: 920px;
+    max-width: 1180px;
 
     margin: 0 auto;
 
     padding:
-        24px 18px 60px;
+        26px 18px 65px;
 }
 
 
@@ -136,10 +136,10 @@ body {
 
     background: white;
 
-    border-radius: 14px;
+    border-radius: 15px;
 
     padding:
-        20px 22px;
+        20px 23px;
 
     margin-bottom: 24px;
 
@@ -187,7 +187,7 @@ body {
 
     gap: 9px;
 
-    margin-bottom: 28px;
+    margin-bottom: 32px;
 }
 
 
@@ -197,7 +197,7 @@ body {
 
     align-items: center;
 
-    gap: 6px;
+    gap: 7px;
 
     border: none;
 
@@ -206,7 +206,7 @@ body {
     color: #344e62;
 
     padding:
-        8px 14px;
+        9px 15px;
 
     border-radius: 999px;
 
@@ -217,12 +217,12 @@ body {
     cursor: pointer;
 
     box-shadow:
-        0 1px 3px
+        0 1px 4px
         rgba(
             0,
             0,
             0,
-            0.04
+            0.045
         );
 
     transition:
@@ -245,11 +245,17 @@ body {
 }
 
 
+.journal-filter {
+
+    font-weight: 550;
+}
+
+
 .filter-count {
 
-    min-width: 20px;
+    min-width: 21px;
 
-    height: 20px;
+    height: 21px;
 
     padding:
         0 6px;
@@ -282,14 +288,26 @@ body {
             255,
             255,
             255,
-            0.2
+            0.22
         );
 }
 
 
 /* =========================================
-   最新资讯标题
+   Section
 ========================================= */
+
+.featured-section {
+
+    margin-bottom: 38px;
+}
+
+
+.news-section {
+
+    margin-top: 10px;
+}
+
 
 .section-heading {
 
@@ -300,7 +318,9 @@ body {
     justify-content:
         space-between;
 
-    margin-bottom: 15px;
+    gap: 15px;
+
+    margin-bottom: 16px;
 }
 
 
@@ -310,7 +330,7 @@ body {
 
     margin: 0;
 
-    padding-bottom: 6px;
+    padding-bottom: 7px;
 
     font-size: 22px;
 
@@ -347,78 +367,297 @@ body {
 
 
 /* =========================================
+   网格
+========================================= */
+
+.news-grid,
+.featured-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            minmax(
+                0,
+                1fr
+            )
+        );
+
+    gap: 18px;
+}
+
+
+/* =========================================
    卡片
 ========================================= */
 
 .news-card {
 
+    min-width: 0;
+
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: column;
+
     background: white;
 
-    border-radius: 13px;
-
-    padding:
-        18px 20px;
-
-    margin-bottom: 14px;
-
-    border-left:
-        4px solid
-        #8296a5;
+    border-radius: 14px;
 
     box-shadow:
-        0 4px 15px
+        0 4px 16px
         rgba(
             20,
             50,
             76,
-            0.065
+            0.075
         );
 
     transition:
-        all 0.18s ease;
+        transform 0.18s ease,
+        box-shadow 0.18s ease;
 }
 
 
 .news-card:hover {
 
     transform:
-        translateY(-1px);
+        translateY(-3px);
 
     box-shadow:
-        0 7px 22px
+        0 10px 26px
         rgba(
             20,
             50,
             76,
-            0.09
+            0.11
         );
 }
 
 
-.card-A {
+.featured-card {
 
-    border-left-color:
-        #cf263d;
-}
-
-
-.card-B {
-
-    border-left-color:
-        #315d78;
-}
-
-
-.card-C {
-
-    border-left-color:
-        #168d88;
+    border:
+        1px solid
+        rgba(
+            207,
+            38,
+            61,
+            0.1
+        );
 }
 
 
 /* =========================================
-   卡片标签
+   图片
 ========================================= */
+
+.image-link {
+
+    display: block;
+
+    text-decoration: none;
+}
+
+
+.image-box {
+
+    position: relative;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 9;
+
+    overflow: hidden;
+
+    background: #dde4e9;
+}
+
+
+.card-image {
+
+    display: block;
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.25s ease;
+}
+
+
+.news-card:hover
+.card-image {
+
+    transform:
+        scale(1.025);
+}
+
+
+/* =========================================
+   默认视觉封面
+========================================= */
+
+.image-placeholder {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 3px;
+
+    color: white;
+
+    text-align: center;
+}
+
+
+.image-placeholder strong {
+
+    font-size: 32px;
+
+    letter-spacing: 1px;
+
+    line-height: 1.1;
+}
+
+
+.image-placeholder span {
+
+    font-size: 11px;
+
+    letter-spacing: 1.5px;
+
+    opacity: 0.76;
+}
+
+
+.placeholder-ai {
+
+    background:
+        linear-gradient(
+            135deg,
+            #153d5d,
+            #198785
+        );
+}
+
+
+.placeholder-tool {
+
+    background:
+        linear-gradient(
+            135deg,
+            #31495f,
+            #657d90
+        );
+}
+
+
+.placeholder-research {
+
+    background:
+        linear-gradient(
+            135deg,
+            #7a2634,
+            #c35543
+        );
+}
+
+
+.placeholder-data {
+
+    background:
+        linear-gradient(
+            135deg,
+            #174665,
+            #467ca0
+        );
+}
+
+
+.placeholder-city {
+
+    background:
+        linear-gradient(
+            135deg,
+            #275241,
+            #5d8771
+        );
+}
+
+
+/* =========================================
+   图片突破角标
+========================================= */
+
+.image-breakthrough {
+
+    position: absolute;
+
+    left: 11px;
+
+    top: 11px;
+
+    padding:
+        5px 9px;
+
+    border-radius: 999px;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.93
+        );
+
+    color: #b45700;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+    box-shadow:
+        0 2px 8px
+        rgba(
+            0,
+            0,
+            0,
+            0.1
+        );
+}
+
+
+/* =========================================
+   卡片正文
+========================================= */
+
+.card-body {
+
+    padding:
+        15px 16px 16px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    flex: 1;
+}
+
 
 .card-header {
 
@@ -428,7 +667,7 @@ body {
 
     flex-wrap: wrap;
 
-    gap: 8px;
+    gap: 7px;
 
     margin-bottom: 8px;
 }
@@ -436,9 +675,11 @@ body {
 
 .priority {
 
-    width: 28px;
+    width: 27px;
 
-    height: 28px;
+    height: 27px;
+
+    flex-shrink: 0;
 
     border-radius: 50%;
 
@@ -457,27 +698,32 @@ body {
 
 
 .priority-A {
-
     background: #cf263d;
 }
 
 
 .priority-B {
-
     background: #315d78;
 }
 
 
 .priority-C {
-
     background: #168d88;
 }
 
 
 .category {
 
+    max-width: 170px;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+
     padding:
-        4px 10px;
+        4px 9px;
 
     background: #edf2f5;
 
@@ -485,32 +731,22 @@ body {
 
     border-radius: 999px;
 
-    font-size: 12px;
+    font-size: 11px;
 }
 
 
-/* =========================================
-   突破标签
-========================================= */
-
 .breakthrough {
 
-    display: inline-flex;
-
-    align-items: center;
-
     padding:
-        4px 9px;
+        4px 8px;
 
     border-radius: 999px;
 
-    background:
-        #fff2e4;
+    background: #fff2e4;
 
-    color:
-        #b75c00;
+    color: #b75c00;
 
-    font-size: 12px;
+    font-size: 11px;
 
     font-weight: 650;
 }
@@ -523,11 +759,19 @@ body {
 .news-card h3 {
 
     margin:
-        8px 0;
+        2px 0 8px;
 
-    font-size: 18px;
+    font-size: 17px;
 
     line-height: 1.5;
+
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 2;
+
+    overflow: hidden;
 }
 
 
@@ -552,40 +796,52 @@ body {
 .summary {
 
     margin:
-        8px 0;
+        0 0 11px;
 
-    color: #5d6e7b;
+    color: #667682;
 
-    font-size: 14px;
+    font-size: 13px;
 
-    line-height: 1.75;
+    line-height: 1.65;
+
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 2;
+
+    overflow: hidden;
 }
 
 
 /* =========================================
-   元数据
+   Meta
 ========================================= */
 
 .meta {
+
+    margin-top: auto;
+
+    padding-top: 8px;
 
     display: flex;
 
     flex-wrap: wrap;
 
     gap:
-        7px 14px;
-
-    margin-top: 12px;
+        5px 10px;
 
     color: #909da7;
 
-    font-size: 12px;
+    font-size: 11px;
 }
 
 
 .source {
 
-    font-weight: 550;
+    color: #768894;
+
+    font-weight: 600;
 }
 
 
@@ -597,23 +853,20 @@ body {
 
     background: white;
 
-    border-radius: 13px;
+    border-radius: 14px;
 
-    padding:
-        36px 20px;
+    padding: 36px 20px;
 
     text-align: center;
 
     color: #788994;
+}
 
-    box-shadow:
-        0 3px 12px
-        rgba(
-            20,
-            50,
-            76,
-            0.05
-        );
+
+.full-grid {
+
+    grid-column:
+        1 / -1;
 }
 
 
@@ -632,22 +885,14 @@ body {
 }
 
 
-.error-box {
-
-    border-left:
-        4px solid
-        #cf263d;
-}
-
-
 /* =========================================
-   页脚
+   Footer
 ========================================= */
 
 .footer {
 
     padding:
-        35px 20px;
+        36px 20px;
 
     border-top:
         1px solid
@@ -671,6 +916,30 @@ body {
 
 
 /* =========================================
+   平板
+========================================= */
+
+@media (
+    max-width: 900px
+) {
+
+    .news-grid,
+    .featured-grid {
+
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(
+                    0,
+                    1fr
+                )
+            );
+    }
+
+}
+
+
+/* =========================================
    手机
 ========================================= */
 
@@ -681,13 +950,13 @@ body {
     .header {
 
         padding:
-            24px 16px 26px;
+            24px 16px 27px;
     }
 
 
     .header h1 {
 
-        font-size: 27px;
+        font-size: 28px;
     }
 
 
@@ -706,8 +975,7 @@ body {
 
     .intro {
 
-        padding:
-            17px;
+        padding: 17px;
     }
 
 
@@ -715,7 +983,7 @@ body {
 
         gap: 7px;
 
-        margin-bottom: 22px;
+        margin-bottom: 25px;
     }
 
 
@@ -724,17 +992,17 @@ body {
         padding:
             7px 11px;
 
-        font-size: 13px;
+        font-size: 12px;
     }
 
 
     .filter-count {
 
-        font-size: 10px;
-
         min-width: 18px;
 
         height: 18px;
+
+        font-size: 9px;
     }
 
 
@@ -744,24 +1012,26 @@ body {
     }
 
 
-    .news-card {
+    .news-grid,
+    .featured-grid {
 
-        border-radius: 11px;
+        grid-template-columns:
+            1fr;
 
-        padding:
-            16px 15px;
+        gap: 14px;
     }
 
 
     .news-card h3 {
 
-        font-size: 16px;
+        font-size: 17px;
     }
 
 
-    .summary {
+    .image-box {
 
-        font-size: 13px;
+        aspect-ratio:
+            16 / 8.8;
     }
 
 }
