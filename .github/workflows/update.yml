@@ -1,1 +1,93 @@
+name: Update Research Radar
 
+on:
+
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 * * * *"
+
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+
+jobs:
+
+  update:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+
+      - name: Fetch latest information
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/update_news.py
+
+
+      - name: Commit updated data
+        run: |
+
+          git config user.name "icat-radar-bot"
+
+          git config user.email "icat-radar-bot@users.noreply.github.com"
+
+          git add data/news.json
+
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Update research radar data"
+            git push
+          fi
+
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "."
+
+
+  deploy:
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+
+    needs: update
+
+    steps:
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
