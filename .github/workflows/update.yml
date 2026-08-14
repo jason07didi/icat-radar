@@ -3,81 +3,151 @@ name: Update Research Radar
 
 on:
 
-  # 可以手动运行
+  # =======================================================
+  # 手动运行
+  # =======================================================
+
   workflow_dispatch:
 
-  # 每小时第17分钟自动更新
-  schedule:
-    - cron: "17 * * * *"
 
-  # 修改网站代码后自动运行
+  # =======================================================
+  # 自动运行
+  #
+  # 每小时：
+  # xx:17
+  # xx:47
+  #
+  # 即大约每30分钟一次
+  # =======================================================
+
+  schedule:
+
+    - cron: "17,47 * * * *"
+
+
+  # =======================================================
+  # 修改网站代码时自动运行
+  #
+  # 注意：
+  # 不包含 data/news.json
+  #
+  # 因此机器人自动提交 news.json
+  # 不会再次触发自己
+  # =======================================================
+
   push:
+
     branches:
+
       - main
 
+
     paths:
+
       - "index.html"
+
       - "app.js"
+
       - "style.css"
+
       - "scripts/**"
+
       - "requirements.txt"
+
       - ".github/workflows/update.yml"
 
 
+
+# =========================================================
+# 权限
+# =========================================================
+
 permissions:
+
   contents: write
+
   pages: write
+
   id-token: write
 
 
+
 # =========================================================
-# 防止多个任务同时修改 news.json
-# 新任务启动时，取消尚未完成的旧任务
+# 并发控制
+#
+# 如果你连续Commit，
+# 或自动任务与手动任务撞在一起，
+# 保留最新任务，取消旧任务。
 # =========================================================
 
 concurrency:
+
   group: research-radar-main
+
   cancel-in-progress: true
 
 
+
+# =========================================================
+# Jobs
+# =========================================================
+
 jobs:
 
+
+  # =======================================================
+  # 1. 更新数据
+  # =======================================================
+
   update:
+
 
     runs-on: ubuntu-latest
 
 
+    # 防止异常情况下无限运行
+    timeout-minutes: 25
+
+
     steps:
 
-      # =====================================================
+
+      # ===================================================
       # Checkout
-      # 始终读取 main 最新版本
-      # =====================================================
+      # ===================================================
 
       - name: Checkout repository
+
         uses: actions/checkout@v4
 
         with:
+
           ref: main
+
           fetch-depth: 0
 
 
-      # =====================================================
+
+      # ===================================================
       # Python
-      # =====================================================
+      # ===================================================
 
       - name: Setup Python
+
         uses: actions/setup-python@v5
 
         with:
+
           python-version: "3.12"
 
 
-      # =====================================================
-      # Dependencies
-      # =====================================================
+
+      # ===================================================
+      # 安装依赖
+      # ===================================================
 
       - name: Install dependencies
+
         run: |
 
           python -m pip install --upgrade pip
@@ -85,13 +155,30 @@ jobs:
           pip install -r requirements.txt
 
 
-      # =====================================================
-      # 抓取资讯
-      # =====================================================
+
+      # ===================================================
+      # 执行科研雷达
+      #
+      # 包括：
+      #
+      # AIBase
+      # 量子位
+      # 科技日报
+      # 科学网
+      # DeepTech
+      # GitHub
+      # Scientific Data
+      # Nature Cities
+      #
+      # 百度热点
+      # Nature Portfolio论文池
+      # 热点 × Nature匹配
+      # ===================================================
 
       - name: Fetch latest information
 
         env:
+
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
@@ -99,58 +186,242 @@ jobs:
           python scripts/update_news.py
 
 
-      # =====================================================
-      # 提交 news.json
-      # =====================================================
+
+      # ===================================================
+      # 检查生成结果
+      #
+      # 防止Python异常没有生成JSON，
+      # 却继续部署空页面。
+      # ===================================================
+
+      - name: Check generated data
+
+        run: |
+
+          if [ ! -f "data/news.json" ]; then
+
+            echo "ERROR: data/news.json was not generated"
+
+            exit 1
+
+          fi
+
+
+          python - <<'PY'
+
+          import json
+
+          from pathlib import Path
+
+
+          path = Path("data/news.json")
+
+
+          with path.open(
+              "r",
+              encoding="utf-8"
+          ) as f:
+
+              data = json.load(f)
+
+
+          items = data.get(
+              "items",
+              []
+          )
+
+
+          hotspots = data.get(
+              "hotspots",
+              []
+          )
+
+
+          print(
+              "News items:",
+              len(items)
+          )
+
+
+          print(
+              "Hotspots:",
+              len(hotspots)
+          )
+
+
+          if not isinstance(
+              items,
+              list
+          ):
+
+              raise RuntimeError(
+                  "items is not a list"
+              )
+
+
+          if not isinstance(
+              hotspots,
+              list
+          ):
+
+              raise RuntimeError(
+                  "hotspots is not a list"
+              )
+
+
+          print(
+              "news.json check passed"
+          )
+
+          PY
+
+
+
+      # ===================================================
+      # 提交最新 news.json
+      # ===================================================
 
       - name: Commit updated data
 
         run: |
 
-          git config user.name "icat-radar-bot"
+          git config \
+            user.name \
+            "icat-radar-bot"
 
-          git config user.email \
+
+          git config \
+            user.email \
             "icat-radar-bot@users.noreply.github.com"
 
 
-          git add data/news.json
+          git add \
+            data/news.json
 
+
+          # =================================================
+          # 如果news.json没有变化
+          # 不提交
+          # =================================================
 
           if git diff --cached --quiet; then
 
             echo "No data changes"
 
-          else
-
-            git commit \
-              -m "Update research radar data"
-
-
-            # 获取 main 最新状态，防止普通代码提交造成冲突
-            git pull --rebase origin main
-
-
-            git push origin HEAD:main
+            exit 0
 
           fi
 
 
-      # =====================================================
-      # GitHub Pages
-      # =====================================================
+          git commit \
+            -m "Update research radar data"
+
+
+          # =================================================
+          # Push重试
+          #
+          # 防止运行过程中 main 又发生变化
+          # =================================================
+
+          PUSH_SUCCESS=0
+
+
+          for ATTEMPT in 1 2 3
+          do
+
+            echo \
+              "Push attempt ${ATTEMPT}"
+
+
+            git fetch \
+              origin \
+              main
+
+
+            # 如果远程main更新，
+            # 将机器人提交rebase到最新main上
+
+            if ! git rebase origin/main
+            then
+
+              echo \
+                "Rebase failed"
+
+              git rebase --abort || true
+
+              exit 1
+
+            fi
+
+
+            if git push \
+              origin \
+              HEAD:main
+            then
+
+              PUSH_SUCCESS=1
+
+              break
+
+            fi
+
+
+            echo \
+              "Push failed, retrying..."
+
+
+            sleep 5
+
+          done
+
+
+          if [ "$PUSH_SUCCESS" -ne 1 ]; then
+
+            echo \
+              "ERROR: Failed to push after 3 attempts"
+
+            exit 1
+
+          fi
+
+
+
+      # ===================================================
+      # GitHub Pages配置
+      # ===================================================
 
       - name: Configure GitHub Pages
+
         uses: actions/configure-pages@v5
 
 
+
+      # ===================================================
+      # 上传网站
+      # ===================================================
+
       - name: Upload Pages artifact
+
         uses: actions/upload-pages-artifact@v4
 
         with:
+
           path: "."
 
 
+
+  # =======================================================
+  # 2. 部署网页
+  # =======================================================
+
   deploy:
+
+
+    runs-on: ubuntu-latest
+
+
+    needs: update
+
 
     environment:
 
@@ -159,12 +430,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
 
-    runs-on: ubuntu-latest
-
-    needs: update
-
-
     steps:
+
 
       - name: Deploy GitHub Pages
 
