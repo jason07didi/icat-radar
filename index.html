@@ -2,6 +2,7 @@
 <html lang="zh-CN">
 
 <head>
+
     <meta charset="UTF-8">
 
     <meta
@@ -11,184 +12,172 @@
 
     <meta
         name="description"
-        content="ICAT科研前沿雷达：聚焦AI变现、科研提效、多源城市数据与城市前沿研究。"
+        content="ICAT科研前沿雷达：聚焦AI变现、科研提效、多源数据与重大科技突破。"
     >
 
-    <title>科研前沿雷达｜ICAT</title>
+    <title>
+        ICAT · 科研前沿雷达
+    </title>
 
     <link
         rel="stylesheet"
         href="./style.css"
     >
+
 </head>
 
 
 <body>
 
-    <!-- =========================
-         顶部区域
-    ========================== -->
 
-    <header class="header">
+<header class="header">
 
-        <div class="header-inner">
+    <div class="header-inner">
 
-            <div class="site-label">
-                ICAT · Research Radar
-            </div>
+        <div class="site-label">
+            ICAT · Research Radar
+        </div>
 
-            <h1>
-                科研前沿雷达
-            </h1>
+        <h1>
+            科研前沿雷达
+        </h1>
 
-            <p class="subtitle">
-                AI变现 · 提效工具 · 多源数据 · 前沿研究
-            </p>
+        <p class="subtitle">
+            AI变现 · 提效工具 · 多源数据 · 前沿研究
+        </p>
 
-            <div
-                id="update-time"
-                class="update-time"
+        <div
+            id="update-time"
+            class="update-time"
+        >
+            正在读取最近更新时间……
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<main class="container">
+
+
+    <!-- 今日提示 -->
+
+    <section class="intro">
+
+        <h2>
+            今日提示
+        </h2>
+
+        <p id="today-summary">
+            正在读取最新资讯……
+        </p>
+
+    </section>
+
+
+
+    <!-- 分类 -->
+
+    <nav
+        class="filters"
+        aria-label="资讯分类"
+    >
+
+        <button
+            type="button"
+            class="filter active"
+            data-category="all"
+        >
+            全部
+        </button>
+
+        <button
+            type="button"
+            class="filter"
+            data-category="AI变现"
+        >
+            AI变现
+        </button>
+
+        <button
+            type="button"
+            class="filter"
+            data-category="提效工具"
+        >
+            提效工具
+        </button>
+
+        <button
+            type="button"
+            class="filter"
+            data-category="多源数据"
+        >
+            多源数据
+        </button>
+
+        <button
+            type="button"
+            class="filter"
+            data-category="前沿研究"
+        >
+            前沿研究
+        </button>
+
+    </nav>
+
+
+
+    <!-- 最新资讯 -->
+
+    <section class="news-section">
+
+        <div class="section-heading">
+
+            <h2 class="section-title">
+                最新资讯
+            </h2>
+
+            <span
+                id="result-count"
+                class="result-count"
             >
+            </span>
+
+        </div>
+
+
+        <div id="news-list">
+
+            <div class="empty">
                 正在读取最新资讯……
             </div>
 
         </div>
 
-    </header>
+    </section>
 
 
-    <!-- =========================
-         主内容区域
-    ========================== -->
-
-    <main class="container">
+</main>
 
 
-        <!-- 今日提示 -->
 
-        <section class="intro">
+<footer class="footer">
 
-            <h2>
-                今日提示
-            </h2>
+    <strong>
+        ICAT · 科研前沿雷达
+    </strong>
 
-            <p id="today-summary">
-                正在加载最新科研动态……
-            </p>
+    <p>
+        发现值得关注的新工具、新数据与重大科技突破
+    </p>
 
-        </section>
-
-
-        <!-- =========================
-             分类导航
-        ========================== -->
-
-        <nav
-            class="filters"
-            aria-label="资讯分类"
-        >
-
-            <button
-                type="button"
-                class="filter active"
-                data-category="all"
-            >
-                全部
-            </button>
-
-            <button
-                type="button"
-                class="filter"
-                data-category="AI变现"
-            >
-                AI变现
-            </button>
-
-            <button
-                type="button"
-                class="filter"
-                data-category="提效工具"
-            >
-                提效工具
-            </button>
-
-            <button
-                type="button"
-                class="filter"
-                data-category="城市数据"
-            >
-                多源数据
-            </button>
-
-            <button
-                type="button"
-                class="filter"
-                data-category="城市前沿"
-            >
-                前沿研究
-            </button>
-
-        </nav>
+</footer>
 
 
-        <!-- =========================
-             最新资讯
-        ========================== -->
+<script src="./app.js"></script>
 
-        <section class="news-section">
-
-            <div class="section-heading">
-
-                <h2 class="section-title">
-                    最新资讯
-                </h2>
-
-                <span
-                    id="result-count"
-                    class="result-count"
-                >
-                </span>
-
-            </div>
-
-
-            <div id="news-list">
-
-                <div class="empty">
-                    正在读取最新资讯……
-                </div>
-
-            </div>
-
-        </section>
-
-
-    </main>
-
-
-    <!-- =========================
-         页脚
-    ========================== -->
-
-    <footer class="footer">
-
-        <div class="footer-inner">
-
-            <strong>
-                ICAT · 科研前沿雷达
-            </strong>
-
-            <p>
-                聚焦值得关注的新工具、新数据与城市研究动态
-            </p>
-
-        </div>
-
-    </footer>
-
-
-    <!-- JavaScript -->
-    <script src="./app.js"></script>
 
 </body>
 
