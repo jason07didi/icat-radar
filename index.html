@@ -12,7 +12,7 @@
 
     <meta
         name="description"
-        content="ICAT科研前沿雷达：聚焦AI变现、科研提效、多源数据与重大科技突破。"
+        content="ICAT科研前沿雷达：发现AI应用、科研提效工具、重大科技突破及Nature期刊最新文章。"
     >
 
     <title>
@@ -43,7 +43,7 @@
         </h1>
 
         <p class="subtitle">
-            AI变现 · 提效工具 · 多源数据 · 前沿研究
+            新工具 · 新发现 · 新数据 · 新突破
         </p>
 
         <div
@@ -62,7 +62,7 @@
 <main class="container">
 
 
-    <!-- 今日提示 -->
+    <!-- 雷达概览 -->
 
     <section class="intro">
 
@@ -71,14 +71,14 @@
         </h2>
 
         <p id="today-summary">
-            正在读取最新资讯……
+            正在读取最新科研动态……
         </p>
 
     </section>
 
 
 
-    <!-- 分类 -->
+    <!-- 导航 -->
 
     <nav
         class="filters"
@@ -88,44 +88,95 @@
         <button
             type="button"
             class="filter active"
-            data-category="all"
+            data-filter-type="all"
+            data-filter-value="all"
         >
             全部
         </button>
 
+
         <button
             type="button"
             class="filter"
-            data-category="AI变现"
+            data-filter-type="category"
+            data-filter-value="AI变现"
         >
             AI变现
         </button>
 
+
         <button
             type="button"
             class="filter"
-            data-category="提效工具"
+            data-filter-type="category"
+            data-filter-value="提效工具"
         >
             提效工具
         </button>
 
-        <button
-            type="button"
-            class="filter"
-            data-category="多源数据"
-        >
-            多源数据
-        </button>
 
         <button
             type="button"
             class="filter"
-            data-category="前沿研究"
+            data-filter-type="category"
+            data-filter-value="前沿动态"
         >
-            前沿研究
+            前沿动态
+        </button>
+
+
+        <button
+            type="button"
+            class="filter journal-filter"
+            data-filter-type="source"
+            data-filter-value="Scientific Data"
+        >
+            Scientific Data
+        </button>
+
+
+        <button
+            type="button"
+            class="filter journal-filter"
+            data-filter-type="source"
+            data-filter-value="Nature Cities"
+        >
+            Nature Cities
         </button>
 
     </nav>
+
+
+
+    <!-- 最新突破 -->
+
+    <section
+        id="featured-section"
+        class="featured-section"
+    >
+
+        <div class="section-heading">
+
+            <h2 class="section-title">
+                🔥 最新突破
+            </h2>
+
+            <span
+                id="featured-count"
+                class="result-count"
+            >
+            </span>
+
+        </div>
+
+
+        <div
+            id="featured-list"
+            class="featured-grid"
+        >
+        </div>
+
+    </section>
 
 
 
@@ -135,7 +186,10 @@
 
         <div class="section-heading">
 
-            <h2 class="section-title">
+            <h2
+                id="list-title"
+                class="section-title"
+            >
                 最新资讯
             </h2>
 
@@ -148,7 +202,10 @@
         </div>
 
 
-        <div id="news-list">
+        <div
+            id="news-list"
+            class="news-grid"
+        >
 
             <div class="empty">
                 正在读取最新资讯……
@@ -170,7 +227,7 @@
     </strong>
 
     <p>
-        发现值得关注的新工具、新数据与重大科技突破
+        发现值得关注的新工具、新数据与科技突破
     </p>
 
 </footer>
