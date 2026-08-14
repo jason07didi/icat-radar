@@ -4,7 +4,7 @@ import json
 import hashlib
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
@@ -14,14 +14,15 @@ from urllib3.util.retry import Retry
 
 
 # =========================================================
-# 基础设置
+# 基础配置
 # =========================================================
 
 DATA_FILE = Path("data/news.json")
 
-MAX_ITEMS = 400
+# 最多保存多少条
+MAX_ITEMS = 500
 
-# 页面保留最近45天
+# 保留最近多少天
 KEEP_DAYS = 45
 
 
@@ -35,17 +36,34 @@ QBITAI_URL = (
     "https://www.qbitai.com/category/%E8%B5%84%E8%AE%AF"
 )
 
+# 科技日报：科技新突破
+STD_BREAKTHROUGH_URL = (
+    "https://www.stdaily.com/web/spxw/node_706.html"
+)
+
+# 科学网
+SCIENCENET_URL = (
+    "https://news.sciencenet.cn/"
+)
+
+# DeepTech / MIT科技评论中文
+DEEPTECH_URL = (
+    "https://www.deeptechchina.com/"
+)
+
+# Scientific Data
 SCIENTIFIC_DATA_URL = (
     "https://www.nature.com/sdata/articles"
 )
 
+# Nature Cities
 NATURE_CITIES_URL = (
     "https://www.nature.com/natcities/articles"
 )
 
 
 # =========================================================
-# HTTP Session
+# HTTP
 # =========================================================
 
 HEADERS = {
@@ -55,6 +73,7 @@ HEADERS = {
         "(KHTML, like Gecko) "
         "Chrome/124.0 Safari/537.36"
     ),
+
     "Accept-Language":
         "zh-CN,zh;q=0.9,en;q=0.8",
 }
@@ -104,185 +123,103 @@ SESSION = build_session()
 
 
 # =========================================================
-# Scientific Data 城市相关关键词
+# “突破雷达”关键词
 # =========================================================
 
-CITY_STRONG_KEYWORDS = [
+BREAKTHROUGH_KEYWORDS = [
 
-    # 城市
-    "urban",
-    "city",
-    "cities",
-    "metropolitan",
-    "urbanization",
-    "urbanisation",
+    # 首次
+    "世界首次",
+    "全球首次",
+    "国际首次",
+    "国内首次",
+    "我国首次",
 
-    # 建筑
-    "building",
-    "buildings",
-    "built environment",
-    "urban morphology",
-    "urban form",
+    "首次实现",
+    "首次发现",
+    "首次证实",
+    "首次观测",
+    "首次揭示",
+    "首次验证",
+    "首次完成",
+    "首次构建",
+    "首次研制",
+    "首次突破",
 
-    # 道路 / 交通
-    "urban road",
-    "road map",
-    "road network",
-    "street network",
-    "street view",
-    "streetscape",
-    "traffic",
-    "transport",
-    "transportation",
+    # 首个
+    "全球首个",
+    "世界首个",
+    "国内首个",
+    "我国首个",
+    "首个",
 
-    # 人口 / 活动
-    "population",
-    "human mobility",
-    "urban mobility",
-    "human settlement",
+    "首例",
+    "首台",
+    "首套",
+    "首颗",
+    "首款",
+    "首现",
 
-    # 城市环境
-    "urban heat",
-    "heat island",
-    "urban climate",
-    "air pollution",
-    "pm2.5",
-    "green space",
-    "greenspace",
+    # 世界纪录
+    "刷新世界纪录",
+    "刷新纪录",
+    "世界纪录",
+    "新纪录",
+    "创纪录",
 
-    # 土地
-    "urban land",
-    "land use",
-    "land cover",
+    # 世界第一
+    "世界第一",
+    "全球第一",
+    "世界最大",
+    "全球最大",
 
-    # 地理空间
-    "geoai",
-    "geospatial",
-    "local climate zone",
-    "lcz",
+    # 突破
+    "重大突破",
+    "关键突破",
+    "取得突破",
+    "实现突破",
+    "新突破",
 
-    # 灯光
-    "nighttime light",
-    "night-time light",
-]
+    # 进展
+    "重大进展",
+    "重要进展",
 
-
-DATA_KEYWORDS = [
-
-    "dataset",
-    "data set",
-    "database",
-    "data resource",
-    "data product",
-    "benchmark",
-    "atlas",
-]
-
-
-# =========================================================
-# GitHub搜索词
-# =========================================================
-
-GITHUB_TOPICS = [
-
-    # 科研效率
-    '"research agent"',
-    '"paper agent"',
-    '"literature review" AI',
-    '"academic writing" AI',
-    '"scientific writing" AI',
-    '"research workflow"',
-    '"zotero" AI',
-    '"data visualization" AI',
-    '"scientific visualization"',
-    '"browser agent"',
-
-    # 城市空间
-    '"urban data"',
-    '"geoai"',
-    '"geospatial" AI',
-    '"GIS" agent',
-    '"remote sensing" AI',
-]
-
-
-GITHUB_POSITIVE = [
-
-    "agent",
-    "ai",
-    "llm",
-
-    "research",
-    "paper",
-    "literature",
-    "academic",
-    "scientific",
-    "zotero",
-    "citation",
-    "workflow",
-    "visualization",
-    "automation",
-    "browser",
-
-    "urban",
-    "city",
-    "geoai",
-    "geospatial",
-    "gis",
-    "remote sensing",
-    "satellite",
-]
-
-
-GITHUB_NEGATIVE = [
-
-    # 医学、生物
-    "lipid",
-    "protein",
-    "genome",
-    "genomic",
-    "clinical",
-    "cancer",
-    "tumor",
-    "molecule",
-    "molecular",
-    "drug discovery",
-
-    # 金融投机
-    "crypto",
-    "cryptocurrency",
-    "casino",
-    "betting",
-
-    # 游戏外挂
-    "game cheat",
-    "hack game",
+    # 其他高价值创新词
+    "里程碑",
+    "问世",
+    "面世",
+    "诞生",
+    "攻克",
+    "破解",
+    "新发现",
+    "新方法",
+    "新策略",
 ]
 
 
 # =========================================================
-# 中文AI资讯关键词
+# AI相关关键词
 # =========================================================
 
 AI_KEYWORDS = [
 
-    "AI",
+    "ai",
     "人工智能",
     "大模型",
     "模型",
     "智能体",
-    "Agent",
+    "agent",
 
-    "ChatGPT",
-    "OpenAI",
-    "Claude",
-    "Anthropic",
-    "Gemini",
-    "DeepSeek",
-    "Qwen",
+    "chatgpt",
+    "openai",
+    "claude",
+    "anthropic",
+    "gemini",
+    "deepseek",
+    "qwen",
     "千问",
     "豆包",
-    "Manus",
+    "manus",
 
     "开源",
     "发布",
@@ -291,7 +228,7 @@ AI_KEYWORDS = [
     "更新",
     "新功能",
     "工具",
-    "API",
+    "api",
 
     "自动化",
     "浏览器",
@@ -310,7 +247,172 @@ AI_KEYWORDS = [
 
 
 # =========================================================
-# 基础文本处理
+# 城市数据关键词
+# =========================================================
+
+CITY_KEYWORDS = [
+
+    "urban",
+    "city",
+    "cities",
+    "metropolitan",
+    "urbanization",
+    "urbanisation",
+
+    "building",
+    "buildings",
+    "built environment",
+    "urban morphology",
+    "urban form",
+
+    "road network",
+    "street network",
+    "street view",
+    "streetscape",
+
+    "human mobility",
+    "urban mobility",
+    "population",
+    "human settlement",
+
+    "traffic",
+    "transport",
+    "transportation",
+
+    "urban heat",
+    "heat island",
+    "urban climate",
+
+    "air pollution",
+    "pm2.5",
+
+    "green space",
+    "greenspace",
+
+    "urban land",
+    "land use",
+    "land cover",
+
+    "geoai",
+    "geospatial",
+
+    "local climate zone",
+    "lcz",
+
+    "nighttime light",
+    "night-time light",
+
+    "remote sensing",
+    "satellite",
+]
+
+
+DATA_KEYWORDS = [
+
+    "dataset",
+    "data set",
+    "database",
+    "data resource",
+    "data product",
+    "benchmark",
+    "atlas",
+]
+
+
+# =========================================================
+# GitHub 搜索
+# =========================================================
+
+GITHUB_TOPICS = [
+
+    '"research agent"',
+
+    '"paper agent"',
+
+    '"literature review" AI',
+
+    '"academic writing" AI',
+
+    '"scientific writing" AI',
+
+    '"research workflow"',
+
+    '"zotero" AI',
+
+    '"data visualization" AI',
+
+    '"scientific visualization"',
+
+    '"browser agent"',
+
+    '"urban data"',
+
+    '"geoai"',
+
+    '"geospatial" AI',
+
+    '"GIS" agent',
+
+    '"remote sensing" AI',
+]
+
+
+GITHUB_POSITIVE = [
+
+    "agent",
+    "ai",
+    "llm",
+
+    "research",
+    "paper",
+    "literature",
+    "academic",
+    "scientific",
+
+    "zotero",
+    "citation",
+
+    "workflow",
+    "visualization",
+    "automation",
+    "browser",
+
+    "urban",
+    "city",
+    "geoai",
+    "geospatial",
+    "gis",
+    "remote sensing",
+    "satellite",
+]
+
+
+GITHUB_NEGATIVE = [
+
+    "lipid",
+    "protein",
+    "genome",
+    "genomic",
+    "clinical",
+    "cancer",
+    "tumor",
+
+    "molecule",
+    "molecular",
+    "drug discovery",
+
+    "crypto",
+    "cryptocurrency",
+    "casino",
+    "betting",
+
+    "game cheat",
+    "hack game",
+]
+
+
+# =========================================================
+# 文本处理
 # =========================================================
 
 def clean_text(text):
@@ -354,42 +456,42 @@ def contains_chinese(text):
 
 def refine_title(title):
 
+    title = clean_text(
+        title
+    )
+
     if not title:
         return ""
 
-    title = clean_text(title)
-
-    # AIBase日报的 #1 #2 等
+    # 删除 #1 #2 之类
     title = re.sub(
         r"^#\s*\d+\s*",
         "",
         title
     )
 
-    # 删除部分媒体栏目头
+    # 删除栏目文字
     title = re.sub(
-        r"^AI日报[：:\s]*",
+        r"^(AI日报|AI资讯)[：:\s]*",
         "",
         title,
         flags=re.I
     )
 
-    title = re.sub(
-        r"^AI资讯[：:\s]*",
-        "",
-        title,
-        flags=re.I
-    )
-
-    # 删除明显营销前缀
+    # 删除营销前缀
     patterns = [
+
         r"^刚刚[！!，,:：\s]*",
+
         r"^重磅[！!，,:：\s]*",
+
         r"^震撼[！!，,:：\s]*",
+
         r"^炸裂[！!，,:：\s]*",
+
         r"^官宣[！!，,:：\s]*",
+
         r"^独家[！!，,:：\s]*",
-        r"^最新[！!，,:：\s]*",
     ]
 
     for pattern in patterns:
@@ -467,35 +569,60 @@ def parse_date(value):
 
 def extract_date_from_text(text):
 
-    """
-    Nature列表中的：
-    12 Aug 2026
-    05 Aug 2026
-    """
-
     if not text:
         return None
 
-    match = re.search(
-        r"\b("
-        r"\d{1,2}\s+"
+    patterns = [
+
+        # 2026-08-14
+        r"(\d{4}[-/.]\d{1,2}[-/.]\d{1,2}"
+        r"(?:\s+\d{1,2}:\d{2}(?::\d{2})?)?)",
+
+        # 14 Aug 2026
+        r"(\d{1,2}\s+"
         r"(?:Jan|Feb|Mar|Apr|May|Jun|"
         r"Jul|Aug|Sep|Oct|Nov|Dec)"
-        r"\s+\d{4}"
-        r")\b",
-        text,
-        flags=re.I
-    )
+        r"\s+\d{4})",
 
-    if match:
+        # 2026年8月14日
+        r"(\d{4}年\d{1,2}月\d{1,2}日"
+        r"(?:\s*\d{1,2}:\d{2})?)",
+    ]
 
-        return match.group(1)
+    for pattern in patterns:
+
+        match = re.search(
+            pattern,
+            text,
+            flags=re.I
+        )
+
+        if match:
+
+            return match.group(1)
 
     return None
 
 
 # =========================================================
-# 创建资讯
+# 是否属于“突破”
+# =========================================================
+
+def is_breakthrough(text):
+
+    text = clean_text(
+        text
+    )
+
+    return any(
+        keyword in text
+        for keyword
+        in BREAKTHROUGH_KEYWORDS
+    )
+
+
+# =========================================================
+# 创建 item
 # =========================================================
 
 def make_item(
@@ -508,7 +635,8 @@ def make_item(
     priority="B",
     language="zh",
     display_title=None,
-    meta=None
+    is_breakthrough_item=False,
+    meta=None,
 ):
 
     return {
@@ -521,7 +649,9 @@ def make_item(
             ),
 
         "title":
-            clean_text(title),
+            clean_text(
+                title
+            ),
 
         "display_title":
             clean_text(
@@ -559,28 +689,99 @@ def make_item(
         "language":
             language,
 
+        "is_breakthrough":
+            bool(
+                is_breakthrough_item
+            ),
+
         "meta":
-            meta or {}
+            meta or {},
     }
 
 
 # =========================================================
-# AI标题价值判断
+# 获取节点上下文
 # =========================================================
 
-def useful_ai_title(title):
+def extract_context(
+    node,
+    title,
+    max_len=220
+):
 
-    text = title.lower()
+    parent = node
+
+    for _ in range(4):
+
+        if parent is None:
+            break
+
+        name = getattr(
+            parent,
+            "name",
+            None
+        )
+
+        if name in {
+            "article",
+            "li"
+        }:
+            break
+
+        parent = parent.parent
+
+    if parent is None:
+        return ""
+
+    text = clean_text(
+        parent.get_text(
+            " ",
+            strip=True
+        )
+    )
+
+    if title:
+
+        text = text.replace(
+            title,
+            "",
+            1
+        ).strip()
+
+    if len(text) > max_len:
+
+        text = (
+            text[:max_len]
+            .rstrip()
+            + "…"
+        )
+
+    return text
+
+
+# =========================================================
+# AI 新闻过滤
+# =========================================================
+
+def useful_ai_text(text):
+
+    low = clean_text(
+        text
+    ).lower()
 
     return any(
-        keyword.lower() in text
-        for keyword in AI_KEYWORDS
+        keyword.lower()
+        in low
+        for keyword
+        in AI_KEYWORDS
     )
 
 
-def ai_priority(title):
+def ai_priority(text):
 
-    text = title.lower()
+    low = clean_text(
+        text
+    ).lower()
 
     strong = [
 
@@ -589,16 +790,19 @@ def ai_priority(title):
         "发布",
         "推出",
         "上线",
+
         "agent",
         "智能体",
         "api",
-        "重大更新",
-        "新功能",
     ]
 
-    if any(
-        word.lower() in text
-        for word in strong
+    if (
+        is_breakthrough(text)
+        or any(
+            word in low
+            for word
+            in strong
+        )
     ):
 
         return "A"
@@ -608,9 +812,7 @@ def ai_priority(title):
 
 # =========================================================
 # AIBase
-#
-# 用户当前设定：
-# AIBase → AI变现
+# 固定 → AI变现
 # =========================================================
 
 def fetch_aibase():
@@ -620,6 +822,7 @@ def fetch_aibase():
     )
 
     results = []
+    seen = set()
 
     try:
 
@@ -646,149 +849,66 @@ def fetch_aibase():
         "html.parser"
     )
 
-    candidates = []
+    for node in soup.find_all(
+        "a",
+        href=True
+    ):
 
-    # -------------------------
-    # 优先标题元素
-    # -------------------------
+        href = node.get(
+            "href",
+            ""
+        )
 
-    selectors = [
-
-        "h2 a[href*='/zh/news/']",
-        "h3 a[href*='/zh/news/']",
-        "h4 a[href*='/zh/news/']",
-    ]
-
-    for selector in selectors:
-
-        for node in soup.select(
-            selector
+        # 只抓新闻文章
+        if not re.search(
+            r"/zh/news/\d+",
+            href
         ):
 
-            title = clean_text(
-                node.get_text(
-                    " ",
-                    strip=True
-                )
+            continue
+
+        title = clean_text(
+            node.get_text(
+                " ",
+                strip=True
             )
+        )
 
-            href = node.get(
-                "href"
-            )
-
-            if (
-                not title
-                or not href
-            ):
-
-                continue
-
-            if not contains_chinese(
-                title
-            ):
-
-                continue
-
-            if len(title) < 8:
-
-                continue
-
-            url = urljoin(
-                AIBASE_URL,
-                href
-            )
-
-            candidates.append(
-                (
-                    title,
-                    url
-                )
-            )
-
-    # -------------------------
-    # fallback
-    # -------------------------
-
-    if not candidates:
-
-        for node in soup.select(
-            "a[href*='/zh/news/']"
+        if not (
+            contains_chinese(title)
+            and
+            8 <= len(title) <= 120
         ):
 
-            raw = clean_text(
-                node.get_text(
-                    " ",
-                    strip=True
-                )
-            )
+            continue
 
-            href = node.get(
-                "href"
-            )
+        url = urljoin(
+            AIBASE_URL,
+            href
+        )
 
-            if (
-                not raw
-                or not href
-            ):
-
-                continue
-
-            if not contains_chinese(
-                raw
-            ):
-
-                continue
-
-            # 如果card内文字非常长，
-            # 尽量取前面的标题
-            title = raw
-
-            if len(title) > 100:
-
-                # 根据常见中文句号截断
-                parts = re.split(
-                    r"[。]",
-                    title
-                )
-
-                title = parts[0]
-
-            if not (
-                8 <= len(title) <= 120
-            ):
-
-                continue
-
-            url = urljoin(
-                AIBASE_URL,
-                href
-            )
-
-            candidates.append(
-                (
-                    title,
-                    url
-                )
-            )
-
-    seen = set()
-
-    for title, url in candidates:
-
-        # URL去重
         if url in seen:
             continue
 
-        seen.add(url)
-
-        if not useful_ai_title(
+        context = extract_context(
+            node,
             title
+        )
+
+        if not useful_ai_text(
+            f"{title} {context}"
         ):
 
             continue
 
-        display_title = refine_title(
-            title
+        seen.add(
+            url
+        )
+
+        breakthrough = (
+            is_breakthrough(
+                f"{title} {context}"
+            )
         )
 
         results.append(
@@ -798,25 +918,27 @@ def fetch_aibase():
                 title=title,
 
                 display_title=
-                    display_title,
+                    refine_title(
+                        title
+                    ),
 
                 source="AIBase",
 
-                # =====================================
-                # 固定归入AI变现
-                # =====================================
                 category="AI变现",
 
                 url=url,
 
-                summary="",
+                summary=context,
 
                 priority=
                     ai_priority(
-                        title
+                        f"{title} {context}"
                     ),
 
                 language="zh",
+
+                is_breakthrough_item=
+                    breakthrough,
             )
         )
 
@@ -825,13 +947,14 @@ def fetch_aibase():
         len(results)
     )
 
-    return results[:30]
+    return results[:40]
 
 
 # =========================================================
 # 量子位
 #
-# 固定作为“提效工具”中文补充源
+# 普通 → 提效工具
+# 突破 → 前沿研究
 # =========================================================
 
 def fetch_qbitai():
@@ -841,6 +964,7 @@ def fetch_qbitai():
     )
 
     results = []
+    seen = set()
 
     try:
 
@@ -870,41 +994,15 @@ def fetch_qbitai():
         "html.parser"
     )
 
-    candidates = []
-
-    for node in soup.select(
-        "h2 a, h3 a, h4 a"
+    for node in soup.find_all(
+        "a",
+        href=True
     ):
 
-        title = clean_text(
-            node.get_text(
-                " ",
-                strip=True
-            )
-        )
-
         href = node.get(
-            "href"
+            "href",
+            ""
         )
-
-        if (
-            not title
-            or not href
-        ):
-
-            continue
-
-        if not contains_chinese(
-            title
-        ):
-
-            continue
-
-        if not (
-            8 <= len(title) <= 120
-        ):
-
-            continue
 
         url = urljoin(
             QBITAI_URL,
@@ -913,43 +1011,63 @@ def fetch_qbitai():
 
         if (
             "qbitai.com"
-            not in url
+            not in urlparse(url).netloc
         ):
 
             continue
 
-        if any(
-            x in url
-            for x in [
-                "/category/",
-                "/tag/",
-                "/author/"
-            ]
+        # 文章 URL
+        if not re.search(
+            r"/20\d{2}/\d{2}/\d+\.html",
+            url
         ):
 
             continue
 
-        candidates.append(
-            (
-                title,
-                url
+        title = clean_text(
+            node.get_text(
+                " ",
+                strip=True
             )
         )
 
-    seen = set()
+        if not (
+            contains_chinese(title)
+            and
+            8 <= len(title) <= 120
+        ):
 
-    for title, url in candidates:
+            continue
 
         if url in seen:
             continue
 
-        seen.add(url)
-
-        if not useful_ai_title(
+        context = extract_context(
+            node,
             title
+        )
+
+        if not useful_ai_text(
+            f"{title} {context}"
         ):
 
             continue
+
+        seen.add(
+            url
+        )
+
+        breakthrough = (
+            is_breakthrough(
+                f"{title} {context}"
+            )
+        )
+
+        category = (
+            "前沿研究"
+            if breakthrough
+            else "提效工具"
+        )
 
         results.append(
 
@@ -965,16 +1083,24 @@ def fetch_qbitai():
                 source="量子位",
 
                 category=
-                    "提效工具",
+                    category,
 
                 url=url,
 
-                priority=
-                    ai_priority(
-                        title
-                    ),
+                summary=context,
+
+                priority=(
+                    "A"
+                    if breakthrough
+                    else ai_priority(
+                        f"{title} {context}"
+                    )
+                ),
 
                 language="zh",
+
+                is_breakthrough_item=
+                    breakthrough,
             )
         )
 
@@ -983,11 +1109,457 @@ def fetch_qbitai():
         len(results)
     )
 
+    return results[:40]
+
+
+# =========================================================
+# 科技日报 · 科技新突破
+# =========================================================
+
+def fetch_stdaily_breakthrough():
+
+    print(
+        "Fetching 科技日报·科技新突破..."
+    )
+
+    results = []
+    seen = set()
+
+    try:
+
+        response = SESSION.get(
+            STD_BREAKTHROUGH_URL,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+        response.encoding = (
+            response.apparent_encoding
+            or "utf-8"
+        )
+
+    except Exception as e:
+
+        print(
+            "科技日报 failed:",
+            e
+        )
+
+        return results
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
+
+    # 该页面本身就是“科技新突破”
+    # 所以栏目内文章全部允许进入
+
+    for heading in soup.find_all(
+        [
+            "h2",
+            "h3",
+            "h4"
+        ]
+    ):
+
+        node = heading.find(
+            "a",
+            href=True
+        )
+
+        if not node:
+            continue
+
+        title = clean_text(
+            node.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+        if not (
+            contains_chinese(title)
+            and
+            6 <= len(title) <= 120
+        ):
+
+            continue
+
+        url = urljoin(
+            STD_BREAKTHROUGH_URL,
+            node["href"]
+        )
+
+        if (
+            "stdaily.com"
+            not in urlparse(url).netloc
+        ):
+
+            continue
+
+        if url in seen:
+            continue
+
+        context = extract_context(
+            heading,
+            title
+        )
+
+        published = (
+            extract_date_from_text(
+                context
+            )
+        )
+
+        breakthrough = (
+            is_breakthrough(
+                f"{title} {context}"
+            )
+        )
+
+        seen.add(
+            url
+        )
+
+        results.append(
+
+            make_item(
+
+                title=title,
+
+                display_title=
+                    refine_title(
+                        title
+                    ),
+
+                source="科技日报",
+
+                category="前沿研究",
+
+                url=url,
+
+                published_at=
+                    published,
+
+                summary="",
+
+                priority="A",
+
+                language="zh",
+
+                is_breakthrough_item=
+                    breakthrough,
+            )
+        )
+
+    print(
+        "科技日报 items:",
+        len(results)
+    )
+
     return results[:30]
 
 
 # =========================================================
-# Scientific Data 城市数据判断
+# 科学网
+#
+# 只保留标题/简介命中“突破雷达”的新闻
+# =========================================================
+
+def fetch_sciencenet():
+
+    print(
+        "Fetching 科学网..."
+    )
+
+    results = []
+    seen = set()
+
+    try:
+
+        response = SESSION.get(
+            SCIENCENET_URL,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+        response.encoding = (
+            response.apparent_encoding
+            or "utf-8"
+        )
+
+    except Exception as e:
+
+        print(
+            "科学网 failed:",
+            e
+        )
+
+        return results
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
+
+    for node in soup.find_all(
+        "a",
+        href=True
+    ):
+
+        href = node.get(
+            "href",
+            ""
+        )
+
+        url = urljoin(
+            SCIENCENET_URL,
+            href
+        )
+
+        if (
+            "news.sciencenet.cn"
+            not in urlparse(url).netloc
+        ):
+
+            continue
+
+        # 只接受实际新闻文章
+        if not re.search(
+            r"/htmlnews/\d{4}/\d+/\d+\.shtm",
+            url
+        ):
+
+            continue
+
+        title = clean_text(
+            node.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+        if not (
+            contains_chinese(title)
+            and
+            6 <= len(title) <= 120
+        ):
+
+            continue
+
+        context = extract_context(
+            node,
+            title
+        )
+
+        # 科学网内容非常多
+        # 必须命中突破关键词
+        if not is_breakthrough(
+            f"{title} {context}"
+        ):
+
+            continue
+
+        if url in seen:
+            continue
+
+        seen.add(
+            url
+        )
+
+        published = (
+            extract_date_from_text(
+                context
+            )
+        )
+
+        results.append(
+
+            make_item(
+
+                title=title,
+
+                display_title=
+                    refine_title(
+                        title
+                    ),
+
+                source="科学网",
+
+                category="前沿研究",
+
+                url=url,
+
+                published_at=
+                    published,
+
+                summary=context,
+
+                priority="A",
+
+                language="zh",
+
+                is_breakthrough_item=True,
+            )
+        )
+
+    print(
+        "科学网 items:",
+        len(results)
+    )
+
+    return results[:30]
+
+
+# =========================================================
+# DeepTech 深科技
+#
+# 只保留明显突破型内容
+# =========================================================
+
+def fetch_deeptech():
+
+    print(
+        "Fetching DeepTech深科技..."
+    )
+
+    results = []
+    seen = set()
+
+    try:
+
+        response = SESSION.get(
+            DEEPTECH_URL,
+            timeout=30
+        )
+
+        response.raise_for_status()
+
+        response.encoding = (
+            response.apparent_encoding
+            or "utf-8"
+        )
+
+    except Exception as e:
+
+        print(
+            "DeepTech failed:",
+            e
+        )
+
+        return results
+
+    soup = BeautifulSoup(
+        response.text,
+        "html.parser"
+    )
+
+    for node in soup.find_all(
+        "a",
+        href=True
+    ):
+
+        href = node.get(
+            "href",
+            ""
+        )
+
+        url = urljoin(
+            DEEPTECH_URL,
+            href
+        )
+
+        if (
+            "deeptechchina.com"
+            not in urlparse(url).netloc
+        ):
+
+            continue
+
+        title = clean_text(
+            node.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+        if not (
+            contains_chinese(title)
+            and
+            8 <= len(title) <= 120
+        ):
+
+            continue
+
+        context = extract_context(
+            node,
+            title
+        )
+
+        if not is_breakthrough(
+            f"{title} {context}"
+        ):
+
+            continue
+
+        if url in seen:
+            continue
+
+        seen.add(
+            url
+        )
+
+        published = (
+            extract_date_from_text(
+                context
+            )
+        )
+
+        results.append(
+
+            make_item(
+
+                title=title,
+
+                display_title=
+                    refine_title(
+                        title
+                    ),
+
+                source=
+                    "DeepTech深科技",
+
+                category=
+                    "前沿研究",
+
+                url=url,
+
+                published_at=
+                    published,
+
+                summary=context,
+
+                priority="A",
+
+                language="zh",
+
+                is_breakthrough_item=True,
+            )
+        )
+
+    print(
+        "DeepTech items:",
+        len(results)
+    )
+
+    return results[:30]
+
+
+# =========================================================
+# Scientific Data 相关性
 # =========================================================
 
 def scientific_data_relevant(
@@ -1000,14 +1572,14 @@ def scientific_data_relevant(
     ).lower()
 
     city_hit = any(
-        keyword in text
-        for keyword
-        in CITY_STRONG_KEYWORDS
+        word in text
+        for word
+        in CITY_KEYWORDS
     )
 
     data_hit = any(
-        keyword in text
-        for keyword
+        word in text
+        for word
         in DATA_KEYWORDS
     )
 
@@ -1018,7 +1590,7 @@ def scientific_data_relevant(
 
 
 # =========================================================
-# Nature文章列表通用解析
+# Nature 通用列表解析
 # =========================================================
 
 def parse_nature_cards(
@@ -1031,27 +1603,25 @@ def parse_nature_cards(
         "html.parser"
     )
 
-    results = []
-
-    # Nature主要列表结构
     cards = soup.select(
         "li.app-article-list-row__item"
     )
 
-    # 页面结构变化fallback
     if not cards:
 
         cards = soup.select(
             "article"
         )
 
-    # 再fallback
     if not cards:
 
         cards = []
 
-        for heading in soup.select(
-            "h3"
+        for heading in soup.find_all(
+            [
+                "h2",
+                "h3"
+            ]
         ):
 
             if heading.find(
@@ -1065,14 +1635,16 @@ def parse_nature_cards(
                     heading.parent
                 )
 
+    results = []
+
     for card in cards:
 
         link = card.select_one(
-            "h3 a[href*='/articles/']"
+            "h3 a[href*='/articles/'], "
+            "h2 a[href*='/articles/']"
         )
 
         if not link:
-
             continue
 
         title = clean_text(
@@ -1083,7 +1655,8 @@ def parse_nature_cards(
         )
 
         href = link.get(
-            "href"
+            "href",
+            ""
         )
 
         if (
@@ -1111,14 +1684,11 @@ def parse_nature_cards(
             )
         )
 
-        # 尝试找摘要
         summary = ""
 
-        paragraphs = card.find_all(
+        for paragraph in card.find_all(
             "p"
-        )
-
-        for paragraph in paragraphs:
+        ):
 
             text = clean_text(
                 paragraph.get_text(
@@ -1130,7 +1700,6 @@ def parse_nature_cards(
             if len(text) >= 40:
 
                 summary = text
-
                 break
 
         results.append(
@@ -1154,9 +1723,6 @@ def parse_nature_cards(
 
 # =========================================================
 # Scientific Data
-#
-# 不再使用RSS
-# 直接抓最近5页Data Descriptor
 # =========================================================
 
 def fetch_scientific_data():
@@ -1166,22 +1732,25 @@ def fetch_scientific_data():
     )
 
     results = []
-
     seen = set()
 
+    year = (
+        datetime.now().year
+    )
+
     # 最近5页
-    # 足以覆盖一段时间，同时不会请求过多
     for page in range(
         1,
         6
     ):
 
         params = {
+
             "type":
                 "data-descriptor",
 
             "year":
-                datetime.now().year,
+                year,
 
             "sort":
                 "PubDate",
@@ -1206,9 +1775,8 @@ def fetch_scientific_data():
         except Exception as e:
 
             print(
-                "Scientific Data page",
+                "Scientific Data page failed:",
                 page,
-                "failed:",
                 e
             )
 
@@ -1221,27 +1789,20 @@ def fetch_scientific_data():
 
         for card in cards:
 
-            title = card[
-                "title"
-            ]
-
-            url = card[
-                "url"
-            ]
-
-            summary = card[
-                "summary"
-            ]
-
-            if url in seen:
+            if (
+                card["url"]
+                in seen
+            ):
 
                 continue
 
-            seen.add(url)
+            seen.add(
+                card["url"]
+            )
 
             if not scientific_data_relevant(
-                title,
-                summary
+                card["title"],
+                card["summary"]
             ):
 
                 continue
@@ -1250,20 +1811,21 @@ def fetch_scientific_data():
 
                 make_item(
 
-                    title=title,
-
-                    display_title=
-                        refine_title(
-                            title
-                        ),
+                    title=
+                        card[
+                            "title"
+                        ],
 
                     source=
                         "Scientific Data",
 
                     category=
-                        "城市数据",
+                        "多源数据",
 
-                    url=url,
+                    url=
+                        card[
+                            "url"
+                        ],
 
                     published_at=
                         card[
@@ -1271,16 +1833,25 @@ def fetch_scientific_data():
                         ],
 
                     summary=
-                        summary,
+                        card[
+                            "summary"
+                        ],
 
                     priority="A",
 
                     language="en",
+
+                    is_breakthrough_item=
+                        is_breakthrough(
+                            card[
+                                "title"
+                            ]
+                        ),
                 )
             )
 
     print(
-        "Scientific Data urban items:",
+        "Scientific Data items:",
         len(results)
     )
 
@@ -1289,8 +1860,6 @@ def fetch_scientific_data():
 
 # =========================================================
 # Nature Cities
-#
-# 不使用RSS
 # =========================================================
 
 def fetch_nature_cities():
@@ -1300,18 +1869,22 @@ def fetch_nature_cities():
     )
 
     results = []
-
     seen = set()
 
-    # 抓前两页即可覆盖近期文章
+    year = (
+        datetime.now().year
+    )
+
+    # 最近2页
     for page in range(
         1,
         3
     ):
 
         params = {
+
             "year":
-                datetime.now().year,
+                year,
 
             "sort":
                 "PubDate",
@@ -1336,9 +1909,8 @@ def fetch_nature_cities():
         except Exception as e:
 
             print(
-                "Nature Cities page",
+                "Nature Cities page failed:",
                 page,
-                "failed:",
                 e
             )
 
@@ -1371,18 +1943,11 @@ def fetch_nature_cities():
                             "title"
                         ],
 
-                    display_title=
-                        refine_title(
-                            card[
-                                "title"
-                            ]
-                        ),
-
                     source=
                         "Nature Cities",
 
                     category=
-                        "城市前沿",
+                        "前沿研究",
 
                     url=
                         card[
@@ -1402,6 +1967,13 @@ def fetch_nature_cities():
                     priority="A",
 
                     language="en",
+
+                    is_breakthrough_item=
+                        is_breakthrough(
+                            card[
+                                "title"
+                            ]
+                        ),
                 )
             )
 
@@ -1414,17 +1986,16 @@ def fetch_nature_cities():
 
 
 # =========================================================
-# GitHub判断
+# GitHub
 # =========================================================
 
 def github_relevant(
-    full_name,
+    name,
     description
 ):
 
     text = (
-        f"{full_name} "
-        f"{description}"
+        f"{name} {description}"
     ).lower()
 
     if any(
@@ -1442,20 +2013,19 @@ def github_relevant(
     )
 
 
-def github_is_city_data(
-    full_name,
+def github_is_data(
+    name,
     description
 ):
 
     text = (
-        f"{full_name} "
-        f"{description}"
+        f"{name} {description}"
     ).lower()
 
     city_hit = any(
         word in text
         for word
-        in CITY_STRONG_KEYWORDS
+        in CITY_KEYWORDS
     )
 
     data_hit = any(
@@ -1481,14 +2051,21 @@ def github_priority(
             created_at
         )
 
-        now = datetime.now(
-            timezone.utc
-        )
+        if created.tzinfo is None:
+
+            created = (
+                created.replace(
+                    tzinfo=timezone.utc
+                )
+            )
 
         days = max(
             1,
             (
-                now - created
+                datetime.now(
+                    timezone.utc
+                )
+                - created
             ).days + 1
         )
 
@@ -1523,8 +2100,9 @@ def github_display_title(
 ):
 
     repo_name = (
-        full_name
-        .split("/")[-1]
+        full_name.split("/")[-1]
+        if full_name
+        else "GitHub项目"
     )
 
     description = clean_text(
@@ -1544,6 +2122,7 @@ def github_display_title(
 
         first = (
             first[:77]
+            .rstrip()
             + "..."
         )
 
@@ -1553,10 +2132,6 @@ def github_display_title(
     )
 
 
-# =========================================================
-# GitHub
-# =========================================================
-
 def fetch_github():
 
     print(
@@ -1564,6 +2139,7 @@ def fetch_github():
     )
 
     results = []
+    seen = set()
 
     token = os.environ.get(
         "GITHUB_TOKEN"
@@ -1572,8 +2148,7 @@ def fetch_github():
     headers = {
 
         "Accept":
-            "application/"
-            "vnd.github+json",
+            "application/vnd.github+json",
 
         "User-Agent":
             "icat-research-radar",
@@ -1597,8 +2172,6 @@ def fetch_github():
     ).strftime(
         "%Y-%m-%d"
     )
-
-    seen = set()
 
     for topic in GITHUB_TOPICS:
 
@@ -1667,16 +2240,16 @@ def fetch_github():
 
                 continue
 
-            seen.add(url)
+            seen.add(
+                url
+            )
 
             stars = repo.get(
                 "stargazers_count",
                 0
             )
 
-            # 至少30 stars
             if stars < 30:
-
                 continue
 
             full_name = repo.get(
@@ -1698,20 +2271,17 @@ def fetch_github():
 
                 continue
 
-            if github_is_city_data(
-                full_name,
-                description
-            ):
+            category = (
 
-                category = (
-                    "城市数据"
+                "多源数据"
+
+                if github_is_data(
+                    full_name,
+                    description
                 )
 
-            else:
-
-                category = (
-                    "提效工具"
-                )
+                else "提效工具"
+            )
 
             created_at = repo.get(
                 "created_at"
@@ -1752,6 +2322,8 @@ def fetch_github():
                         ),
 
                     language="en",
+
+                    is_breakthrough_item=False,
 
                     meta={
                         "stars":
@@ -1817,19 +2389,14 @@ def load_old_data():
 
 
 # =========================================================
-# 旧数据迁移
-#
-# 解决现在：
-# AIBase → 提效工具
-# Scientific Data → 新数据
-# 这些旧分类残留的问题
+# 旧数据分类迁移
 # =========================================================
 
 def normalize_old_items(
     items
 ):
 
-    normalized = []
+    output = []
 
     for item in items:
 
@@ -1848,10 +2415,11 @@ def normalize_old_items(
             ""
         )
 
-        # -------------------------
-        # AIBase
-        # -------------------------
+        text = (
+            f"{title} {summary}"
+        )
 
+        # AIBase
         if source == "AIBase":
 
             item[
@@ -1859,28 +2427,36 @@ def normalize_old_items(
             ] = "AI变现"
 
 
-        # -------------------------
         # 量子位
-        # -------------------------
-
         elif source == "量子位":
 
             item[
                 "category"
-            ] = "提效工具"
+            ] = (
+                "前沿研究"
+                if is_breakthrough(text)
+                else "提效工具"
+            )
 
 
-        # -------------------------
+        # 新增中文突破源
+        elif source in {
+            "科技日报",
+            "科学网",
+            "DeepTech深科技"
+        }:
+
+            item[
+                "category"
+            ] = "前沿研究"
+
+
         # Scientific Data
-        # -------------------------
-
         elif (
             source
             == "Scientific Data"
         ):
 
-            # 删除以前误抓的
-            # granular layer等非城市数据
             if not scientific_data_relevant(
                 title,
                 summary
@@ -1890,24 +2466,21 @@ def normalize_old_items(
 
             item[
                 "category"
-            ] = "城市数据"
+            ] = "多源数据"
 
 
-        # -------------------------
         # Nature Cities
-        # -------------------------
-
-        elif source == "Nature Cities":
+        elif (
+            source
+            == "Nature Cities"
+        ):
 
             item[
                 "category"
-            ] = "城市前沿"
+            ] = "前沿研究"
 
 
-        # -------------------------
         # GitHub
-        # -------------------------
-
         elif source == "GitHub":
 
             if not github_relevant(
@@ -1917,30 +2490,41 @@ def normalize_old_items(
 
                 continue
 
-            if github_is_city_data(
-                title,
-                summary
-            ):
+            item[
+                "category"
+            ] = (
 
-                item[
-                    "category"
-                ] = "城市数据"
+                "多源数据"
 
-            else:
+                if github_is_data(
+                    title,
+                    summary
+                )
 
-                item[
-                    "category"
-                ] = "提效工具"
+                else "提效工具"
+            )
 
 
-        # -------------------------
-        # 老AI-Bot等旧来源
-        # 直接淘汰
-        # -------------------------
-
+        # 淘汰旧AI-Bot等来源
         else:
 
             continue
+
+
+        item[
+            "is_breakthrough"
+        ] = bool(
+
+            item.get(
+                "is_breakthrough"
+            )
+
+            or
+
+            is_breakthrough(
+                text
+            )
+        )
 
 
         if not item.get(
@@ -1953,15 +2537,16 @@ def normalize_old_items(
                 title
             )
 
-        normalized.append(
+
+        output.append(
             item
         )
 
-    return normalized
+    return output
 
 
 # =========================================================
-# 删除过旧
+# 删除旧内容
 # =========================================================
 
 def remove_old_items(
@@ -1969,9 +2554,11 @@ def remove_old_items(
 ):
 
     cutoff = (
+
         datetime.now(
             timezone.utc
         )
+
         - timedelta(
             days=KEEP_DAYS
         )
@@ -2012,22 +2599,36 @@ def remove_old_items(
 
 
 # =========================================================
-# 来源排序
+# 来源优先级
 # =========================================================
 
 def source_rank(source):
 
     ranks = {
 
-        "AIBase": 100,
+        "科技日报":
+            110,
 
-        "量子位": 95,
+        "科学网":
+            105,
 
-        "Scientific Data": 90,
+        "DeepTech深科技":
+            100,
 
-        "Nature Cities": 90,
+        "AIBase":
+            95,
 
-        "GitHub": 70,
+        "量子位":
+            90,
+
+        "Scientific Data":
+            90,
+
+        "Nature Cities":
+            90,
+
+        "GitHub":
+            70,
     }
 
     return ranks.get(
@@ -2037,7 +2638,7 @@ def source_rank(source):
 
 
 # =========================================================
-# 合并
+# 合并数据
 # =========================================================
 
 def merge_items(
@@ -2047,10 +2648,8 @@ def merge_items(
 
     merged = {}
 
-    # -------------------------
-    # 旧数据
-    # -------------------------
 
+    # 旧数据
     for item in old_items:
 
         item_id = item.get(
@@ -2064,10 +2663,7 @@ def merge_items(
             ] = item
 
 
-    # -------------------------
     # 新数据
-    # -------------------------
-
     for item in new_items:
 
         item_id = item[
@@ -2076,19 +2672,20 @@ def merge_items(
 
         if item_id in merged:
 
-            old = merged[
+            old_item = merged[
                 item_id
             ]
 
-            # 第一次发现时间保留
-            detected = old.get(
-                "detected_at"
+            old_detected = (
+                old_item.get(
+                    "detected_at"
+                )
             )
 
-            # 中文网站没有可靠文章日期时，
-            # 不要每小时刷新成当前日期
-            old_published = old.get(
-                "published_at"
+            old_published = (
+                old_item.get(
+                    "published_at"
+                )
             )
 
             merged[
@@ -2097,22 +2694,17 @@ def merge_items(
                 item
             )
 
-            if detected:
+            # 保留第一次发现时间
+            if old_detected:
 
                 merged[
                     item_id
                 ][
                     "detected_at"
-                ] = detected
+                ] = old_detected
 
-            if (
-                item.get("source")
-                in [
-                    "AIBase",
-                    "量子位"
-                ]
-                and old_published
-            ):
+            # 同一篇文章发布日期不应该每小时变化
+            if old_published:
 
                 merged[
                     item_id
@@ -2153,8 +2745,17 @@ def merge_items(
 
             timestamp = 0
 
+        breakthrough = (
+            1
+            if item.get(
+                "is_breakthrough"
+            )
+            else 0
+        )
+
         return (
             timestamp,
+            breakthrough,
             source_rank(
                 item.get(
                     "source",
@@ -2175,7 +2776,7 @@ def merge_items(
 
 
 # =========================================================
-# 保存JSON
+# 保存 JSON
 # =========================================================
 
 def save_data(items):
@@ -2191,12 +2792,15 @@ def save_data(items):
 
         "提效工具": 0,
 
-        "城市数据": 0,
+        "多源数据": 0,
 
-        "城市前沿": 0,
+        "前沿研究": 0,
     }
 
     source_counts = {}
+
+    breakthrough_count = 0
+
 
     for item in items:
 
@@ -2230,8 +2834,16 @@ def save_data(items):
         )
 
 
+        if item.get(
+            "is_breakthrough"
+        ):
+
+            breakthrough_count += 1
+
+
     output = {
 
+        # 这是“雷达最后一次扫描时间”
         "updated_at":
             datetime.now(
                 timezone.utc
@@ -2239,6 +2851,9 @@ def save_data(items):
 
         "count":
             len(items),
+
+        "breakthrough_count":
+            breakthrough_count,
 
         "category_counts":
             category_counts,
@@ -2272,29 +2887,24 @@ def save_data(items):
 def main():
 
     print(
-        "================================"
+        "=" * 50
     )
 
     print(
-        "Research Radar V3"
+        "ICAT Research Radar V4"
     )
 
     print(
-        "================================"
+        "=" * 50
     )
 
 
     # -------------------------
-    # 读取并迁移旧数据
+    # 历史数据
     # -------------------------
 
     old_items = (
         load_old_data()
-    )
-
-    print(
-        "Old raw items:",
-        len(old_items)
     )
 
     old_items = (
@@ -2304,13 +2914,13 @@ def main():
     )
 
     print(
-        "Old normalized items:",
+        "Old normalized:",
         len(old_items)
     )
 
 
     # -------------------------
-    # 抓新数据
+    # 抓取
     # -------------------------
 
     aibase_items = (
@@ -2321,11 +2931,23 @@ def main():
         fetch_qbitai()
     )
 
+    stdaily_items = (
+        fetch_stdaily_breakthrough()
+    )
+
+    sciencenet_items = (
+        fetch_sciencenet()
+    )
+
+    deeptech_items = (
+        fetch_deeptech()
+    )
+
     scientific_items = (
         fetch_scientific_data()
     )
 
-    city_items = (
+    nature_city_items = (
         fetch_nature_cities()
     )
 
@@ -2339,10 +2961,14 @@ def main():
     # -------------------------
 
     new_items = (
+
         aibase_items
         + qbitai_items
+        + stdaily_items
+        + sciencenet_items
+        + deeptech_items
         + scientific_items
-        + city_items
+        + nature_city_items
         + github_items
     )
 
@@ -2362,13 +2988,28 @@ def main():
     )
 
     print(
+        "科技日报:",
+        len(stdaily_items)
+    )
+
+    print(
+        "科学网:",
+        len(sciencenet_items)
+    )
+
+    print(
+        "DeepTech:",
+        len(deeptech_items)
+    )
+
+    print(
         "Scientific Data:",
         len(scientific_items)
     )
 
     print(
         "Nature Cities:",
-        len(city_items)
+        len(nature_city_items)
     )
 
     print(
@@ -2376,9 +3017,9 @@ def main():
         len(github_items)
     )
 
+
     print(
-        "New total:",
-        len(new_items)
+        "--------------------------------"
     )
 
 
@@ -2390,8 +3031,13 @@ def main():
     )
 
 
+    save_data(
+        final_items
+    )
+
+
     # -------------------------
-    # 输出栏目统计
+    # 输出分类统计
     # -------------------------
 
     counts = {
@@ -2400,9 +3046,9 @@ def main():
 
         "提效工具": 0,
 
-        "城市数据": 0,
+        "多源数据": 0,
 
-        "城市前沿": 0,
+        "前沿研究": 0,
     }
 
 
@@ -2420,30 +3066,12 @@ def main():
 
 
     print(
-        "--------------------------------"
-    )
-
-    print(
         "CATEGORY COUNTS:"
     )
 
-    for key, value in counts.items():
-
-        print(
-            key,
-            ":",
-            value
-        )
-
-
-    # -------------------------
-    # 保存
-    # -------------------------
-
-    save_data(
-        final_items
+    print(
+        counts
     )
-
 
     print(
         "Final items:",
@@ -2451,15 +3079,7 @@ def main():
     )
 
     print(
-        "================================"
-    )
-
-    print(
-        "Research Radar V3 Done"
-    )
-
-    print(
-        "================================"
+        "=" * 50
     )
 
 
