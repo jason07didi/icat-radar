@@ -1,6 +1,12 @@
-/* =========================================
+/* =========================================================
+   ICAT Research Radar V8
+   Style
+========================================================= */
+
+
+/* =========================================================
    全局
-========================================= */
+========================================================= */
 
 * {
     box-sizing: border-box;
@@ -30,12 +36,24 @@ body {
         sans-serif;
 
     line-height: 1.6;
+
+    -webkit-font-smoothing: antialiased;
+
 }
 
 
-/* =========================================
-   顶部
-========================================= */
+/* =========================================================
+   链接
+========================================================= */
+
+a {
+    color: inherit;
+}
+
+
+/* =========================================================
+   顶部 Header
+========================================================= */
 
 .header {
 
@@ -44,7 +62,9 @@ body {
     color: white;
 
     padding:
-        30px 22px 34px;
+        30px 22px
+        34px;
+
 }
 
 
@@ -55,16 +75,20 @@ body {
     max-width: 1180px;
 
     margin: 0 auto;
+
 }
 
 
 .site-label {
 
+    margin-bottom: 7px;
+
     font-size: 13px;
+
+    letter-spacing: 0.2px;
 
     opacity: 0.75;
 
-    margin-bottom: 7px;
 }
 
 
@@ -74,7 +98,10 @@ body {
 
     font-size: 34px;
 
+    line-height: 1.25;
+
     font-weight: 760;
+
 }
 
 
@@ -90,14 +117,17 @@ body {
             255,
             255,
             255,
-            0.9
+            0.90
         );
+
 }
 
 
 .update-time {
 
     margin-top: 13px;
+
+    font-size: 13px;
 
     color:
         rgba(
@@ -107,13 +137,12 @@ body {
             0.72
         );
 
-    font-size: 13px;
 }
 
 
-/* =========================================
-   主体
-========================================= */
+/* =========================================================
+   主容器
+========================================================= */
 
 .container {
 
@@ -124,24 +153,26 @@ body {
     margin: 0 auto;
 
     padding:
-        26px 18px 65px;
+        26px 18px
+        65px;
+
 }
 
 
-/* =========================================
+/* =========================================================
    今日提示
-========================================= */
+========================================================= */
 
 .intro {
 
-    background: white;
-
-    border-radius: 15px;
+    margin-bottom: 24px;
 
     padding:
         20px 23px;
 
-    margin-bottom: 24px;
+    background: white;
+
+    border-radius: 15px;
 
     box-shadow:
         0 5px 18px
@@ -151,6 +182,7 @@ body {
             76,
             0.07
         );
+
 }
 
 
@@ -160,6 +192,9 @@ body {
         0 0 7px;
 
     font-size: 18px;
+
+    color: #15344d;
+
 }
 
 
@@ -172,12 +207,13 @@ body {
     font-size: 14px;
 
     line-height: 1.8;
+
 }
 
 
-/* =========================================
-   导航
-========================================= */
+/* =========================================================
+   分类导航
+========================================================= */
 
 .filters {
 
@@ -188,6 +224,7 @@ body {
     gap: 9px;
 
     margin-bottom: 32px;
+
 }
 
 
@@ -197,9 +234,13 @@ body {
 
     align-items: center;
 
+    justify-content: center;
+
     gap: 7px;
 
     border: none;
+
+    outline: none;
 
     background: white;
 
@@ -214,6 +255,8 @@ body {
 
     font-size: 14px;
 
+    line-height: 1;
+
     cursor: pointer;
 
     box-shadow:
@@ -226,7 +269,11 @@ body {
         );
 
     transition:
-        all 0.18s ease;
+        transform 0.18s ease,
+        background 0.18s ease,
+        color 0.18s ease,
+        box-shadow 0.18s ease;
+
 }
 
 
@@ -234,6 +281,16 @@ body {
 
     transform:
         translateY(-1px);
+
+    box-shadow:
+        0 4px 10px
+        rgba(
+            20,
+            50,
+            76,
+            0.07
+        );
+
 }
 
 
@@ -242,12 +299,28 @@ body {
     background: #0d7d7c;
 
     color: white;
+
+}
+
+
+.hotspot-filter {
+
+    font-weight: 650;
+
+}
+
+
+.hotspot-filter.active {
+
+    background: #c53c33;
+
 }
 
 
 .journal-filter {
 
     font-weight: 550;
+
 }
 
 
@@ -259,8 +332,6 @@ body {
 
     padding:
         0 6px;
-
-    border-radius: 999px;
 
     display: inline-flex;
 
@@ -276,7 +347,12 @@ body {
             0.08
         );
 
+    border-radius: 999px;
+
     font-size: 11px;
+
+    line-height: 1;
+
 }
 
 
@@ -290,22 +366,32 @@ body {
             255,
             0.22
         );
+
 }
 
 
-/* =========================================
-   Section
-========================================= */
+/* =========================================================
+   Section 通用
+========================================================= */
 
 .featured-section {
 
     margin-bottom: 38px;
+
 }
 
 
 .news-section {
 
     margin-top: 10px;
+
+}
+
+
+.hotspot-section {
+
+    margin-bottom: 40px;
+
 }
 
 
@@ -315,12 +401,12 @@ body {
 
     align-items: center;
 
-    justify-content:
-        space-between;
+    justify-content: space-between;
 
     gap: 15px;
 
     margin-bottom: 16px;
+
 }
 
 
@@ -334,7 +420,10 @@ body {
 
     font-size: 22px;
 
+    line-height: 1.4;
+
     color: #12324d;
+
 }
 
 
@@ -355,20 +444,38 @@ body {
     background: #d0243c;
 
     border-radius: 2px;
+
+}
+
+
+.section-description {
+
+    margin:
+        7px 0 0;
+
+    color: #7a8995;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
 }
 
 
 .result-count {
 
+    flex-shrink: 0;
+
     color: #8996a1;
 
     font-size: 12px;
+
 }
 
 
-/* =========================================
-   网格
-========================================= */
+/* =========================================================
+   普通资讯网格
+========================================================= */
 
 .news-grid,
 .featured-grid {
@@ -385,12 +492,13 @@ body {
         );
 
     gap: 18px;
+
 }
 
 
-/* =========================================
-   卡片
-========================================= */
+/* =========================================================
+   普通资讯卡片
+========================================================= */
 
 .news-card {
 
@@ -418,6 +526,7 @@ body {
     transition:
         transform 0.18s ease,
         box-shadow 0.18s ease;
+
 }
 
 
@@ -434,6 +543,7 @@ body {
             76,
             0.11
         );
+
 }
 
 
@@ -447,18 +557,20 @@ body {
             61,
             0.10
         );
+
 }
 
 
-/* =========================================
-   图片
-========================================= */
+/* =========================================================
+   普通资讯图片
+========================================================= */
 
 .image-link {
 
     display: block;
 
     text-decoration: none;
+
 }
 
 
@@ -473,6 +585,7 @@ body {
     overflow: hidden;
 
     background: #e7ebee;
+
 }
 
 
@@ -490,6 +603,7 @@ body {
 
     transition:
         transform 0.25s ease;
+
 }
 
 
@@ -498,12 +612,13 @@ body {
 
     transform:
         scale(1.025);
+
 }
 
 
-/* =========================================
+/* =========================================================
    图片突破角标
-========================================= */
+========================================================= */
 
 .image-breakthrough {
 
@@ -513,10 +628,10 @@ body {
 
     top: 11px;
 
+    z-index: 2;
+
     padding:
         5px 9px;
-
-    border-radius: 999px;
 
     background:
         rgba(
@@ -527,6 +642,8 @@ body {
         );
 
     color: #b45700;
+
+    border-radius: 999px;
 
     font-size: 12px;
 
@@ -540,23 +657,26 @@ body {
             0,
             0.10
         );
+
 }
 
 
-/* =========================================
-   卡片正文
-========================================= */
+/* =========================================================
+   普通资讯正文
+========================================================= */
 
 .card-body {
 
-    padding:
-        15px 16px 16px;
+    flex: 1;
 
     display: flex;
 
     flex-direction: column;
 
-    flex: 1;
+    padding:
+        15px 16px
+        16px;
+
 }
 
 
@@ -571,8 +691,13 @@ body {
     gap: 7px;
 
     margin-bottom: 8px;
+
 }
 
+
+/* =========================================================
+   A B C
+========================================================= */
 
 .priority {
 
@@ -582,36 +707,47 @@ body {
 
     flex-shrink: 0;
 
-    border-radius: 50%;
-
     display: inline-flex;
 
     align-items: center;
 
     justify-content: center;
 
+    border-radius: 50%;
+
     color: white;
 
     font-weight: 700;
 
     font-size: 12px;
+
 }
 
 
 .priority-A {
+
     background: #cf263d;
+
 }
 
 
 .priority-B {
+
     background: #315d78;
+
 }
 
 
 .priority-C {
+
     background: #168d88;
+
 }
 
+
+/* =========================================================
+   Category
+========================================================= */
 
 .category {
 
@@ -633,29 +769,35 @@ body {
     border-radius: 999px;
 
     font-size: 11px;
+
 }
 
+
+/* =========================================================
+   突破
+========================================================= */
 
 .breakthrough {
 
     padding:
         4px 8px;
 
-    border-radius: 999px;
-
     background: #fff2e4;
 
     color: #b75c00;
 
+    border-radius: 999px;
+
     font-size: 11px;
 
     font-weight: 650;
+
 }
 
 
-/* =========================================
-   标题
-========================================= */
+/* =========================================================
+   普通资讯标题
+========================================================= */
 
 .news-card h3 {
 
@@ -673,6 +815,7 @@ body {
     -webkit-line-clamp: 2;
 
     overflow: hidden;
+
 }
 
 
@@ -681,18 +824,20 @@ body {
     color: #13334e;
 
     text-decoration: none;
+
 }
 
 
 .news-card h3 a:hover {
 
     color: #0c7980;
+
 }
 
 
-/* =========================================
-   摘要
-========================================= */
+/* =========================================================
+   普通资讯摘要
+========================================================= */
 
 .summary {
 
@@ -712,12 +857,13 @@ body {
     -webkit-line-clamp: 3;
 
     overflow: hidden;
+
 }
 
 
-/* =========================================
-   Meta
-========================================= */
+/* =========================================================
+   普通资讯 Meta
+========================================================= */
 
 .meta {
 
@@ -735,6 +881,7 @@ body {
     color: #909da7;
 
     font-size: 11px;
+
 }
 
 
@@ -743,12 +890,615 @@ body {
     color: #768894;
 
     font-weight: 600;
+
 }
 
 
-/* =========================================
+.meta-item {
+
+    color: #909da7;
+
+}
+
+
+/* =========================================================
+   热点列表
+========================================================= */
+
+.hotspot-list {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+}
+
+
+/* =========================================================
+   热点主卡片
+========================================================= */
+
+.hotspot-card {
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(
+            310px,
+            0.9fr
+        )
+        minmax(
+            0,
+            1.65fr
+        );
+
+    overflow: hidden;
+
+    background: white;
+
+    border-radius: 17px;
+
+    border:
+        1px solid
+        rgba(
+            17,
+            53,
+            79,
+            0.06
+        );
+
+    box-shadow:
+        0 5px 22px
+        rgba(
+            20,
+            50,
+            76,
+            0.08
+        );
+
+    transition:
+        transform 0.18s ease,
+        box-shadow 0.18s ease;
+
+}
+
+
+.hotspot-card:hover {
+
+    transform:
+        translateY(-2px);
+
+    box-shadow:
+        0 11px 30px
+        rgba(
+            20,
+            50,
+            76,
+            0.11
+        );
+
+}
+
+
+/* =========================================================
+   热点图片区域
+========================================================= */
+
+.hotspot-image-wrap {
+
+    position: relative;
+
+    min-height: 100%;
+
+    background: #e5eaee;
+
+}
+
+
+.hotspot-image-wrap > a {
+
+    display: block;
+
+    width: 100%;
+
+    height: 100%;
+
+}
+
+
+.hotspot-image {
+
+    display: block;
+
+    width: 100%;
+
+    height: 100%;
+
+    min-height: 360px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+}
+
+
+/* =========================================================
+   传播潜力
+========================================================= */
+
+.potential-score {
+
+    position: absolute;
+
+    top: 15px;
+
+    right: 15px;
+
+    min-width: 78px;
+
+    padding:
+        9px 12px
+        10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.94
+        );
+
+    border-radius: 13px;
+
+    box-shadow:
+        0 4px 15px
+        rgba(
+            0,
+            0,
+            0,
+            0.12
+        );
+
+    backdrop-filter:
+        blur(6px);
+
+}
+
+
+.score-label {
+
+    color: #778590;
+
+    font-size: 10px;
+
+    line-height: 1.2;
+
+}
+
+
+.potential-score strong {
+
+    margin-top: 2px;
+
+    font-size: 27px;
+
+    line-height: 1;
+
+    font-weight: 800;
+
+}
+
+
+.score-excellent strong {
+
+    color: #c73532;
+
+}
+
+
+.score-high strong {
+
+    color: #d46e24;
+
+}
+
+
+.score-medium strong {
+
+    color: #18867f;
+
+}
+
+
+.score-normal strong {
+
+    color: #587184;
+
+}
+
+
+/* =========================================================
+   热点内容区域
+========================================================= */
+
+.hotspot-content {
+
+    min-width: 0;
+
+    padding:
+        21px 23px
+        23px;
+
+}
+
+
+/* =========================================================
+   热点标签
+========================================================= */
+
+.hotspot-tags {
+
+    display: flex;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 7px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.hotspot-main-tag {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding:
+        5px 10px;
+
+    border-radius: 999px;
+
+    background: #fff0eb;
+
+    color: #c14d35;
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+}
+
+
+.hotspot-topic {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding:
+        5px 10px;
+
+    border-radius: 999px;
+
+    background: #eaf4f3;
+
+    color: #167c78;
+
+    font-size: 11px;
+
+    font-weight: 600;
+
+}
+
+
+.hotspot-rank {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding:
+        5px 10px;
+
+    border-radius: 999px;
+
+    background: #f1f3f5;
+
+    color: #77858f;
+
+    font-size: 11px;
+
+}
+
+
+/* =========================================================
+   热点标题
+========================================================= */
+
+.hotspot-title {
+
+    margin:
+        0 0 9px;
+
+    color: #12334f;
+
+    font-size: 24px;
+
+    line-height: 1.42;
+
+    font-weight: 760;
+
+}
+
+
+.hotspot-title a {
+
+    color: inherit;
+
+    text-decoration: none;
+
+}
+
+
+.hotspot-title a:hover {
+
+    color: #0c797c;
+
+}
+
+
+/* =========================================================
+   热点摘要
+========================================================= */
+
+.hotspot-summary {
+
+    margin:
+        0 0 16px;
+
+    color: #657581;
+
+    font-size: 13px;
+
+    line-height: 1.75;
+
+}
+
+
+/* =========================================================
+   热点信息块
+========================================================= */
+
+.hotspot-block {
+
+    margin-top: 14px;
+
+    padding:
+        13px 15px;
+
+    background: #f7f9fa;
+
+    border-radius: 11px;
+
+    border-left:
+        3px solid
+        #dce4e9;
+
+}
+
+
+.hotspot-block-title {
+
+    margin-bottom: 6px;
+
+    color: #83909a;
+
+    font-size: 11px;
+
+    line-height: 1.4;
+
+    font-weight: 700;
+
+    letter-spacing: 0.2px;
+
+}
+
+
+/* =========================================================
+   推荐标题
+========================================================= */
+
+.recommended-title {
+
+    color: #173c58;
+
+    font-size: 15px;
+
+    line-height: 1.65;
+
+    font-weight: 700;
+
+}
+
+
+/* =========================================================
+   推荐切口
+========================================================= */
+
+.hotspot-angle {
+
+    margin: 0;
+
+    color: #536a79;
+
+    font-size: 13px;
+
+    line-height: 1.75;
+
+}
+
+
+/* =========================================================
+   Nature关联论文
+========================================================= */
+
+.hotspot-papers {
+
+    margin-top: 17px;
+
+    padding-top: 15px;
+
+    border-top:
+        1px solid
+        #edf0f2;
+
+}
+
+
+.related-paper-list {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            minmax(
+                0,
+                1fr
+            )
+        );
+
+    gap: 9px;
+
+}
+
+
+/* =========================================================
+   Nature小卡
+========================================================= */
+
+.related-paper {
+
+    min-width: 0;
+
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background: #f6f8f9;
+
+    border:
+        1px solid
+        #edf0f2;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    transition:
+        background 0.16s ease,
+        transform 0.16s ease,
+        border-color 0.16s ease;
+
+}
+
+
+.related-paper:hover {
+
+    background: #eef5f5;
+
+    border-color: #d7e7e5;
+
+    transform:
+        translateY(-1px);
+
+}
+
+
+.related-paper-image {
+
+    display: block;
+
+    width: 100%;
+
+    aspect-ratio: 16 / 8.3;
+
+    object-fit: cover;
+
+    background: #e7ecef;
+
+}
+
+
+.related-paper-content {
+
+    padding:
+        9px 10px
+        10px;
+
+}
+
+
+.related-paper-source {
+
+    margin-bottom: 4px;
+
+    overflow: hidden;
+
+    color: #16908b;
+
+    font-size: 10px;
+
+    line-height: 1.4;
+
+    font-weight: 650;
+
+    white-space: nowrap;
+
+    text-overflow: ellipsis;
+
+}
+
+
+.related-paper-title {
+
+    color: #334f62;
+
+    font-size: 12px;
+
+    line-height: 1.55;
+
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+
+    -webkit-line-clamp: 3;
+
+    overflow: hidden;
+
+}
+
+
+/* =========================================================
    空状态
-========================================= */
+========================================================= */
 
 .empty {
 
@@ -756,11 +1506,13 @@ body {
 
     border-radius: 14px;
 
-    padding: 36px 20px;
+    padding:
+        36px 20px;
 
     text-align: center;
 
     color: #788994;
+
 }
 
 
@@ -768,12 +1520,16 @@ body {
 
     grid-column:
         1 / -1;
+
 }
 
 
 .empty strong {
 
+    display: block;
+
     color: #435c6d;
+
 }
 
 
@@ -783,12 +1539,13 @@ body {
         5px 0 0;
 
     font-size: 13px;
+
 }
 
 
-/* =========================================
+/* =========================================================
    Footer
-========================================= */
+========================================================= */
 
 .footer {
 
@@ -804,6 +1561,14 @@ body {
     color: #8996a1;
 
     font-size: 12px;
+
+}
+
+
+.footer strong {
+
+    color: #71818d;
+
 }
 
 
@@ -813,16 +1578,19 @@ body {
         5px 0 0;
 
     font-size: 11px;
+
 }
 
 
-/* =========================================
+/* =========================================================
    平板
-========================================= */
+========================================================= */
 
 @media (
-    max-width: 900px
+    max-width: 980px
 ) {
+
+    /* 普通资讯 */
 
     .news-grid,
     .featured-grid {
@@ -835,65 +1603,209 @@ body {
                     1fr
                 )
             );
+
+    }
+
+
+    /* 热点改成上下结构 */
+
+    .hotspot-card {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .hotspot-image-wrap {
+
+        height: 360px;
+
+    }
+
+
+    .hotspot-image {
+
+        min-height: 0;
+
+        height: 100%;
+
+    }
+
+
+    .related-paper-list {
+
+        grid-template-columns:
+            repeat(
+                3,
+                minmax(
+                    0,
+                    1fr
+                )
+            );
+
     }
 
 }
 
 
-/* =========================================
+/* =========================================================
+   小平板
+========================================================= */
+
+@media (
+    max-width: 760px
+) {
+
+    .header h1 {
+
+        font-size: 30px;
+
+    }
+
+
+    .hotspot-title {
+
+        font-size: 21px;
+
+    }
+
+
+    .related-paper-list {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .related-paper {
+
+        display: grid;
+
+        grid-template-columns:
+            105px
+            minmax(
+                0,
+                1fr
+            );
+
+    }
+
+
+    .related-paper-image {
+
+        width: 105px;
+
+        height: 100%;
+
+        min-height: 88px;
+
+        aspect-ratio: auto;
+
+    }
+
+}
+
+
+/* =========================================================
    手机
-========================================= */
+========================================================= */
 
 @media (
     max-width: 600px
 ) {
 
+    /* -----------------------------------------------------
+       Header
+    ----------------------------------------------------- */
+
     .header {
 
         padding:
-            24px 16px 27px;
+            24px 16px
+            27px;
+
     }
 
 
     .header h1 {
 
         font-size: 28px;
+
     }
 
 
     .subtitle {
 
-        font-size: 15px;
+        font-size: 14px;
+
+        line-height: 1.6;
+
     }
 
+
+    .update-time {
+
+        font-size: 12px;
+
+    }
+
+
+    /* -----------------------------------------------------
+       容器
+    ----------------------------------------------------- */
 
     .container {
 
         padding:
-            17px 12px 45px;
+            17px 12px
+            45px;
+
     }
 
+
+    /* -----------------------------------------------------
+       今日提示
+    ----------------------------------------------------- */
 
     .intro {
 
-        padding: 17px;
+        padding:
+            17px;
+
+        border-radius: 13px;
+
     }
 
+
+    .intro p {
+
+        font-size: 13px;
+
+    }
+
+
+    /* -----------------------------------------------------
+       导航
+    ----------------------------------------------------- */
 
     .filters {
 
         gap: 7px;
 
         margin-bottom: 25px;
+
     }
 
 
     .filter {
 
         padding:
-            7px 11px;
+            8px 11px;
 
         font-size: 12px;
+
     }
 
 
@@ -904,14 +1816,38 @@ body {
         height: 18px;
 
         font-size: 9px;
+
+    }
+
+
+    /* -----------------------------------------------------
+       Section
+    ----------------------------------------------------- */
+
+    .section-heading {
+
+        align-items: flex-end;
+
     }
 
 
     .section-title {
 
         font-size: 20px;
+
     }
 
+
+    .section-description {
+
+        font-size: 12px;
+
+    }
+
+
+    /* -----------------------------------------------------
+       普通资讯一列
+    ----------------------------------------------------- */
 
     .news-grid,
     .featured-grid {
@@ -920,12 +1856,14 @@ body {
             1fr;
 
         gap: 14px;
+
     }
 
 
     .news-card h3 {
 
         font-size: 17px;
+
     }
 
 
@@ -933,6 +1871,248 @@ body {
 
         aspect-ratio:
             16 / 8.8;
+
+    }
+
+
+    /* -----------------------------------------------------
+       热点
+    ----------------------------------------------------- */
+
+    .hotspot-list {
+
+        gap: 16px;
+
+    }
+
+
+    .hotspot-card {
+
+        border-radius: 14px;
+
+    }
+
+
+    .hotspot-image-wrap {
+
+        height: 225px;
+
+    }
+
+
+    .hotspot-content {
+
+        padding:
+            17px 16px
+            18px;
+
+    }
+
+
+    .hotspot-title {
+
+        margin-bottom: 8px;
+
+        font-size: 19px;
+
+        line-height: 1.48;
+
+    }
+
+
+    .hotspot-summary {
+
+        font-size: 12.5px;
+
+        line-height: 1.7;
+
+    }
+
+
+    .potential-score {
+
+        top: 11px;
+
+        right: 11px;
+
+        min-width: 67px;
+
+        padding:
+            7px 9px
+            8px;
+
+        border-radius: 11px;
+
+    }
+
+
+    .potential-score strong {
+
+        font-size: 23px;
+
+    }
+
+
+    .score-label {
+
+        font-size: 9px;
+
+    }
+
+
+    .hotspot-block {
+
+        margin-top: 11px;
+
+        padding:
+            11px 12px;
+
+    }
+
+
+    .recommended-title {
+
+        font-size: 14px;
+
+    }
+
+
+    .hotspot-angle {
+
+        font-size: 12.5px;
+
+    }
+
+
+    /* -----------------------------------------------------
+       Nature关联论文
+    ----------------------------------------------------- */
+
+    .hotspot-papers {
+
+        margin-top: 14px;
+
+        padding-top: 13px;
+
+    }
+
+
+    .related-paper-list {
+
+        grid-template-columns:
+            1fr;
+
+        gap: 8px;
+
+    }
+
+
+    .related-paper {
+
+        display: grid;
+
+        grid-template-columns:
+            96px
+            minmax(
+                0,
+                1fr
+            );
+
+    }
+
+
+    .related-paper-image {
+
+        width: 96px;
+
+        height: 100%;
+
+        min-height: 88px;
+
+        aspect-ratio: auto;
+
+    }
+
+
+    .related-paper-content {
+
+        padding:
+            8px 9px;
+
+    }
+
+
+    .related-paper-title {
+
+        -webkit-line-clamp: 3;
+
+    }
+
+}
+
+
+/* =========================================================
+   极小屏幕
+========================================================= */
+
+@media (
+    max-width: 390px
+) {
+
+    .header h1 {
+
+        font-size: 26px;
+
+    }
+
+
+    .filter {
+
+        padding:
+            7px 10px;
+
+    }
+
+
+    .hotspot-image-wrap {
+
+        height: 205px;
+
+    }
+
+
+    .hotspot-content {
+
+        padding:
+            15px 14px
+            16px;
+
+    }
+
+
+    .hotspot-title {
+
+        font-size: 18px;
+
+    }
+
+
+    .related-paper {
+
+        grid-template-columns:
+            82px
+            minmax(
+                0,
+                1fr
+            );
+
+    }
+
+
+    .related-paper-image {
+
+        width: 82px;
+
     }
 
 }
