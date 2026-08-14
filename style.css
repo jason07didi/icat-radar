@@ -176,7 +176,7 @@ body {
 
 
 /* =========================================
-   分类导航
+   导航
 ========================================= */
 
 .filters {
@@ -445,7 +445,7 @@ body {
             207,
             38,
             61,
-            0.1
+            0.10
         );
 }
 
@@ -472,7 +472,7 @@ body {
 
     overflow: hidden;
 
-    background: #dde4e9;
+    background: #e7ebee;
 }
 
 
@@ -486,6 +486,8 @@ body {
 
     object-fit: cover;
 
+    object-position: center;
+
     transition:
         transform 0.25s ease;
 }
@@ -496,107 +498,6 @@ body {
 
     transform:
         scale(1.025);
-}
-
-
-/* =========================================
-   默认视觉封面
-========================================= */
-
-.image-placeholder {
-
-    width: 100%;
-
-    height: 100%;
-
-    display: flex;
-
-    flex-direction: column;
-
-    align-items: center;
-
-    justify-content: center;
-
-    gap: 3px;
-
-    color: white;
-
-    text-align: center;
-}
-
-
-.image-placeholder strong {
-
-    font-size: 32px;
-
-    letter-spacing: 1px;
-
-    line-height: 1.1;
-}
-
-
-.image-placeholder span {
-
-    font-size: 11px;
-
-    letter-spacing: 1.5px;
-
-    opacity: 0.76;
-}
-
-
-.placeholder-ai {
-
-    background:
-        linear-gradient(
-            135deg,
-            #153d5d,
-            #198785
-        );
-}
-
-
-.placeholder-tool {
-
-    background:
-        linear-gradient(
-            135deg,
-            #31495f,
-            #657d90
-        );
-}
-
-
-.placeholder-research {
-
-    background:
-        linear-gradient(
-            135deg,
-            #7a2634,
-            #c35543
-        );
-}
-
-
-.placeholder-data {
-
-    background:
-        linear-gradient(
-            135deg,
-            #174665,
-            #467ca0
-        );
-}
-
-
-.placeholder-city {
-
-    background:
-        linear-gradient(
-            135deg,
-            #275241,
-            #5d8771
-        );
 }
 
 
@@ -622,7 +523,7 @@ body {
             255,
             255,
             255,
-            0.93
+            0.94
         );
 
     color: #b45700;
@@ -637,7 +538,7 @@ body {
             0,
             0,
             0,
-            0.1
+            0.10
         );
 }
 
@@ -714,7 +615,7 @@ body {
 
 .category {
 
-    max-width: 170px;
+    max-width: 180px;
 
     overflow: hidden;
 
@@ -808,7 +709,7 @@ body {
 
     -webkit-box-orient: vertical;
 
-    -webkit-line-clamp: 2;
+    -webkit-line-clamp: 3;
 
     overflow: hidden;
 }
