@@ -4,13 +4,11 @@ import json
 import hashlib
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 
 import requests
-import feedparser
 from bs4 import BeautifulSoup
 from dateutil import parser as dtparser
-
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -21,44 +19,33 @@ from urllib3.util.retry import Retry
 
 DATA_FILE = Path("data/news.json")
 
-MAX_ITEMS = 500
-KEEP_DAYS = 30
+MAX_ITEMS = 400
+
+# 页面保留最近45天
+KEEP_DAYS = 45
 
 
 # =========================================================
-# 中文信息源
+# 数据源
 # =========================================================
 
-AIBASE_URLS = [
-    "https://news.aibase.com/zh/news",
-    "https://news.aibase.com/zh/",
-]
+AIBASE_URL = "https://news.aibase.com/zh/news"
 
 QBITAI_URL = (
     "https://www.qbitai.com/category/%E8%B5%84%E8%AE%AF"
 )
 
+SCIENTIFIC_DATA_URL = (
+    "https://www.nature.com/sdata/articles"
+)
 
-# =========================================================
-# Nature RSS
-# =========================================================
-
-NATURE_FEEDS = [
-    {
-        "name": "Scientific Data",
-        "url": "https://www.nature.com/sdata.rss",
-        "category": "城市数据",
-    },
-    {
-        "name": "Nature Cities",
-        "url": "https://www.nature.com/natcities.rss",
-        "category": "城市前沿",
-    },
-]
+NATURE_CITIES_URL = (
+    "https://www.nature.com/natcities/articles"
+)
 
 
 # =========================================================
-# HTTP
+# HTTP Session
 # =========================================================
 
 HEADERS = {
@@ -68,7 +55,8 @@ HEADERS = {
         "(KHTML, like Gecko) "
         "Chrome/124.0 Safari/537.36"
     ),
-    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    "Accept-Language":
+        "zh-CN,zh;q=0.9,en;q=0.8",
 }
 
 
@@ -86,7 +74,7 @@ def build_session():
             500,
             502,
             503,
-            504,
+            504
         ],
         allowed_methods=["GET"],
     )
@@ -116,8 +104,7 @@ SESSION = build_session()
 
 
 # =========================================================
-# Scientific Data：
-# 必须真正与城市、多源数据有关
+# Scientific Data 城市相关关键词
 # =========================================================
 
 CITY_STRONG_KEYWORDS = [
@@ -126,33 +113,33 @@ CITY_STRONG_KEYWORDS = [
     "urban",
     "city",
     "cities",
+    "metropolitan",
     "urbanization",
     "urbanisation",
-    "metropolitan",
 
-    # 建成环境
+    # 建筑
     "building",
     "buildings",
     "built environment",
     "urban morphology",
     "urban form",
 
-    # 道路 / 街景
+    # 道路 / 交通
+    "urban road",
+    "road map",
     "road network",
     "street network",
     "street view",
     "streetscape",
+    "traffic",
+    "transport",
+    "transportation",
 
     # 人口 / 活动
+    "population",
     "human mobility",
     "urban mobility",
-    "population",
     "human settlement",
-
-    # 交通
-    "urban transport",
-    "transportation",
-    "traffic",
 
     # 城市环境
     "urban heat",
@@ -160,41 +147,40 @@ CITY_STRONG_KEYWORDS = [
     "urban climate",
     "air pollution",
     "pm2.5",
-    "urban green space",
+    "green space",
+    "greenspace",
 
-    # 城市空间
-    "local climate zone",
-    "lcz",
-]
-
-
-CITY_DATA_SECONDARY = [
-
-    "remote sensing",
-    "satellite",
-    "geospatial",
-    "gis",
+    # 土地
+    "urban land",
     "land use",
     "land cover",
+
+    # 地理空间
+    "geoai",
+    "geospatial",
+    "local climate zone",
+    "lcz",
+
+    # 灯光
     "nighttime light",
     "night-time light",
-    "lidar",
-    "dem",
 ]
 
 
 DATA_KEYWORDS = [
+
     "dataset",
     "data set",
     "database",
+    "data resource",
     "data product",
-    "benchmark dataset",
-    "geodatabase",
+    "benchmark",
+    "atlas",
 ]
 
 
 # =========================================================
-# GitHub 搜索
+# GitHub搜索词
 # =========================================================
 
 GITHUB_TOPICS = [
@@ -211,7 +197,7 @@ GITHUB_TOPICS = [
     '"scientific visualization"',
     '"browser agent"',
 
-    # 城市 / 地理
+    # 城市空间
     '"urban data"',
     '"geoai"',
     '"geospatial" AI',
@@ -220,12 +206,12 @@ GITHUB_TOPICS = [
 ]
 
 
-# GitHub必须包含至少一个
 GITHUB_POSITIVE = [
 
     "agent",
     "ai",
     "llm",
+
     "research",
     "paper",
     "literature",
@@ -235,8 +221,8 @@ GITHUB_POSITIVE = [
     "citation",
     "workflow",
     "visualization",
-    "browser",
     "automation",
+    "browser",
 
     "urban",
     "city",
@@ -248,45 +234,56 @@ GITHUB_POSITIVE = [
 ]
 
 
-# 明显不需要的方向
 GITHUB_NEGATIVE = [
 
+    # 医学、生物
     "lipid",
     "protein",
     "genome",
     "genomic",
     "clinical",
-    "medical imaging",
-    "drug discovery",
-    "molecule",
-    "molecular",
     "cancer",
     "tumor",
+    "molecule",
+    "molecular",
+    "drug discovery",
 
+    # 金融投机
     "crypto",
     "cryptocurrency",
-    "blockchain",
     "casino",
     "betting",
 
+    # 游戏外挂
     "game cheat",
     "hack game",
 ]
 
 
 # =========================================================
-# AI资讯筛选
+# 中文AI资讯关键词
 # =========================================================
 
-AI_USEFUL_KEYWORDS = [
+AI_KEYWORDS = [
 
-    # 中文
-    "ai",
+    "AI",
     "人工智能",
     "大模型",
     "模型",
     "智能体",
-    "agent",
+    "Agent",
+
+    "ChatGPT",
+    "OpenAI",
+    "Claude",
+    "Anthropic",
+    "Gemini",
+    "DeepSeek",
+    "Qwen",
+    "千问",
+    "豆包",
+    "Manus",
+
     "开源",
     "发布",
     "推出",
@@ -294,86 +291,26 @@ AI_USEFUL_KEYWORDS = [
     "更新",
     "新功能",
     "工具",
-    "平台",
-    "api",
+    "API",
+
     "自动化",
     "浏览器",
     "搜索",
+    "文档",
     "文献",
     "论文",
     "写作",
-    "ppt",
     "代码",
     "编程",
     "数据分析",
     "可视化",
+    "视频",
     "图像",
-    "视频生成",
-    "办公",
-
-    # 产品名
-    "chatgpt",
-    "openai",
-    "claude",
-    "anthropic",
-    "gemini",
-    "deepseek",
-    "qwen",
-    "千问",
-    "豆包",
-    "cursor",
-    "copilot",
-    "notebooklm",
-    "manus",
 ]
 
 
 # =========================================================
-# AI变现关键词
-# =========================================================
-
-AI_MONETIZATION_KEYWORDS = [
-
-    "变现",
-    "赚钱",
-    "副业",
-    "商业化",
-    "商业模式",
-    "收费",
-    "付费",
-    "收入",
-
-    "电商",
-    "带货",
-    "商家",
-    "交易",
-    "订单",
-    "获客",
-    "营销",
-    "广告",
-
-    "自媒体",
-    "短视频",
-    "内容创作",
-    "数字人",
-    "创业",
-    "接单",
-
-    "monetization",
-    "monetize",
-    "ecommerce",
-    "e-commerce",
-    "marketing",
-    "advertising",
-    "creator economy",
-    "revenue",
-    "sales",
-    "lead generation",
-]
-
-
-# =========================================================
-# 文本函数
+# 基础文本处理
 # =========================================================
 
 def clean_text(text):
@@ -417,20 +354,19 @@ def contains_chinese(text):
 
 def refine_title(title):
 
-    """
-    不进行翻译。
-    只删除明显营销词和冗余格式。
-    """
-
     if not title:
         return ""
 
     title = clean_text(title)
 
-    # -------------------------
-    # 删除常见栏目头
-    # -------------------------
+    # AIBase日报的 #1 #2 等
+    title = re.sub(
+        r"^#\s*\d+\s*",
+        "",
+        title
+    )
 
+    # 删除部分媒体栏目头
     title = re.sub(
         r"^AI日报[：:\s]*",
         "",
@@ -445,23 +381,18 @@ def refine_title(title):
         flags=re.I
     )
 
-    # -------------------------
-    # 删除标题开头营销词
-    # -------------------------
-
-    hype_patterns = [
-
+    # 删除明显营销前缀
+    patterns = [
         r"^刚刚[！!，,:：\s]*",
         r"^重磅[！!，,:：\s]*",
-        r"^突发[！!，,:：\s]*",
         r"^震撼[！!，,:：\s]*",
         r"^炸裂[！!，,:：\s]*",
         r"^官宣[！!，,:：\s]*",
-        r"^最新[！!，,:：\s]*",
         r"^独家[！!，,:：\s]*",
+        r"^最新[！!，,:：\s]*",
     ]
 
-    for pattern in hype_patterns:
+    for pattern in patterns:
 
         title = re.sub(
             pattern,
@@ -469,73 +400,14 @@ def refine_title(title):
             title
         )
 
-    # -------------------------
-    # 删除重复空格
-    # -------------------------
-
     title = re.sub(
         r"\s+",
         " ",
         title
-    ).strip()
-
-    # -------------------------
-    # 去除部分媒体后缀
-    # -------------------------
-
-    title = re.sub(
-        r"[｜|]\s*(量子位|AIBase)\s*$",
-        "",
-        title,
-        flags=re.I
     )
 
     return title.strip(
         " -—_|｜"
-    )
-
-
-# =========================================================
-# GitHub 展示标题
-# =========================================================
-
-def build_github_display_title(
-    full_name,
-    description
-):
-
-    repo_name = (
-        full_name.split("/")[-1]
-        if full_name
-        else "GitHub项目"
-    )
-
-    description = clean_text(
-        description
-    )
-
-    if not description:
-        return repo_name
-
-    # 只取description第一句
-    first_sentence = re.split(
-        r"[。.!?！？]",
-        description
-    )[0].strip()
-
-    if not first_sentence:
-        return repo_name
-
-    # 控制过长
-    if len(first_sentence) > 90:
-        first_sentence = (
-            first_sentence[:87]
-            + "..."
-        )
-
-    return (
-        f"{repo_name}："
-        f"{first_sentence}"
     )
 
 
@@ -593,13 +465,41 @@ def parse_date(value):
         ).isoformat()
 
 
+def extract_date_from_text(text):
+
+    """
+    Nature列表中的：
+    12 Aug 2026
+    05 Aug 2026
+    """
+
+    if not text:
+        return None
+
+    match = re.search(
+        r"\b("
+        r"\d{1,2}\s+"
+        r"(?:Jan|Feb|Mar|Apr|May|Jun|"
+        r"Jul|Aug|Sep|Oct|Nov|Dec)"
+        r"\s+\d{4}"
+        r")\b",
+        text,
+        flags=re.I
+    )
+
+    if match:
+
+        return match.group(1)
+
+    return None
+
+
 # =========================================================
-# 创建item
+# 创建资讯
 # =========================================================
 
 def make_item(
     title,
-    display_title,
     source,
     category,
     url,
@@ -607,7 +507,8 @@ def make_item(
     summary="",
     priority="B",
     language="zh",
-    meta=None,
+    display_title=None,
+    meta=None
 ):
 
     return {
@@ -619,15 +520,13 @@ def make_item(
                 url
             ),
 
-        # 原始标题
         "title":
             clean_text(title),
 
-        # 网页显示的精炼标题
         "display_title":
             clean_text(
                 display_title
-                or title
+                or refine_title(title)
             ),
 
         "source":
@@ -650,7 +549,9 @@ def make_item(
             ).isoformat(),
 
         "summary":
-            clean_text(summary),
+            clean_text(
+                summary
+            ),
 
         "priority":
             priority,
@@ -659,157 +560,57 @@ def make_item(
             language,
 
         "meta":
-            meta or {},
+            meta or {}
     }
 
 
 # =========================================================
-# 自动判断分类
+# AI标题价值判断
 # =========================================================
 
-def classify_category(
-    source,
-    title,
-    summary=""
-):
+def useful_ai_title(title):
 
-    text = (
-        f"{title} {summary}"
-    ).lower()
-
-    # Nature固定
-    if source == "Nature Cities":
-        return "城市前沿"
-
-    if source == "Scientific Data":
-        return "城市数据"
-
-    # 城市数据
-    city_hit = any(
-        word in text
-        for word in
-        CITY_STRONG_KEYWORDS
-        + CITY_DATA_SECONDARY
-    )
-
-    data_hit = any(
-        word in text
-        for word in DATA_KEYWORDS
-    )
-
-    if city_hit and data_hit:
-        return "城市数据"
-
-    # AI变现
-    if any(
-        word.lower() in text
-        for word
-        in AI_MONETIZATION_KEYWORDS
-    ):
-        return "AI变现"
-
-    # 其他工具
-    return "提效工具"
-
-
-# =========================================================
-# AI新闻是否值得进入网站
-# =========================================================
-
-def is_useful_ai_news(
-    title,
-    summary=""
-):
-
-    text = (
-        f"{title} {summary}"
-    ).lower()
+    text = title.lower()
 
     return any(
-        word.lower() in text
-        for word in AI_USEFUL_KEYWORDS
+        keyword.lower() in text
+        for keyword in AI_KEYWORDS
     )
 
 
-# =========================================================
-# 新闻优先级
-# =========================================================
+def ai_priority(title):
 
-def news_priority(
-    title,
-    summary=""
-):
+    text = title.lower()
 
-    text = (
-        f"{title} {summary}"
-    ).lower()
+    strong = [
 
-    strong_words = [
         "开源",
         "免费",
         "发布",
         "推出",
         "上线",
-        "重大更新",
-        "新功能",
         "agent",
         "智能体",
-        "数据集",
-        "dataset",
-        "github",
         "api",
+        "重大更新",
+        "新功能",
     ]
 
     if any(
-        x.lower() in text
-        for x in strong_words
+        word.lower() in text
+        for word in strong
     ):
+
         return "A"
 
     return "B"
 
 
 # =========================================================
-# 从父节点获取简短介绍
-# =========================================================
-
-def extract_context(
-    node,
-    title
-):
-
-    parent = node.find_parent(
-        ["article", "li"]
-    )
-
-    if parent is None:
-        parent = node.parent
-
-    if parent is None:
-        return ""
-
-    text = clean_text(
-        parent.get_text(
-            " ",
-            strip=True
-        )
-    )
-
-    if title:
-        text = text.replace(
-            title,
-            ""
-        ).strip()
-
-    # 太长容易把整个页面抓进去
-    if len(text) > 220:
-        text = text[:220]
-
-    return text
-
-
-# =========================================================
 # AIBase
+#
+# 用户当前设定：
+# AIBase → AI变现
 # =========================================================
 
 def fetch_aibase():
@@ -820,54 +621,42 @@ def fetch_aibase():
 
     results = []
 
-    html = None
-    final_url = None
+    try:
 
-    for page_url in AIBASE_URLS:
+        response = SESSION.get(
+            AIBASE_URL,
+            timeout=30
+        )
 
-        try:
+        response.raise_for_status()
 
-            response = SESSION.get(
-                page_url,
-                timeout=30
-            )
+        response.encoding = "utf-8"
 
-            response.raise_for_status()
+    except Exception as e:
 
-            response.encoding = "utf-8"
-
-            html = response.text
-            final_url = page_url
-
-            break
-
-        except Exception as e:
-
-            print(
-                "AIBase failed:",
-                page_url,
-                e
-            )
-
-    if not html:
+        print(
+            "AIBase failed:",
+            e
+        )
 
         return results
 
     soup = BeautifulSoup(
-        html,
+        response.text,
         "html.parser"
     )
 
     candidates = []
 
-    # 优先标题区域
+    # -------------------------
+    # 优先标题元素
+    # -------------------------
+
     selectors = [
-        "article h2 a",
-        "article h3 a",
-        "article h4 a",
-        "h2 a",
-        "h3 a",
-        "h4 a",
+
+        "h2 a[href*='/zh/news/']",
+        "h3 a[href*='/zh/news/']",
+        "h4 a[href*='/zh/news/']",
     ]
 
     for selector in selectors:
@@ -891,50 +680,42 @@ def fetch_aibase():
                 not title
                 or not href
             ):
+
                 continue
 
             if not contains_chinese(
                 title
             ):
+
                 continue
 
             if len(title) < 8:
+
                 continue
 
             url = urljoin(
-                final_url,
+                AIBASE_URL,
                 href
-            )
-
-            # 只接受AIBase内容页面
-            if (
-                "news.aibase.com"
-                not in url
-            ):
-                continue
-
-            summary = extract_context(
-                node,
-                title
             )
 
             candidates.append(
                 (
                     title,
-                    url,
-                    summary
+                    url
                 )
             )
 
-    # 如果标准selector没抓到
+    # -------------------------
+    # fallback
+    # -------------------------
+
     if not candidates:
 
-        for node in soup.find_all(
-            "a",
-            href=True
+        for node in soup.select(
+            "a[href*='/zh/news/']"
         ):
 
-            title = clean_text(
+            raw = clean_text(
                 node.get_text(
                     " ",
                     strip=True
@@ -945,95 +726,102 @@ def fetch_aibase():
                 "href"
             )
 
-            if not title:
+            if (
+                not raw
+                or not href
+            ):
+
                 continue
 
             if not contains_chinese(
-                title
+                raw
             ):
+
                 continue
 
+            # 如果card内文字非常长，
+            # 尽量取前面的标题
+            title = raw
+
+            if len(title) > 100:
+
+                # 根据常见中文句号截断
+                parts = re.split(
+                    r"[。]",
+                    title
+                )
+
+                title = parts[0]
+
             if not (
-                8 <= len(title) <= 100
+                8 <= len(title) <= 120
             ):
+
                 continue
 
             url = urljoin(
-                final_url,
+                AIBASE_URL,
                 href
-            )
-
-            if (
-                "news.aibase.com"
-                not in url
-            ):
-                continue
-
-            summary = extract_context(
-                node,
-                title
             )
 
             candidates.append(
                 (
                     title,
-                    url,
-                    summary
+                    url
                 )
             )
 
     seen = set()
 
-    for (
-        title,
-        url,
-        summary
-    ) in candidates:
+    for title, url in candidates:
 
-        key = (
-            title.strip(),
-            url
-        )
-
-        if key in seen:
+        # URL去重
+        if url in seen:
             continue
 
-        seen.add(key)
+        seen.add(url)
 
-        if not is_useful_ai_news(
-            title,
-            summary
+        if not useful_ai_title(
+            title
         ):
+
             continue
 
         display_title = refine_title(
             title
         )
 
-        category = classify_category(
-            "AIBase",
-            title,
-            summary
-        )
-
         results.append(
+
             make_item(
+
                 title=title,
-                display_title=display_title,
+
+                display_title=
+                    display_title,
+
                 source="AIBase",
-                category=category,
+
+                # =====================================
+                # 固定归入AI变现
+                # =====================================
+                category="AI变现",
+
                 url=url,
-                summary=summary,
-                priority=news_priority(
-                    title,
-                    summary
-                ),
+
+                summary="",
+
+                priority=
+                    ai_priority(
+                        title
+                    ),
+
                 language="zh",
             )
         )
 
     print(
-        "AIBase:",
+        "AIBase items:",
         len(results)
     )
 
@@ -1042,6 +830,8 @@ def fetch_aibase():
 
 # =========================================================
 # 量子位
+#
+# 固定作为“提效工具”中文补充源
 # =========================================================
 
 def fetch_qbitai():
@@ -1082,149 +872,114 @@ def fetch_qbitai():
 
     candidates = []
 
-    # 量子位主要文章标题
-    selectors = [
-        "h4 a",
-        "h3 a",
-        "article a",
-    ]
+    for node in soup.select(
+        "h2 a, h3 a, h4 a"
+    ):
 
-    for selector in selectors:
+        title = clean_text(
+            node.get_text(
+                " ",
+                strip=True
+            )
+        )
 
-        for node in soup.select(
-            selector
+        href = node.get(
+            "href"
+        )
+
+        if (
+            not title
+            or not href
         ):
 
-            title = clean_text(
-                node.get_text(
-                    " ",
-                    strip=True
-                )
-            )
+            continue
 
-            href = node.get(
-                "href"
-            )
+        if not contains_chinese(
+            title
+        ):
 
-            if (
-                not title
-                or not href
-            ):
-                continue
+            continue
 
-            if not contains_chinese(
-                title
-            ):
-                continue
+        if not (
+            8 <= len(title) <= 120
+        ):
 
-            if not (
-                8 <= len(title) <= 100
-            ):
-                continue
+            continue
 
-            url = urljoin(
-                QBITAI_URL,
-                href
-            )
+        url = urljoin(
+            QBITAI_URL,
+            href
+        )
 
-            parsed = urlparse(
+        if (
+            "qbitai.com"
+            not in url
+        ):
+
+            continue
+
+        if any(
+            x in url
+            for x in [
+                "/category/",
+                "/tag/",
+                "/author/"
+            ]
+        ):
+
+            continue
+
+        candidates.append(
+            (
+                title,
                 url
             )
-
-            if (
-                "qbitai.com"
-                not in parsed.netloc
-            ):
-                continue
-
-            # 排除栏目/标签
-            if any(
-                part in url
-                for part in [
-                    "/category/",
-                    "/tag/",
-                    "/author/",
-                    "/关于我们",
-                ]
-            ):
-                continue
-
-            summary = extract_context(
-                node,
-                title
-            )
-
-            candidates.append(
-                (
-                    title,
-                    url,
-                    summary
-                )
-            )
+        )
 
     seen = set()
 
-    for (
-        title,
-        url,
-        summary
-    ) in candidates:
+    for title, url in candidates:
 
         if url in seen:
             continue
 
         seen.add(url)
 
-        # 商业变现信息允许进入
-        monetization = any(
-            word.lower()
-            in (
-                title
-                + " "
-                + summary
-            ).lower()
-            for word
-            in AI_MONETIZATION_KEYWORDS
-        )
-
-        if (
-            not monetization
-            and
-            not is_useful_ai_news(
-                title,
-                summary
-            )
+        if not useful_ai_title(
+            title
         ):
+
             continue
 
-        display_title = refine_title(
-            title
-        )
-
-        category = classify_category(
-            "量子位",
-            title,
-            summary
-        )
-
         results.append(
+
             make_item(
+
                 title=title,
-                display_title=display_title,
+
+                display_title=
+                    refine_title(
+                        title
+                    ),
+
                 source="量子位",
-                category=category,
+
+                category=
+                    "提效工具",
+
                 url=url,
-                summary=summary,
-                priority=news_priority(
-                    title,
-                    summary
-                ),
+
+                priority=
+                    ai_priority(
+                        title
+                    ),
+
                 language="zh",
             )
         )
 
     print(
-        "量子位:",
+        "量子位 items:",
         len(results)
     )
 
@@ -1232,177 +987,300 @@ def fetch_qbitai():
 
 
 # =========================================================
-# Scientific Data相关性
+# Scientific Data 城市数据判断
 # =========================================================
 
 def scientific_data_relevant(
     title,
-    summary
+    summary=""
 ):
 
     text = (
         f"{title} {summary}"
     ).lower()
 
-    # 必须出现dataset类词
-    data_hit = any(
-        keyword in text
-        for keyword in DATA_KEYWORDS
-    )
-
-    if not data_hit:
-        return False
-
-    # 强城市词
-    strong_hit = any(
+    city_hit = any(
         keyword in text
         for keyword
         in CITY_STRONG_KEYWORDS
     )
 
-    if strong_hit:
-        return True
-
-    # 次级空间数据词不能单独命中
-    secondary_hit = any(
+    data_hit = any(
         keyword in text
         for keyword
-        in CITY_DATA_SECONDARY
-    )
-
-    # 必须同时具有城市语境
-    city_context = any(
-        keyword in text
-        for keyword in [
-            "urban",
-            "city",
-            "cities",
-            "building",
-            "population",
-            "settlement",
-            "mobility",
-            "transport",
-        ]
+        in DATA_KEYWORDS
     )
 
     return (
-        secondary_hit
-        and city_context
+        city_hit
+        and data_hit
     )
 
 
 # =========================================================
-# Nature
+# Nature文章列表通用解析
 # =========================================================
 
-def fetch_nature():
+def parse_nature_cards(
+    html,
+    base_url
+):
 
-    print(
-        "Fetching Nature..."
+    soup = BeautifulSoup(
+        html,
+        "html.parser"
     )
 
     results = []
 
-    for config in NATURE_FEEDS:
+    # Nature主要列表结构
+    cards = soup.select(
+        "li.app-article-list-row__item"
+    )
 
-        print(
-            "Fetching",
-            config["name"]
+    # 页面结构变化fallback
+    if not cards:
+
+        cards = soup.select(
+            "article"
         )
 
-        feed = feedparser.parse(
-            config["url"]
-        )
+    # 再fallback
+    if not cards:
 
-        if getattr(
-            feed,
-            "bozo",
-            False
+        cards = []
+
+        for heading in soup.select(
+            "h3"
         ):
 
-            print(
-                config["name"],
-                "RSS warning:",
-                getattr(
-                    feed,
-                    "bozo_exception",
-                    ""
+            if heading.find(
+                "a",
+                href=re.compile(
+                    r"/articles/"
                 )
-            )
-
-        for entry in feed.entries:
-
-            title = clean_text(
-                entry.get(
-                    "title",
-                    ""
-                )
-            )
-
-            url = entry.get(
-                "link",
-                ""
-            )
-
-            summary = clean_text(
-                entry.get(
-                    "summary",
-                    ""
-                )
-            )
-
-            published = (
-                entry.get(
-                    "published"
-                )
-                or
-                entry.get(
-                    "updated"
-                )
-            )
-
-            if (
-                not title
-                or not url
             ):
+
+                cards.append(
+                    heading.parent
+                )
+
+    for card in cards:
+
+        link = card.select_one(
+            "h3 a[href*='/articles/']"
+        )
+
+        if not link:
+
+            continue
+
+        title = clean_text(
+            link.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+        href = link.get(
+            "href"
+        )
+
+        if (
+            not title
+            or not href
+        ):
+
+            continue
+
+        url = urljoin(
+            base_url,
+            href
+        )
+
+        card_text = clean_text(
+            card.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+        published = (
+            extract_date_from_text(
+                card_text
+            )
+        )
+
+        # 尝试找摘要
+        summary = ""
+
+        paragraphs = card.find_all(
+            "p"
+        )
+
+        for paragraph in paragraphs:
+
+            text = clean_text(
+                paragraph.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+            if len(text) >= 40:
+
+                summary = text
+
+                break
+
+        results.append(
+            {
+                "title":
+                    title,
+
+                "url":
+                    url,
+
+                "published":
+                    published,
+
+                "summary":
+                    summary,
+            }
+        )
+
+    return results
+
+
+# =========================================================
+# Scientific Data
+#
+# 不再使用RSS
+# 直接抓最近5页Data Descriptor
+# =========================================================
+
+def fetch_scientific_data():
+
+    print(
+        "Fetching Scientific Data..."
+    )
+
+    results = []
+
+    seen = set()
+
+    # 最近5页
+    # 足以覆盖一段时间，同时不会请求过多
+    for page in range(
+        1,
+        6
+    ):
+
+        params = {
+            "type":
+                "data-descriptor",
+
+            "year":
+                datetime.now().year,
+
+            "sort":
+                "PubDate",
+        }
+
+        if page > 1:
+
+            params[
+                "page"
+            ] = page
+
+        try:
+
+            response = SESSION.get(
+                SCIENTIFIC_DATA_URL,
+                params=params,
+                timeout=40
+            )
+
+            response.raise_for_status()
+
+        except Exception as e:
+
+            print(
+                "Scientific Data page",
+                page,
+                "failed:",
+                e
+            )
+
+            continue
+
+        cards = parse_nature_cards(
+            response.text,
+            "https://www.nature.com"
+        )
+
+        for card in cards:
+
+            title = card[
+                "title"
+            ]
+
+            url = card[
+                "url"
+            ]
+
+            summary = card[
+                "summary"
+            ]
+
+            if url in seen:
+
                 continue
 
-            # Scientific Data严格筛选
-            if (
-                config["name"]
-                == "Scientific Data"
+            seen.add(url)
+
+            if not scientific_data_relevant(
+                title,
+                summary
             ):
 
-                if not scientific_data_relevant(
-                    title,
-                    summary
-                ):
-                    continue
-
-            display_title = refine_title(
-                title
-            )
+                continue
 
             results.append(
+
                 make_item(
+
                     title=title,
-                    display_title=display_title,
-                    source=config[
-                        "name"
-                    ],
-                    category=config[
-                        "category"
-                    ],
+
+                    display_title=
+                        refine_title(
+                            title
+                        ),
+
+                    source=
+                        "Scientific Data",
+
+                    category=
+                        "城市数据",
+
                     url=url,
-                    published_at=published,
-                    summary=summary,
+
+                    published_at=
+                        card[
+                            "published"
+                        ],
+
+                    summary=
+                        summary,
+
                     priority="A",
+
                     language="en",
                 )
             )
 
     print(
-        "Nature total:",
+        "Scientific Data urban items:",
         len(results)
     )
 
@@ -1410,31 +1288,185 @@ def fetch_nature():
 
 
 # =========================================================
-# GitHub
+# Nature Cities
+#
+# 不使用RSS
+# =========================================================
+
+def fetch_nature_cities():
+
+    print(
+        "Fetching Nature Cities..."
+    )
+
+    results = []
+
+    seen = set()
+
+    # 抓前两页即可覆盖近期文章
+    for page in range(
+        1,
+        3
+    ):
+
+        params = {
+            "year":
+                datetime.now().year,
+
+            "sort":
+                "PubDate",
+        }
+
+        if page > 1:
+
+            params[
+                "page"
+            ] = page
+
+        try:
+
+            response = SESSION.get(
+                NATURE_CITIES_URL,
+                params=params,
+                timeout=40
+            )
+
+            response.raise_for_status()
+
+        except Exception as e:
+
+            print(
+                "Nature Cities page",
+                page,
+                "failed:",
+                e
+            )
+
+            continue
+
+        cards = parse_nature_cards(
+            response.text,
+            "https://www.nature.com"
+        )
+
+        for card in cards:
+
+            if (
+                card["url"]
+                in seen
+            ):
+
+                continue
+
+            seen.add(
+                card["url"]
+            )
+
+            results.append(
+
+                make_item(
+
+                    title=
+                        card[
+                            "title"
+                        ],
+
+                    display_title=
+                        refine_title(
+                            card[
+                                "title"
+                            ]
+                        ),
+
+                    source=
+                        "Nature Cities",
+
+                    category=
+                        "城市前沿",
+
+                    url=
+                        card[
+                            "url"
+                        ],
+
+                    published_at=
+                        card[
+                            "published"
+                        ],
+
+                    summary=
+                        card[
+                            "summary"
+                        ],
+
+                    priority="A",
+
+                    language="en",
+                )
+            )
+
+    print(
+        "Nature Cities items:",
+        len(results)
+    )
+
+    return results
+
+
+# =========================================================
+# GitHub判断
 # =========================================================
 
 def github_relevant(
-    name,
+    full_name,
     description
 ):
 
     text = (
-        f"{name} {description}"
+        f"{full_name} "
+        f"{description}"
     ).lower()
 
-    # 排除
     if any(
-        keyword in text
-        for keyword
+        word in text
+        for word
         in GITHUB_NEGATIVE
     ):
+
         return False
 
-    # 至少命中一个相关词
     return any(
-        keyword in text
-        for keyword
+        word in text
+        for word
         in GITHUB_POSITIVE
+    )
+
+
+def github_is_city_data(
+    full_name,
+    description
+):
+
+    text = (
+        f"{full_name} "
+        f"{description}"
+    ).lower()
+
+    city_hit = any(
+        word in text
+        for word
+        in CITY_STRONG_KEYWORDS
+    )
+
+    data_hit = any(
+        word in text
+        for word
+        in DATA_KEYWORDS
+    )
+
+    return (
+        city_hit
+        and data_hit
     )
 
 
@@ -1453,7 +1485,7 @@ def github_priority(
             timezone.utc
         )
 
-        age_days = max(
+        days = max(
             1,
             (
                 now - created
@@ -1461,28 +1493,69 @@ def github_priority(
         )
 
         speed = (
-            stars / age_days
+            stars / days
         )
 
     except Exception:
 
         speed = 0
 
-    # 新项目增长非常快
     if (
         stars >= 500
         or speed >= 50
     ):
+
         return "A"
 
     if (
         stars >= 100
         or speed >= 10
     ):
+
         return "B"
 
     return "C"
 
+
+def github_display_title(
+    full_name,
+    description
+):
+
+    repo_name = (
+        full_name
+        .split("/")[-1]
+    )
+
+    description = clean_text(
+        description
+    )
+
+    if not description:
+
+        return repo_name
+
+    first = re.split(
+        r"[.!?。！？]",
+        description
+    )[0].strip()
+
+    if len(first) > 80:
+
+        first = (
+            first[:77]
+            + "..."
+        )
+
+    return (
+        f"{repo_name}："
+        f"{first}"
+    )
+
+
+# =========================================================
+# GitHub
+# =========================================================
 
 def fetch_github():
 
@@ -1497,8 +1570,11 @@ def fetch_github():
     )
 
     headers = {
+
         "Accept":
-            "application/vnd.github+json",
+            "application/"
+            "vnd.github+json",
+
         "User-Agent":
             "icat-research-radar",
     }
@@ -1507,18 +1583,22 @@ def fetch_github():
 
         headers[
             "Authorization"
-        ] = f"Bearer {token}"
+        ] = (
+            f"Bearer {token}"
+        )
 
     since = (
         datetime.now(
             timezone.utc
         )
-        - timedelta(days=21)
+        - timedelta(
+            days=21
+        )
     ).strftime(
         "%Y-%m-%d"
     )
 
-    seen_urls = set()
+    seen = set()
 
     for topic in GITHUB_TOPICS:
 
@@ -1532,26 +1612,39 @@ def fetch_github():
         try:
 
             response = SESSION.get(
+
                 "https://api.github.com/"
                 "search/repositories",
+
                 headers=headers,
+
                 params={
-                    "q": query,
-                    "sort": "stars",
-                    "order": "desc",
-                    "per_page": 10,
+                    "q":
+                        query,
+
+                    "sort":
+                        "stars",
+
+                    "order":
+                        "desc",
+
+                    "per_page":
+                        10,
                 },
-                timeout=30,
+
+                timeout=30
             )
 
             response.raise_for_status()
 
-            data = response.json()
+            data = (
+                response.json()
+            )
 
         except Exception as e:
 
             print(
-                "GitHub failed:",
+                "GitHub query failed:",
                 topic,
                 e
             )
@@ -1567,21 +1660,23 @@ def fetch_github():
                 "html_url"
             )
 
-            if not url:
+            if (
+                not url
+                or url in seen
+            ):
+
                 continue
 
-            if url in seen_urls:
-                continue
-
-            seen_urls.add(url)
+            seen.add(url)
 
             stars = repo.get(
                 "stargazers_count",
                 0
             )
 
-            # 避免大量无人关注项目
+            # 至少30 stars
             if stars < 30:
+
                 continue
 
             full_name = repo.get(
@@ -1600,42 +1695,64 @@ def fetch_github():
                 full_name,
                 description
             ):
+
                 continue
 
-            category = classify_category(
-                "GitHub",
+            if github_is_city_data(
                 full_name,
                 description
-            )
+            ):
 
-            display_title = (
-                build_github_display_title(
-                    full_name,
-                    description
+                category = (
+                    "城市数据"
                 )
-            )
+
+            else:
+
+                category = (
+                    "提效工具"
+                )
 
             created_at = repo.get(
                 "created_at"
             )
 
             results.append(
+
                 make_item(
-                    title=full_name,
+
+                    title=
+                        full_name,
+
                     display_title=
-                        display_title,
-                    source="GitHub",
-                    category=category,
-                    url=url,
+                        github_display_title(
+                            full_name,
+                            description
+                        ),
+
+                    source=
+                        "GitHub",
+
+                    category=
+                        category,
+
+                    url=
+                        url,
+
                     published_at=
                         created_at,
-                    summary=description,
+
+                    summary=
+                        description,
+
                     priority=
                         github_priority(
                             stars,
                             created_at
                         ),
+
                     language="en",
+
                     meta={
                         "stars":
                             stars,
@@ -1657,7 +1774,7 @@ def fetch_github():
             )
 
     print(
-        "GitHub:",
+        "GitHub items:",
         len(results)
     )
 
@@ -1692,7 +1809,7 @@ def load_old_data():
     except Exception as e:
 
         print(
-            "Old data error:",
+            "Old data load error:",
             e
         )
 
@@ -1700,7 +1817,151 @@ def load_old_data():
 
 
 # =========================================================
-# 清理过旧数据
+# 旧数据迁移
+#
+# 解决现在：
+# AIBase → 提效工具
+# Scientific Data → 新数据
+# 这些旧分类残留的问题
+# =========================================================
+
+def normalize_old_items(
+    items
+):
+
+    normalized = []
+
+    for item in items:
+
+        source = item.get(
+            "source",
+            ""
+        )
+
+        title = item.get(
+            "title",
+            ""
+        )
+
+        summary = item.get(
+            "summary",
+            ""
+        )
+
+        # -------------------------
+        # AIBase
+        # -------------------------
+
+        if source == "AIBase":
+
+            item[
+                "category"
+            ] = "AI变现"
+
+
+        # -------------------------
+        # 量子位
+        # -------------------------
+
+        elif source == "量子位":
+
+            item[
+                "category"
+            ] = "提效工具"
+
+
+        # -------------------------
+        # Scientific Data
+        # -------------------------
+
+        elif (
+            source
+            == "Scientific Data"
+        ):
+
+            # 删除以前误抓的
+            # granular layer等非城市数据
+            if not scientific_data_relevant(
+                title,
+                summary
+            ):
+
+                continue
+
+            item[
+                "category"
+            ] = "城市数据"
+
+
+        # -------------------------
+        # Nature Cities
+        # -------------------------
+
+        elif source == "Nature Cities":
+
+            item[
+                "category"
+            ] = "城市前沿"
+
+
+        # -------------------------
+        # GitHub
+        # -------------------------
+
+        elif source == "GitHub":
+
+            if not github_relevant(
+                title,
+                summary
+            ):
+
+                continue
+
+            if github_is_city_data(
+                title,
+                summary
+            ):
+
+                item[
+                    "category"
+                ] = "城市数据"
+
+            else:
+
+                item[
+                    "category"
+                ] = "提效工具"
+
+
+        # -------------------------
+        # 老AI-Bot等旧来源
+        # 直接淘汰
+        # -------------------------
+
+        else:
+
+            continue
+
+
+        if not item.get(
+            "display_title"
+        ):
+
+            item[
+                "display_title"
+            ] = refine_title(
+                title
+            )
+
+        normalized.append(
+            item
+        )
+
+    return normalized
+
+
+# =========================================================
+# 删除过旧
 # =========================================================
 
 def remove_old_items(
@@ -1751,25 +2012,22 @@ def remove_old_items(
 
 
 # =========================================================
-# 来源优先级
+# 来源排序
 # =========================================================
 
-def source_rank(
-    source
-):
+def source_rank(source):
 
     ranks = {
 
-        # 中文优先
         "AIBase": 100,
+
         "量子位": 95,
 
-        # 专业英文原始源
-        "Nature Cities": 80,
-        "Scientific Data": 80,
+        "Scientific Data": 90,
 
-        # GitHub最后补漏
-        "GitHub": 60,
+        "Nature Cities": 90,
+
+        "GitHub": 70,
     }
 
     return ranks.get(
@@ -1779,7 +2037,7 @@ def source_rank(
 
 
 # =========================================================
-# 合并去重
+# 合并
 # =========================================================
 
 def merge_items(
@@ -1788,6 +2046,10 @@ def merge_items(
 ):
 
     merged = {}
+
+    # -------------------------
+    # 旧数据
+    # -------------------------
 
     for item in old_items:
 
@@ -1801,6 +2063,11 @@ def merge_items(
                 item_id
             ] = item
 
+
+    # -------------------------
+    # 新数据
+    # -------------------------
+
     for item in new_items:
 
         item_id = item[
@@ -1809,12 +2076,19 @@ def merge_items(
 
         if item_id in merged:
 
-            old_detected = (
-                merged[
-                    item_id
-                ].get(
-                    "detected_at"
-                )
+            old = merged[
+                item_id
+            ]
+
+            # 第一次发现时间保留
+            detected = old.get(
+                "detected_at"
+            )
+
+            # 中文网站没有可靠文章日期时，
+            # 不要每小时刷新成当前日期
+            old_published = old.get(
+                "published_at"
             )
 
             merged[
@@ -1823,19 +2097,35 @@ def merge_items(
                 item
             )
 
-            if old_detected:
+            if detected:
 
                 merged[
                     item_id
                 ][
                     "detected_at"
-                ] = old_detected
+                ] = detected
+
+            if (
+                item.get("source")
+                in [
+                    "AIBase",
+                    "量子位"
+                ]
+                and old_published
+            ):
+
+                merged[
+                    item_id
+                ][
+                    "published_at"
+                ] = old_published
 
         else:
 
             merged[
                 item_id
             ] = item
+
 
     items = list(
         merged.values()
@@ -1845,8 +2135,7 @@ def merge_items(
         items
     )
 
-    # 日期优先；
-    # 同等日期中文媒体优先
+
     def sort_key(item):
 
         try:
@@ -1871,8 +2160,9 @@ def merge_items(
                     "source",
                     ""
                 )
-            ),
+            )
         )
+
 
     items.sort(
         key=sort_key,
@@ -1885,25 +2175,28 @@ def merge_items(
 
 
 # =========================================================
-# 保存
+# 保存JSON
 # =========================================================
 
-def save_data(
-    items
-):
+def save_data(items):
 
     DATA_FILE.parent.mkdir(
         parents=True,
         exist_ok=True
     )
 
-    # 各栏目数量
     category_counts = {
+
         "AI变现": 0,
+
         "提效工具": 0,
+
         "城市数据": 0,
+
         "城市前沿": 0,
     }
+
+    source_counts = {}
 
     for item in items:
 
@@ -1911,11 +2204,31 @@ def save_data(
             "category"
         )
 
-        if category in category_counts:
+        if (
+            category
+            in category_counts
+        ):
 
             category_counts[
                 category
             ] += 1
+
+
+        source = item.get(
+            "source",
+            "未知"
+        )
+
+        source_counts[
+            source
+        ] = (
+            source_counts.get(
+                source,
+                0
+            )
+            + 1
+        )
+
 
     output = {
 
@@ -1930,9 +2243,13 @@ def save_data(
         "category_counts":
             category_counts,
 
+        "source_counts":
+            source_counts,
+
         "items":
             items,
     }
+
 
     with open(
         DATA_FILE,
@@ -1959,24 +2276,41 @@ def main():
     )
 
     print(
-        "Research Radar V2 Start"
+        "Research Radar V3"
     )
 
     print(
         "================================"
     )
 
-    old_items = load_old_data()
+
+    # -------------------------
+    # 读取并迁移旧数据
+    # -------------------------
+
+    old_items = (
+        load_old_data()
+    )
 
     print(
-        "Existing items:",
+        "Old raw items:",
         len(old_items)
     )
 
-    new_items = []
+    old_items = (
+        normalize_old_items(
+            old_items
+        )
+    )
+
+    print(
+        "Old normalized items:",
+        len(old_items)
+    )
+
 
     # -------------------------
-    # 中文来源优先
+    # 抓新数据
     # -------------------------
 
     aibase_items = (
@@ -1987,51 +2321,129 @@ def main():
         fetch_qbitai()
     )
 
-    # -------------------------
-    # 专业原始来源
-    # -------------------------
+    scientific_items = (
+        fetch_scientific_data()
+    )
 
-    nature_items = (
-        fetch_nature()
+    city_items = (
+        fetch_nature_cities()
     )
 
     github_items = (
         fetch_github()
     )
 
-    new_items.extend(
+
+    # -------------------------
+    # 合并
+    # -------------------------
+
+    new_items = (
         aibase_items
+        + qbitai_items
+        + scientific_items
+        + city_items
+        + github_items
     )
 
-    new_items.extend(
-        qbitai_items
-    )
-
-    new_items.extend(
-        nature_items
-    )
-
-    new_items.extend(
-        github_items
-    )
 
     print(
         "--------------------------------"
     )
 
     print(
-        "New candidates:",
+        "AIBase:",
+        len(aibase_items)
+    )
+
+    print(
+        "量子位:",
+        len(qbitai_items)
+    )
+
+    print(
+        "Scientific Data:",
+        len(scientific_items)
+    )
+
+    print(
+        "Nature Cities:",
+        len(city_items)
+    )
+
+    print(
+        "GitHub:",
+        len(github_items)
+    )
+
+    print(
+        "New total:",
         len(new_items)
     )
 
-    final_items = merge_items(
-        old_items,
-        new_items
+
+    final_items = (
+        merge_items(
+            old_items,
+            new_items
+        )
     )
+
+
+    # -------------------------
+    # 输出栏目统计
+    # -------------------------
+
+    counts = {
+
+        "AI变现": 0,
+
+        "提效工具": 0,
+
+        "城市数据": 0,
+
+        "城市前沿": 0,
+    }
+
+
+    for item in final_items:
+
+        category = item.get(
+            "category"
+        )
+
+        if category in counts:
+
+            counts[
+                category
+            ] += 1
+
+
+    print(
+        "--------------------------------"
+    )
+
+    print(
+        "CATEGORY COUNTS:"
+    )
+
+    for key, value in counts.items():
+
+        print(
+            key,
+            ":",
+            value
+        )
+
+
+    # -------------------------
+    # 保存
+    # -------------------------
 
     save_data(
         final_items
     )
+
 
     print(
         "Final items:",
@@ -2043,7 +2455,7 @@ def main():
     )
 
     print(
-        "Research Radar V2 Done"
+        "Research Radar V3 Done"
     )
 
     print(
