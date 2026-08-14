@@ -1,1 +1,521 @@
+* {
+    box-sizing: border-box;
+}
 
+
+body {
+
+    margin: 0;
+
+    background:
+        #f2f4f7;
+
+    color:
+        #16304a;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        "Microsoft YaHei",
+        Arial,
+        sans-serif;
+
+}
+
+
+.header {
+
+    background:
+        #102f4b;
+
+    color:
+        white;
+
+    padding:
+        28px 20px;
+
+}
+
+
+.header-inner {
+
+    max-width:
+        900px;
+
+    margin:
+        0 auto;
+
+}
+
+
+.site-label {
+
+    font-size:
+        13px;
+
+    opacity:
+        0.8;
+
+    margin-bottom:
+        6px;
+
+}
+
+
+.header h1 {
+
+    margin:
+        0;
+
+    font-size:
+        30px;
+
+}
+
+
+.header p {
+
+    margin:
+        8px 0;
+
+    opacity:
+        0.9;
+
+}
+
+
+.update-time {
+
+    margin-top:
+        12px;
+
+    font-size:
+        13px;
+
+    opacity:
+        0.7;
+
+}
+
+
+.container {
+
+    max-width:
+        900px;
+
+    margin:
+        0 auto;
+
+    padding:
+        22px 18px 50px;
+
+}
+
+
+.intro {
+
+    background:
+        white;
+
+    border-radius:
+        12px;
+
+    padding:
+        18px 20px;
+
+    margin-bottom:
+        22px;
+
+    box-shadow:
+        0 4px 14px
+        rgba(0,0,0,.06);
+
+}
+
+
+.intro h2 {
+
+    margin:
+        0 0 8px;
+
+    font-size:
+        18px;
+
+}
+
+
+.intro p {
+
+    margin:
+        0;
+
+    line-height:
+        1.7;
+
+    color:
+        #596a79;
+
+}
+
+
+.filters {
+
+    display:
+        flex;
+
+    gap:
+        8px;
+
+    flex-wrap:
+        wrap;
+
+    margin-bottom:
+        22px;
+
+}
+
+
+.filter {
+
+    border:
+        none;
+
+    background:
+        white;
+
+    color:
+        #385064;
+
+    border-radius:
+        20px;
+
+    padding:
+        8px 14px;
+
+    cursor:
+        pointer;
+
+    font-size:
+        14px;
+
+}
+
+
+.filter.active {
+
+    background:
+        #136f73;
+
+    color:
+        white;
+
+}
+
+
+.section-title {
+
+    font-size:
+        21px;
+
+    border-bottom:
+        3px solid
+        #cc2437;
+
+    display:
+        inline-block;
+
+    margin:
+        0 0 16px;
+
+    padding-bottom:
+        4px;
+
+}
+
+
+.news-card {
+
+    background:
+        white;
+
+    border-radius:
+        11px;
+
+    padding:
+        18px;
+
+    margin-bottom:
+        13px;
+
+    box-shadow:
+        0 3px 12px
+        rgba(0,0,0,.06);
+
+    border-left:
+        4px solid
+        #8799a7;
+
+}
+
+
+.card-A {
+
+    border-left-color:
+        #cc2437;
+
+}
+
+
+.card-B {
+
+    border-left-color:
+        #31546d;
+
+}
+
+
+.card-C {
+
+    border-left-color:
+        #188c87;
+
+}
+
+
+.card-header {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        8px;
+
+}
+
+
+.priority {
+
+    width:
+        27px;
+
+    height:
+        27px;
+
+    border-radius:
+        50%;
+
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    font-size:
+        13px;
+
+    font-weight:
+        bold;
+
+    color:
+        white;
+
+}
+
+
+.priority-A {
+
+    background:
+        #c52536;
+
+}
+
+
+.priority-B {
+
+    background:
+        #31546d;
+
+}
+
+
+.priority-C {
+
+    background:
+        #198d87;
+
+}
+
+
+.category {
+
+    background:
+        #eef2f5;
+
+    color:
+        #607180;
+
+    padding:
+        5px 10px;
+
+    border-radius:
+        20px;
+
+    font-size:
+        12px;
+
+}
+
+
+.news-card h3 {
+
+    margin:
+        12px 0 8px;
+
+    font-size:
+        18px;
+
+    line-height:
+        1.5;
+
+}
+
+
+.news-card h3 a {
+
+    color:
+        #16304a;
+
+    text-decoration:
+        none;
+
+}
+
+
+.news-card h3 a:hover {
+
+    color:
+        #0c7181;
+
+}
+
+
+.summary {
+
+    color:
+        #5c6873;
+
+    line-height:
+        1.7;
+
+    font-size:
+        14px;
+
+    margin:
+        8px 0;
+
+}
+
+
+.meta {
+
+    margin-top:
+        12px;
+
+    display:
+        flex;
+
+    gap:
+        12px;
+
+    flex-wrap:
+        wrap;
+
+    font-size:
+        12px;
+
+    color:
+        #89949e;
+
+}
+
+
+.empty {
+
+    background:
+        white;
+
+    padding:
+        30px;
+
+    border-radius:
+        10px;
+
+    text-align:
+        center;
+
+    color:
+        #77838c;
+
+}
+
+
+footer {
+
+    text-align:
+        center;
+
+    padding:
+        30px;
+
+    color:
+        #89949e;
+
+    font-size:
+        12px;
+
+}
+
+
+@media (
+    max-width: 600px
+) {
+
+    .header h1 {
+
+        font-size:
+            26px;
+
+    }
+
+
+    .container {
+
+        padding:
+            16px 12px 40px;
+
+    }
+
+
+    .news-card {
+
+        padding:
+            16px;
+
+    }
+
+
+    .news-card h3 {
+
+        font-size:
+            17px;
+
+    }
+
+}
