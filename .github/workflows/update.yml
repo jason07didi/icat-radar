@@ -3,11 +3,14 @@ name: Update Research Radar
 
 on:
 
+  # 可以手动运行
   workflow_dispatch:
 
+  # 每小时第17分钟自动更新
   schedule:
     - cron: "17 * * * *"
 
+  # 修改网站代码后自动运行
   push:
     branches:
       - main
@@ -27,9 +30,14 @@ permissions:
   id-token: write
 
 
+# =========================================================
+# 防止多个任务同时修改 news.json
+# 新任务启动时，取消尚未完成的旧任务
+# =========================================================
+
 concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  group: research-radar-main
+  cancel-in-progress: true
 
 
 jobs:
@@ -41,9 +49,22 @@ jobs:
 
     steps:
 
+      # =====================================================
+      # Checkout
+      # 始终读取 main 最新版本
+      # =====================================================
+
       - name: Checkout repository
         uses: actions/checkout@v4
 
+        with:
+          ref: main
+          fetch-depth: 0
+
+
+      # =====================================================
+      # Python
+      # =====================================================
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -52,21 +73,38 @@ jobs:
           python-version: "3.12"
 
 
+      # =====================================================
+      # Dependencies
+      # =====================================================
+
       - name: Install dependencies
         run: |
+
           python -m pip install --upgrade pip
+
           pip install -r requirements.txt
 
 
+      # =====================================================
+      # 抓取资讯
+      # =====================================================
+
       - name: Fetch latest information
+
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         run: |
+
           python scripts/update_news.py
 
 
+      # =====================================================
+      # 提交 news.json
+      # =====================================================
+
       - name: Commit updated data
+
         run: |
 
           git config user.name "icat-radar-bot"
@@ -74,7 +112,9 @@ jobs:
           git config user.email \
             "icat-radar-bot@users.noreply.github.com"
 
+
           git add data/news.json
+
 
           if git diff --cached --quiet; then
 
@@ -85,10 +125,19 @@ jobs:
             git commit \
               -m "Update research radar data"
 
-            git push
+
+            # 获取 main 最新状态，防止普通代码提交造成冲突
+            git pull --rebase origin main
+
+
+            git push origin HEAD:main
 
           fi
 
+
+      # =====================================================
+      # GitHub Pages
+      # =====================================================
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -118,5 +167,7 @@ jobs:
     steps:
 
       - name: Deploy GitHub Pages
+
         id: deployment
+
         uses: actions/deploy-pages@v4
