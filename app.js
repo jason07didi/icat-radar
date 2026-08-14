@@ -29,6 +29,52 @@ function escapeHTML(value) {
 
 
 /* =========================================
+   前端乱码兜底
+========================================= */
+
+function looksBrokenText(value) {
+
+    if (!value) {
+        return false;
+    }
+
+    const text =
+        String(value);
+
+    const badTokens = [
+        "Ã",
+        "Â",
+        "â€",
+        "â€™",
+        "â€œ",
+        "å",
+        "æ",
+        "ç",
+        "é",
+        "ï",
+        "ð",
+        "锟斤拷",
+        "�"
+    ];
+
+    let score = 0;
+
+    badTokens.forEach(
+        token => {
+
+            score +=
+                text.split(
+                    token
+                ).length - 1;
+
+        }
+    );
+
+    return score >= 2;
+}
+
+
+/* =========================================
    日期
 ========================================= */
 
@@ -38,7 +84,8 @@ function formatDate(value) {
         return "";
     }
 
-    const date = new Date(value);
+    const date =
+        new Date(value);
 
     if (
         Number.isNaN(
@@ -51,39 +98,6 @@ function formatDate(value) {
     return date.toLocaleDateString(
         "zh-CN",
         {
-            timeZone: "Asia/Shanghai",
-            year: "numeric",
-            month: "2-digit",
-            day: "2-digit"
-        }
-    );
-}
-
-
-/* =========================================
-   最近扫描时间
-========================================= */
-
-function formatUpdateTime(value) {
-
-    if (!value) {
-        return "等待首次自动更新";
-    }
-
-    const date = new Date(value);
-
-    if (
-        Number.isNaN(
-            date.getTime()
-        )
-    ) {
-        return "最近更新时间未知";
-    }
-
-
-    const text = date.toLocaleString(
-        "zh-CN",
-        {
             timeZone:
                 "Asia/Shanghai",
 
@@ -94,21 +108,60 @@ function formatUpdateTime(value) {
                 "2-digit",
 
             day:
-                "2-digit",
-
-            hour:
-                "2-digit",
-
-            minute:
-                "2-digit",
-
-            hour12:
-                false,
-
-            hourCycle:
-                "h23"
+                "2-digit"
         }
     );
+}
+
+
+/* =========================================
+   更新时间
+========================================= */
+
+function formatUpdateTime(value) {
+
+    if (!value) {
+        return "等待首次自动更新";
+    }
+
+    const date =
+        new Date(value);
+
+    if (
+        Number.isNaN(
+            date.getTime()
+        )
+    ) {
+        return "最近更新时间未知";
+    }
+
+
+    const text =
+        date.toLocaleString(
+            "zh-CN",
+            {
+                timeZone:
+                    "Asia/Shanghai",
+
+                year:
+                    "numeric",
+
+                month:
+                    "2-digit",
+
+                day:
+                    "2-digit",
+
+                hour:
+                    "2-digit",
+
+                minute:
+                    "2-digit",
+
+                hour12:
+                    false
+            }
+        );
 
 
     return (
@@ -157,7 +210,7 @@ function safeURL(value) {
 
 
 /* =========================================
-   priority
+   Priority
 ========================================= */
 
 function getPriority(value) {
@@ -178,152 +231,20 @@ function getPriority(value) {
 
 
 /* =========================================
-   图片占位样式
-========================================= */
-
-function getPlaceholderInfo(item) {
-
-    if (
-        item.source
-        === "Scientific Data"
-    ) {
-
-        return {
-            icon: "DATA",
-            text: "Scientific Data",
-            cls: "placeholder-data"
-        };
-    }
-
-
-    if (
-        item.source
-        === "Nature Cities"
-    ) {
-
-        return {
-            icon: "CITY",
-            text: "Nature Cities",
-            cls: "placeholder-city"
-        };
-    }
-
-
-    if (
-        item.category
-        === "AI变现"
-    ) {
-
-        return {
-            icon: "AI",
-            text: "AI · BUSINESS",
-            cls: "placeholder-ai"
-        };
-    }
-
-
-    if (
-        item.category
-        === "前沿动态"
-    ) {
-
-        return {
-            icon: "NEW",
-            text: "SCIENCE · BREAKTHROUGH",
-            cls: "placeholder-research"
-        };
-    }
-
-
-    return {
-        icon: "TOOL",
-        text: "RESEARCH · TOOL",
-        cls: "placeholder-tool"
-    };
-}
-
-
-/* =========================================
-   图片HTML
-========================================= */
-
-function buildImageHTML(item) {
-
-    const placeholder =
-        getPlaceholderInfo(item);
-
-
-    if (
-        item.image_url
-    ) {
-
-        return `
-
-            <img
-                class="card-image"
-                src="${escapeHTML(
-                    item.image_url
-                )}"
-                alt=""
-                loading="lazy"
-                referrerpolicy="no-referrer"
-            >
-
-            <div
-                class="image-placeholder
-                ${placeholder.cls}"
-                hidden
-            >
-
-                <strong>
-                    ${escapeHTML(
-                        placeholder.icon
-                    )}
-                </strong>
-
-                <span>
-                    ${escapeHTML(
-                        placeholder.text
-                    )}
-                </span>
-
-            </div>
-        `;
-    }
-
-
-    return `
-
-        <div
-            class="image-placeholder
-            ${placeholder.cls}"
-        >
-
-            <strong>
-                ${escapeHTML(
-                    placeholder.icon
-                )}
-            </strong>
-
-            <span>
-                ${escapeHTML(
-                    placeholder.text
-                )}
-            </span>
-
-        </div>
-    `;
-}
-
-
-/* =========================================
-   卡片
+   单张卡片
 ========================================= */
 
 function createCard(
     item,
     featured = false
 ) {
+
+    /* 没图片直接不创建 */
+
+    if (!item.image_url) {
+        return null;
+    }
+
 
     const priority =
         getPriority(
@@ -351,21 +272,17 @@ function createCard(
         "未命名资讯";
 
 
-    const breakthroughBadge =
-        item.is_breakthrough
-        ? `
-            <span class="breakthrough">
-                🔥 突破
-            </span>
-          `
-        : "";
-
+    /* =====================================
+       分类标签
+    ===================================== */
 
     const badgeText =
         (
             item.source
             === "Scientific Data"
+
             ||
+
             item.source
             === "Nature Cities"
         )
@@ -373,17 +290,39 @@ function createCard(
         : item.category;
 
 
-    const summary =
+    /* =====================================
+       摘要
+    ===================================== */
+
+    let summaryHTML = "";
+
+
+    if (
         item.summary
-        ? `
+
+        &&
+
+        !looksBrokenText(
+            item.summary
+        )
+    ) {
+
+        summaryHTML = `
+
             <p class="summary">
+
                 ${escapeHTML(
                     item.summary
                 )}
-            </p>
-          `
-        : "";
 
+            </p>
+        `;
+    }
+
+
+    /* =====================================
+       GitHub Star
+    ===================================== */
 
     const stars =
         item.meta &&
@@ -398,6 +337,10 @@ function createCard(
         : "";
 
 
+    /* =====================================
+       GitHub语言
+    ===================================== */
+
     const language =
         item.meta &&
         item.meta.language
@@ -411,24 +354,42 @@ function createCard(
         : "";
 
 
+    /* =====================================
+       卡片内容
+    ===================================== */
+
     card.innerHTML = `
 
         <a
             class="image-link"
+
             href="${escapeHTML(
                 safeURL(
                     item.url
                 )
             )}"
+
             target="_blank"
+
             rel="noopener noreferrer"
         >
 
             <div class="image-box">
 
-                ${buildImageHTML(
-                    item
-                )}
+                <img
+                    class="card-image"
+
+                    src="${escapeHTML(
+                        item.image_url
+                    )}"
+
+                    alt="${escapeHTML(
+                        title
+                    )}"
+
+                    loading="lazy"
+                >
+
 
                 ${
                     item.is_breakthrough
@@ -450,9 +411,12 @@ function createCard(
 
             <div class="card-header">
 
+
                 <span
-                    class="priority
-                    priority-${priority}"
+                    class="
+                        priority
+                        priority-${priority}
+                    "
                 >
                     ${priority}
                 </span>
@@ -468,7 +432,16 @@ function createCard(
                 </span>
 
 
-                ${breakthroughBadge}
+                ${
+                    item.is_breakthrough
+                    ? `
+                        <span class="breakthrough">
+                            🔥 突破
+                        </span>
+                      `
+                    : ""
+                }
+
 
             </div>
 
@@ -486,18 +459,21 @@ function createCard(
 
                     rel="noopener noreferrer"
                 >
+
                     ${escapeHTML(
                         title
                     )}
+
                 </a>
 
             </h3>
 
 
-            ${summary}
+            ${summaryHTML}
 
 
             <div class="meta">
+
 
                 <span class="source">
 
@@ -524,6 +500,7 @@ function createCard(
 
                 ${language}
 
+
             </div>
 
 
@@ -531,9 +508,10 @@ function createCard(
     `;
 
 
-    /* -------------------------
-       图片加载失败自动切换占位图
-    -------------------------- */
+    /* =====================================
+       远程图片如果失效
+       整张资讯卡片删除
+    ===================================== */
 
     const image =
         card.querySelector(
@@ -547,22 +525,11 @@ function createCard(
             "error",
             () => {
 
-                image.hidden = true;
-
-                const placeholder =
-                    card.querySelector(
-                        ".image-placeholder"
-                    );
-
-
-                if (placeholder) {
-
-                    placeholder.hidden =
-                        false;
-                }
+                card.remove();
 
             }
         );
+
     }
 
 
@@ -616,7 +583,7 @@ function filterItems(
 
 
 /* =========================================
-   标题
+   列表标题
 ========================================= */
 
 function getListTitle(
@@ -655,14 +622,20 @@ function getListTitle(
     if (
         value === "Scientific Data"
     ) {
-        return "Scientific Data 最新文章";
+
+        return (
+            "Scientific Data 最新文章"
+        );
     }
 
 
     if (
         value === "Nature Cities"
     ) {
-        return "Nature Cities 最新文章";
+
+        return (
+            "Nature Cities 最新文章"
+        );
     }
 
 
@@ -671,7 +644,7 @@ function getListTitle(
 
 
 /* =========================================
-   列表
+   主列表
 ========================================= */
 
 function renderMainList() {
@@ -721,7 +694,32 @@ function renderMainList() {
     }
 
 
-    if (!items.length) {
+    let rendered = 0;
+
+
+    items.forEach(
+        item => {
+
+            const card =
+                createCard(
+                    item
+                );
+
+
+            if (card) {
+
+                container.appendChild(
+                    card
+                );
+
+                rendered += 1;
+            }
+
+        }
+    );
+
+
+    if (!rendered) {
 
         container.innerHTML = `
 
@@ -732,23 +730,12 @@ function renderMainList() {
                 </strong>
 
                 <p>
-                    当前栏目尚未抓取到新的内容。
+                    当前栏目尚未发现带有效图片的最新内容。
                 </p>
 
             </div>
         `;
-
-        return;
     }
-
-
-    items.forEach(item => {
-
-        container.appendChild(
-            createCard(item)
-        );
-
-    });
 }
 
 
@@ -776,11 +763,10 @@ function renderFeatured() {
         );
 
 
-    /* 只在全部和前沿动态下显示 */
-
     const showFeatured = (
 
-        currentFilter.type === "all"
+        currentFilter.type
+        === "all"
 
         ||
 
@@ -804,11 +790,13 @@ function renderFeatured() {
     }
 
 
-    const breakthroughItems =
+    const items =
         allItems
         .filter(
             item =>
                 item.is_breakthrough
+                &&
+                item.image_url
         )
         .slice(
             0,
@@ -816,9 +804,7 @@ function renderFeatured() {
         );
 
 
-    if (
-        !breakthroughItems.length
-    ) {
+    if (!items.length) {
 
         section.hidden = true;
 
@@ -834,19 +820,26 @@ function renderFeatured() {
     if (count) {
 
         count.textContent =
-            `精选 ${breakthroughItems.length} 条`;
+            `精选 ${items.length} 条`;
     }
 
 
-    breakthroughItems.forEach(
+    items.forEach(
         item => {
 
-            container.appendChild(
+            const card =
                 createCard(
                     item,
                     true
-                )
-            );
+                );
+
+
+            if (card) {
+
+                container.appendChild(
+                    card
+                );
+            }
 
         }
     );
@@ -854,7 +847,7 @@ function renderFeatured() {
 
 
 /* =========================================
-   数量统计
+   数量
 ========================================= */
 
 function countByFilter(
@@ -865,12 +858,15 @@ function countByFilter(
     return filterItems(
         type,
         value
+    ).filter(
+        item =>
+            item.image_url
     ).length;
 }
 
 
 /* =========================================
-   按钮数字
+   按钮数量
 ========================================= */
 
 function updateFilterCounts() {
@@ -879,47 +875,49 @@ function updateFilterCounts() {
         .querySelectorAll(
             ".filter"
         )
-        .forEach(button => {
+        .forEach(
+            button => {
 
 
-            if (
-                !button.dataset.label
-            ) {
+                if (
+                    !button.dataset.label
+                ) {
 
-                button.dataset.label =
-                    button.textContent.trim();
+                    button.dataset.label =
+                        button.textContent.trim();
+                }
+
+
+                const type =
+                    button.dataset.filterType;
+
+
+                const value =
+                    button.dataset.filterValue;
+
+
+                const count =
+                    countByFilter(
+                        type,
+                        value
+                    );
+
+
+                button.innerHTML = `
+
+                    <span>
+                        ${escapeHTML(
+                            button.dataset.label
+                        )}
+                    </span>
+
+                    <span class="filter-count">
+                        ${count}
+                    </span>
+                `;
+
             }
-
-
-            const type =
-                button.dataset.filterType;
-
-
-            const value =
-                button.dataset.filterValue;
-
-
-            const count =
-                countByFilter(
-                    type,
-                    value
-                );
-
-
-            button.innerHTML = `
-
-                <span>
-                    ${escapeHTML(
-                        button.dataset.label
-                    )}
-                </span>
-
-                <span class="filter-count">
-                    ${count}
-                </span>
-            `;
-
-        });
+        );
 }
 
 
@@ -979,12 +977,14 @@ function updateSummary() {
         allItems.filter(
             item =>
                 item.is_breakthrough
+                &&
+                item.image_url
         ).length;
 
 
     element.textContent =
 
-        `当前收录 ${allItems.length} 条最新动态，`
+        `当前收录 ${allItems.length} 条带图资讯，`
 
         + `其中突破性资讯 ${breakthroughCount} 条；`
 
@@ -1019,26 +1019,28 @@ function applyFilter(
         .querySelectorAll(
             ".filter"
         )
-        .forEach(button => {
+        .forEach(
+            button => {
 
-            const active = (
+                const active = (
 
-                button.dataset.filterType
-                === type
+                    button.dataset.filterType
+                    === type
 
-                &&
+                    &&
 
-                button.dataset.filterValue
-                === value
-            );
+                    button.dataset.filterValue
+                    === value
+                );
 
 
-            button.classList.toggle(
-                "active",
-                active
-            );
+                button.classList.toggle(
+                    "active",
+                    active
+                );
 
-        });
+            }
+        );
 
 
     renderFeatured();
@@ -1048,7 +1050,7 @@ function applyFilter(
 
 
 /* =========================================
-   载入JSON
+   读取JSON
 ========================================= */
 
 async function loadNews() {
@@ -1093,8 +1095,18 @@ async function loadNews() {
         }
 
 
+        /* =================================
+           再次保证：
+           没图的内容前端也不进入
+        ================================= */
+
         allItems =
-            data.items;
+            data.items.filter(
+                item =>
+                    Boolean(
+                        item.image_url
+                    )
+            );
 
 
         const updateElement =
@@ -1165,23 +1177,25 @@ document
     .querySelectorAll(
         ".filter"
     )
-    .forEach(button => {
+    .forEach(
+        button => {
 
-        button.addEventListener(
-            "click",
-            () => {
+            button.addEventListener(
+                "click",
+                () => {
 
-                applyFilter(
+                    applyFilter(
 
-                    button.dataset.filterType,
+                        button.dataset.filterType,
 
-                    button.dataset.filterValue
-                );
+                        button.dataset.filterValue
+                    );
 
-            }
-        );
+                }
+            );
 
-    });
+        }
+    );
 
 
 loadNews();
