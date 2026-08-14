@@ -1,4 +1,26 @@
+/* =========================================================
+   ICAT Research Radar V8
+   Frontend
+
+   功能：
+   1. 普通资讯
+   2. 最新突破
+   3. 热点
+   4. AI变现
+   5. 提效工具
+   6. 前沿动态
+   7. Scientific Data
+   8. Nature Cities
+========================================================= */
+
+
+/* =========================================================
+   全局数据
+========================================================= */
+
 let allItems = [];
+
+let allHotspots = [];
 
 let currentFilter = {
     type: "all",
@@ -6,9 +28,9 @@ let currentFilter = {
 };
 
 
-/* =========================================
-   HTML转义
-========================================= */
+/* =========================================================
+   HTML 转义
+========================================================= */
 
 function escapeHTML(value) {
 
@@ -20,17 +42,37 @@ function escapeHTML(value) {
     }
 
     return String(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+
+        .replaceAll(
+            "&",
+            "&amp;"
+        )
+
+        .replaceAll(
+            "<",
+            "&lt;"
+        )
+
+        .replaceAll(
+            ">",
+            "&gt;"
+        )
+
+        .replaceAll(
+            '"',
+            "&quot;"
+        )
+
+        .replaceAll(
+            "'",
+            "&#039;"
+        );
 }
 
 
-/* =========================================
-   前端乱码兜底
-========================================= */
+/* =========================================================
+   乱码判断
+========================================================= */
 
 function looksBrokenText(value) {
 
@@ -42,18 +84,21 @@ function looksBrokenText(value) {
         String(value);
 
     const badTokens = [
+
         "Ã",
         "Â",
+
         "â€",
         "â€™",
         "â€œ",
+
         "å",
         "æ",
         "ç",
         "é",
-        "ï",
-        "ð",
+
         "锟斤拷",
+
         "�"
     ];
 
@@ -74,9 +119,9 @@ function looksBrokenText(value) {
 }
 
 
-/* =========================================
-   日期
-========================================= */
+/* =========================================================
+   日期格式
+========================================================= */
 
 function formatDate(value) {
 
@@ -87,6 +132,7 @@ function formatDate(value) {
     const date =
         new Date(value);
 
+
     if (
         Number.isNaN(
             date.getTime()
@@ -95,9 +141,13 @@ function formatDate(value) {
         return "";
     }
 
+
     return date.toLocaleDateString(
+
         "zh-CN",
+
         {
+
             timeZone:
                 "Asia/Shanghai",
 
@@ -109,37 +159,46 @@ function formatDate(value) {
 
             day:
                 "2-digit"
+
         }
+
     );
 }
 
 
-/* =========================================
-   更新时间
-========================================= */
+/* =========================================================
+   最近更新时间
+========================================================= */
 
 function formatUpdateTime(value) {
 
     if (!value) {
+
         return "等待首次自动更新";
     }
 
+
     const date =
         new Date(value);
+
 
     if (
         Number.isNaN(
             date.getTime()
         )
     ) {
+
         return "最近更新时间未知";
     }
 
 
     const text =
         date.toLocaleString(
+
             "zh-CN",
+
             {
+
                 timeZone:
                     "Asia/Shanghai",
 
@@ -160,7 +219,9 @@ function formatUpdateTime(value) {
 
                 hour12:
                     false
+
             }
+
         );
 
 
@@ -171,20 +232,23 @@ function formatUpdateTime(value) {
 }
 
 
-/* =========================================
-   URL
-========================================= */
+/* =========================================================
+   URL 安全处理
+========================================================= */
 
 function safeURL(value) {
 
     if (!value) {
+
         return "#";
     }
+
 
     try {
 
         const url =
             new URL(value);
+
 
         if (
             url.protocol === "http:"
@@ -205,13 +269,14 @@ function safeURL(value) {
         );
     }
 
+
     return "#";
 }
 
 
-/* =========================================
+/* =========================================================
    Priority
-========================================= */
+========================================================= */
 
 function getPriority(value) {
 
@@ -226,22 +291,87 @@ function getPriority(value) {
         return value;
     }
 
+
     return "B";
 }
 
 
-/* =========================================
-   单张卡片
-========================================= */
+/* =========================================================
+   传播潜力等级
+========================================================= */
 
-function createCard(
+function getScoreClass(score) {
+
+    const value =
+        Number(score) || 0;
+
+
+    if (value >= 90) {
+
+        return "score-excellent";
+    }
+
+
+    if (value >= 80) {
+
+        return "score-high";
+    }
+
+
+    if (value >= 70) {
+
+        return "score-medium";
+    }
+
+
+    return "score-normal";
+}
+
+
+/* =========================================================
+   普通资讯标签
+========================================================= */
+
+function getNewsBadge(item) {
+
+    if (
+        item.source
+        === "Scientific Data"
+    ) {
+
+        return "Scientific Data";
+    }
+
+
+    if (
+        item.source
+        === "Nature Cities"
+    ) {
+
+        return "Nature Cities";
+    }
+
+
+    return (
+        item.category
+        || "资讯"
+    );
+}
+
+
+/* =========================================================
+   普通资讯卡片
+========================================================= */
+
+function createNewsCard(
     item,
     featured = false
 ) {
 
-    /* 没图片直接不创建 */
+    /* 没有图片不显示 */
 
     if (!item.image_url) {
+
         return null;
     }
 
@@ -259,40 +389,36 @@ function createCard(
 
 
     card.className =
+
         featured
+
         ? `news-card featured-card card-${priority}`
+
         : `news-card card-${priority}`;
 
 
     const title =
+
         item.display_title
+
         ||
+
         item.title
+
         ||
+
         "未命名资讯";
 
 
-    /* =====================================
-       分类标签
-    ===================================== */
-
-    const badgeText =
-        (
-            item.source
-            === "Scientific Data"
-
-            ||
-
-            item.source
-            === "Nature Cities"
-        )
-        ? item.source
-        : item.category;
+    const badge =
+        getNewsBadge(
+            item
+        );
 
 
-    /* =====================================
+    /* =====================================================
        摘要
-    ===================================== */
+    ===================================================== */
 
     let summaryHTML = "";
 
@@ -316,51 +442,116 @@ function createCard(
                 )}
 
             </p>
+
         `;
     }
 
 
-    /* =====================================
-       GitHub Star
-    ===================================== */
+    /* =====================================================
+       GitHub Stars
+    ===================================================== */
 
-    const stars =
-        item.meta &&
-        item.meta.stars
+    const starsHTML =
+
+        (
+            item.meta
+            &&
+            item.meta.stars
+        )
+
         ? `
-            <span>
+
+            <span class="meta-item">
+
                 ⭐ ${escapeHTML(
                     item.meta.stars
                 )}
+
             </span>
+
           `
+
         : "";
 
 
-    /* =====================================
+    /* =====================================================
        GitHub语言
-    ===================================== */
+    ===================================================== */
 
-    const language =
-        item.meta &&
-        item.meta.language
+    const languageHTML =
+
+        (
+            item.meta
+            &&
+            item.meta.language
+        )
+
         ? `
-            <span>
+
+            <span class="meta-item">
+
                 ${escapeHTML(
                     item.meta.language
                 )}
+
             </span>
+
           `
+
         : "";
 
 
-    /* =====================================
-       卡片内容
-    ===================================== */
+    /* =====================================================
+       图片突破标签
+    ===================================================== */
+
+    const imageBreakthroughHTML =
+
+        item.is_breakthrough
+
+        ? `
+
+            <span class="image-breakthrough">
+
+                🔥 突破
+
+            </span>
+
+          `
+
+        : "";
+
+
+    /* =====================================================
+       正文突破标签
+    ===================================================== */
+
+    const breakthroughHTML =
+
+        item.is_breakthrough
+
+        ? `
+
+            <span class="breakthrough">
+
+                🔥 突破
+
+            </span>
+
+          `
+
+        : "";
+
+
+    /* =====================================================
+       卡片
+    ===================================================== */
 
     card.innerHTML = `
 
+
         <a
+
             class="image-link"
 
             href="${escapeHTML(
@@ -372,11 +563,15 @@ function createCard(
             target="_blank"
 
             rel="noopener noreferrer"
+
         >
+
 
             <div class="image-box">
 
+
                 <img
+
                     class="card-image"
 
                     src="${escapeHTML(
@@ -388,22 +583,18 @@ function createCard(
                     )}"
 
                     loading="lazy"
+
                 >
 
 
-                ${
-                    item.is_breakthrough
-                    ? `
-                        <span class="image-breakthrough">
-                            🔥 突破
-                        </span>
-                      `
-                    : ""
-                }
+                ${imageBreakthroughHTML}
+
 
             </div>
 
+
         </a>
+
 
 
         <div class="card-body">
@@ -418,37 +609,33 @@ function createCard(
                         priority-${priority}
                     "
                 >
+
                     ${priority}
+
                 </span>
 
 
                 <span class="category">
 
                     ${escapeHTML(
-                        badgeText
-                        || "资讯"
+                        badge
                     )}
 
                 </span>
 
 
-                ${
-                    item.is_breakthrough
-                    ? `
-                        <span class="breakthrough">
-                            🔥 突破
-                        </span>
-                      `
-                    : ""
-                }
+                ${breakthroughHTML}
 
 
             </div>
 
 
+
             <h3>
 
+
                 <a
+
                     href="${escapeHTML(
                         safeURL(
                             item.url
@@ -458,6 +645,7 @@ function createCard(
                     target="_blank"
 
                     rel="noopener noreferrer"
+
                 >
 
                     ${escapeHTML(
@@ -466,10 +654,13 @@ function createCard(
 
                 </a>
 
+
             </h3>
 
 
+
             ${summaryHTML}
+
 
 
             <div class="meta">
@@ -485,7 +676,7 @@ function createCard(
                 </span>
 
 
-                <span>
+                <span class="meta-item">
 
                     ${escapeHTML(
                         formatDate(
@@ -496,22 +687,24 @@ function createCard(
                 </span>
 
 
-                ${stars}
+                ${starsHTML}
 
-                ${language}
+
+                ${languageHTML}
 
 
             </div>
 
 
         </div>
+
     `;
 
 
-    /* =====================================
-       远程图片如果失效
-       整张资讯卡片删除
-    ===================================== */
+    /* =====================================================
+       图片失效
+       整个词条隐藏
+    ===================================================== */
 
     const image =
         card.querySelector(
@@ -522,14 +715,16 @@ function createCard(
     if (image) {
 
         image.addEventListener(
+
             "error",
+
             () => {
 
                 card.remove();
 
             }
-        );
 
+        );
     }
 
 
@@ -537,11 +732,578 @@ function createCard(
 }
 
 
-/* =========================================
-   过滤
-========================================= */
+/* =========================================================
+   Nature关联论文
+========================================================= */
 
-function filterItems(
+function buildRelatedPapersHTML(
+    papers
+) {
+
+    if (
+        !Array.isArray(
+            papers
+        )
+        ||
+        !papers.length
+    ) {
+
+        return "";
+    }
+
+
+    const items = papers
+
+        .slice(
+            0,
+            3
+        )
+
+        .map(
+            paper => {
+
+
+                const title =
+                    paper.title
+                    || "Nature相关研究";
+
+
+                const journal =
+                    paper.source
+                    || "Nature Portfolio";
+
+
+                const date =
+                    formatDate(
+                        paper.published_at
+                    );
+
+
+                const imageHTML =
+
+                    paper.image_url
+
+                    ? `
+
+                        <img
+
+                            class="related-paper-image"
+
+                            src="${escapeHTML(
+                                paper.image_url
+                            )}"
+
+                            alt=""
+
+                            loading="lazy"
+
+                        >
+
+                      `
+
+                    : "";
+
+
+                return `
+
+                    <a
+
+                        class="related-paper"
+
+                        href="${escapeHTML(
+                            safeURL(
+                                paper.url
+                            )
+                        )}"
+
+                        target="_blank"
+
+                        rel="noopener noreferrer"
+
+                    >
+
+
+                        ${imageHTML}
+
+
+                        <div class="related-paper-content">
+
+
+                            <div class="related-paper-source">
+
+                                ${escapeHTML(
+                                    journal
+                                )}
+
+                                ${
+                                    date
+                                    ? ` · ${escapeHTML(
+                                        date
+                                    )}`
+                                    : ""
+                                }
+
+                            </div>
+
+
+                            <div class="related-paper-title">
+
+                                ${escapeHTML(
+                                    title
+                                )}
+
+                            </div>
+
+
+                        </div>
+
+
+                    </a>
+
+                `;
+
+            }
+
+        )
+
+        .join("");
+
+
+    return `
+
+        <div class="hotspot-papers">
+
+
+            <div class="hotspot-block-title">
+
+                Nature 关联研究
+
+            </div>
+
+
+            <div class="related-paper-list">
+
+                ${items}
+
+            </div>
+
+
+        </div>
+
+    `;
+}
+
+
+/* =========================================================
+   热点卡片
+========================================================= */
+
+function createHotspotCard(
+    hotspot
+) {
+
+    if (!hotspot.image_url) {
+
+        return null;
+    }
+
+
+    const card =
+        document.createElement(
+            "article"
+        );
+
+
+    card.className =
+        "hotspot-card";
+
+
+    const title =
+        hotspot.title
+        || "热点";
+
+
+    const topic =
+        hotspot.topic
+        || "热点";
+
+
+    const score =
+        Number(
+            hotspot.score
+        ) || 0;
+
+
+    const rank =
+        Number(
+            hotspot.rank
+        ) || 0;
+
+
+    const recommendedTitle =
+        hotspot.recommended_title
+        || "";
+
+
+    const angle =
+        hotspot.angle
+        || "";
+
+
+    const scoreClass =
+        getScoreClass(
+            score
+        );
+
+
+    /* =====================================================
+       百度排名
+    ===================================================== */
+
+    const rankHTML =
+
+        rank > 0
+
+        ? `
+
+            <span class="hotspot-rank">
+
+                百度热榜 #${rank}
+
+            </span>
+
+          `
+
+        : "";
+
+
+    /* =====================================================
+       热点摘要
+    ===================================================== */
+
+    let summaryHTML = "";
+
+
+    if (
+        hotspot.summary
+
+        &&
+
+        !looksBrokenText(
+            hotspot.summary
+        )
+    ) {
+
+        summaryHTML = `
+
+            <p class="hotspot-summary">
+
+                ${escapeHTML(
+                    hotspot.summary
+                )}
+
+            </p>
+
+        `;
+    }
+
+
+    /* =====================================================
+       推荐标题
+    ===================================================== */
+
+    const recommendedHTML =
+
+        recommendedTitle
+
+        ? `
+
+            <div class="hotspot-block">
+
+
+                <div class="hotspot-block-title">
+
+                    推荐标题
+
+                </div>
+
+
+                <div class="recommended-title">
+
+                    ${escapeHTML(
+                        recommendedTitle
+                    )}
+
+                </div>
+
+
+            </div>
+
+          `
+
+        : "";
+
+
+    /* =====================================================
+       切入角度
+    ===================================================== */
+
+    const angleHTML =
+
+        angle
+
+        ? `
+
+            <div class="hotspot-block">
+
+
+                <div class="hotspot-block-title">
+
+                    推荐切口
+
+                </div>
+
+
+                <p class="hotspot-angle">
+
+                    ${escapeHTML(
+                        angle
+                    )}
+
+                </p>
+
+
+            </div>
+
+          `
+
+        : "";
+
+
+    /* =====================================================
+       相关Nature论文
+    ===================================================== */
+
+    const relatedHTML =
+        buildRelatedPapersHTML(
+            hotspot.related_papers
+        );
+
+
+    /* =====================================================
+       卡片HTML
+    ===================================================== */
+
+    card.innerHTML = `
+
+
+        <div class="hotspot-image-wrap">
+
+
+            <a
+
+                href="${escapeHTML(
+                    safeURL(
+                        hotspot.url
+                    )
+                )}"
+
+                target="_blank"
+
+                rel="noopener noreferrer"
+
+            >
+
+
+                <img
+
+                    class="hotspot-image"
+
+                    src="${escapeHTML(
+                        hotspot.image_url
+                    )}"
+
+                    alt="${escapeHTML(
+                        title
+                    )}"
+
+                    loading="lazy"
+
+                >
+
+
+            </a>
+
+
+            <div
+                class="
+                    potential-score
+                    ${scoreClass}
+                "
+            >
+
+                <span class="score-label">
+
+                    传播潜力
+
+                </span>
+
+
+                <strong>
+
+                    ${score}
+
+                </strong>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="hotspot-content">
+
+
+            <div class="hotspot-tags">
+
+
+                <span class="hotspot-main-tag">
+
+                    🔥 热点
+
+                </span>
+
+
+                <span class="hotspot-topic">
+
+                    ${escapeHTML(
+                        topic
+                    )}
+
+                </span>
+
+
+                ${rankHTML}
+
+
+            </div>
+
+
+
+            <h3 class="hotspot-title">
+
+
+                <a
+
+                    href="${escapeHTML(
+                        safeURL(
+                            hotspot.url
+                        )
+                    )}"
+
+                    target="_blank"
+
+                    rel="noopener noreferrer"
+
+                >
+
+                    ${escapeHTML(
+                        title
+                    )}
+
+                </a>
+
+
+            </h3>
+
+
+
+            ${summaryHTML}
+
+
+
+            ${recommendedHTML}
+
+
+
+            ${angleHTML}
+
+
+
+            ${relatedHTML}
+
+
+        </div>
+
+    `;
+
+
+    /* =====================================================
+       主图片加载失败
+       整条热点删除
+    ===================================================== */
+
+    const image =
+        card.querySelector(
+            ".hotspot-image"
+        );
+
+
+    if (image) {
+
+        image.addEventListener(
+
+            "error",
+
+            () => {
+
+                card.remove();
+
+            }
+
+        );
+    }
+
+
+    /* =====================================================
+       Nature关联小图片失效
+       只隐藏小图
+    ===================================================== */
+
+    card
+        .querySelectorAll(
+            ".related-paper-image"
+        )
+        .forEach(
+            image => {
+
+                image.addEventListener(
+
+                    "error",
+
+                    () => {
+
+                        image.remove();
+
+                    }
+
+                );
+
+            }
+        );
+
+
+    return card;
+}
+
+
+/* =========================================================
+   普通资讯过滤
+========================================================= */
+
+function filterNewsItems(
     type,
     value
 ) {
@@ -559,9 +1321,12 @@ function filterItems(
     ) {
 
         return allItems.filter(
+
             item =>
+
                 item.category
                 === value
+
         );
     }
 
@@ -571,20 +1336,23 @@ function filterItems(
     ) {
 
         return allItems.filter(
+
             item =>
+
                 item.source
                 === value
+
         );
     }
 
 
-    return allItems;
+    return [];
 }
 
 
-/* =========================================
-   列表标题
-========================================= */
+/* =========================================================
+   普通资讯列表标题
+========================================================= */
 
 function getListTitle(
     type,
@@ -594,6 +1362,7 @@ function getListTitle(
     if (
         type === "all"
     ) {
+
         return "最新资讯";
     }
 
@@ -601,6 +1370,7 @@ function getListTitle(
     if (
         value === "AI变现"
     ) {
+
         return "AI变现";
     }
 
@@ -608,6 +1378,7 @@ function getListTitle(
     if (
         value === "提效工具"
     ) {
+
         return "提效工具";
     }
 
@@ -615,6 +1386,7 @@ function getListTitle(
     if (
         value === "前沿动态"
     ) {
+
         return "前沿动态";
     }
 
@@ -643,16 +1415,15 @@ function getListTitle(
 }
 
 
-/* =========================================
-   主列表
-========================================= */
+/* =========================================================
+   普通资讯渲染
+========================================================= */
 
 function renderMainList() {
 
-    const items =
-        filterItems(
-            currentFilter.type,
-            currentFilter.value
+    const section =
+        document.getElementById(
+            "news-section"
         );
 
 
@@ -674,6 +1445,32 @@ function renderMainList() {
         );
 
 
+    /* 热点模式不显示普通资讯 */
+
+    if (
+        currentFilter.type
+        === "hotspot"
+    ) {
+
+        section.hidden = true;
+
+        return;
+    }
+
+
+    section.hidden = false;
+
+
+    const items =
+        filterNewsItems(
+
+            currentFilter.type,
+
+            currentFilter.value
+
+        );
+
+
     container.innerHTML = "";
 
 
@@ -688,8 +1485,11 @@ function renderMainList() {
 
         titleElement.textContent =
             getListTitle(
+
                 currentFilter.type,
+
                 currentFilter.value
+
             );
     }
 
@@ -700,8 +1500,9 @@ function renderMainList() {
     items.forEach(
         item => {
 
+
             const card =
-                createCard(
+                createNewsCard(
                     item
                 );
 
@@ -714,6 +1515,7 @@ function renderMainList() {
 
                 rendered += 1;
             }
+
 
         }
     );
@@ -734,14 +1536,15 @@ function renderMainList() {
                 </p>
 
             </div>
+
         `;
     }
 }
 
 
-/* =========================================
+/* =========================================================
    最新突破
-========================================= */
+========================================================= */
 
 function renderFeatured() {
 
@@ -763,6 +1566,13 @@ function renderFeatured() {
         );
 
 
+    /* =====================================================
+       只在：
+       全部
+       前沿动态
+       显示
+    ===================================================== */
+
     const showFeatured = (
 
         currentFilter.type
@@ -779,6 +1589,7 @@ function renderFeatured() {
             currentFilter.value
             === "前沿动态"
         )
+
     );
 
 
@@ -792,12 +1603,19 @@ function renderFeatured() {
 
     const items =
         allItems
+
         .filter(
+
             item =>
+
                 item.is_breakthrough
+
                 &&
+
                 item.image_url
+
         )
+
         .slice(
             0,
             6
@@ -814,6 +1632,7 @@ function renderFeatured() {
 
     section.hidden = false;
 
+
     container.innerHTML = "";
 
 
@@ -827,8 +1646,9 @@ function renderFeatured() {
     items.forEach(
         item => {
 
+
             const card =
-                createCard(
+                createNewsCard(
                     item,
                     true
                 );
@@ -841,33 +1661,157 @@ function renderFeatured() {
                 );
             }
 
+
         }
     );
 }
 
 
-/* =========================================
-   数量
-========================================= */
+/* =========================================================
+   热点渲染
+========================================================= */
+
+function renderHotspots() {
+
+    const section =
+        document.getElementById(
+            "hotspot-section"
+        );
+
+
+    const container =
+        document.getElementById(
+            "hotspot-list"
+        );
+
+
+    const count =
+        document.getElementById(
+            "hotspot-count"
+        );
+
+
+    /* 不是热点模式 */
+
+    if (
+        currentFilter.type
+        !== "hotspot"
+    ) {
+
+        section.hidden = true;
+
+        return;
+    }
+
+
+    section.hidden = false;
+
+
+    container.innerHTML = "";
+
+
+    const hotspots =
+        allHotspots.filter(
+
+            hotspot =>
+                hotspot.image_url
+
+        );
+
+
+    if (count) {
+
+        count.textContent =
+            `共 ${hotspots.length} 条`;
+    }
+
+
+    if (!hotspots.length) {
+
+        container.innerHTML = `
+
+            <div class="empty">
+
+                <strong>
+                    暂无热点
+                </strong>
+
+                <p>
+                    当前热榜中暂未发现与近期 Nature 研究高度匹配的内容。
+                </p>
+
+            </div>
+
+        `;
+
+        return;
+    }
+
+
+    hotspots.forEach(
+        hotspot => {
+
+
+            const card =
+                createHotspotCard(
+                    hotspot
+                );
+
+
+            if (card) {
+
+                container.appendChild(
+                    card
+                );
+            }
+
+
+        }
+    );
+}
+
+
+/* =========================================================
+   按筛选条件计数
+========================================================= */
 
 function countByFilter(
     type,
     value
 ) {
 
-    return filterItems(
+    if (
+        type === "hotspot"
+    ) {
+
+        return allHotspots.filter(
+
+            hotspot =>
+                hotspot.image_url
+
+        ).length;
+    }
+
+
+    return filterNewsItems(
         type,
         value
-    ).filter(
+    )
+
+    .filter(
+
         item =>
             item.image_url
-    ).length;
+
+    )
+
+    .length;
 }
 
 
-/* =========================================
-   按钮数量
-========================================= */
+/* =========================================================
+   导航按钮数量
+========================================================= */
 
 function updateFilterCounts() {
 
@@ -905,25 +1849,34 @@ function updateFilterCounts() {
 
                 button.innerHTML = `
 
+
                     <span>
+
                         ${escapeHTML(
                             button.dataset.label
                         )}
+
                     </span>
 
+
                     <span class="filter-count">
+
                         ${count}
+
                     </span>
+
+
                 `;
+
 
             }
         );
 }
 
 
-/* =========================================
+/* =========================================================
    今日提示
-========================================= */
+========================================================= */
 
 function updateSummary() {
 
@@ -934,8 +1887,18 @@ function updateSummary() {
 
 
     if (!element) {
+
         return;
     }
+
+
+    const hotspotCount =
+        allHotspots.filter(
+
+            hotspot =>
+                hotspot.image_url
+
+        ).length;
 
 
     const aiCount =
@@ -975,10 +1938,15 @@ function updateSummary() {
 
     const breakthroughCount =
         allItems.filter(
+
             item =>
+
                 item.is_breakthrough
+
                 &&
+
                 item.image_url
+
         ).length;
 
 
@@ -986,7 +1954,9 @@ function updateSummary() {
 
         `当前收录 ${allItems.length} 条带图资讯，`
 
-        + `其中突破性资讯 ${breakthroughCount} 条；`
+        + `热点 ${hotspotCount} 条，`
+
+        + `突破性资讯 ${breakthroughCount} 条；`
 
         + `AI变现 ${aiCount} 条，`
 
@@ -1000,9 +1970,9 @@ function updateSummary() {
 }
 
 
-/* =========================================
-   应用过滤
-========================================= */
+/* =========================================================
+   应用导航筛选
+========================================================= */
 
 function applyFilter(
     type,
@@ -1022,6 +1992,7 @@ function applyFilter(
         .forEach(
             button => {
 
+
                 const active = (
 
                     button.dataset.filterType
@@ -1031,27 +2002,73 @@ function applyFilter(
 
                     button.dataset.filterValue
                     === value
+
                 );
 
 
                 button.classList.toggle(
+
                     "active",
+
                     active
+
                 );
+
 
             }
         );
 
 
+    renderHotspots();
+
     renderFeatured();
 
     renderMainList();
+
+
+    /* =====================================================
+       点击分类后回到导航下面
+    ===================================================== */
+
+    const filters =
+        document.querySelector(
+            ".filters"
+        );
+
+
+    if (filters) {
+
+        const y =
+
+            filters
+                .getBoundingClientRect()
+                .top
+
+            +
+
+            window.scrollY
+
+            -
+
+            16;
+
+
+        window.scrollTo({
+
+            top:
+                y,
+
+            behavior:
+                "smooth"
+
+        });
+    }
 }
 
 
-/* =========================================
-   读取JSON
-========================================= */
+/* =========================================================
+   读取 news.json
+========================================================= */
 
 async function loadNews() {
 
@@ -1063,9 +2080,12 @@ async function loadNews() {
                 `./data/news.json?t=${Date.now()}`,
 
                 {
+
                     cache:
                         "no-store"
+
                 }
+
             );
 
 
@@ -1090,24 +2110,51 @@ async function loadNews() {
         ) {
 
             throw new Error(
-                "news.json格式错误"
+                "news.json 数据格式错误"
             );
         }
 
 
-        /* =================================
-           再次保证：
-           没图的内容前端也不进入
-        ================================= */
+        /* =================================================
+           普通资讯
+           没图不进入
+        ================================================= */
 
         allItems =
             data.items.filter(
+
                 item =>
                     Boolean(
                         item.image_url
                     )
+
             );
 
+
+        /* =================================================
+           热点
+        ================================================= */
+
+        allHotspots =
+            Array.isArray(
+                data.hotspots
+            )
+
+            ? data.hotspots.filter(
+
+                hotspot =>
+                    Boolean(
+                        hotspot.image_url
+                    )
+
+            )
+
+            : [];
+
+
+        /* =================================================
+           最近更新时间
+        ================================================= */
 
         const updateElement =
             document.getElementById(
@@ -1123,6 +2170,10 @@ async function loadNews() {
                 );
         }
 
+
+        /* =================================================
+           更新页面
+        ================================================= */
 
         updateFilterCounts();
 
@@ -1145,33 +2196,60 @@ async function loadNews() {
         );
 
 
-        const container =
+        const newsContainer =
             document.getElementById(
                 "news-list"
             );
 
 
-        container.innerHTML = `
+        const hotspotContainer =
+            document.getElementById(
+                "hotspot-list"
+            );
 
-            <div class="empty full-grid">
 
-                <strong>
-                    数据加载失败
-                </strong>
+        if (newsContainer) {
 
-                <p>
-                    请稍后刷新页面。
-                </p>
+            newsContainer.innerHTML = `
 
-            </div>
-        `;
+                <div class="empty full-grid">
+
+                    <strong>
+                        数据加载失败
+                    </strong>
+
+                    <p>
+                        请稍后刷新页面。
+                    </p>
+
+                </div>
+
+            `;
+        }
+
+
+        if (hotspotContainer) {
+
+            hotspotContainer.innerHTML = `
+
+                <div class="empty">
+
+                    <strong>
+                        热点加载失败
+                    </strong>
+
+                </div>
+
+            `;
+        }
+
     }
 }
 
 
-/* =========================================
-   按钮
-========================================= */
+/* =========================================================
+   导航按钮事件
+========================================================= */
 
 document
     .querySelectorAll(
@@ -1180,22 +2258,34 @@ document
     .forEach(
         button => {
 
+
             button.addEventListener(
+
                 "click",
+
                 () => {
+
 
                     applyFilter(
 
                         button.dataset.filterType,
 
                         button.dataset.filterValue
+
                     );
 
+
                 }
+
             );
+
 
         }
     );
 
+
+/* =========================================================
+   启动
+========================================================= */
 
 loadNews();
