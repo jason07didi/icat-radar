@@ -1,5 +1,14 @@
+/* =========================================
+   全局
+========================================= */
+
 * {
     box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -7,515 +16,752 @@ body {
 
     margin: 0;
 
-    background:
-        #f2f4f7;
+    background: #f2f4f7;
 
-    color:
-        #16304a;
+    color: #14324c;
 
     font-family:
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
+        "PingFang SC",
         "Microsoft YaHei",
         Arial,
         sans-serif;
 
+    line-height: 1.6;
 }
 
 
+/* =========================================
+   顶部
+========================================= */
+
 .header {
 
-    background:
-        #102f4b;
+    background: #103451;
 
-    color:
-        white;
+    color: white;
 
     padding:
-        28px 20px;
-
+        30px 20px 32px;
 }
 
 
 .header-inner {
 
-    max-width:
-        900px;
+    width: 100%;
 
-    margin:
-        0 auto;
+    max-width: 920px;
 
+    margin: 0 auto;
 }
 
 
 .site-label {
 
-    font-size:
-        13px;
+    font-size: 13px;
 
-    opacity:
-        0.8;
+    opacity: 0.75;
 
-    margin-bottom:
-        6px;
-
+    margin-bottom: 7px;
 }
 
 
 .header h1 {
 
-    margin:
-        0;
+    margin: 0;
 
-    font-size:
-        30px;
+    font-size: 32px;
 
+    font-weight: 750;
 }
 
 
-.header p {
+.subtitle {
 
     margin:
-        8px 0;
+        8px 0 0;
 
-    opacity:
-        0.9;
+    font-size: 17px;
 
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.9
+        );
 }
 
 
 .update-time {
 
-    margin-top:
-        12px;
+    margin-top: 13px;
 
-    font-size:
-        13px;
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            0.72
+        );
 
-    opacity:
-        0.7;
-
+    font-size: 13px;
 }
 
+
+/* =========================================
+   页面主体
+========================================= */
 
 .container {
 
-    max-width:
-        900px;
+    width: 100%;
 
-    margin:
-        0 auto;
+    max-width: 920px;
+
+    margin: 0 auto;
 
     padding:
-        22px 18px 50px;
-
+        24px 18px 60px;
 }
 
 
+/* =========================================
+   今日提示
+========================================= */
+
 .intro {
 
-    background:
-        white;
+    background: white;
 
-    border-radius:
-        12px;
+    border-radius: 14px;
 
     padding:
-        18px 20px;
+        20px 22px;
 
-    margin-bottom:
-        22px;
+    margin-bottom: 24px;
 
     box-shadow:
-        0 4px 14px
-        rgba(0,0,0,.06);
-
+        0 5px 18px
+        rgba(
+            20,
+            50,
+            76,
+            0.07
+        );
 }
 
 
 .intro h2 {
 
     margin:
-        0 0 8px;
+        0 0 7px;
 
-    font-size:
-        18px;
-
+    font-size: 18px;
 }
 
 
 .intro p {
 
-    margin:
-        0;
+    margin: 0;
 
-    line-height:
-        1.7;
+    color: #617181;
 
-    color:
-        #596a79;
+    font-size: 14px;
 
+    line-height: 1.8;
 }
 
 
+/* =========================================
+   分类导航
+========================================= */
+
 .filters {
 
-    display:
-        flex;
+    display: flex;
 
-    gap:
-        8px;
+    flex-wrap: wrap;
 
-    flex-wrap:
-        wrap;
+    gap: 9px;
 
-    margin-bottom:
-        22px;
-
+    margin-bottom: 28px;
 }
 
 
 .filter {
 
-    border:
-        none;
+    display: inline-flex;
 
-    background:
-        white;
+    align-items: center;
 
-    color:
-        #385064;
+    gap: 6px;
 
-    border-radius:
-        20px;
+    border: none;
+
+    background: white;
+
+    color: #344e62;
 
     padding:
         8px 14px;
 
-    cursor:
-        pointer;
+    border-radius: 999px;
 
-    font-size:
-        14px;
+    font-family: inherit;
 
+    font-size: 14px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 1px 3px
+        rgba(
+            0,
+            0,
+            0,
+            0.04
+        );
+
+    transition:
+        all 0.18s ease;
+}
+
+
+.filter:hover {
+
+    transform:
+        translateY(-1px);
 }
 
 
 .filter.active {
 
+    background: #0d7d7c;
+
+    color: white;
+}
+
+
+.filter-count {
+
+    min-width: 20px;
+
+    height: 20px;
+
+    padding:
+        0 6px;
+
+    border-radius: 999px;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
     background:
-        #136f73;
+        rgba(
+            20,
+            50,
+            76,
+            0.08
+        );
 
-    color:
-        white;
+    font-size: 11px;
+}
 
+
+.filter.active
+.filter-count {
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.2
+        );
+}
+
+
+/* =========================================
+   最新资讯标题
+========================================= */
+
+.section-heading {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content:
+        space-between;
+
+    margin-bottom: 15px;
 }
 
 
 .section-title {
 
-    font-size:
-        21px;
+    position: relative;
 
-    border-bottom:
-        3px solid
-        #cc2437;
+    margin: 0;
 
-    display:
-        inline-block;
+    padding-bottom: 6px;
 
-    margin:
-        0 0 16px;
+    font-size: 22px;
 
-    padding-bottom:
-        4px;
-
+    color: #12324d;
 }
 
 
+.section-title::after {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+
+    bottom: 0;
+
+    width: 72px;
+
+    height: 3px;
+
+    background: #d0243c;
+
+    border-radius: 2px;
+}
+
+
+.result-count {
+
+    color: #8996a1;
+
+    font-size: 12px;
+}
+
+
+/* =========================================
+   卡片
+========================================= */
+
 .news-card {
 
-    background:
-        white;
+    background: white;
 
-    border-radius:
-        11px;
+    border-radius: 13px;
 
     padding:
-        18px;
+        18px 20px;
 
-    margin-bottom:
-        13px;
-
-    box-shadow:
-        0 3px 12px
-        rgba(0,0,0,.06);
+    margin-bottom: 14px;
 
     border-left:
         4px solid
-        #8799a7;
+        #8296a5;
 
+    box-shadow:
+        0 4px 15px
+        rgba(
+            20,
+            50,
+            76,
+            0.065
+        );
+
+    transition:
+        all 0.18s ease;
+}
+
+
+.news-card:hover {
+
+    transform:
+        translateY(-1px);
+
+    box-shadow:
+        0 7px 22px
+        rgba(
+            20,
+            50,
+            76,
+            0.09
+        );
 }
 
 
 .card-A {
 
     border-left-color:
-        #cc2437;
-
+        #cf263d;
 }
 
 
 .card-B {
 
     border-left-color:
-        #31546d;
-
+        #315d78;
 }
 
 
 .card-C {
 
     border-left-color:
-        #188c87;
-
+        #168d88;
 }
 
 
+/* =========================================
+   卡片标签
+========================================= */
+
 .card-header {
 
-    display:
-        flex;
+    display: flex;
 
-    align-items:
-        center;
+    align-items: center;
 
-    gap:
-        8px;
+    flex-wrap: wrap;
 
+    gap: 8px;
+
+    margin-bottom: 8px;
 }
 
 
 .priority {
 
-    width:
-        27px;
+    width: 28px;
 
-    height:
-        27px;
+    height: 28px;
 
-    border-radius:
-        50%;
+    border-radius: 50%;
 
-    display:
-        inline-flex;
+    display: inline-flex;
 
-    align-items:
-        center;
+    align-items: center;
 
-    justify-content:
-        center;
+    justify-content: center;
 
-    font-size:
-        13px;
+    color: white;
 
-    font-weight:
-        bold;
+    font-weight: 700;
 
-    color:
-        white;
-
+    font-size: 12px;
 }
 
 
 .priority-A {
 
-    background:
-        #c52536;
-
+    background: #cf263d;
 }
 
 
 .priority-B {
 
-    background:
-        #31546d;
-
+    background: #315d78;
 }
 
 
 .priority-C {
 
-    background:
-        #198d87;
-
+    background: #168d88;
 }
 
 
 .category {
 
-    background:
-        #eef2f5;
-
-    color:
-        #607180;
-
     padding:
-        5px 10px;
+        4px 10px;
 
-    border-radius:
-        20px;
+    background: #edf2f5;
 
-    font-size:
-        12px;
+    color: #607585;
 
+    border-radius: 999px;
+
+    font-size: 12px;
 }
 
+
+/* =========================================
+   突破标签
+========================================= */
+
+.breakthrough {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    padding:
+        4px 9px;
+
+    border-radius: 999px;
+
+    background:
+        #fff2e4;
+
+    color:
+        #b75c00;
+
+    font-size: 12px;
+
+    font-weight: 650;
+}
+
+
+/* =========================================
+   标题
+========================================= */
 
 .news-card h3 {
 
     margin:
-        12px 0 8px;
+        8px 0;
 
-    font-size:
-        18px;
+    font-size: 18px;
 
-    line-height:
-        1.5;
-
+    line-height: 1.5;
 }
 
 
 .news-card h3 a {
 
-    color:
-        #16304a;
+    color: #13334e;
 
-    text-decoration:
-        none;
-
+    text-decoration: none;
 }
 
 
 .news-card h3 a:hover {
 
-    color:
-        #0c7181;
-
+    color: #0c7980;
 }
 
 
+/* =========================================
+   摘要
+========================================= */
+
 .summary {
-
-    color:
-        #5c6873;
-
-    line-height:
-        1.7;
-
-    font-size:
-        14px;
 
     margin:
         8px 0;
 
+    color: #5d6e7b;
+
+    font-size: 14px;
+
+    line-height: 1.75;
 }
 
+
+/* =========================================
+   元数据
+========================================= */
 
 .meta {
 
-    margin-top:
-        12px;
+    display: flex;
 
-    display:
-        flex;
+    flex-wrap: wrap;
 
     gap:
-        12px;
+        7px 14px;
 
-    flex-wrap:
-        wrap;
+    margin-top: 12px;
 
-    font-size:
-        12px;
+    color: #909da7;
 
-    color:
-        #89949e;
-
+    font-size: 12px;
 }
 
+
+.source {
+
+    font-weight: 550;
+}
+
+
+/* =========================================
+   空状态
+========================================= */
 
 .empty {
 
-    background:
-        white;
+    background: white;
+
+    border-radius: 13px;
 
     padding:
-        30px;
+        36px 20px;
 
-    border-radius:
-        10px;
+    text-align: center;
 
-    text-align:
-        center;
+    color: #788994;
 
-    color:
-        #77838c;
-
+    box-shadow:
+        0 3px 12px
+        rgba(
+            20,
+            50,
+            76,
+            0.05
+        );
 }
 
 
-footer {
+.empty strong {
 
-    text-align:
-        center;
-
-    padding:
-        30px;
-
-    color:
-        #89949e;
-
-    font-size:
-        12px;
-
+    color: #435c6d;
 }
 
+
+.empty p {
+
+    margin:
+        5px 0 0;
+
+    font-size: 13px;
+}
+
+
+.error-box {
+
+    border-left:
+        4px solid
+        #cf263d;
+}
+
+
+/* =========================================
+   页脚
+========================================= */
+
+.footer {
+
+    padding:
+        35px 20px;
+
+    border-top:
+        1px solid
+        #e2e7eb;
+
+    text-align: center;
+
+    color: #8996a1;
+
+    font-size: 12px;
+}
+
+
+.footer p {
+
+    margin:
+        5px 0 0;
+
+    font-size: 11px;
+}
+
+
+/* =========================================
+   手机
+========================================= */
 
 @media (
     max-width: 600px
 ) {
 
+    .header {
+
+        padding:
+            24px 16px 26px;
+    }
+
+
     .header h1 {
 
-        font-size:
-            26px;
+        font-size: 27px;
+    }
 
+
+    .subtitle {
+
+        font-size: 15px;
     }
 
 
     .container {
 
         padding:
-            16px 12px 40px;
+            17px 12px 45px;
+    }
 
+
+    .intro {
+
+        padding:
+            17px;
+    }
+
+
+    .filters {
+
+        gap: 7px;
+
+        margin-bottom: 22px;
+    }
+
+
+    .filter {
+
+        padding:
+            7px 11px;
+
+        font-size: 13px;
+    }
+
+
+    .filter-count {
+
+        font-size: 10px;
+
+        min-width: 18px;
+
+        height: 18px;
+    }
+
+
+    .section-title {
+
+        font-size: 20px;
     }
 
 
     .news-card {
 
-        padding:
-            16px;
+        border-radius: 11px;
 
+        padding:
+            16px 15px;
     }
 
 
     .news-card h3 {
 
-        font-size:
-            17px;
+        font-size: 16px;
+    }
 
+
+    .summary {
+
+        font-size: 13px;
     }
 
 }
