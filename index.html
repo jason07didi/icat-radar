@@ -1,23 +1,172 @@
-<nav class="filters">
+<!DOCTYPE html>
+<html lang="zh-CN">
 
-    <button class="filter active" data-category="all">
-        全部
-    </button>
+<head>
 
-    <button class="filter" data-category="AI变现">
-        AI变现
-    </button>
+    <meta charset="UTF-8">
 
-    <button class="filter" data-category="提效工具">
-        提效工具
-    </button>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <button class="filter" data-category="城市数据">
-        多源数据
-    </button>
+    <meta
+        name="description"
+        content="ICAT 科研前沿雷达：持续关注AI变现、科研提效、多源城市数据与城市前沿研究。"
+    >
 
-    <button class="filter" data-category="城市前沿">
-        前沿研究
-    </button>
+    <title>ICAT · 科研前沿雷达</title>
 
-</nav>
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     顶部
+========================= -->
+
+<header class="header">
+
+    <div class="header-inner">
+
+        <div class="site-label">
+            ICAT · Research Radar
+        </div>
+
+        <h1>
+            科研前沿雷达
+        </h1>
+
+        <p>
+            AI变现 · 提效工具 · 多源数据 · 前沿研究
+        </p>
+
+        <div
+            id="update-time"
+            class="update-time"
+        >
+            正在读取最新资讯……
+        </div>
+
+    </div>
+
+</header>
+
+
+
+<!-- =========================
+     主体
+========================= -->
+
+<main class="container">
+
+
+    <!-- 今日提示 -->
+
+    <section class="intro">
+
+        <h2>
+            今日提示
+        </h2>
+
+        <p id="today-summary">
+            正在载入最新科研动态……
+        </p>
+
+    </section>
+
+
+
+    <!-- 分类导航 -->
+
+    <nav class="filters">
+
+        <button
+            class="filter active"
+            data-category="all"
+        >
+            全部
+        </button>
+
+        <button
+            class="filter"
+            data-category="AI变现"
+        >
+            AI变现
+        </button>
+
+        <button
+            class="filter"
+            data-category="提效工具"
+        >
+            提效工具
+        </button>
+
+        <button
+            class="filter"
+            data-category="城市数据"
+        >
+            多源数据
+        </button>
+
+        <button
+            class="filter"
+            data-category="城市前沿"
+        >
+            前沿研究
+        </button>
+
+    </nav>
+
+
+
+    <!-- 资讯区域 -->
+
+    <section class="news-section">
+
+        <h2 class="section-title">
+            最新资讯
+        </h2>
+
+        <div id="news-list">
+
+            <div class="empty">
+                正在读取最新资讯……
+            </div>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+
+<!-- =========================
+     页脚
+========================= -->
+
+<footer>
+
+    ICAT · 科研前沿雷达
+
+</footer>
+
+
+
+<!-- JavaScript -->
+
+<script src="app.js"></script>
+
+
+</body>
+
+</html>
