@@ -1,63 +1,63 @@
 {
-  "updated_at": "2026-08-17T11:45:43.669006+00:00",
-  "count": 104,
+  "updated_at": "2026-08-17T12:14:13.777147+00:00",
+  "count": 106,
   "hotspot_count": 12,
-  "breakthrough_count": 14,
+  "breakthrough_count": 15,
   "category_counts": {
     "AI变现": 17,
     "提效工具": 40,
-    "前沿动态": 13
+    "前沿动态": 14
   },
   "source_counts": {
-    "Scientific Data": 18,
+    "Scientific Data": 19,
     "Nature Cities": 16
   },
   "hotspots": [
     {
-      "id": "fef18276f273b61f",
-      "title": "野外钓鱼、露天烧烤有违法风险",
-      "summary": "8月15日，《中华人民共和国生态环境法典》正式施行。专家提醒，在当地政府划定的禁烧时段和区域露天烧烤可能受罚，在饮用水水... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%87%8E%E5%A4%96%E9%92%93%E9%B1%BC%E3%80%81%E9%9C%B2%E5%A4%A9%E7%83%A7%E7%83%A4%E6%9C%89%E8%BF%9D%E6%B3%95%E9%A3%8E%E9%99%A9&sa=fyb_news&rsv_dl=fyb_news",
+      "id": "b566d10ed17023eb",
+      "title": "博尔特不再是世界第一了",
+      "summary": "8月17日，宇树科技发布全新机器人，其极限速度达12.66m/s，原地跳高2米，两项指标均刷新人类最高纪录。博尔特保持的... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%9A%E5%B0%94%E7%89%B9%E4%B8%8D%E5%86%8D%E6%98%AF%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 3,
-      "hot_index": 7712086,
-      "topic": "生态生命",
+      "hot_index": 7712697,
+      "topic": "人工智能",
       "score": 98,
-      "recommended_title": "野外钓鱼、露天烧烤有违法风险背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释其背后的生态过程和环境意义。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/cfce9bd7f8f1d594d18509e0eeca5eb2?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "recommended_title": "博尔特不再是世界第一了刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/4bdda80db2c4bf768425d666d849f2ab?x-bce-process=image/resize,m_fill,w_256,h_170",
       "related_papers": [
         {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig1_HTML.png?as=webp",
-          "match_score": 37
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 32
         },
         {
-          "id": "ab9f93ba4e854e31",
-          "title": "Species intraspecific variation drives tropical forest drought resistance",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10870-4",
-          "published_at": "2026-08-12T00:00:00+00:00",
-          "summary": "Substantial intraspecific variation, together with species turnover, drives coordinated shifts in drought resistance such as increased embolism resistance and wider stomatal safety margins in drier forests.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-10870-4/MediaObjects/41586_2026_10870_Fig2_HTML.png?as=webp",
-          "match_score": 36
+          "id": "e598cf46867215d6",
+          "title": "Decoding the sequence determinants of locus-specific DNA methylation across human tissues",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76744-5",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1379787508&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
+          "match_score": 25
         },
         {
-          "id": "a3a59c8b57e1676f",
-          "title": "Balancing marine species conservation with cost-effective renewable energy development",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02696-9",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "The authors consider the potential conflict between renewable energy development (offshore wind) and wildlife (North Atlantic right whales, Eubalaena glacialis ). They demonstrate a framework to identify trade-offs under different scenarios, maximizing conservation with minima...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02696-9/MediaObjects/41558_2026_2696_Fig1_HTML.png",
-          "match_score": 35
+          "id": "b05c89b1d1f3f326",
+          "title": "Generative AI for efficient statistical computation of fluids",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76390-x",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1690467027&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
+          "match_score": 25
         }
       ],
-      "updated_at": "2026-08-17T11:45:40.176963+00:00"
+      "updated_at": "2026-08-17T12:14:09.893656+00:00"
     },
     {
       "id": "2b851dc7eb51c2ce",
@@ -65,7 +65,7 @@
       "summary": "当前我国仍处在主汛期，汛期安全不容忽视。暴雨天，留心4个风险点：本地无降雨不代表安全，洪水可能因上游泄洪突然抵达；住在高... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%9A%B4%E9%9B%A8%E5%A4%A9%E7%95%99%E5%BF%834%E4%B8%AA%E9%A3%8E%E9%99%A9%E7%82%B9&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 4,
-      "hot_index": 7618660,
+      "hot_index": 7618454,
       "topic": "气候环境",
       "score": 97,
       "recommended_title": "暴雨天留心4个风险点背后：Nature研究揭示了怎样的风险链条？",
@@ -103,53 +103,53 @@
           "match_score": 27
         }
       ],
-      "updated_at": "2026-08-17T11:45:40.183247+00:00"
+      "updated_at": "2026-08-17T12:14:09.904598+00:00"
     },
     {
-      "id": "b566d10ed17023eb",
-      "title": "博尔特不再是世界第一了",
-      "summary": "8月17日，宇树科技发布全新机器人，其极限速度达12.66m/s，原地跳高2米，两项指标均刷新人类最高纪录。博尔特保持的... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%9A%E5%B0%94%E7%89%B9%E4%B8%8D%E5%86%8D%E6%98%AF%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 5,
-      "hot_index": 7524366,
-      "topic": "人工智能",
-      "score": 96,
-      "recommended_title": "博尔特不再是世界第一了刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/4bdda80db2c4bf768425d666d849f2ab?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "id": "33cb921a4c6de5b2",
+      "title": "名校父母劝692.5分女儿读中本贯通",
+      "summary": "王斯羽中考取得692.5分，凭借这个分数她本可以稳稳进入杨浦高级中学，但她最终选择报考上海港湾学校贯通上海海事大学的物流... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%90%8D%E6%A0%A1%E7%88%B6%E6%AF%8D%E5%8A%9D692.5%E5%88%86%E5%A5%B3%E5%84%BF%E8%AF%BB%E4%B8%AD%E6%9C%AC%E8%B4%AF%E9%80%9A&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 9,
+      "hot_index": 7141272,
+      "topic": "城市社会",
+      "score": 93,
+      "recommended_title": "名校父母劝692.5分女儿读中本贯通背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/e8ef440b2467f77204d5210685f9b944?x-bce-process=image/resize,m_fill,w_256,h_170",
       "related_papers": [
         {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 32
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
         },
         {
-          "id": "e598cf46867215d6",
-          "title": "Decoding the sequence determinants of locus-specific DNA methylation across human tissues",
+          "id": "e28092bb3fedb6f0",
+          "title": "Facilitating megacity electricity decarbonization via grid-interactive demand-side resource management",
           "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76744-5",
+          "url": "https://www.nature.com/articles/s41467-026-76799-4",
           "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1275286716&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
-          "match_score": 25
+          "summary": "Coordinating demand-side resources in urban communities can reduce city-wide electricity power gaps during low-carbon transitions and inform strategies for integrating such resources in megacities.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-867806701&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76799-4%26doi%3D10.1038/s41467-026-76799-4%26techmeta%3D129%26subjmeta%3D4066,4075,4076,4080,706%26kwrd%3DEnergy+management,Energy+policy,Energy+supply+and+demand",
+          "match_score": 41
         },
         {
-          "id": "b05c89b1d1f3f326",
-          "title": "Generative AI for efficient statistical computation of fluids",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76390-x",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1704106723&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
-          "match_score": 25
+          "id": "0715007b10e1c5aa",
+          "title": "Global divergence in urban demographic change and migration patterns",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00447-7",
+          "published_at": "2026-05-26T00:00:00+00:00",
+          "summary": "Evidence on how urban populations change is still limited worldwide. By examining 10,000 cities, this study uncovers uneven patterns in age, sex and migration, underscoring the importance of detailed, city-level data.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00447-7/MediaObjects/44284_2026_447_Fig1_HTML.png?as=webp",
+          "match_score": 40
         }
       ],
-      "updated_at": "2026-08-17T11:45:40.189258+00:00"
+      "updated_at": "2026-08-17T12:14:09.915488+00:00"
     },
     {
       "id": "981eb591ad7d6a17",
@@ -157,7 +157,7 @@
       "summary": "近日有网民称：“青岛大学新校徽被指像旭日旗，校方紧急撤下”，引发关注。经查，该信息纯属造谣，网传校徽图样并非青岛大学校徽... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%9D%92%E5%B2%9B%E5%A4%A7%E5%AD%A6%E6%96%B0%E6%A0%A1%E5%BE%BD%E5%83%8F%E6%97%AD%E6%97%A5%E6%97%97%E2%80%9D%E7%B3%BB%E9%80%A0%E8%B0%A3&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 12,
-      "hot_index": 6848223,
+      "hot_index": 6847650,
       "topic": "城市社会",
       "score": 90,
       "recommended_title": "“青岛大学新校徽像旭日旗”系造谣背后，Nature研究如何解释正在发生的社会变化？",
@@ -181,7 +181,7 @@
           "url": "https://www.nature.com/articles/s41467-026-76799-4",
           "published_at": "2026-08-17T00:00:00+00:00",
           "summary": "Coordinating demand-side resources in urban communities can reduce city-wide electricity power gaps during low-carbon transitions and inform strategies for integrating such resources in megacities.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=2091593560&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76799-4%26doi%3D10.1038/s41467-026-76799-4%26techmeta%3D129%26subjmeta%3D4066,4075,4076,4080,706%26kwrd%3DEnergy+management,Energy+policy,Energy+supply+and+demand",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-867806701&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76799-4%26doi%3D10.1038/s41467-026-76799-4%26techmeta%3D129%26subjmeta%3D4066,4075,4076,4080,706%26kwrd%3DEnergy+management,Energy+policy,Energy+supply+and+demand",
           "match_score": 41
         },
         {
@@ -195,53 +195,7 @@
           "match_score": 40
         }
       ],
-      "updated_at": "2026-08-17T11:45:40.195429+00:00"
-    },
-    {
-      "id": "61c58c7f106972af",
-      "title": "爸爸酒后熟睡翻身压住婴儿脑袋",
-      "summary": "近日，浙江温州一名‌父亲‌酒后熟睡时不慎翻身压住婴儿头部，婴儿通过‌剧烈挣扎‌自行脱困。家人表示因父亲工作疲劳导致沉睡，... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%88%B8%E7%88%B8%E9%85%92%E5%90%8E%E7%86%9F%E7%9D%A1%E7%BF%BB%E8%BA%AB%E5%8E%8B%E4%BD%8F%E5%A9%B4%E5%84%BF%E8%84%91%E8%A2%8B&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 13,
-      "hot_index": 6756487,
-      "topic": "城市社会",
-      "score": 90,
-      "recommended_title": "爸爸酒后熟睡翻身压住婴儿脑袋背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/33dd48957cf574a8f01c9933347e0301?x-bce-process=image/resize,m_fill,w_256,h_170",
-      "related_papers": [
-        {
-          "id": "848df817fd235975",
-          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02713-x",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
-          "match_score": 43
-        },
-        {
-          "id": "e28092bb3fedb6f0",
-          "title": "Facilitating megacity electricity decarbonization via grid-interactive demand-side resource management",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76799-4",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Coordinating demand-side resources in urban communities can reduce city-wide electricity power gaps during low-carbon transitions and inform strategies for integrating such resources in megacities.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=2091593560&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76799-4%26doi%3D10.1038/s41467-026-76799-4%26techmeta%3D129%26subjmeta%3D4066,4075,4076,4080,706%26kwrd%3DEnergy+management,Energy+policy,Energy+supply+and+demand",
-          "match_score": 41
-        },
-        {
-          "id": "0715007b10e1c5aa",
-          "title": "Global divergence in urban demographic change and migration patterns",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00447-7",
-          "published_at": "2026-05-26T00:00:00+00:00",
-          "summary": "Evidence on how urban populations change is still limited worldwide. By examining 10,000 cities, this study uncovers uneven patterns in age, sex and migration, underscoring the importance of detailed, city-level data.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00447-7/MediaObjects/44284_2026_447_Fig1_HTML.png?as=webp",
-          "match_score": 40
-        }
-      ],
-      "updated_at": "2026-08-17T11:45:40.201636+00:00"
+      "updated_at": "2026-08-17T12:14:09.926394+00:00"
     },
     {
       "id": "d15c0c52f040f129",
@@ -249,7 +203,7 @@
       "summary": "如今，不少AI短剧出现角色面孔高度雷同，“一套脸谱演百部剧”的诡异现象。对此，红果短剧近日发布公告，明确AI剧角色创作应... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%88%B7%E6%9D%A5%E5%88%B7%E5%8E%BB%E9%83%BD%E6%98%AF%E5%90%8C%E4%B8%80%E5%BC%A0%E8%84%B8+%E5%B9%B3%E5%8F%B0%E5%87%BA%E6%89%8B%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 15,
-      "hot_index": 6564628,
+      "hot_index": 6561405,
       "topic": "人工智能",
       "score": 88,
       "recommended_title": "刷来刷去都是同一张脸 平台出手了刷屏之后：Nature研究正在回答哪些关键问题？",
@@ -273,7 +227,7 @@
           "url": "https://www.nature.com/articles/s41467-026-76744-5",
           "published_at": "2026-08-17T00:00:00+00:00",
           "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1275286716&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1379787508&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
           "match_score": 25
         },
         {
@@ -283,24 +237,24 @@
           "url": "https://www.nature.com/articles/s41467-026-76390-x",
           "published_at": "2026-08-17T00:00:00+00:00",
           "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1704106723&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1690467027&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
           "match_score": 25
         }
       ],
-      "updated_at": "2026-08-17T11:45:40.207629+00:00"
+      "updated_at": "2026-08-17T12:14:09.937014+00:00"
     },
     {
-      "id": "33cb921a4c6de5b2",
-      "title": "名校父母劝692.5分女儿读中本贯通",
-      "summary": "王斯羽中考取得692.5分，凭借这个分数她本可以稳稳进入杨浦高级中学，但她最终选择报考上海港湾学校贯通上海海事大学的物流... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%90%8D%E6%A0%A1%E7%88%B6%E6%AF%8D%E5%8A%9D692.5%E5%88%86%E5%A5%B3%E5%84%BF%E8%AF%BB%E4%B8%AD%E6%9C%AC%E8%B4%AF%E9%80%9A&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 18,
-      "hot_index": 6275688,
+      "id": "61c58c7f106972af",
+      "title": "爸爸酒后熟睡翻身压住婴儿脑袋",
+      "summary": "近日，浙江温州一名‌父亲‌酒后熟睡时不慎翻身压住婴儿头部，婴儿通过‌剧烈挣扎‌自行脱困。家人表示因父亲工作疲劳导致沉睡，... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%88%B8%E7%88%B8%E9%85%92%E5%90%8E%E7%86%9F%E7%9D%A1%E7%BF%BB%E8%BA%AB%E5%8E%8B%E4%BD%8F%E5%A9%B4%E5%84%BF%E8%84%91%E8%A2%8B&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 16,
+      "hot_index": 6465280,
       "topic": "城市社会",
-      "score": 86,
-      "recommended_title": "名校父母劝692.5分女儿读中本贯通背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 87,
+      "recommended_title": "爸爸酒后熟睡翻身压住婴儿脑袋背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/e8ef440b2467f77204d5210685f9b944?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/33dd48957cf574a8f01c9933347e0301?x-bce-process=image/resize,m_fill,w_256,h_170",
       "related_papers": [
         {
           "id": "848df817fd235975",
@@ -319,7 +273,7 @@
           "url": "https://www.nature.com/articles/s41467-026-76799-4",
           "published_at": "2026-08-17T00:00:00+00:00",
           "summary": "Coordinating demand-side resources in urban communities can reduce city-wide electricity power gaps during low-carbon transitions and inform strategies for integrating such resources in megacities.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=2091593560&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76799-4%26doi%3D10.1038/s41467-026-76799-4%26techmeta%3D129%26subjmeta%3D4066,4075,4076,4080,706%26kwrd%3DEnergy+management,Energy+policy,Energy+supply+and+demand",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-867806701&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76799-4%26doi%3D10.1038/s41467-026-76799-4%26techmeta%3D129%26subjmeta%3D4066,4075,4076,4080,706%26kwrd%3DEnergy+management,Energy+policy,Energy+supply+and+demand",
           "match_score": 41
         },
         {
@@ -333,7 +287,7 @@
           "match_score": 40
         }
       ],
-      "updated_at": "2026-08-17T11:45:40.213811+00:00"
+      "updated_at": "2026-08-17T12:14:09.948160+00:00"
     },
     {
       "id": "3b15921a274791ae",
@@ -341,7 +295,7 @@
       "summary": "8月17日，日媒披露，侵华战争期间，日本军医曾将本国患精神疾病的士兵用于疟疾人体实验。1940年，军医让感染疟疾的蚊子叮... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%97%A5%E5%AA%92%E7%BD%95%E8%A7%81%E6%9B%9D%E5%85%89%E6%97%A5%E5%86%9B%E6%8B%BF%E6%9C%AC%E5%9B%BD%E5%A3%AB%E5%85%B5%E5%81%9A%E5%AE%9E%E9%AA%8C&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 21,
-      "hot_index": 5983917,
+      "hot_index": 5993860,
       "topic": "健康医学",
       "score": 83,
       "recommended_title": "日媒罕见曝光日军拿本国士兵做实验为什么值得关注？从Nature研究看真正的科学证据",
@@ -379,158 +333,20 @@
           "match_score": 35
         }
       ],
-      "updated_at": "2026-08-17T11:45:40.220216+00:00"
+      "updated_at": "2026-08-17T12:14:09.959397+00:00"
     },
     {
-      "id": "1aca2afda28b650b",
-      "title": "宇树超人机器人原地跳高约2米",
-      "summary": "8月17日，宇树科技发布新机器人“超人”视频，王兴兴现身“监督”机器人跳高。据介绍，该机器人原地跳高约2米，极限速度达1... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E8%B6%85%E4%BA%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8E%9F%E5%9C%B0%E8%B7%B3%E9%AB%98%E7%BA%A62%E7%B1%B3&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 23,
-      "hot_index": 5790266,
-      "topic": "人工智能",
-      "score": 82,
-      "recommended_title": "宇树超人机器人原地跳高约2米刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/75885145cbb620ed28577f780c77b586?x-bce-process=image/resize,m_fill,w_256,h_170",
-      "related_papers": [
-        {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        },
-        {
-          "id": "e598cf46867215d6",
-          "title": "Decoding the sequence determinants of locus-specific DNA methylation across human tissues",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76744-5",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1275286716&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
-          "match_score": 25
-        },
-        {
-          "id": "b05c89b1d1f3f326",
-          "title": "Generative AI for efficient statistical computation of fluids",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76390-x",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1704106723&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
-          "match_score": 25
-        }
-      ],
-      "updated_at": "2026-08-17T11:45:40.226234+00:00"
-    },
-    {
-      "id": "9bb0159d378ff19b",
-      "title": "外交部发言人点赞“会飞的救生圈”",
-      "summary": "近日，外交部发言人林剑在海外社交平台发视频，点赞杭州“会飞的救生圈”。该设备由AI驱动，可自主导航飞抵落水者身边提供浮力... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%8F%91%E8%A8%80%E4%BA%BA%E7%82%B9%E8%B5%9E%E2%80%9C%E4%BC%9A%E9%A3%9E%E7%9A%84%E6%95%91%E7%94%9F%E5%9C%88%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 31,
-      "hot_index": 5027457,
-      "topic": "人工智能",
-      "score": 75,
-      "recommended_title": "外交部发言人点赞“会飞的救生圈”刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/b7ab29ce835e03dbbea2d7e87091db9a?x-bce-process=image/resize,m_fill,w_256,h_170",
-      "related_papers": [
-        {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        },
-        {
-          "id": "e598cf46867215d6",
-          "title": "Decoding the sequence determinants of locus-specific DNA methylation across human tissues",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76744-5",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1275286716&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
-          "match_score": 25
-        },
-        {
-          "id": "b05c89b1d1f3f326",
-          "title": "Generative AI for efficient statistical computation of fluids",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76390-x",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1704106723&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
-          "match_score": 25
-        }
-      ],
-      "updated_at": "2026-08-17T11:45:40.232251+00:00"
-    },
-    {
-      "id": "bfba0ae7e52ad2a5",
-      "title": "AI短剧公司90%以上不赚钱",
-      "summary": "不久前，“1000部AI漫剧仅1部爆款”话题冲上热搜。业内人士指出，“AI模型所需的词元（Token）成本持续上涨，制作... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=AI%E7%9F%AD%E5%89%A7%E5%85%AC%E5%8F%B890%25%E4%BB%A5%E4%B8%8A%E4%B8%8D%E8%B5%9A%E9%92%B1&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 35,
-      "hot_index": 4640434,
-      "topic": "人工智能",
-      "score": 72,
-      "recommended_title": "AI短剧公司90%以上不赚钱刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/b084399039d31798515a134ace5d04c7?x-bce-process=image/resize,m_fill,w_256,h_170",
-      "related_papers": [
-        {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        },
-        {
-          "id": "e598cf46867215d6",
-          "title": "Decoding the sequence determinants of locus-specific DNA methylation across human tissues",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76744-5",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1275286716&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
-          "match_score": 25
-        },
-        {
-          "id": "b05c89b1d1f3f326",
-          "title": "Generative AI for efficient statistical computation of fluids",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76390-x",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1704106723&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
-          "match_score": 25
-        }
-      ],
-      "updated_at": "2026-08-17T11:45:40.238370+00:00"
-    },
-    {
-      "id": "11a18eec82ce0c6f",
-      "title": "东京上野动物园拆除大熊猫馆",
-      "summary": "据日本广播协会网站8月17日报道，东京上野动物园内曾孕育出大熊猫“香香”（已于2023年返回中国）的大熊猫馆将于17日起... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%9C%E4%BA%AC%E4%B8%8A%E9%87%8E%E5%8A%A8%E7%89%A9%E5%9B%AD%E6%8B%86%E9%99%A4%E5%A4%A7%E7%86%8A%E7%8C%AB%E9%A6%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 42,
-      "hot_index": 3992024,
+      "id": "fef18276f273b61f",
+      "title": "野外钓鱼、露天烧烤有违法风险",
+      "summary": "8月15日，《中华人民共和国生态环境法典》正式施行。专家提醒，在当地政府划定的禁烧时段和区域露天烧烤可能受罚，在饮用水水... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%87%8E%E5%A4%96%E9%92%93%E9%B1%BC%E3%80%81%E9%9C%B2%E5%A4%A9%E7%83%A7%E7%83%A4%E6%9C%89%E8%BF%9D%E6%B3%95%E9%A3%8E%E9%99%A9&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 24,
+      "hot_index": 5711186,
       "topic": "生态生命",
-      "score": 66,
-      "recommended_title": "东京上野动物园拆除大熊猫馆背后的科学问题：Nature研究给出了哪些线索？",
+      "score": 81,
+      "recommended_title": "野外钓鱼、露天烧烤有违法风险背后的科学问题：Nature研究给出了哪些线索？",
       "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释其背后的生态过程和环境意义。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/87992359d43de962f314211846319d28?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/cfce9bd7f8f1d594d18509e0eeca5eb2?x-bce-process=image/resize,m_fill,w_256,h_170",
       "related_papers": [
         {
           "id": "30fe5c469e32a8d8",
@@ -563,10 +379,212 @@
           "match_score": 35
         }
       ],
-      "updated_at": "2026-08-17T11:45:40.244325+00:00"
+      "updated_at": "2026-08-17T12:14:09.970424+00:00"
+    },
+    {
+      "id": "1aca2afda28b650b",
+      "title": "宇树超人机器人原地跳高约2米",
+      "summary": "8月17日，宇树科技发布新机器人“超人”视频，王兴兴现身“监督”机器人跳高。据介绍，该机器人原地跳高约2米，极限速度达1... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E8%B6%85%E4%BA%BA%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%8E%9F%E5%9C%B0%E8%B7%B3%E9%AB%98%E7%BA%A62%E7%B1%B3&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 26,
+      "hot_index": 5525513,
+      "topic": "人工智能",
+      "score": 79,
+      "recommended_title": "宇树超人机器人原地跳高约2米刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/75885145cbb620ed28577f780c77b586?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 32
+        },
+        {
+          "id": "e598cf46867215d6",
+          "title": "Decoding the sequence determinants of locus-specific DNA methylation across human tissues",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76744-5",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1379787508&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
+          "match_score": 25
+        },
+        {
+          "id": "b05c89b1d1f3f326",
+          "title": "Generative AI for efficient statistical computation of fluids",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76390-x",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1690467027&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
+          "match_score": 25
+        }
+      ],
+      "updated_at": "2026-08-17T12:14:09.980945+00:00"
+    },
+    {
+      "id": "bfba0ae7e52ad2a5",
+      "title": "AI短剧公司90%以上不赚钱",
+      "summary": "不久前，“1000部AI漫剧仅1部爆款”话题冲上热搜。业内人士指出，“AI模型所需的词元（Token）成本持续上涨，制作... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=AI%E7%9F%AD%E5%89%A7%E5%85%AC%E5%8F%B890%25%E4%BB%A5%E4%B8%8A%E4%B8%8D%E8%B5%9A%E9%92%B1&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 33,
+      "hot_index": 4837150,
+      "topic": "人工智能",
+      "score": 74,
+      "recommended_title": "AI短剧公司90%以上不赚钱刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/b084399039d31798515a134ace5d04c7?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 32
+        },
+        {
+          "id": "e598cf46867215d6",
+          "title": "Decoding the sequence determinants of locus-specific DNA methylation across human tissues",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76744-5",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1379787508&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
+          "match_score": 25
+        },
+        {
+          "id": "b05c89b1d1f3f326",
+          "title": "Generative AI for efficient statistical computation of fluids",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76390-x",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1690467027&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
+          "match_score": 25
+        }
+      ],
+      "updated_at": "2026-08-17T12:14:09.991658+00:00"
+    },
+    {
+      "id": "9bb0159d378ff19b",
+      "title": "外交部发言人点赞“会飞的救生圈”",
+      "summary": "近日，外交部发言人林剑在海外社交平台发视频，点赞杭州“会飞的救生圈”。该设备由AI驱动，可自主导航飞抵落水者身边提供浮力... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%8F%91%E8%A8%80%E4%BA%BA%E7%82%B9%E8%B5%9E%E2%80%9C%E4%BC%9A%E9%A3%9E%E7%9A%84%E6%95%91%E7%94%9F%E5%9C%88%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 36,
+      "hot_index": 4554202,
+      "topic": "人工智能",
+      "score": 71,
+      "recommended_title": "外交部发言人点赞“会飞的救生圈”刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/b7ab29ce835e03dbbea2d7e87091db9a?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 32
+        },
+        {
+          "id": "e598cf46867215d6",
+          "title": "Decoding the sequence determinants of locus-specific DNA methylation across human tissues",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76744-5",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Here, the authors use genomic sequence to predict locus-specific DNA methylation across 39 human tissues with the deep learning model Melody. Their approach outperforms existing methods and extends to previously unseen cell types using transcriptomic data.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1379787508&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76744-5%26doi%3D10.1038/s41467-026-76744-5%26subjmeta%3D114,1305,2397,631%26kwrd%3DComputational+models,Machine+learning",
+          "match_score": 25
+        },
+        {
+          "id": "b05c89b1d1f3f326",
+          "title": "Generative AI for efficient statistical computation of fluids",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76390-x",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Turbulent fluid dynamics pose a formidable computational challenge: chaotic, multiscale Navier–Stokes solutions require large ensembles for reliable statistical estimates, making direct numerical simulation intractable for many high–Reynolds-number problems. This work demonstr...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1690467027&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76390-x%26doi%3D10.1038/s41467-026-76390-x%26subjmeta%3D1041,1042,639,705%26kwrd%3DApplied+mathematics,Computational+science",
+          "match_score": 25
+        }
+      ],
+      "updated_at": "2026-08-17T12:14:10.002389+00:00"
+    },
+    {
+      "id": "614cff2699cd5891",
+      "title": "儿童在商场被开水烫伤 商场一度推诿",
+      "summary": "近日，成都市民杨女士（化名）反映，4岁小孩在商场被工作人员端着的滚烫开水烫伤面部及颈部。事发后，商场一度将事故归为员工个... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%84%BF%E7%AB%A5%E5%9C%A8%E5%95%86%E5%9C%BA%E8%A2%AB%E5%BC%80%E6%B0%B4%E7%83%AB%E4%BC%A4+%E5%95%86%E5%9C%BA%E4%B8%80%E5%BA%A6%E6%8E%A8%E8%AF%BF&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 51,
+      "hot_index": 3130665,
+      "topic": "城市社会",
+      "score": 62,
+      "recommended_title": "儿童在商场被开水烫伤 商场一度推诿背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/f5f32687c8946e0c61c68d155f019721?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "e28092bb3fedb6f0",
+          "title": "Facilitating megacity electricity decarbonization via grid-interactive demand-side resource management",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76799-4",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Coordinating demand-side resources in urban communities can reduce city-wide electricity power gaps during low-carbon transitions and inform strategies for integrating such resources in megacities.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-867806701&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76799-4%26doi%3D10.1038/s41467-026-76799-4%26techmeta%3D129%26subjmeta%3D4066,4075,4076,4080,706%26kwrd%3DEnergy+management,Energy+policy,Energy+supply+and+demand",
+          "match_score": 41
+        },
+        {
+          "id": "0715007b10e1c5aa",
+          "title": "Global divergence in urban demographic change and migration patterns",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00447-7",
+          "published_at": "2026-05-26T00:00:00+00:00",
+          "summary": "Evidence on how urban populations change is still limited worldwide. By examining 10,000 cities, this study uncovers uneven patterns in age, sex and migration, underscoring the importance of detailed, city-level data.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00447-7/MediaObjects/44284_2026_447_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        }
+      ],
+      "updated_at": "2026-08-17T12:14:10.013145+00:00"
     }
   ],
   "items": [
+    {
+      "id": "e08d4f88961663d2",
+      "title": "王立平：从手术台到实验室，破解本能行为的密码",
+      "display_title": "王立平：从手术台到实验室，破解本能行为的密码",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/8/569921.shtm",
+      "published_at": "2026-08-17T12:13:36.569410+00:00",
+      "detected_at": "2026-08-17T12:13:36.569416+00:00",
+      "summary": "科学网-王立平：从手术台到实验室，破解本能行为的密码",
+      "image_url": "http://rmtzx.sciencenet.cn/kxwsprint/5D130D078568B22DFDF58E1830A4F11D.png",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "eb7de992901b4367",
       "title": "#10 CodeBuddy全系产品升级至DeepSeek-V4-Pro正式版",
@@ -758,6 +776,24 @@
       "detected_at": "2026-08-17T08:26:22.860479+00:00",
       "summary": "The global food security crisis highlights the urgent need to improve rice yield and quality. Oryza rufipogon, the wild progenitor of cultivated rice, offers valuable genetic diversity, yet its genome remains underexplored. We conducted whole-genome resequencing (WGS) of 144 O...",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07727-w/MediaObjects/41597_2026_7727_Fig1_HTML.png?as=webp",
+      "image_method": "body",
+      "image_rule_version": 8,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "164a07a0e33a90f3",
+      "title": "Multimodal Benchmark for Safety Assessment in Industrial Inspection Scenarios",
+      "display_title": "Multimodal Benchmark for Safety Assessment in Industrial Inspection Scenarios",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07796-x",
+      "published_at": "2026-08-17T00:00:00+00:00",
+      "detected_at": "2026-08-17T12:13:46.806624+00:00",
+      "summary": "With the rapid development of industrial intelligence and unmanned inspection, reliable perception and safety assessment for AI systems in complex and dynamic industrial sites has become a key bottleneck for deploying predictive maintenance and autonomous inspection. Most publ...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07796-x/MediaObjects/41597_2026_7796_Fig1_HTML.png?as=webp",
       "image_method": "body",
       "image_rule_version": 8,
       "priority": "A",
@@ -1327,7 +1363,7 @@
       "published_at": "2026-08-13T00:00:00+00:00",
       "detected_at": "2026-08-14T07:45:28.220929+00:00",
       "summary": "A significant gap exists between evidence-based acupuncture guidelines and clinical practice, with accessibility barriers and implementation difficulties being key contributing factors. To address this challenge, we constructed an Acupuncture Clinical Practice Guidelines (Acu-...",
-      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=1063873984&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08112-3%26doi%3D10.1038/s41597-026-08112-3%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
+      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=1576217692&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08112-3%26doi%3D10.1038/s41597-026-08112-3%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
       "priority": "A",
       "language": "en",
       "is_breakthrough": false,
@@ -1352,7 +1388,7 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {
-        "stars": 34,
+        "stars": 35,
         "language": "Python"
       }
     },
@@ -1441,7 +1477,7 @@
       "priority": "B",
       "language": "en",
       "meta": {
-        "stars": 129,
+        "stars": 131,
         "language": "Python"
       },
       "is_breakthrough": false,
@@ -1767,7 +1803,7 @@
       "summary": "AdNova：面向海外游戏投放团队的广告经营智能分析平台",
       "priority": "C",
       "meta": {
-        "stars": 84,
+        "stars": 85,
         "language": "Go"
       },
       "is_breakthrough": false,
@@ -2043,7 +2079,7 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {
-        "stars": 225,
+        "stars": 228,
         "language": "Go"
       }
     },
@@ -2058,7 +2094,7 @@
       "summary": "Comp AI CRM is an open source, CRM designed for AI agents. Agentic-first CRM.",
       "priority": "A",
       "meta": {
-        "stars": 8536,
+        "stars": 8538,
         "language": "TypeScript"
       },
       "display_title": "crm：Comp AI CRM is an open source, CRM designed for AI agents",
