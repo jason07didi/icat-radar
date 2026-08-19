@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-19T12:15:45.362234+00:00",
+  "updated_at": "2026-08-19T13:15:48.171869+00:00",
   "count": 121,
-  "hotspot_count": 11,
+  "hotspot_count": 12,
   "breakthrough_count": 19,
   "category_counts": {
     "AI变现": 20,
@@ -14,14 +14,60 @@
   },
   "hotspots": [
     {
+      "id": "02a096aad4ebde75",
+      "title": "公积金新政来了 有哪些利好",
+      "summary": "新版《住房公积金管理条例》将于2026年9月20日起施行。这项涉及1.76亿缴存人、10.9万亿元资金的制度变革，到底改... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86+%E6%9C%89%E5%93%AA%E4%BA%9B%E5%88%A9%E5%A5%BD&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 4,
+      "hot_index": 7618170,
+      "topic": "城市社会",
+      "score": 97,
+      "recommended_title": "公积金新政来了 有哪些利好背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/0d807225e2ac47f4d7e5f4ac5d214950?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig2_HTML.png?as=webp",
+          "match_score": 36
+        }
+      ],
+      "updated_at": "2026-08-19T13:15:45.883356+00:00"
+    },
+    {
       "id": "2dee67937f3266e7",
       "title": "“价格屠夫”梁文锋“收刀”",
       "summary": "8月17日，DeepSeek的最新涨价方案正式落地。事实上，在此次涨价之前，DeepSeek一直被外界视为大模型行业的“... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%BB%B7%E6%A0%BC%E5%B1%A0%E5%A4%AB%E2%80%9D%E6%A2%81%E6%96%87%E9%94%8B%E2%80%9C%E6%94%B6%E5%88%80%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 5,
-      "hot_index": 7523384,
+      "rank": 10,
+      "hot_index": 7041382,
       "topic": "人工智能",
-      "score": 96,
+      "score": 92,
       "recommended_title": "“价格屠夫”梁文锋“收刀”刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
       "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/63939a381c611611481cfc3cba5e8999?x-bce-process=image/resize,m_fill,w_256,h_170",
@@ -43,7 +89,7 @@
           "url": "https://www.nature.com/articles/s41597-026-08075-5",
           "published_at": "2026-08-18T00:00:00+00:00",
           "summary": "This paper presents the mAIEnergy dataset, an open-access, multimodal corpus developed to support Large Language Model (LLM) applications in the energy sector. The dataset integrates approximately 50,000 textual documents, 20,000 images, 25 million numerical time series record...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-2011165756&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08075-5%26doi%3D10.1038/s41597-026-08075-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-1575583428&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08075-5%26doi%3D10.1038/s41597-026-08075-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
           "match_score": 31
         },
         {
@@ -57,53 +103,7 @@
           "match_score": 29
         }
       ],
-      "updated_at": "2026-08-19T12:15:43.235452+00:00"
-    },
-    {
-      "id": "633668ec4f0e80a1",
-      "title": "宇树科技上市庆功照流出",
-      "summary": "8月19日，“A股人形机器人第一股”宇树科技正式在科创板挂牌上市。上市后，宇树科技举办答谢午宴。据了解，宇树科技董事长王... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E4%B8%8A%E5%B8%82%E5%BA%86%E5%8A%9F%E7%85%A7%E6%B5%81%E5%87%BA&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 10,
-      "hot_index": 7040938,
-      "topic": "人工智能",
-      "score": 92,
-      "recommended_title": "宇树科技上市庆功照流出刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/a51fc0673a54a197b83a374b732bf897?x-bce-process=image/resize,m_fill,w_256,h_170",
-      "related_papers": [
-        {
-          "id": "cf5558d53af50b86",
-          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04601-5",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "7b59abc9712411da",
-          "title": "A Multimodal Dataset for Large Language Model Applications in the Energy Domain",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08075-5",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "This paper presents the mAIEnergy dataset, an open-access, multimodal corpus developed to support Large Language Model (LLM) applications in the energy sector. The dataset integrates approximately 50,000 textual documents, 20,000 images, 25 million numerical time series record...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-2011165756&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08075-5%26doi%3D10.1038/s41597-026-08075-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
-          "match_score": 31
-        },
-        {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 29
-        }
-      ],
-      "updated_at": "2026-08-19T12:15:43.241411+00:00"
+      "updated_at": "2026-08-19T13:15:45.892616+00:00"
     },
     {
       "id": "97763a3919ec1eba",
@@ -111,7 +111,7 @@
       "summary": "近日，有网民称：“台风将风力发电机桨叶吹掉”，引发关注。经当地部门核实，系风电场自行拆除风机，并非台风吹落桨叶，网传内容... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8F%B0%E9%A3%8E%E5%90%B9%E8%90%BD%E9%A3%8E%E5%8A%9B%E5%8F%91%E7%94%B5%E6%9C%BA%E7%9A%84%E6%A1%A8%E5%8F%B6%E2%80%9D%E4%B8%8D%E5%AE%9E&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 12,
-      "hot_index": 6847335,
+      "hot_index": 6855543,
       "topic": "气候环境",
       "score": 90,
       "recommended_title": "“台风吹落风力发电机的桨叶”不实背后：Nature研究揭示了怎样的风险链条？",
@@ -149,17 +149,17 @@
           "match_score": 27
         }
       ],
-      "updated_at": "2026-08-19T12:15:43.247547+00:00"
+      "updated_at": "2026-08-19T13:15:45.902156+00:00"
     },
     {
       "id": "d3f599628d513d18",
       "title": "暴雨后大爷拿鱼叉抓鱼叉中十斤大鱼",
       "summary": "近日，安徽滁州，暴雨后河道发洪水，一位大爷拿鱼叉刚到河边就精准叉中一条十斤米级翘嘴。拍摄者称，这是在水库上游河道，下大雨... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%9A%B4%E9%9B%A8%E5%90%8E%E5%A4%A7%E7%88%B7%E6%8B%BF%E9%B1%BC%E5%8F%89%E6%8A%93%E9%B1%BC%E5%8F%89%E4%B8%AD%E5%8D%81%E6%96%A4%E5%A4%A7%E9%B1%BC&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 15,
-      "hot_index": 6562343,
+      "rank": 14,
+      "hot_index": 6668304,
       "topic": "气候环境",
-      "score": 88,
+      "score": 89,
       "recommended_title": "暴雨后大爷拿鱼叉抓鱼叉中十斤大鱼背后：Nature研究揭示了怎样的风险链条？",
       "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释极端事件形成机制、风险变化和长期趋势。",
       "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/e6b8fbb0673020f892fe9bd0c3d1a3e9?x-bce-process=image/resize,m_fill,w_256,h_170",
@@ -195,20 +195,66 @@
           "match_score": 27
         }
       ],
-      "updated_at": "2026-08-19T12:15:43.253720+00:00"
+      "updated_at": "2026-08-19T13:15:45.911691+00:00"
     },
     {
-      "id": "461b7db69758599b",
-      "title": "涉王星案17名嫌疑人被公诉",
-      "summary": "近日，上海市人民检察院第二分院经依法审查，对盘踞缅甸妙瓦底地区，以出卖人口为目的，以出国务工为诱饵，诱骗中国境内公民王某... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%B6%89%E7%8E%8B%E6%98%9F%E6%A1%8817%E5%90%8D%E5%AB%8C%E7%96%91%E4%BA%BA%E8%A2%AB%E5%85%AC%E8%AF%89&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 16,
-      "hot_index": 6477294,
+      "id": "7b8ace4f88665fdc",
+      "title": "“如果是真人剧 十几万开机都别想”",
+      "summary": "近日，AI剧《被裁掉的女孩》爆火，导演菲菲飞在采访中透露第一季制作花了十几万，“如果是真人剧，十几万开机都别想”，并表示... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A6%82%E6%9E%9C%E6%98%AF%E7%9C%9F%E4%BA%BA%E5%89%A7+%E5%8D%81%E5%87%A0%E4%B8%87%E5%BC%80%E6%9C%BA%E9%83%BD%E5%88%AB%E6%83%B3%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 29,
+      "hot_index": 5235252,
+      "topic": "人工智能",
+      "score": 77,
+      "recommended_title": "“如果是真人剧 十几万开机都别想”刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/79dab6f082aa071785ae9b3d4405b533?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "cf5558d53af50b86",
+          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04601-5",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "7b59abc9712411da",
+          "title": "A Multimodal Dataset for Large Language Model Applications in the Energy Domain",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08075-5",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "This paper presents the mAIEnergy dataset, an open-access, multimodal corpus developed to support Large Language Model (LLM) applications in the energy sector. The dataset integrates approximately 50,000 textual documents, 20,000 images, 25 million numerical time series record...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-1575583428&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08075-5%26doi%3D10.1038/s41597-026-08075-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
+          "match_score": 31
+        },
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 29
+        }
+      ],
+      "updated_at": "2026-08-19T13:15:45.920906+00:00"
+    },
+    {
+      "id": "c54f0e76d5db12f7",
+      "title": "公积金改革大潮",
+      "summary": "8月18日，国务院公布《国务院关于修改〈住房公积金管理条例〉的决定》，对《住房公积金管理条例》作出20处修改。根据中指研... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E7%A7%AF%E9%87%91%E6%94%B9%E9%9D%A9%E5%A4%A7%E6%BD%AE&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 31,
+      "hot_index": 5024141,
       "topic": "城市社会",
-      "score": 87,
-      "recommended_title": "涉王星案17名嫌疑人被公诉背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 75,
+      "recommended_title": "公积金改革大潮背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/0a747868a303f2f46a2af24d34813a98?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/323c0148cf1cb91362261bccd0e914b2?x-bce-process=image/resize,m_fill,w_256,h_170",
       "related_papers": [
         {
           "id": "848df817fd235975",
@@ -241,17 +287,17 @@
           "match_score": 36
         }
       ],
-      "updated_at": "2026-08-19T12:15:43.259854+00:00"
+      "updated_at": "2026-08-19T13:15:45.930394+00:00"
     },
     {
       "id": "c52b296b70d1c859",
       "title": "石家庄坍塌事发地仍有人失联被困",
       "summary": "8月19日5时42分，河北石家庄新华区一居民楼发生部分坍塌。据相关工作人员介绍，楼房一共四层，为老式的砖石楼，现已救出两... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%9D%8D%E5%A1%8C%E4%BA%8B%E5%8F%91%E5%9C%B0%E4%BB%8D%E6%9C%89%E4%BA%BA%E5%A4%B1%E8%81%94%E8%A2%AB%E5%9B%B0&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 24,
-      "hot_index": 5703290,
+      "rank": 33,
+      "hot_index": 4839747,
       "topic": "城市社会",
-      "score": 81,
+      "score": 74,
       "recommended_title": "石家庄坍塌事发地仍有人失联被困背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/9391226de69a88b954295e040beb7051?x-bce-process=image/resize,m_fill,w_256,h_170",
@@ -287,17 +333,63 @@
           "match_score": 36
         }
       ],
-      "updated_at": "2026-08-19T12:15:43.266051+00:00"
+      "updated_at": "2026-08-19T13:15:45.939905+00:00"
+    },
+    {
+      "id": "b749c03578e661ca",
+      "title": "10万亿公积金“松绑”",
+      "summary": "8月18日，国务院公布《关于修改〈住房公积金管理条例〉的决定》，自2026年9月20日起施行。根据《全国住房公积金202... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=10%E4%B8%87%E4%BA%BF%E5%85%AC%E7%A7%AF%E9%87%91%E2%80%9C%E6%9D%BE%E7%BB%91%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 35,
+      "hot_index": 4640574,
+      "topic": "城市社会",
+      "score": 72,
+      "recommended_title": "10万亿公积金“松绑”背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/5fb946885c3a821f7df8aeb72bbcf7a3?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig2_HTML.png?as=webp",
+          "match_score": 36
+        }
+      ],
+      "updated_at": "2026-08-19T13:15:45.949508+00:00"
     },
     {
       "id": "c16abae02bcfdef5",
       "title": "集中供冷来了 何时能用上",
       "summary": "今年7月，国务院印发《“十五五”碳达峰行动方案》，提出加快供热、制冷系统绿色低碳转型。何时能用上集中供冷？中国城市规划学... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E9%9B%86%E4%B8%AD%E4%BE%9B%E5%86%B7%E6%9D%A5%E4%BA%86+%E4%BD%95%E6%97%B6%E8%83%BD%E7%94%A8%E4%B8%8A&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 33,
-      "hot_index": 4837547,
+      "rank": 41,
+      "hot_index": 4095281,
       "topic": "城市社会",
-      "score": 74,
+      "score": 67,
       "recommended_title": "集中供冷来了 何时能用上背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/3f13666b1259bee21a2880c10126bd07?x-bce-process=image/resize,m_fill,w_256,h_170",
@@ -333,155 +425,17 @@
           "match_score": 36
         }
       ],
-      "updated_at": "2026-08-19T12:15:43.272154+00:00"
-    },
-    {
-      "id": "02a096aad4ebde75",
-      "title": "公积金新政来了 有哪些利好",
-      "summary": "新版《住房公积金管理条例》将于2026年9月20日起施行。这项涉及1.76亿缴存人、10.9万亿元资金的制度变革，到底改... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86+%E6%9C%89%E5%93%AA%E4%BA%9B%E5%88%A9%E5%A5%BD&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 37,
-      "hot_index": 4480818,
-      "topic": "城市社会",
-      "score": 70,
-      "recommended_title": "公积金新政来了 有哪些利好背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/0d807225e2ac47f4d7e5f4ac5d214950?x-bce-process=image/resize,m_fill,w_256,h_170",
-      "related_papers": [
-        {
-          "id": "848df817fd235975",
-          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02713-x",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
-          "match_score": 43
-        },
-        {
-          "id": "375dc94e6b81abc6",
-          "title": "Connecting application behavior to undermatching in New York City school choice",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00486-0",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig2_HTML.png?as=webp",
-          "match_score": 36
-        }
-      ],
-      "updated_at": "2026-08-19T12:15:43.278234+00:00"
-    },
-    {
-      "id": "7b8ace4f88665fdc",
-      "title": "“如果是真人剧 十几万开机都别想”",
-      "summary": "近日，AI剧《被裁掉的女孩》爆火，导演菲菲飞在采访中透露第一季制作花了十几万，“如果是真人剧，十几万开机都别想”，并表示... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%A6%82%E6%9E%9C%E6%98%AF%E7%9C%9F%E4%BA%BA%E5%89%A7+%E5%8D%81%E5%87%A0%E4%B8%87%E5%BC%80%E6%9C%BA%E9%83%BD%E5%88%AB%E6%83%B3%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 38,
-      "hot_index": 4381319,
-      "topic": "人工智能",
-      "score": 70,
-      "recommended_title": "“如果是真人剧 十几万开机都别想”刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/79dab6f082aa071785ae9b3d4405b533?x-bce-process=image/resize,m_fill,w_256,h_170",
-      "related_papers": [
-        {
-          "id": "cf5558d53af50b86",
-          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04601-5",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "7b59abc9712411da",
-          "title": "A Multimodal Dataset for Large Language Model Applications in the Energy Domain",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08075-5",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "This paper presents the mAIEnergy dataset, an open-access, multimodal corpus developed to support Large Language Model (LLM) applications in the energy sector. The dataset integrates approximately 50,000 textual documents, 20,000 images, 25 million numerical time series record...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-2011165756&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08075-5%26doi%3D10.1038/s41597-026-08075-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
-          "match_score": 31
-        },
-        {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 29
-        }
-      ],
-      "updated_at": "2026-08-19T12:15:43.284290+00:00"
-    },
-    {
-      "id": "31e0381bfba37abc",
-      "title": "王兴兴披红围巾现身宇树上市仪式",
-      "summary": "8月19日上午，“人形机器人第一股”宇树科技敲钟上市，记者实探上海证券大厦，大屏幕播放宇树科技产品视频，创始人王兴兴披红... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E5%85%B4%E5%85%B4%E6%8A%AB%E7%BA%A2%E5%9B%B4%E5%B7%BE%E7%8E%B0%E8%BA%AB%E5%AE%87%E6%A0%91%E4%B8%8A%E5%B8%82%E4%BB%AA%E5%BC%8F&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 47,
-      "hot_index": 3523783,
-      "topic": "人工智能",
-      "score": 63,
-      "recommended_title": "王兴兴披红围巾现身宇树上市仪式刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
-      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/243c7b0d05378090935ce560a6336270?x-bce-process=image/resize,m_fill,w_256,h_170",
-      "related_papers": [
-        {
-          "id": "cf5558d53af50b86",
-          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04601-5",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "7b59abc9712411da",
-          "title": "A Multimodal Dataset for Large Language Model Applications in the Energy Domain",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08075-5",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "This paper presents the mAIEnergy dataset, an open-access, multimodal corpus developed to support Large Language Model (LLM) applications in the energy sector. The dataset integrates approximately 50,000 textual documents, 20,000 images, 25 million numerical time series record...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-2011165756&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08075-5%26doi%3D10.1038/s41597-026-08075-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
-          "match_score": 31
-        },
-        {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 29
-        }
-      ],
-      "updated_at": "2026-08-19T12:15:43.290283+00:00"
+      "updated_at": "2026-08-19T13:15:45.959005+00:00"
     },
     {
       "id": "8f78871a2fe00740",
       "title": "《人民日报》刊文：“两个80%”的警示",
       "summary": "某市警示教育室墙上的一段话引人深思：近年来，我市查处的县处级领导干部各类腐败案件中，80%的跟其主要亲戚直接有关，特别是... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E3%80%8A%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E3%80%8B%E5%88%8A%E6%96%87%EF%BC%9A%E2%80%9C%E4%B8%A4%E4%B8%AA80%25%E2%80%9D%E7%9A%84%E8%AD%A6%E7%A4%BA&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 50,
-      "hot_index": 3224108,
+      "rank": 43,
+      "hot_index": 3882901,
       "topic": "城市社会",
-      "score": 63,
+      "score": 65,
       "recommended_title": "《人民日报》刊文：“两个80%”的警示背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/786f0147dfa832598aa414e74bc1376b?x-bce-process=image/resize,m_fill,w_256,h_170",
@@ -517,7 +471,99 @@
           "match_score": 36
         }
       ],
-      "updated_at": "2026-08-19T12:15:43.296636+00:00"
+      "updated_at": "2026-08-19T13:15:45.968466+00:00"
+    },
+    {
+      "id": "461b7db69758599b",
+      "title": "涉王星案17名嫌疑人被公诉",
+      "summary": "近日，上海市人民检察院第二分院经依法审查，对盘踞缅甸妙瓦底地区，以出卖人口为目的，以出国务工为诱饵，诱骗中国境内公民王某... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%B6%89%E7%8E%8B%E6%98%9F%E6%A1%8817%E5%90%8D%E5%AB%8C%E7%96%91%E4%BA%BA%E8%A2%AB%E5%85%AC%E8%AF%89&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 44,
+      "hot_index": 3811116,
+      "topic": "城市社会",
+      "score": 65,
+      "recommended_title": "涉王星案17名嫌疑人被公诉背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/0a747868a303f2f46a2af24d34813a98?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig2_HTML.png?as=webp",
+          "match_score": 36
+        }
+      ],
+      "updated_at": "2026-08-19T13:15:45.977944+00:00"
+    },
+    {
+      "id": "6aa0d34061a6ff1a",
+      "title": "人形机器人举重怎么判",
+      "summary": "人形机器人举重是第二届世界人形机器人运动会全新增设的竞技赛项之一。8月19日上午，赛事裁判团队首次面向媒体系统解读了举重... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%BE%E9%87%8D%E6%80%8E%E4%B9%88%E5%88%A4&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 48,
+      "hot_index": 3388853,
+      "topic": "人工智能",
+      "score": 63,
+      "recommended_title": "人形机器人举重怎么判刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从热点事件切入，讨论AI技术真正发生了什么变化，再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
+      "image_url": "https://fyb-2.cdn.bcebos.com/hotboard_image/2f162128773db3acd91da59d0e7d97d7?x-bce-process=image/resize,m_fill,w_256,h_170",
+      "related_papers": [
+        {
+          "id": "cf5558d53af50b86",
+          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04601-5",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "7b59abc9712411da",
+          "title": "A Multimodal Dataset for Large Language Model Applications in the Energy Domain",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08075-5",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "This paper presents the mAIEnergy dataset, an open-access, multimodal corpus developed to support Large Language Model (LLM) applications in the energy sector. The dataset integrates approximately 50,000 textual documents, 20,000 images, 25 million numerical time series record...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-1575583428&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08075-5%26doi%3D10.1038/s41597-026-08075-5%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
+          "match_score": 31
+        },
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 29
+        }
+      ],
+      "updated_at": "2026-08-19T13:15:45.987109+00:00"
     }
   ],
   "items": [
@@ -1429,7 +1475,7 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {
-        "stars": 88,
+        "stars": 89,
         "language": "Python"
       }
     },
@@ -1656,7 +1702,7 @@
       "priority": "B",
       "language": "en",
       "meta": {
-        "stars": 147,
+        "stars": 148,
         "language": "Python"
       },
       "is_breakthrough": false,
@@ -2045,7 +2091,7 @@
       "summary": "Contribute to Yu-xm/Awesome-Agentic-Gen development by creating an account on GitHub.",
       "priority": "C",
       "meta": {
-        "stars": 49,
+        "stars": 50,
         "language": null
       },
       "is_breakthrough": false,
@@ -2135,7 +2181,7 @@
       "language": "en",
       "is_breakthrough": false,
       "meta": {
-        "stars": 631,
+        "stars": 633,
         "language": "JavaScript"
       }
     },
