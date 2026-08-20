@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-20T04:57:33.294282+00:00",
-  "count": 110,
-  "hotspot_count": 12,
+  "updated_at": "2026-08-20T05:50:44.633593+00:00",
+  "count": 111,
+  "hotspot_count": 11,
   "breakthrough_count": 38,
   "category_counts": {
-    "AI变现": 37,
+    "AI变现": 38,
     "提效工具": 15,
     "前沿动态": 20
   },
@@ -14,12 +14,69 @@
   },
   "hotspots": [
     {
+      "id": "793dd45b2a8c32b5",
+      "title": "小米扫拖机器人避障不灵撞坏百万家具",
+      "summary": "近日，上海邸女士因一台小米扫拖机器人5Pro的避障故障，将小米及电商平台诉至法院，其避障不灵，撞击划伤价值百万元进口家具... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%89%AB%E6%8B%96%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%81%BF%E9%9A%9C%E4%B8%8D%E7%81%B5%E6%92%9E%E5%9D%8F%E7%99%BE%E4%B8%87%E5%AE%B6%E5%85%B7&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 8,
+      "hot_index": 5311185,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 8,
+        "百度热搜": 28
+      },
+      "topic": "人工智能",
+      "score": 98,
+      "recommended_title": "小米扫拖机器人避障不灵撞坏百万家具刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-583550055&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
+      "main_paper_url": "https://www.nature.com/articles/s41467-026-76837-1",
+      "main_paper_title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
+      "related_papers": [
+        {
+          "id": "5c5773fcb3834327",
+          "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76837-1",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "Here authors show patient-derived neural models of childhood dementia exhibit key disease features. A drug screening platform integrating machine learning, imaging, transcriptomics and electrophysiology, identifies repurposed compounds that mitigate adverse effects.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-583550055&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
+          "match_score": 39
+        },
+        {
+          "id": "cf5558d53af50b86",
+          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04601-5",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 29
+        }
+      ],
+      "updated_at": "2026-08-20T05:50:35.875060+00:00"
+    },
+    {
       "id": "96c9a809b14aa39c",
       "title": "这份五年规划 事关参保、就医、购药",
       "summary": "《全民医疗保障“十五五”规划》19日正式发布，擘画了未来5年医保事业发展的蓝图。这份规划里，除了对制度框架的宏观铺排、改... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E8%BF%99%E4%BB%BD%E4%BA%94%E5%B9%B4%E8%A7%84%E5%88%92+%E4%BA%8B%E5%85%B3%E5%8F%82%E4%BF%9D%E3%80%81%E5%B0%B1%E5%8C%BB%E3%80%81%E8%B4%AD%E8%8D%AF&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 4,
-      "hot_index": 7617284,
+      "hot_index": 7617668,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -56,25 +113,25 @@
           "match_score": 35
         },
         {
-          "id": "5c5773fcb3834327",
-          "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76837-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Here authors show patient-derived neural models of childhood dementia exhibit key disease features. A drug screening platform integrating machine learning, imaging, transcriptomics and electrophysiology, identifies repurposed compounds that mitigate adverse effects.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1017107893&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
-          "match_score": 33
+          "id": "27d685119fd86e4e",
+          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04564-7",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
+          "match_score": 32
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.165787+00:00"
+      "updated_at": "2026-08-20T05:50:35.872296+00:00"
     },
     {
-      "id": "4f4e467d866db481",
-      "title": "电解质水为何成了香饽饽",
-      "summary": "近日，电解质水因从小众走向大众并呈现“水替”趋势，成为水饮企业必争之地。元气森林、东鹏等老玩家占据主要份额，农夫山泉、蒙... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E8%A7%A3%E8%B4%A8%E6%B0%B4%E4%B8%BA%E4%BD%95%E6%88%90%E4%BA%86%E9%A6%99%E9%A5%BD%E9%A5%BD&sa=fyb_news&rsv_dl=fyb_news",
+      "id": "e13ee41199d0e9c4",
+      "title": "宇树上市第2天 王兴兴最新发声",
+      "summary": "8月20日，宇树科技上市第2天，创始人王兴兴现身2026世界机器人大会并发表演讲。他表示，人形机器人当前最大瓶颈是具身智... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%87%E6%A0%91%E4%B8%8A%E5%B8%82%E7%AC%AC2%E5%A4%A9+%E7%8E%8B%E5%85%B4%E5%85%B4%E6%9C%80%E6%96%B0%E5%8F%91%E5%A3%B0&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 6,
-      "hot_index": 7426143,
+      "hot_index": 7423922,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -82,63 +139,63 @@
       "platform_ranks": {
         "百度热搜": 6
       },
-      "topic": "生态生命",
+      "topic": "人工智能",
       "score": 98,
-      "recommended_title": "电解质水为何成了香饽饽背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
+      "recommended_title": "宇树上市第2天 王兴兴最新发声刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04601-5",
+      "main_paper_title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
       "related_papers": [
         {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 37
-        },
-        {
-          "id": "a3a59c8b57e1676f",
-          "title": "Balancing marine species conservation with cost-effective renewable energy development",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02696-9",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "The authors consider the potential conflict between renewable energy development (offshore wind) and wildlife (North Atlantic right whales, Eubalaena glacialis ). They demonstrate a framework to identify trade-offs under different scenarios, maximizing conservation with minima...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02696-9/MediaObjects/41558_2026_2696_Fig1_HTML.png",
+          "id": "cf5558d53af50b86",
+          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04601-5",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
           "match_score": 35
         },
         {
-          "id": "d0687d38edf00bd8",
-          "title": "Failure to track a stable AMOC state under rapid climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02730-w",
-          "published_at": "2026-08-13T00:00:00+00:00",
-          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
-          "match_score": 27
+          "id": "5c5773fcb3834327",
+          "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76837-1",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "Here authors show patient-derived neural models of childhood dementia exhibit key disease features. A drug screening platform integrating machine learning, imaging, transcriptomics and electrophysiology, identifies repurposed compounds that mitigate adverse effects.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-583550055&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
+          "match_score": 39
+        },
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 29
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.167847+00:00"
+      "updated_at": "2026-08-20T05:50:35.873692+00:00"
     },
     {
       "id": "380307edf5e5fd70",
       "title": "北大报到日校园满是扛床垫的爸",
       "summary": "近日，北京大学迎来新生报到日，校园里随处可见给孩子扛床垫的爸爸，“每个人脸上都笑嘻嘻的”。网友纷纷表示：给我一个去北大扛... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%8C%97%E5%A4%A7%E6%8A%A5%E5%88%B0%E6%97%A5%E6%A0%A1%E5%9B%AD%E6%BB%A1%E6%98%AF%E6%89%9B%E5%BA%8A%E5%9E%AB%E7%9A%84%E7%88%B8&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 7,
-      "hot_index": 7327795,
+      "rank": 11,
+      "hot_index": 6948317,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 7
+        "百度热搜": 11
       },
       "topic": "城市社会",
-      "score": 98,
+      "score": 96,
       "recommended_title": "北大报到日校园满是扛床垫的爸背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
@@ -176,117 +233,7 @@
           "match_score": 41
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.172522+00:00"
-    },
-    {
-      "id": "78fe82a61144b0f6",
-      "title": "女童赤裸在医院行走 民政局回应",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E7%AB%A5%E8%B5%A4%E8%A3%B8%E5%9C%A8%E5%8C%BB%E9%99%A2%E8%A1%8C%E8%B5%B0+%E6%B0%91%E6%94%BF%E5%B1%80%E5%9B%9E%E5%BA%94&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 9,
-      "hot_index": 3578994,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 9
-      },
-      "topic": "健康医学",
-      "score": 97,
-      "recommended_title": "女童赤裸在医院行走 民政局回应为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04566-5",
-      "main_paper_title": "Histological aging signatures for monitoring tissue-specific aging and disease",
-      "related_papers": [
-        {
-          "id": "4464a43018ff5e46",
-          "title": "Histological aging signatures for monitoring tissue-specific aging and disease",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04566-5",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Whole-slide histopathological images from 40 tissue types reveal morphological changes associated with aging, which, when paired with transcriptomic data from blood, are used to develop aging clocks that reflect tissue structural integrity and organ-level physiological fitness...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "27d685119fd86e4e",
-          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04564-7",
-          "published_at": "2026-08-12T00:00:00+00:00",
-          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
-          "match_score": 32
-        },
-        {
-          "id": "0050fea59bb7b392",
-          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04537-w",
-          "published_at": "2026-08-11T00:00:00+00:00",
-          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        }
-      ],
-      "updated_at": "2026-08-20T04:57:25.176152+00:00"
-    },
-    {
-      "id": "7d50cc82de72682b",
-      "title": "首个治疗性癌症疫苗",
-      "summary": "8月19日，Moderna与默沙东宣布全球首个成功的mRNA黑色素肿瘤疫苗Ⅲ期研究。该疫苗联合药物用于术后高危黑色素瘤辅... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%A6%96%E4%B8%AA%E6%B2%BB%E7%96%97%E6%80%A7%E7%99%8C%E7%97%87%E7%96%AB%E8%8B%97&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 11,
-      "hot_index": 6953080,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 11
-      },
-      "topic": "健康医学",
-      "score": 96,
-      "recommended_title": "首个治疗性癌症疫苗为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1017107893&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
-      "main_paper_url": "https://www.nature.com/articles/s41467-026-76837-1",
-      "main_paper_title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
-      "related_papers": [
-        {
-          "id": "5c5773fcb3834327",
-          "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76837-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Here authors show patient-derived neural models of childhood dementia exhibit key disease features. A drug screening platform integrating machine learning, imaging, transcriptomics and electrophysiology, identifies repurposed compounds that mitigate adverse effects.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1017107893&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
-          "match_score": 33
-        },
-        {
-          "id": "de4957e325ad90ca",
-          "title": "Functional role of skull lymphoid structures in CNS immunosurveillance",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10951-4",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10951-4/MediaObjects/41586_2026_10951_Fig1_HTML.png?as=webp",
-          "match_score": 28
-        },
-        {
-          "id": "8aa7e84ecaeb274f",
-          "title": "Wake-activated neuronal populations that regulate sleep drive",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10928-3",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "Whole-brain activity mapping, targeted cell manipulations and electrophysiology in mice identify wake-activated neuronal populations that are crucial for sleep drive and can persistently reduce daily sleep amount.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10928-3/MediaObjects/41586_2026_10928_Fig1_HTML.png?as=webp",
-          "match_score": 28
-        }
-      ],
-      "updated_at": "2026-08-20T04:57:25.179716+00:00"
+      "updated_at": "2026-08-20T05:50:35.879429+00:00"
     },
     {
       "id": "88b29b7e3da36632",
@@ -294,7 +241,7 @@
       "summary": "近日，网民王某某借台风天气，编造传播群众吃不上饭等谣言，直播造谣牟利吸粉，引发误读，现已被属地公安机关依法行政处罚。 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E5%8F%B0%E9%A3%8E%E5%A4%A9%E7%BC%96%E9%80%A0%E2%80%9C%E6%97%A0%E9%A5%AD%E5%90%83%E2%80%9D%E8%A2%AB%E7%BD%9A&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 12,
-      "hot_index": 6849216,
+      "hot_index": 6858690,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -321,6 +268,16 @@
           "match_score": 27
         },
         {
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
           "id": "f63078bcfbc44dec",
           "title": "Multi-centennial response of marine carbon pumps to global warming",
           "source": "Nature Climate Change",
@@ -329,87 +286,97 @@
           "summary": "Changes in the ocean in response to climate change could impact its ability to function as a carbon sink. This study shows that under high emissions, circulation changes will reduce anthropogenic carbon uptake even as biological storage increases, whereas under low emissions,...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02686-x/MediaObjects/41558_2026_2686_Fig2_HTML.png?as=webp",
           "match_score": 27
-        },
-        {
-          "id": "0a6fdd75e397934b",
-          "title": "Uneven patterns of cross-border media coverage following natural disasters",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02512-6",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Global media gives less cross-border attention to climate-linked hazards (such as floods, storms and droughts) than to geophysical disasters. Attention rises with deaths and is stronger between socially connected countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
-          "match_score": 27
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.181660+00:00"
+      "updated_at": "2026-08-20T05:50:35.881249+00:00"
     },
     {
-      "id": "7de52188fa7bc770",
-      "title": "宝马优惠30万 豪华车加价时代落幕",
-      "summary": "宝马多款车型大幅优惠，部分车型直降30万，BBA、保时捷等豪华品牌普遍终端让利。传统豪车销量下滑，新能源冲击消解品牌溢价... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC%E4%BC%98%E6%83%A030%E4%B8%87+%E8%B1%AA%E5%8D%8E%E8%BD%A6%E5%8A%A0%E4%BB%B7%E6%97%B6%E4%BB%A3%E8%90%BD%E5%B9%95&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 18,
-      "hot_index": 6274352,
+      "id": "7d50cc82de72682b",
+      "title": "首个治疗性癌症疫苗",
+      "summary": "8月19日，Moderna与默沙东宣布全球首个成功的mRNA黑色素肿瘤疫苗Ⅲ期研究。该疫苗联合药物用于术后高危黑色素瘤辅... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%A6%96%E4%B8%AA%E6%B2%BB%E7%96%97%E6%80%A7%E7%99%8C%E7%97%87%E7%96%AB%E8%8B%97&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 15,
+      "hot_index": 6566819,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 18
+        "百度热搜": 15
       },
-      "topic": "前沿科技",
-      "score": 84,
-      "recommended_title": "宝马优惠30万 豪华车加价时代落幕意味着什么？Nature研究中的技术路线与现实边界",
-      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10904-x/MediaObjects/41586_2026_10904_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-10904-x",
-      "main_paper_title": "Observation of conformal field theory spectra in a quantum simulator",
+      "topic": "健康医学",
+      "score": 93,
+      "recommended_title": "首个治疗性癌症疫苗为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04566-5",
+      "main_paper_title": "Histological aging signatures for monitoring tissue-specific aging and disease",
       "related_papers": [
         {
-          "id": "e1a716a998a0e4ab",
-          "title": "Observation of conformal field theory spectra in a quantum simulator",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10904-x",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "Measurements on an array of optically trapped neutral atoms at a quantum phase transition provide a direct observation of the universal excitation spectrum predicted by conformal field theory.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10904-x/MediaObjects/41586_2026_10904_Fig2_HTML.png?as=webp",
-          "match_score": 28
+          "id": "4464a43018ff5e46",
+          "title": "Histological aging signatures for monitoring tissue-specific aging and disease",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04566-5",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Whole-slide histopathological images from 40 tissue types reveal morphological changes associated with aging, which, when paired with transcriptomic data from blood, are used to develop aging clocks that reflect tissue structural integrity and organ-level physiological fitness...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
+          "match_score": 35
         },
         {
-          "id": "47e5d4b16a5723ad",
-          "title": "Evidence for vacuum-enhanced superconductivity in NbSe 2",
+          "id": "0050fea59bb7b392",
+          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04537-w",
+          "published_at": "2026-08-11T00:00:00+00:00",
+          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
+          "match_score": 32
+        },
+        {
+          "id": "de4957e325ad90ca",
+          "title": "Functional role of skull lymphoid structures in CNS immunosurveillance",
           "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11037-x",
+          "url": "https://www.nature.com/articles/s41586-026-10951-4",
           "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "Vacuum fluctuations provide an important new way to control material properties noninvasively1-6. Here, we present experimental evidence that they can enhance superconductivity. NbSe2 is a layered transition-metal dichalcogenide with well-characterized superconducting behavior...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature.com/article&sz=728x90&c=1474538610&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41586-026-11037-x%26doi%3D10.1038/s41586-026-11037-x%26techmeta%3D120,126,128,133,140,142,144%26subjmeta%3D1003,1064,1130,1139,119,400,482,483,639,766%26kwrd%3DQuantum+mechanics,Quantum+optics,Superconducting+devices,Superconducting+properties+and+materials",
+          "summary": "Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10951-4/MediaObjects/41586_2026_10951_Fig1_HTML.png?as=webp",
           "match_score": 28
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.182643+00:00"
+      "updated_at": "2026-08-20T05:50:35.884725+00:00"
     },
     {
       "id": "0281dbd873d369fc",
       "title": "动物园回应老虎太胖：喜欢抢食",
       "summary": "",
       "url": "https://www.baidu.com/s?wd=%E5%8A%A8%E7%89%A9%E5%9B%AD%E5%9B%9E%E5%BA%94%E8%80%81%E8%99%8E%E5%A4%AA%E8%83%96%EF%BC%9A%E5%96%9C%E6%AC%A2%E6%8A%A2%E9%A3%9F&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 24,
-      "hot_index": 1215267,
+      "rank": 22,
+      "hot_index": 1536017,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 24
+        "百度民生": 22
       },
       "topic": "生态生命",
-      "score": 84,
+      "score": 86,
       "recommended_title": "动物园回应老虎太胖：喜欢抢食背后的科学问题：Nature研究给出了哪些线索？",
       "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02696-9/MediaObjects/41558_2026_2696_Fig1_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02696-9",
-      "main_paper_title": "Balancing marine species conservation with cost-effective renewable energy development",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
+      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
       "related_papers": [
+        {
+          "id": "30fe5c469e32a8d8",
+          "title": "Tree species richness relates to long-term forest photosynthesis increase",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02698-7",
+          "published_at": "2026-07-27T00:00:00+00:00",
+          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
+          "match_score": 37
+        },
         {
           "id": "a3a59c8b57e1676f",
           "title": "Balancing marine species conservation with cost-effective renewable energy development",
@@ -429,91 +396,26 @@
           "summary": "Wildlife disease in urban areas is expanding but with unclear causes. Using camera-trap images, this study finds that sarcoptic mange in coyotes is increasing with greater urban density and milder winters across North America.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00501-4/MediaObjects/44284_2026_501_Fig2_HTML.png?as=webp",
           "match_score": 26
-        },
-        {
-          "id": "70644763d03e05dd",
-          "title": "Urban expansion and the collapse of tropical stream ecosystems",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00495-z",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Urbanization alters the structure and function of ecosystems. This study found that the diversity, complexity and energy flow through stream communities were sharply reduced by the expansion of the São Paulo Metropolitan Region of Brazil.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00495-z/MediaObjects/44284_2026_495_Fig1_HTML.png?as=webp",
-          "match_score": 26
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.184603+00:00"
-    },
-    {
-      "id": "a6d6c9d4285c6341",
-      "title": "爆火的运动相机：买就吃灰 租才真香",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E7%88%86%E7%81%AB%E7%9A%84%E8%BF%90%E5%8A%A8%E7%9B%B8%E6%9C%BA%EF%BC%9A%E4%B9%B0%E5%B0%B1%E5%90%83%E7%81%B0+%E7%A7%9F%E6%89%8D%E7%9C%9F%E9%A6%99&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 28,
-      "hot_index": 607837,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 28
-      },
-      "topic": "健康医学",
-      "score": 80,
-      "recommended_title": "爆火的运动相机：买就吃灰 租才真香为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04564-7",
-      "main_paper_title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
-      "related_papers": [
-        {
-          "id": "27d685119fd86e4e",
-          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04564-7",
-          "published_at": "2026-08-12T00:00:00+00:00",
-          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
-          "match_score": 32
-        },
-        {
-          "id": "1546e53528ec0ba1",
-          "title": "Family genetic designs in MoBa provide insights into health and functioning",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10926-5",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "The Norwegian Mother, Father and Child Cohort Study demonstrates how family-based genomic data can disentangle direct genetic effects from confounding, improving studies of health and human development.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10926-5/MediaObjects/41586_2026_10926_Fig1_HTML.png?as=webp",
-          "match_score": 28
-        },
-        {
-          "id": "c84b3d070941af47",
-          "title": "Voluntary attention regulates acute immune responses in humans",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02541-1",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Mizrachi et al. show that directing attention to bodily sensations, rather than away, promotes more regulated acute inflammatory responses in healthy volunteers, revealing sensory and vagal pathways linking mind and immune function.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02541-1/MediaObjects/41562_2026_2541_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        }
-      ],
-      "updated_at": "2026-08-20T04:57:25.188099+00:00"
+      "updated_at": "2026-08-20T05:50:35.886468+00:00"
     },
     {
       "id": "ac4c4c33bb5aa98b",
       "title": "大品牌抢着入局 年轻人带火新品类",
       "summary": "",
       "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%93%81%E7%89%8C%E6%8A%A2%E7%9D%80%E5%85%A5%E5%B1%80+%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%B8%A6%E7%81%AB%E6%96%B0%E5%93%81%E7%B1%BB&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 29,
-      "hot_index": 444591,
+      "rank": 24,
+      "hot_index": 1232787,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 29
+        "百度民生": 24
       },
       "topic": "城市社会",
-      "score": 79,
+      "score": 84,
       "recommended_title": "大品牌抢着入局 年轻人带火新品类背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
@@ -551,79 +453,124 @@
           "match_score": 36
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.192700+00:00"
+      "updated_at": "2026-08-20T05:50:35.891505+00:00"
     },
     {
-      "id": "df86c4d2e9af8770",
-      "title": "女儿拒动用十万压岁钱支付生活费",
-      "summary": "近日，杭州一位王爸爸计划为赴西安读大学的女儿提供每月2500元生活费，提议其中1000元从女儿10万元压岁钱中支出遭拒。... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%84%BF%E6%8B%92%E5%8A%A8%E7%94%A8%E5%8D%81%E4%B8%87%E5%8E%8B%E5%B2%81%E9%92%B1%E6%94%AF%E4%BB%98%E7%94%9F%E6%B4%BB%E8%B4%B9&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 40,
-      "hot_index": 4184987,
+      "id": "a6d6c9d4285c6341",
+      "title": "爆火的运动相机：买就吃灰 租才真香",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E7%88%86%E7%81%AB%E7%9A%84%E8%BF%90%E5%8A%A8%E7%9B%B8%E6%9C%BA%EF%BC%9A%E4%B9%B0%E5%B0%B1%E5%90%83%E7%81%B0+%E7%A7%9F%E6%89%8D%E7%9C%9F%E9%A6%99&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 27,
+      "hot_index": 764760,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 27
+      },
+      "topic": "健康医学",
+      "score": 81,
+      "recommended_title": "爆火的运动相机：买就吃灰 租才真香为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04564-7",
+      "main_paper_title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
+      "related_papers": [
+        {
+          "id": "27d685119fd86e4e",
+          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04564-7",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
+          "match_score": 32
+        },
+        {
+          "id": "8aa7e84ecaeb274f",
+          "title": "Wake-activated neuronal populations that regulate sleep drive",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10928-3",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Whole-brain activity mapping, targeted cell manipulations and electrophysiology in mice identify wake-activated neuronal populations that are crucial for sleep drive and can persistently reduce daily sleep amount.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10928-3/MediaObjects/41586_2026_10928_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "1546e53528ec0ba1",
+          "title": "Family genetic designs in MoBa provide insights into health and functioning",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10926-5",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "The Norwegian Mother, Father and Child Cohort Study demonstrates how family-based genomic data can disentangle direct genetic effects from confounding, improving studies of health and human development.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10926-5/MediaObjects/41586_2026_10926_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        }
+      ],
+      "updated_at": "2026-08-20T05:50:35.894897+00:00"
+    },
+    {
+      "id": "7de52188fa7bc770",
+      "title": "宝马优惠30万 豪华车加价时代落幕",
+      "summary": "宝马多款车型大幅优惠，部分车型直降30万，BBA、保时捷等豪华品牌普遍终端让利。传统豪车销量下滑，新能源冲击消解品牌溢价... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%AE%9D%E9%A9%AC%E4%BC%98%E6%83%A030%E4%B8%87+%E8%B1%AA%E5%8D%8E%E8%BD%A6%E5%8A%A0%E4%BB%B7%E6%97%B6%E4%BB%A3%E8%90%BD%E5%B9%95&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 24,
+      "hot_index": 5713212,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 40
+        "百度热搜": 24
       },
-      "topic": "城市社会",
-      "score": 73,
-      "recommended_title": "女儿拒动用十万压岁钱支付生活费背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00478-0",
-      "main_paper_title": "Effects of Uber and Lyft on jobs, wages and GDP",
+      "topic": "前沿科技",
+      "score": 79,
+      "recommended_title": "宝马优惠30万 豪华车加价时代落幕意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10904-x/MediaObjects/41586_2026_10904_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-10904-x",
+      "main_paper_title": "Observation of conformal field theory spectra in a quantum simulator",
       "related_papers": [
         {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 42
+          "id": "e1a716a998a0e4ab",
+          "title": "Observation of conformal field theory spectra in a quantum simulator",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10904-x",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Measurements on an array of optically trapped neutral atoms at a quantum phase transition provide a direct observation of the universal excitation spectrum predicted by conformal field theory.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10904-x/MediaObjects/41586_2026_10904_Fig2_HTML.png?as=webp",
+          "match_score": 28
         },
         {
-          "id": "5dbd7fd7005b80b8",
-          "title": "Empirical insights into residual emissions in urban net-zero targets",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02691-0",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Although many cities have set net-zero targets, there is limited understanding of their residual emissions strategies. An analysis of 103 European cities reveals best practices but also a potential over-reliance on temporary land-based carbon removal and the limited robustness...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02691-0/MediaObjects/41558_2026_2691_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "4dc612a4c31a0757",
-          "title": "Overlooked upwind greening for urban cooling",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00503-2",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Urban heat stress threatens health and infrastructure. The mountain–water–forest framework, adapted for megacities, utilizes terrain-driven cold-air advection and upwind greening, achieving temperature reductions of 0.4 ± 0.2 °C over more than half of the urban area across div...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00503-2/MediaObjects/44284_2026_503_Fig1_HTML.png?as=webp",
-          "match_score": 34
+          "id": "47e5d4b16a5723ad",
+          "title": "Evidence for vacuum-enhanced superconductivity in NbSe 2",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11037-x",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Vacuum fluctuations provide an important new way to control material properties noninvasively1-6. Here, we present experimental evidence that they can enhance superconductivity. NbSe2 is a layered transition-metal dichalcogenide with well-characterized superconducting behavior...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature.com/article&sz=728x90&c=-1849042161&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41586-026-11037-x%26doi%3D10.1038/s41586-026-11037-x%26techmeta%3D120,126,128,133,140,142,144%26subjmeta%3D1003,1064,1130,1139,119,400,482,483,639,766%26kwrd%3DQuantum+mechanics,Quantum+optics,Superconducting+devices,Superconducting+properties+and+materials",
+          "match_score": 28
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.197517+00:00"
+      "updated_at": "2026-08-20T05:50:35.887410+00:00"
     },
     {
       "id": "c3761406071291a6",
       "title": "mRNA个性化癌症疫苗",
       "summary": "近日，Moderna与默沙东联合研发的个性化mRNA癌症疫苗三期试验成功，显著降低高危黑色素瘤患者术后复发及远处转移风险... 查看更多>",
       "url": "https://www.baidu.com/s?wd=mRNA%E4%B8%AA%E6%80%A7%E5%8C%96%E7%99%8C%E7%97%87%E7%96%AB%E8%8B%97&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 42,
-      "hot_index": 4001713,
+      "rank": 41,
+      "hot_index": 4087686,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 42
+        "百度热搜": 41
       },
       "topic": "健康医学",
-      "score": 71,
+      "score": 72,
       "recommended_title": "mRNA个性化癌症疫苗为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
@@ -641,6 +588,16 @@
           "match_score": 32
         },
         {
+          "id": "c84b3d070941af47",
+          "title": "Voluntary attention regulates acute immune responses in humans",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02541-1",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Mizrachi et al. show that directing attention to bodily sensations, rather than away, promotes more regulated acute inflammatory responses in healthy volunteers, revealing sensory and vagal pathways linking mind and immune function.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02541-1/MediaObjects/41562_2026_2541_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
           "id": "ead4363e17a6ee12",
           "title": "Short- and long-term shifts in food purchasing behaviours and nutrition disparities in the USA during and after the COVID-19 pandemic",
           "source": "Nature Human Behaviour",
@@ -649,22 +606,30 @@
           "summary": "Using US household grocery data from 2017–2022, Hu et al. find that lockdowns temporarily shifted purchases towards less processed foods, while ultraprocessed food spending later rose above pre-pandemic levels.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02547-9/MediaObjects/41562_2026_2547_Fig1_HTML.png?as=webp",
           "match_score": 27
-        },
-        {
-          "id": "4464a43018ff5e46",
-          "title": "Histological aging signatures for monitoring tissue-specific aging and disease",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04566-5",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Whole-slide histopathological images from 40 tissue types reveal morphological changes associated with aging, which, when paired with transcriptomic data from blood, are used to develop aging clocks that reflect tissue structural integrity and organ-level physiological fitness...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
-          "match_score": 35
         }
       ],
-      "updated_at": "2026-08-20T04:57:25.201280+00:00"
+      "updated_at": "2026-08-20T05:50:35.898318+00:00"
     }
   ],
   "items": [
+    {
+      "id": "9c2b3857e172c3ec",
+      "title": "AI日报：从Claude Code泄露到宇树IPO，AI行业的冰与火之歌",
+      "display_title": "从Claude Code泄露到宇树IPO，AI行业的冰与火之歌",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6368370.html",
+      "published_at": "2026-08-20T05:49:49.266721+00:00",
+      "detected_at": "2026-08-20T05:49:49.266734+00:00",
+      "summary": "AI日报：从Claude Code泄露到宇树IPO，AI行业的冰与火之歌",
+      "image_url": "https://image.woshipm.com/wp-files/2026/03/D6t3Los59kgrbEMuxYM3-scaled.jpg",
+      "image_method": "body",
+      "image_rule_version": 11,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
     {
       "id": "afd429a7627a6c32",
       "title": "PayPal黑帮成员下场重新创业：融资 2000 万美元，要用 AI Agent 干掉 Slack",
@@ -746,7 +711,7 @@
       "url": "https://news.aibase.com/zh/news/30480",
       "published_at": "2026-08-20T03:13:07.924332+00:00",
       "detected_at": "2026-08-20T03:13:07.924338+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://pic.chinaz.com/picmap/202604281021404155_0.jpg",
       "image_method": "body",
       "image_rule_version": 11,
@@ -764,7 +729,7 @@
       "url": "https://news.aibase.com/zh/news/30481",
       "published_at": "2026-08-20T03:13:07.922906+00:00",
       "detected_at": "2026-08-20T03:13:07.922910+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://pic.chinaz.com/picmap/202502061719358642_0.jpg",
       "image_method": "body",
       "image_rule_version": 11,
@@ -782,7 +747,7 @@
       "url": "https://news.aibase.com/zh/news/30482",
       "published_at": "2026-08-20T03:13:07.921470+00:00",
       "detected_at": "2026-08-20T03:13:07.921475+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://pic.chinaz.com/picmap/202302031031488526_0.jpg",
       "image_method": "body",
       "image_rule_version": 11,
@@ -800,7 +765,7 @@
       "url": "https://news.aibase.com/zh/news/30484",
       "published_at": "2026-08-20T03:13:07.918646+00:00",
       "detected_at": "2026-08-20T03:13:07.918651+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281440357361709867953.png",
       "image_method": "body",
       "image_rule_version": 11,
@@ -818,7 +783,7 @@
       "url": "https://news.aibase.com/zh/news/30488",
       "published_at": "2026-08-20T03:13:07.912765+00:00",
       "detected_at": "2026-08-20T03:13:07.912781+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281510003265229949908.png",
       "image_method": "body",
       "image_rule_version": 11,
@@ -836,7 +801,7 @@
       "url": "https://news.aibase.com/zh/news/30490",
       "published_at": "2026-08-20T03:13:07.909779+00:00",
       "detected_at": "2026-08-20T03:13:07.909784+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://pic.chinaz.com/picmap/202412271704350132_0.jpg",
       "image_method": "body",
       "image_rule_version": 11,
@@ -854,7 +819,7 @@
       "url": "https://news.aibase.com/zh/news/30493",
       "published_at": "2026-08-20T03:13:07.905412+00:00",
       "detected_at": "2026-08-20T03:13:07.905418+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281749581794885897712.jpg",
       "image_method": "body",
       "image_rule_version": 11,
@@ -872,7 +837,7 @@
       "url": "https://news.aibase.com/zh/news/30494",
       "published_at": "2026-08-20T03:13:07.903857+00:00",
       "detected_at": "2026-08-20T03:13:07.903875+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281773799513653752336.png",
       "image_method": "body",
       "image_rule_version": 11,
@@ -908,7 +873,7 @@
       "url": "https://news.aibase.com/zh/news/30489",
       "published_at": "2026-08-20T01:42:36.260914+00:00",
       "detected_at": "2026-08-20T01:42:36.260932+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281563233126281422754.jpg",
       "image_method": "body",
       "image_rule_version": 11,
@@ -1088,7 +1053,7 @@
       "url": "https://news.aibase.com/zh/news/30483",
       "published_at": "2026-08-20T01:17:15.227663+00:00",
       "detected_at": "2026-08-20T01:17:15.227682+00:00",
-      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 4.1K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
+      "summary": "王兴兴首谈具身智能行业拐点：核心痛点在于大模型与真机如何完美对齐 宇树科技创始人王兴兴在2026世界机器人大会主论坛发表上市后首场演讲，判断人形机器人全面爆发需跨越具身智能“ChatGPT时刻”，关键标准是机器人在80%陌生场景中仅凭人类语音或文字指令即可独立完成任务。 刚刚 5.8K OpenAI升级Codex安全防护，新增危险操作拦截与权限控制 OpenAI升级AI编程代理Codex安全防护，以降低误删文件、覆盖数据等风险。团队调查发现，风险主要集中在临时工作目录清理环节，部分问题源于系统变量复用，如错误使用$HOME等变量，导致清理操作指向真...",
       "image_url": "https://pic.chinaz.com/picmap/202302112107341554_1.jpg",
       "image_method": "body",
       "image_rule_version": 11,
