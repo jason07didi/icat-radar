@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T01:03:04.972214+00:00",
-  "count": 104,
-  "hotspot_count": 3,
-  "breakthrough_count": 33,
+  "updated_at": "2026-08-20T01:18:08.424121+00:00",
+  "count": 108,
+  "hotspot_count": 2,
+  "breakthrough_count": 37,
   "category_counts": {
-    "AI变现": 32,
+    "AI变现": 35,
     "提效工具": 15,
-    "前沿动态": 19
+    "前沿动态": 20
   },
   "source_counts": {
     "Scientific Data": 20,
@@ -17,20 +17,20 @@
       "id": "b4dd06a25f1f7947",
       "title": "台风沙德尔路径",
       "summary": "今年第18号台风“沙德尔”（热带风暴级）的中心20日5时位于美国关岛东南方向约885公里的西北太平洋洋面上，就是北纬10... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E8%B7%AF%E5%BE%84&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 10,
-      "hot_index": 7041731,
-      "platform": "百度热搜",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E6%B2%99%E5%BE%B7%E5%B0%94%E8%B7%AF%E5%BE%84&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 17,
+      "hot_index": 4062344,
+      "platform": "百度民生",
       "platforms": [
-        "百度热搜",
-        "百度民生"
+        "百度民生",
+        "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 10,
-        "百度民生": 17
+        "百度民生": 17,
+        "百度热搜": 41
       },
       "topic": "气候环境",
-      "score": 98,
+      "score": 94,
       "recommended_title": "台风沙德尔路径背后：Nature研究揭示了怎样的风险链条？",
       "angle": "从极端天气或环境事件切入，用Nature研究解释风险形成机制、暴露变化与长期趋势。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
@@ -66,77 +66,24 @@
           "match_score": 31
         }
       ],
-      "updated_at": "2026-08-20T01:03:02.780664+00:00"
-    },
-    {
-      "id": "926b69ae5e40c8db",
-      "title": "老人别把“没力气”当正常衰老",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E5%88%AB%E6%8A%8A%E2%80%9C%E6%B2%A1%E5%8A%9B%E6%B0%94%E2%80%9D%E5%BD%93%E6%AD%A3%E5%B8%B8%E8%A1%B0%E8%80%81&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 27,
-      "hot_index": 750796,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 27
-      },
-      "topic": "健康医学",
-      "score": 80,
-      "recommended_title": "老人别把“没力气”当正常衰老为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康关注切入，用Nature论文区分科学证据、相关性与流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
-      "related_papers": [
-        {
-          "id": "27d685119fd86e4e",
-          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04564-7",
-          "published_at": "2026-08-12T00:00:00+00:00",
-          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
-          "match_score": 37
-        },
-        {
-          "id": "0050fea59bb7b392",
-          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04537-w",
-          "published_at": "2026-08-11T00:00:00+00:00",
-          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
-          "match_score": 37
-        },
-        {
-          "id": "8aa7e84ecaeb274f",
-          "title": "Wake-activated neuronal populations that regulate sleep drive",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10928-3",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "Whole-brain activity mapping, targeted cell manipulations and electrophysiology in mice identify wake-activated neuronal populations that are crucial for sleep drive and can persistently reduce daily sleep amount.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10928-3/MediaObjects/41586_2026_10928_Fig1_HTML.png?as=webp",
-          "match_score": 33
-        }
-      ],
-      "updated_at": "2026-08-20T01:03:02.783194+00:00"
+      "updated_at": "2026-08-20T01:18:06.291862+00:00"
     },
     {
       "id": "c1a8b7c7ab832dad",
       "title": "一款抗癌疫苗引爆美股医药股",
       "summary": "一款抗癌疫苗，引爆美股医药股！8月19日，美股医药股大涨，BioNTech SE涨超23%，诺瓦瓦克斯医药涨超7%。Mo... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%B8%80%E6%AC%BE%E6%8A%97%E7%99%8C%E7%96%AB%E8%8B%97%E5%BC%95%E7%88%86%E7%BE%8E%E8%82%A1%E5%8C%BB%E8%8D%AF%E8%82%A1&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 33,
-      "hot_index": 4861641,
+      "rank": 37,
+      "hot_index": 4447048,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 33
+        "百度热搜": 37
       },
       "topic": "健康医学",
-      "score": 77,
+      "score": 74,
       "recommended_title": "一款抗癌疫苗引爆美股医药股为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康关注切入，用Nature论文区分科学证据、相关性与流行说法。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
@@ -172,10 +119,82 @@
           "match_score": 33
         }
       ],
-      "updated_at": "2026-08-20T01:03:02.785777+00:00"
+      "updated_at": "2026-08-20T01:18:06.294157+00:00"
     }
   ],
   "items": [
+    {
+      "id": "cae9900c90d0f5d3",
+      "title": "河外星系首次发现球状星团恒星流",
+      "display_title": "河外星系首次发现球状星团恒星流",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/8/570053.shtm",
+      "published_at": "2026-08-20T01:17:21.420330+00:00",
+      "detected_at": "2026-08-20T01:17:21.420346+00:00",
+      "summary": "科学网-河外星系首次发现球状星团恒星流",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a8646ace4b078fce44af518.jpg",
+      "image_method": "body",
+      "image_rule_version": 9,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "afd1a51497255700",
+      "title": "OpenAI推出Private Safety Processing，零数据保留模式升级AI安全监控 OpenAI推出“隐私安全处理”服务，面向部分客户预览，可在不保留数据前提下自动监控AI滥用行为，扩展零数据保留能力。",
+      "display_title": "OpenAI推出Private Safety Processing，零数据保留模式升级AI安全监控 OpenAI推出“隐私安全处理”服务，面向部分客户预览，可在不保留数据前提下自动监控AI滥用行为，扩展零数据保留能力。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30481",
+      "published_at": "2026-08-20T01:17:15.230109+00:00",
+      "detected_at": "2026-08-20T01:17:15.230114+00:00",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
+      "image_url": "https://pic.chinaz.com/picmap/202502061719358642_0.jpg",
+      "image_method": "body",
+      "image_rule_version": 9,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "aa915244fc02efbb",
+      "title": "亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。",
+      "display_title": "亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30482",
+      "published_at": "2026-08-20T01:17:15.228950+00:00",
+      "detected_at": "2026-08-20T01:17:15.228955+00:00",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
+      "image_url": "https://pic.chinaz.com/picmap/202302031031488526_0.jpg",
+      "image_method": "body",
+      "image_rule_version": 9,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "a107b282eecd2f1a",
+      "title": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。",
+      "display_title": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30483",
+      "published_at": "2026-08-20T01:17:15.227663+00:00",
+      "detected_at": "2026-08-20T01:17:15.227682+00:00",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
+      "image_url": "https://pic.chinaz.com/picmap/202302112107341554_1.jpg",
+      "image_method": "body",
+      "image_rule_version": 9,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "fa1c742fefdd74c3",
       "title": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。",
@@ -185,7 +204,7 @@
       "url": "https://news.aibase.com/zh/news/30480",
       "published_at": "2026-08-20T01:02:19.224299+00:00",
       "detected_at": "2026-08-20T01:02:19.224313+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://pic.chinaz.com/picmap/202604281021404155_0.jpg",
       "image_method": "body",
       "image_rule_version": 9,
@@ -365,7 +384,7 @@
       "url": "https://news.aibase.com/zh/news/30463",
       "published_at": "2026-08-20T00:52:28.500505+00:00",
       "detected_at": "2026-08-20T00:52:28.500510+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://upload.chinaz.com/2026/0819/6392273615504532826879357.png",
       "image_method": "body",
       "image_rule_version": 9,
@@ -383,7 +402,7 @@
       "url": "https://news.aibase.com/zh/news/30464",
       "published_at": "2026-08-20T00:52:28.499297+00:00",
       "detected_at": "2026-08-20T00:52:28.499302+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://upload.chinaz.com/2026/0819/6392274388911909722141520.png",
       "image_method": "body",
       "image_rule_version": 9,
@@ -401,7 +420,7 @@
       "url": "https://news.aibase.com/zh/news/30465",
       "published_at": "2026-08-20T00:52:28.497978+00:00",
       "detected_at": "2026-08-20T00:52:28.497982+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://upload.chinaz.com/2026/0819/6392274405626562378406339.png",
       "image_method": "body",
       "image_rule_version": 9,
@@ -419,7 +438,7 @@
       "url": "https://news.aibase.com/zh/news/30466",
       "published_at": "2026-08-20T00:52:28.496843+00:00",
       "detected_at": "2026-08-20T00:52:28.496847+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://upload.chinaz.com/2026/0819/6392274434343067478305165.jpg",
       "image_method": "body",
       "image_rule_version": 9,
@@ -437,7 +456,7 @@
       "url": "https://news.aibase.com/zh/news/30468",
       "published_at": "2026-08-20T00:52:28.494531+00:00",
       "detected_at": "2026-08-20T00:52:28.494536+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://upload.chinaz.com/2026/0819/6392274812261652274387863.png",
       "image_method": "body",
       "image_rule_version": 9,
@@ -455,7 +474,7 @@
       "url": "https://news.aibase.com/zh/news/30469",
       "published_at": "2026-08-20T00:52:28.493372+00:00",
       "detected_at": "2026-08-20T00:52:28.493376+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://pic.chinaz.com/picmap/202502061719371797_2.jpg",
       "image_method": "body",
       "image_rule_version": 9,
@@ -473,7 +492,7 @@
       "url": "https://news.aibase.com/zh/news/30471",
       "published_at": "2026-08-20T00:52:28.490992+00:00",
       "detected_at": "2026-08-20T00:52:28.490998+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://upload.chinaz.com/2026/0819/6392275082577915892800212.jpg",
       "image_method": "body",
       "image_rule_version": 9,
@@ -491,7 +510,7 @@
       "url": "https://news.aibase.com/zh/news/30476",
       "published_at": "2026-08-20T00:52:28.486025+00:00",
       "detected_at": "2026-08-20T00:52:28.486031+00:00",
-      "summary": "谷歌搜索与 Gemini 上线AI学习工具，新增3D模拟和智能测验功能 谷歌在搜索和Gemini中推出学习类AI工具，包括交互式视觉效果、3D模拟、学生专属学习中心、定制练习测验等，强化Gemini学习助手定位，加速与OpenAI及教育AI初创公司竞争。学生搜索复杂知识点可生成交互内容，如搜“pH值”可获可视化图表辅助理解。 刚刚 0 Google重磅升级搜索与Gemini应用，推出全套AI学习与3D模拟工具 谷歌宣布为搜索引擎及AI助手Gemini推出学习工具，包括AI交互式视觉、3D模拟、学生中心与定制测验，旨在成为学生备考首选AI助手，对标O...",
+      "summary": "OpenAI计划2027年完成IPO，已秘密提交上市文件 OpenAI首席财务官弗里亚尔在全员会议上称，公司计划2027年完成上市，若业务持续向好或提前进入公开市场。她表示IPO是融资和发展的重要里程碑而非终点。OpenAI今年3月已完成1220亿美元融资，为后续扩张提供较大运营空间。 刚刚 0 亚马逊Alexa+免费登陆Fire TV，AI助手覆盖更多电视设备 亚马逊宣布AI助手Alexa+将向美国所有兼容Fire TV设备免费推送，不再要求Prime会员。更新带来对话式搜索、智能家居控制和AI内容推荐，推动生成式AI进入家庭娱乐。此前仅部分新款...",
       "image_url": "https://pic.chinaz.com/picmap/202312121344513377_12.jpg",
       "image_method": "body",
       "image_rule_version": 9,
