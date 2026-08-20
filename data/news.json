@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T10:52:02.931403+00:00",
-  "count": 125,
+  "updated_at": "2026-08-20T11:47:49.838136+00:00",
+  "count": 129,
   "hotspot_count": 12,
-  "breakthrough_count": 46,
+  "breakthrough_count": 49,
   "category_counts": {
-    "AI变现": 48,
+    "AI变现": 49,
     "提效工具": 17,
-    "前沿动态": 20
+    "前沿动态": 23
   },
   "source_counts": {
     "Scientific Data": 20,
@@ -14,20 +14,77 @@
   },
   "hotspots": [
     {
-      "id": "3be40c8b079bc3bb",
-      "title": "第19号台风紫檀有消息了",
-      "summary": "8月20日下午，中国天气官方账号发布新消息：又有一个台风可能生成。除了已经生成的台风“沙德尔”，南海热带低压、热带扰动9... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%AC%AC19%E5%8F%B7%E5%8F%B0%E9%A3%8E%E7%B4%AB%E6%AA%80%E6%9C%89%E6%B6%88%E6%81%AF%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 10,
-      "hot_index": 4749377,
+      "id": "e326353717b3cc0d",
+      "title": "医院能办结婚证了",
+      "summary": "近日，有网友发帖称，淄博市临淄区妇幼保健院内设有婚姻登记处指示牌，顺着指示牌即可找到婚姻登记办理点位。院方：婚前检查后可... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E9%99%A2%E8%83%BD%E5%8A%9E%E7%BB%93%E5%A9%9A%E8%AF%81%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 6,
+      "hot_index": 6561078,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 10,
-        "百度热搜": 34
+        "百度民生": 6,
+        "百度热搜": 15
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "医院能办结婚证了为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-74498-8/MediaObjects/41467_2026_74498_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41467-026-74498-8",
+      "main_paper_title": "Associations of loneliness, social isolation and healthy lifestyle with life expectancy free of major physical disease and mental disorder",
+      "related_papers": [
+        {
+          "id": "1149a52d92cac428",
+          "title": "Associations of loneliness, social isolation and healthy lifestyle with life expectancy free of major physical disease and mental disorder",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-74498-8",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "The authors observe that loneliness and social isolation relate to shorter life expectancy free of physical (type 2 diabetes, cardiovascular disease, chronic respiratory disease, neurodegenerative disease, and cancer) and mental disorders (depression and anxiety) in the UK Bio...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-74498-8/MediaObjects/41467_2026_74498_Fig1_HTML.png?as=webp",
+          "match_score": 73
+        },
+        {
+          "id": "4464a43018ff5e46",
+          "title": "Histological aging signatures for monitoring tissue-specific aging and disease",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04566-5",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Whole-slide histopathological images from 40 tissue types reveal morphological changes associated with aging, which, when paired with transcriptomic data from blood, are used to develop aging clocks that reflect tissue structural integrity and organ-level physiological fitness...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
+          "match_score": 49
+        },
+        {
+          "id": "5c5773fcb3834327",
+          "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76837-1",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "Here authors show patient-derived neural models of childhood dementia exhibit key disease features. A drug screening platform integrating machine learning, imaging, transcriptomics and electrophysiology, identifies repurposed compounds that mitigate adverse effects.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-377982080&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
+          "match_score": 47
+        }
+      ],
+      "updated_at": "2026-08-20T11:47:41.748798+00:00"
+    },
+    {
+      "id": "3be40c8b079bc3bb",
+      "title": "第19号台风紫檀有消息了",
+      "summary": "8月20日下午，中国天气官方账号发布新消息：又有一个台风可能生成。除了已经生成的台风“沙德尔”，南海热带低压、热带扰动9... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%AC%AC19%E5%8F%B7%E5%8F%B0%E9%A3%8E%E7%B4%AB%E6%AA%80%E6%9C%89%E6%B6%88%E6%81%AF%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 11,
+      "hot_index": 5709019,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 11,
+        "百度热搜": 24
       },
       "topic": "气候环境",
       "score": 98,
@@ -68,137 +125,23 @@
           "match_score": 27
         }
       ],
-      "updated_at": "2026-08-20T10:51:54.983605+00:00"
-    },
-    {
-      "id": "2afce9b58dd75ac0",
-      "title": "广州一人卖3170株“招财”植物被刑拘",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E5%B7%9E%E4%B8%80%E4%BA%BA%E5%8D%963170%E6%A0%AA%E2%80%9C%E6%8B%9B%E8%B4%A2%E2%80%9D%E6%A4%8D%E7%89%A9%E8%A2%AB%E5%88%91%E6%8B%98&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 11,
-      "hot_index": 4638323,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 11,
-        "百度热搜": 35
-      },
-      "topic": "生态生命",
-      "score": 98,
-      "recommended_title": "广州一人卖3170株“招财”植物被刑拘背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
-      "related_papers": [
-        {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 37
-        },
-        {
-          "id": "a3a59c8b57e1676f",
-          "title": "Balancing marine species conservation with cost-effective renewable energy development",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02696-9",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "The authors consider the potential conflict between renewable energy development (offshore wind) and wildlife (North Atlantic right whales, Eubalaena glacialis ). They demonstrate a framework to identify trade-offs under different scenarios, maximizing conservation with minima...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02696-9/MediaObjects/41558_2026_2696_Fig1_HTML.png",
-          "match_score": 35
-        },
-        {
-          "id": "f63078bcfbc44dec",
-          "title": "Multi-centennial response of marine carbon pumps to global warming",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02686-x",
-          "published_at": "2026-06-25T00:00:00+00:00",
-          "summary": "Changes in the ocean in response to climate change could impact its ability to function as a carbon sink. This study shows that under high emissions, circulation changes will reduce anthropogenic carbon uptake even as biological storage increases, whereas under low emissions,...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02686-x/MediaObjects/41558_2026_2686_Fig2_HTML.png?as=webp",
-          "match_score": 27
-        }
-      ],
-      "updated_at": "2026-08-20T10:51:54.987024+00:00"
-    },
-    {
-      "id": "793dd45b2a8c32b5",
-      "title": "小米扫拖机器人避障不灵撞坏百万家具",
-      "summary": "近日，上海邸女士因一台小米扫拖机器人5Pro的避障故障，将小米及电商平台诉至法院，其避障不灵，撞击划伤价值百万元进口家具... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%B1%B3%E6%89%AB%E6%8B%96%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%81%BF%E9%9A%9C%E4%B8%8D%E7%81%B5%E6%92%9E%E5%9D%8F%E7%99%BE%E4%B8%87%E5%AE%B6%E5%85%B7&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 12,
-      "hot_index": 4552167,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 12,
-        "百度热搜": 36
-      },
-      "topic": "人工智能",
-      "score": 98,
-      "recommended_title": "小米扫拖机器人避障不灵撞坏百万家具刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1228496371&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
-      "main_paper_url": "https://www.nature.com/articles/s41467-026-76837-1",
-      "main_paper_title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
-      "related_papers": [
-        {
-          "id": "5c5773fcb3834327",
-          "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76837-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Here authors show patient-derived neural models of childhood dementia exhibit key disease features. A drug screening platform integrating machine learning, imaging, transcriptomics and electrophysiology, identifies repurposed compounds that mitigate adverse effects.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1228496371&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
-          "match_score": 39
-        },
-        {
-          "id": "cf5558d53af50b86",
-          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04601-5",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 29
-        }
-      ],
-      "updated_at": "2026-08-20T10:51:54.990319+00:00"
+      "updated_at": "2026-08-20T11:47:41.750713+00:00"
     },
     {
       "id": "9eff27912c704a17",
       "title": "大学生拒用压岁钱支付生活费",
       "summary": "据媒体报道，杭州王先生希望上大学的女儿每月从其近10万元压岁钱中出1000元生活费，被女儿拒绝，他感叹“现在的孩子都很精... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%8B%92%E7%94%A8%E5%8E%8B%E5%B2%81%E9%92%B1%E6%94%AF%E4%BB%98%E7%94%9F%E6%B4%BB%E8%B4%B9&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 13,
-      "hot_index": 4470795,
+      "rank": 15,
+      "hot_index": 4570119,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 13,
-        "百度热搜": 37
+        "百度民生": 15,
+        "百度热搜": 36
       },
       "topic": "城市社会",
       "score": 98,
@@ -239,21 +182,21 @@
           "match_score": 42
         }
       ],
-      "updated_at": "2026-08-20T10:51:54.992821+00:00"
+      "updated_at": "2026-08-20T11:47:41.759585+00:00"
     },
     {
       "id": "ade85e294f5c275d",
       "title": "哈佛医学院惊天丑闻和解",
       "summary": "8月19日，美国哈佛大学同意支付5300万美元（约合3.56亿元人民币），以了结一起由家属提起的诉讼。这些家属指控该校对... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%93%88%E4%BD%9B%E5%8C%BB%E5%AD%A6%E9%99%A2%E6%83%8A%E5%A4%A9%E4%B8%91%E9%97%BB%E5%92%8C%E8%A7%A3&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 2,
-      "hot_index": 7808242,
+      "rank": 3,
+      "hot_index": 7712482,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 2
+        "百度热搜": 3
       },
       "topic": "城市社会",
       "score": 98,
@@ -294,117 +237,7 @@
           "match_score": 36
         }
       ],
-      "updated_at": "2026-08-20T10:51:54.979973+00:00"
-    },
-    {
-      "id": "41f89dd0db1b26b2",
-      "title": "郭麒麟暴瘦后现身 医生提醒",
-      "summary": "郭麒麟60天暴瘦近80斤后现身机场，其下颌线清晰，不少网友直呼变帅。医生及营养专家提醒，该减重方式不适合普通人，切勿模仿... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%83%AD%E9%BA%92%E9%BA%9F%E6%9A%B4%E7%98%A6%E5%90%8E%E7%8E%B0%E8%BA%AB+%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 8,
-      "hot_index": 7234758,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 8
-      },
-      "topic": "健康医学",
-      "score": 98,
-      "recommended_title": "郭麒麟暴瘦后现身 医生提醒为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-74498-8/MediaObjects/41467_2026_74498_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41467-026-74498-8",
-      "main_paper_title": "Associations of loneliness, social isolation and healthy lifestyle with life expectancy free of major physical disease and mental disorder",
-      "related_papers": [
-        {
-          "id": "1149a52d92cac428",
-          "title": "Associations of loneliness, social isolation and healthy lifestyle with life expectancy free of major physical disease and mental disorder",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-74498-8",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "The authors observe that loneliness and social isolation relate to shorter life expectancy free of physical (type 2 diabetes, cardiovascular disease, chronic respiratory disease, neurodegenerative disease, and cancer) and mental disorders (depression and anxiety) in the UK Bio...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-74498-8/MediaObjects/41467_2026_74498_Fig1_HTML.png?as=webp",
-          "match_score": 73
-        },
-        {
-          "id": "8ea52ccf2f229ebc",
-          "title": "Psilocybin-assisted therapy for treatment-resistant major depressive disorder in a public healthcare setting: a randomized controlled trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04541-0",
-          "published_at": "2026-08-06T00:00:00+00:00",
-          "summary": "In a publicly funded trial undertaken in the NHS in England, 60 adults with treatment-resistant major depression received psilocybin or placebo alongside standardized psychological support, with psilocybin showing significant improvements in depression symptoms, good tolerabil...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04541-0/MediaObjects/41591_2026_4541_Fig1_HTML.png?as=webp",
-          "match_score": 46
-        },
-        {
-          "id": "ead4363e17a6ee12",
-          "title": "Short- and long-term shifts in food purchasing behaviours and nutrition disparities in the USA during and after the COVID-19 pandemic",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02547-9",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Using US household grocery data from 2017–2022, Hu et al. find that lockdowns temporarily shifted purchases towards less processed foods, while ultraprocessed food spending later rose above pre-pandemic levels.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02547-9/MediaObjects/41562_2026_2547_Fig1_HTML.png?as=webp",
-          "match_score": 45
-        }
-      ],
-      "updated_at": "2026-08-20T10:51:54.982434+00:00"
-    },
-    {
-      "id": "2d441b702f698321",
-      "title": "“咬人最凶”的蚊子",
-      "summary": "8月20日是世界蚊子日，俗话说，‌秋后蚊子猛如虎。这时候的蚊子“咬”起人来是又狠又准。在我国，对公众健康危害最大、叮咬攻... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%92%AC%E4%BA%BA%E6%9C%80%E5%87%B6%E2%80%9D%E7%9A%84%E8%9A%8A%E5%AD%90&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 11,
-      "hot_index": 6948837,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 11
-      },
-      "topic": "健康医学",
-      "score": 96,
-      "recommended_title": "“咬人最凶”的蚊子为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04566-5",
-      "main_paper_title": "Histological aging signatures for monitoring tissue-specific aging and disease",
-      "related_papers": [
-        {
-          "id": "4464a43018ff5e46",
-          "title": "Histological aging signatures for monitoring tissue-specific aging and disease",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04566-5",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Whole-slide histopathological images from 40 tissue types reveal morphological changes associated with aging, which, when paired with transcriptomic data from blood, are used to develop aging clocks that reflect tissue structural integrity and organ-level physiological fitness...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "27d685119fd86e4e",
-          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04564-7",
-          "published_at": "2026-08-12T00:00:00+00:00",
-          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
-          "match_score": 32
-        },
-        {
-          "id": "0050fea59bb7b392",
-          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04537-w",
-          "published_at": "2026-08-11T00:00:00+00:00",
-          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        }
-      ],
-      "updated_at": "2026-08-20T10:51:54.985917+00:00"
+      "updated_at": "2026-08-20T11:47:41.744589+00:00"
     },
     {
       "id": "736e0f5ab4e9e31c",
@@ -412,7 +245,7 @@
       "summary": "近日网传一份安徽教育厅文件，称蚌埠65名学生获普高后补录取资格，引发关注。经核实，该文件文号、印章、内容均系仿造，为虚假... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%B6%89%E8%9A%8C%E5%9F%A0%E6%99%AE%E9%AB%98%E5%BD%95%E5%8F%96%E5%B7%A5%E4%BD%9C%E9%80%9A%E7%9F%A5%E4%B8%BA%E8%99%9A%E5%81%87%E6%96%87%E4%BB%B6&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 12,
-      "hot_index": 6853245,
+      "hot_index": 6853333,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -459,70 +292,70 @@
           "match_score": 36
         }
       ],
-      "updated_at": "2026-08-20T10:51:54.989506+00:00"
+      "updated_at": "2026-08-20T11:47:41.755151+00:00"
     },
     {
-      "id": "ead3b96c3798fd4c",
-      "title": "机场搬行李不用人了",
-      "summary": "这两天世界机器人大会上，一条消息悄悄冲上热搜：机场搬行李不用人了。说的是瑞为技术展出的一台叫“晓蚁”的行李转运机器人，单... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%9C%BA%E6%90%AC%E8%A1%8C%E6%9D%8E%E4%B8%8D%E7%94%A8%E4%BA%BA%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 14,
-      "hot_index": 6656884,
+      "id": "e95de34aab049ce1",
+      "title": "房东赶走怀孕租客称“借死不借生”",
+      "summary": "近日，江苏王女士租房后遭房东以“借死不借生”风俗要求一周内搬走。经社区调解，房东允许继续租住但禁止在房内坐月子、放器械。... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%88%BF%E4%B8%9C%E8%B5%B6%E8%B5%B0%E6%80%80%E5%AD%95%E7%A7%9F%E5%AE%A2%E7%A7%B0%E2%80%9C%E5%80%9F%E6%AD%BB%E4%B8%8D%E5%80%9F%E7%94%9F%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 19,
+      "hot_index": 6183357,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 14
+        "百度热搜": 19
       },
-      "topic": "人工智能",
-      "score": 94,
-      "recommended_title": "机场搬行李不用人了刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04601-5",
-      "main_paper_title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
+      "topic": "城市社会",
+      "score": 90,
+      "recommended_title": "房东赶走怀孕租客称“借死不借生”背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00459-3",
+      "main_paper_title": "City racial segregation statistics are robust to aggregation bias",
       "related_papers": [
         {
-          "id": "cf5558d53af50b86",
-          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04601-5",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-          "match_score": 35
+          "id": "44424360f33a07f6",
+          "title": "City racial segregation statistics are robust to aggregation bias",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00459-3",
+          "published_at": "2026-06-16T00:00:00+00:00",
+          "summary": "Residential segregation is a challenging reality in cities worldwide despite their diverse populations. Focusing on medium to large US cities, this study finds no systematic bias in racial segregation when different Census tract boundaries are used.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
+          "match_score": 64
         },
         {
-          "id": "5c5773fcb3834327",
-          "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76837-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Here authors show patient-derived neural models of childhood dementia exhibit key disease features. A drug screening platform integrating machine learning, imaging, transcriptomics and electrophysiology, identifies repurposed compounds that mitigate adverse effects.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1228496371&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
-          "match_score": 39
+          "id": "bc2810628469b639",
+          "title": "Intracranial delivery of B7-H3-targeting CAR-T cells for recurrent glioblastoma: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04557-6",
+          "published_at": "2026-08-06T00:00:00+00:00",
+          "summary": "In this phase 1 dose-escalation trial, intracranial delivery of B7-H3-targeting chimeric antigen receptor T cell therapy in patients with glioblastoma showed no dose-limiting toxicity signals and encouraging signals of clinical benefit.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04557-6/MediaObjects/41591_2026_4557_Fig1_HTML.png?as=webp",
+          "match_score": 60
         },
         {
-          "id": "3dca727db04ffcd1",
-          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04553-w",
-          "published_at": "2026-08-04T00:00:00+00:00",
-          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
-          "match_score": 29
+          "id": "70644763d03e05dd",
+          "title": "Urban expansion and the collapse of tropical stream ecosystems",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00495-z",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Urbanization alters the structure and function of ecosystems. This study found that the diversity, complexity and energy flow through stream communities were sharply reduced by the expansion of the São Paulo Metropolitan Region of Brazil.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00495-z/MediaObjects/44284_2026_495_Fig1_HTML.png?as=webp",
+          "match_score": 40
         }
       ],
-      "updated_at": "2026-08-20T10:51:54.993624+00:00"
+      "updated_at": "2026-08-20T11:47:41.763989+00:00"
     },
     {
-      "id": "dc2337fe52c57bbf",
-      "title": "多地高考录取人数减少",
-      "summary": "2026年高考录取工作已经结束，多地录取人数减少，有的省区市是连续第二年回落。记者梳理发现，在目前公布高考录取数据的省区... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E9%AB%98%E8%80%83%E5%BD%95%E5%8F%96%E4%BA%BA%E6%95%B0%E5%87%8F%E5%B0%91&sa=fyb_news&rsv_dl=fyb_news",
+      "id": "837c3a278792fe31",
+      "title": "疫苗的东风终于来了",
+      "summary": "8月19日，Moderna与默沙东联合研发的个性化mRNA癌症疫苗三期临床取得成功，Moderna股价单日暴涨约177%... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%96%AB%E8%8B%97%E7%9A%84%E4%B8%9C%E9%A3%8E%E7%BB%88%E4%BA%8E%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 22,
-      "hot_index": 5903417,
+      "hot_index": 5902765,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -530,23 +363,78 @@
       "platform_ranks": {
         "百度热搜": 22
       },
-      "topic": "城市社会",
+      "topic": "健康医学",
       "score": 87,
-      "recommended_title": "多地高考录取人数减少背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00478-0",
-      "main_paper_title": "Effects of Uber and Lyft on jobs, wages and GDP",
+      "recommended_title": "疫苗的东风终于来了为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04566-5",
+      "main_paper_title": "Histological aging signatures for monitoring tissue-specific aging and disease",
       "related_papers": [
         {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "id": "4464a43018ff5e46",
+          "title": "Histological aging signatures for monitoring tissue-specific aging and disease",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04566-5",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Whole-slide histopathological images from 40 tissue types reveal morphological changes associated with aging, which, when paired with transcriptomic data from blood, are used to develop aging clocks that reflect tissue structural integrity and organ-level physiological fitness...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "27d685119fd86e4e",
+          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04564-7",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
+          "match_score": 32
+        },
+        {
+          "id": "0050fea59bb7b392",
+          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04537-w",
+          "published_at": "2026-08-11T00:00:00+00:00",
+          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
+          "match_score": 32
+        }
+      ],
+      "updated_at": "2026-08-20T11:47:41.767878+00:00"
+    },
+    {
+      "id": "a19ab4af0fba88d1",
+      "title": "蜘蛛侠也开始过普通人的人生",
+      "summary": "比起一部超英电影，《蜘蛛侠：崭新之日》更像一部属于普通年轻人的“成长片”——那个成长了三部电影却屡次被“打成原形”的彼得... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%9C%98%E8%9B%9B%E4%BE%A0%E4%B9%9F%E5%BC%80%E5%A7%8B%E8%BF%87%E6%99%AE%E9%80%9A%E4%BA%BA%E7%9A%84%E4%BA%BA%E7%94%9F&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 23,
+      "hot_index": 5792610,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 23
+      },
+      "topic": "城市社会",
+      "score": 87,
+      "recommended_title": "蜘蛛侠也开始过普通人的人生背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00498-w",
+      "main_paper_title": "Hidden living-condition deficits in small and medium-sized cities",
+      "related_papers": [
+        {
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 50
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
+          "match_score": 42
         },
         {
           "id": "5dbd7fd7005b80b8",
@@ -569,39 +457,39 @@
           "match_score": 34
         }
       ],
-      "updated_at": "2026-08-20T10:51:54.996330+00:00"
+      "updated_at": "2026-08-20T11:47:41.771990+00:00"
     },
     {
       "id": "739f235843cc6b45",
       "title": "北京外国语大学教授梅仁毅逝世",
       "summary": "",
       "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%A4%96%E5%9B%BD%E8%AF%AD%E5%A4%A7%E5%AD%A6%E6%95%99%E6%8E%88%E6%A2%85%E4%BB%81%E6%AF%85%E9%80%9D%E4%B8%96&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 25,
-      "hot_index": 1066055,
+      "rank": 28,
+      "hot_index": 577967,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 25
+        "百度民生": 28
       },
       "topic": "城市社会",
-      "score": 83,
+      "score": 80,
       "recommended_title": "北京外国语大学教授梅仁毅逝世背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00498-w",
-      "main_paper_title": "Hidden living-condition deficits in small and medium-sized cities",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02556-8",
+      "main_paper_title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
       "related_papers": [
         {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
-          "match_score": 42
+          "id": "7dfd8de97f9dff0c",
+          "title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02556-8",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
+          "match_score": 41
         },
         {
           "id": "375dc94e6b81abc6",
@@ -624,24 +512,79 @@
           "match_score": 43
         }
       ],
-      "updated_at": "2026-08-20T10:51:54.998765+00:00"
+      "updated_at": "2026-08-20T11:47:41.776263+00:00"
+    },
+    {
+      "id": "19714eed4cbe6eb0",
+      "title": "机器人要去央企“面试上班”了",
+      "summary": "8月中旬，工业和信息化部、国务院国资委6月3日联合印发的人形机器人实景实训专项行动进入申报收尾阶段，央企已为人形机器人筛... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%A6%81%E5%8E%BB%E5%A4%AE%E4%BC%81%E2%80%9C%E9%9D%A2%E8%AF%95%E4%B8%8A%E7%8F%AD%E2%80%9D%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 34,
+      "hot_index": 4761141,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 34
+      },
+      "topic": "人工智能",
+      "score": 78,
+      "recommended_title": "机器人要去央企“面试上班”了刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-377982080&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
+      "main_paper_url": "https://www.nature.com/articles/s41467-026-76837-1",
+      "main_paper_title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
+      "related_papers": [
+        {
+          "id": "5c5773fcb3834327",
+          "title": "Drug screen and machine learning predict neuroprotective agents in a preclinical human model of childhood dementia",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76837-1",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "Here authors show patient-derived neural models of childhood dementia exhibit key disease features. A drug screening platform integrating machine learning, imaging, transcriptomics and electrophysiology, identifies repurposed compounds that mitigate adverse effects.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-377982080&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76837-1%26doi%3D10.1038/s41467-026-76837-1%26techmeta%3D100,106,107,13,14,147,19,45,47,49,51,74,9,91%26subjmeta%3D1435,154,2064,2158,2417,2764,365,375,378,532,617,631,692,87%26kwrd%3DCellular+neuroscience,Induced+pluripotent+stem+cells,Neurodegenerative+diseases,Paediatric+neurological+disorders,Phenotypic+screening",
+          "match_score": 39
+        },
+        {
+          "id": "cf5558d53af50b86",
+          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04601-5",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "3dca727db04ffcd1",
+          "title": "Divergent impacts of explainable AI for dermatological diagnosis on clinicians versus lay people",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04553-w",
+          "published_at": "2026-08-04T00:00:00+00:00",
+          "summary": "Explainable AI, implemented for large language models that assist with dermatological diagnoses, has differing effects depending on whether the assistance is provided to primary care physicians or to lay users.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04553-w/MediaObjects/41591_2026_4553_Fig1_HTML.png?as=webp",
+          "match_score": 29
+        }
+      ],
+      "updated_at": "2026-08-20T11:47:41.777523+00:00"
     },
     {
       "id": "acf2001bbd265d7f",
       "title": "肿瘤疫苗历史性突破引爆医药行情",
       "summary": "当地时间8月19日，Moderna与默沙东宣布个体化mRNA肿瘤疫苗三期临床成功，成为全球首个三期取得成功的个体化mRN... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E8%82%BF%E7%98%A4%E7%96%AB%E8%8B%97%E5%8E%86%E5%8F%B2%E6%80%A7%E7%AA%81%E7%A0%B4%E5%BC%95%E7%88%86%E5%8C%BB%E8%8D%AF%E8%A1%8C%E6%83%85&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 30,
-      "hot_index": 5131439,
+      "rank": 35,
+      "hot_index": 4650169,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 30
+        "百度热搜": 35
       },
       "topic": "健康医学",
-      "score": 81,
+      "score": 77,
       "recommended_title": "肿瘤疫苗历史性突破引爆医药行情为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
@@ -659,6 +602,16 @@
           "match_score": 32
         },
         {
+          "id": "8ea52ccf2f229ebc",
+          "title": "Psilocybin-assisted therapy for treatment-resistant major depressive disorder in a public healthcare setting: a randomized controlled trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04541-0",
+          "published_at": "2026-08-06T00:00:00+00:00",
+          "summary": "In a publicly funded trial undertaken in the NHS in England, 60 adults with treatment-resistant major depression received psilocybin or placebo alongside standardized psychological support, with psilocybin showing significant improvements in depression symptoms, good tolerabil...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04541-0/MediaObjects/41591_2026_4541_Fig1_HTML.png?as=webp",
+          "match_score": 32
+        },
+        {
           "id": "de4957e325ad90ca",
           "title": "Functional role of skull lymphoid structures in CNS immunosurveillance",
           "source": "Nature",
@@ -667,22 +620,139 @@
           "summary": "Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10951-4/MediaObjects/41586_2026_10951_Fig1_HTML.png?as=webp",
           "match_score": 28
-        },
-        {
-          "id": "8aa7e84ecaeb274f",
-          "title": "Wake-activated neuronal populations that regulate sleep drive",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10928-3",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "Whole-brain activity mapping, targeted cell manipulations and electrophysiology in mice identify wake-activated neuronal populations that are crucial for sleep drive and can persistently reduce daily sleep amount.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10928-3/MediaObjects/41586_2026_10928_Fig1_HTML.png?as=webp",
-          "match_score": 28
         }
       ],
-      "updated_at": "2026-08-20T10:51:55.003566+00:00"
+      "updated_at": "2026-08-20T11:47:41.781403+00:00"
+    },
+    {
+      "id": "dc2337fe52c57bbf",
+      "title": "多地高考录取人数减少",
+      "summary": "2026年高考录取工作已经结束，多地录取人数减少，有的省区市是连续第二年回落。记者梳理发现，在目前公布高考录取数据的省区... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E9%AB%98%E8%80%83%E5%BD%95%E5%8F%96%E4%BA%BA%E6%95%B0%E5%87%8F%E5%B0%91&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 37,
+      "hot_index": 4478781,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 37
+      },
+      "topic": "城市社会",
+      "score": 75,
+      "recommended_title": "多地高考录取人数减少背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00478-0",
+      "main_paper_title": "Effects of Uber and Lyft on jobs, wages and GDP",
+      "related_papers": [
+        {
+          "id": "49da466fdb8f4e4a",
+          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00478-0",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+          "match_score": 50
+        },
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+          "match_score": 50
+        },
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        }
+      ],
+      "updated_at": "2026-08-20T11:47:41.785599+00:00"
     }
   ],
   "items": [
+    {
+      "id": "dbe43c6eaa52f120",
+      "title": "科研团队破解纳米药物“迷路”难题",
+      "display_title": "科研团队破解纳米药物“迷路”难题",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/570109.shtm",
+      "published_at": "2026-08-20T11:47:08.200749+00:00",
+      "detected_at": "2026-08-20T11:47:08.200753+00:00",
+      "summary": "科学网-科研团队破解纳米药物“迷路”难题",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a8578aae4b078fce44af4d1.jpeg",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "abe7940d62efb205",
+      "title": "深海声学反演热带气旋内核结构研究获重要进展",
+      "display_title": "深海声学反演热带气旋内核结构研究获重要进展",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "http://news.sciencenet.cn/htmlnews/2026/8/570112.shtm",
+      "published_at": "2026-08-20T11:47:08.200498+00:00",
+      "detected_at": "2026-08-20T11:47:08.200504+00:00",
+      "summary": "科学网-深海声学反演热带气旋内核结构研究获重要进展",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a86c2aae4b078fce44af57c.png",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "5fa6077c25f37f82",
+      "title": "天津大学团队破解低温下氨电催化反应的关键难题",
+      "display_title": "天津大学团队破解低温下氨电催化反应的关键难题",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/8/570088.shtm",
+      "published_at": "2026-08-20T11:47:08.192766+00:00",
+      "detected_at": "2026-08-20T11:47:08.192780+00:00",
+      "summary": "科学网-天津大学团队破解低温下氨电催化反应的关键难题",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a86d0b2e4b078fce44af584.jpeg",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "25aeb5f7fd5644fd",
+      "title": "为什么说，AI营销正在“杀死”SaaS的灵魂？",
+      "display_title": "为什么说，AI营销正在“杀死”SaaS的灵魂？",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/share/6349720.html",
+      "published_at": "2026-08-20T11:46:59.701920+00:00",
+      "detected_at": "2026-08-20T11:46:59.701934+00:00",
+      "summary": "为什么说，AI营销正在“杀死”SaaS的灵魂？",
+      "image_url": "https://image.woshipm.com/2024/06/04/380f84e6-2221-11ef-9148-00163e142b65.png",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
     {
       "id": "cf63997cc4edccbe",
       "title": "特斯拉中国车机重磅升级豆包大模型，开启智能语音新时代 特斯拉中国车机系统近日更新，全面上线字节跳动旗下豆包大模型。",
@@ -690,9 +760,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30488",
-      "published_at": "2026-08-20T10:51:08.545618+00:00",
-      "detected_at": "2026-08-20T10:51:08.545620+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.539751+00:00",
+      "detected_at": "2026-08-20T11:46:58.539757+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281510003265229949908.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -708,9 +778,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30490",
-      "published_at": "2026-08-20T10:51:08.543940+00:00",
-      "detected_at": "2026-08-20T10:51:08.543942+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.536672+00:00",
+      "detected_at": "2026-08-20T11:46:58.536677+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://pic.chinaz.com/picmap/202412271704350132_0.jpg",
       "image_method": "body",
       "image_rule_version": 12,
@@ -726,9 +796,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30493",
-      "published_at": "2026-08-20T10:51:08.540921+00:00",
-      "detected_at": "2026-08-20T10:51:08.540923+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.531559+00:00",
+      "detected_at": "2026-08-20T11:46:58.531564+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281749581794885897712.jpg",
       "image_method": "body",
       "image_rule_version": 12,
@@ -744,9 +814,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30497",
-      "published_at": "2026-08-20T10:51:08.537378+00:00",
-      "detected_at": "2026-08-20T10:51:08.537382+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.525372+00:00",
+      "detected_at": "2026-08-20T11:46:58.525377+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283042135364011565103.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -762,9 +832,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30501",
-      "published_at": "2026-08-20T10:51:08.533516+00:00",
-      "detected_at": "2026-08-20T10:51:08.533519+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.519113+00:00",
+      "detected_at": "2026-08-20T11:46:58.519118+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283294797455142416069.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -780,9 +850,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30502",
-      "published_at": "2026-08-20T10:51:08.532668+00:00",
-      "detected_at": "2026-08-20T10:51:08.532671+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.517591+00:00",
+      "detected_at": "2026-08-20T11:46:58.517596+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283309096812149284703.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -798,9 +868,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30503",
-      "published_at": "2026-08-20T10:51:08.531733+00:00",
-      "detected_at": "2026-08-20T10:51:08.531738+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.515937+00:00",
+      "detected_at": "2026-08-20T11:46:58.515943+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283684847076244139174.jpg",
       "image_method": "body",
       "image_rule_version": 12,
@@ -816,9 +886,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30504",
-      "published_at": "2026-08-20T10:51:08.530837+00:00",
-      "detected_at": "2026-08-20T10:51:08.530840+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.514303+00:00",
+      "detected_at": "2026-08-20T11:46:58.514309+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283823975939953291851.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -834,9 +904,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30506",
-      "published_at": "2026-08-20T10:51:08.529985+00:00",
-      "detected_at": "2026-08-20T10:51:08.529988+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.512756+00:00",
+      "detected_at": "2026-08-20T11:46:58.512762+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392284079175114698620274.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -846,15 +916,15 @@
       "meta": {}
     },
     {
-      "id": "611801a339f680d8",
-      "title": "美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7K",
-      "display_title": "美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7K",
+      "id": "34dd7df31c36ae3e",
+      "title": "美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3K",
+      "display_title": "美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3K",
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30507",
-      "published_at": "2026-08-20T10:51:08.529090+00:00",
-      "detected_at": "2026-08-20T10:51:08.529095+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.511072+00:00",
+      "detected_at": "2026-08-20T11:46:58.511078+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392284383614875654196198.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -870,9 +940,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30508",
-      "published_at": "2026-08-20T10:51:08.528134+00:00",
-      "detected_at": "2026-08-20T10:51:08.528150+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "published_at": "2026-08-20T11:46:58.509359+00:00",
+      "detected_at": "2026-08-20T11:46:58.509375+00:00",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392284546557276954808718.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -926,7 +996,7 @@
       "url": "https://news.aibase.com/zh/news/30494",
       "published_at": "2026-08-20T08:39:19.651284+00:00",
       "detected_at": "2026-08-20T08:39:19.651289+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281773799513653752336.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -962,7 +1032,7 @@
       "url": "https://news.aibase.com/zh/news/30500",
       "published_at": "2026-08-20T07:11:07.777066+00:00",
       "detected_at": "2026-08-20T07:11:07.777072+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://pic.chinaz.com/picmap/201907082355045789_6.jpg",
       "image_method": "body",
       "image_rule_version": 12,
@@ -1142,7 +1212,7 @@
       "url": "https://news.aibase.com/zh/news/30489",
       "published_at": "2026-08-20T01:42:36.260914+00:00",
       "detected_at": "2026-08-20T01:42:36.260932+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 5.9K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 6.7...",
+      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 刚刚 7.1K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 刚刚 8.3...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392281563233126281422754.jpg",
       "image_method": "body",
       "image_rule_version": 12,
