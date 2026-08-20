@@ -1,5 +1,5 @@
 /* =========================================================
-   ICAT Research Radar V9
+   ICAT Research Radar V10
    Frontend
 ========================================================= */
 
@@ -70,29 +70,40 @@ function looksBrokenText(value) {
         return false;
     }
 
+
     const text =
         String(value);
+
 
     const badTokens = [
 
         "Ã",
+
         "Â",
 
         "â€",
+
         "â€™",
+
         "â€œ",
 
         "å",
+
         "æ",
+
         "ç",
+
         "é",
 
         "锟斤拷",
 
         "�"
+
     ];
 
+
     let score = 0;
+
 
     badTokens.forEach(
         token => {
@@ -105,12 +116,13 @@ function looksBrokenText(value) {
         }
     );
 
+
     return score >= 2;
 }
 
 
 /* =========================================================
-   日期格式
+   日期
 ========================================================= */
 
 function formatDate(value) {
@@ -118,6 +130,7 @@ function formatDate(value) {
     if (!value) {
         return "";
     }
+
 
     const date =
         new Date(value);
@@ -163,6 +176,7 @@ function formatDate(value) {
 function formatUpdateTime(value) {
 
     if (!value) {
+
         return "等待首次自动更新";
     }
 
@@ -176,6 +190,7 @@ function formatUpdateTime(value) {
             date.getTime()
         )
     ) {
+
         return "最近更新时间未知";
     }
 
@@ -221,12 +236,13 @@ function formatUpdateTime(value) {
 
 
 /* =========================================================
-   URL 安全处理
+   URL安全处理
 ========================================================= */
 
 function safeURL(value) {
 
     if (!value) {
+
         return "#";
     }
 
@@ -254,6 +270,7 @@ function safeURL(value) {
             "Invalid URL:",
             value
         );
+
     }
 
 
@@ -294,16 +311,19 @@ function getScoreClass(score) {
 
 
     if (value >= 90) {
+
         return "score-excellent";
     }
 
 
     if (value >= 80) {
+
         return "score-high";
     }
 
 
     if (value >= 70) {
+
         return "score-medium";
     }
 
@@ -352,7 +372,13 @@ function createNewsCard(
     featured = false
 ) {
 
+    /* =====================================================
+       没有图片URL
+       不创建卡片
+    ===================================================== */
+
     if (!item.image_url) {
+
         return null;
     }
 
@@ -397,6 +423,10 @@ function createNewsCard(
         );
 
 
+    /* =====================================================
+       摘要
+    ===================================================== */
+
     let summaryHTML = "";
 
 
@@ -423,6 +453,10 @@ function createNewsCard(
         `;
     }
 
+
+    /* =====================================================
+       突破标签
+    ===================================================== */
 
     const breakthroughHTML =
 
@@ -457,6 +491,10 @@ function createNewsCard(
 
         : "";
 
+
+    /* =====================================================
+       卡片HTML
+    ===================================================== */
 
     card.innerHTML = `
 
@@ -494,6 +532,10 @@ function createNewsCard(
                     )}"
 
                     loading="lazy"
+
+                    decoding="async"
+
+                    referrerpolicy="no-referrer"
 
                 >
 
@@ -606,6 +648,11 @@ function createNewsCard(
     `;
 
 
+    /* =====================================================
+       图片加载失败
+       仍然不展示空白卡
+    ===================================================== */
+
     const image =
         card.querySelector(
             ".card-image"
@@ -620,11 +667,19 @@ function createNewsCard(
 
             () => {
 
+                console.warn(
+                    "Image failed:",
+                    item.source,
+                    item.image_url
+                );
+
+
                 card.remove();
 
             }
 
         );
+
     }
 
 
@@ -700,6 +755,10 @@ function buildRelatedPapersHTML(
                                 )}"
 
                                 loading="lazy"
+
+                                decoding="async"
+
+                                referrerpolicy="no-referrer"
 
                             >
 
@@ -831,7 +890,7 @@ function getPlatformShortName(
 
 
 /* =========================================================
-   单个平台排名
+   平台排名文本
 ========================================================= */
 
 function buildPlatformRankText(
@@ -897,10 +956,12 @@ function buildPlatformTagsHTML(
         platforms = [
             hotspot.platform
         ];
+
     }
 
 
     if (!platforms.length) {
+
         return "";
     }
 
@@ -1013,6 +1074,7 @@ function createHotspotCard(
 ) {
 
     if (!hotspot.image_url) {
+
         return null;
     }
 
@@ -1065,6 +1127,10 @@ function createHotspotCard(
         );
 
 
+    /* =====================================================
+       热点摘要
+    ===================================================== */
+
     let summaryHTML = "";
 
 
@@ -1091,6 +1157,10 @@ function createHotspotCard(
         `;
     }
 
+
+    /* =====================================================
+       推荐标题
+    ===================================================== */
 
     const recommendedHTML =
 
@@ -1124,6 +1194,10 @@ function createHotspotCard(
         : "";
 
 
+    /* =====================================================
+       推荐切口
+    ===================================================== */
+
     const angleHTML =
 
         angle
@@ -1156,11 +1230,19 @@ function createHotspotCard(
         : "";
 
 
+    /* =====================================================
+       Nature论文
+    ===================================================== */
+
     const relatedHTML =
         buildRelatedPapersHTML(
             hotspot.related_papers
         );
 
+
+    /* =====================================================
+       热点卡片HTML
+    ===================================================== */
 
     card.innerHTML = `
 
@@ -1196,6 +1278,10 @@ function createHotspotCard(
                     )}"
 
                     loading="lazy"
+
+                    decoding="async"
+
+                    referrerpolicy="no-referrer"
 
                 >
 
@@ -1309,8 +1395,8 @@ function createHotspotCard(
 
 
     /* =====================================================
-       热点主图失效
-       整条热点删除
+       热点主图片加载失败
+       整条热点不展示
     ===================================================== */
 
     const image =
@@ -1327,17 +1413,24 @@ function createHotspotCard(
 
             () => {
 
+                console.warn(
+                    "Hotspot image failed:",
+                    hotspot.image_url
+                );
+
+
                 card.remove();
 
             }
 
         );
+
     }
 
 
     /* =====================================================
-       Nature关联论文图片失效
-       只隐藏图片
+       Nature小图片加载失败
+       只删除缩略图
     ===================================================== */
 
     card
@@ -1347,11 +1440,13 @@ function createHotspotCard(
         .forEach(
             image => {
 
+
                 image.addEventListener(
 
                     "error",
 
                     () => {
+
 
                         const wrap =
                             image.closest(
@@ -1367,6 +1462,7 @@ function createHotspotCard(
                     }
 
                 );
+
 
             }
         );
@@ -1400,7 +1496,6 @@ function filterNewsItems(
         return allItems.filter(
 
             item =>
-
                 item.category
                 === value
 
@@ -1415,7 +1510,6 @@ function filterNewsItems(
         return allItems.filter(
 
             item =>
-
                 item.source
                 === value
 
@@ -1428,7 +1522,7 @@ function filterNewsItems(
 
 
 /* =========================================================
-   普通资讯标题
+   栏目标题
 ========================================================= */
 
 function getListTitle(
@@ -1472,7 +1566,9 @@ function getListTitle(
         value === "Scientific Data"
     ) {
 
-        return "Scientific Data 最新文章";
+        return (
+            "Scientific Data 最新文章"
+        );
     }
 
 
@@ -1480,7 +1576,9 @@ function getListTitle(
         value === "Nature Cities"
     ) {
 
-        return "Nature Cities 最新文章";
+        return (
+            "Nature Cities 最新文章"
+        );
     }
 
 
@@ -1489,7 +1587,7 @@ function getListTitle(
 
 
 /* =========================================================
-   普通资讯渲染
+   主资讯列表
 ========================================================= */
 
 function renderMainList() {
@@ -1517,6 +1615,11 @@ function renderMainList() {
             "list-title"
         );
 
+
+    /* =====================================================
+       热点模式
+       隐藏普通资讯
+    ===================================================== */
 
     if (
         currentFilter.type
@@ -1583,6 +1686,7 @@ function renderMainList() {
                 container.appendChild(
                     card
                 );
+
 
                 rendered += 1;
             }
@@ -1723,6 +1827,7 @@ function renderFeatured() {
                 container.appendChild(
                     card
                 );
+
             }
 
 
@@ -1732,7 +1837,7 @@ function renderFeatured() {
 
 
 /* =========================================================
-   热点渲染
+   热点列表
 ========================================================= */
 
 function renderHotspots() {
@@ -1799,7 +1904,7 @@ function renderHotspots() {
                 </strong>
 
                 <p>
-                    当前热榜中暂未发现与近期 Nature 研究高度匹配的内容。
+                    当前热榜中暂未发现与近期 Nature 研究匹配的内容。
                 </p>
 
             </div>
@@ -1825,6 +1930,7 @@ function renderHotspots() {
                 container.appendChild(
                     card
                 );
+
             }
 
 
@@ -1834,7 +1940,7 @@ function renderHotspots() {
 
 
 /* =========================================================
-   分类计数
+   分类数量
 ========================================================= */
 
 function countByFilter(
@@ -1872,7 +1978,7 @@ function countByFilter(
 
 
 /* =========================================================
-   导航数字
+   导航按钮数量
 ========================================================= */
 
 function updateFilterCounts() {
@@ -1891,6 +1997,7 @@ function updateFilterCounts() {
 
                     button.dataset.label =
                         button.textContent.trim();
+
                 }
 
 
@@ -1949,17 +2056,16 @@ function updateSummary() {
 
 
     if (!element) {
+
         return;
     }
 
 
     const hotspotCount =
-        allHotspots.filter(
-
-            hotspot =>
-                hotspot.image_url
-
-        ).length;
+        countByFilter(
+            "hotspot",
+            "hotspot"
+        );
 
 
     const aiCount =
@@ -2041,8 +2147,10 @@ function applyFilter(
 ) {
 
     currentFilter = {
+
         type,
         value
+
     };
 
 
@@ -2119,12 +2227,13 @@ function applyFilter(
                 "smooth"
 
         });
+
     }
 }
 
 
 /* =========================================================
-   加载 news.json
+   加载JSON
 ========================================================= */
 
 async function loadNews() {
@@ -2160,7 +2269,9 @@ async function loadNews() {
 
         if (
             !data
+
             ||
+
             !Array.isArray(
                 data.items
             )
@@ -2209,7 +2320,7 @@ async function loadNews() {
 
 
         /* =================================================
-           更新时间
+           最近更新时间
         ================================================= */
 
         const updateElement =
@@ -2224,6 +2335,7 @@ async function loadNews() {
                 formatUpdateTime(
                     data.updated_at
                 );
+
         }
 
 
@@ -2277,6 +2389,7 @@ async function loadNews() {
                 </div>
 
             `;
+
         }
 
 
@@ -2293,6 +2406,7 @@ async function loadNews() {
                 </div>
 
             `;
+
         }
 
     }
