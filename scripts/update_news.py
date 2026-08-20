@@ -16,42 +16,16 @@ from urllib3.util.retry import Retry
 
 
 # =========================================================
-# ICAT Research Radar V9
+# ICAT Research Radar V10
 #
-# V9 调整：
-#
-# 1. AI变现
-#    AIBase重新解析
-#    只保留商业化、付费、创业、营收等相关内容
-#
-# 2. 提效工具
-#    删除GitHub
-#    增加：
-#    - 小众软件
-#    - 少数派
-#    - 量子位部分实用工具内容
-#
-# 3. 热点
-#    增加：
-#    - 百度热搜
-#    - 百度民生
-#    - 微博热搜
-#
-#    多平台重复热点自动合并
-#
-# 4. 热点图片
-#    不再使用百度/微博缩略图
-#    主图只使用匹配Nature论文的真实文章图片
-#
-# 5. 没有有效图片
-#    不收录
-#
+# 重点调整：
+# 1) 热点：恢复 V8 的宽筛选，保留百度热搜/百度民生/微博热搜多平台来源
+# 2) AI变现：AIBase + 人人都是产品经理 + 白鲸出海
+# 3) 提效工具：小众软件 + 少数派 + 量子位，不再使用 GitHub
+# 4) 前沿动态：保持上一版逻辑
+# 5) 无有效图片的普通资讯和热点都不入选
 # =========================================================
 
-
-# =========================================================
-# 基础配置
-# =========================================================
 
 DATA_FILE = Path(
     "data/news.json"
@@ -61,17 +35,17 @@ MAX_ITEMS = 500
 
 KEEP_DAYS = 45
 
-DETAIL_FETCH_LIMIT = 260
+DETAIL_FETCH_LIMIT = 280
 
 DETAIL_WORKERS = 10
 
-IMAGE_RULE_VERSION = 9
+IMAGE_RULE_VERSION = 10
 
 MAX_HOTSPOTS = 12
 
 MAX_RELATED_PAPERS = 3
 
-HOT_PAPER_DETAIL_LIMIT = 80
+HOT_PAPER_DETAIL_LIMIT = 90
 
 
 # =========================================================
@@ -154,9 +128,12 @@ AIBASE_URL = (
     "https://news.aibase.com/zh/news"
 )
 
-QBITAI_URL = (
-    "https://www.qbitai.com/"
-    "category/%E8%B5%84%E8%AE%AF"
+WOSHIPM_AI_URL = (
+    "https://www.woshipm.com/category/ai"
+)
+
+BAIJING_URL = (
+    "https://www.baijing.cn/"
 )
 
 APPINN_URL = (
@@ -165,6 +142,11 @@ APPINN_URL = (
 
 SSPAI_URL = (
     "https://sspai.com/"
+)
+
+QBITAI_URL = (
+    "https://www.qbitai.com/"
+    "category/%E8%B5%84%E8%AE%AF"
 )
 
 STD_BREAKTHROUGH_URL = (
@@ -182,7 +164,7 @@ DEEPTECH_URL = (
 
 
 # =========================================================
-# 热点来源
+# 热点
 # =========================================================
 
 BAIDU_REALTIME_URL = (
@@ -318,8 +300,8 @@ BREAKTHROUGH_KEYWORDS = [
     "世界首个",
     "国内首个",
     "我国首个",
-
     "首个",
+
     "首例",
     "首台",
     "首套",
@@ -363,9 +345,48 @@ BREAKTHROUGH_KEYWORDS = [
 
 
 # =========================================================
+# AI核心关键词
+# =========================================================
+
+AI_CORE_KEYWORDS = [
+
+    "AI",
+    "人工智能",
+    "大模型",
+    "AIGC",
+
+    "智能体",
+    "Agent",
+
+    "ChatGPT",
+    "OpenAI",
+
+    "Claude",
+    "Anthropic",
+
+    "Gemini",
+
+    "DeepSeek",
+
+    "Qwen",
+    "千问",
+
+    "豆包",
+    "Manus",
+
+    "Copilot",
+
+    "Sora",
+    "Midjourney",
+
+    "生成式AI",
+    "生成式人工智能",
+
+]
+
+
+# =========================================================
 # AI变现关键词
-#
-# 不再把AIBase所有内容全部塞进AI变现
 # =========================================================
 
 AI_MONEY_KEYWORDS = [
@@ -380,17 +401,17 @@ AI_MONEY_KEYWORDS = [
     "盈利",
 
     "创业",
-    "个体创业",
 
     "融资",
     "估值",
+
     "IPO",
+    "上市",
 
     "付费",
     "订阅",
     "收费",
-    "价格",
-    "套餐",
+    "定价",
 
     "广告",
     "营销",
@@ -405,10 +426,8 @@ AI_MONEY_KEYWORDS = [
 
     "应用上架",
     "上架",
-    "分发",
 
-    "平台",
-    "产品",
+    "分发",
 
     "企业服务",
 
@@ -420,20 +439,32 @@ AI_MONEY_KEYWORDS = [
     "销售",
     "订单",
 
+    "ARR",
+    "MRR",
+
+    "流水",
+    "付费率",
+
+    "客单价",
+
+    "出海",
+
+    "增长",
+
 ]
 
 
 # =========================================================
-# 提效工具关键词
+# 提效工具
 # =========================================================
 
 TOOL_KEYWORDS = [
 
     "效率",
+
     "工具",
     "软件",
     "应用",
-
     "App",
 
     "PDF",
@@ -461,6 +492,7 @@ TOOL_KEYWORDS = [
 
     "论文",
     "文献",
+
     "学术",
     "科研",
 
@@ -502,44 +534,40 @@ TOOL_KEYWORDS = [
 
     "云盘",
 
+    "AI助手",
+    "AI 工具",
+
 ]
 
-
-# =========================================================
-# 工具栏目排除
-# =========================================================
 
 TOOL_EXCLUDE = [
 
     "游戏",
 
     "直播",
-    "看球",
 
     "影视",
 
-    "小说资源",
-
     "破解",
+
     "盗版",
 
     "彩票",
+
     "博彩",
 
 ]
 
 
 # =========================================================
-# 热点排除
+# 热点：
 #
-# 避免娱乐体育和口号型话题进入科研热点
+# V10恢复上一版的宽筛选
 # =========================================================
 
 HOT_EXCLUDE_WORDS = [
 
     "票房",
-
-    "电影",
 
     "电视剧",
 
@@ -567,43 +595,8 @@ HOT_EXCLUDE_WORDS = [
 
     "WTT",
 
-    "夺冠",
-
-    "进球",
-
-    "比分",
-
-    "总书记",
-
-    "重要讲话",
-
-    "庆祝大会",
-
-    "最美的天使",
-
-    "广大医务人员",
-
-    "致敬",
-
-    "纪念大会",
-
 ]
 
-
-# =========================================================
-# 热点主题
-#
-# 这里比V8严格很多
-#
-# 不再使用：
-# “工作”
-# “大学”
-# “社会”
-# “动物”
-# “植物”
-#
-# 这类过宽关键词
-# =========================================================
 
 HOT_TOPIC_RULES = [
 
@@ -620,6 +613,8 @@ HOT_TOPIC_RULES = [
         "cn": [
 
             "人工智能",
+
+            "AI",
 
             "大模型",
 
@@ -642,6 +637,10 @@ HOT_TOPIC_RULES = [
             "Claude",
 
             "Gemini",
+
+            "OpenAI",
+
+            "Manus",
 
         ],
 
@@ -705,21 +704,23 @@ HOT_TOPIC_RULES = [
 
             "极端天气",
 
-            "全球变暖",
+            "气候",
 
-            "气候变化",
+            "全球变暖",
 
             "空气污染",
 
             "PM2.5",
 
-            "臭氧污染",
+            "臭氧",
 
             "碳排放",
 
             "碳中和",
 
-            "城市内涝",
+            "污染",
+
+            "环保",
 
         ],
 
@@ -756,14 +757,14 @@ HOT_TOPIC_RULES = [
         ],
 
         "angle":
-            "从极端天气或环境事件切入，"
-            "用Nature研究解释风险形成机制、暴露变化与长期趋势。",
+            "从正在发生的天气或环境事件切入，"
+            "利用Nature研究解释形成机制、风险变化和长期趋势。",
 
     },
 
 
     # =====================================================
-    # 城市民生
+    # 城市社会
     # =====================================================
 
     {
@@ -773,35 +774,43 @@ HOT_TOPIC_RULES = [
 
         "cn": [
 
-            "城市更新",
-
-            "房价",
+            "城市",
 
             "住房",
 
+            "房价",
+
+            "交通",
+
             "通勤",
 
-            "交通拥堵",
-
-            "人口老龄化",
+            "人口",
 
             "老龄化",
 
-            "生育率",
+            "生育",
 
-            "出生率",
+            "就业",
 
-            "就业率",
+            "工作",
 
-            "失业率",
+            "职场",
 
-            "灵活就业",
+            "城市更新",
 
-            "城市人口",
+            "社区",
+
+            "教育",
+
+            "大学",
+
+            "博士",
+
+            "高校",
 
             "租房",
 
-            "社区治理",
+            "年轻人",
 
         ],
 
@@ -833,15 +842,17 @@ HOT_TOPIC_RULES = [
 
             "employment",
 
-            "unemployment",
+            "workplace",
 
-            "community",
+            "education",
+
+            "university",
 
         ],
 
         "angle":
-            "从民生和城市议题切入，"
-            "用Nature研究解释个体现象背后的结构性变化。",
+            "从公众正在讨论的城市或社会问题切入，"
+            "用Nature相关研究解释个体现象背后的结构性变化。",
 
     },
 
@@ -857,9 +868,9 @@ HOT_TOPIC_RULES = [
 
         "cn": [
 
-            "睡眠",
+            "健康",
 
-            "失眠",
+            "睡眠",
 
             "熬夜",
 
@@ -873,13 +884,15 @@ HOT_TOPIC_RULES = [
 
             "糖尿病",
 
-            "心血管",
+            "心脏",
 
-            "心脏病",
+            "心血管",
 
             "抑郁",
 
             "焦虑",
+
+            "疾病",
 
             "病毒",
 
@@ -895,13 +908,21 @@ HOT_TOPIC_RULES = [
 
             "营养",
 
-            "运动健康",
+            "运动",
 
-            "传染病",
+            "保健品",
+
+            "医生",
+
+            "医院",
+
+            "医疗",
 
         ],
 
         "en": [
+
+            "health",
 
             "sleep",
 
@@ -925,6 +946,8 @@ HOT_TOPIC_RULES = [
 
             "anxiety",
 
+            "disease",
+
             "virus",
 
             "vaccine",
@@ -941,13 +964,11 @@ HOT_TOPIC_RULES = [
 
             "exercise",
 
-            "infectious disease",
-
         ],
 
         "angle":
-            "从大众健康关注切入，"
-            "用Nature论文区分科学证据、相关性与流行说法。",
+            "从大众健康焦虑或生活方式热点切入，"
+            "用Nature论文区分科学证据、相关性与网络流行说法。",
 
     },
 
@@ -975,21 +996,19 @@ HOT_TOPIC_RULES = [
 
             "钙钛矿",
 
-            "核聚变",
-
             "核能",
+
+            "核聚变",
 
             "芯片",
 
             "半导体",
 
-            "量子计算",
-
-            "量子通信",
+            "量子",
 
             "超导",
 
-            "新材料",
+            "材料",
 
         ],
 
@@ -1022,14 +1041,14 @@ HOT_TOPIC_RULES = [
         ],
 
         "angle":
-            "从产业或技术热点切入，"
-            "结合Nature论文解释技术路线、性能提升和现实应用边界。",
+            "从技术突破或产业热点切入，"
+            "结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
 
     },
 
 
     # =====================================================
-    # 生态
+    # 生态生命
     # =====================================================
 
     {
@@ -1039,27 +1058,27 @@ HOT_TOPIC_RULES = [
 
         "cn": [
 
+            "动物",
+
+            "植物",
+
+            "物种",
+
             "生物多样性",
 
-            "物种灭绝",
+            "森林",
 
-            "濒危物种",
+            "海洋",
 
-            "森林火灾",
+            "昆虫",
 
-            "珊瑚白化",
-
-            "海洋生态",
+            "生态",
 
             "野生动物",
 
-            "外来物种",
-
-            "生态系统",
-
             "候鸟",
 
-            "昆虫减少",
+            "珊瑚",
 
         ],
 
@@ -1067,31 +1086,27 @@ HOT_TOPIC_RULES = [
 
             "biodiversity",
 
-            "species extinction",
+            "species",
 
-            "endangered species",
-
-            "forest fire",
-
-            "coral bleaching",
+            "forest",
 
             "marine",
 
             "ocean",
 
-            "wildlife",
-
-            "invasive species",
+            "insect",
 
             "ecosystem",
+
+            "wildlife",
 
             "ecology",
 
         ],
 
         "angle":
-            "从公众关注的自然事件切入，"
-            "结合Nature生态研究解释生态过程和环境意义。",
+            "从公众关注的自然现象或物种新闻切入，"
+            "结合Nature生态研究解释背后的生态过程和环境意义。",
 
     },
 
@@ -1099,7 +1114,7 @@ HOT_TOPIC_RULES = [
 
 
 # =========================================================
-# 不合格图片关键词
+# 图片排除
 # =========================================================
 
 BAD_IMAGE_TOKENS = [
@@ -1150,12 +1165,16 @@ def clean_text(text):
         return ""
 
     text = BeautifulSoup(
+
         str(text),
+
         "html.parser"
+
     ).get_text(
         " ",
         strip=True
     )
+
 
     return re.sub(
         r"\s+",
@@ -1186,18 +1205,25 @@ def looks_mojibake(text):
 
         return False
 
+
     bad = [
 
         "Ã",
+
         "Â",
 
         "â€",
+
         "â€™",
+
         "â€œ",
 
         "å",
+
         "æ",
+
         "ç",
+
         "é",
 
         "锟斤拷",
@@ -1206,11 +1232,18 @@ def looks_mojibake(text):
 
     ]
 
+
     return (
 
         sum(
-            text.count(x)
-            for x in bad
+
+            text.count(
+                item
+            )
+
+            for item
+            in bad
+
         )
 
         >= 2
@@ -1223,6 +1256,7 @@ def clean_summary(text):
     text = clean_text(
         text
     )
+
 
     if (
 
@@ -1242,6 +1276,7 @@ def clean_summary(text):
 
         return ""
 
+
     if len(text) > 280:
 
         return (
@@ -1250,11 +1285,12 @@ def clean_summary(text):
             + "..."
         )
 
+
     return text
 
 
 # =========================================================
-# 正确读取网页编码
+# 编码
 # =========================================================
 
 def decode_response(
@@ -1263,12 +1299,14 @@ def decode_response(
 
     raw = response.content
 
+
     content_type = (
         response.headers.get(
             "content-type",
             ""
         )
     )
+
 
     charset = None
 
@@ -1326,7 +1364,9 @@ def decode_response(
     if charset in {
 
         "gb2312",
+
         "gbk",
+
         "gb_2312",
 
     }:
@@ -1337,7 +1377,9 @@ def decode_response(
     for encoding in [
 
         charset,
+
         "utf-8",
+
         "gb18030",
 
     ]:
@@ -1346,12 +1388,17 @@ def decode_response(
 
             continue
 
+
         try:
 
             return raw.decode(
+
                 encoding,
+
                 errors="replace"
+
             )
+
 
         except Exception:
 
@@ -1359,8 +1406,11 @@ def decode_response(
 
 
     return raw.decode(
+
         "utf-8",
+
         errors="replace"
+
     )
 
 
@@ -1376,15 +1426,20 @@ def refine_title(
         title
     )
 
+
     if not title:
 
         return ""
 
 
     title = re.sub(
+
         r"^#\s*\d+\s*",
+
         "",
+
         title
+
     )
 
 
@@ -1422,16 +1477,24 @@ def refine_title(
     for pattern in patterns:
 
         title = re.sub(
+
             pattern,
+
             "",
+
             title
+
         )
 
 
     title = re.sub(
+
         r"\s+",
+
         " ",
+
         title
+
     )
 
 
@@ -1451,15 +1514,22 @@ def make_id(
 ):
 
     raw = (
+
         f"{source}|"
+
         f"{title}|"
+
         f"{url}"
+
     )
 
+
     return hashlib.sha1(
+
         raw.encode(
             "utf-8"
         )
+
     ).hexdigest()[:16]
 
 
@@ -1484,11 +1554,13 @@ def parse_date(
             value
         )
 
+
         if dt.tzinfo is None:
 
             dt = dt.replace(
                 tzinfo=timezone.utc
             )
+
 
         return dt.isoformat()
 
@@ -1531,21 +1603,28 @@ def extract_date_from_text(
     for pattern in patterns:
 
         match = re.search(
+
             pattern,
+
             text,
+
             flags=re.I
+
         )
+
 
         if match:
 
-            return match.group(1)
+            return match.group(
+                1
+            )
 
 
     return None
 
 
 # =========================================================
-# 关键词工具
+# 关键词判断
 # =========================================================
 
 def is_breakthrough(
@@ -1555,6 +1634,7 @@ def is_breakthrough(
     text = clean_text(
         text
     )
+
 
     return any(
 
@@ -1575,6 +1655,7 @@ def has_any(
         text
     ).lower()
 
+
     return any(
 
         keyword.lower()
@@ -1586,111 +1667,46 @@ def has_any(
     )
 
 
-# =========================================================
-# 创建普通资讯
-# =========================================================
-
-def make_item(
-
-    title,
-
-    source,
-
-    category,
-
-    url,
-
-    published_at=None,
-
-    summary="",
-
-    priority="B",
-
-    language="zh",
-
-    display_title=None,
-
-    is_breakthrough_item=False,
-
-    meta=None,
-
+def ai_money_relevant(
+    text
 ):
 
-    return {
+    return (
 
-        "id":
-            make_id(
-                source,
-                title,
-                url
-            ),
+        has_any(
+            text,
+            AI_CORE_KEYWORDS
+        )
 
-        "title":
-            clean_text(
-                title
-            ),
+        and
 
-        "display_title":
-            clean_text(
+        has_any(
+            text,
+            AI_MONEY_KEYWORDS
+        )
 
-                display_title
+    )
 
-                or
 
-                refine_title(
-                    title
-                )
+def tool_relevant(
+    text
+):
 
-            ),
+    return (
 
-        "source":
-            source,
+        not has_any(
+            text,
+            TOOL_EXCLUDE
+        )
 
-        "category":
-            category,
+        and
 
-        "url":
-            url,
+        has_any(
+            text,
+            TOOL_KEYWORDS
+        )
 
-        "published_at":
-            parse_date(
-                published_at
-            ),
-
-        "detected_at":
-            datetime.now(
-                timezone.utc
-            ).isoformat(),
-
-        "summary":
-            clean_summary(
-                summary
-            ),
-
-        "image_url":
-            "",
-
-        "image_method":
-            "",
-
-        "image_rule_version":
-            IMAGE_RULE_VERSION,
-
-        "priority":
-            priority,
-
-        "language":
-            language,
-
-        "is_breakthrough":
-            bool(
-                is_breakthrough_item
-            ),
-
-        "meta":
-            meta or {},
-
-    }
+    )
 
 
 # =========================================================
@@ -1733,17 +1749,18 @@ def normalize_image_url(
     )
 
 
-    if parsed.scheme not in {
+    if parsed.scheme in {
 
         "http",
+
         "https",
 
     }:
 
-        return ""
+        return image_url
 
 
-    return image_url
+    return ""
 
 
 def image_is_bad(
@@ -1766,10 +1783,6 @@ def image_is_bad(
 
     )
 
-
-# =========================================================
-# img地址
-# =========================================================
 
 def get_img_src(
     img,
@@ -1866,8 +1879,11 @@ def get_img_src(
     for candidate in candidates:
 
         url = normalize_image_url(
+
             candidate,
+
             page_url
+
         )
 
 
@@ -1909,10 +1925,6 @@ def get_numeric_attr(
         match.group(0)
     )
 
-
-# =========================================================
-# 正文图片评分
-# =========================================================
 
 def image_score(
     img,
@@ -2038,44 +2050,66 @@ def image_score(
     )
 
 
+    good_context = [
+
+        "article",
+
+        "content",
+
+        "detail",
+
+        "news",
+
+        "body",
+
+        "post",
+
+        "figure",
+
+    ]
+
+
     if any(
 
         word in ancestor_text
 
-        for word in [
-
-            "article",
-            "content",
-            "detail",
-            "news",
-            "body",
-            "post",
-            "figure",
-
-        ]
+        for word
+        in good_context
 
     ):
 
         score += 80
 
 
+    bad_context = [
+
+        "recommend",
+
+        "related",
+
+        "sidebar",
+
+        "footer",
+
+        "header",
+
+        "logo",
+
+        "menu",
+
+        "nav",
+
+        "author",
+
+    ]
+
+
     if any(
 
         word in ancestor_text
 
-        for word in [
-
-            "recommend",
-            "related",
-            "sidebar",
-            "footer",
-            "header",
-            "logo",
-            "menu",
-            "nav",
-            "author",
-
-        ]
+        for word
+        in bad_context
 
     ):
 
@@ -2194,8 +2228,8 @@ def extract_best_content_image(
 
     candidates.sort(
 
-        key=lambda x:
-            x[0],
+        key=lambda item:
+            item[0],
 
         reverse=True
 
@@ -2206,10 +2240,6 @@ def extract_best_content_image(
         0
     ][1]
 
-
-# =========================================================
-# OG图片
-# =========================================================
 
 def extract_og_image(
     soup,
@@ -2272,14 +2302,14 @@ def extract_og_image(
 
 
 # =========================================================
-# 摘要
+# 摘要 / 标题
 # =========================================================
 
 def extract_article_summary(
     soup
 ):
 
-    for selector in [
+    selectors = [
 
         'meta[property="og:description"]',
 
@@ -2287,7 +2317,10 @@ def extract_article_summary(
 
         'meta[name="twitter:description"]',
 
-    ]:
+    ]
+
+
+    for selector in selectors:
 
         node = soup.select_one(
             selector
@@ -2332,12 +2365,12 @@ def extract_article_summary(
 
     for selector in paragraph_selectors:
 
-        for p in soup.select(
+        for paragraph in soup.select(
             selector
         ):
 
             text = clean_summary(
-                p.get_text(
+                paragraph.get_text(
                     " ",
                     strip=True
                 )
@@ -2351,10 +2384,6 @@ def extract_article_summary(
 
     return ""
 
-
-# =========================================================
-# 页面标题
-# =========================================================
 
 def extract_article_title(
     soup
@@ -2385,7 +2414,7 @@ def extract_article_title(
             )
 
 
-            if 5 <= len(title) <= 160:
+            if 5 <= len(title) <= 180:
 
                 return title
 
@@ -2394,7 +2423,7 @@ def extract_article_title(
 
 
 # =========================================================
-# 抓文章详情
+# 详情页
 # =========================================================
 
 def fetch_page_details(
@@ -2459,7 +2488,7 @@ def fetch_page_details(
 
 
         # =================================================
-        # 正文图片优先
+        # 正文图优先
         # =================================================
 
         image_url = (
@@ -2482,13 +2511,17 @@ def fetch_page_details(
 
 
         # =================================================
-        # 正文没找到再用OG
-        #
-        # 科学网继续禁止OG
-        # 防止Logo
+        # AIBase与科学网不用OG
+        # 避免logo
         # =================================================
 
-        elif source != "科学网":
+        elif source not in {
+
+            "科学网",
+
+            "AIBase",
+
+        }:
 
             og_image = (
                 extract_og_image(
@@ -2519,10 +2552,15 @@ def fetch_page_details(
     except Exception as error:
 
         print(
+
             "Detail failed:",
+
             source,
+
             url,
+
             error
+
         )
 
 
@@ -2530,9 +2568,114 @@ def fetch_page_details(
 
 
 # =========================================================
+# 普通 item
+# =========================================================
+
+def make_item(
+
+    title,
+
+    source,
+
+    category,
+
+    url,
+
+    published_at=None,
+
+    summary="",
+
+    priority="B",
+
+    language="zh",
+
+    display_title=None,
+
+    is_breakthrough_item=False,
+
+    meta=None,
+
+):
+
+    return {
+
+        "id":
+            make_id(
+                source,
+                title,
+                url
+            ),
+
+        "title":
+            clean_text(
+                title
+            ),
+
+        "display_title":
+            clean_text(
+
+                display_title
+
+                or
+
+                refine_title(
+                    title
+                )
+
+            ),
+
+        "source":
+            source,
+
+        "category":
+            category,
+
+        "url":
+            url,
+
+        "published_at":
+            parse_date(
+                published_at
+            ),
+
+        "detected_at":
+            datetime.now(
+                timezone.utc
+            ).isoformat(),
+
+        "summary":
+            clean_summary(
+                summary
+            ),
+
+        "image_url":
+            "",
+
+        "image_method":
+            "",
+
+        "image_rule_version":
+            IMAGE_RULE_VERSION,
+
+        "priority":
+            priority,
+
+        "language":
+            language,
+
+        "is_breakthrough":
+            bool(
+                is_breakthrough_item
+            ),
+
+        "meta":
+            meta or {},
+
+    }
+
+
+# =========================================================
 # AIBase
-#
-# AI变现
 # =========================================================
 
 def fetch_aibase():
@@ -2550,8 +2693,11 @@ def fetch_aibase():
     try:
 
         response = SESSION.get(
+
             AIBASE_URL,
+
             timeout=30
+
         )
 
 
@@ -2591,16 +2737,22 @@ def fetch_aibase():
 
 
         if not re.search(
+
             r"/zh/news/\d+",
+
             href
+
         ):
 
             continue
 
 
         url = urljoin(
+
             AIBASE_URL,
+
             href
+
         )
 
 
@@ -2609,30 +2761,32 @@ def fetch_aibase():
             continue
 
 
-        raw = clean_text(
-            node.get_text(
-                " ",
-                strip=True
+        heading = (
+
+            node.find(
+                [
+                    "h2",
+                    "h3",
+                    "h4",
+                ]
             )
-        )
 
+            or
 
-        title_node = node.select_one(
+            node.select_one(
 
-            "h1,"
-            "h2,"
-            "h3,"
-            "h4,"
-            "[class*='title'],"
-            "[class*='Title']"
+                "[class*='title'], "
+                "[class*='Title']"
+
+            )
 
         )
 
 
-        if title_node:
+        if heading:
 
             title = clean_text(
-                title_node.get_text(
+                heading.get_text(
                     " ",
                     strip=True
                 )
@@ -2641,13 +2795,13 @@ def fetch_aibase():
 
         else:
 
-            title = raw
+            title = clean_text(
+                node.get_text(
+                    " ",
+                    strip=True
+                )
+            )
 
-
-        # =================================================
-        # AIBase有时整个卡片文本都在a标签里
-        # 防止标题变成标题+摘要
-        # =================================================
 
         if len(title) > 130:
 
@@ -2677,7 +2831,7 @@ def fetch_aibase():
 
         if node.parent:
 
-            card_text = clean_text(
+            context = clean_text(
                 node.parent.get_text(
                     " ",
                     strip=True
@@ -2687,25 +2841,20 @@ def fetch_aibase():
 
         else:
 
-            card_text = raw
+            context = title
 
 
         combined = (
+
             f"{title} "
-            f"{card_text}"
+
+            f"{context}"
+
         )
 
 
-        # =================================================
-        # 只有与商业应用有关才进入AI变现
-        # =================================================
-
-        if not has_any(
-
-            combined,
-
-            AI_MONEY_KEYWORDS
-
+        if not ai_money_relevant(
+            combined
         ):
 
             continue
@@ -2716,20 +2865,31 @@ def fetch_aibase():
         )
 
 
-        high_value = any(
+        strong = has_any(
 
-            word in combined
+            combined,
 
-            for word in [
+            [
 
                 "变现",
+
                 "商业化",
+
                 "营收",
+
                 "盈利",
+
                 "付费",
+
                 "创业",
+
                 "融资",
+
                 "IPO",
+
+                "流水",
+
+                "ARR",
 
             ]
 
@@ -2753,12 +2913,12 @@ def fetch_aibase():
                     url,
 
                 summary=
-                    card_text,
+                    context,
 
                 priority=
                     (
                         "A"
-                        if high_value
+                        if strong
                         else "B"
                     ),
 
@@ -2781,29 +2941,454 @@ def fetch_aibase():
     )
 
 
+    return results[:40]
+
+
+# =========================================================
+# 人人都是产品经理
+# =========================================================
+
+def fetch_woshipm_ai():
+
+    print(
+        "Fetching 人人都是产品经理 AI..."
+    )
+
+
+    results = []
+
+    seen = set()
+
+
+    try:
+
+        response = SESSION.get(
+
+            WOSHIPM_AI_URL,
+
+            timeout=30
+
+        )
+
+
+        response.raise_for_status()
+
+
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
+        )
+
+
+    except Exception as error:
+
+        print(
+            "人人都是产品经理 failed:",
+            error
+        )
+
+        return results
+
+
+    for link in soup.find_all(
+        "a",
+        href=True
+    ):
+
+        href = link.get(
+            "href",
+            ""
+        )
+
+
+        url = urljoin(
+
+            WOSHIPM_AI_URL,
+
+            href
+
+        )
+
+
+        if (
+
+            "woshipm.com"
+
+            not in
+
+            urlparse(
+                url
+            ).netloc
+
+        ):
+
+            continue
+
+
+        if url in seen:
+
+            continue
+
+
+        if any(
+
+            path in url
+
+            for path in [
+
+                "/category/",
+
+                "/author/",
+
+                "/tag/",
+
+                "/question/",
+
+            ]
+
+        ):
+
+            continue
+
+
+        title = clean_text(
+            link.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+
+        if (
+
+            not contains_chinese(
+                title
+            )
+
+            or
+
+            not (
+                8
+                <=
+                len(title)
+                <=
+                120
+            )
+
+        ):
+
+            continue
+
+
+        if link.parent:
+
+            context = clean_text(
+                link.parent.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+        else:
+
+            context = title
+
+
+        combined = (
+            f"{title} "
+            f"{context}"
+        )
+
+
+        if not ai_money_relevant(
+            combined
+        ):
+
+            continue
+
+
+        seen.add(
+            url
+        )
+
+
+        results.append(
+
+            make_item(
+
+                title=
+                    title,
+
+                source=
+                    "人人都是产品经理",
+
+                category=
+                    "AI变现",
+
+                url=
+                    url,
+
+                summary=
+                    context,
+
+                priority=
+                    (
+                        "A"
+
+                        if has_any(
+                            combined,
+                            [
+                                "商业化",
+                                "营收",
+                                "盈利",
+                                "付费",
+                                "变现",
+                                "创业",
+                            ]
+                        )
+
+                        else "B"
+                    ),
+
+                language=
+                    "zh",
+
+            )
+
+        )
+
+
+    print(
+        "人人都是产品经理 AI变现:",
+        len(results)
+    )
+
+
     return results[:35]
 
 
 # =========================================================
-# 提效工具判断
+# 白鲸出海
 # =========================================================
 
-def tool_relevant(
-    text
-):
+def fetch_baijing_ai_money():
 
-    if has_any(
-        text,
-        TOOL_EXCLUDE
-    ):
-
-        return False
-
-
-    return has_any(
-        text,
-        TOOL_KEYWORDS
+    print(
+        "Fetching 白鲸出海 AI monetization..."
     )
+
+
+    results = []
+
+    seen = set()
+
+
+    pages = [
+
+        BAIJING_URL,
+
+        "https://jishuzhan.baijing.cn/",
+
+    ]
+
+
+    for page_url in pages:
+
+        try:
+
+            response = SESSION.get(
+
+                page_url,
+
+                timeout=30
+
+            )
+
+
+            response.raise_for_status()
+
+
+            soup = BeautifulSoup(
+
+                decode_response(
+                    response
+                ),
+
+                "html.parser"
+
+            )
+
+
+        except Exception as error:
+
+            print(
+
+                "白鲸页面 failed:",
+
+                page_url,
+
+                error
+
+            )
+
+            continue
+
+
+        for link in soup.find_all(
+            "a",
+            href=True
+        ):
+
+            href = link.get(
+                "href",
+                ""
+            )
+
+
+            url = urljoin(
+                page_url,
+                href
+            )
+
+
+            if not re.search(
+
+                r"/(?:m/)?article/\d+",
+
+                url
+
+            ):
+
+                continue
+
+
+            if url in seen:
+
+                continue
+
+
+            title = clean_text(
+                link.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+            if (
+
+                not contains_chinese(
+                    title
+                )
+
+                or
+
+                not (
+                    8
+                    <=
+                    len(title)
+                    <=
+                    130
+                )
+
+            ):
+
+                continue
+
+
+            if link.parent:
+
+                context = clean_text(
+                    link.parent.get_text(
+                        " ",
+                        strip=True
+                    )
+                )
+
+
+            else:
+
+                context = title
+
+
+            combined = (
+                f"{title} "
+                f"{context}"
+            )
+
+
+            if not ai_money_relevant(
+                combined
+            ):
+
+                continue
+
+
+            seen.add(
+                url
+            )
+
+
+            results.append(
+
+                make_item(
+
+                    title=
+                        title,
+
+                    source=
+                        "白鲸出海",
+
+                    category=
+                        "AI变现",
+
+                    url=
+                        url,
+
+                    summary=
+                        context,
+
+                    priority=
+                        (
+                            "A"
+
+                            if has_any(
+                                combined,
+                                [
+                                    "商业化",
+                                    "营收",
+                                    "收入",
+                                    "流水",
+                                    "付费",
+                                    "变现",
+                                    "增长",
+                                ]
+                            )
+
+                            else "B"
+                        ),
+
+                    language=
+                        "zh",
+
+                )
+
+            )
+
+
+    print(
+        "白鲸出海 AI变现:",
+        len(results)
+    )
+
+
+    return results[:35]
 
 
 # =========================================================
@@ -2825,8 +3410,11 @@ def fetch_appinn():
     try:
 
         response = SESSION.get(
+
             APPINN_URL,
+
             timeout=30
+
         )
 
 
@@ -2881,29 +3469,32 @@ def fetch_appinn():
 
 
         url = urljoin(
+
             APPINN_URL,
+
             link.get(
                 "href",
                 ""
             )
+
         )
 
 
-        parsed = urlparse(
-            url
-        )
+        if (
 
+            urlparse(
+                url
+            ).netloc
 
-        # =================================================
-        # 去掉广告跳转域名
-        # =================================================
+            not in {
 
-        if parsed.netloc not in {
+                "www.appinn.com",
 
-            "www.appinn.com",
-            "appinn.com",
+                "appinn.com",
 
-        }:
+            }
+
+        ):
 
             continue
 
@@ -2940,34 +3531,6 @@ def fetch_appinn():
         )
 
 
-        strong = has_any(
-
-            title,
-
-            [
-
-                "AI",
-                "科研",
-
-                "PDF",
-
-                "文档",
-
-                "Obsidian",
-
-                "Notion",
-
-                "OCR",
-
-                "学习",
-
-                "效率",
-
-            ]
-
-        )
-
-
         results.append(
 
             make_item(
@@ -2995,7 +3558,22 @@ def fetch_appinn():
                 priority=
                     (
                         "A"
-                        if strong
+
+                        if has_any(
+                            title,
+                            [
+                                "AI",
+                                "科研",
+                                "PDF",
+                                "文档",
+                                "Obsidian",
+                                "Notion",
+                                "OCR",
+                                "学习",
+                                "效率",
+                            ]
+                        )
+
                         else "B"
                     ),
 
@@ -3035,8 +3613,11 @@ def fetch_sspai():
     try:
 
         response = SESSION.get(
+
             SSPAI_URL,
+
             timeout=30
+
         )
 
 
@@ -3081,8 +3662,11 @@ def fetch_sspai():
 
 
         url = urljoin(
+
             SSPAI_URL,
+
             href
+
         )
 
 
@@ -3112,7 +3696,7 @@ def fetch_sspai():
                 <=
                 len(title)
                 <=
-                100
+                110
             )
 
         ):
@@ -3147,33 +3731,6 @@ def fetch_sspai():
         )
 
 
-        strong = has_any(
-
-            title,
-
-            [
-
-                "App+1",
-
-                "Obsidian",
-
-                "Notion",
-
-                "AI",
-
-                "效率",
-
-                "笔记",
-
-                "写作",
-
-                "阅读",
-
-            ]
-
-        )
-
-
         results.append(
 
             make_item(
@@ -3196,7 +3753,20 @@ def fetch_sspai():
                 priority=
                     (
                         "A"
-                        if strong
+
+                        if has_any(
+                            title,
+                            [
+                                "Obsidian",
+                                "Notion",
+                                "AI",
+                                "效率",
+                                "笔记",
+                                "写作",
+                                "阅读",
+                            ]
+                        )
+
                         else "B"
                     ),
 
@@ -3219,9 +3789,6 @@ def fetch_sspai():
 
 # =========================================================
 # 量子位
-#
-# 突破 → 前沿动态
-# 工具 → 提效工具
 # =========================================================
 
 def fetch_qbitai():
@@ -3239,8 +3806,11 @@ def fetch_qbitai():
     try:
 
         response = SESSION.get(
+
             QBITAI_URL,
+
             timeout=30
+
         )
 
 
@@ -3312,8 +3882,11 @@ def fetch_qbitai():
 
 
         url = urljoin(
+
             QBITAI_URL,
+
             href
+
         )
 
 
@@ -3347,8 +3920,22 @@ def fetch_qbitai():
 
         ):
 
+            context_node = (
+                node.parent.parent
+            )
+
+
+        else:
+
+            context_node = (
+                node.parent
+            )
+
+
+        if context_node:
+
             context = clean_text(
-                node.parent.parent.get_text(
+                context_node.get_text(
                     " ",
                     strip=True
                 )
@@ -3388,17 +3975,6 @@ def fetch_qbitai():
             continue
 
 
-        category = (
-
-            "前沿动态"
-
-            if breakthrough
-
-            else "提效工具"
-
-        )
-
-
         seen.add(
             url
         )
@@ -3415,7 +3991,13 @@ def fetch_qbitai():
                     "量子位",
 
                 category=
-                    category,
+                    (
+                        "前沿动态"
+
+                        if breakthrough
+
+                        else "提效工具"
+                    ),
 
                 url=
                     url,
@@ -3452,7 +4034,6 @@ def fetch_qbitai():
 
 # =========================================================
 # 科技日报
-# 前沿动态
 # =========================================================
 
 def fetch_stdaily():
@@ -3470,8 +4051,11 @@ def fetch_stdaily():
     try:
 
         response = SESSION.get(
+
             STD_BREAKTHROUGH_URL,
+
             timeout=30
+
         )
 
 
@@ -3553,13 +4137,16 @@ def fetch_stdaily():
             continue
 
 
-        if url in seen:
+        if (
 
-            continue
+            url in seen
 
+            or
 
-        if not contains_chinese(
-            title
+            not contains_chinese(
+                title
+            )
+
         ):
 
             continue
@@ -3630,8 +4217,11 @@ def fetch_sciencenet():
     try:
 
         response = SESSION.get(
+
             SCIENCENET_URL,
+
             timeout=30
+
         )
 
 
@@ -3799,8 +4389,11 @@ def fetch_deeptech():
     try:
 
         response = SESSION.get(
+
             DEEPTECH_URL,
+
             timeout=30
+
         )
 
 
@@ -3945,7 +4538,7 @@ def fetch_deeptech():
 
 
 # =========================================================
-# Nature列表解析
+# Nature列表
 # =========================================================
 
 def parse_nature_cards(
@@ -3965,6 +4558,7 @@ def parse_nature_cards(
 
 
     cards = (
+
         soup.select(
             "li.app-article-list-row__item"
         )
@@ -3974,6 +4568,7 @@ def parse_nature_cards(
         soup.select(
             "article"
         )
+
     )
 
 
@@ -4126,10 +4721,6 @@ def parse_nature_cards(
     return results
 
 
-# =========================================================
-# Nature抓取
-# =========================================================
-
 def fetch_nature_page(
 
     source,
@@ -4208,10 +4799,15 @@ def fetch_nature_page(
         except Exception as error:
 
             print(
+
                 source,
+
                 "page failed:",
+
                 page,
+
                 error
+
             )
 
             continue
@@ -4228,6 +4824,7 @@ def fetch_nature_page(
                         "url"
                     ]
                 )
+
 
                 results.append(
                     item
@@ -4252,84 +4849,72 @@ def nature_items_to_news(
 
 ):
 
-    output = []
+    return [
 
+        make_item(
 
-    for paper in papers:
+            title=
+                paper[
+                    "title"
+                ],
 
-        output.append(
+            source=
+                source,
 
-            make_item(
+            category=
+                "期刊论文",
 
-                title=
-                    paper[
-                        "title"
-                    ],
+            url=
+                paper[
+                    "url"
+                ],
 
-                source=
-                    source,
+            published_at=
+                paper[
+                    "published_at"
+                ],
 
-                category=
-                    "期刊论文",
+            summary=
+                paper[
+                    "summary"
+                ],
 
-                url=
-                    paper[
-                        "url"
-                    ],
+            priority=
+                "A",
 
-                published_at=
-                    paper[
-                        "published_at"
-                    ],
-
-                summary=
-                    paper[
-                        "summary"
-                    ],
-
-                priority=
-                    "A",
-
-                language=
-                    "en",
-
-            )
+            language=
+                "en",
 
         )
 
+        for paper
+        in papers
 
-    return output
+    ]
 
 
 # =========================================================
-# 热点主题判断
-#
-# V9只根据“标题”判断
-#
-# 不再根据百度摘要判断
-#
-# 这样可以避免：
-# “剩饭喂猪”
-# 被摘要里的“生态”误判
+# 热点：
+# 宽筛选
 # =========================================================
 
 def identify_hot_topic(
-    title
+
+    title,
+
+    summary=""
+
 ):
 
-    title = clean_text(
-        title
+    text = (
+        f"{title} "
+        f"{summary}"
     )
-
-
-    if not title:
-
-        return None
 
 
     if any(
 
-        word in title
+        word in text
 
         for word
         in HOT_EXCLUDE_WORDS
@@ -4356,7 +4941,7 @@ def identify_hot_topic(
             ]
 
             if keyword.lower()
-            in title.lower()
+            in text.lower()
 
         )
 
@@ -4368,16 +4953,16 @@ def identify_hot_topic(
             best_hits = hits
 
 
-    if best_hits < 1:
+    if best_hits > 0:
 
-        return None
+        return best_rule
 
 
-    return best_rule
+    return None
 
 
 # =========================================================
-# 百度热榜通用
+# 百度
 # =========================================================
 
 def fetch_baidu_board(
@@ -4401,8 +4986,11 @@ def fetch_baidu_board(
     try:
 
         response = SESSION.get(
+
             url,
+
             timeout=30
+
         )
 
 
@@ -4423,9 +5011,13 @@ def fetch_baidu_board(
     except Exception as error:
 
         print(
+
             platform,
+
             "failed:",
+
             error
+
         )
 
         return results
@@ -4437,8 +5029,11 @@ def fetch_baidu_board(
 
 
     for index, card in enumerate(
+
         cards,
+
         start=1
+
     ):
 
         title_node = card.select_one(
@@ -4457,35 +5052,6 @@ def fetch_baidu_board(
                 strip=True
             )
         )
-
-
-        rule = identify_hot_topic(
-            title
-        )
-
-
-        if not rule:
-
-            continue
-
-
-        link = card.find(
-            "a",
-            href=True
-        )
-
-
-        if link:
-
-            target_url = link.get(
-                "href",
-                ""
-            )
-
-
-        else:
-
-            target_url = url
 
 
         desc_node = (
@@ -4516,6 +5082,39 @@ def fetch_baidu_board(
         else:
 
             summary = ""
+
+
+        rule = identify_hot_topic(
+
+            title,
+
+            summary
+
+        )
+
+
+        if not rule:
+
+            continue
+
+
+        link = card.find(
+            "a",
+            href=True
+        )
+
+
+        if link:
+
+            target_url = link.get(
+                "href",
+                ""
+            )
+
+
+        else:
+
+            target_url = url
 
 
         index_node = (
@@ -4603,9 +5202,13 @@ def fetch_baidu_board(
 
 
     print(
+
         platform,
+
         "relevant:",
+
         len(results)
+
     )
 
 
@@ -4613,12 +5216,7 @@ def fetch_baidu_board(
 
 
 # =========================================================
-# 微博热搜
-#
-# 微博可能偶尔触发反爬
-#
-# 抓不到时返回空数组
-# 不会让整个Action失败
+# 微博
 # =========================================================
 
 def fetch_weibo_hotspots():
@@ -4641,15 +5239,7 @@ def fetch_weibo_hotspots():
         {
 
             "Referer":
-                "https://weibo.com/",
-
-            "Accept":
-                "text/html,"
-                "application/xhtml+xml,"
-                "application/xml;q=0.9,"
-                "image/avif,"
-                "image/webp,"
-                "*/*;q=0.8",
+                "https://weibo.com/"
 
         }
 
@@ -4693,15 +5283,12 @@ def fetch_weibo_hotspots():
         return results
 
 
-    rows = soup.select(
-        "table tbody tr"
-    )
-
-
     rank_fallback = 0
 
 
-    for row in rows:
+    for row in soup.select(
+        "table tbody tr"
+    ):
 
         title_node = row.select_one(
             "td.td-02 a"
@@ -4724,13 +5311,17 @@ def fetch_weibo_hotspots():
 
 
         rule = identify_hot_topic(
-            title
+            title,
+            ""
         )
 
 
         if not rule:
 
             continue
+
+
+        rank_fallback += 1
 
 
         rank_node = row.select_one(
@@ -4759,9 +5350,6 @@ def fetch_weibo_hotspots():
         )
 
 
-        rank_fallback += 1
-
-
         if match:
 
             rank = int(
@@ -4774,19 +5362,16 @@ def fetch_weibo_hotspots():
             rank = rank_fallback
 
 
-        href = title_node.get(
-            "href",
-            ""
-        )
-
-
         url = urljoin(
+
             "https://s.weibo.com",
-            href
+
+            title_node.get(
+                "href",
+                ""
+            )
+
         )
-
-
-        heat = 0
 
 
         row_text = clean_text(
@@ -4794,6 +5379,9 @@ def fetch_weibo_hotspots():
                 " ",
                 strip=True
             )
+        ).replace(
+            ",",
+            ""
         )
 
 
@@ -4801,10 +5389,7 @@ def fetch_weibo_hotspots():
 
             r"\b\d{4,}\b",
 
-            row_text.replace(
-                ",",
-                ""
-            )
+            row_text
 
         )
 
@@ -4814,6 +5399,11 @@ def fetch_weibo_hotspots():
             heat = int(
                 numbers[-1]
             )
+
+
+        else:
+
+            heat = 0
 
 
         results.append(
@@ -4866,7 +5456,7 @@ def fetch_weibo_hotspots():
 
 
 # =========================================================
-# 热点标题标准化
+# 多平台热点合并
 # =========================================================
 
 def normalize_hot_title(
@@ -4886,12 +5476,6 @@ def normalize_hot_title(
 
     ).lower()
 
-
-# =========================================================
-# 二元字符
-#
-# 用于判断两个平台是不是同一个热点
-# =========================================================
 
 def bigrams(
     text
@@ -4922,13 +5506,17 @@ def bigrams(
 
 
 def title_similarity(
+
     title_a,
+
     title_b
+
 ):
 
     set_a = bigrams(
         title_a
     )
+
 
     set_b = bigrams(
         title_b
@@ -4967,10 +5555,6 @@ def title_similarity(
     )
 
 
-# =========================================================
-# 多平台热点合并
-# =========================================================
-
 def merge_hotspot_platforms(
     items
 ):
@@ -4998,7 +5582,7 @@ def merge_hotspot_platforms(
 
         for group in groups:
 
-            similarity = title_similarity(
+            if title_similarity(
 
                 item[
                     "title"
@@ -5008,10 +5592,7 @@ def merge_hotspot_platforms(
                     "title"
                 ]
 
-            )
-
-
-            if similarity >= 0.62:
+            ) >= 0.62:
 
                 matched = group
 
@@ -5156,28 +5737,9 @@ def merge_hotspot_platforms(
                 ]
 
 
-            # 微博热点链接更适合点击
-            if (
-
-                matched.get(
-                    "platform"
-                )
-
-                !=
-
-                "微博热搜"
-
-                and
-
-                item.get(
-                    "platform"
-                )
-
-                ==
-
-                "微博热搜"
-
-            ):
+            if item.get(
+                "platform"
+            ) == "微博热搜":
 
                 matched[
                     "url"
@@ -5190,7 +5752,7 @@ def merge_hotspot_platforms(
 
 
 # =========================================================
-# Nature匹配分数
+# Nature 匹配
 # =========================================================
 
 def nature_match_score(
@@ -5235,7 +5797,6 @@ def nature_match_score(
     )
 
 
-    # 必须真正命中Nature论文关键词
     if keyword_hits == 0:
 
         return 0
@@ -5243,35 +5804,35 @@ def nature_match_score(
 
     score = (
         keyword_hits
-        * 9
+        * 8
     )
 
 
     journal_bonus = {
 
         "Nature":
-            12,
+            10,
 
         "Nature Climate Change":
-            11,
+            9,
 
         "Nature Medicine":
-            11,
+            9,
 
         "Nature Human Behaviour":
-            10,
+            9,
 
         "Nature Cities":
-            10,
-
-        "Nature Communications":
             8,
 
+        "Nature Communications":
+            7,
+
         "Scientific Data":
-            6,
+            5,
 
         "Scientific Reports":
-            4,
+            3,
 
     }
 
@@ -5290,7 +5851,7 @@ def nature_match_score(
 
     try:
 
-        published = dtparser.parse(
+        dt = dtparser.parse(
             paper.get(
                 "published_at",
                 ""
@@ -5298,9 +5859,9 @@ def nature_match_score(
         )
 
 
-        if published.tzinfo is None:
+        if dt.tzinfo is None:
 
-            published = published.replace(
+            dt = dt.replace(
                 tzinfo=timezone.utc
             )
 
@@ -5311,24 +5872,24 @@ def nature_match_score(
                 timezone.utc
             )
 
-            - published
+            - dt
 
         ).days
 
 
         if age <= 7:
 
-            score += 12
+            score += 10
 
 
         elif age <= 14:
 
-            score += 8
+            score += 7
 
 
         elif age <= 30:
 
-            score += 5
+            score += 4
 
 
         elif age <= 60:
@@ -5344,10 +5905,6 @@ def nature_match_score(
     return score
 
 
-# =========================================================
-# Nature论文匹配
-# =========================================================
-
 def match_nature_papers(
 
     hotspot,
@@ -5362,12 +5919,17 @@ def match_nature_papers(
     for paper in nature_pool:
 
         score = nature_match_score(
+
             hotspot,
+
             paper
+
         )
 
 
-        if score < 20:
+        # V10恢复V8较宽阈值
+
+        if score < 12:
 
             continue
 
@@ -5416,10 +5978,7 @@ def match_nature_papers(
 
 
 # =========================================================
-# 传播潜力
-#
-# 新增：
-# 多平台同时出现会明显加分
+# 热度
 # =========================================================
 
 def calculate_hot_score(
@@ -5446,10 +6005,10 @@ def calculate_hot_score(
 
         5,
 
-        40
+        42
         -
         rank
-        * 0.65
+        * 0.8
 
     )
 
@@ -5458,12 +6017,12 @@ def calculate_hot_score(
 
         index_score = min(
 
-            15,
+            20,
 
             math.log10(
                 hot_index + 1
             )
-            * 2.5
+            * 3
 
         )
 
@@ -5511,8 +6070,6 @@ def calculate_hot_score(
     )
 
 
-    # 一个平台5分
-    # 每多一个平台+7
     platform_score = min(
 
         15,
@@ -5560,7 +6117,7 @@ def calculate_hot_score(
 
 
 # =========================================================
-# 推荐公众号标题
+# 推荐标题
 # =========================================================
 
 def build_wechat_title(
@@ -5602,7 +6159,7 @@ def build_wechat_title(
         "城市社会":
             (
                 f"{title}背后，"
-                f"Nature研究如何解释正在发生的城市与社会变化？"
+                f"Nature研究如何解释正在发生的社会变化？"
             ),
 
         "前沿科技":
@@ -5644,6 +6201,9 @@ def build_hotspots(
 
 ):
 
+    hotspots = []
+
+
     merged = (
         merge_hotspot_platforms(
             platform_items
@@ -5651,15 +6211,15 @@ def build_hotspots(
     )
 
 
-    hotspots = []
-
-
     for hot in merged:
 
         related = (
             match_nature_papers(
+
                 hot,
+
                 nature_pool
+
             )
         )
 
@@ -5741,8 +6301,11 @@ def build_hotspots(
 
                 "score":
                     calculate_hot_score(
+
                         hot,
+
                         related
+
                     ),
 
                 "recommended_title":
@@ -5755,11 +6318,6 @@ def build_hotspots(
                         "angle",
                         ""
                     ),
-
-                # =================================
-                # 不使用百度/微博缩略图
-                # 稍后从Nature文章获取
-                # =================================
 
                 "image_url":
                     "",
@@ -5812,16 +6370,7 @@ def build_hotspots(
 
 
 # =========================================================
-# 热点Nature论文图片
-#
-# 关键变化：
-#
-# 热点左侧大图只来源于Nature论文
-#
-# 百度缩略图
-# 微博缩略图
-#
-# 都不再作为主图
+# 热点 Nature 图片
 # =========================================================
 
 def enrich_hotspot_papers(
@@ -5934,13 +6483,13 @@ def enrich_hotspot_papers(
 
     for hotspot in hotspots:
 
-        valid_papers = []
-
-
-        for paper in hotspot.get(
+        papers = hotspot.get(
             "related_papers",
             []
-        ):
+        )
+
+
+        for paper in papers:
 
             detail = details.get(
                 paper.get(
@@ -5950,17 +6499,15 @@ def enrich_hotspot_papers(
             )
 
 
-            image_url = detail.get(
-                "image_url",
-                ""
-            )
-
-
-            if image_url:
+            if detail.get(
+                "image_url"
+            ):
 
                 paper[
                     "image_url"
-                ] = image_url
+                ] = detail[
+                    "image_url"
+                ]
 
 
             if (
@@ -5986,22 +6533,10 @@ def enrich_hotspot_papers(
                 )
 
 
-            valid_papers.append(
-                paper
-            )
+        # 第一篇有真实图的Nature论文
+        # 作为热点大图
 
-
-        hotspot[
-            "related_papers"
-        ] = valid_papers
-
-
-        # =================================================
-        # 第一篇真正有图的Nature论文
-        # 作为热点主图
-        # =================================================
-
-        for paper in valid_papers:
+        for paper in papers:
 
             image_url = paper.get(
                 "image_url"
@@ -6027,10 +6562,7 @@ def enrich_hotspot_papers(
                 break
 
 
-    # =====================================================
-    # 没有Nature主图
-    # 不报道
-    # =====================================================
+    # 无图热点不进入
 
     return [
 
@@ -6060,8 +6592,11 @@ def load_old_data():
     try:
 
         with DATA_FILE.open(
+
             "r",
+
             encoding="utf-8"
+
         ) as file:
 
             data = json.load(
@@ -6080,12 +6615,6 @@ def load_old_data():
         return []
 
 
-# =========================================================
-# 旧数据标准化
-#
-# GitHub在这里正式被删除
-# =========================================================
-
 def normalize_old_items(
     items
 ):
@@ -6097,7 +6626,15 @@ def normalize_old_items(
 
         "AIBase",
 
+        "人人都是产品经理",
+
+        "白鲸出海",
+
         "量子位",
+
+        "小众软件",
+
+        "少数派",
 
         "科技日报",
 
@@ -6108,10 +6645,6 @@ def normalize_old_items(
         "Scientific Data",
 
         "Nature Cities",
-
-        "小众软件",
-
-        "少数派",
 
     }
 
@@ -6124,22 +6657,65 @@ def normalize_old_items(
         )
 
 
-        # GitHub等旧来源全部删除
         if source not in allowed_sources:
 
             continue
 
 
-        if source == "AIBase":
+        title = item.get(
+            "title",
+            ""
+        )
+
+
+        summary = clean_summary(
+            item.get(
+                "summary",
+                ""
+            )
+        )
+
+
+        combined = (
+            f"{title} "
+            f"{summary}"
+        )
+
+
+        # =================================================
+        # AI变现
+        # =================================================
+
+        if source in {
+
+            "AIBase",
+
+            "人人都是产品经理",
+
+            "白鲸出海",
+
+        }:
+
+            if not ai_money_relevant(
+                combined
+            ):
+
+                continue
+
 
             item[
                 "category"
             ] = "AI变现"
 
 
+        # =================================================
+        # 提效工具
+        # =================================================
+
         elif source in {
 
             "小众软件",
+
             "少数派",
 
         }:
@@ -6166,10 +6742,16 @@ def normalize_old_items(
             )
 
 
+        # =================================================
+        # 前沿
+        # =================================================
+
         elif source in {
 
             "科技日报",
+
             "科学网",
+
             "DeepTech深科技",
 
         }:
@@ -6179,9 +6761,14 @@ def normalize_old_items(
             ] = "前沿动态"
 
 
+        # =================================================
+        # Nature
+        # =================================================
+
         elif source in {
 
             "Scientific Data",
+
             "Nature Cities",
 
         }:
@@ -6193,12 +6780,7 @@ def normalize_old_items(
 
         item[
             "summary"
-        ] = clean_summary(
-            item.get(
-                "summary",
-                ""
-            )
-        )
+        ] = summary
 
 
         if not item.get(
@@ -6208,14 +6790,12 @@ def normalize_old_items(
             item[
                 "display_title"
             ] = refine_title(
-                item.get(
-                    "title",
-                    ""
-                )
+                title
             )
 
 
-        # V9重新抓一次所有图片
+        # V10重新抓图
+
         if (
 
             item.get(
@@ -6251,7 +6831,7 @@ def normalize_old_items(
 
 
 # =========================================================
-# 合并
+# 新旧合并
 # =========================================================
 
 def merge_items(
@@ -6340,17 +6920,19 @@ def merge_items(
 
 
 # =========================================================
-# 普通新闻详情页补图
+# 详情页补图
 # =========================================================
 
 def enrich_news_details(
     items
 ):
 
-    candidates = []
+    candidates = [
 
+        item
 
-    for item in items:
+        for item
+        in items
 
         if (
 
@@ -6373,11 +6955,9 @@ def enrich_news_details(
                 )
             )
 
-        ):
+        )
 
-            candidates.append(
-                item
-            )
+    ]
 
 
     unique = {}
@@ -6497,10 +7077,6 @@ def enrich_news_details(
             continue
 
 
-        # =================================================
-        # 修复AIBase等卡片标题解析异常
-        # =================================================
-
         if (
 
             details.get(
@@ -6604,7 +7180,7 @@ def enrich_news_details(
 
 
 # =========================================================
-# 删除旧数据
+# 清理
 # =========================================================
 
 def remove_old_items(
@@ -6663,10 +7239,6 @@ def remove_old_items(
     return output
 
 
-# =========================================================
-# 无图删除
-# =========================================================
-
 def only_items_with_images(
     items
 ):
@@ -6696,10 +7268,6 @@ def only_items_with_images(
 
     ]
 
-
-# =========================================================
-# 图片去重
-# =========================================================
 
 def image_key(
     url
@@ -6774,7 +7342,7 @@ def remove_duplicate_images(
 
 
 # =========================================================
-# 来源优先级
+# 排序
 # =========================================================
 
 def source_rank(
@@ -6793,6 +7361,12 @@ def source_rank(
             100,
 
         "AIBase":
+            98,
+
+        "人人都是产品经理":
+            96,
+
+        "白鲸出海":
             95,
 
         "少数派":
@@ -6818,10 +7392,6 @@ def source_rank(
         50
     )
 
-
-# =========================================================
-# 普通资讯排序
-# =========================================================
 
 def sort_news(
     items
@@ -6871,8 +7441,11 @@ def sort_news(
 
 
     items.sort(
+
         key=sort_key,
+
         reverse=True
+
     )
 
 
@@ -6892,8 +7465,11 @@ def save_data(
 ):
 
     DATA_FILE.parent.mkdir(
+
         parents=True,
+
         exist_ok=True
+
     )
 
 
@@ -6990,8 +7566,11 @@ def save_data(
 
 
     with DATA_FILE.open(
+
         "w",
+
         encoding="utf-8"
+
     ) as file:
 
         json.dump(
@@ -7017,9 +7596,11 @@ def main():
         "=" * 64
     )
 
+
     print(
-        "ICAT Research Radar V9"
+        "ICAT Research Radar V10"
     )
+
 
     print(
         "=" * 64
@@ -7027,7 +7608,7 @@ def main():
 
 
     # =====================================================
-    # 原数据
+    # 旧数据
     # =====================================================
 
     old_items = normalize_old_items(
@@ -7044,10 +7625,18 @@ def main():
     )
 
 
+    woshipm_items = (
+        fetch_woshipm_ai()
+    )
+
+
+    baijing_items = (
+        fetch_baijing_ai_money()
+    )
+
+
     # =====================================================
     # 提效工具
-    #
-    # GitHub已删除
     # =====================================================
 
     appinn_items = (
@@ -7089,7 +7678,6 @@ def main():
     # =====================================================
 
     scientific_papers = (
-
         fetch_nature_page(
 
             "Scientific Data",
@@ -7099,12 +7687,10 @@ def main():
             max_pages=2
 
         )
-
     )
 
 
     scientific_items = (
-
         nature_items_to_news(
 
             scientific_papers,
@@ -7112,7 +7698,6 @@ def main():
             "Scientific Data"
 
         )
-
     )
 
 
@@ -7121,7 +7706,6 @@ def main():
     # =====================================================
 
     city_papers = (
-
         fetch_nature_page(
 
             "Nature Cities",
@@ -7131,12 +7715,10 @@ def main():
             max_pages=2
 
         )
-
     )
 
 
     city_items = (
-
         nature_items_to_news(
 
             city_papers,
@@ -7144,17 +7726,20 @@ def main():
             "Nature Cities"
 
         )
-
     )
 
 
     # =====================================================
-    # 合并普通资讯
+    # 普通资讯
     # =====================================================
 
     new_items = (
 
         aibase_items
+
+        + woshipm_items
+
+        + baijing_items
 
         + appinn_items
 
@@ -7183,10 +7768,6 @@ def main():
 
     )
 
-
-    # =====================================================
-    # 进入详情页抓真正图片
-    # =====================================================
 
     all_items = (
         enrich_news_details(
@@ -7341,10 +7922,6 @@ def main():
     )
 
 
-    # =====================================================
-    # Nature正文图片作为热点主图
-    # =====================================================
-
     hotspots = (
         enrich_hotspot_papers(
             hotspots
@@ -7394,14 +7971,36 @@ def main():
     )
 
 
+    # =====================================================
+    # 日志
+    # =====================================================
+
     print(
         "--------------------------------"
     )
 
 
     print(
+        "AIBase AI变现:",
+        len(aibase_items)
+    )
 
-        "AI变现:",
+
+    print(
+        "人人都是产品经理 AI变现:",
+        len(woshipm_items)
+    )
+
+
+    print(
+        "白鲸出海 AI变现:",
+        len(baijing_items)
+    )
+
+
+    print(
+
+        "最终 AI变现:",
 
         sum(
 
@@ -7422,7 +8021,7 @@ def main():
 
     print(
 
-        "提效工具:",
+        "最终 提效工具:",
 
         sum(
 
@@ -7443,7 +8042,7 @@ def main():
 
     print(
 
-        "前沿动态:",
+        "最终 前沿动态:",
 
         sum(
 
@@ -7463,7 +8062,13 @@ def main():
 
 
     print(
-        "热点:",
+        "热点候选源总数:",
+        len(hotspot_sources)
+    )
+
+
+    print(
+        "最终 热点:",
         len(hotspots)
     )
 
