@@ -1,4 +1,3 @@
-import os
 import re
 import json
 import math
@@ -17,72 +16,62 @@ from urllib3.util.retry import Retry
 
 
 # =========================================================
-# ICAT Research Radar V8
+# ICAT Research Radar V9
 #
-# 功能：
+# V9 调整：
 #
-# 1. AIBase              → AI变现
-# 2. 量子位              → 提效工具 / 前沿动态
-# 3. 科技日报            → 前沿动态
-# 4. 科学网              → 前沿动态
-# 5. DeepTech            → 前沿动态
-# 6. GitHub              → 提效工具
-# 7. Scientific Data     → 独立期刊入口
-# 8. Nature Cities       → 独立期刊入口
+# 1. AI变现
+#    AIBase重新解析
+#    只保留商业化、付费、创业、营收等相关内容
 #
-# 9. 百度热搜
-#       ↓
-#    科研热点筛选
-#       ↓
-#    Nature Portfolio近期论文匹配
-#       ↓
-#    公众号热点候选
+# 2. 提效工具
+#    删除GitHub
+#    增加：
+#    - 小众软件
+#    - 少数派
+#    - 量子位部分实用工具内容
+#
+# 3. 热点
+#    增加：
+#    - 百度热搜
+#    - 百度民生
+#    - 微博热搜
+#
+#    多平台重复热点自动合并
+#
+# 4. 热点图片
+#    不再使用百度/微博缩略图
+#    主图只使用匹配Nature论文的真实文章图片
+#
+# 5. 没有有效图片
+#    不收录
 #
 # =========================================================
 
 
 # =========================================================
-# 基础路径
+# 基础配置
 # =========================================================
 
-DATA_FILE = Path("data/news.json")
-
-
-# =========================================================
-# 基础参数
-# =========================================================
+DATA_FILE = Path(
+    "data/news.json"
+)
 
 MAX_ITEMS = 500
 
 KEEP_DAYS = 45
 
+DETAIL_FETCH_LIMIT = 260
 
-# 普通资讯详情页最大抓取数量
-DETAIL_FETCH_LIMIT = 220
-
-
-# Nature热点论文池最大详情页抓取量
-HOT_PAPER_DETAIL_LIMIT = 60
-
-
-# 并发数量
 DETAIL_WORKERS = 10
 
+IMAGE_RULE_VERSION = 9
 
-# 图片规则版本
-#
-# 如果以后修改图片抓取逻辑，
-# 将数字改成9、10……
-# 旧图片会重新抓取
-IMAGE_RULE_VERSION = 8
-
-
-# 最多保存热点数量
 MAX_HOTSPOTS = 12
 
-
-# 每个热点最多关联几篇论文
 MAX_RELATED_PAPERS = 3
+
+HOT_PAPER_DETAIL_LIMIT = 80
 
 
 # =========================================================
@@ -128,7 +117,8 @@ def build_session():
         ],
 
         allowed_methods=[
-            "GET"
+            "GET",
+            "HEAD",
         ],
     )
 
@@ -164,37 +154,56 @@ AIBASE_URL = (
     "https://news.aibase.com/zh/news"
 )
 
-
 QBITAI_URL = (
     "https://www.qbitai.com/"
     "category/%E8%B5%84%E8%AE%AF"
 )
 
+APPINN_URL = (
+    "https://www.appinn.com/"
+)
+
+SSPAI_URL = (
+    "https://sspai.com/"
+)
 
 STD_BREAKTHROUGH_URL = (
     "https://www.stdaily.com/"
     "web/spxw/node_706.html"
 )
 
-
 SCIENCENET_URL = (
     "https://news.sciencenet.cn/"
 )
-
 
 DEEPTECH_URL = (
     "https://www.deeptechchina.com/"
 )
 
 
-BAIDU_HOT_URL = (
+# =========================================================
+# 热点来源
+# =========================================================
+
+BAIDU_REALTIME_URL = (
     "https://top.baidu.com/"
     "board?tab=realtime"
 )
 
+BAIDU_LIVELIHOOD_URL = (
+    "https://top.baidu.com/"
+    "board?tab=livelihood"
+)
+
+WEIBO_HOT_URL = (
+    "https://s.weibo.com/"
+    "top/summary?"
+    "Refer=top_hot&topnav=1&wvr=6"
+)
+
 
 # =========================================================
-# Nature两个固定栏目
+# Nature
 # =========================================================
 
 SCIENTIFIC_DATA_URL = (
@@ -202,19 +211,11 @@ SCIENTIFIC_DATA_URL = (
     "sdata/articles"
 )
 
-
 NATURE_CITIES_URL = (
     "https://www.nature.com/"
     "natcities/research-articles"
 )
 
-
-# =========================================================
-# Nature热点论文池
-#
-# 用于：
-# 百度热点 → Nature相关文章
-# =========================================================
 
 NATURE_POOL_SOURCES = [
 
@@ -357,173 +358,259 @@ BREAKTHROUGH_KEYWORDS = [
     "新发现",
     "新方法",
     "新策略",
+
 ]
 
 
 # =========================================================
-# AI关键词
+# AI变现关键词
+#
+# 不再把AIBase所有内容全部塞进AI变现
 # =========================================================
 
-AI_KEYWORDS = [
+AI_MONEY_KEYWORDS = [
 
-    "ai",
-    "人工智能",
-    "大模型",
-    "模型",
-    "智能体",
-    "agent",
+    "变现",
+    "商业化",
+    "赚钱",
 
-    "chatgpt",
-    "openai",
+    "收入",
+    "营收",
+    "利润",
+    "盈利",
 
-    "claude",
-    "anthropic",
+    "创业",
+    "个体创业",
 
-    "gemini",
+    "融资",
+    "估值",
+    "IPO",
 
-    "deepseek",
+    "付费",
+    "订阅",
+    "收费",
+    "价格",
+    "套餐",
 
-    "qwen",
-    "千问",
+    "广告",
+    "营销",
 
-    "豆包",
-    "manus",
+    "电商",
+    "带货",
 
-    "开源",
-    "发布",
-    "推出",
-    "上线",
-    "更新",
-    "新功能",
+    "获客",
+    "用户增长",
 
-    "工具",
+    "商业模式",
+
+    "应用上架",
+    "上架",
+    "分发",
+
     "平台",
-    "api",
+    "产品",
 
-    "自动化",
+    "企业服务",
+
+    "降本",
+    "增效",
+
+    "市场份额",
+
+    "销售",
+    "订单",
+
+]
+
+
+# =========================================================
+# 提效工具关键词
+# =========================================================
+
+TOOL_KEYWORDS = [
+
+    "效率",
+    "工具",
+    "软件",
+    "应用",
+
+    "App",
+
+    "PDF",
+    "Markdown",
+    "OCR",
+
+    "文档",
+
+    "笔记",
+
+    "Obsidian",
+    "Notion",
+    "Zotero",
+    "Readwise",
+
     "浏览器",
 
     "搜索",
-    "文献",
-    "论文",
+
+    "阅读器",
+
+    "翻译",
+
     "写作",
 
-    "代码",
-    "编程",
+    "论文",
+    "文献",
+    "学术",
+    "科研",
+
+    "学习",
+
+    "知识库",
+
+    "整理",
+
+    "自动化",
+
+    "Agent",
+    "智能体",
+
+    "工作流",
 
     "数据分析",
     "可视化",
 
-    "视频",
-    "图像",
+    "代码",
+    "编程",
+
+    "表格",
+
+    "PPT",
+    "Word",
+    "Excel",
+
+    "会议记录",
+
+    "录音",
+    "转写",
+
+    "文件管理",
+
+    "剪贴板",
+
+    "截图",
+
+    "云盘",
+
 ]
 
 
 # =========================================================
-# GitHub搜索
+# 工具栏目排除
 # =========================================================
 
-GITHUB_TOPICS = [
+TOOL_EXCLUDE = [
 
-    '"research agent"',
+    "游戏",
 
-    '"paper agent"',
+    "直播",
+    "看球",
 
-    '"literature review" AI',
+    "影视",
 
-    '"academic writing" AI',
+    "小说资源",
 
-    '"scientific writing" AI',
+    "破解",
+    "盗版",
 
-    '"research workflow"',
+    "彩票",
+    "博彩",
 
-    '"zotero" AI',
-
-    '"data visualization" AI',
-
-    '"scientific visualization"',
-
-    '"browser agent"',
-
-    '"geoai"',
-
-    '"geospatial" AI',
-
-    '"GIS" agent',
-
-    '"remote sensing" AI',
-]
-
-
-GITHUB_POSITIVE = [
-
-    "agent",
-    "ai",
-    "llm",
-
-    "research",
-    "paper",
-    "literature",
-    "academic",
-    "scientific",
-
-    "zotero",
-    "citation",
-
-    "workflow",
-    "visualization",
-    "automation",
-    "browser",
-
-    "geoai",
-    "geospatial",
-    "gis",
-
-    "remote sensing",
-    "satellite",
-]
-
-
-GITHUB_NEGATIVE = [
-
-    "lipid",
-    "protein",
-    "genome",
-    "genomic",
-
-    "clinical",
-    "cancer",
-    "tumor",
-
-    "molecule",
-    "molecular",
-    "drug discovery",
-
-    "crypto",
-    "cryptocurrency",
-    "casino",
-    "betting",
-
-    "game cheat",
-    "hack game",
 ]
 
 
 # =========================================================
-# 热点主题规则
+# 热点排除
 #
-# cn:
-# 百度热搜匹配
+# 避免娱乐体育和口号型话题进入科研热点
+# =========================================================
+
+HOT_EXCLUDE_WORDS = [
+
+    "票房",
+
+    "电影",
+
+    "电视剧",
+
+    "明星",
+
+    "演员",
+
+    "演唱会",
+
+    "综艺",
+
+    "恋情",
+
+    "婚礼",
+
+    "离婚",
+
+    "国乒",
+
+    "足球",
+
+    "篮球",
+
+    "NBA",
+
+    "WTT",
+
+    "夺冠",
+
+    "进球",
+
+    "比分",
+
+    "总书记",
+
+    "重要讲话",
+
+    "庆祝大会",
+
+    "最美的天使",
+
+    "广大医务人员",
+
+    "致敬",
+
+    "纪念大会",
+
+]
+
+
+# =========================================================
+# 热点主题
 #
-# en:
-# Nature英文论文匹配
+# 这里比V8严格很多
+#
+# 不再使用：
+# “工作”
+# “大学”
+# “社会”
+# “动物”
+# “植物”
+#
+# 这类过宽关键词
 # =========================================================
 
 HOT_TOPIC_RULES = [
 
-    # -----------------------------------------------------
-    # AI / 机器人
-    # -----------------------------------------------------
+
+    # =====================================================
+    # AI
+    # =====================================================
 
     {
 
@@ -533,20 +620,27 @@ HOT_TOPIC_RULES = [
         "cn": [
 
             "人工智能",
-            "AI",
+
             "大模型",
+
             "机器人",
+
             "智能体",
+
             "算法",
 
             "自动驾驶",
+
             "无人驾驶",
 
             "脑机接口",
 
             "ChatGPT",
+
             "DeepSeek",
+
             "Claude",
+
             "Gemini",
 
         ],
@@ -554,35 +648,39 @@ HOT_TOPIC_RULES = [
         "en": [
 
             "artificial intelligence",
+
             "machine learning",
+
             "deep learning",
 
             "large language model",
+
             "language model",
 
             "generative ai",
 
             "robot",
+
             "robotics",
 
             "autonomous vehicle",
+
             "autonomous driving",
 
-            "brain computer interface",
             "brain-computer interface",
 
         ],
 
         "angle":
-            "从热点事件切入，讨论AI技术真正发生了什么变化，"
-            "再用近期Nature研究解释其能力边界、社会影响与未来趋势。",
+            "从公众正在讨论的AI事件切入，"
+            "用近期Nature研究解释能力边界、现实影响和未来趋势。",
 
     },
 
 
-    # -----------------------------------------------------
-    # 气候 / 极端天气
-    # -----------------------------------------------------
+    # =====================================================
+    # 气候环境
+    # =====================================================
 
     {
 
@@ -592,70 +690,81 @@ HOT_TOPIC_RULES = [
         "cn": [
 
             "高温",
+
             "热浪",
 
             "暴雨",
+
             "洪水",
+
             "山洪",
+
             "泥石流",
 
             "台风",
 
             "极端天气",
 
-            "气候",
             "全球变暖",
 
+            "气候变化",
+
             "空气污染",
+
             "PM2.5",
-            "臭氧",
+
+            "臭氧污染",
 
             "碳排放",
+
             "碳中和",
 
-            "污染",
-            "环保",
+            "城市内涝",
 
         ],
 
         "en": [
 
             "climate change",
+
             "global warming",
 
             "extreme heat",
+
             "heatwave",
-            "heat wave",
 
             "extreme weather",
 
             "flood",
+
             "flooding",
 
             "rainfall",
+
             "precipitation",
 
             "landslide",
 
             "air pollution",
+
             "PM2.5",
+
             "ozone",
 
             "carbon emission",
-            "carbon emissions",
 
         ],
 
         "angle":
-            "从正在发生的天气或环境事件切入，"
-            "利用Nature研究解释极端事件形成机制、风险变化和长期趋势。",
+            "从极端天气或环境事件切入，"
+            "用Nature研究解释风险形成机制、暴露变化与长期趋势。",
 
     },
 
 
-    # -----------------------------------------------------
-    # 城市 / 人口 / 社会
-    # -----------------------------------------------------
+    # =====================================================
+    # 城市民生
+    # =====================================================
 
     {
 
@@ -664,70 +773,82 @@ HOT_TOPIC_RULES = [
 
         "cn": [
 
-            "城市",
-            "住房",
-            "房价",
-
-            "交通",
-            "通勤",
-
-            "人口",
-            "老龄化",
-            "生育",
-
-            "就业",
-            "工作",
-            "职场",
-
             "城市更新",
 
-            "社区",
+            "房价",
 
-            "教育",
-            "大学",
-            "博士",
-            "高校",
+            "住房",
+
+            "通勤",
+
+            "交通拥堵",
+
+            "人口老龄化",
+
+            "老龄化",
+
+            "生育率",
+
+            "出生率",
+
+            "就业率",
+
+            "失业率",
+
+            "灵活就业",
+
+            "城市人口",
+
+            "租房",
+
+            "社区治理",
 
         ],
 
         "en": [
 
             "urban",
+
             "city",
+
             "cities",
 
             "housing",
 
             "transport",
+
             "mobility",
+
             "commuting",
 
             "population",
 
             "ageing",
+
             "aging",
 
             "fertility",
+
             "birth rate",
 
             "employment",
-            "workplace",
 
-            "education",
-            "university",
+            "unemployment",
+
+            "community",
 
         ],
 
         "angle":
-            "从公众正在讨论的城市或社会问题切入，"
-            "用Nature相关研究解释个体现象背后的结构性变化。",
+            "从民生和城市议题切入，"
+            "用Nature研究解释个体现象背后的结构性变化。",
 
     },
 
 
-    # -----------------------------------------------------
+    # =====================================================
     # 健康医学
-    # -----------------------------------------------------
+    # =====================================================
 
     {
 
@@ -736,88 +857,104 @@ HOT_TOPIC_RULES = [
 
         "cn": [
 
-            "健康",
-
             "睡眠",
+
+            "失眠",
+
             "熬夜",
 
             "肥胖",
+
             "减肥",
 
             "癌症",
+
             "肿瘤",
 
             "糖尿病",
 
-            "心脏",
             "心血管",
 
+            "心脏病",
+
             "抑郁",
+
             "焦虑",
 
-            "疾病",
             "病毒",
+
             "疫苗",
 
             "衰老",
+
             "长寿",
+
             "寿命",
 
             "饮食",
+
             "营养",
 
-            "运动",
+            "运动健康",
 
-            "保健品",
+            "传染病",
 
         ],
 
         "en": [
 
-            "health",
-
             "sleep",
 
             "obesity",
+
             "weight loss",
 
             "cancer",
+
             "tumour",
+
             "tumor",
 
             "diabetes",
 
             "cardiovascular",
+
             "heart",
 
             "depression",
+
             "anxiety",
 
-            "disease",
             "virus",
+
             "vaccine",
 
             "ageing",
+
             "aging",
+
             "longevity",
 
             "diet",
+
             "nutrition",
 
             "exercise",
 
+            "infectious disease",
+
         ],
 
         "angle":
-            "从大众健康焦虑或生活方式热点切入，"
-            "用Nature论文区分科学证据、相关性与网络流行说法。",
+            "从大众健康关注切入，"
+            "用Nature论文区分科学证据、相关性与流行说法。",
 
     },
 
 
-    # -----------------------------------------------------
-    # 能源 / 材料 / 芯片
-    # -----------------------------------------------------
+    # =====================================================
+    # 前沿科技
+    # =====================================================
 
     {
 
@@ -829,41 +966,51 @@ HOT_TOPIC_RULES = [
             "新能源",
 
             "电池",
+
             "储能",
 
             "光伏",
+
             "太阳能",
 
             "钙钛矿",
 
-            "核能",
             "核聚变",
 
+            "核能",
+
             "芯片",
+
             "半导体",
 
-            "量子",
+            "量子计算",
+
+            "量子通信",
 
             "超导",
 
-            "材料",
+            "新材料",
 
         ],
 
         "en": [
 
             "battery",
+
             "energy storage",
 
             "solar",
+
             "photovoltaic",
 
             "perovskite",
 
             "nuclear energy",
+
             "fusion energy",
 
             "semiconductor",
+
             "chip",
 
             "quantum",
@@ -875,15 +1022,15 @@ HOT_TOPIC_RULES = [
         ],
 
         "angle":
-            "从技术突破或产业热点切入，"
-            "结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+            "从产业或技术热点切入，"
+            "结合Nature论文解释技术路线、性能提升和现实应用边界。",
 
     },
 
 
-    # -----------------------------------------------------
-    # 生态 / 生物多样性
-    # -----------------------------------------------------
+    # =====================================================
+    # 生态
+    # =====================================================
 
     {
 
@@ -892,21 +1039,27 @@ HOT_TOPIC_RULES = [
 
         "cn": [
 
-            "动物",
-            "植物",
-
-            "物种",
             "生物多样性",
 
-            "森林",
+            "物种灭绝",
 
-            "海洋",
+            "濒危物种",
 
-            "昆虫",
+            "森林火灾",
 
-            "生态",
+            "珊瑚白化",
+
+            "海洋生态",
 
             "野生动物",
+
+            "外来物种",
+
+            "生态系统",
+
+            "候鸟",
+
+            "昆虫减少",
 
         ],
 
@@ -914,26 +1067,31 @@ HOT_TOPIC_RULES = [
 
             "biodiversity",
 
-            "species",
+            "species extinction",
 
-            "forest",
+            "endangered species",
+
+            "forest fire",
+
+            "coral bleaching",
 
             "marine",
+
             "ocean",
 
-            "insect",
+            "wildlife",
+
+            "invasive species",
 
             "ecosystem",
-
-            "wildlife",
 
             "ecology",
 
         ],
 
         "angle":
-            "从公众关注的自然现象或物种新闻切入，"
-            "结合Nature生态研究解释其背后的生态过程和环境意义。",
+            "从公众关注的自然事件切入，"
+            "结合Nature生态研究解释生态过程和环境意义。",
 
     },
 
@@ -941,47 +1099,48 @@ HOT_TOPIC_RULES = [
 
 
 # =========================================================
-# 热点明显排除词
-#
-# 避免娱乐体育占满栏目
+# 不合格图片关键词
 # =========================================================
 
-HOT_EXCLUDE_WORDS = [
+BAD_IMAGE_TOKENS = [
 
-    "票房",
-    "电影",
+    "logo",
 
-    "电视剧",
+    "favicon",
 
-    "明星",
-    "演员",
+    "avatar",
 
-    "路演",
+    "icon",
 
-    "演唱会",
+    "sprite",
 
-    "综艺",
+    "placeholder",
 
-    "发型",
+    "default",
 
-    "婚礼",
+    "loading",
 
-    "离婚",
+    "blank",
 
-    "恋情",
+    "qrcode",
 
-    "国乒",
-    "足球",
-    "篮球",
+    "qr-code",
 
-    "NBA",
-    "WTT",
+    "wechat",
+
+    "weixin",
+
+    "transparent",
+
+    "pixel",
+
+    "aibase-logo",
 
 ]
 
 
 # =========================================================
-# 基础文本处理
+# 文本处理
 # =========================================================
 
 def clean_text(text):
@@ -998,36 +1157,28 @@ def clean_text(text):
         strip=True
     )
 
-    text = re.sub(
+    return re.sub(
         r"\s+",
         " ",
         text
-    )
+    ).strip()
 
-    return text.strip()
-
-
-# =========================================================
-# 中文判断
-# =========================================================
 
 def contains_chinese(text):
 
-    if not text:
-
-        return False
-
     return bool(
+
+        text
+
+        and
+
         re.search(
             r"[\u4e00-\u9fff]",
             text
         )
+
     )
 
-
-# =========================================================
-# 乱码判断
-# =========================================================
 
 def looks_mojibake(text):
 
@@ -1035,7 +1186,7 @@ def looks_mojibake(text):
 
         return False
 
-    bad_tokens = [
+    bad = [
 
         "Ã",
         "Â",
@@ -1043,7 +1194,6 @@ def looks_mojibake(text):
         "â€",
         "â€™",
         "â€œ",
-        "â€˜",
 
         "å",
         "æ",
@@ -1053,26 +1203,20 @@ def looks_mojibake(text):
         "锟斤拷",
 
         "�",
+
     ]
 
-    score = sum(
+    return (
 
-        text.count(
-            token
+        sum(
+            text.count(x)
+            for x in bad
         )
 
-        for token
-        in bad_tokens
+        >= 2
+
     )
 
-    return (
-        score >= 2
-    )
-
-
-# =========================================================
-# 摘要清理
-# =========================================================
 
 def clean_summary(text):
 
@@ -1080,23 +1224,27 @@ def clean_summary(text):
         text
     )
 
-    if not text:
+    if (
 
-        return ""
+        not text
 
-    if looks_mojibake(
-        text
+        or
+
+        looks_mojibake(
+            text
+        )
+
+        or
+
+        len(text) < 12
+
     ):
-
-        return ""
-
-    if len(text) < 12:
 
         return ""
 
     if len(text) > 280:
 
-        text = (
+        return (
             text[:277]
             .rstrip()
             + "..."
@@ -1106,7 +1254,7 @@ def clean_summary(text):
 
 
 # =========================================================
-# 网页编码
+# 正确读取网页编码
 # =========================================================
 
 def decode_response(
@@ -1115,16 +1263,14 @@ def decode_response(
 
     raw = response.content
 
-    charset = None
-
-
     content_type = (
-        response.headers
-        .get(
+        response.headers.get(
             "content-type",
             ""
         )
     )
+
+    charset = None
 
 
     match = re.search(
@@ -1135,6 +1281,7 @@ def decode_response(
         content_type,
 
         flags=re.I
+
     )
 
 
@@ -1146,38 +1293,34 @@ def decode_response(
         )
 
 
-    # HTML meta
     if not charset:
-
-        head = raw[:8192]
 
         match = re.search(
 
             br"charset\s*=\s*[\"']?"
             br"([a-zA-Z0-9_\-]+)",
 
-            head,
+            raw[:8192],
 
             flags=re.I
+
         )
 
 
         if match:
 
-            try:
+            charset = (
 
-                charset = (
-                    match.group(1)
-                    .decode(
-                        "ascii",
-                        errors="ignore"
-                    )
-                    .lower()
+                match.group(1)
+
+                .decode(
+                    "ascii",
+                    errors="ignore"
                 )
 
-            except Exception:
+                .lower()
 
-                charset = None
+            )
 
 
     if charset in {
@@ -1191,40 +1334,28 @@ def decode_response(
         charset = "gb18030"
 
 
-    if charset:
+    for encoding in [
+
+        charset,
+        "utf-8",
+        "gb18030",
+
+    ]:
+
+        if not encoding:
+
+            continue
 
         try:
 
             return raw.decode(
-                charset,
+                encoding,
                 errors="replace"
             )
 
         except Exception:
 
             pass
-
-
-    try:
-
-        return raw.decode(
-            "utf-8"
-        )
-
-    except Exception:
-
-        pass
-
-
-    try:
-
-        return raw.decode(
-            "gb18030"
-        )
-
-    except Exception:
-
-        pass
 
 
     return raw.decode(
@@ -1234,7 +1365,7 @@ def decode_response(
 
 
 # =========================================================
-# 标题精炼
+# 标题
 # =========================================================
 
 def refine_title(
@@ -1267,6 +1398,7 @@ def refine_title(
         title,
 
         flags=re.I
+
     )
 
 
@@ -1335,7 +1467,9 @@ def make_id(
 # 日期
 # =========================================================
 
-def parse_date(value):
+def parse_date(
+    value
+):
 
     if not value:
 
@@ -1350,13 +1484,11 @@ def parse_date(value):
             value
         )
 
-
         if dt.tzinfo is None:
 
             dt = dt.replace(
                 tzinfo=timezone.utc
             )
-
 
         return dt.isoformat()
 
@@ -1367,10 +1499,6 @@ def parse_date(value):
             timezone.utc
         ).isoformat()
 
-
-# =========================================================
-# 从文字提取日期
-# =========================================================
 
 def extract_date_from_text(
     text
@@ -1383,23 +1511,15 @@ def extract_date_from_text(
 
     patterns = [
 
-        # 2026-08-14
-
         r"(\d{4}[-/.]\d{1,2}"
         r"[-/.]\d{1,2}"
         r"(?:\s+\d{1,2}:\d{2}"
         r"(?::\d{2})?)?)",
 
-
-        # 14 Aug 2026
-
         r"(\d{1,2}\s+"
-        r"(?:Jan|Feb|Mar|Apr|May|"
-        r"Jun|Jul|Aug|Sep|Oct|Nov|Dec)"
+        r"(?:Jan|Feb|Mar|Apr|May|Jun|"
+        r"Jul|Aug|Sep|Oct|Nov|Dec)"
         r"\s+\d{4})",
-
-
-        # 2026年8月14日
 
         r"(\d{4}年\d{1,2}月"
         r"\d{1,2}日"
@@ -1416,7 +1536,6 @@ def extract_date_from_text(
             flags=re.I
         )
 
-
         if match:
 
             return match.group(1)
@@ -1426,7 +1545,7 @@ def extract_date_from_text(
 
 
 # =========================================================
-# 突破判断
+# 关键词工具
 # =========================================================
 
 def is_breakthrough(
@@ -1436,7 +1555,6 @@ def is_breakthrough(
     text = clean_text(
         text
     )
-
 
     return any(
 
@@ -1448,907 +1566,28 @@ def is_breakthrough(
     )
 
 
-# =========================================================
-# 图片过滤
-# =========================================================
-
-BAD_IMAGE_TOKENS = [
-
-    "logo",
-
-    "favicon",
-
-    "avatar",
-
-    "icon",
-
-    "sprite",
-
-    "placeholder",
-
-    "default",
-
-    "loading",
-
-    "blank",
-
-    "qrcode",
-
-    "qr-code",
-
-    "wechat",
-
-    "weixin",
-
-    "transparent",
-
-    "pixel",
-
-]
-
-
-# =========================================================
-# 图片URL标准化
-# =========================================================
-
-def normalize_image_url(
-    image_url,
-    page_url
+def has_any(
+    text,
+    keywords
 ):
 
-    if not image_url:
-
-        return ""
-
-
-    image_url = (
-        str(
-            image_url
-        )
-        .strip()
-    )
-
-
-    if image_url.startswith(
-        "data:"
-    ):
-
-        return ""
-
-
-    image_url = urljoin(
-        page_url,
-        image_url
-    )
-
-
-    parsed = urlparse(
-        image_url
-    )
-
-
-    if parsed.scheme not in {
-
-        "http",
-        "https",
-
-    }:
-
-        return ""
-
-
-    return image_url
-
-
-# =========================================================
-# 坏图片判断
-# =========================================================
-
-def image_is_bad(
-    url,
-    alt=""
-):
-
-    text = (
-        f"{url} "
-        f"{alt}"
+    low = clean_text(
+        text
     ).lower()
-
 
     return any(
 
-        token in text
+        keyword.lower()
+        in low
 
-        for token
-        in BAD_IMAGE_TOKENS
+        for keyword
+        in keywords
 
     )
 
 
 # =========================================================
-# 获取img地址
-# =========================================================
-
-def get_img_src(
-    img,
-    page_url
-):
-
-    candidates = [
-
-        img.get(
-            "data-original"
-        ),
-
-        img.get(
-            "data-src"
-        ),
-
-        img.get(
-            "data-lazy-src"
-        ),
-
-        img.get(
-            "data-url"
-        ),
-
-        img.get(
-            "src"
-        ),
-
-    ]
-
-
-    # picture/source
-    picture = img.find_parent(
-        "picture"
-    )
-
-
-    if picture:
-
-        sources = picture.find_all(
-            "source"
-        )
-
-
-        for source in sources:
-
-            srcset = source.get(
-                "srcset"
-            )
-
-
-            if not srcset:
-
-                continue
-
-
-            parts = []
-
-
-            for item in (
-                srcset.split(",")
-            ):
-
-                candidate = (
-                    item.strip()
-                    .split(" ")[0]
-                )
-
-
-                if candidate:
-
-                    parts.append(
-                        candidate
-                    )
-
-
-            if parts:
-
-                candidates.insert(
-                    0,
-                    parts[-1]
-                )
-
-
-    # img srcset
-    srcset = img.get(
-        "srcset"
-    )
-
-
-    if srcset:
-
-        parts = []
-
-
-        for item in (
-            srcset.split(",")
-        ):
-
-            candidate = (
-                item.strip()
-                .split(" ")[0]
-            )
-
-
-            if candidate:
-
-                parts.append(
-                    candidate
-                )
-
-
-        if parts:
-
-            candidates.insert(
-                0,
-                parts[-1]
-            )
-
-
-    for candidate in candidates:
-
-        url = normalize_image_url(
-            candidate,
-            page_url
-        )
-
-
-        if url:
-
-            return url
-
-
-    return ""
-
-
-# =========================================================
-# 数值属性
-# =========================================================
-
-def get_numeric_attr(
-    node,
-    name
-):
-
-    value = node.get(
-        name
-    )
-
-
-    if not value:
-
-        return 0
-
-
-    match = re.search(
-        r"\d+",
-        str(value)
-    )
-
-
-    if not match:
-
-        return 0
-
-
-    try:
-
-        return int(
-            match.group(0)
-        )
-
-    except Exception:
-
-        return 0
-
-
-# =========================================================
-# 图片评分
-# =========================================================
-
-def image_score(
-    img,
-    page_url
-):
-
-    url = get_img_src(
-        img,
-        page_url
-    )
-
-
-    if not url:
-
-        return -9999
-
-
-    alt = clean_text(
-        img.get(
-            "alt",
-            ""
-        )
-    )
-
-
-    if image_is_bad(
-        url,
-        alt
-    ):
-
-        return -9999
-
-
-    score = 0
-
-
-    # figure 优先
-    if img.find_parent(
-        "figure"
-    ):
-
-        score += 150
-
-
-    # article
-    if img.find_parent(
-        "article"
-    ):
-
-        score += 80
-
-
-    # main
-    if img.find_parent(
-        "main"
-    ):
-
-        score += 40
-
-
-    ancestor_text = ""
-
-
-    for ancestor in list(
-        img.parents
-    )[:7]:
-
-        if not hasattr(
-            ancestor,
-            "get"
-        ):
-
-            continue
-
-
-        classes = ancestor.get(
-            "class",
-            []
-        )
-
-
-        if not isinstance(
-            classes,
-            list
-        ):
-
-            classes = [
-                str(classes)
-            ]
-
-
-        element_id = ancestor.get(
-            "id",
-            ""
-        )
-
-
-        ancestor_text += (
-
-            " "
-
-            + " ".join(
-                classes
-            )
-
-            + " "
-
-            + str(
-                element_id
-            )
-
-        )
-
-
-    ancestor_text = (
-        ancestor_text.lower()
-    )
-
-
-    good_context = [
-
-        "article",
-
-        "content",
-
-        "detail",
-
-        "news",
-
-        "body",
-
-        "post",
-
-        "figure",
-
-    ]
-
-
-    if any(
-
-        word in ancestor_text
-
-        for word
-        in good_context
-
-    ):
-
-        score += 80
-
-
-    bad_context = [
-
-        "recommend",
-
-        "related",
-
-        "sidebar",
-
-        "footer",
-
-        "header",
-
-        "logo",
-
-        "menu",
-
-        "nav",
-
-        "author",
-
-    ]
-
-
-    if any(
-
-        word in ancestor_text
-
-        for word
-        in bad_context
-
-    ):
-
-        score -= 180
-
-
-    width = get_numeric_attr(
-        img,
-        "width"
-    )
-
-
-    height = get_numeric_attr(
-        img,
-        "height"
-    )
-
-
-    if width >= 600:
-
-        score += 80
-
-
-    elif width >= 350:
-
-        score += 45
-
-
-    elif (
-        width
-        and
-        width < 160
-    ):
-
-        score -= 100
-
-
-    if height >= 300:
-
-        score += 40
-
-
-    elif (
-        height
-        and
-        height < 100
-    ):
-
-        score -= 70
-
-
-    if len(alt) >= 6:
-
-        score += 15
-
-
-    return score
-
-
-# =========================================================
-# 正文最佳图片
-# =========================================================
-
-def extract_best_content_image(
-    soup,
-    page_url
-):
-
-    candidates = []
-
-
-    for img in soup.find_all(
-        "img"
-    ):
-
-        score = image_score(
-            img,
-            page_url
-        )
-
-
-        if score < 20:
-
-            continue
-
-
-        url = get_img_src(
-            img,
-            page_url
-        )
-
-
-        if not url:
-
-            continue
-
-
-        candidates.append(
-            (
-                score,
-                url
-            )
-        )
-
-
-    if not candidates:
-
-        return ""
-
-
-    candidates.sort(
-        key=lambda x:
-            x[0],
-        reverse=True
-    )
-
-
-    return candidates[
-        0
-    ][1]
-
-
-# =========================================================
-# OG图片
-# =========================================================
-
-def extract_og_image(
-    soup,
-    page_url
-):
-
-    selectors = [
-
-        'meta[property="og:image"]',
-
-        'meta[property="og:image:secure_url"]',
-
-        'meta[name="twitter:image"]',
-
-        'meta[property="twitter:image"]',
-
-    ]
-
-
-    for selector in selectors:
-
-        node = soup.select_one(
-            selector
-        )
-
-
-        if not node:
-
-            continue
-
-
-        url = normalize_image_url(
-
-            node.get(
-                "content",
-                ""
-            ),
-
-            page_url
-
-        )
-
-
-        if not url:
-
-            continue
-
-
-        if image_is_bad(
-            url
-        ):
-
-            continue
-
-
-        return url
-
-
-    return ""
-
-
-# =========================================================
-# 文章摘要
-# =========================================================
-
-def extract_article_summary(
-    soup
-):
-
-    selectors = [
-
-        'meta[property="og:description"]',
-
-        'meta[name="description"]',
-
-        'meta[name="twitter:description"]',
-
-    ]
-
-
-    for selector in selectors:
-
-        node = soup.select_one(
-            selector
-        )
-
-
-        if not node:
-
-            continue
-
-
-        text = clean_summary(
-            node.get(
-                "content",
-                ""
-            )
-        )
-
-
-        if text:
-
-            return text
-
-
-    paragraph_selectors = [
-
-        "article p",
-
-        ".article-content p",
-
-        ".article_content p",
-
-        ".article-body p",
-
-        ".articleBody p",
-
-        ".news-content p",
-
-        ".news_content p",
-
-        ".content p",
-
-        ".detail p",
-
-        "main p",
-
-    ]
-
-
-    for selector in paragraph_selectors:
-
-        for p in soup.select(
-            selector
-        ):
-
-            text = clean_summary(
-                p.get_text(
-                    " ",
-                    strip=True
-                )
-            )
-
-
-            if len(text) >= 30:
-
-                return text
-
-
-    return ""
-
-
-# =========================================================
-# 文章详情抓取
-# =========================================================
-
-def fetch_page_details(
-    url,
-    source=""
-):
-
-    result = {
-
-        "image_url":
-            "",
-
-        "summary":
-            "",
-
-        "image_method":
-            "",
-
-    }
-
-
-    if not url:
-
-        return result
-
-
-    try:
-
-        response = requests.get(
-
-            url,
-
-            headers=HEADERS,
-
-            timeout=12
-
-        )
-
-
-        response.raise_for_status()
-
-
-        html = decode_response(
-            response
-        )
-
-
-        soup = BeautifulSoup(
-            html,
-            "html.parser"
-        )
-
-
-        # ---------------------------------
-        # 正文图优先
-        # ---------------------------------
-
-        image_url = (
-            extract_best_content_image(
-                soup,
-                url
-            )
-        )
-
-
-        if image_url:
-
-            result[
-                "image_url"
-            ] = image_url
-
-            result[
-                "image_method"
-            ] = "body"
-
-
-        # ---------------------------------
-        # 没正文图再使用OG
-        #
-        # 科学网禁用OG
-        # 防止Logo
-        # ---------------------------------
-
-        allow_og = (
-            source != "科学网"
-        )
-
-
-        if (
-
-            not result[
-                "image_url"
-            ]
-
-            and
-
-            allow_og
-
-        ):
-
-            og_image = (
-                extract_og_image(
-                    soup,
-                    url
-                )
-            )
-
-
-            if og_image:
-
-                result[
-                    "image_url"
-                ] = og_image
-
-                result[
-                    "image_method"
-                ] = "og"
-
-
-        result[
-            "summary"
-        ] = (
-            extract_article_summary(
-                soup
-            )
-        )
-
-
-    except Exception as e:
-
-        print(
-            "Detail failed:",
-            source,
-            url,
-            e
-        )
-
-
-    return result
-
-
-# =========================================================
-# 普通资讯item
+# 创建普通资讯
 # =========================================================
 
 def make_item(
@@ -2449,100 +1688,857 @@ def make_item(
             ),
 
         "meta":
-            meta
-            or {},
+            meta or {},
 
     }
 
 
 # =========================================================
-# AI判断
+# 图片
 # =========================================================
 
-def useful_ai_text(
-    text
+def normalize_image_url(
+    image_url,
+    page_url
 ):
 
-    low = clean_text(
-        text
+    if not image_url:
+
+        return ""
+
+
+    image_url = (
+        str(
+            image_url
+        )
+        .strip()
+    )
+
+
+    if image_url.startswith(
+        "data:"
+    ):
+
+        return ""
+
+
+    image_url = urljoin(
+        page_url,
+        image_url
+    )
+
+
+    parsed = urlparse(
+        image_url
+    )
+
+
+    if parsed.scheme not in {
+
+        "http",
+        "https",
+
+    }:
+
+        return ""
+
+
+    return image_url
+
+
+def image_is_bad(
+    url,
+    alt=""
+):
+
+    text = (
+        f"{url} "
+        f"{alt}"
     ).lower()
 
 
     return any(
 
-        keyword.lower()
-        in low
+        token in text
 
-        for keyword
-        in AI_KEYWORDS
+        for token
+        in BAD_IMAGE_TOKENS
 
     )
 
 
 # =========================================================
-# AI优先级
+# img地址
 # =========================================================
 
-def ai_priority(
-    text
+def get_img_src(
+    img,
+    page_url
 ):
 
-    if is_breakthrough(
-        text
-    ):
+    candidates = [
 
-        return "A"
+        img.get(
+            "data-original"
+        ),
 
+        img.get(
+            "data-src"
+        ),
 
-    low = clean_text(
-        text
-    ).lower()
+        img.get(
+            "data-lazy-src"
+        ),
 
+        img.get(
+            "data-url"
+        ),
 
-    strong = [
-
-        "开源",
-
-        "免费",
-
-        "发布",
-
-        "推出",
-
-        "上线",
-
-        "agent",
-
-        "智能体",
-
-        "api",
+        img.get(
+            "src"
+        ),
 
     ]
 
 
-    if any(
+    srcsets = []
 
-        word in low
 
-        for word
-        in strong
+    if img.get(
+        "srcset"
+    ):
+
+        srcsets.append(
+            img.get(
+                "srcset"
+            )
+        )
+
+
+    picture = img.find_parent(
+        "picture"
+    )
+
+
+    if picture:
+
+        srcsets.extend(
+
+            source.get(
+                "srcset"
+            )
+
+            for source
+            in picture.find_all(
+                "source"
+            )
+
+            if source.get(
+                "srcset"
+            )
+
+        )
+
+
+    for srcset in srcsets:
+
+        parts = [
+
+            item.strip()
+            .split(" ")[0]
+
+            for item
+            in srcset.split(",")
+
+            if item.strip()
+
+        ]
+
+
+        if parts:
+
+            candidates.insert(
+                0,
+                parts[-1]
+            )
+
+
+    for candidate in candidates:
+
+        url = normalize_image_url(
+            candidate,
+            page_url
+        )
+
+
+        if url:
+
+            return url
+
+
+    return ""
+
+
+def get_numeric_attr(
+    node,
+    name
+):
+
+    value = node.get(
+        name
+    )
+
+
+    if not value:
+
+        return 0
+
+
+    match = re.search(
+        r"\d+",
+        str(value)
+    )
+
+
+    if not match:
+
+        return 0
+
+
+    return int(
+        match.group(0)
+    )
+
+
+# =========================================================
+# 正文图片评分
+# =========================================================
+
+def image_score(
+    img,
+    page_url
+):
+
+    url = get_img_src(
+        img,
+        page_url
+    )
+
+
+    if not url:
+
+        return -9999
+
+
+    alt = clean_text(
+        img.get(
+            "alt",
+            ""
+        )
+    )
+
+
+    if (
+
+        image_is_bad(
+            url,
+            alt
+        )
+
+        or
+
+        alt.lower()
+        in {
+            "aibase",
+            "logo",
+        }
 
     ):
 
-        return "A"
+        return -9999
 
 
-    return "B"
+    score = 0
+
+
+    if img.find_parent(
+        "figure"
+    ):
+
+        score += 160
+
+
+    if img.find_parent(
+        "article"
+    ):
+
+        score += 90
+
+
+    if img.find_parent(
+        "main"
+    ):
+
+        score += 45
+
+
+    ancestor_text = ""
+
+
+    for ancestor in list(
+        img.parents
+    )[:7]:
+
+        if not hasattr(
+            ancestor,
+            "get"
+        ):
+
+            continue
+
+
+        classes = ancestor.get(
+            "class",
+            []
+        )
+
+
+        if not isinstance(
+            classes,
+            list
+        ):
+
+            classes = [
+                str(classes)
+            ]
+
+
+        ancestor_text += (
+
+            " "
+
+            + " ".join(
+                classes
+            )
+
+            + " "
+
+            + str(
+                ancestor.get(
+                    "id",
+                    ""
+                )
+            )
+
+        )
+
+
+    ancestor_text = (
+        ancestor_text.lower()
+    )
+
+
+    if any(
+
+        word in ancestor_text
+
+        for word in [
+
+            "article",
+            "content",
+            "detail",
+            "news",
+            "body",
+            "post",
+            "figure",
+
+        ]
+
+    ):
+
+        score += 80
+
+
+    if any(
+
+        word in ancestor_text
+
+        for word in [
+
+            "recommend",
+            "related",
+            "sidebar",
+            "footer",
+            "header",
+            "logo",
+            "menu",
+            "nav",
+            "author",
+
+        ]
+
+    ):
+
+        score -= 200
+
+
+    width = get_numeric_attr(
+        img,
+        "width"
+    )
+
+
+    height = get_numeric_attr(
+        img,
+        "height"
+    )
+
+
+    if width >= 800:
+
+        score += 100
+
+
+    elif width >= 500:
+
+        score += 70
+
+
+    elif width >= 300:
+
+        score += 35
+
+
+    elif (
+
+        width
+
+        and
+
+        width < 180
+
+    ):
+
+        score -= 100
+
+
+    if height >= 400:
+
+        score += 50
+
+
+    elif (
+
+        height
+
+        and
+
+        height < 120
+
+    ):
+
+        score -= 70
+
+
+    if len(alt) >= 6:
+
+        score += 15
+
+
+    return score
+
+
+def extract_best_content_image(
+    soup,
+    page_url
+):
+
+    candidates = []
+
+
+    for img in soup.find_all(
+        "img"
+    ):
+
+        score = image_score(
+            img,
+            page_url
+        )
+
+
+        if score < 20:
+
+            continue
+
+
+        url = get_img_src(
+            img,
+            page_url
+        )
+
+
+        if url:
+
+            candidates.append(
+                (
+                    score,
+                    url
+                )
+            )
+
+
+    if not candidates:
+
+        return ""
+
+
+    candidates.sort(
+
+        key=lambda x:
+            x[0],
+
+        reverse=True
+
+    )
+
+
+    return candidates[
+        0
+    ][1]
+
+
+# =========================================================
+# OG图片
+# =========================================================
+
+def extract_og_image(
+    soup,
+    page_url
+):
+
+    selectors = [
+
+        'meta[property="og:image"]',
+
+        'meta[property="og:image:secure_url"]',
+
+        'meta[name="twitter:image"]',
+
+        'meta[property="twitter:image"]',
+
+    ]
+
+
+    for selector in selectors:
+
+        node = soup.select_one(
+            selector
+        )
+
+
+        if not node:
+
+            continue
+
+
+        url = normalize_image_url(
+
+            node.get(
+                "content",
+                ""
+            ),
+
+            page_url
+
+        )
+
+
+        if (
+
+            url
+
+            and
+
+            not image_is_bad(
+                url
+            )
+
+        ):
+
+            return url
+
+
+    return ""
+
+
+# =========================================================
+# 摘要
+# =========================================================
+
+def extract_article_summary(
+    soup
+):
+
+    for selector in [
+
+        'meta[property="og:description"]',
+
+        'meta[name="description"]',
+
+        'meta[name="twitter:description"]',
+
+    ]:
+
+        node = soup.select_one(
+            selector
+        )
+
+
+        if node:
+
+            text = clean_summary(
+                node.get(
+                    "content",
+                    ""
+                )
+            )
+
+
+            if text:
+
+                return text
+
+
+    paragraph_selectors = [
+
+        "article p",
+
+        ".article-content p",
+
+        ".article_content p",
+
+        ".article-body p",
+
+        ".news-content p",
+
+        ".content p",
+
+        ".detail p",
+
+        "main p",
+
+    ]
+
+
+    for selector in paragraph_selectors:
+
+        for p in soup.select(
+            selector
+        ):
+
+            text = clean_summary(
+                p.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+            if len(text) >= 30:
+
+                return text
+
+
+    return ""
+
+
+# =========================================================
+# 页面标题
+# =========================================================
+
+def extract_article_title(
+    soup
+):
+
+    for selector in [
+
+        "article h1",
+
+        "main h1",
+
+        "h1",
+
+    ]:
+
+        node = soup.select_one(
+            selector
+        )
+
+
+        if node:
+
+            title = clean_text(
+                node.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+            if 5 <= len(title) <= 160:
+
+                return title
+
+
+    return ""
+
+
+# =========================================================
+# 抓文章详情
+# =========================================================
+
+def fetch_page_details(
+    url,
+    source=""
+):
+
+    result = {
+
+        "image_url":
+            "",
+
+        "summary":
+            "",
+
+        "image_method":
+            "",
+
+        "page_title":
+            "",
+
+    }
+
+
+    if not url:
+
+        return result
+
+
+    try:
+
+        response = requests.get(
+
+            url,
+
+            headers=HEADERS,
+
+            timeout=12
+
+        )
+
+
+        response.raise_for_status()
+
+
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
+        )
+
+
+        result[
+            "page_title"
+        ] = extract_article_title(
+            soup
+        )
+
+
+        # =================================================
+        # 正文图片优先
+        # =================================================
+
+        image_url = (
+            extract_best_content_image(
+                soup,
+                url
+            )
+        )
+
+
+        if image_url:
+
+            result[
+                "image_url"
+            ] = image_url
+
+            result[
+                "image_method"
+            ] = "body"
+
+
+        # =================================================
+        # 正文没找到再用OG
+        #
+        # 科学网继续禁止OG
+        # 防止Logo
+        # =================================================
+
+        elif source != "科学网":
+
+            og_image = (
+                extract_og_image(
+                    soup,
+                    url
+                )
+            )
+
+
+            if og_image:
+
+                result[
+                    "image_url"
+                ] = og_image
+
+                result[
+                    "image_method"
+                ] = "og"
+
+
+        result[
+            "summary"
+        ] = extract_article_summary(
+            soup
+        )
+
+
+    except Exception as error:
+
+        print(
+            "Detail failed:",
+            source,
+            url,
+            error
+        )
+
+
+    return result
 
 
 # =========================================================
 # AIBase
+#
+# AI变现
 # =========================================================
 
 def fetch_aibase():
 
     print(
-        "Fetching AIBase..."
+        "Fetching AIBase monetization..."
     )
 
 
@@ -2562,25 +2558,25 @@ def fetch_aibase():
         response.raise_for_status()
 
 
-        html = decode_response(
-            response
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
         )
 
 
-    except Exception as e:
+    except Exception as error:
 
         print(
             "AIBase failed:",
-            e
+            error
         )
 
         return results
-
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
 
 
     for node in soup.find_all(
@@ -2595,57 +2591,8 @@ def fetch_aibase():
 
 
         if not re.search(
-
             r"/zh/news/\d+",
-
             href
-
-        ):
-
-            continue
-
-
-        heading = node.find(
-
-            [
-                "h2",
-                "h3",
-                "h4",
-            ]
-
-        )
-
-
-        if heading:
-
-            title = clean_text(
-                heading.get_text(
-                    " ",
-                    strip=True
-                )
-            )
-
-
-        else:
-
-            title = clean_text(
-                node.get_text(
-                    " ",
-                    strip=True
-                )
-            )
-
-
-        if not (
-
-            contains_chinese(
-                title
-            )
-
-            and
-
-            8 <= len(title) <= 120
-
         ):
 
             continue
@@ -2662,8 +2609,103 @@ def fetch_aibase():
             continue
 
 
-        if not useful_ai_text(
-            title
+        raw = clean_text(
+            node.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+
+        title_node = node.select_one(
+
+            "h1,"
+            "h2,"
+            "h3,"
+            "h4,"
+            "[class*='title'],"
+            "[class*='Title']"
+
+        )
+
+
+        if title_node:
+
+            title = clean_text(
+                title_node.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+        else:
+
+            title = raw
+
+
+        # =================================================
+        # AIBase有时整个卡片文本都在a标签里
+        # 防止标题变成标题+摘要
+        # =================================================
+
+        if len(title) > 130:
+
+            title = re.split(
+
+                r"(?<=[。！？!])",
+
+                title
+
+            )[0].strip()
+
+
+        if (
+
+            not contains_chinese(
+                title
+            )
+
+            or
+
+            len(title) < 6
+
+        ):
+
+            continue
+
+
+        if node.parent:
+
+            card_text = clean_text(
+                node.parent.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+        else:
+
+            card_text = raw
+
+
+        combined = (
+            f"{title} "
+            f"{card_text}"
+        )
+
+
+        # =================================================
+        # 只有与商业应用有关才进入AI变现
+        # =================================================
+
+        if not has_any(
+
+            combined,
+
+            AI_MONEY_KEYWORDS
+
         ):
 
             continue
@@ -2674,11 +2716,32 @@ def fetch_aibase():
         )
 
 
+        high_value = any(
+
+            word in combined
+
+            for word in [
+
+                "变现",
+                "商业化",
+                "营收",
+                "盈利",
+                "付费",
+                "创业",
+                "融资",
+                "IPO",
+
+            ]
+
+        )
+
+
         results.append(
 
             make_item(
 
-                title=title,
+                title=
+                    title,
 
                 source=
                     "AIBase",
@@ -2686,11 +2749,17 @@ def fetch_aibase():
                 category=
                     "AI变现",
 
-                url=url,
+                url=
+                    url,
+
+                summary=
+                    card_text,
 
                 priority=
-                    ai_priority(
-                        title
+                    (
+                        "A"
+                        if high_value
+                        else "B"
                     ),
 
                 language=
@@ -2698,7 +2767,7 @@ def fetch_aibase():
 
                 is_breakthrough_item=
                     is_breakthrough(
-                        title
+                        combined
                     ),
 
             )
@@ -2707,16 +2776,452 @@ def fetch_aibase():
 
 
     print(
-        "AIBase:",
+        "AIBase monetization:",
         len(results)
     )
 
 
-    return results[:45]
+    return results[:35]
+
+
+# =========================================================
+# 提效工具判断
+# =========================================================
+
+def tool_relevant(
+    text
+):
+
+    if has_any(
+        text,
+        TOOL_EXCLUDE
+    ):
+
+        return False
+
+
+    return has_any(
+        text,
+        TOOL_KEYWORDS
+    )
+
+
+# =========================================================
+# 小众软件
+# =========================================================
+
+def fetch_appinn():
+
+    print(
+        "Fetching 小众软件..."
+    )
+
+
+    results = []
+
+    seen = set()
+
+
+    try:
+
+        response = SESSION.get(
+            APPINN_URL,
+            timeout=30
+        )
+
+
+        response.raise_for_status()
+
+
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
+        )
+
+
+    except Exception as error:
+
+        print(
+            "小众软件 failed:",
+            error
+        )
+
+        return results
+
+
+    for heading in soup.find_all(
+        [
+            "h2",
+            "h3",
+        ]
+    ):
+
+        link = heading.find(
+            "a",
+            href=True
+        )
+
+
+        if not link:
+
+            continue
+
+
+        title = clean_text(
+            link.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+
+        url = urljoin(
+            APPINN_URL,
+            link.get(
+                "href",
+                ""
+            )
+        )
+
+
+        parsed = urlparse(
+            url
+        )
+
+
+        # =================================================
+        # 去掉广告跳转域名
+        # =================================================
+
+        if parsed.netloc not in {
+
+            "www.appinn.com",
+            "appinn.com",
+
+        }:
+
+            continue
+
+
+        if url in seen:
+
+            continue
+
+
+        if heading.parent:
+
+            context = clean_text(
+                heading.parent.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+        else:
+
+            context = title
+
+
+        if not tool_relevant(
+            f"{title} {context}"
+        ):
+
+            continue
+
+
+        seen.add(
+            url
+        )
+
+
+        strong = has_any(
+
+            title,
+
+            [
+
+                "AI",
+                "科研",
+
+                "PDF",
+
+                "文档",
+
+                "Obsidian",
+
+                "Notion",
+
+                "OCR",
+
+                "学习",
+
+                "效率",
+
+            ]
+
+        )
+
+
+        results.append(
+
+            make_item(
+
+                title=
+                    title,
+
+                source=
+                    "小众软件",
+
+                category=
+                    "提效工具",
+
+                url=
+                    url,
+
+                published_at=
+                    extract_date_from_text(
+                        context
+                    ),
+
+                summary=
+                    context,
+
+                priority=
+                    (
+                        "A"
+                        if strong
+                        else "B"
+                    ),
+
+                language=
+                    "zh",
+
+            )
+
+        )
+
+
+    print(
+        "小众软件:",
+        len(results)
+    )
+
+
+    return results[:35]
+
+
+# =========================================================
+# 少数派
+# =========================================================
+
+def fetch_sspai():
+
+    print(
+        "Fetching 少数派..."
+    )
+
+
+    results = []
+
+    seen = set()
+
+
+    try:
+
+        response = SESSION.get(
+            SSPAI_URL,
+            timeout=30
+        )
+
+
+        response.raise_for_status()
+
+
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
+        )
+
+
+    except Exception as error:
+
+        print(
+            "少数派 failed:",
+            error
+        )
+
+        return results
+
+
+    for link in soup.find_all(
+        "a",
+        href=True
+    ):
+
+        href = link.get(
+            "href",
+            ""
+        )
+
+
+        if "/post/" not in href:
+
+            continue
+
+
+        url = urljoin(
+            SSPAI_URL,
+            href
+        )
+
+
+        if url in seen:
+
+            continue
+
+
+        title = clean_text(
+            link.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+
+        if (
+
+            not contains_chinese(
+                title
+            )
+
+            or
+
+            not (
+                8
+                <=
+                len(title)
+                <=
+                100
+            )
+
+        ):
+
+            continue
+
+
+        if link.parent:
+
+            context = clean_text(
+                link.parent.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+        else:
+
+            context = title
+
+
+        if not tool_relevant(
+            f"{title} {context}"
+        ):
+
+            continue
+
+
+        seen.add(
+            url
+        )
+
+
+        strong = has_any(
+
+            title,
+
+            [
+
+                "App+1",
+
+                "Obsidian",
+
+                "Notion",
+
+                "AI",
+
+                "效率",
+
+                "笔记",
+
+                "写作",
+
+                "阅读",
+
+            ]
+
+        )
+
+
+        results.append(
+
+            make_item(
+
+                title=
+                    title,
+
+                source=
+                    "少数派",
+
+                category=
+                    "提效工具",
+
+                url=
+                    url,
+
+                summary=
+                    context,
+
+                priority=
+                    (
+                        "A"
+                        if strong
+                        else "B"
+                    ),
+
+                language=
+                    "zh",
+
+            )
+
+        )
+
+
+    print(
+        "少数派:",
+        len(results)
+    )
+
+
+    return results[:30]
 
 
 # =========================================================
 # 量子位
+#
+# 突破 → 前沿动态
+# 工具 → 提效工具
 # =========================================================
 
 def fetch_qbitai():
@@ -2742,25 +3247,25 @@ def fetch_qbitai():
         response.raise_for_status()
 
 
-        html = decode_response(
-            response
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
         )
 
 
-    except Exception as e:
+    except Exception as error:
 
         print(
             "量子位 failed:",
-            e
+            error
         )
 
         return results
-
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
 
 
     for node in soup.select(
@@ -2781,19 +3286,25 @@ def fetch_qbitai():
         )
 
 
-        if not (
+        if (
 
-            contains_chinese(
+            not href
+
+            or
+
+            not contains_chinese(
                 title
             )
 
-            and
+            or
 
-            8 <= len(title) <= 120
-
-            and
-
-            href
+            not (
+                8
+                <=
+                len(title)
+                <=
+                120
+            )
 
         ):
 
@@ -2826,23 +3337,55 @@ def fetch_qbitai():
             continue
 
 
-        if not useful_ai_text(
-            title
+        if (
+
+            node.parent
+
+            and
+
+            node.parent.parent
+
         ):
 
-            continue
+            context = clean_text(
+                node.parent.parent.get_text(
+                    " ",
+                    strip=True
+                )
+            )
 
 
-        seen.add(
-            url
+        else:
+
+            context = title
+
+
+        combined = (
+            f"{title} "
+            f"{context}"
         )
 
 
         breakthrough = (
             is_breakthrough(
-                title
+                combined
             )
         )
+
+
+        if (
+
+            not breakthrough
+
+            and
+
+            not tool_relevant(
+                combined
+            )
+
+        ):
+
+            continue
 
 
         category = (
@@ -2856,11 +3399,17 @@ def fetch_qbitai():
         )
 
 
+        seen.add(
+            url
+        )
+
+
         results.append(
 
             make_item(
 
-                title=title,
+                title=
+                    title,
 
                 source=
                     "量子位",
@@ -2868,19 +3417,18 @@ def fetch_qbitai():
                 category=
                     category,
 
-                url=url,
+                url=
+                    url,
 
-                priority=(
+                summary=
+                    context,
 
-                    "A"
-
-                    if breakthrough
-
-                    else ai_priority(
-                        title
-                    )
-
-                ),
+                priority=
+                    (
+                        "A"
+                        if breakthrough
+                        else "B"
+                    ),
 
                 language=
                     "zh",
@@ -2904,6 +3452,7 @@ def fetch_qbitai():
 
 # =========================================================
 # 科技日报
+# 前沿动态
 # =========================================================
 
 def fetch_stdaily():
@@ -2929,35 +3478,33 @@ def fetch_stdaily():
         response.raise_for_status()
 
 
-        html = decode_response(
-            response
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
         )
 
 
-    except Exception as e:
+    except Exception as error:
 
         print(
             "科技日报 failed:",
-            e
+            error
         )
 
         return results
 
 
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
-
-
     for heading in soup.find_all(
-
         [
             "h2",
             "h3",
             "h4",
         ]
-
     ):
 
         node = heading.find(
@@ -2979,27 +3526,13 @@ def fetch_stdaily():
         )
 
 
-        if not (
-
-            contains_chinese(
-                title
-            )
-
-            and
-
-            6 <= len(title) <= 120
-
-        ):
-
-            continue
-
-
         url = urljoin(
 
             STD_BREAKTHROUGH_URL,
 
             node.get(
-                "href"
+                "href",
+                ""
             )
 
         )
@@ -3025,6 +3558,13 @@ def fetch_stdaily():
             continue
 
 
+        if not contains_chinese(
+            title
+        ):
+
+            continue
+
+
         seen.add(
             url
         )
@@ -3034,7 +3574,8 @@ def fetch_stdaily():
 
             make_item(
 
-                title=title,
+                title=
+                    title,
 
                 source=
                     "科技日报",
@@ -3042,7 +3583,8 @@ def fetch_stdaily():
                 category=
                     "前沿动态",
 
-                url=url,
+                url=
+                    url,
 
                 priority=
                     "A",
@@ -3096,25 +3638,25 @@ def fetch_sciencenet():
         response.raise_for_status()
 
 
-        html = decode_response(
-            response
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
         )
 
 
-    except Exception as e:
+    except Exception as error:
 
         print(
             "科学网 failed:",
-            e
+            error
         )
 
         return results
-
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
 
 
     for node in soup.find_all(
@@ -3122,15 +3664,23 @@ def fetch_sciencenet():
         href=True
     ):
 
-        href = node.get(
-            "href",
-            ""
+        url = urljoin(
+
+            SCIENCENET_URL,
+
+            node.get(
+                "href",
+                ""
+            )
+
         )
 
 
-        url = urljoin(
-            SCIENCENET_URL,
-            href
+        title = clean_text(
+            node.get_text(
+                " ",
+                strip=True
+            )
         )
 
 
@@ -3154,36 +3704,33 @@ def fetch_sciencenet():
             continue
 
 
-        title = clean_text(
-            node.get_text(
-                " ",
-                strip=True
-            )
-        )
-
-
-        if not (
-
-            contains_chinese(
-                title
-            )
-
-            and
-
-            6 <= len(title) <= 120
-
-        ):
-
-            continue
-
-
         if url in seen:
 
             continue
 
 
-        if not is_breakthrough(
-            title
+        if (
+
+            not contains_chinese(
+                title
+            )
+
+            or
+
+            not (
+                6
+                <=
+                len(title)
+                <=
+                120
+            )
+
+            or
+
+            not is_breakthrough(
+                title
+            )
+
         ):
 
             continue
@@ -3198,7 +3745,8 @@ def fetch_sciencenet():
 
             make_item(
 
-                title=title,
+                title=
+                    title,
 
                 source=
                     "科学网",
@@ -3206,7 +3754,8 @@ def fetch_sciencenet():
                 category=
                     "前沿动态",
 
-                url=url,
+                url=
+                    url,
 
                 priority=
                     "A",
@@ -3258,25 +3807,25 @@ def fetch_deeptech():
         response.raise_for_status()
 
 
-        html = decode_response(
-            response
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
         )
 
 
-    except Exception as e:
+    except Exception as error:
 
         print(
             "DeepTech failed:",
-            e
+            error
         )
 
         return results
-
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
 
 
     for node in soup.find_all(
@@ -3292,32 +3841,15 @@ def fetch_deeptech():
         )
 
 
-        href = node.get(
-            "href",
-            ""
-        )
+        url = urljoin(
 
+            DEEPTECH_URL,
 
-        if not (
-
-            contains_chinese(
-                title
+            node.get(
+                "href",
+                ""
             )
 
-            and
-
-            8 <= len(title) <= 120
-
-            and href
-
-        ):
-
-            continue
-
-
-        url = urljoin(
-            DEEPTECH_URL,
-            href
         )
 
 
@@ -3341,8 +3873,28 @@ def fetch_deeptech():
             continue
 
 
-        if not is_breakthrough(
-            title
+        if (
+
+            not contains_chinese(
+                title
+            )
+
+            or
+
+            not (
+                8
+                <=
+                len(title)
+                <=
+                120
+            )
+
+            or
+
+            not is_breakthrough(
+                title
+            )
+
         ):
 
             continue
@@ -3357,7 +3909,8 @@ def fetch_deeptech():
 
             make_item(
 
-                title=title,
+                title=
+                    title,
 
                 source=
                     "DeepTech深科技",
@@ -3365,7 +3918,8 @@ def fetch_deeptech():
                 category=
                     "前沿动态",
 
-                url=url,
+                url=
+                    url,
 
                 priority=
                     "A",
@@ -3391,7 +3945,7 @@ def fetch_deeptech():
 
 
 # =========================================================
-# Nature文章列表解析
+# Nature列表解析
 # =========================================================
 
 def parse_nature_cards(
@@ -3410,82 +3964,48 @@ def parse_nature_cards(
     )
 
 
-    results = []
+    cards = (
+        soup.select(
+            "li.app-article-list-row__item"
+        )
 
+        or
 
-    # Nature新版常见结构
-    cards = soup.select(
-        "li.app-article-list-row__item"
+        soup.select(
+            "article"
+        )
     )
 
 
-    if not cards:
-
-        cards = soup.select(
-            "article"
-        )
-
-
-    # 再fallback
-    if not cards:
-
-        cards = []
-
-
-        for heading in soup.find_all(
-            [
-                "h2",
-                "h3",
-            ]
-        ):
-
-            link = heading.find(
-                "a",
-                href=True
-            )
-
-
-            if (
-
-                link
-
-                and
-
-                "/articles/"
-                in link.get(
-                    "href",
-                    ""
-                )
-
-            ):
-
-                cards.append(
-                    heading.parent
-                )
-
+    results = []
 
     seen = set()
 
 
     for card in cards:
 
-        link = card.select_one(
+        link = (
 
-            'h3 a[href*="/articles/"], '
-            'h2 a[href*="/articles/"]'
+            card.select_one(
 
-        )
+                'h3 a[href*="/articles/"], '
+                'h2 a[href*="/articles/"]'
 
+            )
 
-        if not link:
+            or
 
-            # fallback
-            link = card.find(
+            card.find(
+
                 "a",
+
                 href=re.compile(
                     r"/articles/"
                 )
+
             )
+
+        )
 
 
         if not link:
@@ -3501,24 +4021,31 @@ def parse_nature_cards(
         )
 
 
-        href = link.get(
-            "href",
-            ""
-        )
-
-
-        if not title or not href:
-
-            continue
-
-
         url = urljoin(
+
             "https://www.nature.com",
-            href
+
+            link.get(
+                "href",
+                ""
+            )
+
         )
 
 
-        if url in seen:
+        if (
+
+            not title
+
+            or
+
+            not url
+
+            or
+
+            url in seen
+
+        ):
 
             continue
 
@@ -3536,22 +4063,15 @@ def parse_nature_cards(
         )
 
 
-        published = (
-            extract_date_from_text(
-                card_text
-            )
-        )
-
-
         summary = ""
 
 
-        for p in card.find_all(
+        for paragraph in card.find_all(
             "p"
         ):
 
             candidate = clean_summary(
-                p.get_text(
+                paragraph.get_text(
                     " ",
                     strip=True
                 )
@@ -3587,7 +4107,9 @@ def parse_nature_cards(
 
                 "published_at":
                     parse_date(
-                        published
+                        extract_date_from_text(
+                            card_text
+                        )
                     ),
 
                 "summary":
@@ -3605,7 +4127,7 @@ def parse_nature_cards(
 
 
 # =========================================================
-# Nature页面抓取
+# Nature抓取
 # =========================================================
 
 def fetch_nature_page(
@@ -3668,55 +4190,48 @@ def fetch_nature_page(
             response.raise_for_status()
 
 
-            html = decode_response(
-                response
+            page_items = (
+                parse_nature_cards(
+
+                    decode_response(
+                        response
+                    ),
+
+                    source,
+
+                    page_url
+
+                )
             )
 
 
-        except Exception as e:
+        except Exception as error:
 
             print(
                 source,
                 "page failed:",
                 page,
-                e
+                error
             )
 
             continue
-
-
-        page_items = (
-            parse_nature_cards(
-
-                html,
-
-                source,
-
-                page_url
-
-            )
-        )
 
 
         for item in page_items:
 
             if item[
                 "url"
-            ] in seen:
+            ] not in seen:
 
-                continue
+                seen.add(
+                    item[
+                        "url"
+                    ]
+                )
 
-
-            seen.add(
-                item[
-                    "url"
-                ]
-            )
-
-
-            results.append(
-                item
-            )
+                results.append(
+                    item
+                )
 
 
     print(
@@ -3728,11 +4243,6 @@ def fetch_nature_page(
 
     return results
 
-
-# =========================================================
-# Scientific Data / Nature Cities
-# 转为普通资讯卡
-# =========================================================
 
 def nature_items_to_news(
 
@@ -3783,9 +4293,6 @@ def nature_items_to_news(
                 language=
                     "en",
 
-                is_breakthrough_item=
-                    False,
-
             )
 
         )
@@ -3795,464 +4302,34 @@ def nature_items_to_news(
 
 
 # =========================================================
-# GitHub相关性
-# =========================================================
-
-def github_relevant(
-
-    name,
-
-    description
-
-):
-
-    text = (
-        f"{name} "
-        f"{description}"
-    ).lower()
-
-
-    if any(
-
-        word in text
-
-        for word
-        in GITHUB_NEGATIVE
-
-    ):
-
-        return False
-
-
-    return any(
-
-        word in text
-
-        for word
-        in GITHUB_POSITIVE
-
-    )
-
-
-# =========================================================
-# GitHub优先级
-# =========================================================
-
-def github_priority(
-
-    stars,
-
-    created_at
-
-):
-
-    try:
-
-        created = dtparser.parse(
-            created_at
-        )
-
-
-        if created.tzinfo is None:
-
-            created = created.replace(
-                tzinfo=timezone.utc
-            )
-
-
-        days = max(
-
-            1,
-
-            (
-                datetime.now(
-                    timezone.utc
-                )
-                - created
-            ).days
-            + 1
-
-        )
-
-
-        speed = (
-            stars
-            / days
-        )
-
-
-    except Exception:
-
-        speed = 0
-
-
-    if (
-
-        stars >= 500
-
-        or
-
-        speed >= 50
-
-    ):
-
-        return "A"
-
-
-    if (
-
-        stars >= 100
-
-        or
-
-        speed >= 10
-
-    ):
-
-        return "B"
-
-
-    return "C"
-
-
-# =========================================================
-# GitHub标题
-# =========================================================
-
-def github_display_title(
-
-    full_name,
-
-    description
-
-):
-
-    repo_name = (
-
-        full_name.split("/")[-1]
-
-        if full_name
-
-        else "GitHub项目"
-
-    )
-
-
-    description = clean_text(
-        description
-    )
-
-
-    if not description:
-
-        return repo_name
-
-
-    first = re.split(
-
-        r"[.!?。！？]",
-
-        description
-
-    )[0].strip()
-
-
-    if len(first) > 75:
-
-        first = (
-            first[:72]
-            .rstrip()
-            + "..."
-        )
-
-
-    return (
-        f"{repo_name}："
-        f"{first}"
-    )
-
-
-# =========================================================
-# GitHub
-# =========================================================
-
-def fetch_github():
-
-    print(
-        "Fetching GitHub..."
-    )
-
-
-    results = []
-
-    seen = set()
-
-
-    token = os.environ.get(
-        "GITHUB_TOKEN"
-    )
-
-
-    headers = {
-
-        "Accept":
-            "application/vnd.github+json",
-
-        "User-Agent":
-            "icat-research-radar",
-
-    }
-
-
-    if token:
-
-        headers[
-            "Authorization"
-        ] = (
-            f"Bearer {token}"
-        )
-
-
-    since = (
-
-        datetime.now(
-            timezone.utc
-        )
-
-        - timedelta(
-            days=21
-        )
-
-    ).strftime(
-        "%Y-%m-%d"
-    )
-
-
-    for topic in GITHUB_TOPICS:
-
-        query = (
-
-            f"{topic} "
-
-            f"in:name,description,readme "
-
-            f"created:>={since} "
-
-            f"archived:false"
-
-        )
-
-
-        try:
-
-            response = SESSION.get(
-
-                "https://api.github.com/"
-                "search/repositories",
-
-                headers=headers,
-
-                params={
-
-                    "q":
-                        query,
-
-                    "sort":
-                        "stars",
-
-                    "order":
-                        "desc",
-
-                    "per_page":
-                        10,
-
-                },
-
-                timeout=30
-
-            )
-
-
-            response.raise_for_status()
-
-
-            data = (
-                response.json()
-            )
-
-
-        except Exception as e:
-
-            print(
-                "GitHub failed:",
-                topic,
-                e
-            )
-
-            continue
-
-
-        for repo in data.get(
-            "items",
-            []
-        ):
-
-            url = repo.get(
-                "html_url"
-            )
-
-
-            if (
-
-                not url
-
-                or
-
-                url in seen
-
-            ):
-
-                continue
-
-
-            stars = repo.get(
-                "stargazers_count",
-                0
-            )
-
-
-            if stars < 30:
-
-                continue
-
-
-            full_name = repo.get(
-                "full_name",
-                ""
-            )
-
-
-            description = (
-                repo.get(
-                    "description"
-                )
-                or ""
-            )
-
-
-            if not github_relevant(
-
-                full_name,
-
-                description
-
-            ):
-
-                continue
-
-
-            seen.add(
-                url
-            )
-
-
-            created_at = repo.get(
-                "created_at"
-            )
-
-
-            results.append(
-
-                make_item(
-
-                    title=
-                        full_name,
-
-                    display_title=
-                        github_display_title(
-
-                            full_name,
-
-                            description
-
-                        ),
-
-                    source=
-                        "GitHub",
-
-                    category=
-                        "提效工具",
-
-                    url=
-                        url,
-
-                    published_at=
-                        created_at,
-
-                    summary=
-                        description,
-
-                    priority=
-                        github_priority(
-
-                            stars,
-
-                            created_at
-
-                        ),
-
-                    language=
-                        "en",
-
-                    is_breakthrough_item=
-                        False,
-
-                    meta={
-
-                        "stars":
-                            stars,
-
-                        "language":
-                            repo.get(
-                                "language"
-                            ),
-
-                    },
-
-                )
-
-            )
-
-
-    print(
-        "GitHub:",
-        len(results)
-    )
-
-
-    return results
-
-
-# =========================================================
-# 百度热点：
-# 找主题
+# 热点主题判断
+#
+# V9只根据“标题”判断
+#
+# 不再根据百度摘要判断
+#
+# 这样可以避免：
+# “剩饭喂猪”
+# 被摘要里的“生态”误判
 # =========================================================
 
 def identify_hot_topic(
-    title,
-    summary=""
+    title
 ):
 
-    text = (
-        f"{title} "
-        f"{summary}"
+    title = clean_text(
+        title
     )
 
 
-    # 先排除明显娱乐体育
+    if not title:
+
+        return None
+
+
     if any(
 
-        word in text
+        word in title
 
         for word
         in HOT_EXCLUDE_WORDS
@@ -4274,22 +4351,24 @@ def identify_hot_topic(
             1
 
             for keyword
-            in rule["cn"]
+            in rule[
+                "cn"
+            ]
 
-            if keyword
-            in text
+            if keyword.lower()
+            in title.lower()
 
         )
 
 
         if hits > best_hits:
 
-            best_hits = hits
-
             best_rule = rule
 
+            best_hits = hits
 
-    if best_hits == 0:
+
+    if best_hits < 1:
 
         return None
 
@@ -4298,13 +4377,21 @@ def identify_hot_topic(
 
 
 # =========================================================
-# 百度热搜
+# 百度热榜通用
 # =========================================================
 
-def fetch_baidu_hotspots():
+def fetch_baidu_board(
+
+    url,
+
+    platform
+
+):
 
     print(
-        "Fetching 百度热搜..."
+        "Fetching",
+        platform,
+        "..."
     )
 
 
@@ -4314,57 +4401,48 @@ def fetch_baidu_hotspots():
     try:
 
         response = SESSION.get(
-
-            BAIDU_HOT_URL,
-
+            url,
             timeout=30
-
         )
 
 
         response.raise_for_status()
 
 
-        html = decode_response(
-            response
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
         )
 
 
-    except Exception as e:
+    except Exception as error:
 
         print(
-            "百度热搜 failed:",
-            e
+            platform,
+            "failed:",
+            error
         )
 
         return results
 
-
-    soup = BeautifulSoup(
-        html,
-        "html.parser"
-    )
-
-
-    # =====================================================
-    # 方案1：
-    # 百度当前常见卡片结构
-    # =====================================================
 
     cards = soup.select(
         "div.category-wrap_iQLoo"
     )
 
 
-    rank_counter = 0
+    for index, card in enumerate(
+        cards,
+        start=1
+    ):
 
-
-    for card in cards:
-
-        title_node = (
-            card.select_one(
-                ".c-single-text-ellipsis"
-            )
+        title_node = card.select_one(
+            ".c-single-text-ellipsis"
         )
 
 
@@ -4381,12 +4459,14 @@ def fetch_baidu_hotspots():
         )
 
 
-        if not title:
+        rule = identify_hot_topic(
+            title
+        )
+
+
+        if not rule:
 
             continue
-
-
-        rank_counter += 1
 
 
         link = card.find(
@@ -4395,18 +4475,17 @@ def fetch_baidu_hotspots():
         )
 
 
-        url = (
+        if link:
 
-            link.get(
+            target_url = link.get(
                 "href",
                 ""
             )
 
-            if link
 
-            else BAIDU_HOT_URL
+        else:
 
-        )
+            target_url = url
 
 
         desc_node = (
@@ -4424,20 +4503,19 @@ def fetch_baidu_hotspots():
         )
 
 
-        summary = (
+        if desc_node:
 
-            clean_summary(
+            summary = clean_summary(
                 desc_node.get_text(
                     " ",
                     strip=True
                 )
             )
 
-            if desc_node
 
-            else ""
+        else:
 
-        )
+            summary = ""
 
 
         index_node = (
@@ -4464,9 +4542,14 @@ def fetch_baidu_hotspots():
 
                 r"\d+",
 
-                index_node.get_text(
+                index_node
+                .get_text(
                     "",
                     strip=True
+                )
+                .replace(
+                    ",",
+                    ""
                 )
 
             )
@@ -4474,42 +4557,9 @@ def fetch_baidu_hotspots():
 
             if match:
 
-                try:
-
-                    hot_index = int(
-                        match.group(0)
-                    )
-
-                except Exception:
-
-                    hot_index = 0
-
-
-        rule = identify_hot_topic(
-            title,
-            summary
-        )
-
-
-        if not rule:
-
-            continue
-
-
-        image_url = ""
-
-
-        image_node = card.find(
-            "img"
-        )
-
-
-        if image_node:
-
-            image_url = get_img_src(
-                image_node,
-                BAIDU_HOT_URL
-            )
+                hot_index = int(
+                    match.group(0)
+                )
 
 
         results.append(
@@ -4523,13 +4573,16 @@ def fetch_baidu_hotspots():
                     summary,
 
                 "url":
-                    url,
+                    target_url,
 
                 "rank":
-                    rank_counter,
+                    index,
 
                 "hot_index":
                     hot_index,
+
+                "platform":
+                    platform,
 
                 "topic":
                     rule[
@@ -4544,143 +4597,14 @@ def fetch_baidu_hotspots():
                 "topic_rule":
                     rule,
 
-                "image_url":
-                    image_url,
-
             }
 
         )
 
 
-    # =====================================================
-    # fallback：
-    # 如果百度CSS类变化
-    # 从搜索链接中找标题
-    # =====================================================
-
-    if not results:
-
-        rank = 0
-
-
-        seen = set()
-
-
-        for node in soup.find_all(
-            "a",
-            href=True
-        ):
-
-            title = clean_text(
-                node.get_text(
-                    " ",
-                    strip=True
-                )
-            )
-
-
-            href = node.get(
-                "href",
-                ""
-            )
-
-
-            if not (
-
-                contains_chinese(
-                    title
-                )
-
-                and
-
-                5 <= len(title) <= 45
-
-            ):
-
-                continue
-
-
-            if (
-
-                "baidu.com"
-
-                not in href
-
-            ):
-
-                continue
-
-
-            if title in seen:
-
-                continue
-
-
-            rule = identify_hot_topic(
-                title
-            )
-
-
-            if not rule:
-
-                continue
-
-
-            seen.add(
-                title
-            )
-
-
-            rank += 1
-
-
-            results.append(
-
-                {
-
-                    "title":
-                        title,
-
-                    "summary":
-                        "",
-
-                    "url":
-                        href,
-
-                    "rank":
-                        rank,
-
-                    "hot_index":
-                        0,
-
-                    "topic":
-                        rule[
-                            "label"
-                        ],
-
-                    "angle":
-                        rule[
-                            "angle"
-                        ],
-
-                    "topic_rule":
-                        rule,
-
-                    "image_url":
-                        "",
-
-                }
-
-            )
-
-
-            if rank >= 50:
-
-                break
-
-
     print(
-        "百度科研相关热点:",
+        platform,
+        "relevant:",
         len(results)
     )
 
@@ -4689,7 +4613,584 @@ def fetch_baidu_hotspots():
 
 
 # =========================================================
-# Nature论文匹配分数
+# 微博热搜
+#
+# 微博可能偶尔触发反爬
+#
+# 抓不到时返回空数组
+# 不会让整个Action失败
+# =========================================================
+
+def fetch_weibo_hotspots():
+
+    print(
+        "Fetching 微博热搜..."
+    )
+
+
+    results = []
+
+
+    headers = dict(
+        HEADERS
+    )
+
+
+    headers.update(
+
+        {
+
+            "Referer":
+                "https://weibo.com/",
+
+            "Accept":
+                "text/html,"
+                "application/xhtml+xml,"
+                "application/xml;q=0.9,"
+                "image/avif,"
+                "image/webp,"
+                "*/*;q=0.8",
+
+        }
+
+    )
+
+
+    try:
+
+        response = requests.get(
+
+            WEIBO_HOT_URL,
+
+            headers=headers,
+
+            timeout=30
+
+        )
+
+
+        response.raise_for_status()
+
+
+        soup = BeautifulSoup(
+
+            decode_response(
+                response
+            ),
+
+            "html.parser"
+
+        )
+
+
+    except Exception as error:
+
+        print(
+            "微博热搜 failed:",
+            error
+        )
+
+        return results
+
+
+    rows = soup.select(
+        "table tbody tr"
+    )
+
+
+    rank_fallback = 0
+
+
+    for row in rows:
+
+        title_node = row.select_one(
+            "td.td-02 a"
+        )
+
+
+        if not title_node:
+
+            continue
+
+
+        title = clean_text(
+            title_node.get_text(
+                " ",
+                strip=True
+            )
+        ).strip(
+            "#"
+        )
+
+
+        rule = identify_hot_topic(
+            title
+        )
+
+
+        if not rule:
+
+            continue
+
+
+        rank_node = row.select_one(
+            "td.td-01"
+        )
+
+
+        if rank_node:
+
+            rank_text = clean_text(
+                rank_node.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+
+
+        else:
+
+            rank_text = ""
+
+
+        match = re.search(
+            r"\d+",
+            rank_text
+        )
+
+
+        rank_fallback += 1
+
+
+        if match:
+
+            rank = int(
+                match.group(0)
+            )
+
+
+        else:
+
+            rank = rank_fallback
+
+
+        href = title_node.get(
+            "href",
+            ""
+        )
+
+
+        url = urljoin(
+            "https://s.weibo.com",
+            href
+        )
+
+
+        heat = 0
+
+
+        row_text = clean_text(
+            row.get_text(
+                " ",
+                strip=True
+            )
+        )
+
+
+        numbers = re.findall(
+
+            r"\b\d{4,}\b",
+
+            row_text.replace(
+                ",",
+                ""
+            )
+
+        )
+
+
+        if numbers:
+
+            heat = int(
+                numbers[-1]
+            )
+
+
+        results.append(
+
+            {
+
+                "title":
+                    title,
+
+                "summary":
+                    "",
+
+                "url":
+                    url,
+
+                "rank":
+                    rank,
+
+                "hot_index":
+                    heat,
+
+                "platform":
+                    "微博热搜",
+
+                "topic":
+                    rule[
+                        "label"
+                    ],
+
+                "angle":
+                    rule[
+                        "angle"
+                    ],
+
+                "topic_rule":
+                    rule,
+
+            }
+
+        )
+
+
+    print(
+        "微博热搜 relevant:",
+        len(results)
+    )
+
+
+    return results
+
+
+# =========================================================
+# 热点标题标准化
+# =========================================================
+
+def normalize_hot_title(
+    title
+):
+
+    return re.sub(
+
+        r"[#\s，。！？、：:；;"
+        r"（）()\[\]【】\-—_]+",
+
+        "",
+
+        clean_text(
+            title
+        )
+
+    ).lower()
+
+
+# =========================================================
+# 二元字符
+#
+# 用于判断两个平台是不是同一个热点
+# =========================================================
+
+def bigrams(
+    text
+):
+
+    text = normalize_hot_title(
+        text
+    )
+
+
+    if len(text) < 2:
+
+        return {
+            text
+        }
+
+
+    return {
+
+        text[index:index + 2]
+
+        for index
+        in range(
+            len(text) - 1
+        )
+
+    }
+
+
+def title_similarity(
+    title_a,
+    title_b
+):
+
+    set_a = bigrams(
+        title_a
+    )
+
+    set_b = bigrams(
+        title_b
+    )
+
+
+    if (
+
+        not set_a
+
+        or
+
+        not set_b
+
+    ):
+
+        return 0
+
+
+    return (
+
+        len(
+            set_a
+            &
+            set_b
+        )
+
+        /
+
+        len(
+            set_a
+            |
+            set_b
+        )
+
+    )
+
+
+# =========================================================
+# 多平台热点合并
+# =========================================================
+
+def merge_hotspot_platforms(
+    items
+):
+
+    groups = []
+
+
+    items = sorted(
+
+        items,
+
+        key=lambda item:
+            item.get(
+                "rank",
+                99
+            )
+
+    )
+
+
+    for item in items:
+
+        matched = None
+
+
+        for group in groups:
+
+            similarity = title_similarity(
+
+                item[
+                    "title"
+                ],
+
+                group[
+                    "title"
+                ]
+
+            )
+
+
+            if similarity >= 0.62:
+
+                matched = group
+
+                break
+
+
+        if matched is None:
+
+            copied = dict(
+                item
+            )
+
+
+            copied[
+                "platforms"
+            ] = [
+
+                item[
+                    "platform"
+                ]
+
+            ]
+
+
+            copied[
+                "platform_ranks"
+            ] = {
+
+                item[
+                    "platform"
+                ]:
+                    item.get(
+                        "rank",
+                        99
+                    )
+
+            }
+
+
+            groups.append(
+                copied
+            )
+
+
+        else:
+
+            if (
+
+                item[
+                    "platform"
+                ]
+
+                not in
+
+                matched[
+                    "platforms"
+                ]
+
+            ):
+
+                matched[
+                    "platforms"
+                ].append(
+
+                    item[
+                        "platform"
+                    ]
+
+                )
+
+
+            matched[
+                "platform_ranks"
+            ][
+                item[
+                    "platform"
+                ]
+            ] = item.get(
+                "rank",
+                99
+            )
+
+
+            matched[
+                "rank"
+            ] = min(
+
+                matched.get(
+                    "rank",
+                    99
+                ),
+
+                item.get(
+                    "rank",
+                    99
+                )
+
+            )
+
+
+            matched[
+                "hot_index"
+            ] = max(
+
+                matched.get(
+                    "hot_index",
+                    0
+                ),
+
+                item.get(
+                    "hot_index",
+                    0
+                )
+
+            )
+
+
+            if (
+
+                len(
+                    item.get(
+                        "summary",
+                        ""
+                    )
+                )
+
+                >
+
+                len(
+                    matched.get(
+                        "summary",
+                        ""
+                    )
+                )
+
+            ):
+
+                matched[
+                    "summary"
+                ] = item[
+                    "summary"
+                ]
+
+
+            # 微博热点链接更适合点击
+            if (
+
+                matched.get(
+                    "platform"
+                )
+
+                !=
+
+                "微博热搜"
+
+                and
+
+                item.get(
+                    "platform"
+                )
+
+                ==
+
+                "微博热搜"
+
+            ):
+
+                matched[
+                    "url"
+                ] = item[
+                    "url"
+                ]
+
+
+    return groups
+
+
+# =========================================================
+# Nature匹配分数
 # =========================================================
 
 def nature_match_score(
@@ -4719,65 +5220,77 @@ def nature_match_score(
     ).lower()
 
 
-    score = 0
+    keyword_hits = sum(
+
+        1
+
+        for keyword
+        in rule[
+            "en"
+        ]
+
+        if keyword.lower()
+        in text
+
+    )
 
 
-    # 英文关键词命中
-    for keyword in rule[
-        "en"
-    ]:
+    # 必须真正命中Nature论文关键词
+    if keyword_hits == 0:
 
-        if keyword.lower() in text:
-
-            score += 8
+        return 0
 
 
-    # Nature主刊加分
-    journal = paper.get(
-        "source",
-        ""
+    score = (
+        keyword_hits
+        * 9
     )
 
 
     journal_bonus = {
 
         "Nature":
-            10,
+            12,
 
         "Nature Climate Change":
-            9,
+            11,
 
         "Nature Medicine":
-            9,
+            11,
 
         "Nature Human Behaviour":
-            9,
+            10,
 
         "Nature Cities":
-            8,
+            10,
 
         "Nature Communications":
-            7,
+            8,
 
         "Scientific Data":
-            5,
+            6,
 
         "Scientific Reports":
-            3,
+            4,
 
     }
 
 
     score += journal_bonus.get(
-        journal,
+
+        paper.get(
+            "source",
+            ""
+        ),
+
         0
+
     )
 
 
-    # 近期加分
     try:
 
-        dt = dtparser.parse(
+        published = dtparser.parse(
             paper.get(
                 "published_at",
                 ""
@@ -4785,9 +5298,9 @@ def nature_match_score(
         )
 
 
-        if dt.tzinfo is None:
+        if published.tzinfo is None:
 
-            dt = dt.replace(
+            published = published.replace(
                 tzinfo=timezone.utc
             )
 
@@ -4798,24 +5311,24 @@ def nature_match_score(
                 timezone.utc
             )
 
-            - dt
+            - published
 
         ).days
 
 
         if age <= 7:
 
-            score += 10
+            score += 12
 
 
         elif age <= 14:
 
-            score += 7
+            score += 8
 
 
         elif age <= 30:
 
-            score += 4
+            score += 5
 
 
         elif age <= 60:
@@ -4832,7 +5345,7 @@ def nature_match_score(
 
 
 # =========================================================
-# 匹配Nature论文
+# Nature论文匹配
 # =========================================================
 
 def match_nature_papers(
@@ -4854,8 +5367,7 @@ def match_nature_papers(
         )
 
 
-        # 至少有比较明确的主题匹配
-        if score < 12:
+        if score < 20:
 
             continue
 
@@ -4870,8 +5382,8 @@ def match_nature_papers(
 
     scored.sort(
 
-        key=lambda x:
-            x[0],
+        key=lambda item:
+            item[0],
 
         reverse=True
 
@@ -4904,7 +5416,10 @@ def match_nature_papers(
 
 
 # =========================================================
-# 热点传播潜力
+# 传播潜力
+#
+# 新增：
+# 多平台同时出现会明显加分
 # =========================================================
 
 def calculate_hot_score(
@@ -4927,46 +5442,36 @@ def calculate_hot_score(
     )
 
 
-    # ---------------------------------
-    # 热榜排名 0–40
-    # ---------------------------------
-
     rank_score = max(
 
         5,
 
-        42
-        - (
-            rank * 0.8
-        )
+        40
+        -
+        rank
+        * 0.65
 
     )
-
-
-    # ---------------------------------
-    # 百度指数 0–20
-    # ---------------------------------
-
-    index_score = 0
 
 
     if hot_index > 0:
 
         index_score = min(
 
-            20,
+            15,
 
             math.log10(
                 hot_index + 1
             )
-            * 3
+            * 2.5
 
         )
 
 
-    # ---------------------------------
-    # Nature证据 0–30
-    # ---------------------------------
+    else:
+
+        index_score = 0
+
 
     paper_score = min(
 
@@ -4980,6 +5485,7 @@ def calculate_hot_score(
         +
 
         (
+
             related_papers[
                 0
             ].get(
@@ -4991,19 +5497,40 @@ def calculate_hot_score(
             if related_papers
 
             else 0
+
         )
 
     )
 
 
-    # ---------------------------------
-    # 科研账号适配
-    # ---------------------------------
+    platform_count = len(
+        hotspot.get(
+            "platforms",
+            []
+        )
+    )
 
-    fit_score = 8
+
+    # 一个平台5分
+    # 每多一个平台+7
+    platform_score = min(
+
+        15,
+
+        5
+
+        +
+
+        max(
+            0,
+            platform_count - 1
+        )
+        * 7
+
+    )
 
 
-    final_score = (
+    final = (
 
         rank_score
 
@@ -5011,32 +5538,33 @@ def calculate_hot_score(
 
         + paper_score
 
-        + fit_score
+        + platform_score
 
-    )
+        + 8
 
-
-    final_score = min(
-        98,
-        final_score
     )
 
 
     return int(
+
         round(
-            final_score
+
+            min(
+                98,
+                final
+            )
+
         )
+
     )
 
 
 # =========================================================
-# 公众号标题
+# 推荐公众号标题
 # =========================================================
 
 def build_wechat_title(
-
     hotspot
-
 ):
 
     title = hotspot.get(
@@ -5051,76 +5579,82 @@ def build_wechat_title(
     )
 
 
-    if topic == "人工智能":
+    mapping = {
 
-        return (
-            f"{title}刷屏之后："
-            f"Nature研究正在回答哪些关键问题？"
-        )
+        "人工智能":
+            (
+                f"{title}刷屏之后："
+                f"Nature研究正在回答哪些关键问题？"
+            ),
+
+        "气候环境":
+            (
+                f"{title}背后："
+                f"Nature研究揭示了怎样的风险链条？"
+            ),
+
+        "健康医学":
+            (
+                f"{title}为什么值得关注？"
+                f"从Nature研究看真正的科学证据"
+            ),
+
+        "城市社会":
+            (
+                f"{title}背后，"
+                f"Nature研究如何解释正在发生的城市与社会变化？"
+            ),
+
+        "前沿科技":
+            (
+                f"{title}意味着什么？"
+                f"Nature研究中的技术路线与现实边界"
+            ),
+
+        "生态生命":
+            (
+                f"{title}背后的科学问题："
+                f"Nature研究给出了哪些线索？"
+            ),
+
+    }
 
 
-    if topic == "气候环境":
+    return mapping.get(
 
-        return (
-            f"{title}背后："
-            f"Nature研究揭示了怎样的风险链条？"
-        )
+        topic,
 
-
-    if topic == "健康医学":
-
-        return (
-            f"{title}为什么值得关注？"
-            f"从Nature研究看真正的科学证据"
-        )
-
-
-    if topic == "城市社会":
-
-        return (
+        (
             f"{title}背后，"
-            f"Nature研究如何解释正在发生的社会变化？"
+            f"Nature最近在研究什么？"
         )
 
-
-    if topic == "前沿科技":
-
-        return (
-            f"{title}意味着什么？"
-            f"Nature研究中的技术路线与现实边界"
-        )
-
-
-    if topic == "生态生命":
-
-        return (
-            f"{title}背后的科学问题："
-            f"Nature研究给出了哪些线索？"
-        )
-
-
-    return (
-        f"{title}背后，"
-        f"Nature最近在研究什么？"
     )
 
 
 # =========================================================
-# 构建初始热点
+# 构建热点
 # =========================================================
 
 def build_hotspots(
 
-    baidu_items,
+    platform_items,
 
     nature_pool
 
 ):
 
+    merged = (
+        merge_hotspot_platforms(
+            platform_items
+        )
+    )
+
+
     hotspots = []
 
 
-    for hot in baidu_items:
+    for hot in merged:
 
         related = (
             match_nature_papers(
@@ -5130,20 +5664,9 @@ def build_hotspots(
         )
 
 
-        # =================================
-        # 没有Nature研究支撑
-        # 不进入
-        # =================================
-
         if not related:
 
             continue
-
-
-        score = calculate_hot_score(
-            hot,
-            related
-        )
 
 
         hotspots.append(
@@ -5152,11 +5675,15 @@ def build_hotspots(
 
                 "id":
                     hashlib.sha1(
-                        hot[
-                            "title"
-                        ].encode(
+
+                        normalize_hot_title(
+                            hot[
+                                "title"
+                            ]
+                        ).encode(
                             "utf-8"
                         )
+
                     ).hexdigest()[:16],
 
                 "title":
@@ -5188,6 +5715,24 @@ def build_hotspots(
                         0
                     ),
 
+                "platform":
+                    hot.get(
+                        "platform",
+                        ""
+                    ),
+
+                "platforms":
+                    hot.get(
+                        "platforms",
+                        []
+                    ),
+
+                "platform_ranks":
+                    hot.get(
+                        "platform_ranks",
+                        {}
+                    ),
+
                 "topic":
                     hot.get(
                         "topic",
@@ -5195,7 +5740,10 @@ def build_hotspots(
                     ),
 
                 "score":
-                    score,
+                    calculate_hot_score(
+                        hot,
+                        related
+                    ),
 
                 "recommended_title":
                     build_wechat_title(
@@ -5208,11 +5756,13 @@ def build_hotspots(
                         ""
                     ),
 
+                # =================================
+                # 不使用百度/微博缩略图
+                # 稍后从Nature文章获取
+                # =================================
+
                 "image_url":
-                    hot.get(
-                        "image_url",
-                        ""
-                    ),
+                    "",
 
                 "related_papers":
                     related,
@@ -5227,20 +5777,28 @@ def build_hotspots(
         )
 
 
-    # 传播潜力高的优先
     hotspots.sort(
 
-        key=lambda x:
+        key=lambda item:
             (
-                x.get(
-                    "score",
-                    0
+
+                item[
+                    "score"
+                ],
+
+                len(
+                    item.get(
+                        "platforms",
+                        []
+                    )
                 ),
 
-                -x.get(
+                -
+                item.get(
                     "rank",
                     99
                 )
+
             ),
 
         reverse=True
@@ -5254,14 +5812,22 @@ def build_hotspots(
 
 
 # =========================================================
-# 为热点相关Nature论文抓图片
+# 热点Nature论文图片
+#
+# 关键变化：
+#
+# 热点左侧大图只来源于Nature论文
+#
+# 百度缩略图
+# 微博缩略图
+#
+# 都不再作为主图
 # =========================================================
 
 def enrich_hotspot_papers(
     hotspots
 ):
 
-    # 所有论文URL去重
     paper_map = {}
 
 
@@ -5285,7 +5851,7 @@ def enrich_hotspot_papers(
 
 
     urls = list(
-        paper_map.keys()
+        paper_map
     )[
         :HOT_PAPER_DETAIL_LIMIT
     ]
@@ -5297,12 +5863,13 @@ def enrich_hotspot_papers(
     )
 
 
-    detail_results = {}
+    details = {}
 
 
     with ThreadPoolExecutor(
         max_workers=DETAIL_WORKERS
     ) as executor:
+
 
         futures = {
 
@@ -5322,7 +5889,8 @@ def enrich_hotspot_papers(
             ):
             url
 
-            for url in urls
+            for url
+            in urls
 
         }
 
@@ -5338,14 +5906,14 @@ def enrich_hotspot_papers(
 
             try:
 
-                detail_results[
+                details[
                     url
                 ] = future.result()
 
 
             except Exception:
 
-                detail_results[
+                details[
                     url
                 ] = {
 
@@ -5358,56 +5926,48 @@ def enrich_hotspot_papers(
                     "image_method":
                         "",
 
+                    "page_title":
+                        "",
+
                 }
 
 
-    # 写回
     for hotspot in hotspots:
 
-        papers = hotspot.get(
+        valid_papers = []
+
+
+        for paper in hotspot.get(
             "related_papers",
             []
-        )
+        ):
 
-
-        for paper in papers:
-
-            details = detail_results.get(
+            detail = details.get(
                 paper.get(
                     "url"
-                )
+                ),
+                {}
             )
 
 
-            if not details:
+            image_url = detail.get(
+                "image_url",
+                ""
+            )
 
-                continue
 
-
-            if details.get(
-                "image_url"
-            ):
+            if image_url:
 
                 paper[
                     "image_url"
-                ] = details[
-                    "image_url"
-                ]
-
-
-            detail_summary = (
-                clean_summary(
-                    details.get(
-                        "summary",
-                        ""
-                    )
-                )
-            )
+                ] = image_url
 
 
             if (
 
-                detail_summary
+                detail.get(
+                    "summary"
+                )
 
                 and
 
@@ -5419,54 +5979,75 @@ def enrich_hotspot_papers(
 
                 paper[
                     "summary"
-                ] = detail_summary
-
-
-        # =================================
-        # 热点主图优先：
-        #
-        # 1 百度热点图
-        # 2 第一篇Nature论文图片
-        # =================================
-
-        if not hotspot.get(
-            "image_url"
-        ):
-
-            for paper in papers:
-
-                if paper.get(
-                    "image_url"
-                ):
-
-                    hotspot[
-                        "image_url"
-                    ] = paper[
-                        "image_url"
+                ] = clean_summary(
+                    detail[
+                        "summary"
                     ]
+                )
 
-                    break
+
+            valid_papers.append(
+                paper
+            )
 
 
-    # 没图片不进入热点
-    hotspots = [
+        hotspot[
+            "related_papers"
+        ] = valid_papers
 
-        hot
 
-        for hot in hotspots
+        # =================================================
+        # 第一篇真正有图的Nature论文
+        # 作为热点主图
+        # =================================================
 
-        if hot.get(
+        for paper in valid_papers:
+
+            image_url = paper.get(
+                "image_url"
+            )
+
+
+            if (
+
+                image_url
+
+                and
+
+                not image_is_bad(
+                    image_url
+                )
+
+            ):
+
+                hotspot[
+                    "image_url"
+                ] = image_url
+
+                break
+
+
+    # =====================================================
+    # 没有Nature主图
+    # 不报道
+    # =====================================================
+
+    return [
+
+        hotspot
+
+        for hotspot
+        in hotspots
+
+        if hotspot.get(
             "image_url"
         )
 
     ]
 
 
-    return hotspots
-
-
 # =========================================================
-# 读取旧新闻
+# 旧数据
 # =========================================================
 
 def load_old_data():
@@ -5478,18 +6059,13 @@ def load_old_data():
 
     try:
 
-        with open(
-
-            DATA_FILE,
-
+        with DATA_FILE.open(
             "r",
-
             encoding="utf-8"
-
-        ) as f:
+        ) as file:
 
             data = json.load(
-                f
+                file
             )
 
 
@@ -5505,7 +6081,9 @@ def load_old_data():
 
 
 # =========================================================
-# 旧新闻迁移
+# 旧数据标准化
+#
+# GitHub在这里正式被删除
 # =========================================================
 
 def normalize_old_items(
@@ -5513,6 +6091,29 @@ def normalize_old_items(
 ):
 
     output = []
+
+
+    allowed_sources = {
+
+        "AIBase",
+
+        "量子位",
+
+        "科技日报",
+
+        "科学网",
+
+        "DeepTech深科技",
+
+        "Scientific Data",
+
+        "Nature Cities",
+
+        "小众软件",
+
+        "少数派",
+
+    }
 
 
     for item in items:
@@ -5523,24 +6124,10 @@ def normalize_old_items(
         )
 
 
-        title = item.get(
-            "title",
-            ""
-        )
+        # GitHub等旧来源全部删除
+        if source not in allowed_sources:
 
-
-        summary = clean_summary(
-            item.get(
-                "summary",
-                ""
-            )
-        )
-
-
-        text = (
-            f"{title} "
-            f"{summary}"
-        )
+            continue
 
 
         if source == "AIBase":
@@ -5548,6 +6135,18 @@ def normalize_old_items(
             item[
                 "category"
             ] = "AI变现"
+
+
+        elif source in {
+
+            "小众软件",
+            "少数派",
+
+        }:
+
+            item[
+                "category"
+            ] = "提效工具"
 
 
         elif source == "量子位":
@@ -5558,8 +6157,8 @@ def normalize_old_items(
 
                 "前沿动态"
 
-                if is_breakthrough(
-                    text
+                if item.get(
+                    "is_breakthrough"
                 )
 
                 else "提效工具"
@@ -5570,9 +6169,7 @@ def normalize_old_items(
         elif source in {
 
             "科技日报",
-
             "科学网",
-
             "DeepTech深科技",
 
         }:
@@ -5585,7 +6182,6 @@ def normalize_old_items(
         elif source in {
 
             "Scientific Data",
-
             "Nature Cities",
 
         }:
@@ -5595,32 +6191,14 @@ def normalize_old_items(
             ] = "期刊论文"
 
 
-        elif source == "GitHub":
-
-            if not github_relevant(
-
-                title,
-
-                summary
-
-            ):
-
-                continue
-
-
-            item[
-                "category"
-            ] = "提效工具"
-
-
-        else:
-
-            continue
-
-
         item[
             "summary"
-        ] = summary
+        ] = clean_summary(
+            item.get(
+                "summary",
+                ""
+            )
+        )
 
 
         if not item.get(
@@ -5630,11 +6208,14 @@ def normalize_old_items(
             item[
                 "display_title"
             ] = refine_title(
-                title
+                item.get(
+                    "title",
+                    ""
+                )
             )
 
 
-        # V8重新抓旧图
+        # V9重新抓一次所有图片
         if (
 
             item.get(
@@ -5661,41 +6242,6 @@ def normalize_old_items(
         ] = IMAGE_RULE_VERSION
 
 
-        item[
-            "is_breakthrough"
-        ] = bool(
-
-            item.get(
-                "is_breakthrough"
-            )
-
-            or
-
-            (
-
-                source
-
-                not in {
-
-                    "Scientific Data",
-
-                    "Nature Cities",
-
-                    "GitHub",
-
-                }
-
-                and
-
-                is_breakthrough(
-                    text
-                )
-
-            )
-
-        )
-
-
         output.append(
             item
         )
@@ -5705,7 +6251,7 @@ def normalize_old_items(
 
 
 # =========================================================
-# 合并新旧资讯
+# 合并
 # =========================================================
 
 def merge_items(
@@ -5716,21 +6262,21 @@ def merge_items(
 
 ):
 
-    merged = {}
+    merged = {
 
+        item.get(
+            "id"
+        ):
+            item
 
-    for item in old_items:
+        for item
+        in old_items
 
-        item_id = item.get(
+        if item.get(
             "id"
         )
 
-
-        if item_id:
-
-            merged[
-                item_id
-            ] = item
+    }
 
 
     for item in new_items:
@@ -5747,18 +6293,13 @@ def merge_items(
             ]
 
 
-            detected = old.get(
+            detected_at = old.get(
                 "detected_at"
             )
 
 
-            published = old.get(
+            published_at = old.get(
                 "published_at"
-            )
-
-
-            image_url = old.get(
-                "image_url"
             )
 
 
@@ -5767,37 +6308,18 @@ def merge_items(
             )
 
 
-            if detected:
+            if detected_at:
 
                 old[
                     "detected_at"
-                ] = detected
+                ] = detected_at
 
 
-            if published:
+            if published_at:
 
                 old[
                     "published_at"
-                ] = published
-
-
-            # 旧图有效就先继承
-            if (
-
-                image_url
-
-                and
-
-                item.get(
-                    "image_rule_version"
-                )
-                == IMAGE_RULE_VERSION
-
-            ):
-
-                old[
-                    "image_url"
-                ] = image_url
+                ] = published_at
 
 
             merged[
@@ -5818,7 +6340,7 @@ def merge_items(
 
 
 # =========================================================
-# 普通资讯详情页补图
+# 普通新闻详情页补图
 # =========================================================
 
 def enrich_news_details(
@@ -5830,14 +6352,13 @@ def enrich_news_details(
 
     for item in items:
 
-        need_image = (
+        if (
+
             not item.get(
                 "image_url"
             )
-        )
 
-
-        need_summary = (
+            or
 
             not item.get(
                 "summary"
@@ -5851,15 +6372,6 @@ def enrich_news_details(
                     ""
                 )
             )
-
-        )
-
-
-        if (
-
-            need_image
-
-            or need_summary
 
         ):
 
@@ -5878,7 +6390,7 @@ def enrich_news_details(
         )
 
 
-        if url and url not in unique:
+        if url:
 
             unique[
                 url
@@ -5905,18 +6417,20 @@ def enrich_news_details(
         max_workers=DETAIL_WORKERS
     ) as executor:
 
+
         futures = {
 
             executor.submit(
 
                 fetch_page_details,
 
-                item.get(
+                item[
                     "url"
-                ),
+                ],
 
                 item.get(
-                    "source"
+                    "source",
+                    ""
                 )
 
             ):
@@ -5937,22 +6451,21 @@ def enrich_news_details(
             ]
 
 
-            url = item.get(
-                "url"
-            )
-
-
             try:
 
                 results[
-                    url
+                    item[
+                        "url"
+                    ]
                 ] = future.result()
 
 
             except Exception:
 
                 results[
-                    url
+                    item[
+                        "url"
+                    ]
                 ] = {
 
                     "image_url":
@@ -5962,6 +6475,9 @@ def enrich_news_details(
                         "",
 
                     "image_method":
+                        "",
+
+                    "page_title":
                         "",
 
                 }
@@ -5979,6 +6495,54 @@ def enrich_news_details(
         if not details:
 
             continue
+
+
+        # =================================================
+        # 修复AIBase等卡片标题解析异常
+        # =================================================
+
+        if (
+
+            details.get(
+                "page_title"
+            )
+
+            and
+
+            (
+
+                not item.get(
+                    "title"
+                )
+
+                or
+
+                len(
+                    item.get(
+                        "title",
+                        ""
+                    )
+                )
+                > 130
+
+            )
+
+        ):
+
+            item[
+                "title"
+            ] = details[
+                "page_title"
+            ]
+
+
+            item[
+                "display_title"
+            ] = refine_title(
+                details[
+                    "page_title"
+                ]
+            )
 
 
         if details.get(
@@ -6000,17 +6564,15 @@ def enrich_news_details(
             )
 
 
-        detail_summary = clean_summary(
+        if (
+
             details.get(
-                "summary",
-                ""
+                "summary"
             )
-        )
 
+            and
 
-        if detail_summary:
-
-            if (
+            (
 
                 not item.get(
                     "summary"
@@ -6025,18 +6587,24 @@ def enrich_news_details(
                     )
                 )
 
-            ):
+            )
 
-                item[
+        ):
+
+            item[
+                "summary"
+            ] = clean_summary(
+                details[
                     "summary"
-                ] = detail_summary
+                ]
+            )
 
 
     return items
 
 
 # =========================================================
-# 旧资讯删除
+# 删除旧数据
 # =========================================================
 
 def remove_old_items(
@@ -6063,7 +6631,7 @@ def remove_old_items(
 
         try:
 
-            dt = dtparser.parse(
+            published = dtparser.parse(
                 item.get(
                     "published_at",
                     ""
@@ -6071,14 +6639,14 @@ def remove_old_items(
             )
 
 
-            if dt.tzinfo is None:
+            if published.tzinfo is None:
 
-                dt = dt.replace(
+                published = published.replace(
                     tzinfo=timezone.utc
                 )
 
 
-            if dt >= cutoff:
+            if published >= cutoff:
 
                 output.append(
                     item
@@ -6103,35 +6671,30 @@ def only_items_with_images(
     items
 ):
 
-    output = []
+    return [
 
+        item
 
-    for item in items:
+        for item
+        in items
 
-        image_url = item.get(
-            "image_url",
-            ""
+        if (
+
+            item.get(
+                "image_url"
+            )
+
+            and
+
+            not image_is_bad(
+                item[
+                    "image_url"
+                ]
+            )
+
         )
 
-
-        if not image_url:
-
-            continue
-
-
-        if image_is_bad(
-            image_url
-        ):
-
-            continue
-
-
-        output.append(
-            item
-        )
-
-
-    return output
+    ]
 
 
 # =========================================================
@@ -6178,17 +6741,21 @@ def remove_duplicate_images(
 
         key = image_key(
             item.get(
-                "image_url"
+                "image_url",
+                ""
             )
         )
 
 
-        if not key:
+        if (
 
-            continue
+            not key
 
+            or
 
-        if key in seen:
+            key in seen
+
+        ):
 
             continue
 
@@ -6228,17 +6795,20 @@ def source_rank(
         "AIBase":
             95,
 
-        "量子位":
-            90,
+        "少数派":
+            92,
 
-        "Nature Cities":
+        "小众软件":
+            91,
+
+        "量子位":
             90,
 
         "Scientific Data":
             90,
 
-        "GitHub":
-            70,
+        "Nature Cities":
+            90,
 
     }
 
@@ -6250,28 +6820,25 @@ def source_rank(
 
 
 # =========================================================
-# 排序
+# 普通资讯排序
 # =========================================================
 
 def sort_news(
     items
 ):
 
-    def key(
+    def sort_key(
         item
     ):
 
         try:
 
-            timestamp = (
-                dtparser.parse(
-                    item.get(
-                        "published_at",
-                        ""
-                    )
+            timestamp = dtparser.parse(
+                item.get(
+                    "published_at",
+                    ""
                 )
-                .timestamp()
-            )
+            ).timestamp()
 
 
         except Exception:
@@ -6279,24 +6846,19 @@ def sort_news(
             timestamp = 0
 
 
-        breakthrough = (
-
-            1
-
-            if item.get(
-                "is_breakthrough"
-            )
-
-            else 0
-
-        )
-
-
         return (
 
             timestamp,
 
-            breakthrough,
+            (
+                1
+
+                if item.get(
+                    "is_breakthrough"
+                )
+
+                else 0
+            ),
 
             source_rank(
                 item.get(
@@ -6309,7 +6871,7 @@ def sort_news(
 
 
     items.sort(
-        key=key,
+        key=sort_key,
         reverse=True
     )
 
@@ -6318,7 +6880,7 @@ def sort_news(
 
 
 # =========================================================
-# 保存JSON
+# 保存
 # =========================================================
 
 def save_data(
@@ -6330,11 +6892,8 @@ def save_data(
 ):
 
     DATA_FILE.parent.mkdir(
-
         parents=True,
-
         exist_ok=True
-
     )
 
 
@@ -6421,16 +6980,8 @@ def save_data(
         "source_counts":
             source_counts,
 
-        # =================================
-        # 新增
-        # =================================
-
         "hotspots":
             hotspots,
-
-        # =================================
-        # 原来的资讯
-        # =================================
 
         "items":
             items,
@@ -6438,21 +6989,16 @@ def save_data(
     }
 
 
-    with open(
-
-        DATA_FILE,
-
+    with DATA_FILE.open(
         "w",
-
         encoding="utf-8"
-
-    ) as f:
+    ) as file:
 
         json.dump(
 
             output,
 
-            f,
+            file,
 
             ensure_ascii=False,
 
@@ -6468,31 +7014,49 @@ def save_data(
 def main():
 
     print(
-        "=" * 65
+        "=" * 64
     )
 
     print(
-        "ICAT Research Radar V8"
+        "ICAT Research Radar V9"
     )
 
     print(
-        "=" * 65
+        "=" * 64
     )
 
 
     # =====================================================
-    # 1. 原来的普通资讯
+    # 原数据
     # =====================================================
 
-    old_items = (
-        normalize_old_items(
-            load_old_data()
-        )
+    old_items = normalize_old_items(
+        load_old_data()
     )
 
+
+    # =====================================================
+    # AI变现
+    # =====================================================
 
     aibase_items = (
         fetch_aibase()
+    )
+
+
+    # =====================================================
+    # 提效工具
+    #
+    # GitHub已删除
+    # =====================================================
+
+    appinn_items = (
+        fetch_appinn()
+    )
+
+
+    sspai_items = (
+        fetch_sspai()
     )
 
 
@@ -6500,6 +7064,10 @@ def main():
         fetch_qbitai()
     )
 
+
+    # =====================================================
+    # 前沿动态
+    # =====================================================
 
     stdaily_items = (
         fetch_stdaily()
@@ -6516,16 +7084,12 @@ def main():
     )
 
 
-    github_items = (
-        fetch_github()
-    )
-
-
     # =====================================================
     # Scientific Data
     # =====================================================
 
     scientific_papers = (
+
         fetch_nature_page(
 
             "Scientific Data",
@@ -6535,10 +7099,12 @@ def main():
             max_pages=2
 
         )
+
     )
 
 
     scientific_items = (
+
         nature_items_to_news(
 
             scientific_papers,
@@ -6546,6 +7112,7 @@ def main():
             "Scientific Data"
 
         )
+
     )
 
 
@@ -6554,6 +7121,7 @@ def main():
     # =====================================================
 
     city_papers = (
+
         fetch_nature_page(
 
             "Nature Cities",
@@ -6563,10 +7131,12 @@ def main():
             max_pages=2
 
         )
+
     )
 
 
     city_items = (
+
         nature_items_to_news(
 
             city_papers,
@@ -6574,12 +7144,21 @@ def main():
             "Nature Cities"
 
         )
+
     )
 
+
+    # =====================================================
+    # 合并普通资讯
+    # =====================================================
 
     new_items = (
 
         aibase_items
+
+        + appinn_items
+
+        + sspai_items
 
         + qbitai_items
 
@@ -6592,8 +7171,6 @@ def main():
         + scientific_items
 
         + city_items
-
-        + github_items
 
     )
 
@@ -6608,7 +7185,7 @@ def main():
 
 
     # =====================================================
-    # 补正文图片
+    # 进入详情页抓真正图片
     # =====================================================
 
     all_items = (
@@ -6618,7 +7195,6 @@ def main():
     )
 
 
-    # 摘要清理
     for item in all_items:
 
         item[
@@ -6631,7 +7207,6 @@ def main():
         )
 
 
-    # 过期删除
     all_items = (
         remove_old_items(
             all_items
@@ -6639,7 +7214,6 @@ def main():
     )
 
 
-    # 无图片删除
     all_items = (
         only_items_with_images(
             all_items
@@ -6647,7 +7221,6 @@ def main():
     )
 
 
-    # 重复图片删除
     all_items = (
         remove_duplicate_images(
             all_items
@@ -6659,38 +7232,36 @@ def main():
         sort_news(
             all_items
         )
-    )
-
-
-    all_items = all_items[
+    )[
         :MAX_ITEMS
     ]
 
 
     # =====================================================
-    # 2. Nature热点论文池
+    # Nature热点论文池
     # =====================================================
 
     nature_pool = []
-
 
     nature_seen = set()
 
 
     for source in NATURE_POOL_SOURCES:
 
-        papers = fetch_nature_page(
+        papers = (
+            fetch_nature_page(
 
-            source[
-                "name"
-            ],
+                source[
+                    "name"
+                ],
 
-            source[
-                "url"
-            ],
+                source[
+                    "url"
+                ],
 
-            max_pages=1
+                max_pages=1
 
+            )
         )
 
 
@@ -6701,49 +7272,68 @@ def main():
             )
 
 
-            if not url:
+            if (
 
-                continue
-
-
-            if url in nature_seen:
-
-                continue
-
-
-            nature_seen.add(
                 url
-            )
+
+                and
+
+                url not in nature_seen
+
+            ):
+
+                nature_seen.add(
+                    url
+                )
 
 
-            nature_pool.append(
-                paper
-            )
+                nature_pool.append(
+                    paper
+                )
 
 
-    print(
-        "Nature hotspot paper pool:",
-        len(nature_pool)
+    # =====================================================
+    # 多平台热点
+    # =====================================================
+
+    hotspot_sources = []
+
+
+    hotspot_sources += (
+        fetch_baidu_board(
+
+            BAIDU_REALTIME_URL,
+
+            "百度热搜"
+
+        )
+    )
+
+
+    hotspot_sources += (
+        fetch_baidu_board(
+
+            BAIDU_LIVELIHOOD_URL,
+
+            "百度民生"
+
+        )
+    )
+
+
+    hotspot_sources += (
+        fetch_weibo_hotspots()
     )
 
 
     # =====================================================
-    # 3. 百度热点
-    # =====================================================
-
-    baidu_hot = (
-        fetch_baidu_hotspots()
-    )
-
-
-    # =====================================================
-    # 4. 热点 × Nature
+    # 热点 × Nature
     # =====================================================
 
     hotspots = (
         build_hotspots(
 
-            baidu_hot,
+            hotspot_sources,
 
             nature_pool
 
@@ -6752,7 +7342,7 @@ def main():
 
 
     # =====================================================
-    # 5. 给热点论文补正文图
+    # Nature正文图片作为热点主图
     # =====================================================
 
     hotspots = (
@@ -6762,13 +7352,23 @@ def main():
     )
 
 
-    # 再按传播潜力排序
     hotspots.sort(
 
-        key=lambda x:
-            x.get(
-                "score",
-                0
+        key=lambda item:
+            (
+
+                item.get(
+                    "score",
+                    0
+                ),
+
+                len(
+                    item.get(
+                        "platforms",
+                        []
+                    )
+                )
+
             ),
 
         reverse=True
@@ -6782,7 +7382,7 @@ def main():
 
 
     # =====================================================
-    # 6. 保存
+    # 保存
     # =====================================================
 
     save_data(
@@ -6800,8 +7400,65 @@ def main():
 
 
     print(
-        "普通资讯:",
-        len(all_items)
+
+        "AI变现:",
+
+        sum(
+
+            1
+
+            for item
+            in all_items
+
+            if item.get(
+                "category"
+            )
+            == "AI变现"
+
+        )
+
+    )
+
+
+    print(
+
+        "提效工具:",
+
+        sum(
+
+            1
+
+            for item
+            in all_items
+
+            if item.get(
+                "category"
+            )
+            == "提效工具"
+
+        )
+
+    )
+
+
+    print(
+
+        "前沿动态:",
+
+        sum(
+
+            1
+
+            for item
+            in all_items
+
+            if item.get(
+                "category"
+            )
+            == "前沿动态"
+
+        )
+
     )
 
 
@@ -6818,17 +7475,13 @@ def main():
 
 
     print(
-        "=" * 65
+        "普通资讯总数:",
+        len(all_items)
     )
 
 
     print(
-        "ICAT Research Radar V8 Done"
-    )
-
-
-    print(
-        "=" * 65
+        "=" * 64
     )
 
 
