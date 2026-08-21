@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-21T00:27:08.590341+00:00",
-  "count": 137,
+  "updated_at": "2026-08-21T02:14:30.419548+00:00",
+  "count": 139,
   "hotspot_count": 12,
-  "breakthrough_count": 49,
+  "breakthrough_count": 38,
   "category_counts": {
-    "AI变现": 57,
+    "AI变现": 58,
     "提效工具": 17,
-    "前沿动态": 23
+    "前沿动态": 24
   },
   "source_counts": {
     "Scientific Data": 20,
@@ -18,16 +18,16 @@
       "title": "医院能办结婚证了",
       "summary": "近日，有网友发帖称，淄博市临淄区妇幼保健院内设有婚姻登记处指示牌，顺着指示牌即可找到婚姻登记办理点位。院方：婚前检查后可... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E9%99%A2%E8%83%BD%E5%8A%9E%E7%BB%93%E5%A9%9A%E8%AF%81%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 10,
-      "hot_index": 5507627,
+      "rank": 4,
+      "hot_index": 6572360,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 10,
-        "百度热搜": 26
+        "百度民生": 4,
+        "百度热搜": 15
       },
       "topic": "健康医学",
       "score": 98,
@@ -68,21 +68,76 @@
           "match_score": 43
         }
       ],
-      "updated_at": "2026-08-21T00:27:00.404457+00:00"
+      "updated_at": "2026-08-21T02:14:22.977004+00:00"
+    },
+    {
+      "id": "2f3adec468327bae",
+      "title": "女子连续3年陪丈夫祭奠其亡妻",
+      "summary": "一名女子自述连续3年主动提醒记性不好的丈夫祭奠其发妻，并在忌日陪同前往。她表示自己的父亲与丈夫的发妻因同一种癌症去世，祭... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E8%BF%9E%E7%BB%AD3%E5%B9%B4%E9%99%AA%E4%B8%88%E5%A4%AB%E7%A5%AD%E5%A5%A0%E5%85%B6%E4%BA%A1%E5%A6%BB&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 6,
+      "hot_index": 7427705,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 6
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "女子连续3年陪丈夫祭奠其亡妻为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04564-7",
+      "main_paper_title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
+      "related_papers": [
+        {
+          "id": "27d685119fd86e4e",
+          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04564-7",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
+          "match_score": 32
+        },
+        {
+          "id": "0050fea59bb7b392",
+          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04537-w",
+          "published_at": "2026-08-11T00:00:00+00:00",
+          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
+          "match_score": 32
+        },
+        {
+          "id": "de4957e325ad90ca",
+          "title": "Functional role of skull lymphoid structures in CNS immunosurveillance",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10951-4",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10951-4/MediaObjects/41586_2026_10951_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        }
+      ],
+      "updated_at": "2026-08-21T02:14:22.980539+00:00"
     },
     {
       "id": "caa79fb546ad3a32",
       "title": "江苏盐城爆响",
       "summary": "8月20日19时45分，盐城市主城区突发两声以上爆响。记者在盐城市亭湖区的室内注意到，爆响发生时窗户发生明显振动，路边停... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%B1%9F%E8%8B%8F%E7%9B%90%E5%9F%8E%E7%88%86%E5%93%8D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 3,
-      "hot_index": 7713967,
+      "rank": 9,
+      "hot_index": 7137518,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 3
+        "百度热搜": 9
       },
       "topic": "城市社会",
       "score": 98,
@@ -123,62 +178,7 @@
           "match_score": 56
         }
       ],
-      "updated_at": "2026-08-21T00:27:00.395945+00:00"
-    },
-    {
-      "id": "89e26ac168387ff7",
-      "title": "80、90、00后退休时间",
-      "summary": "一转眼，80后已46岁了，首批90后也步入30岁门槛，00后们也进入职场了！虽然离退休还尚远，但不少80后90后00后小... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=80%E3%80%8190%E3%80%8100%E5%90%8E%E9%80%80%E4%BC%91%E6%97%B6%E9%97%B4&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 10,
-      "hot_index": 7047409,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 10
-      },
-      "topic": "城市社会",
-      "score": 97,
-      "recommended_title": "80、90、00后退休时间背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
-      "main_paper_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-      "related_papers": [
-        {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 50
-        },
-        {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 50
-        },
-        {
-          "id": "29d931053e085b6d",
-          "title": "Hidden patterns of urban mixing across five global cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00477-1",
-          "published_at": "2026-07-22T00:00:00+00:00",
-          "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        }
-      ],
-      "updated_at": "2026-08-21T00:27:00.400231+00:00"
+      "updated_at": "2026-08-21T02:14:22.984099+00:00"
     },
     {
       "id": "736e0f5ab4e9e31c",
@@ -186,7 +186,7 @@
       "summary": "近日网传一份安徽教育厅文件，称蚌埠65名学生获普高后补录取资格，引发关注。经核实，该文件文号、印章、内容均系仿造，为虚假... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%B6%89%E8%9A%8C%E5%9F%A0%E6%99%AE%E9%AB%98%E5%BD%95%E5%8F%96%E5%B7%A5%E4%BD%9C%E9%80%9A%E7%9F%A5%E4%B8%BA%E8%99%9A%E5%81%87%E6%96%87%E4%BB%B6&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 12,
-      "hot_index": 6853462,
+      "hot_index": 6849425,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -213,27 +213,27 @@
           "match_score": 68
         },
         {
-          "id": "7dfd8de97f9dff0c",
-          "title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02556-8",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
-          "match_score": 41
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+          "match_score": 50
         },
         {
-          "id": "cf96b70da3520759",
-          "title": "Post-retrofit building performance dataset: Energy, IEQ, HVAC operation, and occupant behavior in university apartment buildings",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08106-1",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "This paper presents a comprehensive monitored dataset from single-family attached residences that underwent deep energy retrofits, complementing a previously published pre-retrofit dataset from the same buildings. The dataset is distinct by its multi-domain scope and temporal...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=2088834361&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08106-1%26doi%3D10.1038/s41597-026-08106-1%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
-          "match_score": 37
+          "id": "49da466fdb8f4e4a",
+          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00478-0",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+          "match_score": 50
         }
       ],
-      "updated_at": "2026-08-21T00:27:00.408743+00:00"
+      "updated_at": "2026-08-21T02:14:22.987799+00:00"
     },
     {
       "id": "ab870014a1027809",
@@ -241,7 +241,7 @@
       "summary": "近日，湖北武汉28岁李女士坚持练瑜伽3个月，一直使用公用瑜伽垫，后背冒出成片褐色小疙瘩且瘙痒，到武汉市第三医院就诊后被确... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E7%94%A8%E4%BA%86%E5%85%AC%E7%94%A8%E7%91%9C%E4%BC%BD%E5%9E%AB%E5%90%8E%E6%84%9F%E6%9F%93HPV&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 13,
-      "hot_index": 6753188,
+      "hot_index": 6755804,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -268,171 +268,6 @@
           "match_score": 43
         },
         {
-          "id": "0050fea59bb7b392",
-          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04537-w",
-          "published_at": "2026-08-11T00:00:00+00:00",
-          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        },
-        {
-          "id": "de4957e325ad90ca",
-          "title": "Functional role of skull lymphoid structures in CNS immunosurveillance",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10951-4",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10951-4/MediaObjects/41586_2026_10951_Fig1_HTML.png?as=webp",
-          "match_score": 28
-        }
-      ],
-      "updated_at": "2026-08-21T00:27:00.412855+00:00"
-    },
-    {
-      "id": "94ded6b56f5a183c",
-      "title": "最强厄尔尼诺事件或年底前形成",
-      "summary": "记者从国家气候中心了解到，当前赤道中东太平洋海表温度持续升高，预计将于11—12月前后达到峰值，形成一次超强厄尔尼诺事件... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%80%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E4%BA%8B%E4%BB%B6%E6%88%96%E5%B9%B4%E5%BA%95%E5%89%8D%E5%BD%A2%E6%88%90&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 16,
-      "hot_index": 6477876,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 16
-      },
-      "topic": "气候环境",
-      "score": 92,
-      "recommended_title": "最强厄尔尼诺事件或年底前形成背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02712-y",
-      "main_paper_title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
-      "related_papers": [
-        {
-          "id": "e3cbd3a88cc38f2b",
-          "title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02712-y",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "The influence of fine particulate pollution (PM 2.5 ) on plant water-use efficiency remains poorly understood. The authors highlight that PM 2.5 exerts a primarily negative effect across scales due to asymmetric effects on photosynthesis and evapotranspiration.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "f63078bcfbc44dec",
-          "title": "Multi-centennial response of marine carbon pumps to global warming",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02686-x",
-          "published_at": "2026-06-25T00:00:00+00:00",
-          "summary": "Changes in the ocean in response to climate change could impact its ability to function as a carbon sink. This study shows that under high emissions, circulation changes will reduce anthropogenic carbon uptake even as biological storage increases, whereas under low emissions,...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02686-x/MediaObjects/41558_2026_2686_Fig2_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "0a6fdd75e397934b",
-          "title": "Uneven patterns of cross-border media coverage following natural disasters",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02512-6",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Global media gives less cross-border attention to climate-linked hazards (such as floods, storms and droughts) than to geophysical disasters. Attention rises with deaths and is stronger between socially connected countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
-          "match_score": 27
-        }
-      ],
-      "updated_at": "2026-08-21T00:27:00.414676+00:00"
-    },
-    {
-      "id": "e1295f4dc7305af7",
-      "title": "开了个大会聘了个骗子 谁买单",
-      "summary": "日前，常年以资深媒体人、知名文化学者身份四处交流造势的社会人士张龙正遭遇角色危机。8月13日，香港中文大学在官网声明否认... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%80%E4%BA%86%E4%B8%AA%E5%A4%A7%E4%BC%9A%E8%81%98%E4%BA%86%E4%B8%AA%E9%AA%97%E5%AD%90+%E8%B0%81%E4%B9%B0%E5%8D%95&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 21,
-      "hot_index": 5995380,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 21
-      },
-      "topic": "城市社会",
-      "score": 88,
-      "recommended_title": "开了个大会聘了个骗子 谁买单背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00498-w",
-      "main_paper_title": "Hidden living-condition deficits in small and medium-sized cities",
-      "related_papers": [
-        {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "5dbd7fd7005b80b8",
-          "title": "Empirical insights into residual emissions in urban net-zero targets",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02691-0",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Although many cities have set net-zero targets, there is limited understanding of their residual emissions strategies. An analysis of 103 European cities reveals best practices but also a potential over-reliance on temporary land-based carbon removal and the limited robustness...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02691-0/MediaObjects/41558_2026_2691_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "5b658241245312d4",
-          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00504-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-08-21T00:27:00.418796+00:00"
-    },
-    {
-      "id": "2f3adec468327bae",
-      "title": "女子连续3年陪丈夫祭奠其亡妻",
-      "summary": "一名女子自述连续3年主动提醒记性不好的丈夫祭奠其发妻，并在忌日陪同前往。她表示自己的父亲与丈夫的发妻因同一种癌症去世，祭... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E8%BF%9E%E7%BB%AD3%E5%B9%B4%E9%99%AA%E4%B8%88%E5%A4%AB%E7%A5%AD%E5%A5%A0%E5%85%B6%E4%BA%A1%E5%A6%BB&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 22,
-      "hot_index": 5902003,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 22
-      },
-      "topic": "健康医学",
-      "score": 87,
-      "recommended_title": "女子连续3年陪丈夫祭奠其亡妻为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04564-7",
-      "main_paper_title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
-      "related_papers": [
-        {
-          "id": "27d685119fd86e4e",
-          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04564-7",
-          "published_at": "2026-08-12T00:00:00+00:00",
-          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
-          "match_score": 32
-        },
-        {
           "id": "8aa7e84ecaeb274f",
           "title": "Wake-activated neuronal populations that regulate sleep drive",
           "source": "Nature",
@@ -453,39 +288,39 @@
           "match_score": 28
         }
       ],
-      "updated_at": "2026-08-21T00:27:00.422755+00:00"
+      "updated_at": "2026-08-21T02:14:22.991320+00:00"
     },
     {
-      "id": "c9f7987b8440dce2",
-      "title": "很多瘦子根本不瘦",
-      "summary": "医生指出，很多看着瘦的人其实并不瘦，这种“隐性肥胖”最容易被忽视。以王传君体脂率25.5%、孙楠仅12.3%为例，医生建... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%BE%88%E5%A4%9A%E7%98%A6%E5%AD%90%E6%A0%B9%E6%9C%AC%E4%B8%8D%E7%98%A6&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 23,
-      "hot_index": 5799952,
+      "id": "d2dae816e046f7b2",
+      "title": "百万网红自曝流产：胚胎优胜劣汰",
+      "summary": "8月21日，百万粉丝网红何婧婧发文称流产，引发热议。她表示孕八周首次B超时胎儿心跳正常，孕十周复查时被三位医生确认胎儿已... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%99%BE%E4%B8%87%E7%BD%91%E7%BA%A2%E8%87%AA%E6%9B%9D%E6%B5%81%E4%BA%A7%EF%BC%9A%E8%83%9A%E8%83%8E%E4%BC%98%E8%83%9C%E5%8A%A3%E6%B1%B0&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 14,
+      "hot_index": 6666146,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 23
+        "百度热搜": 14
       },
       "topic": "健康医学",
-      "score": 87,
-      "recommended_title": "很多瘦子根本不瘦为什么值得关注？从Nature研究看真正的科学证据",
+      "score": 94,
+      "recommended_title": "百万网红自曝流产：胚胎优胜劣汰为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02547-9/MediaObjects/41562_2026_2547_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02547-9",
-      "main_paper_title": "Short- and long-term shifts in food purchasing behaviours and nutrition disparities in the USA during and after the COVID-19 pandemic",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04537-w",
+      "main_paper_title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
       "related_papers": [
         {
-          "id": "ead4363e17a6ee12",
-          "title": "Short- and long-term shifts in food purchasing behaviours and nutrition disparities in the USA during and after the COVID-19 pandemic",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02547-9",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Using US household grocery data from 2017–2022, Hu et al. find that lockdowns temporarily shifted purchases towards less processed foods, while ultraprocessed food spending later rose above pre-pandemic levels.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02547-9/MediaObjects/41562_2026_2547_Fig1_HTML.png?as=webp",
-          "match_score": 45
+          "id": "0050fea59bb7b392",
+          "title": "Acquired resistance to the RAS(ON) multi-selective inhibitor daraxonrasib guides rational combination therapy strategies in pancreatic cancer",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04537-w",
+          "published_at": "2026-08-11T00:00:00+00:00",
+          "summary": "Circulating tumor DNA analyses in 44 patients with pancreatic cancer receiving the RAS(ON) multi-selective inhibitor daraxonrasib as part of a phase 1/2 trial, and preclinical translational modeling approaches, identify mechanisms of acquired resistance to monotherapy and info...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04537-w/MediaObjects/41591_2026_4537_Fig1_HTML.png?as=webp",
+          "match_score": 32
         },
         {
           "id": "c84b3d070941af47",
@@ -498,90 +333,35 @@
           "match_score": 27
         },
         {
-          "id": "3b2ce01c3e48d9bf",
-          "title": "Association of traumatic experiences with depressive symptoms among LGBTQ+ population in China",
+          "id": "ead4363e17a6ee12",
+          "title": "Short- and long-term shifts in food purchasing behaviours and nutrition disparities in the USA during and after the COVID-19 pandemic",
           "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02518-0",
-          "published_at": "2026-07-16T00:00:00+00:00",
-          "summary": "Yang et al. found that trauma is highly prevalent among LGBTQ+ individuals in China and linked to depression. Unhealthy behaviours, low social support and negative coping partly explain this relationship, highlighting key targets for intervention.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02518-0/MediaObjects/41562_2026_2518_Fig1_HTML.png?as=webp",
+          "url": "https://www.nature.com/articles/s41562-026-02547-9",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Using US household grocery data from 2017–2022, Hu et al. find that lockdowns temporarily shifted purchases towards less processed foods, while ultraprocessed food spending later rose above pre-pandemic levels.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02547-9/MediaObjects/41562_2026_2547_Fig1_HTML.png?as=webp",
           "match_score": 27
         }
       ],
-      "updated_at": "2026-08-21T00:27:00.426860+00:00"
+      "updated_at": "2026-08-21T02:14:22.994803+00:00"
     },
     {
-      "id": "b40256f14ed8da65",
-      "title": "河南周口河道现大量死鱼 专家提醒",
-      "summary": "8月20日，河南周口沙颖河周口段水面铺满大量死鱼，市民称大部分鱼已腐烂。当日，周口市水利局工作人员介绍，可能受沙河上游泄... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E5%91%A8%E5%8F%A3%E6%B2%B3%E9%81%93%E7%8E%B0%E5%A4%A7%E9%87%8F%E6%AD%BB%E9%B1%BC+%E4%B8%93%E5%AE%B6%E6%8F%90%E9%86%92&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 42,
-      "hot_index": 4000832,
+      "id": "e9d7fbc424b80b09",
+      "title": "曾辉小沈阳这段诡异得像AI生成",
+      "summary": "小沈阳、曾辉、姚琛三人把毛巾往头上一裹，氛围感瞬间跑偏，被网友调侃画面诡异得像AI生成，像要去洗浴中心，笑称“男宾三位里... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%9B%BE%E8%BE%89%E5%B0%8F%E6%B2%88%E9%98%B3%E8%BF%99%E6%AE%B5%E8%AF%A1%E5%BC%82%E5%BE%97%E5%83%8FAI%E7%94%9F%E6%88%90&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 18,
+      "hot_index": 6272288,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 42
-      },
-      "topic": "城市社会",
-      "score": 71,
-      "recommended_title": "河南周口河道现大量死鱼 专家提醒背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00478-0",
-      "main_paper_title": "Effects of Uber and Lyft on jobs, wages and GDP",
-      "related_papers": [
-        {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 50
-        },
-        {
-          "id": "4dc612a4c31a0757",
-          "title": "Overlooked upwind greening for urban cooling",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00503-2",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Urban heat stress threatens health and infrastructure. The mountain–water–forest framework, adapted for megacities, utilizes terrain-driven cold-air advection and upwind greening, achieving temperature reductions of 0.4 ± 0.2 °C over more than half of the urban area across div...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00503-2/MediaObjects/44284_2026_503_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "44424360f33a07f6",
-          "title": "City racial segregation statistics are robust to aggregation bias",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00459-3",
-          "published_at": "2026-06-16T00:00:00+00:00",
-          "summary": "Residential segregation is a challenging reality in cities worldwide despite their diverse populations. Focusing on medium to large US cities, this study finds no systematic bias in racial segregation when different Census tract boundaries are used.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        }
-      ],
-      "updated_at": "2026-08-21T00:27:00.431031+00:00"
-    },
-    {
-      "id": "e9492e499dc31950",
-      "title": "志愿军老战士：当年有外骨骼就好了",
-      "summary": "8月21日消息，2026世界机器人大会展会现场，一位志愿军老战士体验中国兵器杭州智元研究院的踏山髋部助行外骨骼设备后表示... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%BF%97%E6%84%BF%E5%86%9B%E8%80%81%E6%88%98%E5%A3%AB%EF%BC%9A%E5%BD%93%E5%B9%B4%E6%9C%89%E5%A4%96%E9%AA%A8%E9%AA%BC%E5%B0%B1%E5%A5%BD%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 45,
-      "hot_index": 3696987,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 45
+        "百度热搜": 18
       },
       "topic": "人工智能",
-      "score": 69,
-      "recommended_title": "志愿军老战士：当年有外骨骼就好了刷屏之后：Nature研究正在回答哪些关键问题？",
+      "score": 91,
+      "recommended_title": "曾辉小沈阳这段诡异得像AI生成刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41591-026-04601-5",
@@ -614,44 +394,144 @@
           "url": "https://www.nature.com/articles/s41467-026-76973-8",
           "published_at": "2026-08-20T00:00:00+00:00",
           "summary": "The authors present self-supervised Scanning Probe microscopy Image DEnoising and Restoration (SPIDER), a deep learning framework that denoises scanning probe microscopy images, enabling imaging acceleration and anisotropic resolution restoration.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1516271008&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76973-8%26doi%3D10.1038/s41467-026-76973-8%26techmeta%3D136,139,142,147,3%26subjmeta%3D114,1262,1305,2282,535,57,631%26kwrd%3DAtomic+force+microscopy,Machine+learning,Nanoscale+biophysics",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-256879477&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76973-8%26doi%3D10.1038/s41467-026-76973-8%26techmeta%3D136,139,142,147,3%26subjmeta%3D114,1262,1305,2282,535,57,631%26kwrd%3DAtomic+force+microscopy,Machine+learning,Nanoscale+biophysics",
           "match_score": 25
         }
       ],
-      "updated_at": "2026-08-21T00:27:00.432134+00:00"
+      "updated_at": "2026-08-21T02:14:22.995862+00:00"
     },
     {
-      "id": "2ced9e633e6b9efb",
-      "title": "内蒙古自治区党委书记要求：限期还钱",
-      "summary": "8月20日，内蒙古自治区党委书记、人大常委会主任王伟中深入呼和浩特市，就群众身边不正之风和腐败问题集中整治工作开展调研督... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%86%85%E8%92%99%E5%8F%A4%E8%87%AA%E6%B2%BB%E5%8C%BA%E5%85%9A%E5%A7%94%E4%B9%A6%E8%AE%B0%E8%A6%81%E6%B1%82%EF%BC%9A%E9%99%90%E6%9C%9F%E8%BF%98%E9%92%B1&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 47,
-      "hot_index": 3488899,
+      "id": "a457a7db0fb9e35e",
+      "title": "月租600电费400 租客不敢开空调",
+      "summary": "近日，广东佛山租客张先生反映，其月租600元的出租房电费高达400元，水费5元一吨、电费1.3元一度，酷暑都不敢开空调。 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%88%E7%A7%9F600%E7%94%B5%E8%B4%B9400+%E7%A7%9F%E5%AE%A2%E4%B8%8D%E6%95%A2%E5%BC%80%E7%A9%BA%E8%B0%83&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 20,
+      "hot_index": 6092520,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 47
+        "百度热搜": 20
       },
       "topic": "城市社会",
-      "score": 68,
-      "recommended_title": "内蒙古自治区党委书记要求：限期还钱背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 89,
+      "recommended_title": "月租600电费400 租客不敢开空调背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00477-1",
-      "main_paper_title": "Hidden patterns of urban mixing across five global cities",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00459-3",
+      "main_paper_title": "City racial segregation statistics are robust to aggregation bias",
       "related_papers": [
         {
-          "id": "29d931053e085b6d",
-          "title": "Hidden patterns of urban mixing across five global cities",
+          "id": "44424360f33a07f6",
+          "title": "City racial segregation statistics are robust to aggregation bias",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00477-1",
-          "published_at": "2026-07-22T00:00:00+00:00",
-          "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
-          "match_score": 36
+          "url": "https://www.nature.com/articles/s44284-026-00459-3",
+          "published_at": "2026-06-16T00:00:00+00:00",
+          "summary": "Residential segregation is a challenging reality in cities worldwide despite their diverse populations. Focusing on medium to large US cities, this study finds no systematic bias in racial segregation when different Census tract boundaries are used.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
+          "match_score": 50
         },
+        {
+          "id": "7dfd8de97f9dff0c",
+          "title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02556-8",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
+          "match_score": 45
+        },
+        {
+          "id": "bc2810628469b639",
+          "title": "Intracranial delivery of B7-H3-targeting CAR-T cells for recurrent glioblastoma: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04557-6",
+          "published_at": "2026-08-06T00:00:00+00:00",
+          "summary": "In this phase 1 dose-escalation trial, intracranial delivery of B7-H3-targeting chimeric antigen receptor T cell therapy in patients with glioblastoma showed no dose-limiting toxicity signals and encouraging signals of clinical benefit.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04557-6/MediaObjects/41591_2026_4557_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        }
+      ],
+      "updated_at": "2026-08-21T02:14:22.999429+00:00"
+    },
+    {
+      "id": "c9f7987b8440dce2",
+      "title": "很多瘦子根本不瘦",
+      "summary": "医生指出，很多看着瘦的人其实并不瘦，这种“隐性肥胖”最容易被忽视。以王传君体脂率25.5%、孙楠仅12.3%为例，医生建... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%BE%88%E5%A4%9A%E7%98%A6%E5%AD%90%E6%A0%B9%E6%9C%AC%E4%B8%8D%E7%98%A6&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 21,
+      "hot_index": 6000201,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 21
+      },
+      "topic": "健康医学",
+      "score": 88,
+      "recommended_title": "很多瘦子根本不瘦为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02547-9/MediaObjects/41562_2026_2547_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02547-9",
+      "main_paper_title": "Short- and long-term shifts in food purchasing behaviours and nutrition disparities in the USA during and after the COVID-19 pandemic",
+      "related_papers": [
+        {
+          "id": "ead4363e17a6ee12",
+          "title": "Short- and long-term shifts in food purchasing behaviours and nutrition disparities in the USA during and after the COVID-19 pandemic",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02547-9",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Using US household grocery data from 2017–2022, Hu et al. find that lockdowns temporarily shifted purchases towards less processed foods, while ultraprocessed food spending later rose above pre-pandemic levels.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02547-9/MediaObjects/41562_2026_2547_Fig1_HTML.png?as=webp",
+          "match_score": 45
+        },
+        {
+          "id": "3b2ce01c3e48d9bf",
+          "title": "Association of traumatic experiences with depressive symptoms among LGBTQ+ population in China",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02518-0",
+          "published_at": "2026-07-16T00:00:00+00:00",
+          "summary": "Yang et al. found that trauma is highly prevalent among LGBTQ+ individuals in China and linked to depression. Unhealthy behaviours, low social support and negative coping partly explain this relationship, highlighting key targets for intervention.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02518-0/MediaObjects/41562_2026_2518_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "8ea52ccf2f229ebc",
+          "title": "Psilocybin-assisted therapy for treatment-resistant major depressive disorder in a public healthcare setting: a randomized controlled trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04541-0",
+          "published_at": "2026-08-06T00:00:00+00:00",
+          "summary": "In a publicly funded trial undertaken in the NHS in England, 60 adults with treatment-resistant major depression received psilocybin or placebo alongside standardized psychological support, with psilocybin showing significant improvements in depression symptoms, good tolerabil...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04541-0/MediaObjects/41591_2026_4541_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        }
+      ],
+      "updated_at": "2026-08-21T02:14:23.003024+00:00"
+    },
+    {
+      "id": "0a38f0129e68bb74",
+      "title": "拼豆大卫雕像撞脸赵本山宋小宝",
+      "summary": "8月20日，记者采访拼豆大会工作人员，解读拼豆作品《大卫》撞脸赵本山、宋小宝一事。该作品近期网络讨论度较高，进美术馆看展... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%8B%BC%E8%B1%86%E5%A4%A7%E5%8D%AB%E9%9B%95%E5%83%8F%E6%92%9E%E8%84%B8%E8%B5%B5%E6%9C%AC%E5%B1%B1%E5%AE%8B%E5%B0%8F%E5%AE%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 24,
+      "hot_index": 5716248,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 24
+      },
+      "topic": "城市社会",
+      "score": 86,
+      "recommended_title": "拼豆大卫雕像撞脸赵本山宋小宝背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
+      "main_paper_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+      "related_papers": [
         {
           "id": "0d46a2cc3e13a806",
           "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
@@ -663,85 +543,151 @@
           "match_score": 50
         },
         {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "id": "29d931053e085b6d",
+          "title": "Hidden patterns of urban mixing across five global cities",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 50
+          "url": "https://www.nature.com/articles/s44284-026-00477-1",
+          "published_at": "2026-07-22T00:00:00+00:00",
+          "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "5dbd7fd7005b80b8",
+          "title": "Empirical insights into residual emissions in urban net-zero targets",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02691-0",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Although many cities have set net-zero targets, there is limited understanding of their residual emissions strategies. An analysis of 103 European cities reveals best practices but also a potential over-reliance on temporary land-based carbon removal and the limited robustness...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02691-0/MediaObjects/41558_2026_2691_Fig1_HTML.png?as=webp",
+          "match_score": 35
         }
       ],
-      "updated_at": "2026-08-21T00:27:00.436265+00:00"
+      "updated_at": "2026-08-21T02:14:23.006537+00:00"
+    },
+    {
+      "id": "41ec10fb123d6717",
+      "title": "第18号台风刚生成 第19号台风也来了",
+      "summary": "8月19日，今年第18号台风“沙德尔”生成，最强可达超强台风级，可能直奔我国浙江，也可能转向去日本或韩国，形势在8月25... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%AC%AC18%E5%8F%B7%E5%8F%B0%E9%A3%8E%E5%88%9A%E7%94%9F%E6%88%90+%E7%AC%AC19%E5%8F%B7%E5%8F%B0%E9%A3%8E%E4%B9%9F%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 26,
+      "hot_index": 5515471,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 26
+      },
+      "topic": "气候环境",
+      "score": 84,
+      "recommended_title": "第18号台风刚生成 第19号台风也来了背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1026046281&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-77087-x%26doi%3D10.1038/s41467-026-77087-x%26techmeta%3D140,58%26subjmeta%3D106,169,172,35,704,824%26kwrd%3DAtmospheric+chemistry",
+      "main_paper_url": "https://www.nature.com/articles/s41467-026-77087-x",
+      "main_paper_title": "Heatwaves favour acyclic monoterpene emissions in tropical forests",
+      "related_papers": [
+        {
+          "id": "9c3dcee0970649e9",
+          "title": "Heatwaves favour acyclic monoterpene emissions in tropical forests",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-77087-x",
+          "published_at": "2026-08-21T00:00:00+00:00",
+          "summary": "Heatwaves reshape plant monoterpene emissions by preferentially increasing highly reactive acyclic isomers, altering atmospheric composition and increasing ozone and OH reactivity beyond changes in total monoterpene amounts",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1026046281&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-77087-x%26doi%3D10.1038/s41467-026-77087-x%26techmeta%3D140,58%26subjmeta%3D106,169,172,35,704,824%26kwrd%3DAtmospheric+chemistry",
+          "match_score": 33
+        },
+        {
+          "id": "e3cbd3a88cc38f2b",
+          "title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02712-y",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "The influence of fine particulate pollution (PM 2.5 ) on plant water-use efficiency remains poorly understood. The authors highlight that PM 2.5 exerts a primarily negative effect across scales due to asymmetric effects on photosynthesis and evapotranspiration.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "f63078bcfbc44dec",
+          "title": "Multi-centennial response of marine carbon pumps to global warming",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02686-x",
+          "published_at": "2026-06-25T00:00:00+00:00",
+          "summary": "Changes in the ocean in response to climate change could impact its ability to function as a carbon sink. This study shows that under high emissions, circulation changes will reduce anthropogenic carbon uptake even as biological storage increases, whereas under low emissions,...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02686-x/MediaObjects/41558_2026_2686_Fig2_HTML.png?as=webp",
+          "match_score": 27
+        }
+      ],
+      "updated_at": "2026-08-21T02:14:23.008273+00:00"
+    },
+    {
+      "id": "32a0baa25756f97a",
+      "title": "京东健康买医用个护不满意包退换",
+      "summary": "8月19日，京东健康联合新华网举办“从医用器械到大众消费市场：‘械字号’产业创新论坛暨医用金选行动发布会”。超百位专家及... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%AC%E4%B8%9C%E5%81%A5%E5%BA%B7%E4%B9%B0%E5%8C%BB%E7%94%A8%E4%B8%AA%E6%8A%A4%E4%B8%8D%E6%BB%A1%E6%84%8F%E5%8C%85%E9%80%80%E6%8D%A2&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 31,
+      "hot_index": 5034112,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 31
+      },
+      "topic": "健康医学",
+      "score": 80,
+      "recommended_title": "京东健康买医用个护不满意包退换为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10951-4/MediaObjects/41586_2026_10951_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-10951-4",
+      "main_paper_title": "Functional role of skull lymphoid structures in CNS immunosurveillance",
+      "related_papers": [
+        {
+          "id": "de4957e325ad90ca",
+          "title": "Functional role of skull lymphoid structures in CNS immunosurveillance",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10951-4",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Functional lymphoid structures within the skull bone marrow enable central nervous system immunosurveillance and shape immune responses to brain disease.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10951-4/MediaObjects/41586_2026_10951_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "4464a43018ff5e46",
+          "title": "Histological aging signatures for monitoring tissue-specific aging and disease",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04566-5",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Whole-slide histopathological images from 40 tissue types reveal morphological changes associated with aging, which, when paired with transcriptomic data from blood, are used to develop aging clocks that reflect tissue structural integrity and organ-level physiological fitness...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "27d685119fd86e4e",
+          "title": "First-line PD-1/VEGF bispecific antibody plus chemotherapy in triple-negative breast cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04564-7",
+          "published_at": "2026-08-12T00:00:00+00:00",
+          "summary": "In a multicenter, phase 2 trial, patients with treatment-naive locally advanced unresectable or metastatic triple-negative breast cancer were treated with the PD-1/vascular endothelial growth factor bispecific antibody ivonescimab plus chemotherapy, resulting in encouraging pr...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04564-7/MediaObjects/41591_2026_4564_Fig1_HTML.png",
+          "match_score": 32
+        }
+      ],
+      "updated_at": "2026-08-21T02:14:23.011772+00:00"
     }
   ],
   "items": [
     {
-      "id": "cf63997cc4edccbe",
-      "title": "特斯拉中国车机重磅升级豆包大模型，开启智能语音新时代 特斯拉中国车机系统近日更新，全面上线字节跳动旗下豆包大模型。",
-      "display_title": "特斯拉中国车机重磅升级豆包大模型，开启智能语音新时代 特斯拉中国车机系统近日更新，全面上线字节跳动旗下豆包大模型。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30488",
-      "published_at": "2026-08-21T00:25:27.414671+00:00",
-      "detected_at": "2026-08-21T00:25:27.414677+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
-      "image_url": "https://upload.chinaz.com/2026/0820/6392281510003265229949908.png",
-      "image_method": "body",
-      "image_rule_version": 12,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "d7ae6abf7176c1da",
-      "title": "ChatGPT全球故障，用户登录和聊天记录加载功能异常 OpenAI旗下ChatGPT近日出现全球范围服务故障，影响美国、欧洲等多个地区。",
-      "display_title": "ChatGPT全球故障，用户登录和聊天记录加载功能异常 OpenAI旗下ChatGPT近日出现全球范围服务故障，影响美国、欧洲等多个地区。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30490",
-      "published_at": "2026-08-21T00:25:27.411651+00:00",
-      "detected_at": "2026-08-21T00:25:27.411657+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
-      "image_url": "https://pic.chinaz.com/picmap/202412271704350132_0.jpg",
-      "image_method": "body",
-      "image_rule_version": 12,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "926ee7a8091a503e",
-      "title": "Meta推出Mac版AI助手，支持屏幕共享和语音输入功能 Meta发布Mac版AI桌面应用，支持共享屏幕窗口，让AI根据内容提供建议、问答和生成，并支持跨应用语音输入。",
-      "display_title": "Meta推出Mac版AI助手，支持屏幕共享和语音输入功能 Meta发布Mac版AI桌面应用，支持共享屏幕窗口，让AI根据内容提供建议、问答和生成，并支持跨应用语音输入。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30493",
-      "published_at": "2026-08-21T00:25:27.406899+00:00",
-      "detected_at": "2026-08-21T00:25:27.406905+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
-      "image_url": "https://upload.chinaz.com/2026/0820/6392281749581794885897712.jpg",
-      "image_method": "body",
-      "image_rule_version": 12,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "bef88880aa7396e7",
-      "title": "75亿美元！",
-      "display_title": "75亿美元！",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30497",
-      "published_at": "2026-08-21T00:25:27.400614+00:00",
-      "detected_at": "2026-08-21T00:25:27.400620+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
-      "image_url": "https://upload.chinaz.com/2026/0820/6392283042135364011565103.png",
+      "id": "979952feb9872ce5",
+      "title": "科学家提出水合层介导离子近无摩擦筛分新策略",
+      "display_title": "科学家提出水合层介导离子近无摩擦筛分新策略",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/8/570126.shtm",
+      "published_at": "2026-08-21T02:13:50.160326+00:00",
+      "detected_at": "2026-08-21T02:13:50.160343+00:00",
+      "summary": "科学网-科学家提出水合层介导离子“近无摩擦”筛分新策略",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a879e7ee4b078fce44af5d6.jpeg",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
@@ -756,15 +702,15 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30501",
-      "published_at": "2026-08-21T00:25:27.394061+00:00",
-      "detected_at": "2026-08-21T00:25:27.394066+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
+      "published_at": "2026-08-21T02:13:36.591395+00:00",
+      "detected_at": "2026-08-21T02:13:36.591400+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283294797455142416069.png",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -774,15 +720,15 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30502",
-      "published_at": "2026-08-21T00:25:27.392531+00:00",
-      "detected_at": "2026-08-21T00:25:27.392536+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
+      "published_at": "2026-08-21T02:13:36.590005+00:00",
+      "detected_at": "2026-08-21T02:13:36.590010+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283309096812149284703.png",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -792,15 +738,15 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30503",
-      "published_at": "2026-08-21T00:25:27.390854+00:00",
-      "detected_at": "2026-08-21T00:25:27.390860+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
+      "published_at": "2026-08-21T02:13:36.588612+00:00",
+      "detected_at": "2026-08-21T02:13:36.588616+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283684847076244139174.jpg",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -810,15 +756,15 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30504",
-      "published_at": "2026-08-21T00:25:27.389160+00:00",
-      "detected_at": "2026-08-21T00:25:27.389166+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
+      "published_at": "2026-08-21T02:13:36.587146+00:00",
+      "detected_at": "2026-08-21T02:13:36.587152+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392283823975939953291851.png",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -828,33 +774,33 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30506",
-      "published_at": "2026-08-21T00:25:27.387583+00:00",
-      "detected_at": "2026-08-21T00:25:27.387589+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
+      "published_at": "2026-08-21T02:13:36.585569+00:00",
+      "detected_at": "2026-08-21T02:13:36.585575+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392284079175114698620274.png",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
-      "id": "e4c7fccd494b243f",
-      "title": "美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6 小时前 11.2K",
-      "display_title": "美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6 小时前 11.2K",
+      "id": "cc33e9a7d5c99f7c",
+      "title": "美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 8 小时前 12.6K",
+      "display_title": "美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 8 小时前 12.6K",
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30507",
-      "published_at": "2026-08-21T00:25:27.385968+00:00",
-      "detected_at": "2026-08-21T00:25:27.385974+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
+      "published_at": "2026-08-21T02:13:36.584145+00:00",
+      "detected_at": "2026-08-21T02:13:36.584150+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392284383614875654196198.png",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -864,15 +810,105 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30508",
-      "published_at": "2026-08-21T00:25:27.384267+00:00",
-      "detected_at": "2026-08-21T00:25:27.384283+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
+      "published_at": "2026-08-21T02:13:36.582725+00:00",
+      "detected_at": "2026-08-21T02:13:36.582731+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
       "image_url": "https://upload.chinaz.com/2026/0820/6392284546557276954808718.png",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "6b5252d14b46910d",
+      "title": "全球下载量破十亿大关！",
+      "display_title": "全球下载量破十亿大关！",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30509",
+      "published_at": "2026-08-21T02:13:36.581282+00:00",
+      "detected_at": "2026-08-21T02:13:36.581287+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
+      "image_url": "https://upload.chinaz.com/2026/0821/6392289937692832878363163.png",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "6a22c7e34647dac8",
+      "title": "Mac版ChatGPT深度接管苹果信息，古尔曼直言将直接对标Siri生态优势 OpenAI宣布macOS版ChatGPT升级，新增对苹果“信息”应用的深度交互能力。",
+      "display_title": "Mac版ChatGPT深度接管苹果信息，古尔曼直言将直接对标Siri生态优势 OpenAI宣布macOS版ChatGPT升级，新增对苹果“信息”应用的深度交互能力。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30510",
+      "published_at": "2026-08-21T02:13:36.579884+00:00",
+      "detected_at": "2026-08-21T02:13:36.579890+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
+      "image_url": "https://upload.chinaz.com/2026/0821/6392289957567370366413196.png",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "9483e523c2bc8e48",
+      "title": "Grok出现异常故障，部分用户遭遇大段乱码回复 xAI聊天机器人Grok近日出现异常，部分Grok Lite用户在生成PDF后遭遇持续乱码、无意义文本，甚至附带强化学习研究网站链接。",
+      "display_title": "Grok出现异常故障，部分用户遭遇大段乱码回复 xAI聊天机器人Grok近日出现异常，部分Grok Lite用户在生成PDF后遭遇持续乱码、无意义文本，甚至附带强化学习研究网站链接。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30512",
+      "published_at": "2026-08-21T02:13:36.576401+00:00",
+      "detected_at": "2026-08-21T02:13:36.576406+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
+      "image_url": "https://pic.chinaz.com/picmap/202311060852081809_0.jpg",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "20be771d46b8689b",
+      "title": "移动端基准全面超越GPT与Claude！",
+      "display_title": "移动端基准全面超越GPT与Claude！",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30513",
+      "published_at": "2026-08-21T02:13:36.574981+00:00",
+      "detected_at": "2026-08-21T02:13:36.574986+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
+      "image_url": "https://upload.chinaz.com/2026/0821/6392290085642993506433339.png",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "66c7a615ac5ba2a8",
+      "title": "Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。",
+      "display_title": "Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30519",
+      "published_at": "2026-08-21T02:13:36.565884+00:00",
+      "detected_at": "2026-08-21T02:13:36.565890+00:00",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
+      "image_url": "https://upload.chinaz.com/2026/0821/6392290217494778642422270.jpg",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -1190,13 +1226,13 @@
       "url": "https://news.aibase.com/zh/news/30500",
       "published_at": "2026-08-20T07:11:07.777066+00:00",
       "detected_at": "2026-08-20T07:11:07.777072+00:00",
-      "summary": "DeepSeek Harness重磅更新：多模态支持全面上线，意外剧透V4视觉版动向 开源智能体工具DeepSeek Harness发布仅一周即升级，新增多模态支持，模型适配器可启用原生图片请求，引发其视觉模型将发布猜想。交互体验改进：/goal、/plan等命令支持带图发送，@引用功能优化。 6 小时前 12.6K 美团搜索 3.0如何用大模型表征重构本地生活搜索底座？ 美团披露搜索3.0技术迭代：大模型推动搜索引擎迈向认知决策时代，在服务零售排序场景完成三次演进，验证语义表征在本地生活复杂场景的落地价值，实现从关键词匹配到意图理解的升级。 6...",
+      "summary": "Waymo定制出租车Ojai全面接入Gemini，开启车内智能交互新体验 Waymo将谷歌Gemini人工智能助手深度整合进定制自动驾驶出租车Ojai，推动无人出行智能化升级。目前该车型已在洛杉矶、菲尼克斯和旧金山向所有普通用户全面开放，官方今年还计划进一步拓展布局。 刚刚 5.1K Adobe Firefly音频工具全面上线，支持AI生成音乐、语音和音效 Adobe推出Firefly音频生成工具，涵盖音乐、语音和音效，用户可在桌面及移动端创作商业安全音频，融入视频流程。调查显示，全部受访创作者视频均使用音乐，32.7%已用AI生成音乐；43.2%...",
       "image_url": "https://pic.chinaz.com/picmap/201907082355045789_6.jpg",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
