@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-24T23:12:01.331647+00:00",
-  "count": 208,
+  "updated_at": "2026-08-24T23:41:16.358103+00:00",
+  "count": 205,
   "hotspot_count": 11,
-  "breakthrough_count": 59,
+  "breakthrough_count": 55,
   "category_counts": {
-    "AI变现": 109,
+    "AI变现": 106,
     "提效工具": 24,
     "前沿动态": 28
   },
@@ -14,20 +14,77 @@
   },
   "hotspots": [
     {
-      "id": "e846832da8e9e2be",
-      "title": "北京大学原副校长任羽中被判8年",
-      "summary": "8月24日，辽宁省丹东市中级人民法院一审公开宣判北京大学原党委常委、副校长任羽中受贿案。经审理查明任羽中2006年至20... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8E%9F%E5%89%AF%E6%A0%A1%E9%95%BF%E4%BB%BB%E7%BE%BD%E4%B8%AD%E8%A2%AB%E5%88%A48%E5%B9%B4&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 7,
-      "hot_index": 6178077,
+      "id": "19f1cf54bba1fe88",
+      "title": "人民日报曝光当天 腾冲成立工作组",
+      "summary": "8月24日，《人民日报》刊发报道《面目全非的“别墅”小镇》，曝光云南腾冲存在私自开挖山体、削坡建房，数百平方米“别墅”扩... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E6%9B%9D%E5%85%89%E5%BD%93%E5%A4%A9+%E8%85%BE%E5%86%B2%E6%88%90%E7%AB%8B%E5%B7%A5%E4%BD%9C%E7%BB%84&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 9,
+      "hot_index": 5612946,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 7,
-        "百度热搜": 19
+        "百度民生": 9,
+        "百度热搜": 25
+      },
+      "topic": "城市社会",
+      "score": 98,
+      "recommended_title": "人民日报曝光当天 腾冲成立工作组背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
+      "main_paper_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+      "related_papers": [
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+          "match_score": 50
+        },
+        {
+          "id": "49da466fdb8f4e4a",
+          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00478-0",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+          "match_score": 48
+        },
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        }
+      ],
+      "updated_at": "2026-08-24T23:41:08.486029+00:00"
+    },
+    {
+      "id": "e846832da8e9e2be",
+      "title": "北京大学原副校长任羽中被判8年",
+      "summary": "8月24日，辽宁省丹东市中级人民法院一审公开宣判北京大学原党委常委、副校长任羽中受贿案。经审理查明任羽中2006年至20... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E5%8E%9F%E5%89%AF%E6%A0%A1%E9%95%BF%E4%BB%BB%E7%BE%BD%E4%B8%AD%E8%A2%AB%E5%88%A48%E5%B9%B4&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 12,
+      "hot_index": 5424305,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 12,
+        "百度热搜": 27
       },
       "topic": "城市社会",
       "score": 98,
@@ -58,17 +115,17 @@
           "match_score": 49
         },
         {
-          "id": "848df817fd235975",
-          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02713-x",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "id": "538bff92ab70409a",
+          "title": "E-healthy diet literacy is associated with psychological well-being and diet-related risk behaviors among university students in Türkiye: a cross-sectional study",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-68297-w",
+          "published_at": "2026-08-25T00:00:00+00:00",
+          "summary": "E-healthy diet literacy is the ability to find, understand, appraise, and apply online healthy-eating information. We examined its associations with psychological well-being and diet-related risk behaviors in a cross-sectional convenience sample of 331 undergraduates aged 18–2...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/scientific_reports/article&sz=728x90&c=229948903&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41598-026-68297-w%26doi%3D10.1038/s41598-026-68297-w%26subjmeta%3D308,4014,477,499,631,692,699,700%26kwrd%3DDiseases,Health+care,Medical+research,Psychology,Risk+factors",
           "match_score": 43
         }
       ],
-      "updated_at": "2026-08-24T23:11:53.575841+00:00"
+      "updated_at": "2026-08-24T23:41:08.498351+00:00"
     },
     {
       "id": "fbdfd010559d7364",
@@ -76,7 +133,7 @@
       "summary": "8月21日，长江存储控股股份有限公司科创板IPO申报材料正式获上交所受理，计划发行不低于19.8亿股且不超过24.3亿股... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%97%A5%E8%B5%9A3.7%E4%BA%BF%E5%85%83+%E7%A7%91%E5%88%9B%E6%9D%BF%E6%9C%80%E5%A4%A7IPO%E8%A6%81%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 3,
-      "hot_index": 7713675,
+      "hot_index": 7713639,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -88,7 +145,7 @@
       "score": 98,
       "recommended_title": "日赚3.7亿元 科创板最大IPO要来了意味着什么？Nature研究中的技术路线与现实边界",
       "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/scientific_reports/article&sz=728x90&c=1782853359&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41598-026-68598-0%26doi%3D10.1038/s41598-026-68598-0%26subjmeta%3D301,4077,639%26kwrd%3DEnergy+science+and+technology,Materials+science",
+      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/scientific_reports/article&sz=728x90&c=-1512608555&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41598-026-68598-0%26doi%3D10.1038/s41598-026-68598-0%26subjmeta%3D301,4077,639%26kwrd%3DEnergy+science+and+technology,Materials+science",
       "main_paper_url": "https://www.nature.com/articles/s41598-026-68598-0",
       "main_paper_title": "Predictive modeling and discovery of double perovskite oxides for photovoltaics",
       "related_papers": [
@@ -99,7 +156,7 @@
           "url": "https://www.nature.com/articles/s41598-026-68598-0",
           "published_at": "2026-08-24T00:00:00+00:00",
           "summary": "Discovery of potential oxide perovskites for solar photovoltaic applications remains a key challenge because of the size of the compositional space and the computational cost of first-principal methods. A multi-phase machine learning framework has been developed in this study...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/scientific_reports/article&sz=728x90&c=1782853359&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41598-026-68598-0%26doi%3D10.1038/s41598-026-68598-0%26subjmeta%3D301,4077,639%26kwrd%3DEnergy+science+and+technology,Materials+science",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/scientific_reports/article&sz=728x90&c=-1512608555&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41598-026-68598-0%26doi%3D10.1038/s41598-026-68598-0%26subjmeta%3D301,4077,639%26kwrd%3DEnergy+science+and+technology,Materials+science",
           "match_score": 29
         },
         {
@@ -113,7 +170,7 @@
           "match_score": 28
         }
       ],
-      "updated_at": "2026-08-24T23:11:53.570980+00:00"
+      "updated_at": "2026-08-24T23:41:08.480214+00:00"
     },
     {
       "id": "d634aff63a1ffa1d",
@@ -121,7 +178,7 @@
       "summary": "23日，第二届世界人形机器人运动会进入第二个比赛日。400米大型组决赛中，天工队的人形机器人以38.15秒的成绩率先冲线... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%9E%E5%88%B7%E4%BA%BA%E7%B1%BB%E4%B8%96%E7%95%8C%E7%BA%AA%E5%BD%95&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 4,
-      "hot_index": 7618545,
+      "hot_index": 7616198,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -164,11 +221,11 @@
           "url": "https://www.nature.com/articles/s41467-026-76824-6",
           "published_at": "2026-08-24T00:00:00+00:00",
           "summary": "Brachial plexus injury causes severe arm weakness, forcing patients to rely on compensatory movements for daily activities. Here, the authors develop an exosuit for shoulder and elbow assistance and demonstrate its ability to improve arm movement, reduce effort, and support da...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1543012787&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76824-6%26doi%3D10.1038/s41467-026-76824-6%26subjmeta%3D166,491,565,61,631,639,692,700,985%26kwrd%3DBiomedical+engineering,Biotechnology,Rehabilitation",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=956791117&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76824-6%26doi%3D10.1038/s41467-026-76824-6%26subjmeta%3D166,491,565,61,631,639,692,700,985%26kwrd%3DBiomedical+engineering,Biotechnology,Rehabilitation",
           "match_score": 39
         }
       ],
-      "updated_at": "2026-08-24T23:11:53.572043+00:00"
+      "updated_at": "2026-08-24T23:41:08.481287+00:00"
     },
     {
       "id": "0dba93bb999faee9",
@@ -176,7 +233,7 @@
       "summary": "8月22日，位于云南的昆明城市学院发布推文“官宣”，将允许学生带宠物上大学，表示将逐步开放宠物友好宿舍，开放除食堂以外的... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%BA%91%E5%8D%97%E4%B8%80%E9%AB%98%E6%A0%A1%E5%AE%A3%E5%B8%83%E5%AD%A6%E7%94%9F%E5%8F%AF%E4%BB%A5%E5%B8%A6%E5%AE%A0%E7%89%A9%E4%B8%8A%E5%AD%A6&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
       "rank": 19,
-      "hot_index": 4641193,
+      "hot_index": 4192700,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
@@ -184,7 +241,7 @@
       ],
       "platform_ranks": {
         "百度民生": 19,
-        "百度热搜": 35
+        "百度热搜": 40
       },
       "topic": "城市社会",
       "score": 97,
@@ -225,7 +282,7 @@
           "match_score": 41
         }
       ],
-      "updated_at": "2026-08-24T23:11:53.588003+00:00"
+      "updated_at": "2026-08-24T23:41:08.502933+00:00"
     },
     {
       "id": "209d1b223bcc3471",
@@ -233,7 +290,7 @@
       "summary": "江苏南京脑科医院医师蒋旭介绍，人体松果体傍晚开始分泌褪黑素，23点到次日3点是肝脏、肾脏、心脏、大脑等器官自我修复的关键... 查看更多>",
       "url": "https://www.baidu.com/s?wd=23%E7%82%B9%E5%90%8E%E7%9D%A1%E7%9A%84%E4%BA%BA%E2%80%9C%E4%BA%8F%E5%A4%A7%E4%BA%86%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 10,
-      "hot_index": 7040946,
+      "hot_index": 7043990,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -280,27 +337,82 @@
           "match_score": 32
         }
       ],
-      "updated_at": "2026-08-24T23:11:53.579256+00:00"
+      "updated_at": "2026-08-24T23:41:08.489897+00:00"
     },
     {
-      "id": "ec463c1ebdb2197a",
-      "title": "三部门发文 推进家庭医生签约服务",
-      "summary": "8月24日，三部门发文推进家庭医生签约服务，要求扩大签约医生范围，推动二、三级公立医院医生参与，支持个人签约和灵活签约，... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E9%83%A8%E9%97%A8%E5%8F%91%E6%96%87+%E6%8E%A8%E8%BF%9B%E5%AE%B6%E5%BA%AD%E5%8C%BB%E7%94%9F%E7%AD%BE%E7%BA%A6%E6%9C%8D%E5%8A%A1&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 21,
-      "hot_index": 3219607,
+      "id": "447bd98a49e5ee18",
+      "title": "机器人举重比赛后硬要表演舞蹈",
+      "summary": "第二届世界人形机器人运动会举重比赛上，人形‑华科机械学院联队的人形机器人完成举重比拼后，现场表演舞蹈，机器人动作诙谐有趣... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%BE%E9%87%8D%E6%AF%94%E8%B5%9B%E5%90%8E%E7%A1%AC%E8%A6%81%E8%A1%A8%E6%BC%94%E8%88%9E%E8%B9%88&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 20,
+      "hot_index": 4094930,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 21,
-        "百度热搜": 50
+        "百度民生": 20,
+        "百度热搜": 41
+      },
+      "topic": "人工智能",
+      "score": 96,
+      "recommended_title": "机器人举重比赛后硬要表演舞蹈刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04601-5",
+      "main_paper_title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
+      "related_papers": [
+        {
+          "id": "cf5558d53af50b86",
+          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04601-5",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "79cb81595319b259",
+          "title": "Supporting upper limb movements with a soft robot after a brachial plexus injury",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76824-6",
+          "published_at": "2026-08-24T00:00:00+00:00",
+          "summary": "Brachial plexus injury causes severe arm weakness, forcing patients to rely on compensatory movements for daily activities. Here, the authors develop an exosuit for shoulder and elbow assistance and demonstrate its ability to improve arm movement, reduce effort, and support da...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=956791117&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76824-6%26doi%3D10.1038/s41467-026-76824-6%26subjmeta%3D166,491,565,61,631,639,692,700,985%26kwrd%3DBiomedical+engineering,Biotechnology,Rehabilitation",
+          "match_score": 39
+        },
+        {
+          "id": "4393f358759c48ae",
+          "title": "The shrinking landscape of linguistic diversity in the age of large language models",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02550-0",
+          "published_at": "2026-08-24T00:00:00+00:00",
+          "summary": "Sourati et al. find that variance in writing complexity dropped on social media, news and scientific writing after ChatGPT’s release, a shift from individuality towards uniformity. LLM polishing strips cues to gender, age, ideology and moral values.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02550-0/MediaObjects/41562_2026_2550_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-08-24T23:41:08.503972+00:00"
+    },
+    {
+      "id": "62cd735818dfad48",
+      "title": "“被蚊子咬可能得艾滋”不实",
+      "summary": "网传被蚊子咬可能感染艾滋病为谣言，病毒不会在蚊子体内进行繁殖，蚊虫叮咬不会传播HIV，共同进餐也不会感染艾滋病。 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%A2%AB%E8%9A%8A%E5%AD%90%E5%92%AC%E5%8F%AF%E8%83%BD%E5%BE%97%E8%89%BE%E6%BB%8B%E2%80%9D%E4%B8%8D%E5%AE%9E&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 12,
+      "hot_index": 6854453,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 12
       },
       "topic": "健康医学",
       "score": 95,
-      "recommended_title": "三部门发文 推进家庭医生签约服务为什么值得关注？从Nature研究看真正的科学证据",
+      "recommended_title": "“被蚊子咬可能得艾滋”不实为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04562-9/MediaObjects/41591_2026_4562_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41591-026-04562-9",
@@ -337,25 +449,80 @@
           "match_score": 32
         }
       ],
-      "updated_at": "2026-08-24T23:11:53.591205+00:00"
+      "updated_at": "2026-08-24T23:41:08.493708+00:00"
     },
     {
-      "id": "62cd735818dfad48",
-      "title": "“被蚊子咬可能得艾滋”不实",
-      "summary": "网传被蚊子咬可能感染艾滋病为谣言，病毒不会在蚊子体内进行繁殖，蚊虫叮咬不会传播HIV，共同进餐也不会感染艾滋病。 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%A2%AB%E8%9A%8A%E5%AD%90%E5%92%AC%E5%8F%AF%E8%83%BD%E5%BE%97%E8%89%BE%E6%BB%8B%E2%80%9D%E4%B8%8D%E5%AE%9E&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 12,
-      "hot_index": 6848054,
+      "id": "ad87822ba05e8093",
+      "title": "覃伟中辞去深圳市市长职务",
+      "summary": "8月24日，深圳市七届人大常委会举行第四十九次会议。会议经表决，因工作岗位变动，决定接受覃伟中辞去深圳市人民政府市长职务... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%A6%83%E4%BC%9F%E4%B8%AD%E8%BE%9E%E5%8E%BB%E6%B7%B1%E5%9C%B3%E5%B8%82%E5%B8%82%E9%95%BF%E8%81%8C%E5%8A%A1&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 21,
+      "hot_index": 5989645,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 12
+        "百度热搜": 21
+      },
+      "topic": "城市社会",
+      "score": 88,
+      "recommended_title": "覃伟中辞去深圳市市长职务背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00478-0",
+      "main_paper_title": "Effects of Uber and Lyft on jobs, wages and GDP",
+      "related_papers": [
+        {
+          "id": "49da466fdb8f4e4a",
+          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00478-0",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+          "match_score": 48
+        },
+        {
+          "id": "5b658241245312d4",
+          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00504-1",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "29d931053e085b6d",
+          "title": "Hidden patterns of urban mixing across five global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00477-1",
+          "published_at": "2026-07-22T00:00:00+00:00",
+          "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-08-24T23:41:08.508494+00:00"
+    },
+    {
+      "id": "ec463c1ebdb2197a",
+      "title": "三部门发文 推进家庭医生签约服务",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E9%83%A8%E9%97%A8%E5%8F%91%E6%96%87+%E6%8E%A8%E8%BF%9B%E5%AE%B6%E5%BA%AD%E5%8C%BB%E7%94%9F%E7%AD%BE%E7%BA%A6%E6%9C%8D%E5%8A%A1&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 23,
+      "hot_index": 1398956,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 23
       },
       "topic": "健康医学",
-      "score": 95,
-      "recommended_title": "“被蚊子咬可能得艾滋”不实为什么值得关注？从Nature研究看真正的科学证据",
+      "score": 85,
+      "recommended_title": "三部门发文 推进家庭医生签约服务为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04566-5/MediaObjects/41591_2026_4566_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41591-026-04566-5",
@@ -392,24 +559,24 @@
           "match_score": 28
         }
       ],
-      "updated_at": "2026-08-24T23:11:53.582484+00:00"
+      "updated_at": "2026-08-24T23:41:08.512210+00:00"
     },
     {
       "id": "8dab33a0f9c7365b",
       "title": "广西崇左：非必要不外出",
       "summary": "8月24日，广西崇左市防汛抗旱指挥部发紧急公告。受今年第19号台风“紫檀”影响，8月21日至24日崇左市遭遇持续性暴雨，... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E8%A5%BF%E5%B4%87%E5%B7%A6%EF%BC%9A%E9%9D%9E%E5%BF%85%E8%A6%81%E4%B8%8D%E5%A4%96%E5%87%BA&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 18,
-      "hot_index": 6284261,
+      "rank": 26,
+      "hot_index": 5525824,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 18
+        "百度热搜": 26
       },
       "topic": "气候环境",
-      "score": 91,
+      "score": 84,
       "recommended_title": "广西崇左：非必要不外出背后：Nature研究揭示了怎样的风险链条？",
       "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
@@ -447,191 +614,26 @@
           "match_score": 27
         }
       ],
-      "updated_at": "2026-08-24T23:11:53.584285+00:00"
-    },
-    {
-      "id": "450d6c9c68dcc299",
-      "title": "首个人形机器人举重冠军诞生",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E9%A6%96%E4%B8%AA%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%BE%E9%87%8D%E5%86%A0%E5%86%9B%E8%AF%9E%E7%94%9F&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 22,
-      "hot_index": 1550115,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 22
-      },
-      "topic": "人工智能",
-      "score": 86,
-      "recommended_title": "首个人形机器人举重冠军诞生刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04601-5",
-      "main_paper_title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
-      "related_papers": [
-        {
-          "id": "cf5558d53af50b86",
-          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04601-5",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "79cb81595319b259",
-          "title": "Supporting upper limb movements with a soft robot after a brachial plexus injury",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76824-6",
-          "published_at": "2026-08-24T00:00:00+00:00",
-          "summary": "Brachial plexus injury causes severe arm weakness, forcing patients to rely on compensatory movements for daily activities. Here, the authors develop an exosuit for shoulder and elbow assistance and demonstrate its ability to improve arm movement, reduce effort, and support da...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=-1543012787&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76824-6%26doi%3D10.1038/s41467-026-76824-6%26subjmeta%3D166,491,565,61,631,639,692,700,985%26kwrd%3DBiomedical+engineering,Biotechnology,Rehabilitation",
-          "match_score": 39
-        },
-        {
-          "id": "4393f358759c48ae",
-          "title": "The shrinking landscape of linguistic diversity in the age of large language models",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02550-0",
-          "published_at": "2026-08-24T00:00:00+00:00",
-          "summary": "Sourati et al. find that variance in writing complexity dropped on social media, news and scientific writing after ChatGPT’s release, a shift from individuality towards uniformity. LLM polishing strips cues to gender, age, ideology and moral values.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02550-0/MediaObjects/41562_2026_2550_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-08-24T23:11:53.592193+00:00"
-    },
-    {
-      "id": "c8531f21808d83d5",
-      "title": "谷子餐厅的漂亮饭 年轻人抢着买单",
-      "summary": "相关行业观察显示，谷子餐厅是将IP周边与餐饮打包的主题快闪店，今年仅7月全国新开近20家此类门店。以GOODSLOVE开... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%B0%B7%E5%AD%90%E9%A4%90%E5%8E%85%E7%9A%84%E6%BC%82%E4%BA%AE%E9%A5%AD+%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%8A%A2%E7%9D%80%E4%B9%B0%E5%8D%95&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 36,
-      "hot_index": 4547659,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 36
-      },
-      "topic": "城市社会",
-      "score": 76,
-      "recommended_title": "谷子餐厅的漂亮饭 年轻人抢着买单背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00498-w",
-      "main_paper_title": "Hidden living-condition deficits in small and medium-sized cities",
-      "related_papers": [
-        {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        },
-        {
-          "id": "5b658241245312d4",
-          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00504-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-08-24T23:11:53.596779+00:00"
-    },
-    {
-      "id": "6a5ad178a49e72eb",
-      "title": "广东一镇有黑山羊遭蟒蛇袭击",
-      "summary": "近日，广东阳春市双滘镇垌头村附近山头，一条大蟒蛇绞杀并吞食一只放养黑山羊，村民拍下过程并通知相关部门。蟒蛇属国家保护动物... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E4%B8%9C%E4%B8%80%E9%95%87%E6%9C%89%E9%BB%91%E5%B1%B1%E7%BE%8A%E9%81%AD%E8%9F%92%E8%9B%87%E8%A2%AD%E5%87%BB&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 44,
-      "hot_index": 3797800,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 44
-      },
-      "topic": "生态生命",
-      "score": 70,
-      "recommended_title": "广东一镇有黑山羊遭蟒蛇袭击背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
-      "related_papers": [
-        {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 37
-        },
-        {
-          "id": "a3a59c8b57e1676f",
-          "title": "Balancing marine species conservation with cost-effective renewable energy development",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02696-9",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "The authors consider the potential conflict between renewable energy development (offshore wind) and wildlife (North Atlantic right whales, Eubalaena glacialis ). They demonstrate a framework to identify trade-offs under different scenarios, maximizing conservation with minima...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02696-9/MediaObjects/41558_2026_2696_Fig1_HTML.png",
-          "match_score": 35
-        },
-        {
-          "id": "1be1c971aa705673",
-          "title": "Climate warming drives thermal shocks and accelerated freshwater habitat fragmentation",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02731-9",
-          "published_at": "2026-08-24T00:00:00+00:00",
-          "summary": "Assessing 9,809 freshwater fish species globally, this study shows risk to a high proportion of species in the tropics, and severe extremes in non-tropical regions. Under high emissions, gradual warming drives abrupt exposure, with 63% of species facing accelerating thermal fr...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02731-9/MediaObjects/41558_2026_2731_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        }
-      ],
-      "updated_at": "2026-08-24T23:11:53.598558+00:00"
+      "updated_at": "2026-08-24T23:41:08.514177+00:00"
     }
   ],
   "items": [
     {
-      "id": "cdb97a208d6c76e5",
-      "title": "Kimi K2.5 月底退役：月之暗面第一代万亿参数多模态模型谢幕 月之暗面官宣第一代万亿参数多模态模型Kimi K2.5将于本月底结束服役。",
-      "display_title": "Kimi K2.5 月底退役：月之暗面第一代万亿参数多模态模型谢幕 月之暗面官宣第一代万亿参数多模态模型Kimi K2.5将于本月底结束服役。",
-      "source": "AIBase",
+      "id": "977cea4ee47c668e",
+      "title": "豆包要收费了，你会花钱用吗？",
+      "display_title": "豆包要收费了，你会花钱用吗？",
+      "source": "人人都是产品经理",
       "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30563",
-      "published_at": "2026-08-24T23:11:08.857948+00:00",
-      "detected_at": "2026-08-24T23:11:08.857953+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
-      "image_url": "https://upload.chinaz.com/2026/0824/6392317560843709992002517.png",
+      "url": "https://www.woshipm.com/ai/6390595.html",
+      "published_at": "2026-08-24T23:40:19.899509+00:00",
+      "detected_at": "2026-08-24T23:40:19.899522+00:00",
+      "summary": "豆包要收费了，你会花钱用吗？",
+      "image_url": "https://image.woshipm.com/2023/04/13/7320bd46-d9ef-11ed-a6e8-00163e0b5ff3.jpg",
       "image_method": "body",
       "image_rule_version": 12,
-      "priority": "A",
+      "priority": "B",
       "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -643,7 +645,7 @@
       "url": "https://news.aibase.com/zh/news/30567",
       "published_at": "2026-08-24T23:11:08.851983+00:00",
       "detected_at": "2026-08-24T23:11:08.851988+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
+      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 11.1K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
       "image_url": "https://upload.chinaz.com/2026/0824/6392317619175436322020442.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -679,26 +681,8 @@
       "url": "https://news.aibase.com/zh/news/30562",
       "published_at": "2026-08-24T19:07:07.556675+00:00",
       "detected_at": "2026-08-24T19:07:07.556678+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
+      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 11.1K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
       "image_url": "https://upload.chinaz.com/2026/0824/6392316734217358057598622.jpg",
-      "image_method": "body",
-      "image_rule_version": 12,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "eb033f8571f55f90",
-      "title": "韶音OpenFit 2 AI耳机震撼首发：融合千问大模型， 48 小时超长续航定义智能音频新体验 韶音OpenFit2 AI耳机今日开售，首发价1398元。",
-      "display_title": "韶音OpenFit 2 AI耳机震撼首发：融合千问大模型， 48 小时超长续航定义智能音频新体验 韶音OpenFit2 AI耳机今日开售，首发价1398元。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30570",
-      "published_at": "2026-08-24T19:07:07.549111+00:00",
-      "detected_at": "2026-08-24T19:07:07.549114+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
-      "image_url": "https://upload.chinaz.com/2026/0824/6392318086089007102667981.png",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
@@ -787,26 +771,8 @@
       "url": "https://news.aibase.com/zh/news/30561",
       "published_at": "2026-08-24T09:31:50.939989+00:00",
       "detected_at": "2026-08-24T09:31:50.939995+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
+      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 11.1K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
       "image_url": "https://upload.chinaz.com/2026/0824/6392316691836682941997525.jpg",
-      "image_method": "body",
-      "image_rule_version": 12,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "b1297d78ead724aa",
-      "title": "达摩院肝癌 AI 模型 DAMO LiON：揪出 1 厘米\"隐形\"肿瘤，两月补漏 15 例 达摩院联合盛京医院等发布肝癌AI模型DAMO LiON，可借增强CT精准识别微小病灶。",
-      "display_title": "达摩院肝癌 AI 模型 DAMO LiON：揪出 1 厘米\"隐形\"肿瘤，两月补漏 15 例 达摩院联合盛京医院等发布肝癌AI模型DAMO LiON，可借增强CT精准识别微小病灶。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30564",
-      "published_at": "2026-08-24T09:31:50.935082+00:00",
-      "detected_at": "2026-08-24T09:31:50.935088+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
-      "image_url": "https://upload.chinaz.com/2026/0824/6392317575699245954476904.png",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
@@ -823,26 +789,8 @@
       "url": "https://news.aibase.com/zh/news/30569",
       "published_at": "2026-08-24T09:31:50.926755+00:00",
       "detected_at": "2026-08-24T09:31:50.926761+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
+      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 11.1K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
       "image_url": "https://pic.chinaz.com/2026/0824/2026082414293933550.jpg",
-      "image_method": "body",
-      "image_rule_version": 12,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "433b3a4e86d3c280",
-      "title": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
-      "display_title": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30572",
-      "published_at": "2026-08-24T09:31:50.921787+00:00",
-      "detected_at": "2026-08-24T09:31:50.921793+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
-      "image_url": "https://upload.chinaz.com/2026/0824/6392318165096077689718227.jpg",
       "image_method": "body",
       "image_rule_version": 12,
       "priority": "A",
@@ -913,7 +861,7 @@
       "url": "https://news.aibase.com/zh/news/30571",
       "published_at": "2026-08-24T07:45:17.780442+00:00",
       "detected_at": "2026-08-24T07:45:17.780448+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 9.8K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为战...",
+      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 5 小时前 11.1K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
       "image_url": "https://pic.chinaz.com/picmap/202508201007318913_0.jpg",
       "image_method": "body",
       "image_rule_version": 12,
