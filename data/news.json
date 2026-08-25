@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T13:16:00.597113+00:00",
-  "count": 226,
-  "hotspot_count": 12,
-  "breakthrough_count": 69,
+  "updated_at": "2026-08-25T14:10:37.482399+00:00",
+  "count": 228,
+  "hotspot_count": 11,
+  "breakthrough_count": 70,
   "category_counts": {
-    "AI变现": 121,
+    "AI变现": 123,
     "提效工具": 25,
     "前沿动态": 32
   },
@@ -14,118 +14,61 @@
   },
   "hotspots": [
     {
-      "id": "47aa9bbc4e6c157c",
-      "title": "第一个1000公里地铁城市要来了",
-      "summary": "近日，上海发布“十五五”交通规划提出，将推动19、20、21、23号等线路建设，到2030年城市轨道交通里程达1260公... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E4%B8%AA1000%E5%85%AC%E9%87%8C%E5%9C%B0%E9%93%81%E5%9F%8E%E5%B8%82%E8%A6%81%E6%9D%A5%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 4,
-      "hot_index": 6464462,
+      "id": "b468780da271b6ed",
+      "title": "月薪2万因裁员焦虑 每天学到凌晨5点",
+      "summary": "凌晨五点，二十多岁的王女士仍坚持学习。据悉，就职大厂的她受裁员影响内心焦虑，想通过学习提升自己，即便内容已掌握仍反复回看... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%88%E8%96%AA2%E4%B8%87%E5%9B%A0%E8%A3%81%E5%91%98%E7%84%A6%E8%99%91+%E6%AF%8F%E5%A4%A9%E5%AD%A6%E5%88%B0%E5%87%8C%E6%99%A85%E7%82%B9&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 16,
+      "hot_index": 5144684,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 4,
-        "百度热搜": 16
+        "百度民生": 16,
+        "百度热搜": 30
       },
-      "topic": "城市社会",
+      "topic": "健康医学",
       "score": 98,
-      "recommended_title": "第一个1000公里地铁城市要来了背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02713-x",
-      "main_paper_title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+      "recommended_title": "月薪2万因裁员焦虑 每天学到凌晨5点为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04571-8",
+      "main_paper_title": "Dysregulated adult hippocampal neurogenesis in major depressive disorders",
       "related_papers": [
         {
-          "id": "848df817fd235975",
-          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02713-x",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
-          "match_score": 57
+          "id": "31a408be03a4c192",
+          "title": "Dysregulated adult hippocampal neurogenesis in major depressive disorders",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04571-8",
+          "published_at": "2026-08-21T00:00:00+00:00",
+          "summary": "The largest multiomic atlas of the adult human hippocampus identifies disrupted neurogenesis, gene regulation and neural circuits in major depressive disorder, revealing molecular pathways and potential therapeutic targets related to stress, cellular aging and neuroplasticity.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig1_HTML.png?as=webp",
+          "match_score": 41
         },
         {
-          "id": "29d931053e085b6d",
-          "title": "Hidden patterns of urban mixing across five global cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00477-1",
-          "published_at": "2026-07-22T00:00:00+00:00",
-          "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
-          "match_score": 52
+          "id": "5bf32b82aba2ec11",
+          "title": "A clinically validated framework for auditing AI chatbot behavior in mental health interactions",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04577-2",
+          "published_at": "2026-08-07T00:00:00+00:00",
+          "summary": "Across 810 conversations, an evaluation framework finds that AI chatbots often amplify simulated users’ psychological vulnerabilities, revealing persistent safety risks in mental health contexts.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04577-2/MediaObjects/41591_2026_4577_Fig2_HTML.png?as=webp",
+          "match_score": 39
         },
         {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
-          "match_score": 42
-        }
-      ],
-      "updated_at": "2026-08-25T13:15:54.503258+00:00"
-    },
-    {
-      "id": "649d0b53781923eb",
-      "title": "台风紫檀登陆",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E7%B4%AB%E6%AA%80%E7%99%BB%E9%99%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 15,
-      "hot_index": 4669556,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 15,
-        "百度热搜": 35
-      },
-      "topic": "气候环境",
-      "score": 98,
-      "recommended_title": "台风紫檀登陆背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1335728053&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76600-6%26doi%3D10.1038/s41467-026-76600-6%26techmeta%3D119%26subjmeta%3D106,172,35,4081,704,824%26kwrd%3DAtmospheric+chemistry,Environmental+impact",
-      "main_paper_url": "https://www.nature.com/articles/s41467-026-76600-6",
-      "main_paper_title": "Role of natural halogen chemistry on the evolution of global stratospheric ozone depletion",
-      "related_papers": [
-        {
-          "id": "575556b7c77e2660",
-          "title": "Role of natural halogen chemistry on the evolution of global stratospheric ozone depletion",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76600-6",
+          "id": "7f66a24c7c5a9935",
+          "title": "Computational activation of CISD3 by a novel flavonoid compound for cardiac ageing and cardiovascular health",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-51339-8",
           "published_at": "2026-08-25T00:00:00+00:00",
-          "summary": "Halogens from natural sources account for a substantial fraction of stratospheric ozone depletion, contributing up to half of recent lower-stratospheric ozone loss and delaying Antarctic ozone recovery by several decades.",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1335728053&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76600-6%26doi%3D10.1038/s41467-026-76600-6%26techmeta%3D119%26subjmeta%3D106,172,35,4081,704,824%26kwrd%3DAtmospheric+chemistry,Environmental+impact",
-          "match_score": 25
-        },
-        {
-          "id": "e3cbd3a88cc38f2b",
-          "title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02712-y",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "The influence of fine particulate pollution (PM 2.5 ) on plant water-use efficiency remains poorly understood. The authors highlight that PM 2.5 exerts a primarily negative effect across scales due to asymmetric effects on photosynthesis and evapotranspiration.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
-          "match_score": 24
-        },
-        {
-          "id": "d0687d38edf00bd8",
-          "title": "Failure to track a stable AMOC state under rapid climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02730-w",
-          "published_at": "2026-08-13T00:00:00+00:00",
-          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
-          "match_score": 24
+          "summary": "CISD proteins, members of the CDGSH iron-sulfur domain family, include CISD1, CISD2, and CISD3, which are associated with age-related disorders and mitochondrial dysfunction. CISD3, characterised by a 2Fe–2 S cluster and localized in the outer mitochondrial membrane, plays a c...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/scientific_reports/article&sz=728x90&c=1989781339&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41598-026-51339-8%26doi%3D10.1038/s41598-026-51339-8%26subjmeta%3D154,1647,208,4019,47,61,631,639,692,704,705,80%26kwrd%3DBiogeochemistry,Biological+techniques,Biotechnology,Cardiology,Cell+biology,Drug+discovery,Genetics,Mathematics+and+computing",
+          "match_score": 37
         }
       ],
-      "updated_at": "2026-08-25T13:15:54.513069+00:00"
+      "updated_at": "2026-08-25T14:10:30.408430+00:00"
     },
     {
       "id": "560f18567994fe90",
@@ -133,7 +76,7 @@
       "summary": "“树立和践行正确政绩观是一项长期任务，必须久久为功，不断巩固拓展学习教育成果，持续推动各级党组织和广大党员、干部立党为公... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E4%BA%BA%E6%B0%91%E5%87%BA%E6%94%BF%E7%BB%A9+%E4%BB%A5%E5%AE%9E%E5%B9%B2%E5%87%BA%E6%94%BF%E7%BB%A9&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 1,
-      "hot_index": 7904792,
+      "hot_index": 7904226,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -160,14 +103,59 @@
           "match_score": 68
         },
         {
-          "id": "31a408be03a4c192",
-          "title": "Dysregulated adult hippocampal neurogenesis in major depressive disorders",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04571-8",
-          "published_at": "2026-08-21T00:00:00+00:00",
-          "summary": "The largest multiomic atlas of the adult human hippocampus identifies disrupted neurogenesis, gene regulation and neural circuits in major depressive disorder, revealing molecular pathways and potential therapeutic targets related to stress, cellular aging and neuroplasticity.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig1_HTML.png?as=webp",
-          "match_score": 49
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
+          "match_score": 42
+        }
+      ],
+      "updated_at": "2026-08-25T14:10:30.395611+00:00"
+    },
+    {
+      "id": "c840386d2e405a1b",
+      "title": "幼儿园不得提前教拼音识字等小学内容",
+      "summary": "8月25日，教育部明确，幼儿园不得提前教汉语拼音、识字、计算等小学阶段课程；小学一年级不布置书面家庭作业、不进行纸笔考试... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%BC%E5%84%BF%E5%9B%AD%E4%B8%8D%E5%BE%97%E6%8F%90%E5%89%8D%E6%95%99%E6%8B%BC%E9%9F%B3%E8%AF%86%E5%AD%97%E7%AD%89%E5%B0%8F%E5%AD%A6%E5%86%85%E5%AE%B9&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 3,
+      "hot_index": 7712959,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 3
+      },
+      "topic": "城市社会",
+      "score": 98,
+      "recommended_title": "幼儿园不得提前教拼音识字等小学内容背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02713-x",
+      "main_paper_title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
         },
         {
           "id": "7dfd8de97f9dff0c",
@@ -178,96 +166,6 @@
           "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
           "match_score": 38
-        }
-      ],
-      "updated_at": "2026-08-25T13:15:54.500338+00:00"
-    },
-    {
-      "id": "8ca3503f13d4405b",
-      "title": "自动驾驶违法 车企担责",
-      "summary": "8月25日，道路交通安全法修订草案提请十四届全国人大常委会第二十四次会议初次审议。草案增设自动驾驶汽车特别规定专章，明确... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6%E8%BF%9D%E6%B3%95+%E8%BD%A6%E4%BC%81%E6%8B%85%E8%B4%A3&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 3,
-      "hot_index": 7713482,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 3
-      },
-      "topic": "人工智能",
-      "score": 98,
-      "recommended_title": "自动驾驶违法 车企担责刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02550-0/MediaObjects/41562_2026_2550_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02550-0",
-      "main_paper_title": "The shrinking landscape of linguistic diversity in the age of large language models",
-      "related_papers": [
-        {
-          "id": "4393f358759c48ae",
-          "title": "The shrinking landscape of linguistic diversity in the age of large language models",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02550-0",
-          "published_at": "2026-08-24T00:00:00+00:00",
-          "summary": "Sourati et al. find that variance in writing complexity dropped on social media, news and scientific writing after ChatGPT’s release, a shift from individuality towards uniformity. LLM polishing strips cues to gender, age, ideology and moral values.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02550-0/MediaObjects/41562_2026_2550_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "cf5558d53af50b86",
-          "title": "Prospective evaluation of a large language model clinical decision support system in the emergency department",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04601-5",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "summary": "A pilot implementation study of a large language model clinical decision support system in a tertiary emergency department showed safe integration but steadily declining clinical adoption over 4 weeks.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04601-5/MediaObjects/41591_2026_4601_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "9772fc88a7b4963b",
-          "title": "ProteinLMDataset-Reason: A Large-Scale Dataset and Benchmark for Protein Reasoning in Large Language Models",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08175-2",
-          "published_at": "2026-08-25T00:00:00+00:00",
-          "summary": "Large language models (LLMs) show promise for protein analysis, yet existing resources rarely provide structured, fact-grounded explanations that support scientific interpretation of model outputs. Protein-specific datasets containing such explanations remain scarce. We presen...",
-          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/sdata.nature.com/article&sz=728x90&c=-835078784&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41597-026-08175-2%26doi%3D10.1038/s41597-026-08175-2%26kwrd%3DScience%2C+Humanities+and+Social+Sciences%2C+multidisciplinary,Science%2C+multidisciplinary",
-          "match_score": 31
-        }
-      ],
-      "updated_at": "2026-08-25T13:15:54.501059+00:00"
-    },
-    {
-      "id": "8a6c3ca0b9b80c60",
-      "title": "8个月身体年轻近15岁 他做了什么",
-      "summary": "一项发表于《公共科学图书馆·综合》的研究显示，45岁大学教授以自身做实验，经8个月严格调整生活方式——限时饮食、地中海膳... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=8%E4%B8%AA%E6%9C%88%E8%BA%AB%E4%BD%93%E5%B9%B4%E8%BD%BB%E8%BF%9115%E5%B2%81+%E4%BB%96%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 6,
-      "hot_index": 7426808,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 6
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "8个月身体年轻近15岁 他做了什么背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04571-8",
-      "main_paper_title": "Dysregulated adult hippocampal neurogenesis in major depressive disorders",
-      "related_papers": [
-        {
-          "id": "31a408be03a4c192",
-          "title": "Dysregulated adult hippocampal neurogenesis in major depressive disorders",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04571-8",
-          "published_at": "2026-08-21T00:00:00+00:00",
-          "summary": "The largest multiomic atlas of the adult human hippocampus identifies disrupted neurogenesis, gene regulation and neural circuits in major depressive disorder, revealing molecular pathways and potential therapeutic targets related to stress, cellular aging and neuroplasticity.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig1_HTML.png?as=webp",
-          "match_score": 49
         },
         {
           "id": "0d46a2cc3e13a806",
@@ -278,137 +176,74 @@
           "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
           "match_score": 36
-        },
-        {
-          "id": "5b658241245312d4",
-          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00504-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
-          "match_score": 34
         }
       ],
-      "updated_at": "2026-08-25T13:15:54.505498+00:00"
+      "updated_at": "2026-08-25T14:10:30.399623+00:00"
     },
     {
-      "id": "6bb4baaa5bef6048",
-      "title": "9点了办事窗口咋没人？回应来了",
-      "summary": "8月25日，有网友发视频称，上午9点江苏连云港灌云县社会治安综合治理中心办事大厅窗口无工作人员到岗，多名群众在柜台外等候... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=9%E7%82%B9%E4%BA%86%E5%8A%9E%E4%BA%8B%E7%AA%97%E5%8F%A3%E5%92%8B%E6%B2%A1%E4%BA%BA%EF%BC%9F%E5%9B%9E%E5%BA%94%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 7,
-      "hot_index": 7329221,
-      "platform": "百度热搜",
+      "id": "649d0b53781923eb",
+      "title": "台风紫檀登陆",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E7%B4%AB%E6%AA%80%E7%99%BB%E9%99%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 20,
+      "hot_index": 4834248,
+      "platform": "百度民生",
       "platforms": [
+        "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 7
+        "百度民生": 20,
+        "百度热搜": 33
       },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "9点了办事窗口咋没人？回应来了背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
-      "main_paper_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+      "topic": "气候环境",
+      "score": 96,
+      "recommended_title": "台风紫檀登陆背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1062595800&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76600-6%26doi%3D10.1038/s41467-026-76600-6%26techmeta%3D119%26subjmeta%3D106,172,35,4081,704,824%26kwrd%3DAtmospheric+chemistry,Environmental+impact",
+      "main_paper_url": "https://www.nature.com/articles/s41467-026-76600-6",
+      "main_paper_title": "Role of natural halogen chemistry on the evolution of global stratospheric ozone depletion",
       "related_papers": [
         {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 50
+          "id": "575556b7c77e2660",
+          "title": "Role of natural halogen chemistry on the evolution of global stratospheric ozone depletion",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76600-6",
+          "published_at": "2026-08-25T00:00:00+00:00",
+          "summary": "Halogens from natural sources account for a substantial fraction of stratospheric ozone depletion, contributing up to half of recent lower-stratospheric ozone loss and delaying Antarctic ozone recovery by several decades.",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature_communications/article&sz=728x90&c=1062595800&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41467-026-76600-6%26doi%3D10.1038/s41467-026-76600-6%26techmeta%3D119%26subjmeta%3D106,172,35,4081,704,824%26kwrd%3DAtmospheric+chemistry,Environmental+impact",
+          "match_score": 25
         },
         {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 48
-        },
-        {
-          "id": "5dbd7fd7005b80b8",
-          "title": "Empirical insights into residual emissions in urban net-zero targets",
+          "id": "e3cbd3a88cc38f2b",
+          "title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
           "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02691-0",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Although many cities have set net-zero targets, there is limited understanding of their residual emissions strategies. An analysis of 103 European cities reveals best practices but also a potential over-reliance on temporary land-based carbon removal and the limited robustness...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02691-0/MediaObjects/41558_2026_2691_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        }
-      ],
-      "updated_at": "2026-08-25T13:15:54.507665+00:00"
-    },
-    {
-      "id": "16dccf5c3d71d56b",
-      "title": "赵丽颖突发身体不适 取消直播活动",
-      "summary": "8月25日，赵丽颖工作室发文称，因赵丽颖突发身体不适，无法完成本次活动，经与品牌方紧急沟通后决定取消直播。工作室向等候的... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%B5%B5%E4%B8%BD%E9%A2%96%E7%AA%81%E5%8F%91%E8%BA%AB%E4%BD%93%E4%B8%8D%E9%80%82+%E5%8F%96%E6%B6%88%E7%9B%B4%E6%92%AD%E6%B4%BB%E5%8A%A8&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 10,
-      "hot_index": 7047902,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 10
-      },
-      "topic": "城市社会",
-      "score": 97,
-      "recommended_title": "赵丽颖突发身体不适 取消直播活动背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00478-0",
-      "main_paper_title": "Effects of Uber and Lyft on jobs, wages and GDP",
-      "related_papers": [
-        {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 48
+          "url": "https://www.nature.com/articles/s41558-026-02712-y",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "The influence of fine particulate pollution (PM 2.5 ) on plant water-use efficiency remains poorly understood. The authors highlight that PM 2.5 exerts a primarily negative effect across scales due to asymmetric effects on photosynthesis and evapotranspiration.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
+          "match_score": 24
         },
         {
-          "id": "44424360f33a07f6",
-          "title": "City racial segregation statistics are robust to aggregation bias",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00459-3",
-          "published_at": "2026-06-16T00:00:00+00:00",
-          "summary": "Residential segregation is a challenging reality in cities worldwide despite their diverse populations. Focusing on medium to large US cities, this study finds no systematic bias in racial segregation when different Census tract boundaries are used.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        },
-        {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 50
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 24
         }
       ],
-      "updated_at": "2026-08-25T13:15:54.509832+00:00"
+      "updated_at": "2026-08-25T14:10:30.415421+00:00"
     },
     {
-      "id": "e60397061908d5aa",
-      "title": "丢掉的塑料瓶被做成饼干了",
-      "summary": "2026年美国化学学会秋季会议上，南伊利诺伊大学团队发布新技术，将废弃PET塑料瓶转化为可食用高蛋白饼干，该项目最终将服... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%A2%E6%8E%89%E7%9A%84%E5%A1%91%E6%96%99%E7%93%B6%E8%A2%AB%E5%81%9A%E6%88%90%E9%A5%BC%E5%B9%B2%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "id": "8a6c3ca0b9b80c60",
+      "title": "8个月身体年轻近15岁 他做了什么",
+      "summary": "一项发表于《公共科学图书馆·综合》的研究显示，45岁大学教授以自身做实验，经8个月严格调整生活方式——限时饮食、地中海膳... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=8%E4%B8%AA%E6%9C%88%E8%BA%AB%E4%BD%93%E5%B9%B4%E8%BD%BB%E8%BF%9115%E5%B2%81+%E4%BB%96%E5%81%9A%E4%BA%86%E4%BB%80%E4%B9%88&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 14,
-      "hot_index": 6657175,
+      "hot_index": 6666353,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -418,7 +253,7 @@
       },
       "topic": "城市社会",
       "score": 94,
-      "recommended_title": "丢掉的塑料瓶被做成饼干了背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "8个月身体年轻近15岁 他做了什么背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig2_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00498-w",
@@ -435,35 +270,80 @@
           "match_score": 42
         },
         {
-          "id": "375dc94e6b81abc6",
-          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "id": "5b658241245312d4",
+          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00486-0",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-          "match_score": 68
+          "url": "https://www.nature.com/articles/s44284-026-00504-1",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
+          "match_score": 34
         },
         {
-          "id": "31a408be03a4c192",
-          "title": "Dysregulated adult hippocampal neurogenesis in major depressive disorders",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04571-8",
-          "published_at": "2026-08-21T00:00:00+00:00",
-          "summary": "The largest multiomic atlas of the adult human hippocampus identifies disrupted neurogenesis, gene regulation and neural circuits in major depressive disorder, revealing molecular pathways and potential therapeutic targets related to stress, cellular aging and neuroplasticity.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig1_HTML.png?as=webp",
-          "match_score": 49
+          "id": "29d931053e085b6d",
+          "title": "Hidden patterns of urban mixing across five global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00477-1",
+          "published_at": "2026-07-22T00:00:00+00:00",
+          "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
+          "match_score": 34
         }
       ],
-      "updated_at": "2026-08-25T13:15:54.511984+00:00"
+      "updated_at": "2026-08-25T14:10:30.403756+00:00"
     },
     {
-      "id": "8b7cac006be5b53d",
-      "title": "广西崇左400年斜塔被洪水淹至二层",
-      "summary": "8月25日，广西崇左左江斜塔景区工作人员表示，受台风“紫檀”影响连降暴雨，江水已淹至超400年历史的斜塔二层，景区闭园。... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E8%A5%BF%E5%B4%87%E5%B7%A6400%E5%B9%B4%E6%96%9C%E5%A1%94%E8%A2%AB%E6%B4%AA%E6%B0%B4%E6%B7%B9%E8%87%B3%E4%BA%8C%E5%B1%82&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "id": "4d6662b20209d045",
+      "title": "美股芯片股多数上扬",
+      "summary": "8月25日，美股芯片股多数上扬，英伟达盘初拉升涨近3%，迈威尔科技涨超7%，AMD涨近5%，英特尔涨超3%，台积电涨近2... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E8%8A%AF%E7%89%87%E8%82%A1%E5%A4%9A%E6%95%B0%E4%B8%8A%E6%89%AC&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 16,
+      "hot_index": 6468769,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 16
+      },
+      "topic": "前沿科技",
+      "score": 92,
+      "recommended_title": "美股芯片股多数上扬意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10904-x/MediaObjects/41586_2026_10904_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-10904-x",
+      "main_paper_title": "Observation of conformal field theory spectra in a quantum simulator",
+      "related_papers": [
+        {
+          "id": "e1a716a998a0e4ab",
+          "title": "Observation of conformal field theory spectra in a quantum simulator",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10904-x",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Measurements on an array of optically trapped neutral atoms at a quantum phase transition provide a direct observation of the universal excitation spectrum predicted by conformal field theory.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10904-x/MediaObjects/41586_2026_10904_Fig2_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "47e5d4b16a5723ad",
+          "title": "Evidence for vacuum-enhanced superconductivity in NbSe 2",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11037-x",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Vacuum fluctuations provide an important new way to control material properties noninvasively1-6. Here, we present experimental evidence that they can enhance superconductivity. NbSe2 is a layered transition-metal dichalcogenide with well-characterized superconducting behavior...",
+          "image_url": "https://pubads.g.doubleclick.net/gampad/ad?iu=/285/nature.com/article&sz=728x90&c=1858178461&t=pos%3Dtop%26type%3Darticle%26artid%3Ds41586-026-11037-x%26doi%3D10.1038/s41586-026-11037-x%26techmeta%3D120,126,128,133,140,142,144%26subjmeta%3D1003,1064,1130,1139,119,400,482,483,639,766%26kwrd%3DQuantum+mechanics,Quantum+optics,Superconducting+devices,Superconducting+properties+and+materials",
+          "match_score": 28
+        }
+      ],
+      "updated_at": "2026-08-25T14:10:30.404902+00:00"
+    },
+    {
+      "id": "7c87d6659aa6b94d",
+      "title": "内蒙古乌兰察布突发山洪 已致4人遇难",
+      "summary": "8月25日15时，乌兰察布市兴和县大同夭乡包家营村突发山洪，有人员失联，一辆车过漫水桥时被水冲走，车内5人已确定4人死亡... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%86%85%E8%92%99%E5%8F%A4%E4%B9%8C%E5%85%B0%E5%AF%9F%E5%B8%83%E7%AA%81%E5%8F%91%E5%B1%B1%E6%B4%AA+%E5%B7%B2%E8%87%B44%E4%BA%BA%E9%81%87%E9%9A%BE&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
       "rank": 26,
-      "hot_index": 3407769,
+      "hot_index": 4067680,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
@@ -471,11 +351,11 @@
       ],
       "platform_ranks": {
         "百度民生": 26,
-        "百度热搜": 48
+        "百度热搜": 41
       },
       "topic": "气候环境",
       "score": 91,
-      "recommended_title": "广西崇左400年斜塔被洪水淹至二层背后：Nature研究揭示了怎样的风险链条？",
+      "recommended_title": "内蒙古乌兰察布突发山洪 已致4人遇难背后：Nature研究揭示了怎样的风险链条？",
       "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02512-6",
@@ -512,24 +392,26 @@
           "match_score": 19
         }
       ],
-      "updated_at": "2026-08-25T13:15:54.518547+00:00"
+      "updated_at": "2026-08-25T14:10:30.428156+00:00"
     },
     {
       "id": "69714e3590c19219",
       "title": "三台风 气候异常",
       "summary": "本周有三个台风接连登陆我国，华南、华东多地将遭遇强风雨。专家分析，副热带高压异常偏北，加上海温高、越赤道气流强盛，造成台... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E5%8F%B0%E9%A3%8E+%E6%B0%94%E5%80%99%E5%BC%82%E5%B8%B8&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 19,
-      "hot_index": 6179175,
-      "platform": "百度热搜",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%89%E5%8F%B0%E9%A3%8E+%E6%B0%94%E5%80%99%E5%BC%82%E5%B8%B8&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 28,
+      "hot_index": 3869915,
+      "platform": "百度民生",
       "platforms": [
+        "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 19
+        "百度民生": 28,
+        "百度热搜": 43
       },
       "topic": "气候环境",
-      "score": 90,
+      "score": 89,
       "recommended_title": "三台风 气候异常背后：Nature研究揭示了怎样的风险链条？",
       "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
@@ -567,15 +449,15 @@
           "match_score": 27
         }
       ],
-      "updated_at": "2026-08-25T13:15:54.514150+00:00"
+      "updated_at": "2026-08-25T14:10:30.430007+00:00"
     },
     {
-      "id": "73a733501bb2b16f",
-      "title": "欢子工作室质问《披哥》",
-      "summary": "8月25日，欢子工作室晒出就医监控视频喊话《披荆斩棘》节目组，质问其带病录制到凌晨为何正片一秒镜头都没有。监控显示8月1... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%AC%A2%E5%AD%90%E5%B7%A5%E4%BD%9C%E5%AE%A4%E8%B4%A8%E9%97%AE%E3%80%8A%E6%8A%AB%E5%93%A5%E3%80%8B&sa=fyb_news&rsv_dl=fyb_news",
+      "id": "16dccf5c3d71d56b",
+      "title": "赵丽颖突发身体不适 取消直播活动",
+      "summary": "8月25日，赵丽颖工作室发文称，因赵丽颖突发身体不适，无法完成本次活动，经与品牌方紧急沟通后决定取消直播。工作室向等候的... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%B5%B5%E4%B8%BD%E9%A2%96%E7%AA%81%E5%8F%91%E8%BA%AB%E4%BD%93%E4%B8%8D%E9%80%82+%E5%8F%96%E6%B6%88%E7%9B%B4%E6%92%AD%E6%B4%BB%E5%8A%A8&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 20,
-      "hot_index": 6081992,
+      "hot_index": 6092221,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -585,22 +467,12 @@
       },
       "topic": "城市社会",
       "score": 89,
-      "recommended_title": "欢子工作室质问《披哥》背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "赵丽颖突发身体不适 取消直播活动背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00504-1",
-      "main_paper_title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
+      "main_paper_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
       "related_papers": [
-        {
-          "id": "5b658241245312d4",
-          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00504-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
         {
           "id": "0d46a2cc3e13a806",
           "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
@@ -620,67 +492,168 @@
           "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
           "match_score": 48
+        },
+        {
+          "id": "5dbd7fd7005b80b8",
+          "title": "Empirical insights into residual emissions in urban net-zero targets",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02691-0",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Although many cities have set net-zero targets, there is limited understanding of their residual emissions strategies. An analysis of 103 European cities reveals best practices but also a potential over-reliance on temporary land-based carbon removal and the limited robustness...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02691-0/MediaObjects/41558_2026_2691_Fig1_HTML.png?as=webp",
+          "match_score": 32
         }
       ],
-      "updated_at": "2026-08-25T13:15:54.516306+00:00"
+      "updated_at": "2026-08-25T14:10:30.413612+00:00"
     },
     {
-      "id": "f2591d350fc05c69",
-      "title": "种子在1岁婴幼儿耳朵里发芽了",
-      "summary": "近日，首都儿童医学中心接诊一名1岁患儿，全麻手术取出耳道内已发芽的多颗植物种子。因幼儿习惯塞异物入耳，恒温湿润的耳道成种... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%A7%8D%E5%AD%90%E5%9C%A81%E5%B2%81%E5%A9%B4%E5%B9%BC%E5%84%BF%E8%80%B3%E6%9C%B5%E9%87%8C%E5%8F%91%E8%8A%BD%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 25,
-      "hot_index": 5617736,
+      "id": "e60397061908d5aa",
+      "title": "丢掉的塑料瓶被做成饼干了",
+      "summary": "2026年美国化学学会秋季会议上，南伊利诺伊大学团队发布新技术，将废弃PET塑料瓶转化为可食用高蛋白饼干，该项目最终将服... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%A2%E6%8E%89%E7%9A%84%E5%A1%91%E6%96%99%E7%93%B6%E8%A2%AB%E5%81%9A%E6%88%90%E9%A5%BC%E5%B9%B2%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 21,
+      "hot_index": 6001779,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 25
+        "百度热搜": 21
       },
-      "topic": "生态生命",
-      "score": 85,
-      "recommended_title": "种子在1岁婴幼儿耳朵里发芽了背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
+      "topic": "城市社会",
+      "score": 88,
+      "recommended_title": "丢掉的塑料瓶被做成饼干了背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02556-8",
+      "main_paper_title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
       "related_papers": [
         {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 37
+          "id": "7dfd8de97f9dff0c",
+          "title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02556-8",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
+          "match_score": 38
         },
         {
-          "id": "a3a59c8b57e1676f",
-          "title": "Balancing marine species conservation with cost-effective renewable energy development",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02696-9",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "The authors consider the potential conflict between renewable energy development (offshore wind) and wildlife (North Atlantic right whales, Eubalaena glacialis ). They demonstrate a framework to identify trade-offs under different scenarios, maximizing conservation with minima...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02696-9/MediaObjects/41558_2026_2696_Fig1_HTML.png",
-          "match_score": 35
+          "id": "44424360f33a07f6",
+          "title": "City racial segregation statistics are robust to aggregation bias",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00459-3",
+          "published_at": "2026-06-16T00:00:00+00:00",
+          "summary": "Residential segregation is a challenging reality in cities worldwide despite their diverse populations. Focusing on medium to large US cities, this study finds no systematic bias in racial segregation when different Census tract boundaries are used.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
+          "match_score": 32
         },
         {
-          "id": "1be1c971aa705673",
-          "title": "Climate warming drives thermal shocks and accelerated freshwater habitat fragmentation",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02731-9",
-          "published_at": "2026-08-24T00:00:00+00:00",
-          "summary": "Assessing 9,809 freshwater fish species globally, this study shows risk to a high proportion of species in the tropics, and severe extremes in non-tropical regions. Under high emissions, gradual warming drives abrupt exposure, with 63% of species facing accelerating thermal fr...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02731-9/MediaObjects/41558_2026_2731_Fig1_HTML.png?as=webp",
-          "match_score": 27
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 68
         }
       ],
-      "updated_at": "2026-08-25T13:15:54.517395+00:00"
+      "updated_at": "2026-08-25T14:10:30.419329+00:00"
+    },
+    {
+      "id": "6bb4baaa5bef6048",
+      "title": "9点了办事窗口咋没人？回应来了",
+      "summary": "8月25日，有网友发视频称，上午9点江苏连云港灌云县社会治安综合治理中心办事大厅窗口无工作人员到岗，多名群众在柜台外等候... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=9%E7%82%B9%E4%BA%86%E5%8A%9E%E4%BA%8B%E7%AA%97%E5%8F%A3%E5%92%8B%E6%B2%A1%E4%BA%BA%EF%BC%9F%E5%9B%9E%E5%BA%94%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 23,
+      "hot_index": 5806250,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 23
+      },
+      "topic": "城市社会",
+      "score": 87,
+      "recommended_title": "9点了办事窗口咋没人？回应来了背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00478-0",
+      "main_paper_title": "Effects of Uber and Lyft on jobs, wages and GDP",
+      "related_papers": [
+        {
+          "id": "49da466fdb8f4e4a",
+          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00478-0",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+          "match_score": 48
+        },
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+          "match_score": 50
+        },
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        }
+      ],
+      "updated_at": "2026-08-25T14:10:30.423243+00:00"
     }
   ],
   "items": [
+    {
+      "id": "f1c36e8a9753f712",
+      "title": "BAT集体“违背祖训”！免费时代彻底凉了，AI产品经理的Token避坑+变现指南",
+      "display_title": "BAT集体“违背祖训”！免费时代彻底凉了，AI产品经理的Token避坑+变现指南",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6360310.html",
+      "published_at": "2026-08-25T14:09:46.847473+00:00",
+      "detected_at": "2026-08-25T14:09:46.847489+00:00",
+      "summary": "BAT集体“违背祖训”！免费时代彻底凉了，AI产品经理的Token避坑+变现指南",
+      "image_url": "https://image.woshipm.com/2026/03/21/796ff316-24d2-11f1-8d80-00163e09d72f.png",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "2475b8fd23c1624e",
+      "title": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存 微软CEO纳德拉警告，企业若依赖单一AI模型恐难生存。",
+      "display_title": "微软CEO纳德拉:企业不能依赖单一AI模型，否则可能无法生存 微软CEO纳德拉警告，企业若依赖单一AI模型恐难生存。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/30601",
+      "published_at": "2026-08-25T14:09:45.544002+00:00",
+      "detected_at": "2026-08-25T14:09:45.544007+00:00",
+      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.9K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
+      "image_url": "https://pic.chinaz.com/picmap/202602270950033335_0.jpg",
+      "image_method": "body",
+      "image_rule_version": 12,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "17a85e42ff919c2a",
       "title": "香港中文大学地理与资源管理学系系主任徐江在科研上，追求创新，喜欢探索别人没试过的东西。行政管理中，又常常有股尝试新方法的冲动。",
@@ -798,7 +771,7 @@
       "url": "https://news.aibase.com/zh/news/30607",
       "published_at": "2026-08-25T09:02:58.465074+00:00",
       "detected_at": "2026-08-25T09:02:58.465094+00:00",
-      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.7K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
+      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.9K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
       "image_url": "https://pic.chinaz.com/picmap/202605060956253111_0.jpg",
       "image_method": "body",
       "image_rule_version": 12,
@@ -852,7 +825,7 @@
       "url": "https://news.aibase.com/zh/news/30593",
       "published_at": "2026-08-25T08:02:00.093496+00:00",
       "detected_at": "2026-08-25T08:02:00.093500+00:00",
-      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.7K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
+      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.9K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
       "image_url": "https://upload.chinaz.com/2026/0825/6392324935461851497654213.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -870,7 +843,7 @@
       "url": "https://news.aibase.com/zh/news/30596",
       "published_at": "2026-08-25T08:02:00.090038+00:00",
       "detected_at": "2026-08-25T08:02:00.090042+00:00",
-      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.7K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
+      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.9K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
       "image_url": "https://upload.chinaz.com/2026/0825/6392325297168641103799980.jpg",
       "image_method": "body",
       "image_rule_version": 12,
@@ -888,7 +861,7 @@
       "url": "https://news.aibase.com/zh/news/30602",
       "published_at": "2026-08-25T08:02:00.083277+00:00",
       "detected_at": "2026-08-25T08:02:00.083282+00:00",
-      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.7K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
+      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.9K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
       "image_url": "https://upload.chinaz.com/2026/0825/6392326641854103497069026.png",
       "image_method": "body",
       "image_rule_version": 12,
@@ -960,7 +933,7 @@
       "url": "https://news.aibase.com/zh/news/30591",
       "published_at": "2026-08-25T03:14:57.843681+00:00",
       "detected_at": "2026-08-25T03:14:57.843686+00:00",
-      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.7K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
+      "summary": "马斯克把Grok语音系统搬上星链：日均处理1.5万通电话、周成交3000笔订单 马斯克旗下SpaceX星链项目近期大规模部署Grok语音系统，全面用于客户支持与销售业务。该系统作为特斯拉及xAI生态核心AI产品，在落地中展现较高实用价值与处理效率，SpaceX AI团队披露的运营数据印证其已承担大量日常客服与销售任务。 刚刚 8.9K 印度 Airbound 造\"火箭形\"无人机：自重低于载重，要跟卡车拼货运成本 印度无人机初创Airbound获3700万美元A轮，累计融资近5000万，距去年种子轮不到一年。公司目标是让无人机空运成本降至公路卡车水平...",
       "image_url": "https://pic.chinaz.com/picmap/202502251010569558_1.jpg",
       "image_method": "body",
       "image_rule_version": 12,
