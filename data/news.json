@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-29T11:13:39.199717+00:00",
-  "count": 268,
+  "updated_at": "2026-08-29T15:45:10.506404+00:00",
+  "count": 254,
   "hotspot_count": 12,
   "breakthrough_count": 72,
   "category_counts": {
-    "AI变现": 131,
-    "提效工具": 30,
+    "AI变现": 114,
+    "提效工具": 31,
     "前沿动态": 31
   },
   "source_counts": {
-    "Scientific Data": 58,
+    "Scientific Data": 60,
     "Nature Cities": 18
   },
   "hotspots": [
     {
-      "id": "124a21d2384c8e6e",
-      "title": "武汉一大学学生“两手空空”轻装报到",
-      "summary": "8月29日，武汉网络空间安全学院迎来首届新生报到，现场无大包小包，学生们“两手空空”刷脸即完成认证，录取通知书和身份证均... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E4%B8%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E2%80%9C%E4%B8%A4%E6%89%8B%E7%A9%BA%E7%A9%BA%E2%80%9D%E8%BD%BB%E8%A3%85%E6%8A%A5%E5%88%B0&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 1,
-      "hot_index": 7328451,
-      "platform": "百度民生",
+      "id": "2b2d5ecd3de5c5c5",
+      "title": "民办教育正在“洗牌”",
+      "summary": "2026年7月6日，教育部发布《2025年全国教育事业发展统计公报》：截至2025年，全国民办学校13.79万所，较20... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%B0%91%E5%8A%9E%E6%95%99%E8%82%B2%E6%AD%A3%E5%9C%A8%E2%80%9C%E6%B4%97%E7%89%8C%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 3,
+      "hot_index": 7714352,
+      "platform": "百度热搜",
       "platforms": [
-        "百度民生",
-        "百度热搜"
+        "百度热搜",
+        "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 1,
-        "百度热搜": 7
+        "百度热搜": 3,
+        "百度民生": 5
       },
       "topic": "城市社会",
       "score": 98,
-      "recommended_title": "武汉一大学学生“两手空空”轻装报到背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "民办教育正在“洗牌”背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
@@ -68,247 +68,25 @@
           "match_score": 46
         }
       ],
-      "updated_at": "2026-08-29T11:13:29.893730+00:00"
+      "updated_at": "2026-08-29T15:45:03.978489+00:00"
     },
     {
-      "id": "4bc619b5188332a7",
-      "title": "18岁小伙深夜健身突然摔倒 医生提醒",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=18%E5%B2%81%E5%B0%8F%E4%BC%99%E6%B7%B1%E5%A4%9C%E5%81%A5%E8%BA%AB%E7%AA%81%E7%84%B6%E6%91%94%E5%80%92+%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 17,
-      "hot_index": 3501893,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 17,
-        "百度热搜": 47
-      },
-      "topic": "健康医学",
-      "score": 98,
-      "recommended_title": "18岁小伙深夜健身突然摔倒 医生提醒为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04598-x/MediaObjects/41591_2026_4598_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04598-x",
-      "main_paper_title": "Citywide implementation of a rapid whole-genome sequencing program for critically ill pediatric patients",
-      "related_papers": [
-        {
-          "id": "b07317cc97c0cead",
-          "title": "Citywide implementation of a rapid whole-genome sequencing program for critically ill pediatric patients",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04598-x",
-          "published_at": "2026-08-24T00:00:00+00:00",
-          "summary": "Little Falcon, a citywide rapid whole-genome sequencing program implemented within centralized neonatal and pediatric intensive care units within the Dubai healthcare system, led to clinically meaningful shifts in care trajectory in 53% of patients.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04598-x/MediaObjects/41591_2026_4598_Fig1_HTML.png?as=webp",
-          "match_score": 41
-        },
-        {
-          "id": "13cc39c6ba4b27f0",
-          "title": "Insights into longevity and virus-driven adaptation from Myotis bat genomes",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10932-7",
-          "published_at": "2026-08-26T00:00:00+00:00",
-          "summary": "Comparative and functional analyses of Myotis bats uncover unique patterns of adaptation in virus-interacting proteins and longevity-associated pathways, linking two hallmarks of bat biology.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10932-7/MediaObjects/41586_2026_10932_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        },
-        {
-          "id": "70f717fc16cc5639",
-          "title": "A binding-to-release strategy for targeted anticancer drug delivery",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10971-0",
-          "published_at": "2026-08-26T00:00:00+00:00",
-          "summary": "A binding-to-release drug conjugate strategy enables targeted payload release without cellular internalization, improving tumour specificity, efficacy and expanding therapeutic targets beyond conventional drug conjugates.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10971-0/MediaObjects/41586_2026_10971_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.913908+00:00"
-    },
-    {
-      "id": "d35bf2ffac35f80e",
-      "title": "总书记强调坚持极限思维、底线思维",
-      "summary": "8月28日，习近平总书记主持中共中央政治局会议，研究部署西藏日喀则市吉隆县泥石流灾害抢险救援工作。会议强调，要统筹好发展... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%80%BB%E4%B9%A6%E8%AE%B0%E5%BC%BA%E8%B0%83%E5%9D%9A%E6%8C%81%E6%9E%81%E9%99%90%E6%80%9D%E7%BB%B4%E3%80%81%E5%BA%95%E7%BA%BF%E6%80%9D%E7%BB%B4&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 1,
-      "hot_index": 7904016,
+      "id": "189f5dc60a5111d1",
+      "title": "刚入警一年的她 失联在吉隆口岸",
+      "summary": "西藏大学毕业生樊乐乐，曾在日喀则定日地震灾区以志愿者身份参与救援，被一线移民管理警察触动后立志从警，2025年8月赴吉隆... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%88%9A%E5%85%A5%E8%AD%A6%E4%B8%80%E5%B9%B4%E7%9A%84%E5%A5%B9+%E5%A4%B1%E8%81%94%E5%9C%A8%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 2,
+      "hot_index": 7808757,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 1
-      },
-      "topic": "气候环境",
-      "score": 98,
-      "recommended_title": "总书记强调坚持极限思维、底线思维背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02713-x",
-      "main_paper_title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
-      "related_papers": [
-        {
-          "id": "848df817fd235975",
-          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02713-x",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "e3cbd3a88cc38f2b",
-          "title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02712-y",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "The influence of fine particulate pollution (PM 2.5 ) on plant water-use efficiency remains poorly understood. The authors highlight that PM 2.5 exerts a primarily negative effect across scales due to asymmetric effects on photosynthesis and evapotranspiration.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
-          "match_score": 24
-        },
-        {
-          "id": "d0687d38edf00bd8",
-          "title": "Failure to track a stable AMOC state under rapid climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02730-w",
-          "published_at": "2026-08-13T00:00:00+00:00",
-          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
-          "match_score": 21
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.890069+00:00"
-    },
-    {
-      "id": "234ea33cb6255ad1",
-      "title": "钢筋石笼首次运抵吉隆抢险现场",
-      "summary": "8月26日，西藏自治区交通运输厅首批钢筋骨架运抵吉隆口岸抢险现场，将制作成钢筋石笼填充石块后加固损毁路基，推进道路抢通。... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%92%A2%E7%AD%8B%E7%9F%B3%E7%AC%BC%E9%A6%96%E6%AC%A1%E8%BF%90%E6%8A%B5%E5%90%89%E9%9A%86%E6%8A%A2%E9%99%A9%E7%8E%B0%E5%9C%BA&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 3,
-      "hot_index": 7712161,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 3
+        "百度热搜": 2
       },
       "topic": "城市社会",
       "score": 98,
-      "recommended_title": "钢筋石笼首次运抵吉隆抢险现场背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00477-1",
-      "main_paper_title": "Hidden patterns of urban mixing across five global cities",
-      "related_papers": [
-        {
-          "id": "29d931053e085b6d",
-          "title": "Hidden patterns of urban mixing across five global cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00477-1",
-          "published_at": "2026-07-22T00:00:00+00:00",
-          "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
-          "match_score": 52
-        },
-        {
-          "id": "05a6b1e851158d33",
-          "title": "Temporary loss of social-ecological system resilience during rural to urban transition",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00493-1",
-          "published_at": "2026-08-10T00:00:00+00:00",
-          "summary": "Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones become less resilient socially and ecologically as they transition.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "9bddc046b550a844",
-          "title": "Hybrid exosomal nanomotors convert pathological ROS into transport-driving cues to enhance cartilage accumulation in osteoarthritis",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-76949-8",
-          "published_at": "2026-08-29T00:00:00+00:00",
-          "summary": "Osteoarthritis therapies are limited by poor drug transport within dense cartilage. Here, authors develop hybrid exosomal nanomotors that convert pathological ROS into transport-driving cues, enhancing transport within cartilage and slowing osteoarthritis progression.",
-          "image_url": "",
-          "match_score": 39
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.897334+00:00"
-    },
-    {
-      "id": "182914b7755e8a09",
-      "title": "西藏吉隆口岸搜救加紧进行",
-      "summary": "8月26日10时30分许，因尼泊尔一侧发生泥石流灾害，造成西藏日喀则市吉隆县吉隆口岸重大人员伤亡、失联。西藏日喀则市吉隆... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E6%90%9C%E6%95%91%E5%8A%A0%E7%B4%A7%E8%BF%9B%E8%A1%8C&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 4,
-      "hot_index": 7618942,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 4
-      },
-      "topic": "气候环境",
-      "score": 98,
-      "recommended_title": "西藏吉隆口岸搜救加紧进行背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02712-y",
-      "main_paper_title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
-      "related_papers": [
-        {
-          "id": "e3cbd3a88cc38f2b",
-          "title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02712-y",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "The influence of fine particulate pollution (PM 2.5 ) on plant water-use efficiency remains poorly understood. The authors highlight that PM 2.5 exerts a primarily negative effect across scales due to asymmetric effects on photosynthesis and evapotranspiration.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
-          "match_score": 24
-        },
-        {
-          "id": "0a6fdd75e397934b",
-          "title": "Uneven patterns of cross-border media coverage following natural disasters",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02512-6",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Global media gives less cross-border attention to climate-linked hazards (such as floods, storms and droughts) than to geophysical disasters. Attention rises with deaths and is stronger between socially connected countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
-          "match_score": 21
-        },
-        {
-          "id": "f5f113e2ab1ac20f",
-          "title": "Climate change based yield production using hybrid deep learning with optimal feature selection",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-67017-8",
-          "published_at": "2026-08-29T00:00:00+00:00",
-          "summary": "Accurate agricultural yield prediction under changing climate conditions has become the challenge task due to the increasing variability in environmental factors like temperature fluctuations, irregular rainfall patterns and soil degradation. Traditional statistical and machin...",
-          "image_url": "",
-          "match_score": 21
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.898758+00:00"
-    },
-    {
-      "id": "e50e2b54a657e189",
-      "title": "文牧野：吃饱了才能延续生命",
-      "summary": "近日，电影《欢迎来龙餐馆》走进北京大学，导演文牧野介绍片中“徐福烩饭”：在“生命之树”下用最朴素食材做成，只为让孩子吃饱... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%96%87%E7%89%A7%E9%87%8E%EF%BC%9A%E5%90%83%E9%A5%B1%E4%BA%86%E6%89%8D%E8%83%BD%E5%BB%B6%E7%BB%AD%E7%94%9F%E5%91%BD&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 6,
-      "hot_index": 7426998,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 6
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "文牧野：吃饱了才能延续生命背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "刚入警一年的她 失联在吉隆口岸背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02456-x",
@@ -325,270 +103,15 @@
           "match_score": 49
         },
         {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
-          "match_score": 39
-        },
-        {
-          "id": "7dfd8de97f9dff0c",
-          "title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02556-8",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
-          "match_score": 38
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.902294+00:00"
-    },
-    {
-      "id": "f3a01205751e5d43",
-      "title": "乐清辟谣镇水兽被挖致台风频登陆",
-      "summary": "近期，个别网民在网络平台发布视频、图文，散播“乐清镇水兽重现”“镇水兽被挖导致台风频繁登陆”等言论，将台风等自然灾害与封... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B9%90%E6%B8%85%E8%BE%9F%E8%B0%A3%E9%95%87%E6%B0%B4%E5%85%BD%E8%A2%AB%E6%8C%96%E8%87%B4%E5%8F%B0%E9%A3%8E%E9%A2%91%E7%99%BB%E9%99%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 12,
-      "hot_index": 6856786,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 12
-      },
-      "topic": "气候环境",
-      "score": 95,
-      "recommended_title": "乐清辟谣镇水兽被挖致台风频登陆背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02730-w",
-      "main_paper_title": "Failure to track a stable AMOC state under rapid climate change",
-      "related_papers": [
-        {
-          "id": "d0687d38edf00bd8",
-          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
           "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02730-w",
-          "published_at": "2026-08-13T00:00:00+00:00",
-          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
-          "match_score": 21
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 43
         },
-        {
-          "id": "dd098a0f523be7af",
-          "title": "Targeted tropical forest restoration can offset deforestation-induced water flux losses",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02709-7",
-          "published_at": "2026-07-15T00:00:00+00:00",
-          "summary": "The authors demonstrate asymmetrical impacts of forest gain and loss on evapotranspiration and precipitation: gain increases the processes more than loss reduces them. They highlight a need to better consider hydrological asymmetry in climate models and in planning of forest-b...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02709-7/MediaObjects/41558_2026_2709_Fig1_HTML.png?as=webp",
-          "match_score": 19
-        },
-        {
-          "id": "9b27bf38b4c36c02",
-          "title": "Residual emissions may perpetuate community-scale inequalities in US air pollution",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02675-0",
-          "published_at": "2026-06-30T00:00:00+00:00",
-          "summary": "The scale of carbon dioxide removal (CDR) could determine the extent of co-emitted air pollutants in net-zero scenarios and potential health impacts. By linking a series of models and datasets, researchers find that low-CDR pathways lead to a more equitable distribution of hea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02675-0/MediaObjects/41558_2026_2675_Fig5_HTML.png?as=webp",
-          "match_score": 19
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.903769+00:00"
-    },
-    {
-      "id": "dccca3b58d7486e3",
-      "title": "小学初中新教材替换将全面完成",
-      "summary": "2024年秋季学期，根据2022年版义务教育课程标准修订的教材陆续投入使用。今年秋季学期，全国小学、初中阶段将完成新教材... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E5%AD%A6%E5%88%9D%E4%B8%AD%E6%96%B0%E6%95%99%E6%9D%90%E6%9B%BF%E6%8D%A2%E5%B0%86%E5%85%A8%E9%9D%A2%E5%AE%8C%E6%88%90&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 14,
-      "hot_index": 6657809,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 14
-      },
-      "topic": "城市社会",
-      "score": 94,
-      "recommended_title": "小学初中新教材替换将全面完成背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04571-8",
-      "main_paper_title": "Dysregulated adult hippocampal neurogenesis in major depressive disorder",
-      "related_papers": [
-        {
-          "id": "ecf5bf9d89d7fae1",
-          "title": "Dysregulated adult hippocampal neurogenesis in major depressive disorder",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04571-8",
-          "published_at": "2026-08-21T00:00:00+00:00",
-          "summary": "The largest multiomic atlas of the adult human hippocampus identifies disrupted neurogenesis, gene regulation and neural circuits in major depressive disorder, revealing molecular pathways and potential therapeutic targets related to stress, cellular aging and neuroplasticity.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig3_HTML.png?as=webp",
-          "match_score": 46
-        },
-        {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        },
-        {
-          "id": "44424360f33a07f6",
-          "title": "City racial segregation statistics are robust to aggregation bias",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00459-3",
-          "published_at": "2026-06-16T00:00:00+00:00",
-          "summary": "Residential segregation is a challenging reality in cities worldwide despite their diverse populations. Focusing on medium to large US cities, this study finds no systematic bias in racial segregation when different Census tract boundaries are used.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
-          "match_score": 32
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.907394+00:00"
-    },
-    {
-      "id": "87a47f73b7171531",
-      "title": "父亲实地考察物价后给女儿涨生活费",
-      "summary": "近日，一位父亲陪女儿到北京上大学报到后，考察学校周边物价，认为2000元生活费不够花，决定将女儿生活费涨至3000元。 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%88%B6%E4%BA%B2%E5%AE%9E%E5%9C%B0%E8%80%83%E5%AF%9F%E7%89%A9%E4%BB%B7%E5%90%8E%E7%BB%99%E5%A5%B3%E5%84%BF%E6%B6%A8%E7%94%9F%E6%B4%BB%E8%B4%B9&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 15,
-      "hot_index": 6565264,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 15
-      },
-      "topic": "城市社会",
-      "score": 93,
-      "recommended_title": "父亲实地考察物价后给女儿涨生活费背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00504-1",
-      "main_paper_title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
-      "related_papers": [
-        {
-          "id": "5b658241245312d4",
-          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00504-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
-          "match_score": 45
-        },
-        {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 40
-        },
-        {
-          "id": "375dc94e6b81abc6",
-          "title": "Connecting application behavior to undermatching in New York City school choice",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00486-0",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-          "match_score": 65
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.911157+00:00"
-    },
-    {
-      "id": "2fe87eddc4c78b7c",
-      "title": "环保局回应博主除地钉被叫停",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%AF%E4%BF%9D%E5%B1%80%E5%9B%9E%E5%BA%94%E5%8D%9A%E4%B8%BB%E9%99%A4%E5%9C%B0%E9%92%89%E8%A2%AB%E5%8F%AB%E5%81%9C&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 19,
-      "hot_index": 2016489,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 19
-      },
-      "topic": "气候环境",
-      "score": 89,
-      "recommended_title": "环保局回应博主除地钉被叫停背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02512-6",
-      "main_paper_title": "Uneven patterns of cross-border media coverage following natural disasters",
-      "related_papers": [
-        {
-          "id": "0a6fdd75e397934b",
-          "title": "Uneven patterns of cross-border media coverage following natural disasters",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02512-6",
-          "published_at": "2026-08-14T00:00:00+00:00",
-          "summary": "Global media gives less cross-border attention to climate-linked hazards (such as floods, storms and droughts) than to geophysical disasters. Attention rises with deaths and is stronger between socially connected countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
-          "match_score": 21
-        },
-        {
-          "id": "89300d04a2133351",
-          "title": "Divergent humidity-driven growth in urban air-conditioning energy demand under climate change",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00474-4",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "This study identifies rising urban air-conditioning energy demand for dehumidification under climate change, alongside spatially divergent contributions to total urban air-conditioning demand.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00474-4/MediaObjects/44284_2026_474_Fig2_HTML.png?as=webp",
-          "match_score": 18
-        },
-        {
-          "id": "dd5441009939a6b9",
-          "title": "Intercity inequality in carbon emission reductions from vehicle electrification in China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00465-5",
-          "published_at": "2026-06-24T00:00:00+00:00",
-          "summary": "This study quantifies the cross-city carbon transfers related to plug-in electric vehicles across Chinese cities and reveals how this spatial redistribution of carbon responsibility can disadvantage less developed cities.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00465-5/MediaObjects/44284_2026_465_Fig1_HTML.png?as=webp",
-          "match_score": 16
-        }
-      ],
-      "updated_at": "2026-08-29T11:13:29.915312+00:00"
-    },
-    {
-      "id": "aa13c875c5d100b8",
-      "title": "教育部强调严禁违规考试和超前教学",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E6%95%99%E8%82%B2%E9%83%A8%E5%BC%BA%E8%B0%83%E4%B8%A5%E7%A6%81%E8%BF%9D%E8%A7%84%E8%80%83%E8%AF%95%E5%92%8C%E8%B6%85%E5%89%8D%E6%95%99%E5%AD%A6&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 20,
-      "hot_index": 1868632,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 20
-      },
-      "topic": "城市社会",
-      "score": 88,
-      "recommended_title": "教育部强调严禁违规考试和超前教学背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00498-w",
-      "main_paper_title": "Hidden living-condition deficits in small and medium-sized cities",
-      "related_papers": [
         {
           "id": "704547445a19dff1",
           "title": "Hidden living-condition deficits in small and medium-sized cities",
@@ -598,47 +121,82 @@
           "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
           "match_score": 39
-        },
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:03.973463+00:00"
+    },
+    {
+      "id": "c6c06d7cc8846228",
+      "title": "中国汽车何以全球圈粉",
+      "summary": "一路走来，中国新能源汽车出海，实现了从“整车出口”到“产业链出海”，再到“生态出海”的三重跨越。面对大风大浪却能逆势实现... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E4%BD%95%E4%BB%A5%E5%85%A8%E7%90%83%E5%9C%88%E7%B2%89&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 4,
+      "hot_index": 7619057,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 4
+      },
+      "topic": "前沿科技",
+      "score": 98,
+      "recommended_title": "中国汽车何以全球圈粉意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10902-z/MediaObjects/41586_2026_10902_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-10902-z",
+      "main_paper_title": "3D bulk-resolved g -wave altermagnetic order parameter in CrSb",
+      "related_papers": [
         {
-          "id": "375dc94e6b81abc6",
-          "title": "Connecting application behavior to undermatching in New York City school choice",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00486-0",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-          "match_score": 65
-        },
-        {
-          "id": "3b2c24d459cfb635",
-          "title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02456-x",
+          "id": "a3e5f2f4050eddbf",
+          "title": "3D bulk-resolved g -wave altermagnetic order parameter in CrSb",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10902-z",
           "published_at": "2026-08-26T00:00:00+00:00",
-          "summary": "Basarkod et al. synthesize evidence from 92 randomized controlled trials, finding that interventions in naturalistic education settings effectively improve students’ moral outcomes.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
-          "match_score": 49
+          "summary": "Quantum oscillation measurements map the g -wave altermagnetic order parameter in CrSb, establishing it as a prototypical unconventional magnet with momentum-dependent spin splitting.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10902-z/MediaObjects/41586_2026_10902_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "47e5d4b16a5723ad",
+          "title": "Evidence for vacuum-enhanced superconductivity in NbSe 2",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11037-x",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Vacuum fluctuations provide an important new way to control material properties noninvasively1-6. Here, we present experimental evidence that they can enhance superconductivity. NbSe2 is a layered transition-metal dichalcogenide with well-characterized superconducting behavior...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41699-025-00553-5/MediaObjects/41699_2025_553_Fig1_HTML.png",
+          "match_score": 25
+        },
+        {
+          "id": "3811d435675193b9",
+          "title": "Hydrogen Bond-Enabled Carbon Dot-Based Network for Efficient Inverted Organic Solar Cells with Prolonged Photoelectrical-Mechanical-Moist Stability",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-76944-z",
+          "published_at": "2026-08-29T00:00:00+00:00",
+          "summary": "Long-lasting organic solar cells require transport layers stable in electrical, mechanical and chemical aspects. Cui et al. fabricated a fluorinated carbon dot/polymer electron transport layer, which delivers high efficiency together with excellent humidity and bending stability.",
+          "image_url": "",
+          "match_score": 25
         }
       ],
-      "updated_at": "2026-08-29T11:13:29.918828+00:00"
+      "updated_at": "2026-08-29T15:45:03.979740+00:00"
     },
     {
-      "id": "c1256ef0124f70e1",
-      "title": "黑猩猩“乔乔”因熟练盘手串走红",
-      "summary": "近日，西安秦岭野生动物园28岁雌性黑猩猩“乔乔”因熟练盘手串的视频在网络走红。保育员介绍，乔乔来自东北，入园近三年，平时... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%BB%91%E7%8C%A9%E7%8C%A9%E2%80%9C%E4%B9%94%E4%B9%94%E2%80%9D%E5%9B%A0%E7%86%9F%E7%BB%83%E7%9B%98%E6%89%8B%E4%B8%B2%E8%B5%B0%E7%BA%A2&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 25,
-      "hot_index": 5601501,
+      "id": "43074e44115ae185",
+      "title": "用这种微信头像或被封号",
+      "summary": "8月28日，微信珊瑚安全公众号发布“清朗·整治账号名称信息乱象”专项行动公告（第五期），一批假冒仿冒官方机构及媒体、未经... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%94%A8%E8%BF%99%E7%A7%8D%E5%BE%AE%E4%BF%A1%E5%A4%B4%E5%83%8F%E6%88%96%E8%A2%AB%E5%B0%81%E5%8F%B7&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 7,
+      "hot_index": 7332333,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 25
+        "百度热搜": 7
       },
       "topic": "生态生命",
-      "score": 85,
-      "recommended_title": "黑猩猩“乔乔”因熟练盘手串走红背后的科学问题：Nature研究给出了哪些线索？",
+      "score": 98,
+      "recommended_title": "用这种微信头像或被封号背后的科学问题：Nature研究给出了哪些线索？",
       "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10980-z/MediaObjects/41586_2026_10980_Fig4_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41586-026-10980-z",
@@ -675,10 +233,472 @@
           "match_score": 35
         }
       ],
-      "updated_at": "2026-08-29T11:13:29.920396+00:00"
+      "updated_at": "2026-08-29T15:45:03.982129+00:00"
+    },
+    {
+      "id": "d6c0d1eb6281d170",
+      "title": "尼泊尔一地三天仅挖通道路50米",
+      "summary": "8月26日，尼泊尔北部发生大规模泥石流灾害。在重灾区努瓦果德地区一处受灾严重的村庄，因污泥量大、持续降雨及洪水警告，救援... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%E4%B8%80%E5%9C%B0%E4%B8%89%E5%A4%A9%E4%BB%85%E6%8C%96%E9%80%9A%E9%81%93%E8%B7%AF50%E7%B1%B3&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 9,
+      "hot_index": 7136596,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 9
+      },
+      "topic": "气候环境",
+      "score": 98,
+      "recommended_title": "尼泊尔一地三天仅挖通道路50米背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02713-x",
+      "main_paper_title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+      "related_papers": [
+        {
+          "id": "848df817fd235975",
+          "title": "Intercity connectivity enhances urban mobility resilience to extreme rainfall",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02713-x",
+          "published_at": "2026-07-17T00:00:00+00:00",
+          "summary": "Growing extreme weather poses escalating threats to urban functionality. This study shows that higher network centrality and stronger ties to wealthier cities enhance intracity mobility resilience during extreme rainfall, with larger benefits for smaller and poorer cities from...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02713-x/MediaObjects/41558_2026_2713_Fig1_HTML.png?as=webp",
+          "match_score": 45
+        },
+        {
+          "id": "0a6fdd75e397934b",
+          "title": "Uneven patterns of cross-border media coverage following natural disasters",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02512-6",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Global media gives less cross-border attention to climate-linked hazards (such as floods, storms and droughts) than to geophysical disasters. Attention rises with deaths and is stronger between socially connected countries.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "e3cbd3a88cc38f2b",
+          "title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02712-y",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "The influence of fine particulate pollution (PM 2.5 ) on plant water-use efficiency remains poorly understood. The authors highlight that PM 2.5 exerts a primarily negative effect across scales due to asymmetric effects on photosynthesis and evapotranspiration.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
+          "match_score": 24
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:03.983984+00:00"
+    },
+    {
+      "id": "01e2d6f8a603af6e",
+      "title": "吉隆泥石流为何抢险救援难度极大",
+      "summary": "8月26日10时30分许，西藏日喀则市吉隆县吉隆口岸突发泥石流灾害。救援力量持续向灾区挺进，道路清淤抢通、失联人员搜寻、... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E4%B8%BA%E4%BD%95%E6%8A%A2%E9%99%A9%E6%95%91%E6%8F%B4%E9%9A%BE%E5%BA%A6%E6%9E%81%E5%A4%A7&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 20,
+      "hot_index": 4066084,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 20,
+        "百度热搜": 41
+      },
+      "topic": "气候环境",
+      "score": 96,
+      "recommended_title": "吉隆泥石流为何抢险救援难度极大背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02712-y",
+      "main_paper_title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
+      "related_papers": [
+        {
+          "id": "e3cbd3a88cc38f2b",
+          "title": "Particulate air pollution undermines plant water-use efficiency by inhibiting photosynthesis",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02712-y",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "The influence of fine particulate pollution (PM 2.5 ) on plant water-use efficiency remains poorly understood. The authors highlight that PM 2.5 exerts a primarily negative effect across scales due to asymmetric effects on photosynthesis and evapotranspiration.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02712-y/MediaObjects/41558_2026_2712_Fig2_HTML.png?as=webp",
+          "match_score": 24
+        },
+        {
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 21
+        },
+        {
+          "id": "f5f113e2ab1ac20f",
+          "title": "Climate change based yield production using hybrid deep learning with optimal feature selection",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-67017-8",
+          "published_at": "2026-08-29T00:00:00+00:00",
+          "summary": "Accurate agricultural yield prediction under changing climate conditions has become the challenge task due to the increasing variability in environmental factors like temperature fluctuations, irregular rainfall patterns and soil degradation. Traditional statistical and machin...",
+          "image_url": "",
+          "match_score": 21
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:03.990631+00:00"
+    },
+    {
+      "id": "b88ca443f996fd51",
+      "title": "武汉全力保障百万高校学子返校",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E6%AD%A6%E6%B1%89%E5%85%A8%E5%8A%9B%E4%BF%9D%E9%9A%9C%E7%99%BE%E4%B8%87%E9%AB%98%E6%A0%A1%E5%AD%A6%E5%AD%90%E8%BF%94%E6%A0%A1&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 24,
+      "hot_index": 3104175,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 24,
+        "百度热搜": 51
+      },
+      "topic": "城市社会",
+      "score": 92,
+      "recommended_title": "武汉全力保障百万高校学子返校背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig3_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04571-8",
+      "main_paper_title": "Dysregulated adult hippocampal neurogenesis in major depressive disorder",
+      "related_papers": [
+        {
+          "id": "ecf5bf9d89d7fae1",
+          "title": "Dysregulated adult hippocampal neurogenesis in major depressive disorder",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04571-8",
+          "published_at": "2026-08-21T00:00:00+00:00",
+          "summary": "The largest multiomic atlas of the adult human hippocampus identifies disrupted neurogenesis, gene regulation and neural circuits in major depressive disorder, revealing molecular pathways and potential therapeutic targets related to stress, cellular aging and neuroplasticity.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04571-8/MediaObjects/41591_2026_4571_Fig3_HTML.png?as=webp",
+          "match_score": 46
+        },
+        {
+          "id": "7dfd8de97f9dff0c",
+          "title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02556-8",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
+          "match_score": 38
+        },
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:04.003272+00:00"
+    },
+    {
+      "id": "7ec227f0a30e3fe9",
+      "title": "博主街头清理地钉被劝阻 当地通报",
+      "summary": "8月29日，河南新乡红旗区城管局就此前“博主街头清理地钉被劝阻”一事发布通报，承认工作人员沟通方式简单造成误解并致歉，对... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%9A%E4%B8%BB%E8%A1%97%E5%A4%B4%E6%B8%85%E7%90%86%E5%9C%B0%E9%92%89%E8%A2%AB%E5%8A%9D%E9%98%BB+%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 19,
+      "hot_index": 6182127,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 19
+      },
+      "topic": "城市社会",
+      "score": 90,
+      "recommended_title": "博主街头清理地钉被劝阻 当地通报背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
+      "main_paper_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+      "related_papers": [
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+          "match_score": 50
+        },
+        {
+          "id": "49da466fdb8f4e4a",
+          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00478-0",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+          "match_score": 48
+        },
+        {
+          "id": "29d931053e085b6d",
+          "title": "Hidden patterns of urban mixing across five global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00477-1",
+          "published_at": "2026-07-22T00:00:00+00:00",
+          "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:03.988798+00:00"
+    },
+    {
+      "id": "3b9975400ad52960",
+      "title": "王毅同尼泊尔外长通电话",
+      "summary": "29日，外交部长王毅同尼泊尔外长希西尔通电话。王毅表示，尼泊尔边境地区突发冰川崩塌引发严重泥石流灾害，造成两国重大人员伤... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E6%AF%85%E5%90%8C%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%A4%96%E9%95%BF%E9%80%9A%E7%94%B5%E8%AF%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 21,
+      "hot_index": 6001890,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 21
+      },
+      "topic": "气候环境",
+      "score": 88,
+      "recommended_title": "王毅同尼泊尔外长通电话背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02730-w",
+      "main_paper_title": "Failure to track a stable AMOC state under rapid climate change",
+      "related_papers": [
+        {
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 21
+        },
+        {
+          "id": "dd098a0f523be7af",
+          "title": "Targeted tropical forest restoration can offset deforestation-induced water flux losses",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02709-7",
+          "published_at": "2026-07-15T00:00:00+00:00",
+          "summary": "The authors demonstrate asymmetrical impacts of forest gain and loss on evapotranspiration and precipitation: gain increases the processes more than loss reduces them. They highlight a need to better consider hydrological asymmetry in climate models and in planning of forest-b...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02709-7/MediaObjects/41558_2026_2709_Fig1_HTML.png?as=webp",
+          "match_score": 19
+        },
+        {
+          "id": "9b27bf38b4c36c02",
+          "title": "Residual emissions may perpetuate community-scale inequalities in US air pollution",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02675-0",
+          "published_at": "2026-06-30T00:00:00+00:00",
+          "summary": "The scale of carbon dioxide removal (CDR) could determine the extent of co-emitted air pollutants in net-zero scenarios and potential health impacts. By linking a series of models and datasets, researchers find that low-CDR pathways lead to a more equitable distribution of hea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02675-0/MediaObjects/41558_2026_2675_Fig5_HTML.png?as=webp",
+          "match_score": 19
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:03.992459+00:00"
+    },
+    {
+      "id": "b747799e1801d2f9",
+      "title": "县级政务公众号被管理员“拿捏”5年",
+      "summary": "8月28日，湖北省鄂州市鄂城区政协办公室就微信公众号“鄂城政协”停更致歉，称因管理员工作调动导致账号无法登录，自2021... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8E%BF%E7%BA%A7%E6%94%BF%E5%8A%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E8%A2%AB%E7%AE%A1%E7%90%86%E5%91%98%E2%80%9C%E6%8B%BF%E6%8D%8F%E2%80%9D5%E5%B9%B4&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 22,
+      "hot_index": 5895640,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 22
+      },
+      "topic": "城市社会",
+      "score": 87,
+      "recommended_title": "县级政务公众号被管理员“拿捏”5年背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00498-w",
+      "main_paper_title": "Hidden living-condition deficits in small and medium-sized cities",
+      "related_papers": [
+        {
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
+          "match_score": 53
+        },
+        {
+          "id": "44424360f33a07f6",
+          "title": "City racial segregation statistics are robust to aggregation bias",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00459-3",
+          "published_at": "2026-06-16T00:00:00+00:00",
+          "summary": "Residential segregation is a challenging reality in cities worldwide despite their diverse populations. Focusing on medium to large US cities, this study finds no systematic bias in racial segregation when different Census tract boundaries are used.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00459-3/MediaObjects/44284_2026_459_Fig1_HTML.png?as=webp",
+          "match_score": 46
+        },
+        {
+          "id": "70f717fc16cc5639",
+          "title": "A binding-to-release strategy for targeted anticancer drug delivery",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10971-0",
+          "published_at": "2026-08-26T00:00:00+00:00",
+          "summary": "A binding-to-release drug conjugate strategy enables targeted payload release without cellular internalization, improving tumour specificity, efficacy and expanding therapeutic targets beyond conventional drug conjugates.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10971-0/MediaObjects/41586_2026_10971_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:03.997418+00:00"
+    },
+    {
+      "id": "54943a997bfeafe6",
+      "title": "中国集成电路海外大爆发",
+      "summary": "前7个月我国集成电路出口额超去年全年同比大增99.5%，存储芯片成最大拉动力，厂商净利润暴增20多倍，芯片封装设备订单排... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF%E6%B5%B7%E5%A4%96%E5%A4%A7%E7%88%86%E5%8F%91&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 23,
+      "hot_index": 5799109,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 23
+      },
+      "topic": "前沿科技",
+      "score": 87,
+      "recommended_title": "中国集成电路海外大爆发意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41699-025-00553-5/MediaObjects/41699_2025_553_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11037-x",
+      "main_paper_title": "Evidence for vacuum-enhanced superconductivity in NbSe 2",
+      "related_papers": [
+        {
+          "id": "47e5d4b16a5723ad",
+          "title": "Evidence for vacuum-enhanced superconductivity in NbSe 2",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11037-x",
+          "published_at": "2026-08-19T00:00:00+00:00",
+          "summary": "Vacuum fluctuations provide an important new way to control material properties noninvasively1-6. Here, we present experimental evidence that they can enhance superconductivity. NbSe2 is a layered transition-metal dichalcogenide with well-characterized superconducting behavior...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41699-025-00553-5/MediaObjects/41699_2025_553_Fig1_HTML.png",
+          "match_score": 25
+        },
+        {
+          "id": "97e972ca80ea90b4",
+          "title": "A quantum-inspired framework for real-time trust estimation in human–AI interaction: a pilot study",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-67931-x",
+          "published_at": "2026-08-29T00:00:00+00:00",
+          "summary": "Trust is a determinant of effective human–AI collaboration, shaping whether users appropriately accept or reject system recommendations. In safety-critical domains, miscalibrated trust can lead to unsafe overrides or uncritical acceptance of erroneous outputs. However, existin...",
+          "image_url": "",
+          "match_score": 21
+        },
+        {
+          "id": "a3e5f2f4050eddbf",
+          "title": "3D bulk-resolved g -wave altermagnetic order parameter in CrSb",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10902-z",
+          "published_at": "2026-08-26T00:00:00+00:00",
+          "summary": "Quantum oscillation measurements map the g -wave altermagnetic order parameter in CrSb, establishing it as a prototypical unconventional magnet with momentum-dependent spin splitting.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10902-z/MediaObjects/41586_2026_10902_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:03.998585+00:00"
+    },
+    {
+      "id": "4dd46de8d636f239",
+      "title": "西藏吉隆泥石流究竟如何发生",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%90%89%E9%9A%86%E6%B3%A5%E7%9F%B3%E6%B5%81%E7%A9%B6%E7%AB%9F%E5%A6%82%E4%BD%95%E5%8F%91%E7%94%9F&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 28,
+      "hot_index": 579327,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 28
+      },
+      "topic": "气候环境",
+      "score": 80,
+      "recommended_title": "西藏吉隆泥石流究竟如何发生背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02512-6",
+      "main_paper_title": "Uneven patterns of cross-border media coverage following natural disasters",
+      "related_papers": [
+        {
+          "id": "0a6fdd75e397934b",
+          "title": "Uneven patterns of cross-border media coverage following natural disasters",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02512-6",
+          "published_at": "2026-08-14T00:00:00+00:00",
+          "summary": "Global media gives less cross-border attention to climate-linked hazards (such as floods, storms and droughts) than to geophysical disasters. Attention rises with deaths and is stronger between socially connected countries.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02512-6/MediaObjects/41562_2026_2512_Fig3_HTML.png?as=webp",
+          "match_score": 21
+        },
+        {
+          "id": "89300d04a2133351",
+          "title": "Divergent humidity-driven growth in urban air-conditioning energy demand under climate change",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00474-4",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "This study identifies rising urban air-conditioning energy demand for dehumidification under climate change, alongside spatially divergent contributions to total urban air-conditioning demand.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00474-4/MediaObjects/44284_2026_474_Fig2_HTML.png?as=webp",
+          "match_score": 18
+        },
+        {
+          "id": "dd5441009939a6b9",
+          "title": "Intercity inequality in carbon emission reductions from vehicle electrification in China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00465-5",
+          "published_at": "2026-06-24T00:00:00+00:00",
+          "summary": "This study quantifies the cross-city carbon transfers related to plug-in electric vehicles across Chinese cities and reveals how this spatial redistribution of carbon responsibility can disadvantage less developed cities.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00465-5/MediaObjects/44284_2026_465_Fig1_HTML.png?as=webp",
+          "match_score": 16
+        }
+      ],
+      "updated_at": "2026-08-29T15:45:04.005056+00:00"
     }
   ],
   "items": [
+    {
+      "id": "cb21dee3d89ccc61",
+      "title": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
+      "display_title": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
+      "source": "量子位",
+      "category": "提效工具",
+      "url": "https://www.qbitai.com/2026/08/481075.html",
+      "published_at": "2026-08-29T15:40:10.385848+00:00",
+      "detected_at": "2026-08-29T15:40:10.385854+00:00",
+      "summary": "20ms把PDF变成Markdown！开源OCR神器快了近300倍 3秒可处理200份PDF 文婷 3小时前 开源",
+      "image_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/A6fTew8FFGEaRlctZfux0ePukBuRsuXFkXEtLer8SpNmLqCgEEEjInUkpibWianhevEVUsTFFzScBKPoLRtnSo5sIIGiahWib9BBGcyVgjVTLsw/640?wx_fmt=png&from=appmsg&watermark=1#imgIndex=0",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
     {
       "id": "f49e0d5e08b6e6d0",
       "title": "直出4K分辨率！",
@@ -686,9 +706,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30681",
-      "published_at": "2026-08-29T11:10:15.397849+00:00",
-      "detected_at": "2026-08-29T11:10:15.397852+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.135497+00:00",
+      "detected_at": "2026-08-29T15:39:58.135506+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392350503400244293580753.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -704,9 +724,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30682",
-      "published_at": "2026-08-29T11:10:15.396736+00:00",
-      "detected_at": "2026-08-29T11:10:15.396739+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.133874+00:00",
+      "detected_at": "2026-08-29T15:39:58.133880+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392350556830243181248258.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -722,9 +742,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30687",
-      "published_at": "2026-08-29T11:10:15.390775+00:00",
-      "detected_at": "2026-08-29T11:10:15.390778+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.125252+00:00",
+      "detected_at": "2026-08-29T15:39:58.125259+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392350785682336738522246.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -740,9 +760,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30689",
-      "published_at": "2026-08-29T11:10:15.388469+00:00",
-      "detected_at": "2026-08-29T11:10:15.388472+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.121957+00:00",
+      "detected_at": "2026-08-29T15:39:58.121964+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392350945036496454459430.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -758,9 +778,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30690",
-      "published_at": "2026-08-29T11:10:15.387219+00:00",
-      "detected_at": "2026-08-29T11:10:15.387222+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.120197+00:00",
+      "detected_at": "2026-08-29T15:39:58.120203+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392351147494673516925283.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -776,9 +796,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30691",
-      "published_at": "2026-08-29T11:10:15.386096+00:00",
-      "detected_at": "2026-08-29T11:10:15.386099+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.118550+00:00",
+      "detected_at": "2026-08-29T15:39:58.118556+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392351363486748166147754.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -794,9 +814,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30692",
-      "published_at": "2026-08-29T11:10:15.384949+00:00",
-      "detected_at": "2026-08-29T11:10:15.384952+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.116895+00:00",
+      "detected_at": "2026-08-29T15:39:58.116902+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392352289531487301691284.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -812,9 +832,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30694",
-      "published_at": "2026-08-29T11:10:15.382680+00:00",
-      "detected_at": "2026-08-29T11:10:15.382683+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.113574+00:00",
+      "detected_at": "2026-08-29T15:39:58.113580+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392352416443036323825194.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -830,9 +850,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30696",
-      "published_at": "2026-08-29T11:10:15.380270+00:00",
-      "detected_at": "2026-08-29T11:10:15.380273+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.110116+00:00",
+      "detected_at": "2026-08-29T15:39:58.110122+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392352489351550153248637.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -848,9 +868,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30697",
-      "published_at": "2026-08-29T11:10:15.379124+00:00",
-      "detected_at": "2026-08-29T11:10:15.379127+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.108448+00:00",
+      "detected_at": "2026-08-29T15:39:58.108454+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392352715492145197022147.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -866,9 +886,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30698",
-      "published_at": "2026-08-29T11:10:15.377962+00:00",
-      "detected_at": "2026-08-29T11:10:15.377966+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.106734+00:00",
+      "detected_at": "2026-08-29T15:39:58.106742+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392352722273014447666419.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -884,9 +904,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/30699",
-      "published_at": "2026-08-29T11:10:15.376681+00:00",
-      "detected_at": "2026-08-29T11:10:15.376691+00:00",
-      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 19 小时前 16.5K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
+      "published_at": "2026-08-29T15:39:58.104871+00:00",
+      "detected_at": "2026-08-29T15:39:58.104891+00:00",
+      "summary": "腾讯WorkBuddy首发接入Hy4preview:国内外版同步，开启两周限免 8月28日，腾讯WorkBuddy首发接入混元开源旗舰大模型Hy4preview，国内外版同步上线。Hy4preview限时免费两周，Hy3免费期延至9月30日。该模型总参数770B、激活49B，上下文1M，面向代码、办公、科学等生产力场景，已开源至HuggingFace等平台。 23 小时前 16.6K 腾讯混元 Hy4 preview 开源：770B 参数、百万上下文，稳居开源第一梯队 腾讯发布混元 Hy4 preview 开源模型，总参数770B、激活参数49B，...",
       "image_url": "https://upload.chinaz.com/2026/0828/6392353016805308144249832.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -905,8 +925,8 @@
       "published_at": "2026-08-29T00:00:00+00:00",
       "detected_at": "2026-08-29T11:10:28.875154+00:00",
       "summary": "Belowground functional diversity is relevant to numerous ecosystem functions and to ecosystem resilience under global change, yet quantitative information on belowground plant traits is disparate and poorly integrated across fields of research. So far, belowground plant traits...",
-      "image_url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41597-026-08151-w/MediaObjects/41597_2026_8151_Fig1_HTML.png",
-      "image_method": "og-validated",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-08151-w/MediaObjects/41597_2026_8151_Fig1_HTML.png?as=webp",
+      "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
       "language": "en",
@@ -914,20 +934,38 @@
       "meta": {}
     },
     {
-      "id": "b286c74c40ad0e78",
-      "title": "ChatGPT商业化思路：先做生态，再做生意（附Criteo与OpenAI合作通案）",
-      "display_title": "ChatGPT商业化思路：先做生态，再做生意（附Criteo与OpenAI合作通案）",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6351094.html",
-      "published_at": "2026-08-28T23:04:42.893459+00:00",
-      "detected_at": "2026-08-28T23:04:42.893461+00:00",
-      "summary": "ChatGPT商业化思路：先做生态，再做生意（附Criteo与OpenAI合作通案）",
-      "image_url": "https://image.woshipm.com/2023/05/29/bcf7acc8-fdc0-11ed-9ac7-00163e0b5ff3.jpg",
-      "image_method": "og-validated",
+      "id": "ae9b397c8ce48cea",
+      "title": "Repeated large-scale forest inventory data from an unmanaged European beech forest at Hainich National Park, Germany",
+      "display_title": "Repeated large-scale forest inventory data from an unmanaged European beech forest at Hainich National Park, Germany",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08215-x",
+      "published_at": "2026-08-29T00:00:00+00:00",
+      "detected_at": "2026-08-29T15:40:20.495274+00:00",
+      "summary": "This dataset contains forest inventory data from four censuses (1999, 2007, 2013 and 2023) from a single ~28 ha permanent monitoring plot in a beech-dominated forest that has been unmanaged since 1965 at Hainich National Park, Thuringia, Germany. For each census, the location,...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-08215-x/MediaObjects/41597_2026_8215_Fig1_HTML.png?as=webp",
+      "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
-      "language": "zh",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "0ea5a50c2c180a0c",
+      "title": "A gene set collection of human RBP target genes",
+      "display_title": "A gene set collection of human RBP target genes",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-07899-5",
+      "published_at": "2026-08-29T00:00:00+00:00",
+      "detected_at": "2026-08-29T15:40:20.495498+00:00",
+      "summary": "RNA binding proteins (RBPs) are key post-transcriptional regulators controlling every aspect of the RNA life cycle from synthesis to decay. We extracted RBP target genes from publicly available enhanced cross-linking and immuno-precipitation followed by sequencing (eCLIP-seq)...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07899-5/MediaObjects/41597_2026_7899_Fig4_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
       "is_breakthrough": false,
       "meta": {}
     },
@@ -959,7 +997,7 @@
       "published_at": "2026-08-28T12:57:42.785132+00:00",
       "detected_at": "2026-08-28T12:57:42.785147+00:00",
       "summary": "开学季 | 学习不止在课堂：这些方法和技巧帮你做好知识管理 这些内容，即使毕了业也能有所帮助。 北鸮 15:04",
-      "image_url": "https://rssfile.sspai.com/article/c1b095fe-dd9b-01aa-8037-12842f5908aa.jpg?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/article/c1b095fe-dd9b-01aa-8037-12842f5908aa.jpg?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -983,24 +1021,6 @@
       "priority": "A",
       "language": "zh",
       "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "6394b165212fa5a5",
-      "title": "从豆包付费看 AI 产品任务分层：哪些能力免费，哪些任务收费？",
-      "display_title": "从豆包付费看 AI 产品任务分层：哪些能力免费，哪些任务收费？",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/operate/6390353.html",
-      "published_at": "2026-08-27T16:33:59.825607+00:00",
-      "detected_at": "2026-08-27T16:33:59.825624+00:00",
-      "summary": "从豆包付费看 AI 产品任务分层：哪些能力免费，哪些任务收费？",
-      "image_url": "https://image.woshipm.com/2023/04/14/76dafe6a-da9e-11ed-9b82-00163e0b5ff3.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -1067,25 +1087,7 @@
       "published_at": "2026-08-26T23:42:19.959850+00:00",
       "detected_at": "2026-08-26T23:42:19.959865+00:00",
       "summary": "派早报：Apple 调整妙控键盘的键帽符号、闪迪推出宝可梦纪念款产品等 周四 27",
-      "image_url": "https://rssfile.sspai.com/26/08/2026/article/9ea6df87-d79f-457e-2294-f55a56acce4c.jpeg?imageMogr2/auto-orient/format/webp/ignore-error/1",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "a67082160330e5db",
-      "title": "互联网商业模式之死：为什么重资产才是AI时代的真正护城河",
-      "display_title": "互联网商业模式之死：为什么重资产才是AI时代的真正护城河",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/chuangye/6420530.html",
-      "published_at": "2026-08-26T18:05:55.022017+00:00",
-      "detected_at": "2026-08-26T18:05:55.022032+00:00",
-      "summary": "互联网商业模式之死：为什么重资产才是AI时代的真正护城河",
-      "image_url": "https://image.woshipm.com/2026/06/26/3dc4d5ac-70fe-11f1-a934-00163e4b86a1.jpg",
+      "image_url": "https://rssfile.sspai.com/26/08/2026/article/9ea6df87-d79f-457e-2294-f55a56acce4c.jpeg?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -1184,24 +1186,6 @@
       "meta": {}
     },
     {
-      "id": "1c83ce97bdd21a27",
-      "title": "AI 出海如何长效增长？从搭建一张内容网络开始",
-      "display_title": "AI 出海如何长效增长？从搭建一张内容网络开始",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6253977.html",
-      "published_at": "2026-08-26T11:50:46.787115+00:00",
-      "detected_at": "2026-08-26T11:50:46.787131+00:00",
-      "summary": "AI 出海如何长效增长？从搭建一张内容网络开始",
-      "image_url": "https://image.woshipm.com/2024/07/19/11126262-4596-11ef-9efa-00163e142b65.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
       "id": "f79114d0d8e49e79",
       "title": "AI时代，中产的劳动定价正在崩塌",
       "display_title": "AI时代，中产的劳动定价正在崩塌",
@@ -1292,24 +1276,6 @@
       "meta": {}
     },
     {
-      "id": "ee8574c2f7962869",
-      "title": "AI 搜索正在改写内容增长：以后你的文章，可能先被机器筛掉",
-      "display_title": "AI 搜索正在改写内容增长：以后你的文章，可能先被机器筛掉",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6426300.html",
-      "published_at": "2026-08-26T05:18:23.421938+00:00",
-      "detected_at": "2026-08-26T05:18:23.421946+00:00",
-      "summary": "AI 搜索正在改写内容增长：以后你的文章，可能先被机器筛掉",
-      "image_url": "https://image.woshipm.com/2023/04/14/59cc8a24-da8e-11ed-aeb8-00163e0b5ff3.jpg",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
       "id": "caefd16399b9171e",
       "title": "刷完Manus肖弘的即刻，我看到了AI时代创业的教科书范式：Day One开始直通结局",
       "display_title": "刷完Manus肖弘的即刻，我看到了AI时代创业的教科书范式：Day One开始直通结局",
@@ -1338,24 +1304,6 @@
       "detected_at": "2026-08-26T02:02:01.636859+00:00",
       "summary": "派早报：Apple 发布新款 Mac mini 和 Mac Studio 等 周三 26",
       "image_url": "https://rssfile.sspai.com/2026/8/26/article/a4ad4c20-8cca-3002-5492-9a39268a7b89.jpeg?imageMogr2/auto-orient/ignore-error/1",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "cf36cc9419a36b6f",
-      "title": "30分钟用Agent制作马年专属动图表情包，并上架微信【喂饭级教程】",
-      "display_title": "30分钟用Agent制作马年专属动图表情包，并上架微信【喂饭级教程】",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6332260.html",
-      "published_at": "2026-08-26T00:02:05.883496+00:00",
-      "detected_at": "2026-08-26T00:02:05.883546+00:00",
-      "summary": "30分钟用Agent制作马年专属动图表情包，并上架微信【喂饭级教程】",
-      "image_url": "https://image.woshipm.com/2023/05/06/e342f12a-ec00-11ed-96ae-00163e0b5ff3.jpg",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -1598,24 +1546,6 @@
       "meta": {}
     },
     {
-      "id": "f1c36e8a9753f712",
-      "title": "BAT集体“违背祖训”！免费时代彻底凉了，AI产品经理的Token避坑+变现指南",
-      "display_title": "BAT集体“违背祖训”！免费时代彻底凉了，AI产品经理的Token避坑+变现指南",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6360310.html",
-      "published_at": "2026-08-25T14:09:46.847473+00:00",
-      "detected_at": "2026-08-25T14:09:46.847489+00:00",
-      "summary": "BAT集体“违背祖训”！免费时代彻底凉了，AI产品经理的Token避坑+变现指南",
-      "image_url": "https://image.woshipm.com/2024/09/30/d9fb349a-7f18-11ef-bb45-00163e142b65.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
       "id": "17a85e42ff919c2a",
       "title": "香港中文大学地理与资源管理学系系主任徐江在科研上，追求创新，喜欢探索别人没试过的东西。行政管理中，又常常有股尝试新方法的冲动。",
       "display_title": "香港中文大学地理与资源管理学系系主任徐江在科研上，追求创新，喜欢探索别人没试过的东西。行政管理中，又常常有股尝试新方法的冲动。",
@@ -1647,24 +1577,6 @@
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "d191bf687025f894",
-      "title": "OpenAI被曝瞄准AI音乐赛道商业化，Suno首当其冲",
-      "display_title": "OpenAI被曝瞄准AI音乐赛道商业化，Suno首当其冲",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6284713.html",
-      "published_at": "2026-08-25T09:54:42.805615+00:00",
-      "detected_at": "2026-08-25T09:54:42.805630+00:00",
-      "summary": "OpenAI被曝瞄准AI音乐赛道商业化，Suno首当其冲",
-      "image_url": "https://image.woshipm.com/2025/10/28/89d7758c-b3dd-11f0-8601-00163e4b86a1.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
       "meta": {}
@@ -1742,24 +1654,6 @@
       "meta": {}
     },
     {
-      "id": "b49e4514ce14575b",
-      "title": "不会写代码，怎么用AI三天搞出一个能赚钱的产品",
-      "display_title": "不会写代码，怎么用AI三天搞出一个能赚钱的产品",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6398228.html",
-      "published_at": "2026-08-25T07:12:19.006389+00:00",
-      "detected_at": "2026-08-25T07:12:19.006405+00:00",
-      "summary": "不会写代码，怎么用AI三天搞出一个能赚钱的产品",
-      "image_url": "https://image.woshipm.com/2023/09/12/c3241b00-5116-11ee-8eef-00163e142b65.jpg",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
       "id": "583fbfc6747dc1ec",
       "title": "我用 AI 做了个资产管理 App，结果用户只想滑卡玩 ArkLab 1 分钟前",
       "display_title": "我用 AI 做了个资产管理 App，结果用户只想滑卡玩 ArkLab 1 分钟前",
@@ -1773,24 +1667,6 @@
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "9292857cecfe8221",
-      "title": "90%的人对着AI许愿，但不愿意给菩萨交订阅费",
-      "display_title": "90%的人对着AI许愿，但不愿意给菩萨交订阅费",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6453437.html",
-      "published_at": "2026-08-25T03:14:58.751099+00:00",
-      "detected_at": "2026-08-25T03:14:58.751115+00:00",
-      "summary": "90%的人对着AI许愿，但不愿意给菩萨交订阅费",
-      "image_url": "https://image.woshipm.com/2023/04/13/612ecbfa-d9ef-11ed-9d7a-00163e0b5ff3.jpg",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
       "language": "zh",
       "is_breakthrough": false,
       "meta": {}
@@ -1958,24 +1834,6 @@
       "meta": {}
     },
     {
-      "id": "977cea4ee47c668e",
-      "title": "豆包要收费了，你会花钱用吗？",
-      "display_title": "豆包要收费了，你会花钱用吗？",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6390595.html",
-      "published_at": "2026-08-24T23:40:19.899509+00:00",
-      "detected_at": "2026-08-24T23:40:19.899522+00:00",
-      "summary": "豆包要收费了，你会花钱用吗？",
-      "image_url": "https://image.woshipm.com/2023/04/13/7320bd46-d9ef-11ed-a6e8-00163e0b5ff3.jpg",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
       "id": "b53e1990dac7cd27",
       "title": "阿里视频大模型Wan3.0正式上线，全面实现超长生成与多维一致性 阿里巴巴8月24日发布视频生成大模型Wan3.0，实现全方位升级。",
       "display_title": "阿里视频大模型Wan3.0正式上线，全面实现超长生成与多维一致性 阿里巴巴8月24日发布视频生成大模型Wan3.0，实现全方位升级。",
@@ -1991,24 +1849,6 @@
       "priority": "A",
       "language": "zh",
       "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "44ddda08d61d872c",
-      "title": "AI时代ToB产品的“七步法”：当智能线索评分取代人工经验，销售效能如何重构？",
-      "display_title": "AI时代ToB产品的“七步法”：当智能线索评分取代人工经验，销售效能如何重构？",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6435047.html",
-      "published_at": "2026-08-24T19:07:08.658962+00:00",
-      "detected_at": "2026-08-24T19:07:08.658978+00:00",
-      "summary": "AI时代ToB产品的“七步法”：当智能线索评分取代人工经验，销售效能如何重构？",
-      "image_url": "https://image.woshipm.com/2023/08/11/304c6a54-380b-11ee-bb26-00163e0b5ff3.jpg",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -2030,24 +1870,6 @@
       "meta": {}
     },
     {
-      "id": "21133ba14a00f148",
-      "title": "DeepSeek V4到底什么水平？梁文锋融资的最佳选择是什么？",
-      "display_title": "DeepSeek V4到底什么水平？梁文锋融资的最佳选择是什么？",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6384043.html",
-      "published_at": "2026-08-24T14:28:06.959572+00:00",
-      "detected_at": "2026-08-24T14:28:06.959587+00:00",
-      "summary": "DeepSeek V4到底什么水平？梁文锋融资的最佳选择是什么？",
-      "image_url": "https://image.woshipm.com/2025/02/16/2f0f4a96-ec76-11ef-8495-00163e09d72f.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
       "id": "5d6f5b7a6656f635",
       "title": "派评 | 近期值得关注的 App 少数派编辑部 17:52",
       "display_title": "派评 | 近期值得关注的 App 少数派编辑部 17:52",
@@ -2061,24 +1883,6 @@
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "a764a2b3f3ab04ec",
-      "title": "从169家初创公司，我看到了AI创业这两个趋势",
-      "display_title": "从169家初创公司，我看到了AI创业这两个趋势",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6272599.html",
-      "published_at": "2026-08-24T10:23:16.936009+00:00",
-      "detected_at": "2026-08-24T10:23:16.936024+00:00",
-      "summary": "从169家初创公司，我看到了AI创业这两个趋势",
-      "image_url": "https://image.woshipm.com/2024/11/12/338dd4d2-a0a1-11ef-8da6-00163e142b65.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
       "meta": {}
@@ -2117,60 +1921,6 @@
       "priority": "A",
       "language": "zh",
       "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "00f736014367faa5",
-      "title": "种子轮融资500万美元，前红杉合伙人创业做AI Agent日程管理，获老东家押注，a16z亲测",
-      "display_title": "种子轮融资500万美元，前红杉合伙人创业做AI Agent日程管理，获老东家押注，a16z亲测",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6334558.html",
-      "published_at": "2026-08-24T08:31:25.048824+00:00",
-      "detected_at": "2026-08-24T08:31:25.048829+00:00",
-      "summary": "种子轮融资500万美元，前红杉合伙人创业做AI Agent日程管理，获老东家押注，a16z亲测",
-      "image_url": "https://image.woshipm.com/2025/06/09/9bbe5b0a-44dc-11f0-ad57-00163e09d72f.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "abd1b40fb995760a",
-      "title": "教育培训行业如何做智能体精准引流获客",
-      "display_title": "教育培训行业如何做智能体精准引流获客",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6260532.html",
-      "published_at": "2026-08-24T08:31:25.046556+00:00",
-      "detected_at": "2026-08-24T08:31:25.046573+00:00",
-      "summary": "教育培训行业如何做智能体精准引流获客",
-      "image_url": "https://image.woshipm.com/2025/08/26/a8f09d22-823c-11f0-977d-00163e09d72f.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "28df9db8023e4a93",
-      "title": "少走 90% 弯路！记住这几点，电商 AI 从想法落地赚钱",
-      "display_title": "少走 90% 弯路！记住这几点，电商 AI 从想法落地赚钱",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6363968.html",
-      "published_at": "2026-08-24T07:45:18.807901+00:00",
-      "detected_at": "2026-08-24T07:45:18.807907+00:00",
-      "summary": "少走 90% 弯路！记住这几点，电商 AI 从想法落地赚钱",
-      "image_url": "https://image.woshipm.com/2023/05/06/02be09d6-ec01-11ed-adbb-00163e0b5ff3.jpg",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
       "meta": {}
     },
     {
