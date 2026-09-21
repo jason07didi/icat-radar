@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-09-20T23:39:09.931332+00:00",
-  "count": 441,
-  "hotspot_count": 8,
-  "breakthrough_count": 193,
+  "updated_at": "2026-09-21T01:48:02.286905+00:00",
+  "count": 442,
+  "hotspot_count": 10,
+  "breakthrough_count": 194,
   "category_counts": {
-    "AI变现": 171,
+    "AI变现": 172,
     "提效工具": 66,
     "前沿动态": 73
   },
@@ -14,12 +14,12 @@
   },
   "hotspots": [
     {
-      "id": "0090ae1194323725",
-      "title": "人民日报评“第一学历歧视”",
-      "summary": "针对硕士毕业生因“第一学历”为专科被头部互联网公司取消录用一事，人民日报发表评论指出，此举涉嫌就业歧视。教育部已明确无“... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E2%80%9C%E7%AC%AC%E4%B8%80%E5%AD%A6%E5%8E%86%E6%AD%A7%E8%A7%86%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "id": "ba7eb018fe3a6e9a",
+      "title": "是什么让北大复旦校长都如此紧张",
+      "summary": "正值开学季，北大、复旦等高校校长在开学典礼上呼吁新生避免过度依赖AI，警惕“认知卸载”“虚假掌握”“思维外包”等问题。相... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%98%AF%E4%BB%80%E4%B9%88%E8%AE%A9%E5%8C%97%E5%A4%A7%E5%A4%8D%E6%97%A6%E6%A0%A1%E9%95%BF%E9%83%BD%E5%A6%82%E6%AD%A4%E7%B4%A7%E5%BC%A0&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 2,
-      "hot_index": 7808161,
+      "hot_index": 7808427,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -27,46 +27,46 @@
       "platform_ranks": {
         "百度热搜": 2
       },
-      "topic": "城市社会",
+      "topic": "人工智能",
       "score": 98,
-      "recommended_title": "人民日报评“第一学历歧视”背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
-      "main_paper_title": "Connecting application behavior to undermatching in New York City school choice",
+      "recommended_title": "是什么让北大复旦校长都如此紧张刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-022-01580-3/MediaObjects/41597_2022_1580_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41597-026-08334-5",
+      "main_paper_title": "A Comprehensive Multimodal Gait Dataset for Lower-Limb Wearable Robotics in Indoor and Outdoor Environments",
       "related_papers": [
         {
-          "id": "375dc94e6b81abc6",
-          "title": "Connecting application behavior to undermatching in New York City school choice",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00486-0",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-          "match_score": 60
+          "id": "12989bb93de6c57f",
+          "title": "A Comprehensive Multimodal Gait Dataset for Lower-Limb Wearable Robotics in Indoor and Outdoor Environments",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08334-5",
+          "published_at": "2026-09-21T01:47:49.897757+00:00",
+          "summary": "Daily walking locomotion exhibits variability, asymmetry and ground constraints. Recording and analyzing real-world locomotion data is essential for expanding the application scenarios of wearable robots such as exoskeletons and prostheses. However, most existing gait datasets...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-022-01580-3/MediaObjects/41597_2022_1580_Fig1_HTML.png",
+          "match_score": 31
         },
         {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 48
+          "id": "4393f358759c48ae",
+          "title": "The shrinking landscape of linguistic diversity in the age of large language models",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02550-0",
+          "published_at": "2026-08-24T00:00:00+00:00",
+          "summary": "Sourati et al. find that variance in writing complexity dropped on social media, news and scientific writing after ChatGPT’s release, a shift from individuality towards uniformity. LLM polishing strips cues to gender, age, ideology and moral values.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02550-0/MediaObjects/41562_2026_2550_Fig1_HTML.png?as=webp",
+          "match_score": 29
         },
         {
-          "id": "49da466fdb8f4e4a",
-          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00478-0",
-          "published_at": "2026-07-24T00:00:00+00:00",
-          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
-          "match_score": 48
+          "id": "b8b41fcd1e84f254",
+          "title": "Reimagining research papers as interactive and reliable AI agents",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11044-y",
+          "published_at": "2026-09-21T01:47:47.213839+00:00",
+          "summary": "Paper2Agent converts research papers into interactive artificial intelligence agents by turning manuscripts, code and data into model context protocol-based tool-invoking systems that reproduce original results, answer new scientific queries and collaborate to generate novel i...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11044-y/MediaObjects/41586_2026_11044_Fig4_HTML.png?as=webp",
+          "match_score": 28
         }
       ],
-      "updated_at": "2026-09-20T23:39:01.235432+00:00"
+      "updated_at": "2026-09-21T01:47:54.226896+00:00"
     },
     {
       "id": "58890d163ad34243",
@@ -74,7 +74,7 @@
       "summary": "住房公积金这笔 “安居钱” 使用迎来优化调整，提取情形从6种扩至9种，可用于装修、缴纳物业费，租房提取取消收入比例门槛。... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%AE%89%E5%B1%85%E9%92%B1%E2%80%9D%E8%B6%8A%E6%9D%A5%E8%B6%8A%E5%A5%BD%E7%94%A8%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 4,
-      "hot_index": 7617434,
+      "hot_index": 7617054,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -95,7 +95,7 @@
           "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
           "source": "Nature Human Behaviour",
           "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-09-20T23:38:55.182504+00:00",
+          "published_at": "2026-09-21T01:47:48.610867+00:00",
           "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
           "match_score": 41
@@ -111,17 +111,17 @@
           "match_score": 40
         },
         {
-          "id": "a42f3c1e345538d8",
-          "title": "Daily intercity human mobility estimates across Chinese cities from 2020 to 2025",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08296-8",
-          "published_at": "2026-09-20T23:38:56.320778+00:00",
-          "summary": "Intercity human mobility data are essential for regional resource management, ecological footprint assessment, and public-health research. However, existing datasets are often constrained by a trade-off between public accessibility and fine spatiotemporal resolution. To addres...",
-          "image_url": "",
-          "match_score": 39
+          "id": "49da466fdb8f4e4a",
+          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00478-0",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+          "match_score": 40
         }
       ],
-      "updated_at": "2026-09-20T23:39:01.239563+00:00"
+      "updated_at": "2026-09-21T01:47:54.231875+00:00"
     },
     {
       "id": "49d7db1b8cc88f35",
@@ -129,7 +129,7 @@
       "summary": "近日，网传长沙电动车要称重、时速超25码就查处，此消息不实。交警表示，整治重点为闯红灯、不戴头盔等6类交通违法行为。 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E9%95%BF%E6%B2%99%E7%94%B5%E5%8A%A8%E8%BD%A6%E6%97%B6%E9%80%9F%E8%B6%8525%E7%A0%81%E8%A6%81%E8%A2%AB%E6%8A%93%E4%B8%8D%E5%AE%9E&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 12,
-      "hot_index": 6857213,
+      "hot_index": 6855441,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -153,158 +153,160 @@
           "published_at": "2026-07-22T00:00:00+00:00",
           "summary": "Using travel surveys from five global cities, this study explores how daily mobility shapes social mixing. Results show that activity spaces explain most place exposure variations, outweighing demographics and transit proximity.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00477-1/MediaObjects/44284_2026_477_Fig1_HTML.png?as=webp",
-          "match_score": 52
+          "match_score": 50
+        },
+        {
+          "id": "a42f3c1e345538d8",
+          "title": "Daily intercity human mobility estimates across Chinese cities from 2020 to 2025",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08296-8",
+          "published_at": "2026-09-21T01:47:49.899207+00:00",
+          "summary": "Intercity human mobility data are essential for regional resource management, ecological footprint assessment, and public-health research. However, existing datasets are often constrained by a trade-off between public accessibility and fine spatiotemporal resolution. To addres...",
+          "image_url": "",
+          "match_score": 53
         },
         {
           "id": "3e7111e20bed59bb",
           "title": "Road transport of trapped antiprotons",
           "source": "Nature",
           "url": "https://www.nature.com/articles/s41586-026-11019-z",
-          "published_at": "2026-09-20T23:38:54.010008+00:00",
+          "published_at": "2026-09-21T01:47:47.216568+00:00",
           "summary": "Researchers demonstrate successful road transport of trapped antiprotons, establishing a practical method for moving antimatter to quieter laboratories and substantially improving future tests of matter–antimatter symmetry.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11019-z/MediaObjects/41586_2026_11019_Fig2_HTML.png?as=webp",
           "match_score": 42
-        },
-        {
-          "id": "05a6b1e851158d33",
-          "title": "Temporary loss of social-ecological system resilience during rural to urban transition",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00493-1",
-          "published_at": "2026-08-10T00:00:00+00:00",
-          "summary": "Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones become less resilient socially and ecologically as they transition.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
-          "match_score": 40
         }
       ],
-      "updated_at": "2026-09-20T23:39:01.243503+00:00"
+      "updated_at": "2026-09-21T01:47:54.236581+00:00"
     },
     {
-      "id": "b7a005ee1a1b19a4",
-      "title": "女童在动物园禁停地点下车被鹿撞飞",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E7%AB%A5%E5%9C%A8%E5%8A%A8%E7%89%A9%E5%9B%AD%E7%A6%81%E5%81%9C%E5%9C%B0%E7%82%B9%E4%B8%8B%E8%BD%A6%E8%A2%AB%E9%B9%BF%E6%92%9E%E9%A3%9E&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 12,
-      "hot_index": 2956582,
+      "id": "1b4bbd235e866bb7",
+      "title": "多所高校建“无手机课堂”",
+      "summary": "“手机调至静音，按编号放入班级手机收纳袋”“将课堂违规使用手机的表现纳入个人综合评价参考”……随着2026年秋季学期开学... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E6%89%80%E9%AB%98%E6%A0%A1%E5%BB%BA%E2%80%9C%E6%97%A0%E6%89%8B%E6%9C%BA%E8%AF%BE%E5%A0%82%E2%80%9D&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 23,
+      "hot_index": 3131356,
       "platform": "百度民生",
       "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 12
-      },
-      "topic": "生态生命",
-      "score": 95,
-      "recommended_title": "女童在动物园禁停地点下车被鹿撞飞背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
-      "related_papers": [
-        {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "a3a59c8b57e1676f",
-          "title": "Balancing marine species conservation with cost-effective renewable energy development",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02696-9",
-          "published_at": "2026-07-17T00:00:00+00:00",
-          "summary": "The authors consider the potential conflict between renewable energy development (offshore wind) and wildlife (North Atlantic right whales, Eubalaena glacialis ). They demonstrate a framework to identify trade-offs under different scenarios, maximizing conservation with minima...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02696-9/MediaObjects/41558_2026_2696_Fig3_HTML.png?as=webp",
-          "match_score": 33
-        },
-        {
-          "id": "dc49dfc3fefe25b2",
-          "title": "Greening masks stability loss in drylands",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02733-7",
-          "published_at": "2026-09-20T23:38:54.809824+00:00",
-          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        }
-      ],
-      "updated_at": "2026-09-20T23:39:01.245080+00:00"
-    },
-    {
-      "id": "78437839d5bac06b",
-      "title": "朱孝天《流星雨》梦回流星花园",
-      "summary": "在“湾区升明月”晚会上，朱孝天演唱《流星雨》点燃全场，将观众思绪拉回25年前的《流星花园》。当年F4是众多年轻人模仿对象... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%B1%E5%AD%9D%E5%A4%A9%E3%80%8A%E6%B5%81%E6%98%9F%E9%9B%A8%E3%80%8B%E6%A2%A6%E5%9B%9E%E6%B5%81%E6%98%9F%E8%8A%B1%E5%9B%AD&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 22,
-      "hot_index": 5894157,
-      "platform": "百度热搜",
-      "platforms": [
+        "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 22
+        "百度民生": 23,
+        "百度热搜": 51
       },
       "topic": "城市社会",
-      "score": 87,
-      "recommended_title": "朱孝天《流星雨》梦回流星花园背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 93,
+      "recommended_title": "多所高校建“无手机课堂”背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00517-w",
-      "main_paper_title": "Urbanization promotes biological invasions in global cities",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
+      "main_paper_title": "Connecting application behavior to undermatching in New York City school choice",
       "related_papers": [
+        {
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 60
+        },
+        {
+          "id": "3b2c24d459cfb635",
+          "title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02456-x",
+          "published_at": "2026-08-26T00:00:00+00:00",
+          "summary": "Basarkod et al. synthesize evidence from 92 randomized controlled trials, finding that interventions in naturalistic education settings effectively improve students’ moral outcomes.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        },
         {
           "id": "d31d704e3d193848",
           "title": "Urbanization promotes biological invasions in global cities",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00517-w",
-          "published_at": "2026-09-20T23:38:56.839832+00:00",
+          "published_at": "2026-09-21T01:47:50.341948+00:00",
           "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
           "match_score": 34
-        },
-        {
-          "id": "70e364dc4227dc20",
-          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00511-2",
-          "published_at": "2026-09-20T23:38:56.840487+00:00",
-          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
-          "match_score": 34
         }
       ],
-      "updated_at": "2026-09-20T23:39:01.248842+00:00"
+      "updated_at": "2026-09-21T01:47:54.245261+00:00"
     },
     {
-      "id": "0852ef8f6724dea5",
-      "title": "陕西理工大学原副校长刘颙被查",
+      "id": "d2633de508fa3038",
+      "title": "明明睡够8小时 为什么第二天还是累",
+      "summary": "近日，科普文章指出，睡够8小时仍累，可能是“睡眠碎片化”导致。研究表明，长期碎片化睡眠会使大脑M型周细胞增多，加速认知衰... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%98%8E%E6%98%8E%E7%9D%A1%E5%A4%9F8%E5%B0%8F%E6%97%B6+%E4%B8%BA%E4%BB%80%E4%B9%88%E7%AC%AC%E4%BA%8C%E5%A4%A9%E8%BF%98%E6%98%AF%E7%B4%AF&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 15,
+      "hot_index": 6570886,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 15
+      },
+      "topic": "健康医学",
+      "score": 93,
+      "recommended_title": "明明睡够8小时 为什么第二天还是累为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04662-6/MediaObjects/41591_2026_4662_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04662-6",
+      "main_paper_title": "Sex-specific biological aging clocks across organs and omics",
+      "related_papers": [
+        {
+          "id": "4fbcecf71efa0d92",
+          "title": "Sex-specific biological aging clocks across organs and omics",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04662-6",
+          "published_at": "2026-09-21T01:47:49.056422+00:00",
+          "summary": "Sex-specific biological aging clocks across multiple organs and molecular systems show that female and male aging patterns can differ in organ-specific, disease-relevant ways.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04662-6/MediaObjects/41591_2026_4662_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "cdcf549199a93632",
+          "title": "Oral KRAS G12D inhibitor GFH375 for previously treated advanced solid tumors with KRAS G12D mutations: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04559-4",
+          "published_at": "2026-09-21T01:47:49.057462+00:00",
+          "summary": "In a phase 1 trial evaluating GFH375, an oral, dual on–off binding KRAS G12D inhibitor, in patients with KRAS G12D -mutated solid tumors, there was one treatment-related death, while most treatment-related adverse events were low-grade, and encouraging response rates were obse...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04559-4/MediaObjects/41591_2026_4559_Fig1_HTML.png",
+          "match_score": 35
+        },
+        {
+          "id": "99c16b2758e1d6a0",
+          "title": "Phenomic profiles and disease patterns of 1.9 million participants from Our Future Health",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04602-4",
+          "published_at": "2026-09-21T01:47:49.059553+00:00",
+          "summary": "An in-depth phenomic analysis of health and disease patterns from 1.9 million participants of the Our Future Health cohort reports the prevalence of health conditions and medication-use patterns compared with national UK estimates and the UK Biobank.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04602-4/MediaObjects/41591_2026_4602_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-09-21T01:47:54.240551+00:00"
+    },
+    {
+      "id": "999261105c3795d5",
+      "title": "大学生实习到底要不要趁早",
       "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E9%99%95%E8%A5%BF%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E5%8E%9F%E5%89%AF%E6%A0%A1%E9%95%BF%E5%88%98%E9%A2%99%E8%A2%AB%E6%9F%A5&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 25,
-      "hot_index": 929398,
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%AE%9E%E4%B9%A0%E5%88%B0%E5%BA%95%E8%A6%81%E4%B8%8D%E8%A6%81%E8%B6%81%E6%97%A9&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 26,
+      "hot_index": 909098,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 25
+        "百度民生": 26
       },
       "topic": "城市社会",
-      "score": 83,
-      "recommended_title": "陕西理工大学原副校长刘颙被查背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 82,
+      "recommended_title": "大学生实习到底要不要趁早背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02456-x",
@@ -321,100 +323,100 @@
           "match_score": 43
         },
         {
-          "id": "7dfd8de97f9dff0c",
-          "title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02556-8",
-          "published_at": "2026-08-17T00:00:00+00:00",
-          "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
-          "match_score": 33
+          "id": "70e364dc4227dc20",
+          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00511-2",
+          "published_at": "2026-09-21T01:47:50.342642+00:00",
+          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
+          "match_score": 34
         },
         {
-          "id": "e617320424d07b9f",
-          "title": "Mutational constraints on RSV F and its neutralization by antibodies",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11030-4",
-          "published_at": "2026-09-20T23:38:54.008590+00:00",
-          "summary": "How respiratory syncytial virus mutations affect antibody neutralization is defined, and a biophysical model of the mechanism is provided, to show how Fab potency and epitope specificity combine to determine the effects of viral mutations on antibody neutralization.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11030-4/MediaObjects/41586_2026_11030_Fig2_HTML.png?as=webp",
-          "match_score": 28
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
+          "match_score": 34
         }
       ],
-      "updated_at": "2026-09-20T23:39:01.252625+00:00"
+      "updated_at": "2026-09-21T01:47:54.249966+00:00"
     },
     {
-      "id": "333d92d43f508d10",
-      "title": "重庆通报“网传厨师用艾滋病测试纸”",
-      "summary": "9月20日，重庆市两江新区市场监督管理局通报网传“餐馆厨师在店内用艾滋病测试纸”事件。经查，涉事门店员工因担心肝部健康自... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E5%BA%86%E9%80%9A%E6%8A%A5%E2%80%9C%E7%BD%91%E4%BC%A0%E5%8E%A8%E5%B8%88%E7%94%A8%E8%89%BE%E6%BB%8B%E7%97%85%E6%B5%8B%E8%AF%95%E7%BA%B8%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 28,
-      "hot_index": 5332382,
+      "id": "9ca89252df0fbe08",
+      "title": "13个孩子父亲：妻子身体还好",
+      "summary": "9月20日，广西钦州49岁黄先生引发关注，他与妻子结婚22年生育13个孩子，并称妻子身体还好。目前大女儿已婚、最小者两岁... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=13%E4%B8%AA%E5%AD%A9%E5%AD%90%E7%88%B6%E4%BA%B2%EF%BC%9A%E5%A6%BB%E5%AD%90%E8%BA%AB%E4%BD%93%E8%BF%98%E5%A5%BD&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 38,
+      "hot_index": 4349902,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 28
-      },
-      "topic": "健康医学",
-      "score": 83,
-      "recommended_title": "重庆通报“网传厨师用艾滋病测试纸”为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04662-6/MediaObjects/41591_2026_4662_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04662-6",
-      "main_paper_title": "Sex-specific biological aging clocks across organs and omics",
-      "related_papers": [
-        {
-          "id": "4fbcecf71efa0d92",
-          "title": "Sex-specific biological aging clocks across organs and omics",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04662-6",
-          "published_at": "2026-09-20T23:38:55.551960+00:00",
-          "summary": "Sex-specific biological aging clocks across multiple organs and molecular systems show that female and male aging patterns can differ in organ-specific, disease-relevant ways.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04662-6/MediaObjects/41591_2026_4662_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "cdcf549199a93632",
-          "title": "Oral KRAS G12D inhibitor GFH375 for previously treated advanced solid tumors with KRAS G12D mutations: a phase 1 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04559-4",
-          "published_at": "2026-09-20T23:38:55.553060+00:00",
-          "summary": "In a phase 1 trial evaluating GFH375, an oral, dual on–off binding KRAS G12D inhibitor, in patients with KRAS G12D -mutated solid tumors, there was one treatment-related death, while most treatment-related adverse events were low-grade, and encouraging response rates were obse...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04559-4/MediaObjects/41591_2026_4559_Fig1_HTML.png",
-          "match_score": 35
-        },
-        {
-          "id": "99c16b2758e1d6a0",
-          "title": "Phenomic profiles and disease patterns of 1.9 million participants from Our Future Health",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04602-4",
-          "published_at": "2026-09-20T23:38:55.554906+00:00",
-          "summary": "An in-depth phenomic analysis of health and disease patterns from 1.9 million participants of the Our Future Health cohort reports the prevalence of health conditions and medication-use patterns compared with national UK estimates and the UK Biobank.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04602-4/MediaObjects/41591_2026_4602_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-09-20T23:39:01.255920+00:00"
-    },
-    {
-      "id": "e240c16d9432ec57",
-      "title": "李成钢任中国国际贸易谈判代表",
-      "summary": "9月20日，国务院任免国家工作人员，任命李成钢为国际贸易谈判代表（正部长级）。 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E6%88%90%E9%92%A2%E4%BB%BB%E4%B8%AD%E5%9B%BD%E5%9B%BD%E9%99%85%E8%B4%B8%E6%98%93%E8%B0%88%E5%88%A4%E4%BB%A3%E8%A1%A8&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 46,
-      "hot_index": 3620702,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 46
+        "百度热搜": 38
       },
       "topic": "城市社会",
-      "score": 68,
-      "recommended_title": "李成钢任中国国际贸易谈判代表背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 75,
+      "recommended_title": "13个孩子父亲：妻子身体还好背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00498-w",
+      "main_paper_title": "Hidden living-condition deficits in small and medium-sized cities",
+      "related_papers": [
+        {
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
+          "match_score": 48
+        },
+        {
+          "id": "5daead6e827b09ba",
+          "title": "Topographic structure and function of locus coeruleus noradrenaline neurons",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11026-0",
+          "published_at": "2026-09-21T01:47:47.215575+00:00",
+          "summary": "Dorsal and ventral noradrenergic neurons in the locus coeruleus form topographic subpopulations whose projection patterns and activity encode choice switching, reward-prediction errors and disregard of reward-predictive cues, supporting flexible learning behaviour.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11026-0/MediaObjects/41586_2026_11026_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "4ea43a8b77c74e8f",
+          "title": "Overmassive black holes and little red dots naturally form in simulations",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10985-8",
+          "published_at": "2026-09-21T01:47:47.215922+00:00",
+          "summary": "Observations from the JWST reveal an unexpectedly abundant population of little red dots and overmassive black holes in the early Universe, which are confirmed by their formation in fully cosmological radiation-hydrodynamic simulations.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10985-8/MediaObjects/41586_2026_10985_Fig2_HTML.png?as=webp",
+          "match_score": 42
+        }
+      ],
+      "updated_at": "2026-09-21T01:47:54.254876+00:00"
+    },
+    {
+      "id": "c1f02a701c7a134b",
+      "title": "曝光不给实习生放假疑遭医院威胁",
+      "summary": "9月20日，网传云南罗平县医院实习生曝光“中秋不放假”后，疑似遭到工作人员在群内威胁，后续相关发帖还被举报为P图伪造。对... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%9B%9D%E5%85%89%E4%B8%8D%E7%BB%99%E5%AE%9E%E4%B9%A0%E7%94%9F%E6%94%BE%E5%81%87%E7%96%91%E9%81%AD%E5%8C%BB%E9%99%A2%E5%A8%81%E8%83%81&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 42,
+      "hot_index": 3967712,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 42
+      },
+      "topic": "城市社会",
+      "score": 71,
+      "recommended_title": "曝光不给实习生放假疑遭医院威胁背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
@@ -431,6 +433,106 @@
           "match_score": 48
         },
         {
+          "id": "e617320424d07b9f",
+          "title": "Mutational constraints on RSV F and its neutralization by antibodies",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11030-4",
+          "published_at": "2026-09-21T01:47:47.214921+00:00",
+          "summary": "How respiratory syncytial virus mutations affect antibody neutralization is defined, and a biophysical model of the mechanism is provided, to show how Fab potency and epitope specificity combine to determine the effects of viral mutations on antibody neutralization.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11030-4/MediaObjects/41586_2026_11030_Fig2_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "49da466fdb8f4e4a",
+          "title": "Effects of Uber and Lyft on jobs, wages and GDP",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00478-0",
+          "published_at": "2026-07-24T00:00:00+00:00",
+          "summary": "Ride-hailing platforms such as Uber and Lyft are theorized to stimulate local economies. An analysis of 167 US cities reveals that their entry increased regional GDP and intermittent employment, but not overall jobs or earnings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+          "match_score": 48
+        }
+      ],
+      "updated_at": "2026-09-21T01:47:54.259854+00:00"
+    },
+    {
+      "id": "a99a9e46be954047",
+      "title": "外国市长：上了中国的报纸 真高兴",
+      "summary": "9月20日，世界市长对话·武汉暨2026武汉国际友好城市合作大会在湖北武汉举行。当天下午，多国市长集体参访黄鹤楼，期间有... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%96%E5%9B%BD%E5%B8%82%E9%95%BF%EF%BC%9A%E4%B8%8A%E4%BA%86%E4%B8%AD%E5%9B%BD%E7%9A%84%E6%8A%A5%E7%BA%B8+%E7%9C%9F%E9%AB%98%E5%85%B4&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 45,
+      "hot_index": 3693735,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 45
+      },
+      "topic": "城市社会",
+      "score": 69,
+      "recommended_title": "外国市长：上了中国的报纸 真高兴背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00517-w",
+      "main_paper_title": "Urbanization promotes biological invasions in global cities",
+      "related_papers": [
+        {
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-09-21T01:47:50.341948+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "a42f3c1e345538d8",
+          "title": "Daily intercity human mobility estimates across Chinese cities from 2020 to 2025",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08296-8",
+          "published_at": "2026-09-21T01:47:49.899207+00:00",
+          "summary": "Intercity human mobility data are essential for regional resource management, ecological footprint assessment, and public-health research. However, existing datasets are often constrained by a trade-off between public accessibility and fine spatiotemporal resolution. To addres...",
+          "image_url": "",
+          "match_score": 39
+        },
+        {
+          "id": "70e364dc4227dc20",
+          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00511-2",
+          "published_at": "2026-09-21T01:47:50.342642+00:00",
+          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-09-21T01:47:54.264419+00:00"
+    },
+    {
+      "id": "0090ae1194323725",
+      "title": "人民日报评“第一学历歧视”",
+      "summary": "针对硕士毕业生因“第一学历”为专科被头部互联网公司取消录用一事，人民日报发表评论指出，此举涉嫌就业歧视。教育部已明确无“... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E2%80%9C%E7%AC%AC%E4%B8%80%E5%AD%A6%E5%8E%86%E6%AD%A7%E8%A7%86%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 47,
+      "hot_index": 3507056,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 47
+      },
+      "topic": "城市社会",
+      "score": 68,
+      "recommended_title": "人民日报评“第一学历歧视”背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00478-0/MediaObjects/44284_2026_478_Fig3_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00478-0",
+      "main_paper_title": "Effects of Uber and Lyft on jobs, wages and GDP",
+      "related_papers": [
+        {
           "id": "49da466fdb8f4e4a",
           "title": "Effects of Uber and Lyft on jobs, wages and GDP",
           "source": "Nature Cities",
@@ -441,146 +543,30 @@
           "match_score": 48
         },
         {
-          "id": "3e7111e20bed59bb",
-          "title": "Road transport of trapped antiprotons",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11019-z",
-          "published_at": "2026-09-20T23:38:54.010008+00:00",
-          "summary": "Researchers demonstrate successful road transport of trapped antiprotons, establishing a practical method for moving antimatter to quieter laboratories and substantially improving future tests of matter–antimatter symmetry.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11019-z/MediaObjects/41586_2026_11019_Fig2_HTML.png?as=webp",
-          "match_score": 42
+          "id": "7dfd8de97f9dff0c",
+          "title": "Parental haplotype reconstruction in up to 440,209 UK and Estonian individuals reveals recent assortative mating dynamics",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02556-8",
+          "published_at": "2026-08-17T00:00:00+00:00",
+          "summary": "Reconstructing parental haplotypes for up to 440,209 UK and Estonian Biobank participants, the authors estimate genetic assortative mating across 69 traits and find that assortment for height and education has intensified in recent generations.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02556-8/MediaObjects/41562_2026_2556_Fig2_HTML.png?as=webp",
+          "match_score": 33
+        },
+        {
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 60
         }
       ],
-      "updated_at": "2026-09-20T23:39:01.259741+00:00"
+      "updated_at": "2026-09-21T01:47:54.269393+00:00"
     }
   ],
   "items": [
-    {
-      "id": "c175ef88815f6ba3",
-      "title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8 阶跃星辰发布旗舰基座模型Step5Preview，面向AI编程、软件工程、专业知识及金融等场景，提升Agentic任务表现并平衡智能、成本与效率。",
-      "display_title": "阶跃星辰发布Step5Preview，单任务成本仅为Claude Opus5的1/8 阶跃星辰发布旗舰基座模型Step5Preview，面向AI编程、软件工程、专业知识及金融等场景，提升Agentic任务表现并平衡智能、成本与效率。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31187",
-      "published_at": "2026-09-20T23:35:07.007968+00:00",
-      "detected_at": "2026-09-20T23:35:07.007973+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
-      "image_url": "https://upload.chinaz.com/2026/0920/6392549922124080075465610.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "953afc3b00acf558",
-      "title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界 9月20日，启元机器人与腾讯云合作，其Q1、T1机器人接入WorkBuddy，成为首个具身智能接入案例。",
-      "display_title": "启元机器人接入腾讯云WorkBuddy，AI首次从屏幕\"走\"进物理世界 9月20日，启元机器人与腾讯云合作，其Q1、T1机器人接入WorkBuddy，成为首个具身智能接入案例。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31190",
-      "published_at": "2026-09-20T23:35:07.003179+00:00",
-      "detected_at": "2026-09-20T23:35:07.003184+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
-      "image_url": "https://upload.chinaz.com/2026/0920/6392550913586810886476892.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "593789eefe7d03e8",
-      "title": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅 B站推出“AI无限竞技场”测评榜，汇总10位UP主对上百个大模型的真实场景实测，覆盖代码、推理、协作、知识等。",
-      "display_title": "B站上线\"AI 无限竞技场\"测评榜：上百模型同场厮杀，GPT-6 暂坐头把交椅 B站推出“AI无限竞技场”测评榜，汇总10位UP主对上百个大模型的真实场景实测，覆盖代码、推理、协作、知识等。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31192",
-      "published_at": "2026-09-20T23:35:06.999922+00:00",
-      "detected_at": "2026-09-20T23:35:06.999927+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
-      "image_url": "https://upload.chinaz.com/2026/0920/6392551039939487447929845.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "02e9fae690c21a46",
-      "title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首 B站上线“AI无限竞技场”大模型测评榜并公布首轮结果：GPT-6 Astra在10位UP主测评中登顶，力压GLM-5.3获“榜首次数冠军”；前五名中国产大模型占三席。",
-      "display_title": "B 站上线“AI 无限竞技场”：百大模型同台 PK，GPT-6 Astra 暂居榜首 B站上线“AI无限竞技场”大模型测评榜并公布首轮结果：GPT-6 Astra在10位UP主测评中登顶，力压GLM-5.3获“榜首次数冠军”；前五名中国产大模型占三席。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31193",
-      "published_at": "2026-09-20T23:35:06.998383+00:00",
-      "detected_at": "2026-09-20T23:35:06.998389+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
-      "image_url": "https://upload.chinaz.com/2026/0920/6392551075141570498223940.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "de24287689d141e5",
-      "title": "阶跃星辰 Step 5 Preview 全量开放：600B 参数打平 K3 级性能，新用户最长白嫖 75 天 国产大模型 Step 5 Preview 正式全量开放，由阶跃星辰推出。",
-      "display_title": "阶跃星辰 Step 5 Preview 全量开放：600B 参数打平 K3 级性能，新用户最长白嫖 75 天 国产大模型 Step 5 Preview 正式全量开放，由阶跃星辰推出。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31194",
-      "published_at": "2026-09-20T23:35:06.996813+00:00",
-      "detected_at": "2026-09-20T23:35:06.996818+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
-      "image_url": "https://upload.chinaz.com/2026/0920/6392551221055368942773990.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "9bbd4405de9299b1",
-      "title": "阶跃甩出 Step 5 Preview：600B 稀疏 MoE 只激活 27B，把开源旗舰的\"性价比边界\"往外推了一格 阶跃今日全量开放新一代旗舰基座Step5Preview，定位真实世界Agentic任务主力模型。",
-      "display_title": "阶跃甩出 Step 5 Preview：600B 稀疏 MoE 只激活 27B，把开源旗舰的\"性价比边界\"往外推了一格 阶跃今日全量开放新一代旗舰基座Step5Preview，定位真实世界Agentic任务主力模型。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31196",
-      "published_at": "2026-09-20T23:35:06.993638+00:00",
-      "detected_at": "2026-09-20T23:35:06.993644+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
-      "image_url": "https://upload.chinaz.com/2026/0920/6392551469706235019093456.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "1dcfef016b1d1c6d",
-      "title": "雷神首款 AI 移动工作站明日开售：64GB 内存驯服 120B 大模型，1.99 万元把数据中心装进背包 雷神发布AI移动工作站M7000，9月21日开售，国补价1.99万元。",
-      "display_title": "雷神首款 AI 移动工作站明日开售：64GB 内存驯服 120B 大模型，1.99 万元把数据中心装进背包 雷神发布AI移动工作站M7000，9月21日开售，国补价1.99万元。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31197",
-      "published_at": "2026-09-20T23:35:06.991932+00:00",
-      "detected_at": "2026-09-20T23:35:06.991937+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
-      "image_url": "https://upload.chinaz.com/2026/0920/6392551515216003491073621.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
     {
       "id": "f3791c4165bbf90e",
       "title": "东风人形机器人\"小东\"下月进厂：汽车大模型给具身智能当\"师傅\"，年底要和真人掰手腕 东风汽车人形机器人将于今年10月进入工厂，主要从事分拣、质检等生产制造工作；年底先小批量试点，目标明年底能力与真人持平。",
@@ -588,9 +574,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31204",
-      "published_at": "2026-09-20T23:35:06.982208+00:00",
-      "detected_at": "2026-09-20T23:35:06.982214+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
+      "published_at": "2026-09-21T01:44:13.340360+00:00",
+      "detected_at": "2026-09-21T01:44:13.340366+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
       "image_url": "https://upload.chinaz.com/2026/0920/6392552061639274338331038.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -606,10 +592,154 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31205",
-      "published_at": "2026-09-20T23:35:06.980499+00:00",
-      "detected_at": "2026-09-20T23:35:06.980508+00:00",
-      "summary": "剪映发布全新 AI 能力：专业版上线“剪映 Hub”，移动端推 AI 助手“小映” 剪映举办“AI新创作发布会”，推出剪映Hub、AI创作助手“小映”，升级创作者生态。专业版上线一站式工作台Hub与智能Agent“剪映助手”，升级专业功能、拓展设备，并推出AI Ultra会员；移动端App同步上线“小映”，构建覆盖新手到专业的全场景智能创作平台。 6 小时前 10.6K 一颗 260 克的\"鸡蛋关节\"：稚晖君发布启元 Q1、T1 人形机器人 9月20日，上纬新材旗下品牌上纬启元发布启元Q1、T1两款消费级人形机器人。董事长彭志辉介绍，启元Q1主打自...",
+      "published_at": "2026-09-21T01:44:13.338564+00:00",
+      "detected_at": "2026-09-21T01:44:13.338569+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
       "image_url": "https://pic.chinaz.com/2026/0920/2026092017094665190.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "6f101234a279a142",
+      "title": "智谱MaaS将上线\"数据不留存\"机制，用户调用内容用完即焚 智谱MaaS平台将上线“数据内容不留存”功能，用户调用模型时的输入输出数据不再静态存储，仅用于当次调用，用完即止。",
+      "display_title": "智谱MaaS将上线\"数据不留存\"机制，用户调用内容用完即焚 智谱MaaS平台将上线“数据内容不留存”功能，用户调用模型时的输入输出数据不再静态存储，仅用于当次调用，用完即止。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31208",
+      "published_at": "2026-09-21T01:44:13.333373+00:00",
+      "detected_at": "2026-09-21T01:44:13.333379+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
+      "image_url": "https://upload.chinaz.com/2026/0921/6392557781201913299001491.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "50bf82a21d7f77a8",
+      "title": "腾讯推出“混元智囊团”专家平台，AI行业竞争转向外部人才生态 腾讯混元推出专家平台“混元智囊团”，口号“聚智为谋，引领未来”。",
+      "display_title": "腾讯推出“混元智囊团”专家平台，AI行业竞争转向外部人才生态 腾讯混元推出专家平台“混元智囊团”，口号“聚智为谋，引领未来”。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31209",
+      "published_at": "2026-09-21T01:44:13.331654+00:00",
+      "detected_at": "2026-09-21T01:44:13.331660+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
+      "image_url": "https://upload.chinaz.com/2026/0921/6392557805470535654160996.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "9c621a2b3fd83335",
+      "title": "Gemini Notebook迎返校更新:讲座录音、AI复习和60秒视频一站完成 谷歌为Gemini Notebook推出返校功能，强化学生AI学习场景。",
+      "display_title": "Gemini Notebook迎返校更新:讲座录音、AI复习和60秒视频一站完成 谷歌为Gemini Notebook推出返校功能，强化学生AI学习场景。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31211",
+      "published_at": "2026-09-21T01:44:13.328154+00:00",
+      "detected_at": "2026-09-21T01:44:13.328160+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
+      "image_url": "https://upload.chinaz.com/2026/0921/6392557844832871477462286.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "8fb2010b6e145a3e",
+      "title": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 9月21日，通义千问团队开源新一代图像模型Qwen-Image-2.1。",
+      "display_title": "通义千问开源 Qwen-Image-2.1:7B 参数实现文生图与图像编辑一体化 9月21日，通义千问团队开源新一代图像模型Qwen-Image-2.1。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31212",
+      "published_at": "2026-09-21T01:44:13.326458+00:00",
+      "detected_at": "2026-09-21T01:44:13.326464+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
+      "image_url": "https://upload.chinaz.com/2026/0921/6392557855531739316736037.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "f567479da2bc04f5",
+      "title": "TypeSafe AI 推出决策专用模型 Jev：比大语言模型快 10 倍、成本仅十分之一 旧金山初创公司TypeSafe AI发布新型AI模型Jev，专用于回答是/否及多项选择题，并给出置信度评分。",
+      "display_title": "TypeSafe AI 推出决策专用模型 Jev：比大语言模型快 10 倍、成本仅十分之一 旧金山初创公司TypeSafe AI发布新型AI模型Jev，专用于回答是/否及多项选择题，并给出置信度评分。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31215",
+      "published_at": "2026-09-21T01:44:13.321256+00:00",
+      "detected_at": "2026-09-21T01:44:13.321262+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
+      "image_url": "https://upload.chinaz.com/2026/0921/6392557932921597726796820.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "cfc3205ef3225ece",
+      "title": "微软Copilot桌面版新增内置浏览器，支持多标签与全屏浏览 微软正在Windows和macOS版Copilot桌面应用测试内置并排浏览器，可在会话右侧打开网页，支持多标签和全屏，减少与外部浏览器跳转。",
+      "display_title": "微软Copilot桌面版新增内置浏览器，支持多标签与全屏浏览 微软正在Windows和macOS版Copilot桌面应用测试内置并排浏览器，可在会话右侧打开网页，支持多标签和全屏，减少与外部浏览器跳转。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31216",
+      "published_at": "2026-09-21T01:44:13.319559+00:00",
+      "detected_at": "2026-09-21T01:44:13.319565+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
+      "image_url": "https://upload.chinaz.com/2026/0921/6392557940944503509516052.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "261619635d841981",
+      "title": "Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一次测试中访问了3家外部公司系统。",
+      "display_title": "Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一次测试中访问了3家外部公司系统。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31217",
+      "published_at": "2026-09-21T01:44:13.317847+00:00",
+      "detected_at": "2026-09-21T01:44:13.317854+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
+      "image_url": "https://upload.chinaz.com/2026/0921/6392557966766964143296431.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "8958ecb57d42e9cb",
+      "title": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线",
+      "display_title": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31218",
+      "published_at": "2026-09-21T01:44:13.316058+00:00",
+      "detected_at": "2026-09-21T01:44:13.316073+00:00",
+      "summary": "ZCode 道歉并开源:阿里云 OSS 已清空，Repo Wiki 功能已下线 近日，ZCode团队就产品安全问题公开致歉并发布整改说明：相关代码已在GitHub（github.com/zai-org/ZCode）开源，并邀请中国信息通信研究院、绿盟科技开展安全审计。团队承诺对社区提及的代码数据无留存、从未用于模型训练；客户端v3.14.0已完成安全整改，以回应外界对数据安全与隐私保护的关切。 刚刚 4.6K Gemini 也\"越狱\"了：谷歌确认 5 月安全测试中闯入 3 家真实公司系统，同一家评估商的锅 谷歌确认，旗下Gemini模型在今年5月一...",
+      "image_url": "https://upload.chinaz.com/2026/0921/6392557973901866213743054.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -806,7 +936,7 @@
       "url": "https://www.appinn.com/jev-getting-started/",
       "published_at": "2026-09-20T00:00:00+00:00",
       "detected_at": "2026-09-20T16:13:54.043736+00:00",
-      "summary": "Jev 入门：ChatGPT 研究员做了个“不会聊天、不写代码”的 AI 模型，但速度快200倍、成本低400倍 AI 2026/09/20 0",
+      "summary": "Jev 入门：ChatGPT 研究员做了个“不会聊天、不写代码”的 AI 模型，但速度快200倍、成本低400倍 AI 2026/09/20 1",
       "image_url": "https://www.appinn.com/wp-content/uploads/2026/09/Copy-of-appinn-homework-2026-09-20T195436.029.jpg",
       "image_method": "og-validated",
       "image_rule_version": 13,
@@ -1383,7 +1513,7 @@
       "published_at": "2026-09-18T06:42:58.706251+00:00",
       "detected_at": "2026-09-18T06:42:58.706263+00:00",
       "summary": "具透 | 细数 watchOS 27 中你值得了解的新变化：动态应用网格、智能叠放…… 少数派编辑部 11:30",
-      "image_url": "https://rssfile.sspai.com/7/17/2026/article/a0fd9aa7-0634-53b8-6491-169ba187fb5f.jpeg?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/7/17/2026/article/a0fd9aa7-0634-53b8-6491-169ba187fb5f.jpeg?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -2120,7 +2250,7 @@
       "url": "https://www.appinn.com/driver-booster-13-pro/",
       "published_at": "2026-09-14T00:00:00+00:00",
       "detected_at": "2026-09-14T07:12:19.053496+00:00",
-      "summary": "电脑驱动更新工具 Driver Booster 13 Pro，限时 7 折特惠快入手！ Windows 2026/09/14 2",
+      "summary": "电脑驱动更新工具 Driver Booster 13 Pro，限时 7 折特惠快入手！ Windows 2026/09/14 3",
       "image_url": "https://www.appinn.com/wp-content/uploads/2026/09/Copy-of-appinn-homework-2026-09-14T141629.137.jpg",
       "image_method": "og-validated",
       "image_rule_version": 13,
