@@ -1,35 +1,90 @@
 {
-  "updated_at": "2026-09-26T02:08:09.735462+00:00",
-  "count": 492,
-  "hotspot_count": 10,
+  "updated_at": "2026-09-26T07:54:24.310578+00:00",
+  "count": 499,
+  "hotspot_count": 12,
   "breakthrough_count": 213,
   "category_counts": {
     "AI变现": 194,
-    "提效工具": 72,
+    "提效工具": 73,
     "前沿动态": 75
   },
   "source_counts": {
-    "Scientific Data": 136,
+    "Scientific Data": 142,
     "Nature Cities": 15
   },
   "hotspots": [
     {
-      "id": "e9eb6901cc81749c",
-      "title": "一对大熊猫即将赴美 意味着什么",
-      "summary": "成都繁育基地的大熊猫“平平”“福双”即将启程赴美，落户亚特兰大动物园开展为期十年的保护合作。美方耗资600万美元完成场馆... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E5%AF%B9%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%8D%B3%E5%B0%86%E8%B5%B4%E7%BE%8E+%E6%84%8F%E5%91%B3%E7%9D%80%E4%BB%80%E4%B9%88&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 3,
-      "hot_index": 7711776,
+      "id": "bd94be1c435a1145",
+      "title": "比尔·盖茨警告AI或致十亿人死亡",
+      "summary": "近日，微软公司创始人比尔·盖茨表示，人工智能可能导致出现十亿人死亡的事件。他在接受NBC电视台采访时说：“人工智能足够强... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%AF%94%E5%B0%94%C2%B7%E7%9B%96%E8%8C%A8%E8%AD%A6%E5%91%8AAI%E6%88%96%E8%87%B4%E5%8D%81%E4%BA%BF%E4%BA%BA%E6%AD%BB%E4%BA%A1&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 14,
+      "hot_index": 6660424,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 3
+        "百度热搜": 14
+      },
+      "topic": "人工智能",
+      "score": 94,
+      "recommended_title": "比尔·盖茨警告AI或致十亿人死亡刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02550-0/MediaObjects/41562_2026_2550_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02550-0",
+      "main_paper_title": "The shrinking landscape of linguistic diversity in the age of large language models",
+      "related_papers": [
+        {
+          "id": "4393f358759c48ae",
+          "title": "The shrinking landscape of linguistic diversity in the age of large language models",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02550-0",
+          "published_at": "2026-08-24T00:00:00+00:00",
+          "summary": "Sourati et al. find that variance in writing complexity dropped on social media, news and scientific writing after ChatGPT’s release, a shift from individuality towards uniformity. LLM polishing strips cues to gender, age, ideology and moral values.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02550-0/MediaObjects/41562_2026_2550_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "47e19848f6c4fa27",
+          "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04656-4",
+          "published_at": "2026-09-26T07:54:11.204965+00:00",
+          "summary": "In a large-scale study, a new tool called Esophageal AI-Guided malignant Lesion Evaluation uses artificial intelligence to enhance esophageal cancer detection through noncontrast computed tomography, achieving high sensitivity and specificity across diverse settings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "c7280bdb544c9363",
+          "title": "Renewable generation and electricity consumption datasets for energy market models generated with artificial intelligence",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08227-7",
+          "published_at": "2026-09-26T07:54:11.821491+00:00",
+          "summary": "Analysis of future energy scenarios requires comprehensive and reliable input datasets. Open-access datasets increase transparency and reduce barriers to entry in modeling. In our study, we use artificial neural network models to transform 43 years of weather reanalysis data i...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-026-52189-0/MediaObjects/41598_2026_52189_Fig1_HTML.png",
+          "match_score": 23
+        }
+      ],
+      "updated_at": "2026-09-26T07:54:16.970179+00:00"
+    },
+    {
+      "id": "9dc5077a9e238d9d",
+      "title": "中秋重庆动物园长满外国人",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E7%A7%8B%E9%87%8D%E5%BA%86%E5%8A%A8%E7%89%A9%E5%9B%AD%E9%95%BF%E6%BB%A1%E5%A4%96%E5%9B%BD%E4%BA%BA&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 15,
+      "hot_index": 2648464,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 15
       },
       "topic": "生态生命",
-      "score": 98,
-      "recommended_title": "一对大熊猫即将赴美 意味着什么背后的科学问题：Nature研究给出了哪些线索？",
+      "score": 92,
+      "recommended_title": "中秋重庆动物园长满外国人背后的科学问题：Nature研究给出了哪些线索？",
       "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
@@ -50,7 +105,7 @@
           "title": "The FunAqua dataset of global fungal biodiversity in aquatic ecosystems",
           "source": "Scientific Data",
           "url": "https://www.nature.com/articles/s41597-026-07729-8",
-          "published_at": "2026-09-26T02:07:56.168573+00:00",
+          "published_at": "2026-09-26T07:54:11.821933+00:00",
           "summary": "Advances in high-throughput DNA sequencing technologies have accelerated research on aquatic microorganisms, their diversity, and ecological functions. This has also significantly advanced research on fungi that shape aquatic ecosystems and food webs. Here, we present the FunA...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07729-8/MediaObjects/41597_2026_7729_Fig7_HTML.png",
           "match_score": 31
@@ -60,21 +115,76 @@
           "title": "The anthropogenic fingerprint on emerging infectious diseases",
           "source": "Nature",
           "url": "https://www.nature.com/articles/s41586-026-11058-6",
-          "published_at": "2026-09-26T02:07:53.961240+00:00",
+          "published_at": "2026-09-26T07:54:10.000987+00:00",
           "summary": "Emerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by inequalities in healthcare access.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
           "match_score": 28
         }
       ],
-      "updated_at": "2026-09-26T02:08:00.735239+00:00"
+      "updated_at": "2026-09-26T07:54:16.971303+00:00"
     },
     {
-      "id": "ecde3eca70b1c54a",
-      "title": "老板奖励优秀员工宝马：心疼其骑电车",
-      "summary": "近日，河南焦作饭店老板马艳利因心疼员工日常骑电动车通勤遇恶劣天气辛苦，决定奖励优秀员工每人一辆宝马轿车。据员工介绍，开会... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%80%81%E6%9D%BF%E5%A5%96%E5%8A%B1%E4%BC%98%E7%A7%80%E5%91%98%E5%B7%A5%E5%AE%9D%E9%A9%AC%EF%BC%9A%E5%BF%83%E7%96%BC%E5%85%B6%E9%AA%91%E7%94%B5%E8%BD%A6&sa=fyb_news&rsv_dl=fyb_news",
+      "id": "2a408a2a898524e7",
+      "title": "皮肤科医生提醒月饼吃多易“爆痘”",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E7%9A%AE%E8%82%A4%E7%A7%91%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92%E6%9C%88%E9%A5%BC%E5%90%83%E5%A4%9A%E6%98%93%E2%80%9C%E7%88%86%E7%97%98%E2%80%9D&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 17,
+      "hot_index": 2336788,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 17
+      },
+      "topic": "健康医学",
+      "score": 91,
+      "recommended_title": "皮肤科医生提醒月饼吃多易“爆痘”为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11058-6",
+      "main_paper_title": "The anthropogenic fingerprint on emerging infectious diseases",
+      "related_papers": [
+        {
+          "id": "9d30f3fe1768fbdf",
+          "title": "The anthropogenic fingerprint on emerging infectious diseases",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11058-6",
+          "published_at": "2026-09-26T07:54:10.000987+00:00",
+          "summary": "Emerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by inequalities in healthcare access.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
+          "match_score": 50
+        },
+        {
+          "id": "bc53bde134c47477",
+          "title": "Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04488-2",
+          "published_at": "2026-09-26T07:54:11.207232+00:00",
+          "summary": "In a large international real-world study of non-small cell lung cancer, a multimodal explainable AI model outperformed established biomarkers for immunotherapy outcome prediction and improved physician decision-making.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04488-2/MediaObjects/41591_2026_4488_Fig1_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
+          "id": "6b9572e7f95ebb85",
+          "title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11051-z",
+          "published_at": "2026-09-26T07:54:10.002152+00:00",
+          "summary": "Metastatic pancreatic ductal adenocarcinoma (PDAC) in the liver that lack the enzyme necessary to synthesize serine can reprogram hepatocytes to produce this amino acid, thus promoting tumour growth and survival.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        }
+      ],
+      "updated_at": "2026-09-26T07:54:16.973652+00:00"
+    },
+    {
+      "id": "c6a3edc2f0583a6a",
+      "title": "吉克隽逸头像已变黑",
+      "summary": "9月26日上午，对外经济贸易大学发布讣告：著名音乐家刘欢老师去世，享年63岁。曾经在《中国好声音》节目当中担任刘欢组学员... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%90%89%E5%85%8B%E9%9A%BD%E9%80%B8%E5%A4%B4%E5%83%8F%E5%B7%B2%E5%8F%98%E9%BB%91&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 21,
-      "hot_index": 5996361,
+      "hot_index": 5985416,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -84,227 +194,7 @@
       },
       "topic": "城市社会",
       "score": 88,
-      "recommended_title": "老板奖励优秀员工宝马：心疼其骑电车背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00493-1",
-      "main_paper_title": "Temporary loss of social-ecological system resilience during rural to urban transition",
-      "related_papers": [
-        {
-          "id": "05a6b1e851158d33",
-          "title": "Temporary loss of social-ecological system resilience during rural to urban transition",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00493-1",
-          "published_at": "2026-08-10T00:00:00+00:00",
-          "summary": "Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones become less resilient socially and ecologically as they transition.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
-          "match_score": 40
-        },
-        {
-          "id": "fe060d2024090144",
-          "title": "Two-phase flow dynamics of residual water transport in a front-load washing machine during spin cycle",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-63570-4",
-          "published_at": "2026-09-26T02:07:55.813180+00:00",
-          "summary": "Efficient dehydration in washing machines is critical for reducing energy consumption during drying and for preventing hygiene issues from residual moisture. This study investigated the internal flow behavior of residual water in a front-load washing machine, focusing on the m...",
-          "image_url": "",
-          "match_score": 35
-        },
-        {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-09-26T02:07:56.537490+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-09-26T02:08:00.739516+00:00"
-    },
-    {
-      "id": "b4303690a02a77d3",
-      "title": "爱“嗑”瓜子有这些好处",
-      "summary": "秋天一到，除了核桃、板栗，葵花子、南瓜子、西瓜子等各种瓜子也纷纷上市。同样是“嗑”出来的快乐，它们在营养上有什么讲究？又... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%88%B1%E2%80%9C%E5%97%91%E2%80%9D%E7%93%9C%E5%AD%90%E6%9C%89%E8%BF%99%E4%BA%9B%E5%A5%BD%E5%A4%84&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 23,
-      "hot_index": 5803590,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 23
-      },
-      "topic": "健康医学",
-      "score": 87,
-      "recommended_title": "爱“嗑”瓜子有这些好处为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11029-x/MediaObjects/41586_2026_11029_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11029-x",
-      "main_paper_title": "Lsp2 links mTORC1 to TOP mRNA translation and lifespan in Drosophila",
-      "related_papers": [
-        {
-          "id": "604b85b7066e8fea",
-          "title": "Lsp2 links mTORC1 to TOP mRNA translation and lifespan in Drosophila",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11029-x",
-          "published_at": "2026-09-26T02:07:53.965816+00:00",
-          "summary": "In Drosophila , the protein Lsp2, which is induced by dietary essential amino acids, is a key physiological effector of mTORC1, and mutant flies that lack the Lsp2 gene exhibit reduced translation of TOP mRNAs and improved longevity.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11029-x/MediaObjects/41586_2026_11029_Fig1_HTML.png?as=webp",
-          "match_score": 50
-        },
-        {
-          "id": "6b9572e7f95ebb85",
-          "title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11051-z",
-          "published_at": "2026-09-26T02:07:53.962911+00:00",
-          "summary": "Metastatic pancreatic ductal adenocarcinoma (PDAC) in the liver that lack the enzyme necessary to synthesize serine can reprogram hepatocytes to produce this amino acid, thus promoting tumour growth and survival.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        },
-        {
-          "id": "313ef8f31ce5c5df",
-          "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-09-26T02:07:55.044689+00:00",
-          "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-09-26T02:08:00.742968+00:00"
-    },
-    {
-      "id": "3d2462e9159b2230",
-      "title": "尼泊尔：想找中印合作",
-      "summary": "据彭博社9月25日报道，尼泊尔总理沙阿在联合国大会提议与中印建立“喜马拉雅气候韧性机制”。起因是8月26日尼泊尔与中国边... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%B0%BC%E6%B3%8A%E5%B0%94%EF%BC%9A%E6%83%B3%E6%89%BE%E4%B8%AD%E5%8D%B0%E5%90%88%E4%BD%9C&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 25,
-      "hot_index": 5607779,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 25
-      },
-      "topic": "气候环境",
-      "score": 85,
-      "recommended_title": "尼泊尔：想找中印合作背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02762-2",
-      "main_paper_title": "Earlier and faster heatwave onset on land under a warming climate",
-      "related_papers": [
-        {
-          "id": "21fd9b290cb0ce81",
-          "title": "Earlier and faster heatwave onset on land under a warming climate",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02762-2",
-          "published_at": "2026-09-26T02:07:54.671622+00:00",
-          "summary": "Heatwaves are expected to become more frequent and intense with global warming. Here the authors assess changes in their timing, finding that the heatwave season expands and that many regions see a faster onset of heatwaves.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "e7f506bcee6f5917",
-          "title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02576-4",
-          "published_at": "2026-09-26T02:07:55.043337+00:00",
-          "summary": "Dong, Qiao and Zhou show how variations in the level of air pollution impact the productivity of scholarly researchers in China.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "84e8211174a6c91b",
-          "title": "Reduced flood-related bacillary dysentery risk with sponge city development in China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00514-z",
-          "published_at": "2026-09-26T02:07:56.539123+00:00",
-          "summary": "Flooding exacerbates bacillary dysentery risks, particularly among vulnerable groups. Analysis of 4.2 million cases in China utilized case-crossover and quasi-experimental methods, revealing a 12.2% risk reduction post-sponge city development, especially in areas with weaker i...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00514-z/MediaObjects/44284_2026_514_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-09-26T02:08:00.744907+00:00"
-    },
-    {
-      "id": "c7d57d2ab60d88ca",
-      "title": "刚死不久的螃蟹还能吃吗",
-      "summary": "螃蟹死后细菌会繁殖生成组胺毒素，河蟹风险更高。即便刚死不久，常温存放也会快速变质，毒素高温难以消除。若无法确定死亡时长，... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%88%9A%E6%AD%BB%E4%B8%8D%E4%B9%85%E7%9A%84%E8%9E%83%E8%9F%B9%E8%BF%98%E8%83%BD%E5%90%83%E5%90%97&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 35,
-      "hot_index": 4640932,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 35
-      },
-      "topic": "气候环境",
-      "score": 77,
-      "recommended_title": "刚死不久的螃蟹还能吃吗背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02732-8",
-      "main_paper_title": "Divergence between physical and emotional heat resilience in Chinese cities",
-      "related_papers": [
-        {
-          "id": "ac59ef1c1d6d6189",
-          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02732-8",
-          "published_at": "2026-09-26T02:07:54.673026+00:00",
-          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
-          "match_score": 45
-        },
-        {
-          "id": "e944aee080af09a4",
-          "title": "Flash energy droughts in solar and wind resources under climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-09-26T02:07:54.671890+00:00",
-          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "dc49dfc3fefe25b2",
-          "title": "Greening masks stability loss in drylands",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02733-7",
-          "published_at": "2026-09-26T02:07:54.673304+00:00",
-          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        }
-      ],
-      "updated_at": "2026-09-26T02:08:00.746897+00:00"
-    },
-    {
-      "id": "e9e54c3d6edbf861",
-      "title": "我怕咬缺了它 爸爸找不到回家的路",
-      "summary": "中秋佳节，杭州一小学生以《给爸爸留的圆月亮》为题，写下：“我怕咬缺了它，在外工作的爸爸就找不到回家的路。”细腻的笔触感动... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%88%91%E6%80%95%E5%92%AC%E7%BC%BA%E4%BA%86%E5%AE%83+%E7%88%B8%E7%88%B8%E6%89%BE%E4%B8%8D%E5%88%B0%E5%9B%9E%E5%AE%B6%E7%9A%84%E8%B7%AF&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 37,
-      "hot_index": 4468112,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 37
-      },
-      "topic": "城市社会",
-      "score": 75,
-      "recommended_title": "我怕咬缺了它 爸爸找不到回家的路背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "吉克隽逸头像已变黑背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
@@ -321,210 +211,210 @@
           "match_score": 60
         },
         {
+          "id": "3b2c24d459cfb635",
+          "title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02456-x",
+          "published_at": "2026-08-26T00:00:00+00:00",
+          "summary": "Basarkod et al. synthesize evidence from 92 randomized controlled trials, finding that interventions in naturalistic education settings effectively improve students’ moral outcomes.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
           "id": "9d98920bd1156bdc",
           "title": "A harmonized European database of education, telework, labour market and earnings from three Eurostat surveys",
           "source": "Scientific Data",
           "url": "https://www.nature.com/articles/s41597-026-08374-x",
-          "published_at": "2026-09-26T02:07:56.167021+00:00",
+          "published_at": "2026-09-26T07:54:11.820818+00:00",
           "summary": "VSET is a harmonized cross-survey profile-space resource documenting the alignment of education, occupation, labour-market, telework, establishment size, and earnings variables from three Eurostat surveys. It combines three Eurostat microdata sources accessed under an approved...",
-          "image_url": "",
-          "match_score": 51
-        },
-        {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 48
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1057%2Fs41599-025-06051-9/MediaObjects/41599_2025_6051_Fig1_HTML.png",
+          "match_score": 37
         }
       ],
-      "updated_at": "2026-09-26T02:08:00.751207+00:00"
+      "updated_at": "2026-09-26T07:54:16.976298+00:00"
     },
     {
-      "id": "519e611126edd6f2",
-      "title": "亚运会金牌有“瑕疵”",
-      "summary": "9月25日，亚运会组委会确认，一名电竞项目运动员获金牌后发现奖牌边缘存在色差瑕疵并提出更换。组委会当晚即派人前往运动员住... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%9A%E8%BF%90%E4%BC%9A%E9%87%91%E7%89%8C%E6%9C%89%E2%80%9C%E7%91%95%E7%96%B5%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 39,
-      "hot_index": 4254627,
+      "id": "95683b293258cc98",
+      "title": "刘欢走了 “我和你”都会记得",
+      "summary": "9月26日，对外经济贸易大学发布讣告称，退休教师、音乐家刘欢于9月25日在上海不幸病逝，享年63岁。此前，刘欢曾演唱《亚... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%88%98%E6%AC%A2%E8%B5%B0%E4%BA%86+%E2%80%9C%E6%88%91%E5%92%8C%E4%BD%A0%E2%80%9D%E9%83%BD%E4%BC%9A%E8%AE%B0%E5%BE%97&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 22,
+      "hot_index": 5895241,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 39
+        "百度热搜": 22
       },
-      "topic": "健康医学",
-      "score": 74,
-      "recommended_title": "亚运会金牌有“瑕疵”为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11058-6",
-      "main_paper_title": "The anthropogenic fingerprint on emerging infectious diseases",
+      "topic": "城市社会",
+      "score": 87,
+      "recommended_title": "刘欢走了 “我和你”都会记得背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02456-x",
+      "main_paper_title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
       "related_papers": [
         {
-          "id": "9d30f3fe1768fbdf",
-          "title": "The anthropogenic fingerprint on emerging infectious diseases",
+          "id": "3b2c24d459cfb635",
+          "title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02456-x",
+          "published_at": "2026-08-26T00:00:00+00:00",
+          "summary": "Basarkod et al. synthesize evidence from 92 randomized controlled trials, finding that interventions in naturalistic education settings effectively improve students’ moral outcomes.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-09-26T07:54:12.114112+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-09-26T07:54:12.114529+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-09-26T07:54:16.978968+00:00"
+    },
+    {
+      "id": "7f47e86530918ccb",
+      "title": "多所在蓉高校迎来校庆",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E6%89%80%E5%9C%A8%E8%93%89%E9%AB%98%E6%A0%A1%E8%BF%8E%E6%9D%A5%E6%A0%A1%E5%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 23,
+      "hot_index": 1393879,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 23
+      },
+      "topic": "城市社会",
+      "score": 85,
+      "recommended_title": "多所在蓉高校迎来校庆背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1057%2Fs41599-025-06051-9/MediaObjects/41599_2025_6051_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41597-026-08374-x",
+      "main_paper_title": "A harmonized European database of education, telework, labour market and earnings from three Eurostat surveys",
+      "related_papers": [
+        {
+          "id": "9d98920bd1156bdc",
+          "title": "A harmonized European database of education, telework, labour market and earnings from three Eurostat surveys",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08374-x",
+          "published_at": "2026-09-26T07:54:11.820818+00:00",
+          "summary": "VSET is a harmonized cross-survey profile-space resource documenting the alignment of education, occupation, labour-market, telework, establishment size, and earnings variables from three Eurostat surveys. It combines three Eurostat microdata sources accessed under an approved...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1057%2Fs41599-025-06051-9/MediaObjects/41599_2025_6051_Fig1_HTML.png",
+          "match_score": 37
+        },
+        {
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-09-26T07:54:12.114706+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "70e364dc4227dc20",
+          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00511-2",
+          "published_at": "2026-09-26T07:54:12.115119+00:00",
+          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-09-26T07:54:16.981589+00:00"
+    },
+    {
+      "id": "917cf6e3227573e5",
+      "title": "长沙把眼健康科普搬进实景空间",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E6%B2%99%E6%8A%8A%E7%9C%BC%E5%81%A5%E5%BA%B7%E7%A7%91%E6%99%AE%E6%90%AC%E8%BF%9B%E5%AE%9E%E6%99%AF%E7%A9%BA%E9%97%B4&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 24,
+      "hot_index": 1239903,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 24
+      },
+      "topic": "健康医学",
+      "score": 84,
+      "recommended_title": "长沙把眼健康科普搬进实景空间为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11051-z",
+      "main_paper_title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
+      "related_papers": [
+        {
+          "id": "6b9572e7f95ebb85",
+          "title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
           "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11058-6",
-          "published_at": "2026-09-26T02:07:53.961240+00:00",
-          "summary": "Emerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by inequalities in healthcare access.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
+          "url": "https://www.nature.com/articles/s41586-026-11051-z",
+          "published_at": "2026-09-26T07:54:10.002152+00:00",
+          "summary": "Metastatic pancreatic ductal adenocarcinoma (PDAC) in the liver that lack the enzyme necessary to synthesize serine can reprogram hepatocytes to produce this amino acid, thus promoting tumour growth and survival.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
           "match_score": 36
         },
         {
-          "id": "4b66c888e3a3c88b",
-          "title": "Trastuzumab plus nivolumab with gemcitabine and cisplatin as first-line therapy for HER2-positive unresectable biliary tract cancer: a phase 1b/2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04679-x",
-          "published_at": "2026-09-26T02:07:55.449555+00:00",
-          "summary": "In a phase 1b/2 trial, first-line treatment of participants with biliary tract cancer with human epidermal growth factor receptor 2 (HER2)-targeting trastuzumab in combination with nivolumab plus gemcitabine and cisplatin showed encouraging clinical response rates and HER2 exp...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04679-x/MediaObjects/41591_2026_4679_Fig2_HTML.png?as=webp",
-          "match_score": 35
+          "id": "604b85b7066e8fea",
+          "title": "Lsp2 links mTORC1 to TOP mRNA translation and lifespan in Drosophila",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11029-x",
+          "published_at": "2026-09-26T07:54:10.004139+00:00",
+          "summary": "In Drosophila , the protein Lsp2, which is induced by dietary essential amino acids, is a key physiological effector of mTORC1, and mutant flies that lack the Lsp2 gene exhibit reduced translation of TOP mRNAs and improved longevity.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11029-x/MediaObjects/41586_2026_11029_Fig1_HTML.png?as=webp",
+          "match_score": 36
         },
         {
-          "id": "4fbcecf71efa0d92",
-          "title": "Sex-specific biological aging clocks across organs and omics",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04662-6",
-          "published_at": "2026-09-26T02:07:55.450958+00:00",
-          "summary": "Sex-specific biological aging clocks across multiple organs and molecular systems show that female and male aging patterns can differ in organ-specific, disease-relevant ways.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04662-6/MediaObjects/41591_2026_4662_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-09-26T02:08:00.754568+00:00"
-    },
-    {
-      "id": "7a5c61a5ae615cd6",
-      "title": "“平平”“福双”将赴美",
-      "summary": "近日，记者从国家林草局获悉，来自成都的大熊猫“平平”和“福双”将赴美国亚特兰大动物园，开启为期十年的大熊猫保护国际合作。... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%B9%B3%E5%B9%B3%E2%80%9D%E2%80%9C%E7%A6%8F%E5%8F%8C%E2%80%9D%E5%B0%86%E8%B5%B4%E7%BE%8E&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 40,
-      "hot_index": 4158937,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 40
-      },
-      "topic": "生态生命",
-      "score": 73,
-      "recommended_title": "“平平”“福双”将赴美背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07729-8/MediaObjects/41597_2026_7729_Fig7_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s41597-026-07729-8",
-      "main_paper_title": "The FunAqua dataset of global fungal biodiversity in aquatic ecosystems",
-      "related_papers": [
-        {
-          "id": "aa09be3993dbde95",
-          "title": "The FunAqua dataset of global fungal biodiversity in aquatic ecosystems",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-07729-8",
-          "published_at": "2026-09-26T02:07:56.168573+00:00",
-          "summary": "Advances in high-throughput DNA sequencing technologies have accelerated research on aquatic microorganisms, their diversity, and ecological functions. This has also significantly advanced research on fungi that shape aquatic ecosystems and food webs. Here, we present the FunA...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07729-8/MediaObjects/41597_2026_7729_Fig7_HTML.png",
-          "match_score": 31
-        },
-        {
-          "id": "54e88b697837eb4d",
-          "title": "A cross-species atlas platform for comparative neuroscience in teleost fish",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-77879-1",
-          "published_at": "2026-09-26T02:07:54.331642+00:00",
-          "summary": "This presents a scalable interactive brain atlas, which enables quantitative comparison of anatomical, molecular and functional data across zebrafish and medaka larvae, revealing both conserved and divergent features of brain organization and social processing.",
-          "image_url": "",
-          "match_score": 25
-        },
-        {
-          "id": "1be1c971aa705673",
-          "title": "Climate warming drives thermal shocks and accelerated freshwater habitat fragmentation",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02731-9",
-          "published_at": "2026-08-24T00:00:00+00:00",
-          "summary": "Assessing 9,809 freshwater fish species globally, this study shows risk to a high proportion of species in the tropics, and severe extremes in non-tropical regions. Under high emissions, gradual warming drives abrupt exposure, with 63% of species facing accelerating thermal fr...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02731-9/MediaObjects/41558_2026_2731_Fig1_HTML.png?as=webp",
-          "match_score": 19
-        }
-      ],
-      "updated_at": "2026-09-26T02:08:00.756197+00:00"
-    },
-    {
-      "id": "50424ddb069ac956",
-      "title": "加沙地带帐篷似“蒸笼” 海水被污染",
-      "summary": "9月，加沙地带高温持续，流离失所民众的帐篷内温度近40摄氏度，沦为“蒸笼”。此前自2023年10月起，大批民众陷入流离失... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8A%A0%E6%B2%99%E5%9C%B0%E5%B8%A6%E5%B8%90%E7%AF%B7%E4%BC%BC%E2%80%9C%E8%92%B8%E7%AC%BC%E2%80%9D+%E6%B5%B7%E6%B0%B4%E8%A2%AB%E6%B1%A1%E6%9F%93&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 42,
-      "hot_index": 3997935,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 42
-      },
-      "topic": "气候环境",
-      "score": 71,
-      "recommended_title": "加沙地带帐篷似“蒸笼” 海水被污染背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02576-4",
-      "main_paper_title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
-      "related_papers": [
-        {
-          "id": "e7f506bcee6f5917",
-          "title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
+          "id": "313ef8f31ce5c5df",
+          "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
           "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02576-4",
-          "published_at": "2026-09-26T02:07:55.043337+00:00",
-          "summary": "Dong, Qiao and Zhou show how variations in the level of air pollution impact the productivity of scholarly researchers in China.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
+          "url": "https://www.nature.com/articles/s41562-026-02568-4",
+          "published_at": "2026-09-26T07:54:10.905349+00:00",
+          "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
           "match_score": 35
-        },
-        {
-          "id": "25066fa349f361ec",
-          "title": "Genetically engineered crop adoption support yields and cultivation under climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02737-3",
-          "published_at": "2026-09-26T02:07:54.673583+00:00",
-          "summary": "The authors analyse the impacts of the adoption of genetically engineered crops in the USA over 40 years. They show that genetically engineered crop adoption has led to some increases in yield and reduced yield volatility, while also acting as an adaptation against climate cha...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02737-3/MediaObjects/41558_2026_2737_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "3318c9297470850d",
-          "title": "Declines in European bumblebee habitat suitability attributable to climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02734-6",
-          "published_at": "2026-09-26T02:07:54.673861+00:00",
-          "summary": "The authors consider factual and counterfactual scenarios to isolate the role of climate change in the decline of suitable habitats for European bumblebees (1901–2019). They show reductions of 5% on average, and up to 19% locally, with high-altitude gains partially offsetting...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02734-6/MediaObjects/41558_2026_2734_Fig1_HTML.png?as=webp",
-          "match_score": 27
         }
       ],
-      "updated_at": "2026-09-26T02:08:00.758174+00:00"
+      "updated_at": "2026-09-26T07:54:16.983791+00:00"
     },
     {
-      "id": "c68214e8dc61e504",
-      "title": "Z世代爱上养蛇",
-      "summary": "近年来，养蛇正成为Z世代年轻人的新宠。据《2025年中国宠物行业白皮书》，2024年国内异宠饲养约1707万人，蛇类占爬... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=Z%E4%B8%96%E4%BB%A3%E7%88%B1%E4%B8%8A%E5%85%BB%E8%9B%87&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 43,
-      "hot_index": 3895230,
+      "id": "0a98ef4ed788bb14",
+      "title": "刘欢遗愿不举行遗体告别仪式",
+      "summary": "9月26日上午，对外经济贸易大学与芒果V基金发布讣告：著名音乐家刘欢于2026年9月25日9时52分在上海病逝，享年63... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%88%98%E6%AC%A2%E9%81%97%E6%84%BF%E4%B8%8D%E4%B8%BE%E8%A1%8C%E9%81%97%E4%BD%93%E5%91%8A%E5%88%AB%E4%BB%AA%E5%BC%8F&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 26,
+      "hot_index": 5507141,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 43
+        "百度热搜": 26
       },
       "topic": "城市社会",
-      "score": 70,
-      "recommended_title": "Z世代爱上养蛇背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 84,
+      "recommended_title": "刘欢遗愿不举行遗体告别仪式背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00518-9",
@@ -535,36 +425,364 @@
           "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-09-26T02:07:56.537490+00:00",
+          "published_at": "2026-09-26T07:54:12.114112+00:00",
           "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
           "match_score": 34
         },
         {
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-09-26T07:54:16.986451+00:00"
+    },
+    {
+      "id": "53cde9255b34ad00",
+      "title": "别等渴了再喝水",
+      "summary": "9月12日，农业农村部食物与营养发展研究所等联合发布《饮用水健康与感官品质研究报告》。报告提醒，感到口渴时身体已出现1%... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%88%AB%E7%AD%89%E6%B8%B4%E4%BA%86%E5%86%8D%E5%96%9D%E6%B0%B4&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 35,
+      "hot_index": 4659629,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 35
+      },
+      "topic": "健康医学",
+      "score": 77,
+      "recommended_title": "别等渴了再喝水为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11029-x/MediaObjects/41586_2026_11029_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11029-x",
+      "main_paper_title": "Lsp2 links mTORC1 to TOP mRNA translation and lifespan in Drosophila",
+      "related_papers": [
+        {
+          "id": "604b85b7066e8fea",
+          "title": "Lsp2 links mTORC1 to TOP mRNA translation and lifespan in Drosophila",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11029-x",
+          "published_at": "2026-09-26T07:54:10.004139+00:00",
+          "summary": "In Drosophila , the protein Lsp2, which is induced by dietary essential amino acids, is a key physiological effector of mTORC1, and mutant flies that lack the Lsp2 gene exhibit reduced translation of TOP mRNAs and improved longevity.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11029-x/MediaObjects/41586_2026_11029_Fig1_HTML.png?as=webp",
+          "match_score": 50
+        },
+        {
+          "id": "4b66c888e3a3c88b",
+          "title": "Trastuzumab plus nivolumab with gemcitabine and cisplatin as first-line therapy for HER2-positive unresectable biliary tract cancer: a phase 1b/2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04679-x",
+          "published_at": "2026-09-26T07:54:11.205536+00:00",
+          "summary": "In a phase 1b/2 trial, first-line treatment of participants with biliary tract cancer with human epidermal growth factor receptor 2 (HER2)-targeting trastuzumab in combination with nivolumab plus gemcitabine and cisplatin showed encouraging clinical response rates and HER2 exp...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04679-x/MediaObjects/41591_2026_4679_Fig2_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "4fbcecf71efa0d92",
+          "title": "Sex-specific biological aging clocks across organs and omics",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04662-6",
+          "published_at": "2026-09-26T07:54:11.206430+00:00",
+          "summary": "Sex-specific biological aging clocks across multiple organs and molecular systems show that female and male aging patterns can differ in organ-specific, disease-relevant ways.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04662-6/MediaObjects/41591_2026_4662_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-09-26T07:54:16.988753+00:00"
+    },
+    {
+      "id": "844d4584b57c24c3",
+      "title": "回顾刘欢经典歌曲《好汉歌》",
+      "summary": "9月26日上午，对外经贸大学发布讣告：对外经贸大学退休教师、全国家喻户晓的音乐家刘欢，于2026年9月25日上午9时52... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%9E%E9%A1%BE%E5%88%98%E6%AC%A2%E7%BB%8F%E5%85%B8%E6%AD%8C%E6%9B%B2%E3%80%8A%E5%A5%BD%E6%B1%89%E6%AD%8C%E3%80%8B&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 40,
+      "hot_index": 4166876,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 40
+      },
+      "topic": "城市社会",
+      "score": 73,
+      "recommended_title": "回顾刘欢经典歌曲《好汉歌》背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00520-1",
+      "main_paper_title": "Sustaining green stormwater infrastructure adoption in cities",
+      "related_papers": [
+        {
           "id": "1b46eeb6ce82e0c4",
           "title": "Sustaining green stormwater infrastructure adoption in cities",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00520-1",
-          "published_at": "2026-09-26T02:07:56.538069+00:00",
+          "published_at": "2026-09-26T07:54:12.114529+00:00",
           "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
           "match_score": 34
         },
         {
+          "id": "9d681ce542c638d2",
+          "title": "Single-nucleus transcriptome-wide association study of human brain disorders",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10836-6",
+          "published_at": "2026-09-26T07:54:10.001379+00:00",
+          "summary": "Single-nucleus transcriptomics across diverse populations is used to explore how genetic risk for brain disorders affects specific cell types, revealing previously hidden gene–trait associations and conserved, cell-type-specific mechanisms.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-10836-6/MediaObjects/41586_2026_10836_Fig5_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 60
+        }
+      ],
+      "updated_at": "2026-09-26T07:54:16.991477+00:00"
+    },
+    {
+      "id": "bfe3820435a8652b",
+      "title": "小狗阅兵走到一半直接求抱抱",
+      "summary": "智利近日举行阅兵彩排，受到高温天气影响，队伍中的小警犬走到一半逐渐体力不支，只能由工作人员抱着继续前进。好不容易完成彩排... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E7%8B%97%E9%98%85%E5%85%B5%E8%B5%B0%E5%88%B0%E4%B8%80%E5%8D%8A%E7%9B%B4%E6%8E%A5%E6%B1%82%E6%8A%B1%E6%8A%B1&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 41,
+      "hot_index": 4085109,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 41
+      },
+      "topic": "气候环境",
+      "score": 72,
+      "recommended_title": "小狗阅兵走到一半直接求抱抱背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02762-2",
+      "main_paper_title": "Earlier and faster heatwave onset on land under a warming climate",
+      "related_papers": [
+        {
+          "id": "21fd9b290cb0ce81",
+          "title": "Earlier and faster heatwave onset on land under a warming climate",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02762-2",
+          "published_at": "2026-09-26T07:54:10.571692+00:00",
+          "summary": "Heatwaves are expected to become more frequent and intense with global warming. Here the authors assess changes in their timing, finding that the heatwave season expands and that many regions see a faster onset of heatwaves.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
+          "match_score": 49
+        },
+        {
+          "id": "ac59ef1c1d6d6189",
+          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02732-8",
+          "published_at": "2026-09-26T07:54:10.572568+00:00",
+          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
+          "match_score": 45
+        },
+        {
+          "id": "e7f506bcee6f5917",
+          "title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02576-4",
+          "published_at": "2026-09-26T07:54:10.904411+00:00",
+          "summary": "Dong, Qiao and Zhou show how variations in the level of air pollution impact the productivity of scholarly researchers in China.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-09-26T07:54:16.992829+00:00"
+    },
+    {
+      "id": "b2c387a628dce1ca",
+      "title": "刘欢曾在录制《歌手》时心律失常手抖",
+      "summary": "9月26日，对外经济贸易大学发布讣告，著名音乐家刘欢于9月25日在上海病逝，享年63岁。刘欢近年来身体状况受到外界关注，... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%88%98%E6%AC%A2%E6%9B%BE%E5%9C%A8%E5%BD%95%E5%88%B6%E3%80%8A%E6%AD%8C%E6%89%8B%E3%80%8B%E6%97%B6%E5%BF%83%E5%BE%8B%E5%A4%B1%E5%B8%B8%E6%89%8B%E6%8A%96&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 46,
+      "hot_index": 3617935,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 46
+      },
+      "topic": "城市社会",
+      "score": 68,
+      "recommended_title": "刘欢曾在录制《歌手》时心律失常手抖背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00517-w",
+      "main_paper_title": "Urbanization promotes biological invasions in global cities",
+      "related_papers": [
+        {
           "id": "d31d704e3d193848",
           "title": "Urbanization promotes biological invasions in global cities",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00517-w",
-          "published_at": "2026-09-26T02:07:56.538345+00:00",
+          "published_at": "2026-09-26T07:54:12.114706+00:00",
           "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
           "match_score": 34
+        },
+        {
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 60
+        },
+        {
+          "id": "3b2c24d459cfb635",
+          "title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02456-x",
+          "published_at": "2026-08-26T00:00:00+00:00",
+          "summary": "Basarkod et al. synthesize evidence from 92 randomized controlled trials, finding that interventions in naturalistic education settings effectively improve students’ moral outcomes.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
+          "match_score": 41
         }
       ],
-      "updated_at": "2026-09-26T02:08:00.762241+00:00"
+      "updated_at": "2026-09-26T07:54:16.995548+00:00"
     }
   ],
   "items": [
+    {
+      "id": "c7280bdb544c9363",
+      "title": "Renewable generation and electricity consumption datasets for energy market models generated with artificial intelligence",
+      "display_title": "Renewable generation and electricity consumption datasets for energy market models generated with artificial intelligence",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08227-7",
+      "published_at": "2026-09-26T07:49:46.814403+00:00",
+      "detected_at": "2026-09-26T07:49:47.117791+00:00",
+      "summary": "Analysis of future energy scenarios requires comprehensive and reliable input datasets. Open-access datasets increase transparency and reduce barriers to entry in modeling. In our study, we use artificial neural network models to transform 43 years of weather reanalysis data i...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-026-52189-0/MediaObjects/41598_2026_52189_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "8ce8c2a21f6ffbb2",
+      "title": "Long-term seasonal ruminant livestock distribution datasets in China’s grazing production systems",
+      "display_title": "Long-term seasonal ruminant livestock distribution datasets in China’s grazing production systems",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08316-7",
+      "published_at": "2026-09-26T07:49:46.814100+00:00",
+      "detected_at": "2026-09-26T07:49:47.117529+00:00",
+      "summary": "Accurate spatial distribution data of grazing livestock are essential for rangeland management and sustainability assessments, yet existing global datasets lack production system differentiation and seasonal resolution. We present China’s Long-term Ruminant Livestock Distribut...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-023-02050-0/MediaObjects/41597_2023_2050_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "ba06b74925407ec4",
+      "title": "A Pan-European Multimodal Dataset Linking Field Photos with Satellite Image Time Series for Agricultural Mapping",
+      "display_title": "A Pan-European Multimodal Dataset Linking Field Photos with Satellite Image Time Series for Agricultural Mapping",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08073-7",
+      "published_at": "2026-09-26T07:49:46.813961+00:00",
+      "detected_at": "2026-09-26T07:49:47.117391+00:00",
+      "summary": "AgroFusion is a continental-scale, multimodal, pixel-based reference dataset designed to support rigorous evaluation and reproducible research in agricultural remote sensing and geospatial Artificial Intelligence (AI). Built upon the 2018 and 2022 Land Use/Cover Area frame sta...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-024-03842-8/MediaObjects/41597_2024_3842_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "b94fc160651dbc0e",
+      "title": "A curated comprehensive dataset of asymmetric organocatalytic Mannich reaction",
+      "display_title": "A curated comprehensive dataset of asymmetric organocatalytic Mannich reaction",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08287-9",
+      "published_at": "2026-09-26T07:49:46.813822+00:00",
+      "detected_at": "2026-09-26T07:49:47.117248+00:00",
+      "summary": "The asymmetric organocatalytic Mannich reaction is one of the key methods for constructing chiral β-aminocarbonyl moieties that occur in the structures of many biologically active compounds, including drugs. The selection of a catalyst and reaction conditions that ensure high...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41467-024-53048-0/MediaObjects/41467_2024_53048_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "9d98920bd1156bdc",
+      "title": "A harmonized European database of education, telework, labour market and earnings from three Eurostat surveys",
+      "display_title": "A harmonized European database of education, telework, labour market and earnings from three Eurostat surveys",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08374-x",
+      "published_at": "2026-09-26T07:49:46.813676+00:00",
+      "detected_at": "2026-09-26T07:49:47.117117+00:00",
+      "summary": "VSET is a harmonized cross-survey profile-space resource documenting the alignment of education, occupation, labour-market, telework, establishment size, and earnings variables from three Eurostat surveys. It combines three Eurostat microdata sources accessed under an approved...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1057%2Fs41599-025-06051-9/MediaObjects/41599_2025_6051_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "389acdaa0a7ed9d0",
+      "title": "A Benchmark Dataset of Simultaneous Pickup-Delivery Instances for Demand-controlled and Emission-aware Routing",
+      "display_title": "A Benchmark Dataset of Simultaneous Pickup-Delivery Instances for Demand-controlled and Emission-aware Routing",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08343-4",
+      "published_at": "2026-09-26T07:49:46.813489+00:00",
+      "detected_at": "2026-09-26T07:49:47.116968+00:00",
+      "summary": "Vehicle routing with simultaneous pickup and delivery is a routing problem in which a customer may receive goods from the depot and return goods to it during the same visit. It is the routing structure underlying reverse logistics, the circulation of reusable containers, and c...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs44333-026-00084-6/MediaObjects/44333_2026_84_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
     {
       "id": "7f279694ce35c17e",
       "title": "AI团队重组频上热搜：豆包回应“对话团队砍掉一半”传闻不实 豆包因通用Session团队人员缩减传闻登上热搜，出现“裁员”“对话团队砍掉一半”“豆包被边缘化”等说法。",
@@ -572,9 +790,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31338",
-      "published_at": "2026-09-26T02:03:18.680452+00:00",
-      "detected_at": "2026-09-26T02:03:18.680457+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.642141+00:00",
+      "detected_at": "2026-09-26T07:49:32.642143+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392584624142313939093815.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -590,9 +808,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31341",
-      "published_at": "2026-09-26T02:03:18.676415+00:00",
-      "detected_at": "2026-09-26T02:03:18.676420+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.639488+00:00",
+      "detected_at": "2026-09-26T07:49:32.639491+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392585535854360972251068.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -608,9 +826,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31343",
-      "published_at": "2026-09-26T02:03:18.673596+00:00",
-      "detected_at": "2026-09-26T02:03:18.673601+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.637621+00:00",
+      "detected_at": "2026-09-26T07:49:32.637624+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392585642682691568958776.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -626,9 +844,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31344",
-      "published_at": "2026-09-26T02:03:18.672241+00:00",
-      "detected_at": "2026-09-26T02:03:18.672245+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.636713+00:00",
+      "detected_at": "2026-09-26T07:49:32.636716+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392585678703947778459352.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -644,9 +862,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31345",
-      "published_at": "2026-09-26T02:03:18.670888+00:00",
-      "detected_at": "2026-09-26T02:03:18.670893+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.635830+00:00",
+      "detected_at": "2026-09-26T07:49:32.635832+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392585788267720753680426.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -662,9 +880,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31346",
-      "published_at": "2026-09-26T02:03:18.669537+00:00",
-      "detected_at": "2026-09-26T02:03:18.669542+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.634941+00:00",
+      "detected_at": "2026-09-26T07:49:32.634944+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392585801747424885081439.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -680,9 +898,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31347",
-      "published_at": "2026-09-26T02:03:18.668173+00:00",
-      "detected_at": "2026-09-26T02:03:18.668178+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.634036+00:00",
+      "detected_at": "2026-09-26T07:49:32.634039+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392585808799673989951595.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -698,9 +916,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31348",
-      "published_at": "2026-09-26T02:03:18.666701+00:00",
-      "detected_at": "2026-09-26T02:03:18.666706+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.633057+00:00",
+      "detected_at": "2026-09-26T07:49:32.633059+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392585867620542672671651.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -716,9 +934,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31352",
-      "published_at": "2026-09-26T02:03:18.661235+00:00",
-      "detected_at": "2026-09-26T02:03:18.661240+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.629461+00:00",
+      "detected_at": "2026-09-26T07:49:32.629463+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392586143719920374779784.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -734,9 +952,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31354",
-      "published_at": "2026-09-26T02:03:18.658340+00:00",
-      "detected_at": "2026-09-26T02:03:18.658345+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.627508+00:00",
+      "detected_at": "2026-09-26T07:49:32.627511+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392586278061369806767400.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -752,9 +970,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31357",
-      "published_at": "2026-09-26T02:03:18.655417+00:00",
-      "detected_at": "2026-09-26T02:03:18.655435+00:00",
-      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.0K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
+      "published_at": "2026-09-26T07:49:32.625564+00:00",
+      "detected_at": "2026-09-26T07:49:32.625581+00:00",
+      "summary": "首部上星AI长剧《后西游记》幕后：没有摄影机，100%画面由Seedance生成，单集成本压到十几万 8月31日，国内首部上星AI长剧《后西游记》登陆湖南卫视黄金档，芒果TV同步上线。该剧规划60集、每集约40分钟，由芒果TV出品、伯璟文化承制，全程无摄影机，100%由Seedance视频生成。上线一周，芒果TV正片播放量破1.5亿次。总导演李东珅长期从事纪录片创作。 1 天前 15.5K 蚂蚁inclusionAI把训练底稿摆上HuggingFace，Ling、Ring、Ming全系模型按欧盟AI法案交透明账 蚂蚁inclusionAI在Hugg...",
       "image_url": "https://upload.chinaz.com/2026/0924/6392586965340736809446655.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -880,7 +1098,7 @@
       "url": "https://www.appinn.com/f-droid-2-0/",
       "published_at": "2026-09-25T00:00:00+00:00",
       "detected_at": "2026-09-26T02:03:24.530213+00:00",
-      "summary": "F-Droid 2.0 发布：十年来最大更新，中文搜索、自动更新都来了 Android 2026/09/25 2",
+      "summary": "F-Droid 2.0 发布：十年来最大更新，中文搜索、自动更新都来了 Android 2026/09/25 3",
       "image_url": "https://www.appinn.com/wp-content/uploads/2026/09/Copy-of-appinn-homework-2026-09-25T180706.324.jpg",
       "image_method": "og-validated",
       "image_rule_version": 13,
@@ -1985,6 +2203,24 @@
       "priority": "A",
       "language": "zh",
       "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "35f0952ccfb99531",
+      "title": "单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典",
+      "display_title": "单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典",
+      "source": "小众软件",
+      "category": "提效工具",
+      "url": "https://www.appinn.com/chinese-pinyin-annotation-tool/",
+      "published_at": "2026-09-22T00:00:00+00:00",
+      "detected_at": "2026-09-26T07:49:38.382739+00:00",
+      "summary": "单网页开源，纯离线：汉语拼音注音小工具，包含33.7 万词典 在线应用 2026/09/22 0",
+      "image_url": "https://www.appinn.com/wp-content/uploads/2026/09/Copy-of-appinn-homework-2026-09-22T222723.035.jpg",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
       "meta": {}
     },
     {
