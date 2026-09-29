@@ -1,35 +1,37 @@
 {
-  "updated_at": "2026-09-29T13:09:04.722057+00:00",
+  "updated_at": "2026-09-29T18:45:25.337983+00:00",
   "count": 500,
-  "hotspot_count": 8,
-  "breakthrough_count": 211,
+  "hotspot_count": 7,
+  "breakthrough_count": 210,
   "category_counts": {
     "AI变现": 197,
     "提效工具": 75,
-    "前沿动态": 71
+    "前沿动态": 70
   },
   "source_counts": {
     "Scientific Data": 145,
-    "Nature Cities": 12
+    "Nature Cities": 13
   },
   "hotspots": [
     {
-      "id": "600d597c660f46cd",
-      "title": "中国已建成世界规模最大的教育体系",
-      "summary": "在国务院新闻办公室29日举行的“开局起步‘十五五’”系列主题新闻发布会上，科技部部长阴和俊介绍，经过多年不懈努力，我国已... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B7%B2%E5%BB%BA%E6%88%90%E4%B8%96%E7%95%8C%E8%A7%84%E6%A8%A1%E6%9C%80%E5%A4%A7%E7%9A%84%E6%95%99%E8%82%B2%E4%BD%93%E7%B3%BB&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 4,
-      "hot_index": 7618400,
-      "platform": "百度热搜",
+      "id": "84bbf565de9605c9",
+      "title": "高校外教手持喇叭呼吁禁烟走红",
+      "summary": "近日，江苏一高校外教手持喇叭在教学楼内禁烟的视频走红。此前该外教已坚持多年在下课后拿喇叭喊话禁烟，其下课禁烟虽严厉但上课... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E6%A0%A1%E5%A4%96%E6%95%99%E6%89%8B%E6%8C%81%E5%96%87%E5%8F%AD%E5%91%BC%E5%90%81%E7%A6%81%E7%83%9F%E8%B5%B0%E7%BA%A2&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 10,
+      "hot_index": 5034594,
+      "platform": "百度民生",
       "platforms": [
+        "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 4
+        "百度民生": 10,
+        "百度热搜": 31
       },
       "topic": "城市社会",
       "score": 98,
-      "recommended_title": "中国已建成世界规模最大的教育体系背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "高校外教手持喇叭呼吁禁烟走红背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
@@ -60,196 +62,33 @@
           "title": "PRIME-CVD: Paired Synthetic Cohort and Structured EMR-Style Data Assets for Education in Cardiovascular Risk Modelling",
           "source": "Scientific Data",
           "url": "https://www.nature.com/articles/s41597-026-08352-3",
-          "published_at": "2026-09-29T13:08:50.631533+00:00",
+          "published_at": "2026-09-29T18:45:12.435839+00:00",
           "summary": "In recent years, progress in medical informatics and machine learning has been accelerated by the availability of openly accessible benchmark datasets. However, patient-level electronic medical record (EMR) data are rarely available for teaching or methodological development d...",
           "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-024-63798-y/MediaObjects/41598_2024_63798_Fig1_HTML.png",
           "match_score": 37
         }
       ],
-      "updated_at": "2026-09-29T13:08:56.227053+00:00"
+      "updated_at": "2026-09-29T18:45:16.389423+00:00"
     },
     {
-      "id": "2292d699458ca03c",
-      "title": "重磅！贷款买房国家贴息",
-      "summary": "记者29日从财政部获悉，我国10月1日起对居民使用新发放商业性个人住房贷款购房实施贴息。政策聚焦首套刚需，单户所购住房建... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E7%A3%85%EF%BC%81%E8%B4%B7%E6%AC%BE%E4%B9%B0%E6%88%BF%E5%9B%BD%E5%AE%B6%E8%B4%B4%E6%81%AF&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 5,
-      "hot_index": 7524200,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 5
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "重磅！贷款买房国家贴息背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-025-04128-1",
-      "main_paper_title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
-      "related_papers": [
-        {
-          "id": "d20c2c9db26a9553",
-          "title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-025-04128-1",
-          "published_at": "2026-09-29T13:08:49.555831+00:00",
-          "summary": "Based on single-cell data from a cohort of 584 brain donors including patients with Alzheimer’s disease (AD) and controls, a graph neural network is used to investigate differential patterns between disease and control, to identify those related to cognitive resilience and to...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
-          "match_score": 41
-        },
-        {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-09-29T13:08:51.003128+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
-        },
-        {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-09-29T13:08:51.003450+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-09-29T13:08:56.231078+00:00"
-    },
-    {
-      "id": "93de0f7a2dd4debd",
-      "title": "李想回应“去XX化”争议",
-      "summary": "9月28日，李想回应“去XX化”争议，称自研不等于取代供应商，应深化协同。理想采用电芯自研代工模式，专家指出电池自研需面... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E6%83%B3%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8E%BBXX%E5%8C%96%E2%80%9D%E4%BA%89%E8%AE%AE&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 20,
-      "hot_index": 6087770,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 20
-      },
-      "topic": "前沿科技",
-      "score": 89,
-      "recommended_title": "李想回应“去XX化”争议意味着什么？Nature研究中的技术路线与现实边界",
-      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11033-1/MediaObjects/41586_2026_11033_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11033-1",
-      "main_paper_title": "Anomalous metal and superconducting phases in rhombohedral graphene",
-      "related_papers": [
-        {
-          "id": "4fef0afe95feec87",
-          "title": "Anomalous metal and superconducting phases in rhombohedral graphene",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11033-1",
-          "published_at": "2026-09-29T13:08:47.980519+00:00",
-          "summary": "Observations of rhombohedral graphene on a WSe 2 substrate at varying temperature, magnetic field and current indicate the presence of regions of gate space with zero-resistance superconductivity alongside others with finite saturation resistance.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11033-1/MediaObjects/41586_2026_11033_Fig1_HTML.png?as=webp",
-          "match_score": 28
-        },
-        {
-          "id": "e944aee080af09a4",
-          "title": "Flash energy droughts in solar and wind resources under climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-09-29T13:08:48.851449+00:00",
-          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "fce7646eae60f0ea",
-          "title": "Bridged resonance configuration enables high-efficiency and narrow-emission in blue organic light-emitting diodes",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78234-0",
-          "published_at": "2026-09-29T13:08:48.419715+00:00",
-          "summary": "Unsatisfactory exciton dynamics limits the electroluminescence efficiency of blue organic light-emitting diodes. He et al. proposed a bridged resonance configuration to modulate triplet excited states, achieving an external quantum efficiency of 42.6%.",
-          "image_url": "",
-          "match_score": 25
-        }
-      ],
-      "updated_at": "2026-09-29T13:08:56.232276+00:00"
-    },
-    {
-      "id": "313fadd075194bfe",
-      "title": "24岁主播熬夜抽烟压力大心梗入院",
+      "id": "4c709d0a798992eb",
+      "title": "医生曾为两只大熊猫做口腔肿瘤手术",
       "summary": "",
-      "url": "https://www.baidu.com/s?wd=24%E5%B2%81%E4%B8%BB%E6%92%AD%E7%86%AC%E5%A4%9C%E6%8A%BD%E7%83%9F%E5%8E%8B%E5%8A%9B%E5%A4%A7%E5%BF%83%E6%A2%97%E5%85%A5%E9%99%A2&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 22,
-      "hot_index": 1526184,
+      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E7%94%9F%E6%9B%BE%E4%B8%BA%E4%B8%A4%E5%8F%AA%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%81%9A%E5%8F%A3%E8%85%94%E8%82%BF%E7%98%A4%E6%89%8B%E6%9C%AF&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 14,
+      "hot_index": 3216505,
       "platform": "百度民生",
       "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 22
-      },
-      "topic": "健康医学",
-      "score": 86,
-      "recommended_title": "24岁主播熬夜抽烟压力大心梗入院为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00516-x",
-      "main_paper_title": "Depression risk associated with idealized sentiment toward urban places on social media",
-      "related_papers": [
-        {
-          "id": "86169746c0e8f177",
-          "title": "Depression risk associated with idealized sentiment toward urban places on social media",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00516-x",
-          "published_at": "2026-09-29T13:08:51.004496+00:00",
-          "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
-          "match_score": 52
-        },
-        {
-          "id": "ac59ef1c1d6d6189",
-          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02732-8",
-          "published_at": "2026-09-29T13:08:48.852528+00:00",
-          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
-          "match_score": 41
-        },
-        {
-          "id": "83e2207bbb65c075",
-          "title": "Loneliness and desire for thinness explain sex differences in adolescent internalizing problems",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02578-2",
-          "published_at": "2026-09-29T13:08:49.204268+00:00",
-          "summary": "Girls tend to show higher rates of depression and suicidal ideation than boys. This work suggests that loneliness and pressure to be thin explain much of this gap, suggesting that social factors are key targets for youth-focused support, policy and intervention.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02578-2/MediaObjects/41562_2026_2578_Fig2_HTML.png?as=webp",
-          "match_score": 41
-        }
-      ],
-      "updated_at": "2026-09-29T13:08:56.235827+00:00"
-    },
-    {
-      "id": "61a70da49ce1eef3",
-      "title": "谁偷走了你的专家号",
-      "summary": "当前，有不少患者发现，自己拿着手机卡点抢挂号平台上三甲医院的热门专家号，号源却屡屡转瞬即空。根源是线上电子黄牛利用脚本快... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%B0%81%E5%81%B7%E8%B5%B0%E4%BA%86%E4%BD%A0%E7%9A%84%E4%B8%93%E5%AE%B6%E5%8F%B7&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 26,
-      "hot_index": 5502290,
-      "platform": "百度热搜",
-      "platforms": [
+        "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 26
+        "百度民生": 14,
+        "百度热搜": 50
       },
       "topic": "健康医学",
-      "score": 84,
-      "recommended_title": "谁偷走了你的专家号为什么值得关注？从Nature研究看真正的科学证据",
+      "score": 98,
+      "recommended_title": "医生曾为两只大熊猫做口腔肿瘤手术为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41586-026-11058-6",
@@ -260,7 +99,7 @@
           "title": "The anthropogenic fingerprint on emerging infectious diseases",
           "source": "Nature",
           "url": "https://www.nature.com/articles/s41586-026-11058-6",
-          "published_at": "2026-09-29T13:08:47.977187+00:00",
+          "published_at": "2026-09-29T18:45:09.757636+00:00",
           "summary": "Emerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by inequalities in healthcare access.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
           "match_score": 50
@@ -270,7 +109,7 @@
           "title": "Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC",
           "source": "Nature Medicine",
           "url": "https://www.nature.com/articles/s41591-026-04488-2",
-          "published_at": "2026-09-29T13:08:49.559696+00:00",
+          "published_at": "2026-09-29T18:45:11.471207+00:00",
           "summary": "In a large international real-world study of non-small cell lung cancer, a multimodal explainable AI model outperformed established biomarkers for immunotherapy outcome prediction and improved physician decision-making.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04488-2/MediaObjects/41591_2026_4488_Fig1_HTML.png?as=webp",
           "match_score": 41
@@ -280,141 +119,86 @@
           "title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
           "source": "Nature",
           "url": "https://www.nature.com/articles/s41586-026-11051-z",
-          "published_at": "2026-09-29T13:08:47.978903+00:00",
+          "published_at": "2026-09-29T18:45:09.759660+00:00",
           "summary": "Metastatic pancreatic ductal adenocarcinoma (PDAC) in the liver that lack the enzyme necessary to synthesize serine can reprogram hepatocytes to produce this amino acid, thus promoting tumour growth and survival.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
           "match_score": 36
         }
       ],
-      "updated_at": "2026-09-29T13:08:56.239379+00:00"
+      "updated_at": "2026-09-29T18:45:16.395097+00:00"
     },
     {
-      "id": "fb91ce658a87c209",
-      "title": "电池越来越便宜 电车为啥仍然修不起",
-      "summary": "9月28日，“电车买得起修不起”冲上热搜。电池价格持续走低，但新能源车依旧存在“买得起修不起”的难题。车辆高度集成化，雷... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B5%E6%B1%A0%E8%B6%8A%E6%9D%A5%E8%B6%8A%E4%BE%BF%E5%AE%9C+%E7%94%B5%E8%BD%A6%E4%B8%BA%E5%95%A5%E4%BB%8D%E7%84%B6%E4%BF%AE%E4%B8%8D%E8%B5%B7&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 34,
-      "hot_index": 4749754,
+      "id": "600d597c660f46cd",
+      "title": "中国已建成世界规模最大的教育体系",
+      "summary": "在国务院新闻办公室29日举行的“开局起步‘十五五’”系列主题新闻发布会上，科技部部长阴和俊介绍，经过多年不懈努力，我国已... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B7%B2%E5%BB%BA%E6%88%90%E4%B8%96%E7%95%8C%E8%A7%84%E6%A8%A1%E6%9C%80%E5%A4%A7%E7%9A%84%E6%95%99%E8%82%B2%E4%BD%93%E7%B3%BB&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 4,
+      "hot_index": 7615728,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 34
-      },
-      "topic": "前沿科技",
-      "score": 78,
-      "recommended_title": "电池越来越便宜 电车为啥仍然修不起意味着什么？Nature研究中的技术路线与现实边界",
-      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02753-3",
-      "main_paper_title": "Flash energy droughts in solar and wind resources under climate change",
-      "related_papers": [
-        {
-          "id": "e944aee080af09a4",
-          "title": "Flash energy droughts in solar and wind resources under climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-09-29T13:08:48.851449+00:00",
-          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "34c4ac7193520145",
-          "title": "High temporal-resolution microclimate and photovoltaic power dataset for sustainable rooftop design in subtropical humid city",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08340-7",
-          "published_at": "2026-09-29T13:08:50.627969+00:00",
-          "summary": "This paper presents a high resolution microclimate monitoring dataset designed to explore rooftop microclimate responses to different rooftop configurations within a subtropical humid campus setting. The dataset comprises measurements from seven rooftops representing five roof...",
-          "image_url": "",
-          "match_score": 23
-        },
-        {
-          "id": "c9c96af6743c0a83",
-          "title": "A quantum-secured explainable artificial intelligence framework with metaheuristic optimization for scalable cloud environments",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-73254-8",
-          "published_at": "2026-09-29T13:08:50.022840+00:00",
-          "summary": "Cloud computing represents an essential platform for intelligent data processing, scalable service provision, and distributed computing structures. Unfortunately, existing cloud systems are still confronted with numerous cybersecurity issues, the absence of Explainable Artific...",
-          "image_url": "",
-          "match_score": 21
-        }
-      ],
-      "updated_at": "2026-09-29T13:08:56.240575+00:00"
-    },
-    {
-      "id": "4daf2d665af182c3",
-      "title": "中央财政帮你还房贷利息",
-      "summary": "9月29日，三部门发文，10月1日起实施购房贷款贴息政策，实施期暂定一年。政策面向新发放商贷购买首套住房人群，房屋面积不... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%A4%AE%E8%B4%A2%E6%94%BF%E5%B8%AE%E4%BD%A0%E8%BF%98%E6%88%BF%E8%B4%B7%E5%88%A9%E6%81%AF&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 43,
-      "hot_index": 3892382,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 43
+        "百度热搜": 4
       },
       "topic": "城市社会",
-      "score": 70,
-      "recommended_title": "中央财政帮你还房贷利息背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 98,
+      "recommended_title": "中国已建成世界规模最大的教育体系背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00515-y",
-      "main_paper_title": "Systematic overview of climate actions for health in cities",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02456-x",
+      "main_paper_title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
       "related_papers": [
+        {
+          "id": "3b2c24d459cfb635",
+          "title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02456-x",
+          "published_at": "2026-08-26T00:00:00+00:00",
+          "summary": "Basarkod et al. synthesize evidence from 92 randomized controlled trials, finding that interventions in naturalistic education settings effectively improve students’ moral outcomes.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
+          "match_score": 41
+        },
         {
           "id": "00b4c8faa58e4964",
           "title": "Systematic overview of climate actions for health in cities",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-09-29T13:08:51.003128+00:00",
+          "published_at": "2026-09-29T18:45:12.842938+00:00",
           "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
           "match_score": 34
         },
         {
-          "id": "1b46eeb6ce82e0c4",
-          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00520-1",
-          "published_at": "2026-09-29T13:08:51.003977+00:00",
-          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "d31d704e3d193848",
-          "title": "Urbanization promotes biological invasions in global cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00517-w",
-          "published_at": "2026-09-29T13:08:51.004231+00:00",
-          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-09-29T18:45:12.843299+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
           "match_score": 34
         }
       ],
-      "updated_at": "2026-09-29T13:08:56.245709+00:00"
+      "updated_at": "2026-09-29T18:45:16.384826+00:00"
     },
     {
-      "id": "77407d06d32f4191",
-      "title": "泰国洪灾大量动物出现在街道",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E6%B4%AA%E7%81%BE%E5%A4%A7%E9%87%8F%E5%8A%A8%E7%89%A9%E5%87%BA%E7%8E%B0%E5%9C%A8%E8%A1%97%E9%81%93&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 50,
-      "hot_index": 3232942,
+      "id": "58a9d4b0d561cd01",
+      "title": "北京办抓“毛毛虫”大赛 2天抓7万条",
+      "summary": "近日，北京野生动物园举办抓“毛毛虫”大赛邀请游客参与生态保护。9月28日至29日，136名游客共捕获约70600条美国白... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%8A%9E%E6%8A%93%E2%80%9C%E6%AF%9B%E6%AF%9B%E8%99%AB%E2%80%9D%E5%A4%A7%E8%B5%9B+2%E5%A4%A9%E6%8A%937%E4%B8%87%E6%9D%A1&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 14,
+      "hot_index": 6666206,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 50
+        "百度热搜": 14
       },
       "topic": "生态生命",
-      "score": 68,
-      "recommended_title": "泰国洪灾大量动物出现在街道背后的科学问题：Nature研究给出了哪些线索？",
+      "score": 94,
+      "recommended_title": "北京办抓“毛毛虫”大赛 2天抓7万条背后的科学问题：Nature研究给出了哪些线索？",
       "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
@@ -435,7 +219,7 @@
           "title": "Greening masks stability loss in drylands",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02733-7",
-          "published_at": "2026-09-29T13:08:48.852811+00:00",
+          "published_at": "2026-09-29T18:45:10.622224+00:00",
           "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
           "match_score": 27
@@ -451,10 +235,265 @@
           "match_score": 19
         }
       ],
-      "updated_at": "2026-09-29T13:08:56.247188+00:00"
+      "updated_at": "2026-09-29T18:45:16.391108+00:00"
+    },
+    {
+      "id": "313fadd075194bfe",
+      "title": "24岁主播熬夜抽烟压力大心梗入院",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=24%E5%B2%81%E4%B8%BB%E6%92%AD%E7%86%AC%E5%A4%9C%E6%8A%BD%E7%83%9F%E5%8E%8B%E5%8A%9B%E5%A4%A7%E5%BF%83%E6%A2%97%E5%85%A5%E9%99%A2&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 15,
+      "hot_index": 2635211,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 15
+      },
+      "topic": "健康医学",
+      "score": 92,
+      "recommended_title": "24岁主播熬夜抽烟压力大心梗入院为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00516-x",
+      "main_paper_title": "Depression risk associated with idealized sentiment toward urban places on social media",
+      "related_papers": [
+        {
+          "id": "86169746c0e8f177",
+          "title": "Depression risk associated with idealized sentiment toward urban places on social media",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00516-x",
+          "published_at": "2026-09-29T18:45:12.844612+00:00",
+          "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
+          "match_score": 52
+        },
+        {
+          "id": "ac59ef1c1d6d6189",
+          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02732-8",
+          "published_at": "2026-09-29T18:45:10.621903+00:00",
+          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
+          "id": "83e2207bbb65c075",
+          "title": "Loneliness and desire for thinness explain sex differences in adolescent internalizing problems",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02578-2",
+          "published_at": "2026-09-29T18:45:11.060154+00:00",
+          "summary": "Girls tend to show higher rates of depression and suicidal ideation than boys. This work suggests that loneliness and pressure to be thin explain much of this gap, suggesting that social factors are key targets for youth-focused support, policy and intervention.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02578-2/MediaObjects/41562_2026_2578_Fig2_HTML.png?as=webp",
+          "match_score": 41
+        }
+      ],
+      "updated_at": "2026-09-29T18:45:16.399201+00:00"
+    },
+    {
+      "id": "93de0f7a2dd4debd",
+      "title": "李想回应“去XX化”争议",
+      "summary": "9月28日，李想回应“去XX化”争议，称自研不等于取代供应商，应深化协同。理想采用电芯自研代工模式，专家指出电池自研需面... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E6%83%B3%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8E%BBXX%E5%8C%96%E2%80%9D%E4%BA%89%E8%AE%AE&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 21,
+      "hot_index": 5989017,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 21
+      },
+      "topic": "前沿科技",
+      "score": 88,
+      "recommended_title": "李想回应“去XX化”争议意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11033-1/MediaObjects/41586_2026_11033_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11033-1",
+      "main_paper_title": "Anomalous metal and superconducting phases in rhombohedral graphene",
+      "related_papers": [
+        {
+          "id": "4fef0afe95feec87",
+          "title": "Anomalous metal and superconducting phases in rhombohedral graphene",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11033-1",
+          "published_at": "2026-09-29T18:45:09.761588+00:00",
+          "summary": "Observations of rhombohedral graphene on a WSe 2 substrate at varying temperature, magnetic field and current indicate the presence of regions of gate space with zero-resistance superconductivity alongside others with finite saturation resistance.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11033-1/MediaObjects/41586_2026_11033_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "e944aee080af09a4",
+          "title": "Flash energy droughts in solar and wind resources under climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02753-3",
+          "published_at": "2026-09-29T18:45:10.620660+00:00",
+          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "fce7646eae60f0ea",
+          "title": "Bridged resonance configuration enables high-efficiency and narrow-emission in blue organic light-emitting diodes",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78234-0",
+          "published_at": "2026-09-29T18:45:10.189976+00:00",
+          "summary": "Unsatisfactory exciton dynamics limits the electroluminescence efficiency of blue organic light-emitting diodes. He et al. proposed a bridged resonance configuration to modulate triplet excited states, achieving an external quantum efficiency of 42.6%.",
+          "image_url": "",
+          "match_score": 25
+        }
+      ],
+      "updated_at": "2026-09-29T18:45:16.400595+00:00"
+    },
+    {
+      "id": "2292d699458ca03c",
+      "title": "重磅！贷款买房国家贴息",
+      "summary": "记者29日从财政部获悉，我国10月1日起对居民使用新发放商业性个人住房贷款购房实施贴息。政策聚焦首套刚需，单户所购住房建... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E7%A3%85%EF%BC%81%E8%B4%B7%E6%AC%BE%E4%B9%B0%E6%88%BF%E5%9B%BD%E5%AE%B6%E8%B4%B4%E6%81%AF&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 41,
+      "hot_index": 4092692,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 41
+      },
+      "topic": "城市社会",
+      "score": 72,
+      "recommended_title": "重磅！贷款买房国家贴息背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-025-04128-1",
+      "main_paper_title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
+      "related_papers": [
+        {
+          "id": "d20c2c9db26a9553",
+          "title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-025-04128-1",
+          "published_at": "2026-09-29T18:45:11.466532+00:00",
+          "summary": "Based on single-cell data from a cohort of 584 brain donors including patients with Alzheimer’s disease (AD) and controls, a graph neural network is used to investigate differential patterns between disease and control, to identify those related to cognitive resilience and to...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-09-29T18:45:12.843962+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-09-29T18:45:12.844267+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-09-29T18:45:16.405084+00:00"
     }
   ],
   "items": [
+    {
+      "id": "00b4c8faa58e4964",
+      "title": "Systematic overview of climate actions for health in cities",
+      "display_title": "Systematic overview of climate actions for health in cities",
+      "source": "Nature Cities",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s44284-026-00515-y",
+      "published_at": "2026-09-29T18:41:05.460582+00:00",
+      "detected_at": "2026-09-29T18:41:05.909522+00:00",
+      "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "a89e2d29aea8d81e",
+      "title": "又一个万亿传统行业，被AI偷偷重做了：这家公司拿到了2000万美元融资，连Founders Fund和Greylock都抢着投",
+      "display_title": "又一个万亿传统行业，被AI偷偷重做了：这家公司拿到了2000万美元融资，连Founders Fund和Greylock都抢着投",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6236615.html",
+      "published_at": "2026-09-29T18:40:50.350763+00:00",
+      "detected_at": "2026-09-29T18:40:50.350781+00:00",
+      "summary": "又一个万亿传统行业，被AI偷偷重做了：这家公司拿到了2000万美元融资，连Founders Fund和Greylock都抢着投",
+      "image_url": "https://image.woshipm.com/2025/06/30/fe192426-554c-11f0-85cb-00163e09d72f.png",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "7a33d49f58d64262",
+      "title": "蝴蝶效应发布 Manus2.0:成本降三成 Agent还能组队打工 在独立运营调整后，蝴蝶效应公司近日正式推出Manus2.0海外版大更新。",
+      "display_title": "蝴蝶效应发布 Manus2.0:成本降三成 Agent还能组队打工 在独立运营调整后，蝴蝶效应公司近日正式推出Manus2.0海外版大更新。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31399",
+      "published_at": "2026-09-29T18:40:49.356143+00:00",
+      "detected_at": "2026-09-29T18:40:49.356148+00:00",
+      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 41 分钟前 6.1K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设...",
+      "image_url": "https://upload.chinaz.com/2026/0929/6392627207896369369259522.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "3c9d3a60939b5a57",
+      "title": "Kling4.0即将上线:支持8000Token与立体声唇形同步 9月28日，可灵AI宣布Kling4.0将于10月全面上线，Flash版已向黑金年卡会员小范围开放体验。",
+      "display_title": "Kling4.0即将上线:支持8000Token与立体声唇形同步 9月28日，可灵AI宣布Kling4.0将于10月全面上线，Flash版已向黑金年卡会员小范围开放体验。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31401",
+      "published_at": "2026-09-29T18:40:49.352680+00:00",
+      "detected_at": "2026-09-29T18:40:49.352685+00:00",
+      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 41 分钟前 6.1K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设...",
+      "image_url": "https://upload.chinaz.com/2026/0929/6392627309283250503404090.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "edc42292951147c2",
+      "title": "Fireworks AI 推出 FireRouter with Opus：编码任务成本降 57%，准确率仅损失 1.5 个百分点",
+      "display_title": "Fireworks AI 推出 FireRouter with Opus：编码任务成本降 57%，准确率仅损失 1.5 个百分点",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31406",
+      "published_at": "2026-09-29T18:40:49.344092+00:00",
+      "detected_at": "2026-09-29T18:40:49.344098+00:00",
+      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 41 分钟前 6.1K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设...",
+      "image_url": "https://upload.chinaz.com/2026/0929/6392627599770800971823549.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "bab2a18d7ec00816",
       "title": "我国科学家破解海水电解制氢沉淀困境",
@@ -492,60 +531,6 @@
       "meta": {}
     },
     {
-      "id": "7a33d49f58d64262",
-      "title": "蝴蝶效应发布 Manus2.0:成本降三成 Agent还能组队打工 在独立运营调整后，蝴蝶效应公司近日正式推出Manus2.0海外版大更新。",
-      "display_title": "蝴蝶效应发布 Manus2.0:成本降三成 Agent还能组队打工 在独立运营调整后，蝴蝶效应公司近日正式推出Manus2.0海外版大更新。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31399",
-      "published_at": "2026-09-29T13:02:38.512337+00:00",
-      "detected_at": "2026-09-29T13:02:38.512342+00:00",
-      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 刚刚 5.7K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设立安全规...",
-      "image_url": "https://upload.chinaz.com/2026/0929/6392627207896369369259522.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "3c9d3a60939b5a57",
-      "title": "Kling4.0即将上线:支持8000Token与立体声唇形同步 9月28日，可灵AI宣布Kling4.0将于10月全面上线，Flash版已向黑金年卡会员小范围开放体验。",
-      "display_title": "Kling4.0即将上线:支持8000Token与立体声唇形同步 9月28日，可灵AI宣布Kling4.0将于10月全面上线，Flash版已向黑金年卡会员小范围开放体验。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31401",
-      "published_at": "2026-09-29T13:02:38.509450+00:00",
-      "detected_at": "2026-09-29T13:02:38.509455+00:00",
-      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 刚刚 5.7K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设立安全规...",
-      "image_url": "https://upload.chinaz.com/2026/0929/6392627309283250503404090.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "edc42292951147c2",
-      "title": "Fireworks AI 推出 FireRouter with Opus：编码任务成本降 57%，准确率仅损失 1.5 个百分点",
-      "display_title": "Fireworks AI 推出 FireRouter with Opus：编码任务成本降 57%，准确率仅损失 1.5 个百分点",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31406",
-      "published_at": "2026-09-29T13:02:38.502267+00:00",
-      "detected_at": "2026-09-29T13:02:38.502272+00:00",
-      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 刚刚 5.7K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设立安全规...",
-      "image_url": "https://upload.chinaz.com/2026/0929/6392627599770800971823549.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
       "id": "1113d995efaa9676",
       "title": "OpenAI明日重启200美元Pro订阅:API配额减半，取消5小时限制 OpenAI宣布明日重启200美元Pro订阅，同价位API配额缩减至原方案一半，并取消争议已久的5小时使用限制，开发者与企业可自由支配每周配额。",
       "display_title": "OpenAI明日重启200美元Pro订阅:API配额减半，取消5小时限制 OpenAI宣布明日重启200美元Pro订阅，同价位API配额缩减至原方案一半，并取消争议已久的5小时使用限制，开发者与企业可自由支配每周配额。",
@@ -554,7 +539,7 @@
       "url": "https://news.aibase.com/zh/news/31413",
       "published_at": "2026-09-29T13:02:38.492258+00:00",
       "detected_at": "2026-09-29T13:02:38.492263+00:00",
-      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 刚刚 5.7K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设立安全规...",
+      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 41 分钟前 6.1K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设...",
       "image_url": "https://upload.chinaz.com/2026/0929/6392629133437694221330262.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -771,7 +756,7 @@
       "published_at": "2026-09-28T12:02:08.820237+00:00",
       "detected_at": "2026-09-28T12:02:08.820239+00:00",
       "summary": "比起折痕， iPhone Duo 的交互设计更加令人着迷 一起来看看 Apple 是如何围绕一块会改变形状的屏幕，重新思考人与界面的关系。 阿斯巴盐 15:00",
-      "image_url": "https://rssfile.sspai.com/2026/09/25/c116909558b7cdab5b864cb67fd5d8af.jpg?imageMogr2/auto-orient/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/09/25/c116909558b7cdab5b864cb67fd5d8af.jpg?imageMogr2/auto-orient/format/webp/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -789,7 +774,7 @@
       "published_at": "2026-09-28T12:02:08.819960+00:00",
       "detected_at": "2026-09-28T12:02:08.819979+00:00",
       "summary": "派评 | 近期值得关注的 App 少数派编辑部 17:45",
-      "image_url": "https://rssfile.sspai.com/2026/9/28/article/38201172-4bb6-b235-64ff-58f2abe46e3c.png?imageMogr2/auto-orient/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/9/28/article/38201172-4bb6-b235-64ff-58f2abe46e3c.png?imageMogr2/auto-orient/format/webp/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -9416,42 +9401,6 @@
       "image_rule_version": 13,
       "priority": "A",
       "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "674efe3bacf54ed0",
-      "title": "全球首个全自主超长视野机器人任务执行系统发布",
-      "display_title": "全球首个全自主超长视野机器人任务执行系统发布",
-      "source": "科学网",
-      "category": "前沿动态",
-      "url": "https://news.sciencenet.cn/htmlnews/2026/8/569962.shtm",
-      "published_at": "2026-08-18T11:44:56.515194+00:00",
-      "detected_at": "2026-08-18T11:44:56.515209+00:00",
-      "summary": "科学网-全球首个全自主超长视野机器人任务执行系统发布",
-      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a842fafe4b078fce44af1f4.jpeg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "20c4006343797b70",
-      "title": "#10 京东七鲜咖啡全球首发 24 小时无人店：机器人现制、AI 荐饮，落地北京银河 Soho",
-      "display_title": "京东七鲜咖啡全球首发 24 小时无人店：机器人现制、AI 荐饮，落地北京银河 Soho",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30356",
-      "published_at": "2026-08-18T08:56:41.308673+00:00",
-      "detected_at": "2026-08-18T08:56:41.308677+00:00",
-      "summary": "#1 深夜震撼发布：DeepSeek V4 Pro正式版亮相，比肩顶尖Fable大模型 #2 Anthropic被曝拟10月上市，目标估值或超2万亿美元 #3 智谱 GLM-5.3 发布：7400 亿参数没涨，靠后训练硬拉 50% 性能，编程能力逼近 Fable 5 #4 WorkBuddy发布5.3.11版本:AI原生资料库上线，终结“一次性AI产物”痛点 #5 AI企业也能按Token融资：广东首推“Token贷” #6 宇树科技发布“超人”人形机器人:原地跳高2米、极速12.66m/s #7 MiniMax 发布 Music3 音乐模型：给歌...",
-      "image_url": "https://upload.chinaz.com/2026/0814/6392231577468187928468251.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
       "is_breakthrough": false,
       "meta": {}
     }
