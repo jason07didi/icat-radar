@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-29T22:45:57.419992+00:00",
+  "updated_at": "2026-09-30T01:43:27.358422+00:00",
   "count": 500,
-  "hotspot_count": 7,
-  "breakthrough_count": 210,
+  "hotspot_count": 10,
+  "breakthrough_count": 209,
   "category_counts": {
-    "AI变现": 198,
-    "提效工具": 75,
+    "AI变现": 197,
+    "提效工具": 76,
     "前沿动态": 70
   },
   "source_counts": {
@@ -14,24 +14,136 @@
   },
   "hotspots": [
     {
-      "id": "84bbf565de9605c9",
-      "title": "高校外教手持喇叭呼吁禁烟走红",
-      "summary": "近日，江苏一高校外教手持喇叭在教学楼内禁烟的视频走红。此前该外教已坚持多年在下课后拿喇叭喊话禁烟，其下课禁烟虽严厉但上课... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E6%A0%A1%E5%A4%96%E6%95%99%E6%89%8B%E6%8C%81%E5%96%87%E5%8F%AD%E5%91%BC%E5%90%81%E7%A6%81%E7%83%9F%E8%B5%B0%E7%BA%A2&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 9,
-      "hot_index": 5121552,
+      "id": "9ae1dedb045ec77e",
+      "title": "发现这种植物请立即报警",
+      "summary": "近日，云南省曲靖市潇湘村群众途经辖区水库时，在周边荒地发现23株疑似毒品原植物大麻的绿色植株，随即向潇湘派出所报警。民警... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8F%91%E7%8E%B0%E8%BF%99%E7%A7%8D%E6%A4%8D%E7%89%A9%E8%AF%B7%E7%AB%8B%E5%8D%B3%E6%8A%A5%E8%AD%A6&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 14,
+      "hot_index": 4667212,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 9,
-        "百度热搜": 30
+        "百度民生": 14,
+        "百度热搜": 35
+      },
+      "topic": "生态生命",
+      "score": 98,
+      "recommended_title": "发现这种植物请立即报警背后的科学问题：Nature研究给出了哪些线索？",
+      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
+      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
+      "related_papers": [
+        {
+          "id": "30fe5c469e32a8d8",
+          "title": "Tree species richness relates to long-term forest photosynthesis increase",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02698-7",
+          "published_at": "2026-07-27T00:00:00+00:00",
+          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
+          "match_score": 33
+        },
+        {
+          "id": "9d30f3fe1768fbdf",
+          "title": "The anthropogenic fingerprint on emerging infectious diseases",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11058-6",
+          "published_at": "2026-09-30T01:43:11.383195+00:00",
+          "summary": "Emerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by inequalities in healthcare access.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "dc49dfc3fefe25b2",
+          "title": "Greening masks stability loss in drylands",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02733-7",
+          "published_at": "2026-09-30T01:43:12.316262+00:00",
+          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        }
+      ],
+      "updated_at": "2026-09-30T01:43:18.737910+00:00"
+    },
+    {
+      "id": "785dc3be3becb7cf",
+      "title": "手持睡眠仪靠谱吗？央视调查",
+      "summary": "近期总台记者调查发现，网售宣称“一秒入睡”的手持睡眠仪缺乏科学依据。专家指出，其在手部施加微电流无法传至脑部起效，无循证... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%8C%81%E7%9D%A1%E7%9C%A0%E4%BB%AA%E9%9D%A0%E8%B0%B1%E5%90%97%EF%BC%9F%E5%A4%AE%E8%A7%86%E8%B0%83%E6%9F%A5&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 16,
+      "hot_index": 4003035,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 16,
+        "百度热搜": 42
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "手持睡眠仪靠谱吗？央视调查为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11058-6",
+      "main_paper_title": "The anthropogenic fingerprint on emerging infectious diseases",
+      "related_papers": [
+        {
+          "id": "9d30f3fe1768fbdf",
+          "title": "The anthropogenic fingerprint on emerging infectious diseases",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11058-6",
+          "published_at": "2026-09-30T01:43:11.383195+00:00",
+          "summary": "Emerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by inequalities in healthcare access.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "6b9572e7f95ebb85",
+          "title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11051-z",
+          "published_at": "2026-09-30T01:43:11.385288+00:00",
+          "summary": "Metastatic pancreatic ductal adenocarcinoma (PDAC) in the liver that lack the enzyme necessary to synthesize serine can reprogram hepatocytes to produce this amino acid, thus promoting tumour growth and survival.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "604b85b7066e8fea",
+          "title": "Lsp2 links mTORC1 to TOP mRNA translation and lifespan in Drosophila",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11029-x",
+          "published_at": "2026-09-30T01:43:11.389080+00:00",
+          "summary": "In Drosophila , the protein Lsp2, which is induced by dietary essential amino acids, is a key physiological effector of mTORC1, and mutant flies that lack the Lsp2 gene exhibit reduced translation of TOP mRNAs and improved longevity.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11029-x/MediaObjects/41586_2026_11029_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        }
+      ],
+      "updated_at": "2026-09-30T01:43:18.742045+00:00"
+    },
+    {
+      "id": "600d597c660f46cd",
+      "title": "中国已建成世界规模最大的教育体系",
+      "summary": "在国务院新闻办公室9月29日举行的“开局起步‘十五五’”系列主题新闻发布会上，科技部部长阴和俊介绍，经过多年不懈努力，我... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B7%B2%E5%BB%BA%E6%88%90%E4%B8%96%E7%95%8C%E8%A7%84%E6%A8%A1%E6%9C%80%E5%A4%A7%E7%9A%84%E6%95%99%E8%82%B2%E4%BD%93%E7%B3%BB&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 4,
+      "hot_index": 7615981,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 4
       },
       "topic": "城市社会",
       "score": 98,
-      "recommended_title": "高校外教手持喇叭呼吁禁烟走红背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "中国已建成世界规模最大的教育体系背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
@@ -62,31 +174,86 @@
           "title": "PRIME-CVD: Paired Synthetic Cohort and Structured EMR-Style Data Assets for Education in Cardiovascular Risk Modelling",
           "source": "Scientific Data",
           "url": "https://www.nature.com/articles/s41597-026-08352-3",
-          "published_at": "2026-09-29T22:45:43.387176+00:00",
+          "published_at": "2026-09-30T01:43:14.161324+00:00",
           "summary": "In recent years, progress in medical informatics and machine learning has been accelerated by the availability of openly accessible benchmark datasets. However, patient-level electronic medical record (EMR) data are rarely available for teaching or methodological development d...",
           "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-024-63798-y/MediaObjects/41598_2024_63798_Fig1_HTML.png",
           "match_score": 37
         }
       ],
-      "updated_at": "2026-09-29T22:45:48.961213+00:00"
+      "updated_at": "2026-09-30T01:43:18.727100+00:00"
     },
     {
-      "id": "600d597c660f46cd",
-      "title": "中国已建成世界规模最大的教育体系",
-      "summary": "在国务院新闻办公室29日举行的“开局起步‘十五五’”系列主题新闻发布会上，科技部部长阴和俊介绍，经过多年不懈努力，我国已... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%B7%B2%E5%BB%BA%E6%88%90%E4%B8%96%E7%95%8C%E8%A7%84%E6%A8%A1%E6%9C%80%E5%A4%A7%E7%9A%84%E6%95%99%E8%82%B2%E4%BD%93%E7%B3%BB&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 4,
-      "hot_index": 7617815,
+      "id": "d55342db237c5259",
+      "title": "25岁抗癌博主去世 常熬夜12点到2点",
+      "summary": "9月29日，“嘻嘻徐宝”账号发讣告称，25岁抗癌博主“嘻嘻徐宝”于2026年9月28日去世。此前在2025年，时年24岁... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=25%E5%B2%81%E6%8A%97%E7%99%8C%E5%8D%9A%E4%B8%BB%E5%8E%BB%E4%B8%96+%E5%B8%B8%E7%86%AC%E5%A4%9C12%E7%82%B9%E5%88%B02%E7%82%B9&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 8,
+      "hot_index": 7239038,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 4
+        "百度热搜": 8
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "25岁抗癌博主去世 常熬夜12点到2点为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11051-z",
+      "main_paper_title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
+      "related_papers": [
+        {
+          "id": "6b9572e7f95ebb85",
+          "title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11051-z",
+          "published_at": "2026-09-30T01:43:11.385288+00:00",
+          "summary": "Metastatic pancreatic ductal adenocarcinoma (PDAC) in the liver that lack the enzyme necessary to synthesize serine can reprogram hepatocytes to produce this amino acid, thus promoting tumour growth and survival.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "313ef8f31ce5c5df",
+          "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02568-4",
+          "published_at": "2026-09-30T01:43:12.754856+00:00",
+          "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "4b66c888e3a3c88b",
+          "title": "Trastuzumab plus nivolumab with gemcitabine and cisplatin as first-line therapy for HER2-positive unresectable biliary tract cancer: a phase 1b/2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04679-x",
+          "published_at": "2026-09-30T01:43:13.210787+00:00",
+          "summary": "In a phase 1b/2 trial, first-line treatment of participants with biliary tract cancer with human epidermal growth factor receptor 2 (HER2)-targeting trastuzumab in combination with nivolumab plus gemcitabine and cisplatin showed encouraging clinical response rates and HER2 exp...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04679-x/MediaObjects/41591_2026_4679_Fig2_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-09-30T01:43:18.731295+00:00"
+    },
+    {
+      "id": "97c1f6aba8a4332c",
+      "title": "江西师范迎新晚会女老师酷似刘亦菲",
+      "summary": "近日，江西师范大学迎新晚会视频在网上刷屏。一女老师登台表演引爆全场，她长相酷似刘亦菲，全开麦实力在线，将晚会变成个人演唱... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%B1%9F%E8%A5%BF%E5%B8%88%E8%8C%83%E8%BF%8E%E6%96%B0%E6%99%9A%E4%BC%9A%E5%A5%B3%E8%80%81%E5%B8%88%E9%85%B7%E4%BC%BC%E5%88%98%E4%BA%A6%E8%8F%B2&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 11,
+      "hot_index": 6953741,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 11
       },
       "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "中国已建成世界规模最大的教育体系背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 96,
+      "recommended_title": "江西师范迎新晚会女老师酷似刘亦菲背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02456-x",
@@ -107,7 +274,7 @@
           "title": "Systematic overview of climate actions for health in cities",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-09-29T22:45:43.758143+00:00",
+          "published_at": "2026-09-30T01:43:14.586710+00:00",
           "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
           "match_score": 34
@@ -117,140 +284,195 @@
           "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-09-29T22:45:43.758393+00:00",
+          "published_at": "2026-09-30T01:43:14.587105+00:00",
           "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
           "match_score": 34
         }
       ],
-      "updated_at": "2026-09-29T22:45:48.958322+00:00"
+      "updated_at": "2026-09-30T01:43:18.736140+00:00"
     },
     {
       "id": "58a9d4b0d561cd01",
       "title": "北京办抓“毛毛虫”大赛 2天抓7万条",
       "summary": "近日，北京野生动物园举办抓“毛毛虫”大赛邀请游客参与生态保护。9月28日至29日，136名游客共捕获约70600条美国白... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%8A%9E%E6%8A%93%E2%80%9C%E6%AF%9B%E6%AF%9B%E8%99%AB%E2%80%9D%E5%A4%A7%E8%B5%9B+2%E5%A4%A9%E6%8A%937%E4%B8%87%E6%9D%A1&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 13,
-      "hot_index": 6760318,
+      "rank": 17,
+      "hot_index": 6377079,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 13
+        "百度热搜": 17
       },
       "topic": "生态生命",
-      "score": 95,
+      "score": 91,
       "recommended_title": "北京办抓“毛毛虫”大赛 2天抓7万条背后的科学问题：Nature研究给出了哪些线索？",
       "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02733-7",
+      "main_paper_title": "Greening masks stability loss in drylands",
       "related_papers": [
-        {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 33
-        },
-        {
-          "id": "9d30f3fe1768fbdf",
-          "title": "The anthropogenic fingerprint on emerging infectious diseases",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11058-6",
-          "published_at": "2026-09-29T22:45:41.104024+00:00",
-          "summary": "Emerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by inequalities in healthcare access.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
-          "match_score": 28
-        },
         {
           "id": "dc49dfc3fefe25b2",
           "title": "Greening masks stability loss in drylands",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02733-7",
-          "published_at": "2026-09-29T22:45:41.813809+00:00",
+          "published_at": "2026-09-30T01:43:12.316262+00:00",
           "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
           "match_score": 27
+        },
+        {
+          "id": "1be1c971aa705673",
+          "title": "Climate warming drives thermal shocks and accelerated freshwater habitat fragmentation",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02731-9",
+          "published_at": "2026-08-24T00:00:00+00:00",
+          "summary": "Assessing 9,809 freshwater fish species globally, this study shows risk to a high proportion of species in the tropics, and severe extremes in non-tropical regions. Under high emissions, gradual warming drives abrupt exposure, with 63% of species facing accelerating thermal fr...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02731-9/MediaObjects/41558_2026_2731_Fig1_HTML.png?as=webp",
+          "match_score": 19
+        },
+        {
+          "id": "d0687d38edf00bd8",
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "published_at": "2026-08-13T00:00:00+00:00",
+          "summary": "Climate change is expected to alter oceanic circulation, with the Atlantic Meridional Overturning Circulation (AMOC) at risk of collapse. This work shows that the stability of the AMOC is dependent on the rate of atmospheric CO 2 change rather than having a fixed threshold.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02730-w/MediaObjects/41558_2026_2730_Fig1_HTML.png?as=webp",
+          "match_score": 19
         }
       ],
-      "updated_at": "2026-09-29T22:45:48.962361+00:00"
+      "updated_at": "2026-09-30T01:43:18.743793+00:00"
     },
     {
-      "id": "4c709d0a798992eb",
-      "title": "医生曾为两只大熊猫做口腔肿瘤手术",
+      "id": "84bbf565de9605c9",
+      "title": "高校外教手持喇叭呼吁禁烟走红",
       "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E7%94%9F%E6%9B%BE%E4%B8%BA%E4%B8%A4%E5%8F%AA%E5%A4%A7%E7%86%8A%E7%8C%AB%E5%81%9A%E5%8F%A3%E8%85%94%E8%82%BF%E7%98%A4%E6%89%8B%E6%9C%AF&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 14,
-      "hot_index": 2802679,
+      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E6%A0%A1%E5%A4%96%E6%95%99%E6%89%8B%E6%8C%81%E5%96%87%E5%8F%AD%E5%91%BC%E5%90%81%E7%A6%81%E7%83%9F%E8%B5%B0%E7%BA%A2&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 22,
+      "hot_index": 1528135,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 14
+        "百度民生": 22
       },
-      "topic": "健康医学",
-      "score": 93,
-      "recommended_title": "医生曾为两只大熊猫做口腔肿瘤手术为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11058-6",
-      "main_paper_title": "The anthropogenic fingerprint on emerging infectious diseases",
+      "topic": "城市社会",
+      "score": 86,
+      "recommended_title": "高校外教手持喇叭呼吁禁烟走红背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-024-63798-y/MediaObjects/41598_2024_63798_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41597-026-08352-3",
+      "main_paper_title": "PRIME-CVD: Paired Synthetic Cohort and Structured EMR-Style Data Assets for Education in Cardiovascular Risk Modelling",
       "related_papers": [
         {
-          "id": "9d30f3fe1768fbdf",
-          "title": "The anthropogenic fingerprint on emerging infectious diseases",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11058-6",
-          "published_at": "2026-09-29T22:45:41.104024+00:00",
-          "summary": "Emerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by inequalities in healthcare access.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11058-6/MediaObjects/41586_2026_11058_Fig1_HTML.png?as=webp",
-          "match_score": 50
+          "id": "427601fd1d014e58",
+          "title": "PRIME-CVD: Paired Synthetic Cohort and Structured EMR-Style Data Assets for Education in Cardiovascular Risk Modelling",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08352-3",
+          "published_at": "2026-09-30T01:43:14.161324+00:00",
+          "summary": "In recent years, progress in medical informatics and machine learning has been accelerated by the availability of openly accessible benchmark datasets. However, patient-level electronic medical record (EMR) data are rarely available for teaching or methodological development d...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-024-63798-y/MediaObjects/41598_2024_63798_Fig1_HTML.png",
+          "match_score": 37
         },
+        {
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-09-30T01:43:14.587782+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-09-30T01:43:14.588137+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-09-30T01:43:18.748576+00:00"
+    },
+    {
+      "id": "ad5af5ba602aba84",
+      "title": "男孩被猫咬伤未及时处理 医生提醒",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%A9%E8%A2%AB%E7%8C%AB%E5%92%AC%E4%BC%A4%E6%9C%AA%E5%8F%8A%E6%97%B6%E5%A4%84%E7%90%86+%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 24,
+      "hot_index": 1222614,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 24
+      },
+      "topic": "健康医学",
+      "score": 84,
+      "recommended_title": "男孩被猫咬伤未及时处理 医生提醒为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04488-2/MediaObjects/41591_2026_4488_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04488-2",
+      "main_paper_title": "Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC",
+      "related_papers": [
         {
           "id": "bc53bde134c47477",
           "title": "Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC",
           "source": "Nature Medicine",
           "url": "https://www.nature.com/articles/s41591-026-04488-2",
-          "published_at": "2026-09-29T22:45:42.543672+00:00",
+          "published_at": "2026-09-30T01:43:13.213831+00:00",
           "summary": "In a large international real-world study of non-small cell lung cancer, a multimodal explainable AI model outperformed established biomarkers for immunotherapy outcome prediction and improved physician decision-making.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04488-2/MediaObjects/41591_2026_4488_Fig1_HTML.png?as=webp",
           "match_score": 41
         },
         {
-          "id": "6b9572e7f95ebb85",
-          "title": "Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11051-z",
-          "published_at": "2026-09-29T22:45:41.105274+00:00",
-          "summary": "Metastatic pancreatic ductal adenocarcinoma (PDAC) in the liver that lack the enzyme necessary to synthesize serine can reprogram hepatocytes to produce this amino acid, thus promoting tumour growth and survival.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11051-z/MediaObjects/41586_2026_11051_Fig1_HTML.png?as=webp",
-          "match_score": 36
+          "id": "4fbcecf71efa0d92",
+          "title": "Sex-specific biological aging clocks across organs and omics",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04662-6",
+          "published_at": "2026-09-30T01:43:13.212439+00:00",
+          "summary": "Sex-specific biological aging clocks across multiple organs and molecular systems show that female and male aging patterns can differ in organ-specific, disease-relevant ways.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04662-6/MediaObjects/41591_2026_4662_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "cdcf549199a93632",
+          "title": "Oral KRAS G12D inhibitor GFH375 for previously treated advanced solid tumors with KRAS G12D mutations: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04559-4",
+          "published_at": "2026-09-30T01:43:13.213504+00:00",
+          "summary": "In a phase 1 trial evaluating GFH375, an oral, dual on–off binding KRAS G12D inhibitor, in patients with KRAS G12D -mutated solid tumors, there was one treatment-related death, while most treatment-related adverse events were low-grade, and encouraging response rates were obse...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04559-4/MediaObjects/41591_2026_4559_Fig1_HTML.png",
+          "match_score": 35
         }
       ],
-      "updated_at": "2026-09-29T22:45:48.965055+00:00"
+      "updated_at": "2026-09-30T01:43:18.752692+00:00"
     },
     {
       "id": "93de0f7a2dd4debd",
       "title": "李想回应“去XX化”争议",
       "summary": "9月28日，李想回应“去XX化”争议，称自研不等于取代供应商，应深化协同。理想采用电芯自研代工模式，专家指出电池自研需面... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E6%83%B3%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8E%BBXX%E5%8C%96%E2%80%9D%E4%BA%89%E8%AE%AE&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 21,
-      "hot_index": 5992575,
+      "rank": 44,
+      "hot_index": 3799970,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 21
+        "百度热搜": 44
       },
       "topic": "前沿科技",
-      "score": 88,
+      "score": 70,
       "recommended_title": "李想回应“去XX化”争议意味着什么？Nature研究中的技术路线与现实边界",
       "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11033-1/MediaObjects/41586_2026_11033_Fig1_HTML.png?as=webp",
@@ -262,7 +484,7 @@
           "title": "Anomalous metal and superconducting phases in rhombohedral graphene",
           "source": "Nature",
           "url": "https://www.nature.com/articles/s41586-026-11033-1",
-          "published_at": "2026-09-29T22:45:41.106482+00:00",
+          "published_at": "2026-09-30T01:43:11.387301+00:00",
           "summary": "Observations of rhombohedral graphene on a WSe 2 substrate at varying temperature, magnetic field and current indicate the presence of regions of gate space with zero-resistance superconductivity alongside others with finite saturation resistance.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11033-1/MediaObjects/41586_2026_11033_Fig1_HTML.png?as=webp",
           "match_score": 28
@@ -272,7 +494,7 @@
           "title": "Flash energy droughts in solar and wind resources under climate change",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-09-29T22:45:41.812793+00:00",
+          "published_at": "2026-09-30T01:43:12.314563+00:00",
           "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
           "match_score": 27
@@ -282,126 +504,125 @@
           "title": "Bridged resonance configuration enables high-efficiency and narrow-emission in blue organic light-emitting diodes",
           "source": "Nature Communications",
           "url": "https://www.nature.com/articles/s41467-026-78234-0",
-          "published_at": "2026-09-29T22:45:41.469523+00:00",
+          "published_at": "2026-09-30T01:43:11.897733+00:00",
           "summary": "Unsatisfactory exciton dynamics limits the electroluminescence efficiency of blue organic light-emitting diodes. He et al. proposed a bridged resonance configuration to modulate triplet excited states, achieving an external quantum efficiency of 42.6%.",
           "image_url": "",
           "match_score": 25
         }
       ],
-      "updated_at": "2026-09-29T22:45:48.966004+00:00"
+      "updated_at": "2026-09-30T01:43:18.754017+00:00"
     },
     {
-      "id": "121a5c08cb293b2d",
-      "title": "泰国受灾女子站洪水中邀记者报道",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E6%B3%B0%E5%9B%BD%E5%8F%97%E7%81%BE%E5%A5%B3%E5%AD%90%E7%AB%99%E6%B4%AA%E6%B0%B4%E4%B8%AD%E9%82%80%E8%AE%B0%E8%80%85%E6%8A%A5%E9%81%93&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 45,
-      "hot_index": 3708602,
+      "id": "32ded3fd7da3a9f3",
+      "title": "“过紧日子”的账不该这么算",
+      "summary": "日前北京大学印发实施办法，明确不得到21个风景名胜区开会，引发“连北大也没钱了”热议。评论指出，把“过紧日子”理解成“没... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%BF%87%E7%B4%A7%E6%97%A5%E5%AD%90%E2%80%9D%E7%9A%84%E8%B4%A6%E4%B8%8D%E8%AF%A5%E8%BF%99%E4%B9%88%E7%AE%97&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 47,
+      "hot_index": 3505866,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 45
-      },
-      "topic": "气候环境",
-      "score": 69,
-      "recommended_title": "泰国受灾女子站洪水中邀记者报道背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00514-z/MediaObjects/44284_2026_514_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00514-z",
-      "main_paper_title": "Reduced flood-related bacillary dysentery risk with sponge city development in China",
-      "related_papers": [
-        {
-          "id": "84e8211174a6c91b",
-          "title": "Reduced flood-related bacillary dysentery risk with sponge city development in China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00514-z",
-          "published_at": "2026-09-29T22:45:43.759654+00:00",
-          "summary": "Flooding exacerbates bacillary dysentery risks, particularly among vulnerable groups. Analysis of 4.2 million cases in China utilized case-crossover and quasi-experimental methods, revealing a 12.2% risk reduction post-sponge city development, especially in areas with weaker i...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00514-z/MediaObjects/44284_2026_514_Fig1_HTML.png?as=webp",
-          "match_score": 52
-        },
-        {
-          "id": "21fd9b290cb0ce81",
-          "title": "Earlier and faster heatwave onset on land under a warming climate",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02762-2",
-          "published_at": "2026-09-29T22:45:41.812586+00:00",
-          "summary": "Heatwaves are expected to become more frequent and intense with global warming. Here the authors assess changes in their timing, finding that the heatwave season expands and that many regions see a faster onset of heatwaves.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "e7f506bcee6f5917",
-          "title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02576-4",
-          "published_at": "2026-09-29T22:45:42.133743+00:00",
-          "summary": "Dong, Qiao and Zhou show how variations in the level of air pollution impact the productivity of scholarly researchers in China.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-09-29T22:45:48.967608+00:00"
-    },
-    {
-      "id": "2292d699458ca03c",
-      "title": "重磅！贷款买房国家贴息",
-      "summary": "记者29日从财政部获悉，我国10月1日起对居民使用新发放商业性个人住房贷款购房实施贴息。政策聚焦首套刚需，单户所购住房建... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%87%8D%E7%A3%85%EF%BC%81%E8%B4%B7%E6%AC%BE%E4%B9%B0%E6%88%BF%E5%9B%BD%E5%AE%B6%E8%B4%B4%E6%81%AF&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 51,
-      "hot_index": 3146112,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 51
+        "百度热搜": 47
       },
       "topic": "城市社会",
-      "score": 67,
-      "recommended_title": "重磅！贷款买房国家贴息背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 68,
+      "recommended_title": "“过紧日子”的账不该这么算背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-025-04128-1",
-      "main_paper_title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00515-y",
+      "main_paper_title": "Systematic overview of climate actions for health in cities",
       "related_papers": [
         {
-          "id": "d20c2c9db26a9553",
-          "title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-025-04128-1",
-          "published_at": "2026-09-29T22:45:42.540765+00:00",
-          "summary": "Based on single-cell data from a cohort of 584 brain donors including patients with Alzheimer’s disease (AD) and controls, a graph neural network is used to investigate differential patterns between disease and control, to identify those related to cognitive resilience and to...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
-          "match_score": 41
-        },
-        {
-          "id": "1b46eeb6ce82e0c4",
-          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00520-1",
-          "published_at": "2026-09-29T22:45:43.758797+00:00",
-          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-09-30T01:43:14.586710+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
           "match_score": 34
         },
         {
-          "id": "d31d704e3d193848",
-          "title": "Urbanization promotes biological invasions in global cities",
+          "id": "70e364dc4227dc20",
+          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00517-w",
-          "published_at": "2026-09-29T22:45:43.759004+00:00",
-          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "url": "https://www.nature.com/articles/s44284-026-00511-2",
+          "published_at": "2026-09-30T01:43:14.588893+00:00",
+          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
           "match_score": 34
         }
       ],
-      "updated_at": "2026-09-29T22:45:48.970492+00:00"
+      "updated_at": "2026-09-30T01:43:18.758670+00:00"
     }
   ],
   "items": [
+    {
+      "id": "82b994a7b6f57124",
+      "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等 周三 30",
+      "display_title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等 周三 30",
+      "source": "少数派",
+      "category": "提效工具",
+      "url": "https://sspai.com/post/115197",
+      "published_at": "2026-09-30T01:38:43.130734+00:00",
+      "detected_at": "2026-09-30T01:38:43.130749+00:00",
+      "summary": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等 周三 30",
+      "image_url": "https://rssfile.sspai.com/2026/9/30/article/5e30974c-cb55-1e66-43b5-5cb455bbfa48.jpeg?imageMogr2/auto-orient/ignore-error/1",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "edc42292951147c2",
+      "title": "Fireworks AI 推出 FireRouter with Opus：编码任务成本降 57%，准确率仅损失 1.5 个百分点",
+      "display_title": "Fireworks AI 推出 FireRouter with Opus：编码任务成本降 57%，准确率仅损失 1.5 个百分点",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31406",
+      "published_at": "2026-09-30T01:38:35.492261+00:00",
+      "detected_at": "2026-09-30T01:38:35.492267+00:00",
+      "summary": "腾讯入局Personal Agent赛道:代号\"Handy Bot\"，已在微信低调内测 《读佳》报道，腾讯正秘密开发个人智能体“Handy Bot”，计划推出独立App，并已在微信低调上线服务号，简介为“Your Personal AI Agent”。其定位不同于传统聊天机器人：后者一问一答、会话结束即终止任务；Handy Bot追求常驻后台，用户只需给出宏观目标，AI便能在云端持续推进任务，减少对连续会话的依赖。 刚刚 0 美议员抛 AI 重磅法案：没政府护栏，模型不许自我进化 CNBC报道，当地时间28日，硅谷选区民主党众议员罗·康纳拟提交《人...",
+      "image_url": "https://upload.chinaz.com/2026/0929/6392627599770800971823549.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "c9f94f70d07c3ecd",
+      "title": "OpenAI发布自主智能体“Dots”与企业应用市场，ChatGPT全面向软件分发平台转型",
+      "display_title": "OpenAI发布自主智能体“Dots”与企业应用市场，ChatGPT全面向软件分发平台转型",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31421",
+      "published_at": "2026-09-30T01:38:35.467689+00:00",
+      "detected_at": "2026-09-30T01:38:35.467695+00:00",
+      "summary": "腾讯入局Personal Agent赛道:代号\"Handy Bot\"，已在微信低调内测 《读佳》报道，腾讯正秘密开发个人智能体“Handy Bot”，计划推出独立App，并已在微信低调上线服务号，简介为“Your Personal AI Agent”。其定位不同于传统聊天机器人：后者一问一答、会话结束即终止任务；Handy Bot追求常驻后台，用户只需给出宏观目标，AI便能在云端持续推进任务，减少对连续会话的依赖。 刚刚 0 美议员抛 AI 重磅法案：没政府护栏，模型不许自我进化 CNBC报道，当地时间28日，硅谷选区民主党众议员罗·康纳拟提交《人...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392635584119741964373067.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "85bb6106c72f57f7",
       "title": "监督学习赋能业务增长：产品经理的AI思维",
@@ -418,60 +639,6 @@
       "priority": "B",
       "language": "zh",
       "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "7a33d49f58d64262",
-      "title": "蝴蝶效应发布 Manus2.0:成本降三成 Agent还能组队打工 在独立运营调整后，蝴蝶效应公司近日正式推出Manus2.0海外版大更新。",
-      "display_title": "蝴蝶效应发布 Manus2.0:成本降三成 Agent还能组队打工 在独立运营调整后，蝴蝶效应公司近日正式推出Manus2.0海外版大更新。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31399",
-      "published_at": "2026-09-29T22:41:07.010239+00:00",
-      "detected_at": "2026-09-29T22:41:07.010243+00:00",
-      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 4 小时前 8.7K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设立...",
-      "image_url": "https://upload.chinaz.com/2026/0929/6392627207896369369259522.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "3c9d3a60939b5a57",
-      "title": "Kling4.0即将上线:支持8000Token与立体声唇形同步 9月28日，可灵AI宣布Kling4.0将于10月全面上线，Flash版已向黑金年卡会员小范围开放体验。",
-      "display_title": "Kling4.0即将上线:支持8000Token与立体声唇形同步 9月28日，可灵AI宣布Kling4.0将于10月全面上线，Flash版已向黑金年卡会员小范围开放体验。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31401",
-      "published_at": "2026-09-29T22:41:07.007769+00:00",
-      "detected_at": "2026-09-29T22:41:07.007773+00:00",
-      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 4 小时前 8.7K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设立...",
-      "image_url": "https://upload.chinaz.com/2026/0929/6392627309283250503404090.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "edc42292951147c2",
-      "title": "Fireworks AI 推出 FireRouter with Opus：编码任务成本降 57%，准确率仅损失 1.5 个百分点",
-      "display_title": "Fireworks AI 推出 FireRouter with Opus：编码任务成本降 57%，准确率仅损失 1.5 个百分点",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31406",
-      "published_at": "2026-09-29T22:41:07.001622+00:00",
-      "detected_at": "2026-09-29T22:41:07.001627+00:00",
-      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 4 小时前 8.7K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设立...",
-      "image_url": "https://upload.chinaz.com/2026/0929/6392627599770800971823549.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
       "meta": {}
     },
     {
@@ -555,7 +722,7 @@
       "url": "https://news.aibase.com/zh/news/31413",
       "published_at": "2026-09-29T13:02:38.492258+00:00",
       "detected_at": "2026-09-29T13:02:38.492263+00:00",
-      "summary": "安卓端Google Assistant正式谢幕，Gemini接管手机语音入口，手表汽车却还留着旧管家 谷歌对老牌语音助手Google Assistant的退休已不可逆。9月29日外媒报道，谷歌自上月起群发邮件，预告手机端Assistant即将停用；如今大批安卓用户反馈已无法调用。部分用户还发现，Gemini账户菜单中切换至Google Assistant的入口消失。从选项到服务，旧助手正被逐步抹去。 4 小时前 8.7K OpenAI 抛训练安全新规：高管手握\"一票否决\"，警报超时自动停训 OpenAI在官方新闻稿中宣布，为前沿AI强化学习训练设立...",
+      "summary": "腾讯入局Personal Agent赛道:代号\"Handy Bot\"，已在微信低调内测 《读佳》报道，腾讯正秘密开发个人智能体“Handy Bot”，计划推出独立App，并已在微信低调上线服务号，简介为“Your Personal AI Agent”。其定位不同于传统聊天机器人：后者一问一答、会话结束即终止任务；Handy Bot追求常驻后台，用户只需给出宏观目标，AI便能在云端持续推进任务，减少对连续会话的依赖。 刚刚 0 美议员抛 AI 重磅法案：没政府护栏，模型不许自我进化 CNBC报道，当地时间28日，硅谷选区民主党众议员罗·康纳拟提交《人...",
       "image_url": "https://upload.chinaz.com/2026/0929/6392629133437694221330262.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
