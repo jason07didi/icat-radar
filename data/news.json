@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-01T16:36:03.772700+00:00",
+  "updated_at": "2026-10-01T21:29:31.160981+00:00",
   "count": 500,
-  "hotspot_count": 8,
+  "hotspot_count": 6,
   "breakthrough_count": 201,
   "category_counts": {
-    "AI变现": 189,
-    "提效工具": 70,
+    "AI变现": 191,
+    "提效工具": 69,
     "前沿动态": 67
   },
   "source_counts": {
-    "Scientific Data": 164,
+    "Scientific Data": 163,
     "Nature Cities": 10
   },
   "hotspots": [
@@ -19,7 +19,7 @@
       "summary": "9月30日至10月1日国庆出行高峰，多地高速服务区再现新能源车排队充电盛况，车主充电大多需排队，最长排5个多小时，有人取... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E9%AB%98%E9%80%9F%E6%9C%8D%E5%8A%A1%E5%8C%BA%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E5%85%85%E7%94%B5%E5%83%8F%E6%8E%92%E9%98%9F%E6%89%93%E9%A5%AD&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
       "rank": 1,
-      "hot_index": 7141844,
+      "hot_index": 7142035,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
@@ -42,217 +42,50 @@
           "title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
           "source": "Nature",
           "url": "https://www.nature.com/articles/s41586-026-11047-9",
-          "published_at": "2026-10-01T16:35:45.546152+00:00",
+          "published_at": "2026-10-01T21:29:14.182448+00:00",
           "summary": "A dual-precursor chemical system is used to achieve wafer-scale epitaxy growth of boron carbon nitride, a high-performance p-type semiconductor, for potential integration in efficient 2D materials for electronics.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
           "match_score": 42
-        },
-        {
-          "id": "6e2df3d4d2c19b51",
-          "title": "Wide-bandgap perovskite with homogeneous crystallization and suppressed halogen segregation for efficient perovskite-organic tandem solar cells",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78267-5",
-          "published_at": "2026-10-01T00:00:00+00:00",
-          "summary": "Inhomogeneous crystallization and phase segregation in wide-bandgap perovskite limit the performance of photovoltaic device. Zhu et al. develop an in situ sequential regulation strategy for crystallization, achieving a power conversion efficiency of 28.20% for perovskite-organ...",
-          "image_url": "",
-          "match_score": 41
         },
         {
           "id": "e944aee080af09a4",
           "title": "Flash energy droughts in solar and wind resources under climate change",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-10-01T16:35:46.354691+00:00",
+          "published_at": "2026-10-01T21:29:14.971700+00:00",
           "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
           "match_score": 27
-        }
-      ],
-      "updated_at": "2026-10-01T16:35:55.199776+00:00"
-    },
-    {
-      "id": "5e310ad9a6c3207e",
-      "title": "人民日报：AI假医生带货 这病得治",
-      "summary": "近日，短视频平台频现AI生成的虚拟“医生”带货药品保健品现象。人民日报评论指出，此举涉嫌违反《广告法》构成虚假广告，延误... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9AAI%E5%81%87%E5%8C%BB%E7%94%9F%E5%B8%A6%E8%B4%A7+%E8%BF%99%E7%97%85%E5%BE%97%E6%B2%BB&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 8,
-      "hot_index": 6272595,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 8,
-        "百度热搜": 18
-      },
-      "topic": "人工智能",
-      "score": 98,
-      "recommended_title": "人民日报：AI假医生带货 这病得治刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04656-4",
-      "main_paper_title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
-      "related_papers": [
-        {
-          "id": "47e19848f6c4fa27",
-          "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04656-4",
-          "published_at": "2026-10-01T16:35:47.235422+00:00",
-          "summary": "In a large-scale study, a new tool called Esophageal AI-Guided malignant Lesion Evaluation uses artificial intelligence to enhance esophageal cancer detection through noncontrast computed tomography, achieving high sensitivity and specificity across diverse settings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
-          "match_score": 27
         },
         {
-          "id": "aa68aa0b701f8270",
-          "title": "Author Correction: Clinical translation and engineering challenges of soft robotic cardiac sleeves for heart failure",
+          "id": "b226df090ab05742",
+          "title": "Author Correction: Hyperbranched dielectric polymer networks exhibiting giant energy storage density at 250 °C.",
           "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78328-9",
+          "url": "https://www.nature.com/articles/s41467-026-78332-z",
           "published_at": "2026-10-01T00:00:00+00:00",
-          "summary": "Nature Communications - Author Correction: Clinical translation and engineering challenges of soft robotic cardiac sleeves for heart failure",
+          "summary": "Nature Communications - Author Correction: Hyperbranched dielectric polymer networks exhibiting giant energy storage density at 250 °C.",
           "image_url": "",
-          "match_score": 25
-        },
-        {
-          "id": "420fbfd161bc464e",
-          "title": "A multimodal synthetic 3D point cloud dataset of shoe uppers for robotic processing boundary segmentation",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08268-y",
-          "published_at": "2026-10-01T00:00:00+00:00",
-          "summary": "Robotic processing of shoe uppers requires accurate segmentation of thin processing boundaries in 3D point clouds. However, acquiring and annotating large collections of real-world scans is costly. We present a multimodal synthetic 3D point cloud dataset of shoe uppers for rob...",
-          "image_url": "",
-          "match_score": 23
-        }
-      ],
-      "updated_at": "2026-10-01T16:35:55.201037+00:00"
-    },
-    {
-      "id": "56ff412371bb0896",
-      "title": "“美国白蛾 收你的人来了”",
-      "summary": "近日，北京野生动物园举办抓毛毛虫大赛治理美国白蛾。园方免费发手套、筷子等工具，吸引136位游客参与。两天内游客共夹走约2... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E7%BE%8E%E5%9B%BD%E7%99%BD%E8%9B%BE+%E6%94%B6%E4%BD%A0%E7%9A%84%E4%BA%BA%E6%9D%A5%E4%BA%86%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 14,
-      "hot_index": 6661662,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 14
-      },
-      "topic": "生态生命",
-      "score": 94,
-      "recommended_title": "“美国白蛾 收你的人来了”背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
-      "related_papers": [
-        {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 33
-        },
-        {
-          "id": "dc49dfc3fefe25b2",
-          "title": "Greening masks stability loss in drylands",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02733-7",
-          "published_at": "2026-10-01T16:35:46.356287+00:00",
-          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "8d7495445a0bc19c",
-          "title": "WeedNet: a foundation model-based global-to-local AI approach for weed species identification and classification",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78044-4",
-          "published_at": "2026-10-01T16:35:45.947308+00:00",
-          "summary": "Weeds consistently threaten crop yields worldwide, making early and accurate identification essential for effective management. Trained on 14 million images representing 1,593 weed species, WeedNet achieved 91% global accuracy and, through global-to-local fine-tuning, reached...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-05092-z/MediaObjects/41598_2025_5092_Fig1_HTML.jpg",
           "match_score": 25
         }
       ],
-      "updated_at": "2026-10-01T16:35:55.203008+00:00"
-    },
-    {
-      "id": "12e7a0f3d6b24ca3",
-      "title": "国庆第一天各地开启“人从众”模式",
-      "summary": "国庆第一天，北京故宫、杭州灵隐寺与西湖、南京梧桐大道、广州长隆动物园及青岛栈桥等各地热门景点均开启“人从众”模式，拥挤程... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%BA%86%E7%AC%AC%E4%B8%80%E5%A4%A9%E5%90%84%E5%9C%B0%E5%BC%80%E5%90%AF%E2%80%9C%E4%BA%BA%E4%BB%8E%E4%BC%97%E2%80%9D%E6%A8%A1%E5%BC%8F&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 16,
-      "hot_index": 6466206,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 16
-      },
-      "topic": "生态生命",
-      "score": 92,
-      "recommended_title": "国庆第一天各地开启“人从众”模式背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02733-7",
-      "main_paper_title": "Greening masks stability loss in drylands",
-      "related_papers": [
-        {
-          "id": "dc49dfc3fefe25b2",
-          "title": "Greening masks stability loss in drylands",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02733-7",
-          "published_at": "2026-10-01T16:35:46.356287+00:00",
-          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "6822730efa62a7a3",
-          "title": "Microscopic images of pollen germination under natural heat stress in four cucurbit species",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08333-6",
-          "published_at": "2026-10-01T00:00:00+00:00",
-          "summary": "We present a microscopy image dataset of pollen germination and tube growth from melon, watermelon, cucumber, and pumpkin cultivated under naturally occurring heat stress conditions. Beyond supporting computer vision research, the dataset is linked to two agronomic assays invo...",
-          "image_url": "",
-          "match_score": 23
-        },
-        {
-          "id": "09d051eb296e6ec9",
-          "title": "A genus-labeled dataset of individual trees outside forests in Baden-Württemberg, Germany",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08400-y",
-          "published_at": "2026-10-01T16:35:47.923251+00:00",
-          "summary": "Detailed data on individual trees growing outside forests (TOF) are essential for arboriculture, biodiversity assessment, ecosystem services assessment, climate adaptation, and environmental health research. However, existing datasets are often incomplete and seldom provide ta...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-08400-y/MediaObjects/41597_2026_8400_Fig3_HTML.png?as=webp",
-          "match_score": 23
-        }
-      ],
-      "updated_at": "2026-10-01T16:35:55.204911+00:00"
+      "updated_at": "2026-10-01T21:29:23.470457+00:00"
     },
     {
       "id": "1257d63e4c004a1f",
       "title": "83岁老人研究国歌五十年",
       "summary": "乡村医生马宏业自1976年起自费30万搜集国歌史料并出40万字专著。他半生研究，如今83岁，因年纪太大，还未能去过天安门... 查看更多>",
       "url": "https://www.baidu.com/s?wd=83%E5%B2%81%E8%80%81%E4%BA%BA%E7%A0%94%E7%A9%B6%E5%9B%BD%E6%AD%8C%E4%BA%94%E5%8D%81%E5%B9%B4&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 27,
-      "hot_index": 5416661,
+      "rank": 13,
+      "hot_index": 6755706,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 27
+        "百度热搜": 13
       },
       "topic": "健康医学",
-      "score": 83,
+      "score": 95,
       "recommended_title": "83岁老人研究国歌五十年为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
@@ -264,7 +97,7 @@
           "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
           "source": "Nature Human Behaviour",
           "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-10-01T16:35:46.708317+00:00",
+          "published_at": "2026-10-01T21:29:15.310793+00:00",
           "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
           "match_score": 35
@@ -284,30 +117,30 @@
           "title": "Intravenous hyaluronidase-expressing oncolytic adenovirus with chemotherapy in metastatic pancreatic cancer: a randomized phase 2b trial",
           "source": "Nature Medicine",
           "url": "https://www.nature.com/articles/s41591-026-04705-y",
-          "published_at": "2026-10-01T16:35:47.232836+00:00",
+          "published_at": "2026-10-01T21:29:15.680748+00:00",
           "summary": "In the randomized phase 2b VIRAGE trial, patients with treatment-naive metastatic pancreatic cancer received the hyaluronidase-expressing oncolytic adenovirus zabilugene almadenorepvec (VCN-01) intravenously with gemcitabine and nab-paclitaxel (GnP) or GnP alone, showing that...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04705-y/MediaObjects/41591_2026_4705_Fig1_HTML.png?as=webp",
           "match_score": 35
         }
       ],
-      "updated_at": "2026-10-01T16:35:55.209398+00:00"
+      "updated_at": "2026-10-01T21:29:23.475050+00:00"
     },
     {
       "id": "981023410fa27bb7",
       "title": "女子扒车门试图阻止高铁关门",
       "summary": "10月1日上午，广东阳江站工作人员回应“女子扒高铁车门”事件，称孩子当晚已安全下车，列车运行未受影响。此前，9月30日晚... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E6%89%92%E8%BD%A6%E9%97%A8%E8%AF%95%E5%9B%BE%E9%98%BB%E6%AD%A2%E9%AB%98%E9%93%81%E5%85%B3%E9%97%A8&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 30,
-      "hot_index": 5126278,
+      "rank": 15,
+      "hot_index": 6565776,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 30
+        "百度热搜": 15
       },
       "topic": "城市社会",
-      "score": 81,
+      "score": 93,
       "recommended_title": "女子扒车门试图阻止高铁关门背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
@@ -345,24 +178,79 @@
           "match_score": 39
         }
       ],
-      "updated_at": "2026-10-01T16:35:55.214632+00:00"
+      "updated_at": "2026-10-01T21:29:23.480182+00:00"
+    },
+    {
+      "id": "12e7a0f3d6b24ca3",
+      "title": "国庆第一天各地开启“人从众”模式",
+      "summary": "国庆第一天，北京故宫、杭州灵隐寺与西湖、南京梧桐大道、广州长隆动物园及青岛栈桥等各地热门景点均开启“人从众”模式，拥挤程... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%BA%86%E7%AC%AC%E4%B8%80%E5%A4%A9%E5%90%84%E5%9C%B0%E5%BC%80%E5%90%AF%E2%80%9C%E4%BA%BA%E4%BB%8E%E4%BC%97%E2%80%9D%E6%A8%A1%E5%BC%8F&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 16,
+      "hot_index": 6469717,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 16
+      },
+      "topic": "生态生命",
+      "score": 92,
+      "recommended_title": "国庆第一天各地开启“人从众”模式背后的科学问题：Nature研究给出了哪些线索？",
+      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
+      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
+      "related_papers": [
+        {
+          "id": "30fe5c469e32a8d8",
+          "title": "Tree species richness relates to long-term forest photosynthesis increase",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02698-7",
+          "published_at": "2026-07-27T00:00:00+00:00",
+          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
+          "match_score": 33
+        },
+        {
+          "id": "dc49dfc3fefe25b2",
+          "title": "Greening masks stability loss in drylands",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02733-7",
+          "published_at": "2026-10-01T21:29:14.973270+00:00",
+          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "c7e0cab6cd0eb351",
+          "title": "Repurposing the evolutionary fitness of marine bacteria for water-conserving conversion of lignin-derived carbon",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78209-1",
+          "published_at": "2026-10-01T00:00:00+00:00",
+          "summary": "Reverting waste carbon into chemicals with minimal freshwater use is essential for a sustainable future. Here, the authors engineer the marine bacterium R. nubinhibens , by decoupling bioproduction from central metabolism to convert lignin into chemicals with seawater as a wat...",
+          "image_url": "",
+          "match_score": 25
+        }
+      ],
+      "updated_at": "2026-10-01T21:29:23.482328+00:00"
     },
     {
       "id": "854c1dc06ac5fb7f",
       "title": "印电诈窝点假冒苹果客服专骗美国人",
       "summary": "9月30日，印度警方通报称捣毁一处电信诈骗窝点。该团伙冒充苹果技术支持，专门以美国人为诈骗对象，谎称对方设备感染病毒或含... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%8D%B0%E7%94%B5%E8%AF%88%E7%AA%9D%E7%82%B9%E5%81%87%E5%86%92%E8%8B%B9%E6%9E%9C%E5%AE%A2%E6%9C%8D%E4%B8%93%E9%AA%97%E7%BE%8E%E5%9B%BD%E4%BA%BA&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 36,
-      "hot_index": 4545541,
+      "rank": 31,
+      "hot_index": 5024604,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 36
+        "百度热搜": 31
       },
       "topic": "健康医学",
-      "score": 76,
+      "score": 80,
       "recommended_title": "印电诈窝点假冒苹果客服专骗美国人为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04674-2/MediaObjects/41591_2026_4674_Fig2_HTML.png?as=webp",
@@ -384,7 +272,7 @@
           "title": "Trastuzumab plus nivolumab with gemcitabine and cisplatin as first-line therapy for HER2-positive unresectable biliary tract cancer: a phase 1b/2 trial",
           "source": "Nature Medicine",
           "url": "https://www.nature.com/articles/s41591-026-04679-x",
-          "published_at": "2026-10-01T16:35:47.236450+00:00",
+          "published_at": "2026-10-01T21:29:15.684317+00:00",
           "summary": "In a phase 1b/2 trial, first-line treatment of participants with biliary tract cancer with human epidermal growth factor receptor 2 (HER2)-targeting trastuzumab in combination with nivolumab plus gemcitabine and cisplatin showed encouraging clinical response rates and HER2 exp...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04679-x/MediaObjects/41591_2026_4679_Fig2_HTML.png?as=webp",
           "match_score": 35
@@ -394,30 +282,30 @@
           "title": "Sex-specific biological aging clocks across organs and omics",
           "source": "Nature Medicine",
           "url": "https://www.nature.com/articles/s41591-026-04662-6",
-          "published_at": "2026-10-01T16:35:47.238140+00:00",
+          "published_at": "2026-10-01T21:29:15.685947+00:00",
           "summary": "Sex-specific biological aging clocks across multiple organs and molecular systems show that female and male aging patterns can differ in organ-specific, disease-relevant ways.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04662-6/MediaObjects/41591_2026_4662_Fig1_HTML.png?as=webp",
           "match_score": 35
         }
       ],
-      "updated_at": "2026-10-01T16:35:55.218992+00:00"
+      "updated_at": "2026-10-01T21:29:23.486725+00:00"
     },
     {
       "id": "b64feec37a818a58",
       "title": "事关商品房预售现房销售 多地出新规",
       "summary": "近日，北京、上海、广州、武汉出台商品住房销售新规。四地明确以2026年8月28日为分界点，此后新出让土地项目优先现房销售... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%BA%8B%E5%85%B3%E5%95%86%E5%93%81%E6%88%BF%E9%A2%84%E5%94%AE%E7%8E%B0%E6%88%BF%E9%94%80%E5%94%AE+%E5%A4%9A%E5%9C%B0%E5%87%BA%E6%96%B0%E8%A7%84&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 38,
-      "hot_index": 4351640,
+      "rank": 35,
+      "hot_index": 4663713,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 38
+        "百度热搜": 35
       },
       "topic": "城市社会",
-      "score": 75,
+      "score": 77,
       "recommended_title": "事关商品房预售现房销售 多地出新规背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
@@ -429,7 +317,7 @@
           "title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
           "source": "Nature Medicine",
           "url": "https://www.nature.com/articles/s41591-025-04128-1",
-          "published_at": "2026-10-01T16:35:47.234734+00:00",
+          "published_at": "2026-10-01T21:29:15.682604+00:00",
           "summary": "Based on single-cell data from a cohort of 584 brain donors including patients with Alzheimer’s disease (AD) and controls, a graph neural network is used to investigate differential patterns between disease and control, to identify those related to cognitive resilience and to...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
           "match_score": 41
@@ -439,7 +327,7 @@
           "title": "Systematic overview of climate actions for health in cities",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-01T16:35:48.393638+00:00",
+          "published_at": "2026-10-01T21:29:17.121207+00:00",
           "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
           "match_score": 34
@@ -449,16 +337,142 @@
           "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-01T16:35:48.394148+00:00",
+          "published_at": "2026-10-01T21:29:17.121564+00:00",
           "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
           "match_score": 34
         }
       ],
-      "updated_at": "2026-10-01T16:35:55.223979+00:00"
+      "updated_at": "2026-10-01T21:29:23.491754+00:00"
     }
   ],
   "items": [
+    {
+      "id": "778143d317176412",
+      "title": "收费的豆包，卖的是字节的AI野心",
+      "display_title": "收费的豆包，卖的是字节的AI野心",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6390393.html",
+      "published_at": "2026-10-01T21:25:03.545597+00:00",
+      "detected_at": "2026-10-01T21:25:03.545604+00:00",
+      "summary": "收费的豆包，卖的是字节的AI野心",
+      "image_url": "https://image.woshipm.com/2023/04/13/612ecbfa-d9ef-11ed-9d7a-00163e0b5ff3.jpg",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "430a1a6a830bc4e2",
+      "title": "豆包开启付费模式，千问、元宝们的机会来了？",
+      "display_title": "豆包开启付费模式，千问、元宝们的机会来了？",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/share/6392965.html",
+      "published_at": "2026-10-01T21:25:03.544932+00:00",
+      "detected_at": "2026-10-01T21:25:03.544942+00:00",
+      "summary": "豆包开启付费模式，千问、元宝们的机会来了？",
+      "image_url": "https://image.woshipm.com/2024/09/24/6e06b6f6-7a4f-11ef-9237-00163e142b65.png",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "23780ede8aba5d12",
+      "title": "产品上线 10 周，a16z 领投 1500 万美元 A 轮融资！成为 2025 年最受关注的 AI 消费初创公司之一",
+      "display_title": "产品上线 10 周，a16z 领投 1500 万美元 A 轮融资！成为 2025 年最受关注的 AI 消费初创公司之一",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6236199.html",
+      "published_at": "2026-10-01T21:25:03.541816+00:00",
+      "detected_at": "2026-10-01T21:25:03.541850+00:00",
+      "summary": "产品上线 10 周，a16z 领投 1500 万美元 A 轮融资！成为 2025 年最受关注的 AI 消费初创公司之一",
+      "image_url": "https://image.woshipm.com/2023/04/14/91cf9ee2-da9e-11ed-aaf8-00163e0b5ff3.png",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "f5daf4e3b1d4f3a9",
+      "title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
+      "display_title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31431",
+      "published_at": "2026-10-01T21:25:02.351967+00:00",
+      "detected_at": "2026-10-01T21:25:02.351975+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 昨天 13.1K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“生物...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392637388592289987085092.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "3deee062f92bdae9",
+      "title": "豆包AI再升级:一站式搞定出行全流程，剑指生活服务入口 9月30日消息，字节跳动旗下AI助手豆包近日升级，接入机票、火车票预订、打车叫车及地图导航等出行服务，从“对话助手”向“生活服务入口”转型。",
+      "display_title": "豆包AI再升级:一站式搞定出行全流程，剑指生活服务入口 9月30日消息，字节跳动旗下AI助手豆包近日升级，接入机票、火车票预订、打车叫车及地图导航等出行服务，从“对话助手”向“生活服务入口”转型。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31433",
+      "published_at": "2026-10-01T21:25:02.348583+00:00",
+      "detected_at": "2026-10-01T21:25:02.348589+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 昨天 13.1K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“生物...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392637559296887891300151.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "aef9d8b3fe843347",
+      "title": "微软研究院发布生物学“世界模型”Quine，药物筛选验证周期压缩至数天 微软研究院发布生命科学AI科研系统Quine，定位“生物学世界模型”，欲以跨尺度生物推理加速复杂机制解析与药物研发。",
+      "display_title": "微软研究院发布生物学“世界模型”Quine，药物筛选验证周期压缩至数天 微软研究院发布生命科学AI科研系统Quine，定位“生物学世界模型”，欲以跨尺度生物推理加速复杂机制解析与药物研发。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31434",
+      "published_at": "2026-10-01T21:25:02.346907+00:00",
+      "detected_at": "2026-10-01T21:25:02.346913+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 昨天 13.1K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“生物...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392637581199369092863985.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "e9fd67ba26b64215",
+      "title": "微软亮出生物学\"世界模型\"Project Quine：一个周末筛出抗癌候选物 微软研究院29日发布实验性多模态AI系统Project Quine，定位为面向生物学的“世界模型”，旨在连接计算建模与实验室实操。",
+      "display_title": "微软亮出生物学\"世界模型\"Project Quine：一个周末筛出抗癌候选物 微软研究院29日发布实验性多模态AI系统Project Quine，定位为面向生物学的“世界模型”，旨在连接计算建模与实验室实操。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31437",
+      "published_at": "2026-10-01T21:25:02.341719+00:00",
+      "detected_at": "2026-10-01T21:25:02.341724+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 昨天 13.1K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“生物...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392637909359385508796433.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "41ceb58e9554b8e5",
       "title": "我国科学家借助新方法与AI，突破最大超对称杨–...",
@@ -488,78 +502,6 @@
       "detected_at": "2026-10-01T16:31:10.076231+00:00",
       "summary": "科学网-硼领域的“双重挑战”实现突破",
       "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6abe14bce4b078fce44b14d7.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "f5daf4e3b1d4f3a9",
-      "title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
-      "display_title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31431",
-      "published_at": "2026-10-01T16:30:53.185332+00:00",
-      "detected_at": "2026-10-01T16:30:53.185338+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 22 小时前 11.3K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次...",
-      "image_url": "https://upload.chinaz.com/2026/0930/6392637388592289987085092.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "3deee062f92bdae9",
-      "title": "豆包AI再升级:一站式搞定出行全流程，剑指生活服务入口 9月30日消息，字节跳动旗下AI助手豆包近日升级，接入机票、火车票预订、打车叫车及地图导航等出行服务，从“对话助手”向“生活服务入口”转型。",
-      "display_title": "豆包AI再升级:一站式搞定出行全流程，剑指生活服务入口 9月30日消息，字节跳动旗下AI助手豆包近日升级，接入机票、火车票预订、打车叫车及地图导航等出行服务，从“对话助手”向“生活服务入口”转型。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31433",
-      "published_at": "2026-10-01T16:30:53.181840+00:00",
-      "detected_at": "2026-10-01T16:30:53.181847+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 22 小时前 11.3K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次...",
-      "image_url": "https://upload.chinaz.com/2026/0930/6392637559296887891300151.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "aef9d8b3fe843347",
-      "title": "微软研究院发布生物学“世界模型”Quine，药物筛选验证周期压缩至数天 微软研究院发布生命科学AI科研系统Quine，定位“生物学世界模型”，欲以跨尺度生物推理加速复杂机制解析与药物研发。",
-      "display_title": "微软研究院发布生物学“世界模型”Quine，药物筛选验证周期压缩至数天 微软研究院发布生命科学AI科研系统Quine，定位“生物学世界模型”，欲以跨尺度生物推理加速复杂机制解析与药物研发。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31434",
-      "published_at": "2026-10-01T16:30:53.179813+00:00",
-      "detected_at": "2026-10-01T16:30:53.179819+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 22 小时前 11.3K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次...",
-      "image_url": "https://upload.chinaz.com/2026/0930/6392637581199369092863985.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "e9fd67ba26b64215",
-      "title": "微软亮出生物学\"世界模型\"Project Quine：一个周末筛出抗癌候选物 微软研究院29日发布实验性多模态AI系统Project Quine，定位为面向生物学的“世界模型”，旨在连接计算建模与实验室实操。",
-      "display_title": "微软亮出生物学\"世界模型\"Project Quine：一个周末筛出抗癌候选物 微软研究院29日发布实验性多模态AI系统Project Quine，定位为面向生物学的“世界模型”，旨在连接计算建模与实验室实操。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31437",
-      "published_at": "2026-10-01T16:30:53.174574+00:00",
-      "detected_at": "2026-10-01T16:30:53.174579+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 22 小时前 11.3K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次...",
-      "image_url": "https://upload.chinaz.com/2026/0930/6392637909359385508796433.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -1027,7 +969,7 @@
       "published_at": "2026-09-30T07:31:09.825858+00:00",
       "detected_at": "2026-09-30T07:31:09.825863+00:00",
       "summary": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的 胡九思 11:02 Matrix精选",
-      "image_url": "https://rssfile.sspai.com/2026/09/24/1916c5418d8f0692c8382bc6143d0d2c.png?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/09/24/1916c5418d8f0692c8382bc6143d0d2c.png?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -1045,7 +987,7 @@
       "published_at": "2026-09-30T01:38:43.130734+00:00",
       "detected_at": "2026-09-30T01:38:43.130749+00:00",
       "summary": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等 周三 30",
-      "image_url": "https://rssfile.sspai.com/2026/9/30/article/5e30974c-cb55-1e66-43b5-5cb455bbfa48.jpeg?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/9/30/article/5e30974c-cb55-1e66-43b5-5cb455bbfa48.jpeg?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -1405,7 +1347,7 @@
       "published_at": "2026-09-28T12:02:08.819960+00:00",
       "detected_at": "2026-09-28T12:02:08.819979+00:00",
       "summary": "派评 | 近期值得关注的 App 少数派编辑部 17:45",
-      "image_url": "https://rssfile.sspai.com/2026/9/28/article/38201172-4bb6-b235-64ff-58f2abe46e3c.png?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/9/28/article/38201172-4bb6-b235-64ff-58f2abe46e3c.png?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -9398,60 +9340,6 @@
       "detected_at": "2026-08-21T10:14:17.745827+00:00",
       "summary": "superfile – 终端也需要一个好用的文件管理器 Windows linux macOS 2026/08/21 6",
       "image_url": "https://www.appinn.com/wp-content/uploads/2026/08/Copy-of-appinn-homework-2026-08-21T180112.929.jpg",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "88a2a148072d31f8",
-      "title": "26/27 英超赛程日历，临时上线！",
-      "display_title": "26/27 英超赛程日历，临时上线！",
-      "source": "小众软件",
-      "category": "提效工具",
-      "url": "https://www.appinn.com/26-27-premier-league-calendar/",
-      "published_at": "2026-08-21T00:00:00+00:00",
-      "detected_at": "2026-08-25T04:04:43.379254+00:00",
-      "summary": "26/27 英超赛程日历，临时上线！ 在线应用 2026/08/21 0",
-      "image_url": "https://www.appinn.com/wp-content/uploads/2026/08/Copy-of-appinn-homework-2026-08-21T190410.280.jpg",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "b8df1ec17b38885c",
-      "title": "RNA sequencing analysis of the transgenic Q69 SCA3 mouse model",
-      "display_title": "RNA sequencing analysis of the transgenic Q69 SCA3 mouse model",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08169-0",
-      "published_at": "2026-08-21T00:00:00+00:00",
-      "detected_at": "2026-08-26T10:30:16.021328+00:00",
-      "summary": "Spinocerebellar ataxia type 3 (SCA3), also known as Machado–Joseph disease, is the most prevalent spinocerebellar ataxia worldwide, caused by a CAG repeat expansion in the ATXN3 gene, leading to the production of a toxic expanded ataxin-3 protein. Despite a well-established ge...",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41419-021-04404-1/MediaObjects/41419_2021_4404_Fig1_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "a93d368ee70f1b4d",
-      "title": "AI大事件：Plaud获腾讯投资，AI录音笔估值20亿美元、人工智能终端国家标准发布，AI产品要”分级”了",
-      "display_title": "AI大事件：Plaud获腾讯投资，AI录音笔估值20亿美元、人工智能终端国家标准发布，AI产品要”分级”了",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6392200.html",
-      "published_at": "2026-08-20T13:35:08.877531+00:00",
-      "detected_at": "2026-08-20T13:35:08.877541+00:00",
-      "summary": "AI大事件：Plaud获腾讯投资，AI录音笔估值20亿美元、人工智能终端国家标准发布，AI产品要”分级”了",
-      "image_url": "https://tu.aixq.cc/wp-content/uploads/2026/04/20260414140321895.png!ys",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
