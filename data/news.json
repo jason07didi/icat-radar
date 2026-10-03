@@ -1,644 +1,37 @@
 {
-  "updated_at": "2026-10-03T08:39:19.644700+00:00",
+  "updated_at": "2026-10-03T14:01:04.258628+00:00",
   "count": 500,
-  "hotspot_count": 12,
+  "hotspot_count": 7,
   "breakthrough_count": 202,
   "category_counts": {
     "AI变现": 187,
-    "提效工具": 66,
+    "提效工具": 67,
     "前沿动态": 68
   },
   "source_counts": {
-    "Scientific Data": 169,
+    "Scientific Data": 168,
     "Nature Cities": 10
   },
   "hotspots": [
     {
-      "id": "70de5cb7a811b073",
-      "title": "医生不幸离世 去世当天工作到凌晨4点",
-      "summary": "宁德市闽东医院副院长、主任医师、医学博士、硕士生导师郑建民同志，因长期工作劳累，2026年9月29日工作到凌晨四点，在家... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E7%94%9F%E4%B8%8D%E5%B9%B8%E7%A6%BB%E4%B8%96+%E5%8E%BB%E4%B8%96%E5%BD%93%E5%A4%A9%E5%B7%A5%E4%BD%9C%E5%88%B0%E5%87%8C%E6%99%A84%E7%82%B9&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 5,
-      "hot_index": 6566087,
+      "id": "cf4fcb3b039d8fff",
+      "title": "73岁大爷心脏长反 每天乱跳超3万次",
+      "summary": "近日，苏州大学附属第二医院心血管科团队成功为73岁王大爷实施射频消融术。此前，王大爷因心慌胸闷就医，查出天生心脏长反且全... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=73%E5%B2%81%E5%A4%A7%E7%88%B7%E5%BF%83%E8%84%8F%E9%95%BF%E5%8F%8D+%E6%AF%8F%E5%A4%A9%E4%B9%B1%E8%B7%B3%E8%B6%853%E4%B8%87%E6%AC%A1&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 1,
+      "hot_index": 6658290,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 5,
-        "百度热搜": 15
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "医生不幸离世 去世当天工作到凌晨4点背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
-      "main_paper_title": "Connecting application behavior to undermatching in New York City school choice",
-      "related_papers": [
-        {
-          "id": "375dc94e6b81abc6",
-          "title": "Connecting application behavior to undermatching in New York City school choice",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00486-0",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-          "match_score": 60
-        },
-        {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 46
-        },
-        {
-          "id": "3b2c24d459cfb635",
-          "title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02456-x",
-          "published_at": "2026-08-26T00:00:00+00:00",
-          "summary": "Basarkod et al. synthesize evidence from 92 randomized controlled trials, finding that interventions in naturalistic education settings effectively improve students’ moral outcomes.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
-          "match_score": 41
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.835615+00:00"
-    },
-    {
-      "id": "2011e346716cb838",
-      "title": "自驾回家车主：回程或要弃车打飞的",
-      "summary": "近日，国庆高速出行迎来大流量，多地新能源车充电排队。杭州一名混动车主自驾2400多公里回哈尔滨，原本30多个小时的车程预... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%87%AA%E9%A9%BE%E5%9B%9E%E5%AE%B6%E8%BD%A6%E4%B8%BB%EF%BC%9A%E5%9B%9E%E7%A8%8B%E6%88%96%E8%A6%81%E5%BC%83%E8%BD%A6%E6%89%93%E9%A3%9E%E7%9A%84&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 3,
-      "hot_index": 7712787,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 3
-      },
-      "topic": "前沿科技",
-      "score": 98,
-      "recommended_title": "自驾回家车主：回程或要弃车打飞的意味着什么？Nature研究中的技术路线与现实边界",
-      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11047-9",
-      "main_paper_title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
-      "related_papers": [
-        {
-          "id": "b103ca6a9b4c2645",
-          "title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11047-9",
-          "published_at": "2026-10-03T08:39:02.917250+00:00",
-          "summary": "A dual-precursor chemical system is used to achieve wafer-scale epitaxy growth of boron carbon nitride, a high-performance p-type semiconductor, for potential integration in efficient 2D materials for electronics.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "92a710e8603790cb",
-          "title": "Cationic chain-anchored monolayer enables wide-temperature composite polymer electrolytes for lithium-metal batteries",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78048-0",
-          "published_at": "2026-10-02T00:00:00+00:00",
-          "summary": "Solid-state lithium-metal batteries are promising candidates for high-energy-density energy storage yet suffer from severe interfacial and ion-transport limitations under wide-temperature. Herein, authors propose a cationic chain-anchored monolayer strategy to construct stable...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41467-023-35857-x/MediaObjects/41467_2023_35857_Fig1_HTML.png",
-          "match_score": 39
-        },
-        {
-          "id": "3dba43358f88520c",
-          "title": "AI-accelerated scalable synthesis of nanocrystals for cost-effective photovoltaics",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78268-4",
-          "published_at": "2026-10-02T00:00:00+00:00",
-          "summary": "The commercialization of perovskite nanocrystals requires low-cost synthesis and processing. Zhao et al. developed an AI-accelerated framework to optimize the FAPbI3 nanocrystal synthesis under room-temperature, achieving a production cost of US$ 2.16 g −1 with a power convers...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs44160-025-00825-4/MediaObjects/44160_2025_825_Figa_HTML.png",
-          "match_score": 33
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.830379+00:00"
-    },
-    {
-      "id": "8956515dbcd09caf",
-      "title": "这些信号是肺部发出的预警",
-      "summary": "首都医科大学附属北京朝阳医院李绪言主任医师提醒，咳嗽、喘气不畅可能是肺部发出的预警信号。若咳嗽超过两周，建议到医院检查，... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E4%BA%9B%E4%BF%A1%E5%8F%B7%E6%98%AF%E8%82%BA%E9%83%A8%E5%8F%91%E5%87%BA%E7%9A%84%E9%A2%84%E8%AD%A6&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 8,
-      "hot_index": 7238565,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 8
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "这些信号是肺部发出的预警背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02456-x",
-      "main_paper_title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
-      "related_papers": [
-        {
-          "id": "3b2c24d459cfb635",
-          "title": "Educational interventions are effective in improving students’ ethical and moral outcomes: a systematic review and meta-analysis",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02456-x",
-          "published_at": "2026-08-26T00:00:00+00:00",
-          "summary": "Basarkod et al. synthesize evidence from 92 randomized controlled trials, finding that interventions in naturalistic education settings effectively improve students’ moral outcomes.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02456-x/MediaObjects/41562_2026_2456_Fig1_HTML.png?as=webp",
-          "match_score": 41
-        },
-        {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-03T08:39:05.996408+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
-        },
-        {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-03T08:39:05.996817+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.840544+00:00"
-    },
-    {
-      "id": "7bb25ad345be0c11",
-      "title": "景区冤种三件套 年轻人只薅不买了",
-      "summary": "今年中秋、国庆假期期间，全国各大景区商品同质化严重，护手霜、冰箱贴、文创雪糕被称为“冤种三件套”。调查显示，59.2%的... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%99%AF%E5%8C%BA%E5%86%A4%E7%A7%8D%E4%B8%89%E4%BB%B6%E5%A5%97+%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%8F%AA%E8%96%85%E4%B8%8D%E4%B9%B0%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 18,
-      "hot_index": 3795089,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 18,
-        "百度热搜": 44
-      },
-      "topic": "城市社会",
-      "score": 97,
-      "recommended_title": "景区冤种三件套 年轻人只薅不买了背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00515-y",
-      "main_paper_title": "Systematic overview of climate actions for health in cities",
-      "related_papers": [
-        {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-03T08:39:05.996408+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
-        },
-        {
-          "id": "1b46eeb6ce82e0c4",
-          "title": "Sustaining green stormwater infrastructure adoption in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00520-1",
-          "published_at": "2026-10-03T08:39:05.997551+00:00",
-          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "d31d704e3d193848",
-          "title": "Urbanization promotes biological invasions in global cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00517-w",
-          "published_at": "2026-10-03T08:39:05.997896+00:00",
-          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.846593+00:00"
-    },
-    {
-      "id": "1a91e7350e7f9b8e",
-      "title": "高速惊险一幕 司机开着“智驾”睡着",
-      "summary": "近日有网友拍到惊险一幕，一司机开启“智驾”时竟在车内睡着，旁边车辆鸣笛提醒。智能驾驶并非自动驾驶，需时刻保持清醒盯紧路况... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E9%80%9F%E6%83%8A%E9%99%A9%E4%B8%80%E5%B9%95+%E5%8F%B8%E6%9C%BA%E5%BC%80%E7%9D%80%E2%80%9C%E6%99%BA%E9%A9%BE%E2%80%9D%E7%9D%A1%E7%9D%80&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 18,
-      "hot_index": 6287954,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 18
-      },
-      "topic": "人工智能",
-      "score": 91,
-      "recommended_title": "高速惊险一幕 司机开着“智驾”睡着刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04656-4",
-      "main_paper_title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
-      "related_papers": [
-        {
-          "id": "47e19848f6c4fa27",
-          "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04656-4",
-          "published_at": "2026-10-03T08:39:04.877113+00:00",
-          "summary": "In a large-scale study, a new tool called Esophageal AI-Guided malignant Lesion Evaluation uses artificial intelligence to enhance esophageal cancer detection through noncontrast computed tomography, achieving high sensitivity and specificity across diverse settings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "72901bc3e6864de7",
-          "title": "A model of brain function to predict tau across Alzheimer’s disease and related disorders",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78300-7",
-          "published_at": "2026-10-02T00:00:00+00:00",
-          "summary": "Researchers developed a machine learning model using FDG-PET imaging to accurately predict Alzheimer’s-type tau pathology across spectrums of aging and dementia, providing a novel framework to estimate tau burden non-invasively.",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41398-022-01850-z/MediaObjects/41398_2022_1850_Fig1_HTML.png",
-          "match_score": 25
-        },
-        {
-          "id": "420fbfd161bc464e",
-          "title": "A multimodal synthetic 3D point cloud dataset of shoe uppers for robotic processing boundary segmentation",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08268-y",
-          "published_at": "2026-10-01T00:00:00+00:00",
-          "summary": "Robotic processing of shoe uppers requires accurate segmentation of thin processing boundaries in 3D point clouds. However, acquiring and annotating large collections of real-world scans is costly. We present a multimodal synthetic 3D point cloud dataset of shoe uppers for rob...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-00789-7/MediaObjects/41598_2025_789_Fig1_HTML.png",
-          "match_score": 23
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.841884+00:00"
-    },
-    {
-      "id": "03c6957be46d7272",
-      "title": "7人水泥地上烧烤 水泥爆炸火花四溅",
-      "summary": "10月2日，广西7人直接在未铺沙子的水泥地面上烧烤，水泥受高温膨胀突然爆炸，现场火花四溅，当事人称事故没有造成严重伤情，... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=7%E4%BA%BA%E6%B0%B4%E6%B3%A5%E5%9C%B0%E4%B8%8A%E7%83%A7%E7%83%A4+%E6%B0%B4%E6%B3%A5%E7%88%86%E7%82%B8%E7%81%AB%E8%8A%B1%E5%9B%9B%E6%BA%85&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 19,
-      "hot_index": 6191065,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 19
-      },
-      "topic": "气候环境",
-      "score": 90,
-      "recommended_title": "7人水泥地上烧烤 水泥爆炸火花四溅背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02762-2",
-      "main_paper_title": "Earlier and faster heatwave onset on land under a warming climate",
-      "related_papers": [
-        {
-          "id": "21fd9b290cb0ce81",
-          "title": "Earlier and faster heatwave onset on land under a warming climate",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02762-2",
-          "published_at": "2026-10-03T08:39:03.865589+00:00",
-          "summary": "Heatwaves are expected to become more frequent and intense with global warming. Here the authors assess changes in their timing, finding that the heatwave season expands and that many regions see a faster onset of heatwaves.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
-          "match_score": 49
-        },
-        {
-          "id": "ac59ef1c1d6d6189",
-          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02732-8",
-          "published_at": "2026-10-03T08:39:03.867187+00:00",
-          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
-          "match_score": 45
-        },
-        {
-          "id": "e7f506bcee6f5917",
-          "title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02576-4",
-          "published_at": "2026-10-03T08:39:04.368986+00:00",
-          "summary": "Dong, Qiao and Zhou show how variations in the level of air pollution impact the productivity of scholarly researchers in China.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.848797+00:00"
-    },
-    {
-      "id": "0cd6d093a30ce16f",
-      "title": "游客晕倒 雪饼猴急得摘头套疏散人群",
-      "summary": "10月2日晚，一名游客在吉林长春动植物公园观看“雪饼猴”演出时晕倒，因人太多120无法驶入。“雪饼猴”立即暂停演出，急摘... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%B8%B8%E5%AE%A2%E6%99%95%E5%80%92+%E9%9B%AA%E9%A5%BC%E7%8C%B4%E6%80%A5%E5%BE%97%E6%91%98%E5%A4%B4%E5%A5%97%E7%96%8F%E6%95%A3%E4%BA%BA%E7%BE%A4&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 22,
-      "hot_index": 5902961,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 22
-      },
-      "topic": "生态生命",
-      "score": 87,
-      "recommended_title": "游客晕倒 雪饼猴急得摘头套疏散人群背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
-      "related_papers": [
-        {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 33
-        },
-        {
-          "id": "dc49dfc3fefe25b2",
-          "title": "Greening masks stability loss in drylands",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02733-7",
-          "published_at": "2026-10-03T08:39:03.867499+00:00",
-          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "51a8898a1d39dfc4",
-          "title": "Global compilation of in situ particulate organic carbon, nitrogen, and phosphorus concentrations in coastal and open ocean waters",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08413-7",
-          "published_at": "2026-10-02T00:00:00+00:00",
-          "summary": "We present a global compilation of in situ marine particulate organic carbon, nitrogen, and phosphorus concentrations (POC, PON, and POP, respectively), from multiple sources to provide one of the most comprehensive collections of marine particulate organic matter (POM) to dat...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-022-01809-1/MediaObjects/41597_2022_1809_Fig1_HTML.png",
-          "match_score": 23
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.850550+00:00"
-    },
-    {
-      "id": "4d419f19aa99d8ef",
-      "title": "马斯克与高管女友分手 两人育有4孩",
-      "summary": "北京时间10月3日，据外媒报道，马斯克的长期伴侣、脑机接口公司Neuralink高管希冯·齐里斯（Shivon Zili... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%A9%AC%E6%96%AF%E5%85%8B%E4%B8%8E%E9%AB%98%E7%AE%A1%E5%A5%B3%E5%8F%8B%E5%88%86%E6%89%8B+%E4%B8%A4%E4%BA%BA%E8%82%B2%E6%9C%894%E5%AD%A9&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 27,
-      "hot_index": 5416040,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 27
-      },
-      "topic": "人工智能",
-      "score": 83,
-      "recommended_title": "马斯克与高管女友分手 两人育有4孩刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41398-022-01850-z/MediaObjects/41398_2022_1850_Fig1_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s41467-026-78300-7",
-      "main_paper_title": "A model of brain function to predict tau across Alzheimer’s disease and related disorders",
-      "related_papers": [
-        {
-          "id": "72901bc3e6864de7",
-          "title": "A model of brain function to predict tau across Alzheimer’s disease and related disorders",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78300-7",
-          "published_at": "2026-10-02T00:00:00+00:00",
-          "summary": "Researchers developed a machine learning model using FDG-PET imaging to accurately predict Alzheimer’s-type tau pathology across spectrums of aging and dementia, providing a novel framework to estimate tau burden non-invasively.",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41398-022-01850-z/MediaObjects/41398_2022_1850_Fig1_HTML.png",
-          "match_score": 25
-        },
-        {
-          "id": "b4cccea06d910d44",
-          "title": "Design of monocular vision human arm-robotic arm interaction system based on attention feature fusion and sequential graph convolution",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-73045-1",
-          "published_at": "2026-10-03T00:00:00+00:00",
-          "summary": "Aiming at the problems of insufficient spatial context modeling and limited understanding of temporal dynamics in monocular vision-based human-arm-robot interaction, this study proposes a monocular vision-based human-arm-robot interaction system based on attention feature fusi...",
-          "image_url": "",
-          "match_score": 21
-        },
-        {
-          "id": "47e19848f6c4fa27",
-          "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04656-4",
-          "published_at": "2026-10-03T08:39:04.877113+00:00",
-          "summary": "In a large-scale study, a new tool called Esophageal AI-Guided malignant Lesion Evaluation uses artificial intelligence to enhance esophageal cancer detection through noncontrast computed tomography, achieving high sensitivity and specificity across diverse settings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
-          "match_score": 27
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.851967+00:00"
-    },
-    {
-      "id": "e31ae3bfbc6100ed",
-      "title": "港股两天体验别人十年大起大落",
-      "summary": "近日，港股复工后指数表现承压，资金却在板块间加速流动，南向资金近三个月净买超1200亿港元，重点加仓科技。高股息、AI产... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%B8%AF%E8%82%A1%E4%B8%A4%E5%A4%A9%E4%BD%93%E9%AA%8C%E5%88%AB%E4%BA%BA%E5%8D%81%E5%B9%B4%E5%A4%A7%E8%B5%B7%E5%A4%A7%E8%90%BD&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 28,
-      "hot_index": 5324460,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 28
-      },
-      "topic": "人工智能",
-      "score": 83,
-      "recommended_title": "港股两天体验别人十年大起大落刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-00789-7/MediaObjects/41598_2025_789_Fig1_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s41597-026-08268-y",
-      "main_paper_title": "A multimodal synthetic 3D point cloud dataset of shoe uppers for robotic processing boundary segmentation",
-      "related_papers": [
-        {
-          "id": "420fbfd161bc464e",
-          "title": "A multimodal synthetic 3D point cloud dataset of shoe uppers for robotic processing boundary segmentation",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08268-y",
-          "published_at": "2026-10-01T00:00:00+00:00",
-          "summary": "Robotic processing of shoe uppers requires accurate segmentation of thin processing boundaries in 3D point clouds. However, acquiring and annotating large collections of real-world scans is costly. We present a multimodal synthetic 3D point cloud dataset of shoe uppers for rob...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-00789-7/MediaObjects/41598_2025_789_Fig1_HTML.png",
-          "match_score": 23
-        },
-        {
-          "id": "47e19848f6c4fa27",
-          "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04656-4",
-          "published_at": "2026-10-03T08:39:04.877113+00:00",
-          "summary": "In a large-scale study, a new tool called Esophageal AI-Guided malignant Lesion Evaluation uses artificial intelligence to enhance esophageal cancer detection through noncontrast computed tomography, achieving high sensitivity and specificity across diverse settings.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "72901bc3e6864de7",
-          "title": "A model of brain function to predict tau across Alzheimer’s disease and related disorders",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78300-7",
-          "published_at": "2026-10-02T00:00:00+00:00",
-          "summary": "Researchers developed a machine learning model using FDG-PET imaging to accurately predict Alzheimer’s-type tau pathology across spectrums of aging and dementia, providing a novel framework to estimate tau burden non-invasively.",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41398-022-01850-z/MediaObjects/41398_2022_1850_Fig1_HTML.png",
-          "match_score": 25
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.853385+00:00"
-    },
-    {
-      "id": "d330ee895e509156",
-      "title": "男子砍毛竹被刺一下 确诊“七日疯”",
-      "summary": "近日，69岁的华伯在浙江大学医学院附属第一医院转危为安。此前，华伯上山砍毛竹时左前臂被竹子刺伤，伤口化脓，过了3天突然全... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E7%A0%8D%E6%AF%9B%E7%AB%B9%E8%A2%AB%E5%88%BA%E4%B8%80%E4%B8%8B+%E7%A1%AE%E8%AF%8A%E2%80%9C%E4%B8%83%E6%97%A5%E7%96%AF%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 32,
-      "hot_index": 4940200,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 32
-      },
-      "topic": "城市社会",
-      "score": 79,
-      "recommended_title": "男子砍毛竹被刺一下 确诊“七日疯”背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00518-9",
-      "main_paper_title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
-      "related_papers": [
-        {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-03T08:39:05.996817+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "70e364dc4227dc20",
-          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00511-2",
-          "published_at": "2026-10-03T08:39:05.998536+00:00",
-          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.858266+00:00"
-    },
-    {
-      "id": "39d78f59c7f6ebe6",
-      "title": "刚劝返车辆下一秒山体轰然垮塌",
-      "summary": "10月1日，湖北十堰一处山体因持续降雨发生塌方。民警巡查时发现山体异响和树木晃动，立即劝返车辆并实施交通管控。就在车辆全... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%88%9A%E5%8A%9D%E8%BF%94%E8%BD%A6%E8%BE%86%E4%B8%8B%E4%B8%80%E7%A7%92%E5%B1%B1%E4%BD%93%E8%BD%B0%E7%84%B6%E5%9E%AE%E5%A1%8C&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 35,
-      "hot_index": 4642563,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 35
-      },
-      "topic": "城市社会",
-      "score": 77,
-      "recommended_title": "刚劝返车辆下一秒山体轰然垮塌背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00493-1",
-      "main_paper_title": "Temporary loss of social-ecological system resilience during rural to urban transition",
-      "related_papers": [
-        {
-          "id": "05a6b1e851158d33",
-          "title": "Temporary loss of social-ecological system resilience during rural to urban transition",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00493-1",
-          "published_at": "2026-08-10T00:00:00+00:00",
-          "summary": "Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones become less resilient socially and ecologically as they transition.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
-          "match_score": 40
-        },
-        {
-          "id": "b103ca6a9b4c2645",
-          "title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11047-9",
-          "published_at": "2026-10-03T08:39:02.917250+00:00",
-          "summary": "A dual-precursor chemical system is used to achieve wafer-scale epitaxy growth of boron carbon nitride, a high-performance p-type semiconductor, for potential integration in efficient 2D materials for electronics.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "92a710e8603790cb",
-          "title": "Cationic chain-anchored monolayer enables wide-temperature composite polymer electrolytes for lithium-metal batteries",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78048-0",
-          "published_at": "2026-10-02T00:00:00+00:00",
-          "summary": "Solid-state lithium-metal batteries are promising candidates for high-energy-density energy storage yet suffer from severe interfacial and ion-transport limitations under wide-temperature. Herein, authors propose a cationic chain-anchored monolayer strategy to construct stable...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41467-023-35857-x/MediaObjects/41467_2023_35857_Fig1_HTML.png",
-          "match_score": 39
-        }
-      ],
-      "updated_at": "2026-10-03T08:39:09.862994+00:00"
-    },
-    {
-      "id": "75b83a0b537ba118",
-      "title": "38岁女子靠人工心重生7年",
-      "summary": "武汉女子廖翠与“人工心”共生7年。她将乒乓球大小的控制器和电池装在内侧马甲中，每天背负约5斤重的设备生活。廖翠称人工心脏... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=38%E5%B2%81%E5%A5%B3%E5%AD%90%E9%9D%A0%E4%BA%BA%E5%B7%A5%E5%BF%83%E9%87%8D%E7%94%9F7%E5%B9%B4&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 42,
-      "hot_index": 3986333,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 42
+        "百度民生": 1,
+        "百度热搜": 14
       },
       "topic": "健康医学",
-      "score": 71,
-      "recommended_title": "38岁女子靠人工心重生7年为什么值得关注？从Nature研究看真正的科学证据",
+      "score": 98,
+      "recommended_title": "73岁大爷心脏长反 每天乱跳超3万次为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02568-4",
@@ -649,7 +42,7 @@
           "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
           "source": "Nature Human Behaviour",
           "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-10-03T08:39:04.370625+00:00",
+          "published_at": "2026-10-03T14:00:49.087880+00:00",
           "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
           "match_score": 35
@@ -669,16 +62,420 @@
           "title": "Intravenous hyaluronidase-expressing oncolytic adenovirus with chemotherapy in metastatic pancreatic cancer: a randomized phase 2b trial",
           "source": "Nature Medicine",
           "url": "https://www.nature.com/articles/s41591-026-04705-y",
-          "published_at": "2026-10-03T08:39:04.874741+00:00",
+          "published_at": "2026-10-03T14:00:49.611544+00:00",
           "summary": "In the randomized phase 2b VIRAGE trial, patients with treatment-naive metastatic pancreatic cancer received the hyaluronidase-expressing oncolytic adenovirus zabilugene almadenorepvec (VCN-01) intravenously with gemcitabine and nab-paclitaxel (GnP) or GnP alone, showing that...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04705-y/MediaObjects/41591_2026_4705_Fig1_HTML.png?as=webp",
           "match_score": 35
         }
       ],
-      "updated_at": "2026-10-03T08:39:09.867587+00:00"
+      "updated_at": "2026-10-03T14:00:57.976678+00:00"
+    },
+    {
+      "id": "3c8578872a8754d9",
+      "title": "国庆出游用AI 第一批人已被坑惨",
+      "summary": "国庆长假进入第三天，多位游客分享用AI做旅游攻略的踩坑经历。此前，越来越多人将行程交给AI。但长假期间AI暴露无法掌握实... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%9B%BD%E5%BA%86%E5%87%BA%E6%B8%B8%E7%94%A8AI+%E7%AC%AC%E4%B8%80%E6%89%B9%E4%BA%BA%E5%B7%B2%E8%A2%AB%E5%9D%91%E6%83%A8&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 6,
+      "hot_index": 5524203,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 6,
+        "百度热搜": 26
+      },
+      "topic": "人工智能",
+      "score": 98,
+      "recommended_title": "国庆出游用AI 第一批人已被坑惨刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04656-4",
+      "main_paper_title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
+      "related_papers": [
+        {
+          "id": "47e19848f6c4fa27",
+          "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04656-4",
+          "published_at": "2026-10-03T14:00:49.614026+00:00",
+          "summary": "In a large-scale study, a new tool called Esophageal AI-Guided malignant Lesion Evaluation uses artificial intelligence to enhance esophageal cancer detection through noncontrast computed tomography, achieving high sensitivity and specificity across diverse settings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "7d9443e7b6c5a1cc",
+          "title": "Volitional control of wearable robots",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78416-w",
+          "published_at": "2026-10-03T00:00:00+00:00",
+          "summary": "This Comment motivates the development of human–machine interfaces that decode spinal motor neuron activity and resulting muscle force information in moving humans. Such interfaces could enable users across the neuromuscular functional spectrum to volitionally control wearable...",
+          "image_url": "",
+          "match_score": 25
+        },
+        {
+          "id": "72901bc3e6864de7",
+          "title": "A model of brain function to predict tau across Alzheimer’s disease and related disorders",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78300-7",
+          "published_at": "2026-10-02T00:00:00+00:00",
+          "summary": "Researchers developed a machine learning model using FDG-PET imaging to accurately predict Alzheimer’s-type tau pathology across spectrums of aging and dementia, providing a novel framework to estimate tau burden non-invasively.",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41398-022-01850-z/MediaObjects/41398_2022_1850_Fig1_HTML.png",
+          "match_score": 25
+        }
+      ],
+      "updated_at": "2026-10-03T14:00:57.978026+00:00"
+    },
+    {
+      "id": "2d7bbfe46657a10c",
+      "title": "“水猴子拖人下水淹死”系谣言",
+      "summary": "10月2日，湖南警方通报多起网络谣言典型案例。此前9月12日，益阳网民曾某为博眼球，利用AI剪辑拼接“树懒”与水域画面，... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E6%B0%B4%E7%8C%B4%E5%AD%90%E6%8B%96%E4%BA%BA%E4%B8%8B%E6%B0%B4%E6%B7%B9%E6%AD%BB%E2%80%9D%E7%B3%BB%E8%B0%A3%E8%A8%80&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 12,
+      "hot_index": 6856480,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 12
+      },
+      "topic": "人工智能",
+      "score": 95,
+      "recommended_title": "“水猴子拖人下水淹死”系谣言刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41398-022-01850-z/MediaObjects/41398_2022_1850_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41467-026-78300-7",
+      "main_paper_title": "A model of brain function to predict tau across Alzheimer’s disease and related disorders",
+      "related_papers": [
+        {
+          "id": "72901bc3e6864de7",
+          "title": "A model of brain function to predict tau across Alzheimer’s disease and related disorders",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78300-7",
+          "published_at": "2026-10-02T00:00:00+00:00",
+          "summary": "Researchers developed a machine learning model using FDG-PET imaging to accurately predict Alzheimer’s-type tau pathology across spectrums of aging and dementia, providing a novel framework to estimate tau burden non-invasively.",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41398-022-01850-z/MediaObjects/41398_2022_1850_Fig1_HTML.png",
+          "match_score": 25
+        },
+        {
+          "id": "420fbfd161bc464e",
+          "title": "A multimodal synthetic 3D point cloud dataset of shoe uppers for robotic processing boundary segmentation",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08268-y",
+          "published_at": "2026-10-01T00:00:00+00:00",
+          "summary": "Robotic processing of shoe uppers requires accurate segmentation of thin processing boundaries in 3D point clouds. However, acquiring and annotating large collections of real-world scans is costly. We present a multimodal synthetic 3D point cloud dataset of shoe uppers for rob...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-00789-7/MediaObjects/41598_2025_789_Fig1_HTML.png",
+          "match_score": 23
+        },
+        {
+          "id": "b4cccea06d910d44",
+          "title": "Design of monocular vision human arm-robotic arm interaction system based on attention feature fusion and sequential graph convolution",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-73045-1",
+          "published_at": "2026-10-03T00:00:00+00:00",
+          "summary": "Aiming at the problems of insufficient spatial context modeling and limited understanding of temporal dynamics in monocular vision-based human-arm-robot interaction, this study proposes a monocular vision-based human-arm-robot interaction system based on attention feature fusi...",
+          "image_url": "",
+          "match_score": 21
+        }
+      ],
+      "updated_at": "2026-10-03T14:00:57.979335+00:00"
+    },
+    {
+      "id": "e864a90e3b64ac12",
+      "title": "女子靠AI婚庆培训年入200万",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E9%9D%A0AI%E5%A9%9A%E5%BA%86%E5%9F%B9%E8%AE%AD%E5%B9%B4%E5%85%A5200%E4%B8%87&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 13,
+      "hot_index": 2948076,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 13
+      },
+      "topic": "人工智能",
+      "score": 94,
+      "recommended_title": "女子靠AI婚庆培训年入200万刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-00789-7/MediaObjects/41598_2025_789_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41597-026-08268-y",
+      "main_paper_title": "A multimodal synthetic 3D point cloud dataset of shoe uppers for robotic processing boundary segmentation",
+      "related_papers": [
+        {
+          "id": "420fbfd161bc464e",
+          "title": "A multimodal synthetic 3D point cloud dataset of shoe uppers for robotic processing boundary segmentation",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08268-y",
+          "published_at": "2026-10-01T00:00:00+00:00",
+          "summary": "Robotic processing of shoe uppers requires accurate segmentation of thin processing boundaries in 3D point clouds. However, acquiring and annotating large collections of real-world scans is costly. We present a multimodal synthetic 3D point cloud dataset of shoe uppers for rob...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-00789-7/MediaObjects/41598_2025_789_Fig1_HTML.png",
+          "match_score": 23
+        },
+        {
+          "id": "91f5a81c75c9a40e",
+          "title": "Machine learning clustering of multidimensional clinical features identifies four prognostically distinct sepsis subtypes",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-74359-w",
+          "published_at": "2026-10-03T00:00:00+00:00",
+          "summary": "Sepsis is highly heterogeneous, and traditional “one-size-fits-all” treatment approaches are insufficient for optimal risk stratification. Using the MIMIC-III database, we employed unsupervised machine learning (k-means clustering) based on eight key clinical features (age, SO...",
+          "image_url": "",
+          "match_score": 21
+        },
+        {
+          "id": "47e19848f6c4fa27",
+          "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04656-4",
+          "published_at": "2026-10-03T14:00:49.614026+00:00",
+          "summary": "In a large-scale study, a new tool called Esophageal AI-Guided malignant Lesion Evaluation uses artificial intelligence to enhance esophageal cancer detection through noncontrast computed tomography, achieving high sensitivity and specificity across diverse settings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
+          "match_score": 27
+        }
+      ],
+      "updated_at": "2026-10-03T14:00:57.980609+00:00"
+    },
+    {
+      "id": "38f7e2e982df5ec6",
+      "title": "花218元全资进组的年轻人在横店演爽",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E8%8A%B1218%E5%85%83%E5%85%A8%E8%B5%84%E8%BF%9B%E7%BB%84%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%9C%A8%E6%A8%AA%E5%BA%97%E6%BC%94%E7%88%BD&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 17,
+      "hot_index": 2327129,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 17
+      },
+      "topic": "城市社会",
+      "score": 91,
+      "recommended_title": "花218元全资进组的年轻人在横店演爽背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00515-y",
+      "main_paper_title": "Systematic overview of climate actions for health in cities",
+      "related_papers": [
+        {
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-10-03T14:00:50.787623+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+          "match_score": 34
+        },
+        {
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-10-03T14:00:50.787999+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-10-03T14:00:50.788634+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-03T14:00:57.984890+00:00"
+    },
+    {
+      "id": "7bb25ad345be0c11",
+      "title": "景区冤种三件套 年轻人只薅不买了",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E6%99%AF%E5%8C%BA%E5%86%A4%E7%A7%8D%E4%B8%89%E4%BB%B6%E5%A5%97+%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%8F%AA%E8%96%85%E4%B8%8D%E4%B9%B0%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 27,
+      "hot_index": 748603,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 27
+      },
+      "topic": "城市社会",
+      "score": 81,
+      "recommended_title": "景区冤种三件套 年轻人只薅不买了背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00518-9",
+      "main_paper_title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+      "related_papers": [
+        {
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-10-03T14:00:50.787999+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-10-03T14:00:50.788965+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "70e364dc4227dc20",
+          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00511-2",
+          "published_at": "2026-10-03T14:00:50.789668+00:00",
+          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-03T14:00:57.989199+00:00"
+    },
+    {
+      "id": "1777e307c6eadcc4",
+      "title": "emo久了真的会得心碎综合征",
+      "summary": "剧烈情绪真的会损伤心脏吗？有一种病叫心碎综合征，是心肌梗塞的一个表现，高压力和心情不愉快会引起身体一些炎症反应，从而诱发... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=emo%E4%B9%85%E4%BA%86%E7%9C%9F%E7%9A%84%E4%BC%9A%E5%BE%97%E5%BF%83%E7%A2%8E%E7%BB%BC%E5%90%88%E5%BE%81&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 51,
+      "hot_index": 3101745,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 51
+      },
+      "topic": "健康医学",
+      "score": 67,
+      "recommended_title": "emo久了真的会得心碎综合征为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00516-x",
+      "main_paper_title": "Depression risk associated with idealized sentiment toward urban places on social media",
+      "related_papers": [
+        {
+          "id": "86169746c0e8f177",
+          "title": "Depression risk associated with idealized sentiment toward urban places on social media",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00516-x",
+          "published_at": "2026-10-03T14:00:50.789351+00:00",
+          "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
+          "match_score": 52
+        },
+        {
+          "id": "1564b18b2511df36",
+          "title": "An amygdala to anterior hypothalamic circuit gates stress sensitivity",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11075-5",
+          "published_at": "2026-10-03T14:00:47.774036+00:00",
+          "summary": "The anterior hypothalamic nucleus regulates negative valence in the brain, highlighting a new pathway that controls sensitivity to stressful events and signposting approaches to identify new circuit interactions relevant to mental health.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11075-5/MediaObjects/41586_2026_11075_Fig1_HTML.png?as=webp",
+          "match_score": 46
+        },
+        {
+          "id": "ac59ef1c1d6d6189",
+          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02732-8",
+          "published_at": "2026-10-03T14:00:48.627760+00:00",
+          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
+          "match_score": 41
+        }
+      ],
+      "updated_at": "2026-10-03T14:00:57.995016+00:00"
     }
   ],
   "items": [
+    {
+      "id": "f5daf4e3b1d4f3a9",
+      "title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
+      "display_title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31431",
+      "published_at": "2026-10-03T13:56:47.659923+00:00",
+      "detected_at": "2026-10-03T13:56:47.659928+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 2 天前 18.4K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392637388592289987085092.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "3deee062f92bdae9",
+      "title": "豆包AI再升级:一站式搞定出行全流程，剑指生活服务入口 9月30日消息，字节跳动旗下AI助手豆包近日升级，接入机票、火车票预订、打车叫车及地图导航等出行服务，从“对话助手”向“生活服务入口”转型。",
+      "display_title": "豆包AI再升级:一站式搞定出行全流程，剑指生活服务入口 9月30日消息，字节跳动旗下AI助手豆包近日升级，接入机票、火车票预订、打车叫车及地图导航等出行服务，从“对话助手”向“生活服务入口”转型。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31433",
+      "published_at": "2026-10-03T13:56:47.656428+00:00",
+      "detected_at": "2026-10-03T13:56:47.656434+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 2 天前 18.4K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392637559296887891300151.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "aef9d8b3fe843347",
+      "title": "微软研究院发布生物学“世界模型”Quine，药物筛选验证周期压缩至数天 微软研究院发布生命科学AI科研系统Quine，定位“生物学世界模型”，欲以跨尺度生物推理加速复杂机制解析与药物研发。",
+      "display_title": "微软研究院发布生物学“世界模型”Quine，药物筛选验证周期压缩至数天 微软研究院发布生命科学AI科研系统Quine，定位“生物学世界模型”，欲以跨尺度生物推理加速复杂机制解析与药物研发。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31434",
+      "published_at": "2026-10-03T13:56:47.654721+00:00",
+      "detected_at": "2026-10-03T13:56:47.654727+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 2 天前 18.4K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392637581199369092863985.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "e9fd67ba26b64215",
+      "title": "微软亮出生物学\"世界模型\"Project Quine：一个周末筛出抗癌候选物 微软研究院29日发布实验性多模态AI系统Project Quine，定位为面向生物学的“世界模型”，旨在连接计算建模与实验室实操。",
+      "display_title": "微软亮出生物学\"世界模型\"Project Quine：一个周末筛出抗癌候选物 微软研究院29日发布实验性多模态AI系统Project Quine，定位为面向生物学的“世界模型”，旨在连接计算建模与实验室实操。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31437",
+      "published_at": "2026-10-03T13:56:47.649376+00:00",
+      "detected_at": "2026-10-03T13:56:47.649382+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 2 天前 18.4K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
+      "image_url": "https://upload.chinaz.com/2026/0930/6392637909359385508796433.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "6d5172f4796b723c",
       "title": "AI 赋能药企营销：从人海战术到销售尖兵",
@@ -716,75 +513,21 @@
       "meta": {}
     },
     {
-      "id": "f5daf4e3b1d4f3a9",
-      "title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
-      "display_title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31431",
-      "published_at": "2026-10-03T08:34:53.310173+00:00",
-      "detected_at": "2026-10-03T08:34:53.310179+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 2 天前 17.6K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
-      "image_url": "https://upload.chinaz.com/2026/0930/6392637388592289987085092.png",
-      "image_method": "body-validated",
+      "id": "caaa128824e1bceb",
+      "title": "Search – 仅 6MB，开源、极简 Mac 浏览器，支持 Chrome 扩展",
+      "display_title": "Search – 仅 6MB，开源、极简 Mac 浏览器，支持 Chrome 扩展",
+      "source": "小众软件",
+      "category": "提效工具",
+      "url": "https://www.appinn.com/officecommun-serach-browser/",
+      "published_at": "2026-10-03T00:00:00+00:00",
+      "detected_at": "2026-10-03T13:56:52.453268+00:00",
+      "summary": "Search – 仅 6MB，开源、极简 Mac 浏览器，支持 Chrome 扩展 macOS 2026/10/03 0",
+      "image_url": "https://www.appinn.com/wp-content/uploads/2026/10/ChatGPT-2026-10-3-17_16_40.jpg",
+      "image_method": "og-validated",
       "image_rule_version": 13,
-      "priority": "A",
+      "priority": "B",
       "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "3deee062f92bdae9",
-      "title": "豆包AI再升级:一站式搞定出行全流程，剑指生活服务入口 9月30日消息，字节跳动旗下AI助手豆包近日升级，接入机票、火车票预订、打车叫车及地图导航等出行服务，从“对话助手”向“生活服务入口”转型。",
-      "display_title": "豆包AI再升级:一站式搞定出行全流程，剑指生活服务入口 9月30日消息，字节跳动旗下AI助手豆包近日升级，接入机票、火车票预订、打车叫车及地图导航等出行服务，从“对话助手”向“生活服务入口”转型。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31433",
-      "published_at": "2026-10-03T08:34:53.306740+00:00",
-      "detected_at": "2026-10-03T08:34:53.306746+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 2 天前 17.6K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
-      "image_url": "https://upload.chinaz.com/2026/0930/6392637559296887891300151.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "aef9d8b3fe843347",
-      "title": "微软研究院发布生物学“世界模型”Quine，药物筛选验证周期压缩至数天 微软研究院发布生命科学AI科研系统Quine，定位“生物学世界模型”，欲以跨尺度生物推理加速复杂机制解析与药物研发。",
-      "display_title": "微软研究院发布生物学“世界模型”Quine，药物筛选验证周期压缩至数天 微软研究院发布生命科学AI科研系统Quine，定位“生物学世界模型”，欲以跨尺度生物推理加速复杂机制解析与药物研发。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31434",
-      "published_at": "2026-10-03T08:34:53.305036+00:00",
-      "detected_at": "2026-10-03T08:34:53.305042+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 2 天前 17.6K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
-      "image_url": "https://upload.chinaz.com/2026/0930/6392637581199369092863985.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "e9fd67ba26b64215",
-      "title": "微软亮出生物学\"世界模型\"Project Quine：一个周末筛出抗癌候选物 微软研究院29日发布实验性多模态AI系统Project Quine，定位为面向生物学的“世界模型”，旨在连接计算建模与实验室实操。",
-      "display_title": "微软亮出生物学\"世界模型\"Project Quine：一个周末筛出抗癌候选物 微软研究院29日发布实验性多模态AI系统Project Quine，定位为面向生物学的“世界模型”，旨在连接计算建模与实验室实操。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31437",
-      "published_at": "2026-10-03T08:34:53.299711+00:00",
-      "detected_at": "2026-10-03T08:34:53.299717+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 2 天前 17.6K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
-      "image_url": "https://upload.chinaz.com/2026/0930/6392637909359385508796433.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
+      "is_breakthrough": false,
       "meta": {}
     },
     {
@@ -1643,7 +1386,7 @@
       "published_at": "2026-09-30T01:38:43.130734+00:00",
       "detected_at": "2026-09-30T01:38:43.130749+00:00",
       "summary": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等 周三 30",
-      "image_url": "https://rssfile.sspai.com/2026/9/30/article/5e30974c-cb55-1e66-43b5-5cb455bbfa48.jpeg?imageMogr2/auto-orient/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/9/30/article/5e30974c-cb55-1e66-43b5-5cb455bbfa48.jpeg?imageMogr2/auto-orient/format/webp/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -1751,7 +1494,7 @@
       "published_at": "2026-09-29T13:02:47.773063+00:00",
       "detected_at": "2026-09-29T13:02:47.773077+00:00",
       "summary": "更懂你的心，也更懂你：Apple Watch Series 12 体验 全新 Apple Watch Series 12，有哪些可感知的升级？ ElijahLee 15:44",
-      "image_url": "https://rssfile.sspai.com/2026/09/28/104ba93c89e482e821fb19afe16b65e3.JPG?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/09/28/104ba93c89e482e821fb19afe16b65e3.JPG?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -9654,24 +9397,6 @@
       "detected_at": "2026-08-26T10:30:16.015896+00:00",
       "summary": "We present a multiscale geospatial dataset that links nighttime activity indicators with meteorological exposure for Chinese listed firms from 2012 to 2019. The dataset integrates annual firm location anchors, daily nighttime light observations from the Visible Infrared Imagin...",
       "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41467-023-41797-3/MediaObjects/41467_2023_41797_Fig1_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "8f7f04a879bfff0e",
-      "title": "Dataset for Multiple Basketball Motor Observation and Motor Imagery Based on Functional Connectivity Analysis",
-      "display_title": "Dataset for Multiple Basketball Motor Observation and Motor Imagery Based on Functional Connectivity Analysis",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08165-4",
-      "published_at": "2026-08-24T00:00:00+00:00",
-      "detected_at": "2026-08-26T10:30:16.016352+00:00",
-      "summary": "This study presents an electroencephalography (EEG) dataset collected during motor imagery (MI) and motor observation (MO) of basketball-specific actions, designed to support functional connectivity research and facilitate brain-computer interface (BCI) development. Thirty-fiv...",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-025-04826-y/MediaObjects/41597_2025_4826_Fig1_HTML.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
