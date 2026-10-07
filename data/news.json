@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-10-06T23:56:40.606239+00:00",
+  "updated_at": "2026-10-07T06:14:33.664661+00:00",
   "count": 500,
-  "hotspot_count": 8,
-  "breakthrough_count": 194,
+  "hotspot_count": 12,
+  "breakthrough_count": 191,
   "category_counts": {
-    "AI变现": 187,
+    "AI变现": 183,
     "提效工具": 68,
-    "前沿动态": 66
+    "前沿动态": 67
   },
   "source_counts": {
-    "Scientific Data": 169,
+    "Scientific Data": 172,
     "Nature Cities": 10
   },
   "hotspots": [
     {
-      "id": "2a38213d9a86abce",
-      "title": "睡眠开始出现这种问题说明你可能老了",
-      "summary": "近日，科普中国发文解读老年人睡眠变化原因。超60%老年人早睡早起且睡眠碎片化严重，这与生物钟节律前移、晶状体透光率下降导... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%9D%A1%E7%9C%A0%E5%BC%80%E5%A7%8B%E5%87%BA%E7%8E%B0%E8%BF%99%E7%A7%8D%E9%97%AE%E9%A2%98%E8%AF%B4%E6%98%8E%E4%BD%A0%E5%8F%AF%E8%83%BD%E8%80%81%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 2,
-      "hot_index": 6752360,
+      "id": "f96b3c479cdabb70",
+      "title": "年轻人爱上缝纫机课",
+      "summary": "近期，年轻人爱上了缝纫机课。不少消费者从“单次打卡”直接“深度入坑”。作为手作体验经济的热门，缝纫机课的走红，本质上戳中... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%88%B1%E4%B8%8A%E7%BC%9D%E7%BA%AB%E6%9C%BA%E8%AF%BE&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 11,
+      "hot_index": 5708856,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 2,
-        "百度热搜": 13
+        "百度民生": 11,
+        "百度热搜": 24
       },
-      "topic": "健康医学",
+      "topic": "城市社会",
       "score": 98,
-      "recommended_title": "睡眠开始出现这种问题说明你可能老了为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "recommended_title": "年轻人爱上缝纫机课背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02568-4",
       "main_paper_title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
@@ -42,11 +42,111 @@
           "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
           "source": "Nature Human Behaviour",
           "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-10-06T23:56:27.874757+00:00",
+          "published_at": "2026-10-07T06:14:15.970453+00:00",
           "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
-          "match_score": 35
+          "match_score": 41
         },
+        {
+          "id": "5b658241245312d4",
+          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00504-1",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-10-07T06:14:17.629691+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.909863+00:00"
+    },
+    {
+      "id": "8598ae462f4f80db",
+      "title": "佘智江被捕画面：满脸笑意 十分嚣张",
+      "summary": "据悉，妙瓦底地区的整个犯罪生态、亚太新城核心操盘者之一佘智江被捕时表现得十分嚣张，认为凭着他的人脉关系和他通过灰黑产获得... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%BD%98%E6%99%BA%E6%B1%9F%E8%A2%AB%E6%8D%95%E7%94%BB%E9%9D%A2%EF%BC%9A%E6%BB%A1%E8%84%B8%E7%AC%91%E6%84%8F+%E5%8D%81%E5%88%86%E5%9A%A3%E5%BC%A0&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 3,
+      "hot_index": 7711983,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 3
+      },
+      "topic": "生态生命",
+      "score": 98,
+      "recommended_title": "佘智江被捕画面：满脸笑意 十分嚣张背后的科学问题：Nature研究给出了哪些线索？",
+      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
+      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
+      "related_papers": [
+        {
+          "id": "30fe5c469e32a8d8",
+          "title": "Tree species richness relates to long-term forest photosynthesis increase",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02698-7",
+          "published_at": "2026-07-27T00:00:00+00:00",
+          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
+          "match_score": 33
+        },
+        {
+          "id": "159aa9a198830cd8",
+          "title": "The role of parkland agroforestry tree species for soil physicochemical properties and crop productivity in Hirna and Kersa, Eastern Ethiopia",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-74890-w",
+          "published_at": "2026-10-07T00:00:00+00:00",
+          "summary": "Scattered parkland agroforestry trees play an important role in sustaining soil fertility and crop productivity in smallholder farming systems, yet quantitative evidence from eastern Ethiopia remains limited. This study evaluated the effects of Acacia albida, Cordia africana,...",
+          "image_url": "",
+          "match_score": 29
+        },
+        {
+          "id": "dc49dfc3fefe25b2",
+          "title": "Greening masks stability loss in drylands",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02733-7",
+          "published_at": "2026-10-07T06:14:15.552044+00:00",
+          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.900773+00:00"
+    },
+    {
+      "id": "bfaa38586ca817d4",
+      "title": "微胖可能是保命的本钱",
+      "summary": "最近，一项覆盖33万多例手术数据的研究发现，体重过轻患者术后死亡风险比体重正常者高92%。专家指出，太瘦者营养储备不足、... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%BE%AE%E8%83%96%E5%8F%AF%E8%83%BD%E6%98%AF%E4%BF%9D%E5%91%BD%E7%9A%84%E6%9C%AC%E9%92%B1&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 8,
+      "hot_index": 7236839,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 8
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "微胖可能是保命的本钱为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04713-y/MediaObjects/41591_2026_4713_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04713-y",
+      "main_paper_title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
+      "related_papers": [
         {
           "id": "d699f87668baa051",
           "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
@@ -55,40 +155,105 @@
           "published_at": "2026-10-05T00:00:00+00:00",
           "summary": "Once-daily oral safiglipron is non-inferior to dapagliflozin for HbA1c reduction at all tested doses and superior at 90 mg, with greater improvements in glycemic control, similar modest weight loss and an acceptable safety profile in adults with type 2 diabetes.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04713-y/MediaObjects/41591_2026_4713_Fig2_HTML.png?as=webp",
-          "match_score": 35
+          "match_score": 49
         },
         {
-          "id": "9060989da9a895e5",
-          "title": "Effects of semaglutide on kidney disease in type 2 diabetes: a randomized placebo-controlled trial",
+          "id": "5580540ed5cc4e13",
+          "title": "Sugar-rich foods exacerbate antibiotic-induced microbiome disruption",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11077-3",
+          "published_at": "2026-10-07T06:14:14.683036+00:00",
+          "summary": "Avoiding a diet rich in simple sugars during treatment with antibiotics may mitigate microbiota disruption.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11077-3/MediaObjects/41586_2026_11077_Fig3_HTML.png",
+          "match_score": 46
+        },
+        {
+          "id": "c448f5c70499a7e8",
+          "title": "Small quantity lipid-based nutritional supplementation and measles vaccination coverage in children aged 6−23 months: a pragmatic cluster-randomized trial",
           "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04674-2",
-          "published_at": "2026-10-01T00:00:00+00:00",
-          "summary": "A randomized trial in individuals with type 2 diabetes probed the kidney-protective mechanisms of semaglutide using a range of techniques, including histology, multiparametric MRI and transcriptomics.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04674-2/MediaObjects/41591_2026_4674_Fig2_HTML.png?as=webp",
-          "match_score": 35
+          "url": "https://www.nature.com/articles/s41591-026-04675-1",
+          "published_at": "2026-10-02T00:00:00+00:00",
+          "summary": "A pragmatic, superiority, cluster-randomized trial done in Yobe State, northern Nigeria, found that distributing small-quantity lipid-based nutrient supplements alongside routine immunization services substantially increased measles vaccination uptake in children aged 12−23 mo...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04675-1/MediaObjects/41591_2026_4675_Fig2_HTML.png",
+          "match_score": 41
         }
       ],
-      "updated_at": "2026-10-06T23:56:33.247872+00:00"
+      "updated_at": "2026-10-07T06:14:24.905546+00:00"
     },
     {
-      "id": "4ff095a2054f8303",
-      "title": "大学生旅游攻略 坑麻国庆出行中年人",
-      "summary": "十一假期过半，不少中年人发文控诉照搬大学生旅游攻略出游遭罪。此前，中年人试图参照年轻人方式自由行，却发现大学生攻略主打“... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%97%85%E6%B8%B8%E6%94%BB%E7%95%A5+%E5%9D%91%E9%BA%BB%E5%9B%BD%E5%BA%86%E5%87%BA%E8%A1%8C%E4%B8%AD%E5%B9%B4%E4%BA%BA&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 9,
-      "hot_index": 6188872,
+      "id": "11d01bf77f2855fb",
+      "title": "医生称一次性座椅套更多是心理作用",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E7%94%9F%E7%A7%B0%E4%B8%80%E6%AC%A1%E6%80%A7%E5%BA%A7%E6%A4%85%E5%A5%97%E6%9B%B4%E5%A4%9A%E6%98%AF%E5%BF%83%E7%90%86%E4%BD%9C%E7%94%A8&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 21,
+      "hot_index": 3339654,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 9,
-        "百度热搜": 19
+        "百度民生": 21,
+        "百度热搜": 49
+      },
+      "topic": "健康医学",
+      "score": 95,
+      "recommended_title": "医生称一次性座椅套更多是心理作用为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00516-x",
+      "main_paper_title": "Depression risk associated with idealized sentiment toward urban places on social media",
+      "related_papers": [
+        {
+          "id": "86169746c0e8f177",
+          "title": "Depression risk associated with idealized sentiment toward urban places on social media",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00516-x",
+          "published_at": "2026-10-07T06:14:17.632075+00:00",
+          "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
+          "match_score": 52
+        },
+        {
+          "id": "1564b18b2511df36",
+          "title": "An amygdala to anterior hypothalamic circuit gates stress sensitivity",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11075-5",
+          "published_at": "2026-10-07T06:14:14.685070+00:00",
+          "summary": "The anterior hypothalamic nucleus regulates negative valence in the brain, highlighting a new pathway that controls sensitivity to stressful events and signposting approaches to identify new circuit interactions relevant to mental health.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11075-5/MediaObjects/41586_2026_11075_Fig1_HTML.png?as=webp",
+          "match_score": 46
+        },
+        {
+          "id": "ac59ef1c1d6d6189",
+          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02732-8",
+          "published_at": "2026-10-07T06:14:15.551703+00:00",
+          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
+          "match_score": 41
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.936879+00:00"
+    },
+    {
+      "id": "55bf69886e3a6fa0",
+      "title": "“高铁座椅成HPV感染重灾区”不实",
+      "summary": "国庆假期期间，网传“高铁座椅成HPV感染重灾区”引发热议。对此，首都医科大学附属北京佑安医院感染科主任医师李侗曾辟谣称该... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%AB%98%E9%93%81%E5%BA%A7%E6%A4%85%E6%88%90HPV%E6%84%9F%E6%9F%93%E9%87%8D%E7%81%BE%E5%8C%BA%E2%80%9D%E4%B8%8D%E5%AE%9E&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 12,
+      "hot_index": 6849657,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 12
       },
       "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "大学生旅游攻略 坑麻国庆出行中年人背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 95,
+      "recommended_title": "“高铁座椅成HPV感染重灾区”不实背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
@@ -109,7 +274,227 @@
           "title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
           "source": "Nature",
           "url": "https://www.nature.com/articles/s41586-026-11047-9",
-          "published_at": "2026-10-06T23:56:26.609387+00:00",
+          "published_at": "2026-10-07T06:14:14.686923+00:00",
+          "summary": "A dual-precursor chemical system is used to achieve wafer-scale epitaxy growth of boron carbon nitride, a high-performance p-type semiconductor, for potential integration in efficient 2D materials for electronics.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "333668f26859f44d",
+          "title": "An open vision-language model for diverse medical applications",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04626-w",
+          "published_at": "2026-10-06T00:00:00+00:00",
+          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
+          "match_score": 41
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.914460+00:00"
+    },
+    {
+      "id": "9ca106522df4c914",
+      "title": "高铁坐过站怎么办？可以免费坐回去",
+      "summary": "假期出行高峰期，旅客乘坐高铁若不慎坐过站，可联系列车工作人员说明情况。经列车长编制客运记录并交由前方停车站后，旅客可凭记... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%AB%98%E9%93%81%E5%9D%90%E8%BF%87%E7%AB%99%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9F%E5%8F%AF%E4%BB%A5%E5%85%8D%E8%B4%B9%E5%9D%90%E5%9B%9E%E5%8E%BB&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 14,
+      "hot_index": 6658419,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 14
+      },
+      "topic": "城市社会",
+      "score": 94,
+      "recommended_title": "高铁坐过站怎么办？可以免费坐回去背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
+      "main_paper_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+      "related_papers": [
+        {
+          "id": "0d46a2cc3e13a806",
+          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00487-z",
+          "published_at": "2026-07-31T00:00:00+00:00",
+          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
+          "match_score": 46
+        },
+        {
+          "id": "05a6b1e851158d33",
+          "title": "Temporary loss of social-ecological system resilience during rural to urban transition",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00493-1",
+          "published_at": "2026-08-10T00:00:00+00:00",
+          "summary": "Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones become less resilient socially and ecologically as they transition.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-10-07T06:14:17.630769+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.918910+00:00"
+    },
+    {
+      "id": "5ac09e9048253c8e",
+      "title": "千万别用这个姿势坐车",
+      "summary": "10月7日国庆假期最后一天，全国迎来返程高峰。西藏自治区公安交通管理局民警提醒，乘车时切勿平躺睡觉或使用车载充气床垫。平... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%83%E4%B8%87%E5%88%AB%E7%94%A8%E8%BF%99%E4%B8%AA%E5%A7%BF%E5%8A%BF%E5%9D%90%E8%BD%A6&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 16,
+      "hot_index": 6464288,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 16
+      },
+      "topic": "城市社会",
+      "score": 92,
+      "recommended_title": "千万别用这个姿势坐车背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11047-9",
+      "main_paper_title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
+      "related_papers": [
+        {
+          "id": "b103ca6a9b4c2645",
+          "title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11047-9",
+          "published_at": "2026-10-07T06:14:14.686923+00:00",
+          "summary": "A dual-precursor chemical system is used to achieve wafer-scale epitaxy growth of boron carbon nitride, a high-performance p-type semiconductor, for potential integration in efficient 2D materials for electronics.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-10-07T06:14:17.631429+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-10-07T06:14:17.631746+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.923338+00:00"
+    },
+    {
+      "id": "e4aeb643799a4b22",
+      "title": "为什么国庆火的都是小城",
+      "summary": "今年国庆假期，全国热度前十景区全被地级市及县域小城包揽。交通基建与软服务的提升，让“想去但麻烦”的小城变成“说走就走”的... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E4%BB%80%E4%B9%88%E5%9B%BD%E5%BA%86%E7%81%AB%E7%9A%84%E9%83%BD%E6%98%AF%E5%B0%8F%E5%9F%8E&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 18,
+      "hot_index": 6277496,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 18
+      },
+      "topic": "城市社会",
+      "score": 91,
+      "recommended_title": "为什么国庆火的都是小城背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00493-1",
+      "main_paper_title": "Temporary loss of social-ecological system resilience during rural to urban transition",
+      "related_papers": [
+        {
+          "id": "05a6b1e851158d33",
+          "title": "Temporary loss of social-ecological system resilience during rural to urban transition",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00493-1",
+          "published_at": "2026-08-10T00:00:00+00:00",
+          "summary": "Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones become less resilient socially and ecologically as they transition.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "70e364dc4227dc20",
+          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00511-2",
+          "published_at": "2026-10-07T06:14:17.632386+00:00",
+          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.927712+00:00"
+    },
+    {
+      "id": "54b930e0f1042571",
+      "title": "9岁儿童骑车横穿车道致他人十级伤残",
+      "summary": "近日，湖南省浏阳市人民法院调解结案一起交通事故纠纷，9岁儿童骑车致人十级伤残，家长曾以“孩子小”拒赔。交警认定未满12周... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=9%E5%B2%81%E5%84%BF%E7%AB%A5%E9%AA%91%E8%BD%A6%E6%A8%AA%E7%A9%BF%E8%BD%A6%E9%81%93%E8%87%B4%E4%BB%96%E4%BA%BA%E5%8D%81%E7%BA%A7%E4%BC%A4%E6%AE%8B&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 20,
+      "hot_index": 6093638,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 20
+      },
+      "topic": "城市社会",
+      "score": 89,
+      "recommended_title": "9岁儿童骑车横穿车道致他人十级伤残背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00515-y",
+      "main_paper_title": "Systematic overview of climate actions for health in cities",
+      "related_papers": [
+        {
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-10-07T06:14:17.629691+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+          "match_score": 34
+        },
+        {
+          "id": "b103ca6a9b4c2645",
+          "title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11047-9",
+          "published_at": "2026-10-07T06:14:14.686923+00:00",
           "summary": "A dual-precursor chemical system is used to achieve wafer-scale epitaxy growth of boron carbon nitride, a high-performance p-type semiconductor, for potential integration in efficient 2D materials for electronics.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
           "match_score": 42
@@ -125,300 +510,25 @@
           "match_score": 40
         }
       ],
-      "updated_at": "2026-10-06T23:56:33.252584+00:00"
+      "updated_at": "2026-10-07T06:14:24.932189+00:00"
     },
     {
-      "id": "6ce7f2c1604150f9",
-      "title": "收费站员工持电锯拦摩托车上高速",
-      "summary": "10月6日，江西省交通投资集团及安东管理中心回应“员工持电锯拦停摩托车”事件。官方称，因江西规定摩托车禁入高速，涉事人员... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%94%B6%E8%B4%B9%E7%AB%99%E5%91%98%E5%B7%A5%E6%8C%81%E7%94%B5%E9%94%AF%E6%8B%A6%E6%91%A9%E6%89%98%E8%BD%A6%E4%B8%8A%E9%AB%98%E9%80%9F&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 15,
-      "hot_index": 6562332,
+      "id": "2995264ff635a5c2",
+      "title": "不想上班",
+      "summary": "每次长假临近结束，“不想上班”都会上热搜。评论指出，不想上班未必因身体劳累，而是劳动被异化。工作首先是为生存抵御风险，其... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%8D%E6%83%B3%E4%B8%8A%E7%8F%AD&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 25,
+      "hot_index": 5621020,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 15
+        "百度热搜": 25
       },
       "topic": "城市社会",
-      "score": 93,
-      "recommended_title": "收费站员工持电锯拦摩托车上高速背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11047-9",
-      "main_paper_title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
-      "related_papers": [
-        {
-          "id": "b103ca6a9b4c2645",
-          "title": "Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11047-9",
-          "published_at": "2026-10-06T23:56:26.609387+00:00",
-          "summary": "A dual-precursor chemical system is used to achieve wafer-scale epitaxy growth of boron carbon nitride, a high-performance p-type semiconductor, for potential integration in efficient 2D materials for electronics.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11047-9/MediaObjects/41586_2026_11047_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-06T23:56:29.489888+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
-        },
-        {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-06T23:56:29.490246+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-10-06T23:56:33.257118+00:00"
-    },
-    {
-      "id": "e44584f248297fdc",
-      "title": "央视调查后 “牛奶湖”发布通告",
-      "summary": "10月6日，央视调查曝光内蒙古太仆寺旗“牛奶湖”在生态保护红线内违规建游乐设施并收100元。太仆寺旗政府回应称已责令运营... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E8%B0%83%E6%9F%A5%E5%90%8E+%E2%80%9C%E7%89%9B%E5%A5%B6%E6%B9%96%E2%80%9D%E5%8F%91%E5%B8%83%E9%80%9A%E5%91%8A&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 20,
-      "hot_index": 6085988,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 20
-      },
-      "topic": "生态生命",
-      "score": 89,
-      "recommended_title": "央视调查后 “牛奶湖”发布通告背后的科学问题：Nature研究给出了哪些线索？",
-      "angle": "从公众关注的自然现象或物种新闻切入，结合Nature生态研究解释背后的生态过程和环境意义。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02698-7",
-      "main_paper_title": "Tree species richness relates to long-term forest photosynthesis increase",
-      "related_papers": [
-        {
-          "id": "30fe5c469e32a8d8",
-          "title": "Tree species richness relates to long-term forest photosynthesis increase",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02698-7",
-          "published_at": "2026-07-27T00:00:00+00:00",
-          "summary": "The authors integrate tree species richness with satellite-derived photosynthesis proxies to show that richness correlates with greater current levels of photosynthesis and greater increases over time. Projected biodiversity loss by 2050 could lead to cumulative forest photosy...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02698-7/MediaObjects/41558_2026_2698_Fig3_HTML.png?as=webp",
-          "match_score": 33
-        },
-        {
-          "id": "dc49dfc3fefe25b2",
-          "title": "Greening masks stability loss in drylands",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02733-7",
-          "published_at": "2026-10-06T23:56:27.507548+00:00",
-          "summary": "The authors consider greening trends and interannual variability, linked to ecosystem stability, in dryland ecosystems across 40 years (1982–2020). They show persistent greening yet increased interannual variability, with the latter driven by increasing rainfall sensitivity.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02733-7/MediaObjects/41558_2026_2733_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "0928a3a85a00077b",
-          "title": "Prospects and complexities in sustainability impacts of global residue-based bioenergy deployment",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78339-6",
-          "published_at": "2026-10-06T00:00:00+00:00",
-          "summary": "This study shows that deploying agricultural and forestry residue-based bioenergy globally could advance multiple Sustainable Development Goals, with benefits varying substantially by region and socioeconomic scenario.",
-          "image_url": "",
-          "match_score": 25
-        }
-      ],
-      "updated_at": "2026-10-06T23:56:33.258861+00:00"
-    },
-    {
-      "id": "a8baa371cec6c3e5",
-      "title": "匿名人大校友豪捐5.03亿 段永平回应",
-      "summary": "近期，中国人民大学收到匿名校友5.03亿元捐赠用于通州校区建设，创校史最大捐款纪录，引发全网猜测捐款人身份。此前，201... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%BF%E5%90%8D%E4%BA%BA%E5%A4%A7%E6%A0%A1%E5%8F%8B%E8%B1%AA%E6%8D%905.03%E4%BA%BF+%E6%AE%B5%E6%B0%B8%E5%B9%B3%E5%9B%9E%E5%BA%94&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 23,
-      "hot_index": 5796002,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 23
-      },
-      "topic": "城市社会",
-      "score": 87,
-      "recommended_title": "匿名人大校友豪捐5.03亿 段永平回应背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00515-y",
-      "main_paper_title": "Systematic overview of climate actions for health in cities",
-      "related_papers": [
-        {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-06T23:56:29.489888+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
-        },
-        {
-          "id": "1b46eeb6ce82e0c4",
-          "title": "Sustaining green stormwater infrastructure adoption in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00520-1",
-          "published_at": "2026-10-06T23:56:29.490993+00:00",
-          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "d31d704e3d193848",
-          "title": "Urbanization promotes biological invasions in global cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00517-w",
-          "published_at": "2026-10-06T23:56:29.491332+00:00",
-          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-10-06T23:56:33.263358+00:00"
-    },
-    {
-      "id": "3d2971dbf4356417",
-      "title": "游客一进县城就收到文旅局长手机号",
-      "summary": "近日，上海游客张先生自驾至黑龙江嘉荫县时，收到当地文旅局长的私人手机号与座机，直呼被狠狠感动。嘉荫县文旅局工作人员回应称... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%B8%B8%E5%AE%A2%E4%B8%80%E8%BF%9B%E5%8E%BF%E5%9F%8E%E5%B0%B1%E6%94%B6%E5%88%B0%E6%96%87%E6%97%85%E5%B1%80%E9%95%BF%E6%89%8B%E6%9C%BA%E5%8F%B7&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 31,
-      "hot_index": 5030436,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 31
-      },
-      "topic": "城市社会",
-      "score": 80,
-      "recommended_title": "游客一进县城就收到文旅局长手机号背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00487-z",
-      "main_paper_title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-      "related_papers": [
-        {
-          "id": "0d46a2cc3e13a806",
-          "title": "Urban infrastructure and fossil fuel industrial legacy drive US data center siting",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00487-z",
-          "published_at": "2026-07-31T00:00:00+00:00",
-          "summary": "Data centers predominantly occupy urban areas, influenced by local power capacity, information technology employment and broadband quality. This study highlights the impact of infrastructure and industrial legacy on their spatial distribution and sustainability implications.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00487-z/MediaObjects/44284_2026_487_Fig1_HTML.png?as=webp",
-          "match_score": 60
-        },
-        {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
-          "match_score": 48
-        },
-        {
-          "id": "c8282409af4c3f03",
-          "title": "Histone readers MLLT1 and MLLT3 concentrate AID to confer locus specificity",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11087-1",
-          "published_at": "2026-10-06T23:56:26.606734+00:00",
-          "summary": "By being restricted to target regions by MLLT1–MLLT3 occupancy, activation-induced deaminase activity is able to avoid most off-target mutagenesis during B cell somatic hypermutation.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11087-1/MediaObjects/41586_2026_11087_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        }
-      ],
-      "updated_at": "2026-10-06T23:56:33.267955+00:00"
-    },
-    {
-      "id": "b5eb051ffacb0411",
-      "title": "韩国考虑废除“金牌免兵役”制度",
-      "summary": "10月6日，韩国国防部表示，正考虑收紧甚至废除针对运动员和艺术界人士的兵役豁免制度。事件起因于3日爱知·名古屋亚运会男足... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%9F%A9%E5%9B%BD%E8%80%83%E8%99%91%E5%BA%9F%E9%99%A4%E2%80%9C%E9%87%91%E7%89%8C%E5%85%8D%E5%85%B5%E5%BD%B9%E2%80%9D%E5%88%B6%E5%BA%A6&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 37,
-      "hot_index": 4452432,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 37
-      },
-      "topic": "健康医学",
-      "score": 75,
-      "recommended_title": "韩国考虑废除“金牌免兵役”制度为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04713-y/MediaObjects/41591_2026_4713_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04713-y",
-      "main_paper_title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
-      "related_papers": [
-        {
-          "id": "d699f87668baa051",
-          "title": "Oral small-molecule GLP-1RA safiglipron versus dapagliflozin in type 2 diabetes: a randomized, double-blind, active-comparator-controlled phase 3 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04713-y",
-          "published_at": "2026-10-05T00:00:00+00:00",
-          "summary": "Once-daily oral safiglipron is non-inferior to dapagliflozin for HbA1c reduction at all tested doses and superior at 90 mg, with greater improvements in glycemic control, similar modest weight loss and an acceptable safety profile in adults with type 2 diabetes.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04713-y/MediaObjects/41591_2026_4713_Fig2_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "f3b4f4e53096f06d",
-          "title": "Intravenous hyaluronidase-expressing oncolytic adenovirus with chemotherapy in metastatic pancreatic cancer: a randomized phase 2b trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04705-y",
-          "published_at": "2026-10-06T23:56:28.266646+00:00",
-          "summary": "In the randomized phase 2b VIRAGE trial, patients with treatment-naive metastatic pancreatic cancer received the hyaluronidase-expressing oncolytic adenovirus zabilugene almadenorepvec (VCN-01) intravenously with gemcitabine and nab-paclitaxel (GnP) or GnP alone, showing that...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04705-y/MediaObjects/41591_2026_4705_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "4b66c888e3a3c88b",
-          "title": "Trastuzumab plus nivolumab with gemcitabine and cisplatin as first-line therapy for HER2-positive unresectable biliary tract cancer: a phase 1b/2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04679-x",
-          "published_at": "2026-10-06T23:56:28.270067+00:00",
-          "summary": "In a phase 1b/2 trial, first-line treatment of participants with biliary tract cancer with human epidermal growth factor receptor 2 (HER2)-targeting trastuzumab in combination with nivolumab plus gemcitabine and cisplatin showed encouraging clinical response rates and HER2 exp...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04679-x/MediaObjects/41591_2026_4679_Fig2_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-10-06T23:56:33.272660+00:00"
-    },
-    {
-      "id": "5d2f0f60ad2ba90e",
-      "title": "景区推出掰玉米粒活动 游客变劳动力",
-      "summary": "近日，云丘山景区回应推出掰玉米粒活动，游客每剥一公斤玉米粒即可换取“仙票”，在景区内抵扣现金或兑换文创产品。景区工作人员... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%99%AF%E5%8C%BA%E6%8E%A8%E5%87%BA%E6%8E%B0%E7%8E%89%E7%B1%B3%E7%B2%92%E6%B4%BB%E5%8A%A8+%E6%B8%B8%E5%AE%A2%E5%8F%98%E5%8A%B3%E5%8A%A8%E5%8A%9B&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 38,
-      "hot_index": 4368015,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 38
-      },
-      "topic": "城市社会",
-      "score": 75,
-      "recommended_title": "景区推出掰玉米粒活动 游客变劳动力背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 85,
+      "recommended_title": "不想上班背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00518-9",
@@ -429,36 +539,164 @@
           "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-06T23:56:29.490246+00:00",
+          "published_at": "2026-10-07T06:14:17.630769+00:00",
           "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
           "match_score": 34
         },
         {
-          "id": "70e364dc4227dc20",
-          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00511-2",
-          "published_at": "2026-10-06T23:56:29.491962+00:00",
-          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
-          "match_score": 34
+          "id": "c8282409af4c3f03",
+          "title": "Histone readers MLLT1 and MLLT3 concentrate AID to confer locus specificity",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11087-1",
+          "published_at": "2026-10-07T06:14:14.684418+00:00",
+          "summary": "By being restricted to target regions by MLLT1–MLLT3 occupancy, activation-induced deaminase activity is able to avoid most off-target mutagenesis during B cell somatic hypermutation.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11087-1/MediaObjects/41586_2026_11087_Fig1_HTML.png?as=webp",
+          "match_score": 28
         },
         {
           "id": "97dc4adb600c031a",
           "title": "Dynamic protrusions mediate crawling motility in Asgard archaea",
           "source": "Nature",
           "url": "https://www.nature.com/articles/s41586-026-11063-9",
-          "published_at": "2026-10-06T23:56:26.607739+00:00",
+          "published_at": "2026-10-07T06:14:14.685373+00:00",
           "summary": "Anoxic live-cell imaging shows actin-dependent crawling motility and dynamic protrusions in Asgard archaea, providing insights into cellular innovations that may have contributed to eukaryotic evolution.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11063-9/MediaObjects/41586_2026_11063_Fig2_HTML.png?as=webp",
           "match_score": 28
         }
       ],
-      "updated_at": "2026-10-06T23:56:33.277121+00:00"
+      "updated_at": "2026-10-07T06:14:24.941189+00:00"
+    },
+    {
+      "id": "f0bfc18f4db354db",
+      "title": "郭台铭靠AI赚翻了",
+      "summary": "2026年上半年，郭台铭旗下工业富联净利润约237亿元，同比暴增96%。此前，2023年全球AI浪潮引爆，工业富联凭借英... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%83%AD%E5%8F%B0%E9%93%AD%E9%9D%A0AI%E8%B5%9A%E7%BF%BB%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 26,
+      "hot_index": 5524311,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 26
+      },
+      "topic": "人工智能",
+      "score": 84,
+      "recommended_title": "郭台铭靠AI赚翻了刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04626-w",
+      "main_paper_title": "An open vision-language model for diverse medical applications",
+      "related_papers": [
+        {
+          "id": "333668f26859f44d",
+          "title": "An open vision-language model for diverse medical applications",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04626-w",
+          "published_at": "2026-10-06T00:00:00+00:00",
+          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "47e19848f6c4fa27",
+          "title": "Large-scale esophageal cancer screening through noncontrast computed tomography and artificial intelligence",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04656-4",
+          "published_at": "2026-10-07T06:14:16.353207+00:00",
+          "summary": "In a large-scale study, a new tool called Esophageal AI-Guided malignant Lesion Evaluation uses artificial intelligence to enhance esophageal cancer detection through noncontrast computed tomography, achieving high sensitivity and specificity across diverse settings.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04656-4/MediaObjects/41591_2026_4656_Fig2_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "bae2fb25d5fd455b",
+          "title": "HEA-GAN for high-fidelity low-light image enhancement and degradation-aware image augmentation using a hybrid deep learning and GAN framework",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-74213-z",
+          "published_at": "2026-10-07T00:00:00+00:00",
+          "summary": "Poor vision and low-light conditions have a deleterious effect on the functioning of downstream computer-vision systems used in surveillance, autonomous driving, biomedical imaging, and remote sensing. Histogram equalization, Retinex based methods and manually crafted denoisin...",
+          "image_url": "",
+          "match_score": 21
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.942396+00:00"
+    },
+    {
+      "id": "48fdeae92921bd8d",
+      "title": "一线城市楼市新变化",
+      "summary": "近期，北上广深一线城市楼市活跃，成交数据上涨。北京9月新房成交环比涨52.31%；上海10月1日至4日一手住宅签约233... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E7%BA%BF%E5%9F%8E%E5%B8%82%E6%A5%BC%E5%B8%82%E6%96%B0%E5%8F%98%E5%8C%96&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 34,
+      "hot_index": 4742304,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 34
+      },
+      "topic": "城市社会",
+      "score": 78,
+      "recommended_title": "一线城市楼市新变化背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00520-1",
+      "main_paper_title": "Sustaining green stormwater infrastructure adoption in cities",
+      "related_papers": [
+        {
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-10-07T06:14:17.631429+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-10-07T06:14:17.629691+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+          "match_score": 34
+        },
+        {
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-10-07T06:14:17.630769+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-07T06:14:24.946606+00:00"
     }
   ],
   "items": [
+    {
+      "id": "7625e886e635b6aa",
+      "title": "哈尔岑拿到诺奖，是意料之外，情理之中。他开创了一个新的领域——用超高能中微子来研究宇宙线，而且确实也找到超高能中微子，这是一个重大突破。",
+      "display_title": "哈尔岑拿到诺奖，是意料之外，情理之中。他开创了一个新的领域——用超高能中微子来研究宇宙线，而且确实也找到超高能中微子，这是一个重大突破。",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/10/572546.shtm",
+      "published_at": "2026-10-07T06:09:45.978101+00:00",
+      "detected_at": "2026-10-07T06:09:45.978116+00:00",
+      "summary": "科学网-他凭“幽灵粒子”独享802万元诺奖！该领域中国获奖“未来可期”",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6ac51c9be4b078fce44b169d.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "f5daf4e3b1d4f3a9",
       "title": "OpenAI 携手 ModRetro 发布 Codex 专用插件：动动嘴就能造出复古 Game Boy 游戏",
@@ -466,9 +704,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31431",
-      "published_at": "2026-10-06T23:52:25.696904+00:00",
-      "detected_at": "2026-10-06T23:52:25.696911+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 6 天前 30.2K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
+      "published_at": "2026-10-07T06:09:32.168665+00:00",
+      "detected_at": "2026-10-07T06:09:32.168670+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 6 天前 31.4K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
       "image_url": "https://upload.chinaz.com/2026/0930/6392637388592289987085092.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -484,9 +722,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31433",
-      "published_at": "2026-10-06T23:52:25.693356+00:00",
-      "detected_at": "2026-10-06T23:52:25.693371+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 6 天前 30.2K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
+      "published_at": "2026-10-07T06:09:32.165187+00:00",
+      "detected_at": "2026-10-07T06:09:32.165193+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 6 天前 31.4K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
       "image_url": "https://upload.chinaz.com/2026/0930/6392637559296887891300151.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -502,9 +740,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31434",
-      "published_at": "2026-10-06T23:52:25.691633+00:00",
-      "detected_at": "2026-10-06T23:52:25.691639+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 6 天前 30.2K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
+      "published_at": "2026-10-07T06:09:32.163367+00:00",
+      "detected_at": "2026-10-07T06:09:32.163373+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 6 天前 31.4K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
       "image_url": "https://upload.chinaz.com/2026/0930/6392637581199369092863985.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -520,9 +758,9 @@
       "source": "AIBase",
       "category": "AI变现",
       "url": "https://news.aibase.com/zh/news/31437",
-      "published_at": "2026-10-06T23:52:25.686245+00:00",
-      "detected_at": "2026-10-06T23:52:25.686250+00:00",
-      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 6 天前 30.2K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
+      "published_at": "2026-10-07T06:09:32.158043+00:00",
+      "detected_at": "2026-10-07T06:09:32.158048+00:00",
+      "summary": "苏姿丰下月访韩剑指HBM4，三星有望跻身AMD AI加速器内存供应链 AMD CEO苏姿丰预计下月亲赴韩国，与三星电子高层会谈，重点讨论AI芯片与技术合作，最受关注的是三星有望成为AMD的HBM4供应商。双方今年3月已签署AI存储芯片与计算技术合作谅解备忘录，当时便有传闻称三星被AMD选为AI芯片合作方，此次会谈或推动合作落地。 6 天前 31.4K 微软联手哈佛MIT端出生物学世界模型Project Quine，一个周末筛出抗癌候选物 微软研究院联合哈佛大学、麻省理工学院博德研究所，推出实验性多模态AI研究系统Project Quine，首次将“...",
       "image_url": "https://upload.chinaz.com/2026/0930/6392637909359385508796433.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -568,6 +806,150 @@
       "meta": {}
     },
     {
+      "id": "6d9ff8fc9a560545",
+      "title": "A multi-omics dataset of pancreatic cancer-associated cell lines under chronic hypoxia",
+      "display_title": "A multi-omics dataset of pancreatic cancer-associated cell lines under chronic hypoxia",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08423-5",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "detected_at": "2026-10-07T06:09:48.771621+00:00",
+      "summary": "Hypoxia is a prominent feature of the pancreatic ductal adenocarcinoma (PDAC) tumor microenvironment and has been implicated in disease progression and chemoresistance. However, matched multiomics resources for profiling the molecular changes induced by chronic hypoxia across...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41698-022-00299-z/MediaObjects/41698_2022_299_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "283ab110a2439ad7",
+      "title": "A Full-body Motion Capture Dataset for Bilateral Weighted Shank Walking",
+      "display_title": "A Full-body Motion Capture Dataset for Bilateral Weighted Shank Walking",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08393-8",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "detected_at": "2026-10-07T06:09:48.771849+00:00",
+      "summary": "Assistive devices are a promising tool for enhancing or restoring human walking. Weight is an important consideration when designing these devices, yet datasets for weighted human walking are scarce. We measured 13 healthy, young participants walking at their own pace in two c...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-024-03444-4/MediaObjects/41597_2024_3444_Fig1_HTML.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "9ec4b7af8b408fa1",
+      "title": "Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011–2024",
+      "display_title": "Estimated municipality-level electric vehicle and passenger vehicle fleet composition across 14 European countries, 2011–2024",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08445-z",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "detected_at": "2026-10-07T06:09:48.772132+00:00",
+      "summary": "We present a longitudinal dataset of passenger vehicle fleet composition at the municipality level for 14 European countries over 2011–2024. The dataset covers 71,715 Local Administrative Units (LAU) and disaggregates vehicle fleets into four categories: battery electric vehic...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-94579-w/MediaObjects/41598_2025_94579_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "0a50eb9124010310",
+      "title": "Near telomere-to-telomere, chromosome-level haplotype-resolved genome assemblies of the dikaryotic edible mushroom Stropharia rugosoannulata",
+      "display_title": "Near telomere-to-telomere, chromosome-level haplotype-resolved genome assemblies of the dikaryotic edible mushroom Stropharia rugosoannulata",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08443-1",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "detected_at": "2026-10-07T06:09:48.772372+00:00",
+      "summary": "Stropharia rugosoannulata, a highly nutritious edible mushroom with strong lignocellulose-degrading capabilities, shows remarkable potential in agricultural waste valorization and sustainable food production. In this study, we performed PacBio HiFi sequencing, ONT ultra-long s...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-025-05204-4/MediaObjects/41597_2025_5204_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "65eeefa5e7110d77",
+      "title": "An open-access CT-based 3D anatomical dataset of extant sharks (Selachii) across all major lineages",
+      "display_title": "An open-access CT-based 3D anatomical dataset of extant sharks (Selachii) across all major lineages",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08418-2",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "detected_at": "2026-10-07T06:09:48.772616+00:00",
+      "summary": "Sharks exhibit extraordinary morphological diversity across a wide range of ecological niches, yet large-scale, high-resolution digital datasets of their internal anatomy remain limited. Here we present an open-access 3D shark anatomical repository derived from published X-ray...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41467-026-72415-7/MediaObjects/41467_2026_72415_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "aed33b1fbd5ffcb1",
+      "title": "Consolidated geographic and petrophysical dataset for potential underground hydrogen storage focusing on the Global South",
+      "display_title": "Consolidated geographic and petrophysical dataset for potential underground hydrogen storage focusing on the Global South",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08366-x",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "detected_at": "2026-10-07T06:09:48.772854+00:00",
+      "summary": "As we move towards a green energy future, comprehensive site characterisation data for energy storage is critical for modelling, policy and guiding investment decisions. In this work, we present a dataset of 518 sub-surface formations spread across 34 countries with an emphasi...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-18424-w/MediaObjects/41598_2025_18424_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "0ab3b6e85d34fa4b",
+      "title": "Chromosome-level haplotype-resolved genome assembly of the traditional Chinese medicinal plant Mu-Tou-Hui ( Patrinia heterophylla )",
+      "display_title": "Chromosome-level haplotype-resolved genome assembly of the traditional Chinese medicinal plant Mu-Tou-Hui ( Patrinia heterophylla )",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08447-x",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "detected_at": "2026-10-07T06:09:48.773122+00:00",
+      "summary": "Patrinia heterophylla (“Mu-Tou-Hui”) is a perennial herb valued in traditional Chinese medicine, as well as for its edible and ornamental properties. In this study, we present the first chromosome-scale, haplotype-resolved genome assembly of P. heterophylla, constructed by int...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-024-03437-3/MediaObjects/41597_2024_3437_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "baebd809647f36a7",
+      "title": "A telomere-to-telomere genome assembly of the fast-flowering mini-maize inbred line TX-40J",
+      "display_title": "A telomere-to-telomere genome assembly of the fast-flowering mini-maize inbred line TX-40J",
+      "source": "Scientific Data",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s41597-026-08433-3",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "detected_at": "2026-10-07T06:09:48.773353+00:00",
+      "summary": "Flowering time and plant height are important target traits in maize genetic improvement. However, high-quality reference genomes for fast-flowering, short-cycle maize germplasms remain limited. Here, we integrated PacBio HiFi, Oxford Nanopore ultra-long reads, Hi-C, and Illum...",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-026-06603-x/MediaObjects/41597_2026_6603_Fig1_HTML.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
       "id": "06d8acd7a9da15e6",
       "title": "刚刚，Hinton发了首篇RSI论文",
       "display_title": "Hinton发了首篇RSI论文",
@@ -595,7 +977,7 @@
       "published_at": "2026-10-05T09:38:03.129438+00:00",
       "detected_at": "2026-10-05T09:38:03.129453+00:00",
       "summary": "十个案例助你轻松上手 iOS 27 通知自动化 谷雨G2rain 10:59",
-      "image_url": "https://rssfile.sspai.com/2026/09/14/448425af4f0dce4b8d12b0d73e0ae42c.jpeg?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/09/14/448425af4f0dce4b8d12b0d73e0ae42c.jpeg?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -1819,7 +2201,7 @@
       "published_at": "2026-09-30T01:38:43.130734+00:00",
       "detected_at": "2026-09-30T01:38:43.130749+00:00",
       "summary": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等 周三 30",
-      "image_url": "https://rssfile.sspai.com/2026/9/30/article/5e30974c-cb55-1e66-43b5-5cb455bbfa48.jpeg?imageMogr2/auto-orient/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/9/30/article/5e30974c-cb55-1e66-43b5-5cb455bbfa48.jpeg?imageMogr2/auto-orient/format/webp/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -9290,168 +9672,6 @@
       "detected_at": "2026-08-25T00:02:07.602523+00:00",
       "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 6 小时前 10.2K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
       "image_url": "https://upload.chinaz.com/2026/0824/6392317575699245954476904.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "eb033f8571f55f90",
-      "title": "韶音OpenFit 2 AI耳机震撼首发：融合千问大模型， 48 小时超长续航定义智能音频新体验 韶音OpenFit2 AI耳机今日开售，首发价1398元。",
-      "display_title": "韶音OpenFit 2 AI耳机震撼首发：融合千问大模型， 48 小时超长续航定义智能音频新体验 韶音OpenFit2 AI耳机今日开售，首发价1398元。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30570",
-      "published_at": "2026-08-25T00:02:07.592430+00:00",
-      "detected_at": "2026-08-25T00:02:07.592436+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 6 小时前 10.2K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
-      "image_url": "https://upload.chinaz.com/2026/0824/6392318086089007102667981.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "433b3a4e86d3c280",
-      "title": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
-      "display_title": "小米发布玄戒O3/O100/D100三款自研AI芯片，搭建人车家全生态算力底座",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30572",
-      "published_at": "2026-08-25T00:02:07.589122+00:00",
-      "detected_at": "2026-08-25T00:02:07.589128+00:00",
-      "summary": "Lady Gaga男友低调布局：用“活体皮肤”训练AI，这家生物初创公司如何颠覆美妆研发？ 由Lady Gaga伴侣迈克尔·波兰斯基联合创办的生物科技公司Outer Biosciences，正攻克体外长期维持人类活体组织存活难题，并将其与人工智能深度结合，旨在革新美妆与医疗研发模式，突破传统生物化学创新难以匹配软件迭代速度的瓶颈。 刚刚 0 英伟达加码AI应用投资，Perplexity估值一年上涨超50% 据《The Information》报道，英伟达拟投资AI搜索公司Perplexity，估值或超300亿美元，较上轮融资高逾50%。Perple...",
-      "image_url": "https://upload.chinaz.com/2026/0824/6392318165096077689718227.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "85422a9bb68c194d",
-      "title": "African Crop Calendar: A geo-referenced dataset of crop growing seasons across diverse agro-ecological regions",
-      "display_title": "African Crop Calendar: A geo-referenced dataset of crop growing seasons across diverse agro-ecological regions",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-07906-9",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "detected_at": "2026-08-25T04:04:50.907965+00:00",
-      "summary": "Large-scale agricultural household surveys provide essential data on farming households’ socioeconomics, land management, and agricultural indicators, and allow detailed micro-scale comparisons while ensuring national representativeness. This study introduces cleaned, harmonis...",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-07906-9/MediaObjects/41597_2026_7906_Fig3_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "9690e24eb2a2fb6b",
-      "title": "Pixel-Level Segmented Longitudinal Optical Coherence Tomography Data of Macular Hole Surgery Outcomes",
-      "display_title": "Pixel-Level Segmented Longitudinal Optical Coherence Tomography Data of Macular Hole Surgery Outcomes",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08154-7",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "detected_at": "2026-08-25T19:02:25.936375+00:00",
-      "summary": "Research involving idiopathic full-thickness macular hole (iFTMH) has been limited by a shortage of longitudinal, annotated public datasets. In this article, we introduce a longitudinal annotated dataset containing OCT scans from patients who previously had iFTMH surgery with...",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-08154-7/MediaObjects/41597_2026_8154_Fig2_HTML.png?as=webp",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "42efd37620b81dfc",
-      "title": "A structured dataset of polymers in molecular dynamics simulations extracted by LLM-assisted text mining",
-      "display_title": "A structured dataset of polymers in molecular dynamics simulations extracted by LLM-assisted text mining",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08045-x",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "detected_at": "2026-08-26T10:30:16.013407+00:00",
-      "summary": "Scientific Data ( 2026 ) Cite this article",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41524-025-01539-z/MediaObjects/41524_2025_1539_Fig1_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "9772fc88a7b4963b",
-      "title": "ProteinLMDataset-Reason: A Large-Scale Dataset and Benchmark for Protein Reasoning in Large Language Models",
-      "display_title": "ProteinLMDataset-Reason: A Large-Scale Dataset and Benchmark for Protein Reasoning in Large Language Models",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08175-2",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "detected_at": "2026-08-26T10:30:16.013662+00:00",
-      "summary": "Scientific Data ( 2026 ) Cite this article",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs42256-022-00457-9/MediaObjects/42256_2022_457_Fig1_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "7a7bff86ff224946",
-      "title": "A Southern Ocean Animal-Borne Bathymetry Dataset",
-      "display_title": "A Southern Ocean Animal-Borne Bathymetry Dataset",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08041-1",
-      "published_at": "2026-08-25T00:00:00+00:00",
-      "detected_at": "2026-08-26T10:30:16.014124+00:00",
-      "summary": "The Southern Ocean and its continental shelves play critical roles in regulating Earth’s climate through their influence on heat and energy transport. Accurate representation of these processes is hindered by large uncertainties in regional bathymetry. We present an animal-bor...",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs43247-023-00928-w/MediaObjects/43247_2023_928_Fig1_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "b53e1990dac7cd27",
-      "title": "阿里视频大模型Wan3.0正式上线，全面实现超长生成与多维一致性 阿里巴巴8月24日发布视频生成大模型Wan3.0，实现全方位升级。",
-      "display_title": "阿里视频大模型Wan3.0正式上线，全面实现超长生成与多维一致性 阿里巴巴8月24日发布视频生成大模型Wan3.0，实现全方位升级。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30567",
-      "published_at": "2026-08-24T23:11:08.851983+00:00",
-      "detected_at": "2026-08-24T23:11:08.851988+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 6 小时前 10.2K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
-      "image_url": "https://upload.chinaz.com/2026/0824/6392317619175436322020442.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "046d5bfa3f66dafe",
-      "title": "万相Wan3.0视频生成模型正式上线，解锁30秒长视频创作新体验",
-      "display_title": "万相Wan3.0视频生成模型正式上线，解锁30秒长视频创作新体验",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/30562",
-      "published_at": "2026-08-24T19:07:07.556675+00:00",
-      "detected_at": "2026-08-24T19:07:07.556678+00:00",
-      "summary": "全球首个真实数据训练烹饪AI基础模型发布，炒菜机器人进入“具身智能”新时代 8月23日，橡鹿机器人发布全球首个基于真实厨房数据训练的多模态烹饪AI基础模型“CookingMuse厨启”，标志烹饪AI从指令执行迈向深度理解与真实场景应用。同步推出3K视觉AI炒菜机器人和具身烹饪机器人“现炒方舟”，技术布局覆盖烹饪全流程。 6 小时前 10.2K 具身智能资本热浪再起，小鹏机器人首轮估值突破63亿美元 小鹏机器人完成首轮超9亿美元融资，投后估值突破63亿美元，创中国具身智能行业单轮私募股权融资纪录。本轮由IDG资本领投，高榕创投参投，腾讯、阿里巴巴作为...",
-      "image_url": "https://upload.chinaz.com/2026/0824/6392316734217358057598622.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
