@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-10T20:12:51.565979+00:00",
+  "updated_at": "2026-10-10T23:41:42.640319+00:00",
   "count": 500,
-  "hotspot_count": 5,
+  "hotspot_count": 6,
   "breakthrough_count": 191,
   "category_counts": {
-    "AI变现": 170,
+    "AI变现": 172,
     "提效工具": 71,
     "前沿动态": 68
   },
   "source_counts": {
-    "Scientific Data": 180,
+    "Scientific Data": 178,
     "Nature Cities": 11
   },
   "hotspots": [
@@ -18,16 +18,16 @@
       "title": "医生：七成肝癌早期没症状",
       "summary": "肝脏就像个“哑巴”，70%的肝癌患者早期没有症状，等到有感觉往往已是中晚期。对此专家解释，这正是肝癌早筛的意义所在——不... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E7%94%9F%EF%BC%9A%E4%B8%83%E6%88%90%E8%82%9D%E7%99%8C%E6%97%A9%E6%9C%9F%E6%B2%A1%E7%97%87%E7%8A%B6&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 12,
-      "hot_index": 4349285,
+      "rank": 13,
+      "hot_index": 5698486,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 12,
-        "百度热搜": 38
+        "百度民生": 13,
+        "百度热搜": 24
       },
       "topic": "健康医学",
       "score": 98,
@@ -48,16 +48,6 @@
           "match_score": 44
         },
         {
-          "id": "1ee76e54998c05a2",
-          "title": "Exploring multidimensional perceptions of cervical cancer severity and self-efficacy in prevention through the perspectives of patients and healthcare workers",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-74999-y",
-          "published_at": "2026-10-10T00:00:00+00:00",
-          "summary": "Cervical cancer remains a preventable disease, yet screening uptake in Malaysia continues to fall below national targets, particularly among women from lower socioeconomic groups. While previous studies have highlighted knowledge gaps and structural barriers, limited attention...",
-          "image_url": "",
-          "match_score": 43
-        },
-        {
           "id": "333668f26859f44d",
           "title": "An open vision-language model for diverse medical applications",
           "source": "Nature Medicine",
@@ -66,66 +56,19 @@
           "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
           "match_score": 41
-        }
-      ],
-      "updated_at": "2026-10-10T20:12:46.766202+00:00"
-    },
-    {
-      "id": "5676e7ae451ec67d",
-      "title": "年轻人勇闯“夕阳红”旅行团",
-      "summary": "近年来，一股被年轻人戏称为“蹭老式消费”的潮流悄然兴起。如今，这股风潮也延伸至旅游领域，“00后勇闯夕阳红老年团”成了旅... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%8B%87%E9%97%AF%E2%80%9C%E5%A4%95%E9%98%B3%E7%BA%A2%E2%80%9D%E6%97%85%E8%A1%8C%E5%9B%A2&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 13,
-      "hot_index": 4168620,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 13,
-        "百度热搜": 40
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "年轻人勇闯“夕阳红”旅行团背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02568-4",
-      "main_paper_title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
-      "related_papers": [
+        },
         {
           "id": "313ef8f31ce5c5df",
           "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
           "source": "Nature Human Behaviour",
           "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-10-10T20:12:39.342429+00:00",
+          "published_at": "2026-10-10T23:41:30.198682+00:00",
           "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
-          "match_score": 41
-        },
-        {
-          "id": "5b658241245312d4",
-          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00504-1",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
-          "match_score": 40
-        },
-        {
-          "id": "5b2624ac7135ce34",
-          "title": "Revisiting the urban past virtually to enhance well-being for older adults",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00523-y",
-          "published_at": "2026-10-09T00:00:00+00:00",
-          "summary": "As development progresses, urban landmarks may be lost to history, resulting in the disconnection and isolation of older adults from their contemporary city. Huang and colleagues virtually reconstructed immersive past urban scenes from Hong Kong to understand the physiological...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00523-y/MediaObjects/44284_2026_523_Fig1_HTML.png?as=webp",
-          "match_score": 34
+          "match_score": 35
         }
       ],
-      "updated_at": "2026-10-10T20:12:46.770633+00:00"
+      "updated_at": "2026-10-10T23:41:37.634428+00:00"
     },
     {
       "id": "15e78a1fa833fa7d",
@@ -133,7 +76,7 @@
       "summary": "10月10日，人力资源社会保障部介绍推进就业和社会保障高质量发展有关情况。今年1至9月，我国城镇新增就业1052万人、完... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E4%BA%94%E5%B9%B4%E6%8E%A8%E8%BF%9B%E5%B0%B1%E4%B8%9A%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B0%E5%8F%98%E5%8C%96&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 4,
-      "hot_index": 7618875,
+      "hot_index": 7616381,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -164,31 +107,143 @@
           "title": "Sustaining green stormwater infrastructure adoption in cities",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00520-1",
-          "published_at": "2026-10-10T20:12:40.625951+00:00",
+          "published_at": "2026-10-10T23:41:31.531031+00:00",
           "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
           "match_score": 52
+        },
+        {
+          "id": "5b2624ac7135ce34",
+          "title": "Revisiting the urban past virtually to enhance well-being for older adults",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00523-y",
+          "published_at": "2026-10-09T00:00:00+00:00",
+          "summary": "As development progresses, urban landmarks may be lost to history, resulting in the disconnection and isolation of older adults from their contemporary city. Huang and colleagues virtually reconstructed immersive past urban scenes from Hong Kong to understand the physiological...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00523-y/MediaObjects/44284_2026_523_Fig1_HTML.png?as=webp",
+          "match_score": 48
+        }
+      ],
+      "updated_at": "2026-10-10T23:41:37.629143+00:00"
+    },
+    {
+      "id": "5676e7ae451ec67d",
+      "title": "年轻人勇闯“夕阳红”旅行团",
+      "summary": "近年来，一股被年轻人戏称为“蹭老式消费”的潮流悄然兴起。如今，这股风潮也延伸至旅游领域，“00后勇闯夕阳红老年团”成了旅... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%8B%87%E9%97%AF%E2%80%9C%E5%A4%95%E9%98%B3%E7%BA%A2%E2%80%9D%E6%97%85%E8%A1%8C%E5%9B%A2&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 20,
+      "hot_index": 4175203,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 20,
+        "百度热搜": 40
+      },
+      "topic": "城市社会",
+      "score": 96,
+      "recommended_title": "年轻人勇闯“夕阳红”旅行团背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02568-4",
+      "main_paper_title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
+      "related_papers": [
+        {
+          "id": "313ef8f31ce5c5df",
+          "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02568-4",
+          "published_at": "2026-10-10T23:41:30.198682+00:00",
+          "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
+          "id": "5b658241245312d4",
+          "title": "Underestimated methane emissions from natural gas consumption in the Yangtze River Delta cities of China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00504-1",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "Rapid growth in urban natural gas use in China has improved air quality but may carry a larger climate cost than previously recognized. Using atmospheric ethane as a tracer, this study reveals that methane emissions from natural gas consumption in the Yangtze River Delta metro...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00504-1/MediaObjects/44284_2026_504_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-10-10T23:41:31.530179+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-10T23:41:37.642292+00:00"
+    },
+    {
+      "id": "8948b9396d465c28",
+      "title": "抗癌药物研发迎来重要突破",
+      "summary": "目前，我国科研团队已启动新药“纳米炭铁”二期临床试验。此前，四川大学华西医院等在医学顶刊公布全球首个铁死亡诱导剂人体一期... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%8A%97%E7%99%8C%E8%8D%AF%E7%89%A9%E7%A0%94%E5%8F%91%E8%BF%8E%E6%9D%A5%E9%87%8D%E8%A6%81%E7%AA%81%E7%A0%B4&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 17,
+      "hot_index": 6376477,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 17
+      },
+      "topic": "城市社会",
+      "score": 91,
+      "recommended_title": "抗癌药物研发迎来重要突破背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
+      "main_paper_title": "Connecting application behavior to undermatching in New York City school choice",
+      "related_papers": [
+        {
+          "id": "375dc94e6b81abc6",
+          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00486-0",
+          "published_at": "2026-08-18T00:00:00+00:00",
+          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
+          "match_score": 60
         },
         {
           "id": "c39f69870f6fc94b",
           "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-10T20:12:40.625305+00:00",
+          "published_at": "2026-10-10T23:41:31.530481+00:00",
           "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 48
+          "match_score": 34
+        },
+        {
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-10-10T23:41:31.532100+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
         }
       ],
-      "updated_at": "2026-10-10T20:12:46.761805+00:00"
+      "updated_at": "2026-10-10T23:41:37.638465+00:00"
     },
     {
-      "id": "86f8e4fcb0b23d51",
-      "title": "深圳公积金拟新增“装修住房提取”",
+      "id": "afeb80760fc6d450",
+      "title": "北京今晨东南部有雾出行注意交通安全",
       "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E6%B7%B1%E5%9C%B3%E5%85%AC%E7%A7%AF%E9%87%91%E6%8B%9F%E6%96%B0%E5%A2%9E%E2%80%9C%E8%A3%85%E4%BF%AE%E4%BD%8F%E6%88%BF%E6%8F%90%E5%8F%96%E2%80%9D&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E4%BB%8A%E6%99%A8%E4%B8%9C%E5%8D%97%E9%83%A8%E6%9C%89%E9%9B%BE%E5%87%BA%E8%A1%8C%E6%B3%A8%E6%84%8F%E4%BA%A4%E9%80%9A%E5%AE%89%E5%85%A8&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
       "rank": 28,
-      "hot_index": 616010,
+      "hot_index": 618684,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
@@ -198,44 +253,44 @@
       },
       "topic": "城市社会",
       "score": 80,
-      "recommended_title": "深圳公积金拟新增“装修住房提取”背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "北京今晨东南部有雾出行注意交通安全背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-025-04128-1",
-      "main_paper_title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11129-8/MediaObjects/41586_2026_11129_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11129-8",
+      "main_paper_title": "Structural basis for regulating lipopolysaccharide transmembrane transport",
       "related_papers": [
         {
-          "id": "d20c2c9db26a9553",
-          "title": "AI-based characterization of Alzheimer’s disease phenotypes from population-scale single-cell data",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-025-04128-1",
-          "published_at": "2026-10-10T20:12:39.731011+00:00",
-          "summary": "Based on single-cell data from a cohort of 584 brain donors including patients with Alzheimer’s disease (AD) and controls, a graph neural network is used to investigate differential patterns between disease and control, to identify those related to cognitive resilience and to...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-025-04128-1/MediaObjects/41591_2025_4128_Fig4_HTML.png?as=webp",
-          "match_score": 41
+          "id": "2539b3a46b62d36e",
+          "title": "Structural basis for regulating lipopolysaccharide transmembrane transport",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11129-8",
+          "published_at": "2026-10-07T00:00:00+00:00",
+          "summary": "Structures of the protein machinery in Gram-negative bacteria that transports lipopolysaccharide (LPS) from the cytoplasmic membrane to the outer leaflet of the outer membrane reveal how conformational changes in response to the presence of LPS promote its transport.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11129-8/MediaObjects/41586_2026_11129_Fig2_HTML.png?as=webp",
+          "match_score": 42
         },
         {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-10T20:12:40.624860+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
+          "id": "79b119218b789266",
+          "title": "Structural basis of ammonium transport and coordinated regulation of AMT1;1 in Arabidopsis thaliana",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78457-1",
+          "published_at": "2026-10-10T00:00:00+00:00",
+          "summary": "He et al. determine multiple cryo-EM structures of Arabidopsis thaliana AMT1;1, revealing a conserved ammonium transport pathway and distinct regulatory mechanisms. An extracellular N-terminal disulfide bond contributes to oligomeric stability, while C-terminal phosphomimetic...",
+          "image_url": "",
+          "match_score": 39
         },
         {
-          "id": "d31d704e3d193848",
-          "title": "Urbanization promotes biological invasions in global cities",
+          "id": "05a6b1e851158d33",
+          "title": "Temporary loss of social-ecological system resilience during rural to urban transition",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00517-w",
-          "published_at": "2026-10-10T20:12:40.626326+00:00",
-          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
-          "match_score": 34
+          "url": "https://www.nature.com/articles/s44284-026-00493-1",
+          "published_at": "2026-08-10T00:00:00+00:00",
+          "summary": "Growing cities expand outward, creating edge zones transitioning from being rural to being urban. Focusing on China’s Beijing–Tianjin–Hebei region, this study finds these zones become less resilient socially and ecologically as they transition.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00493-1/MediaObjects/44284_2026_493_Fig1_HTML.png?as=webp",
+          "match_score": 38
         }
       ],
-      "updated_at": "2026-10-10T20:12:46.774783+00:00"
+      "updated_at": "2026-10-10T23:41:37.646034+00:00"
     },
     {
       "id": "ef8c6b1f992983c8",
@@ -243,7 +298,7 @@
       "summary": "10日，工业和信息化部等四部门联合发布了关于进一步加强汽车产品创新设计和研发测试验证有关管理工作的通知（征求意见稿），这... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%9B%9B%E9%83%A8%E9%97%A8%E5%B0%B1%E6%8F%90%E5%8D%87%E6%B1%BD%E8%BD%A6%E5%AE%89%E5%85%A8%E6%80%A7%E8%83%BD%E5%BE%81%E6%B1%82%E6%84%8F%E8%A7%81&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 41,
-      "hot_index": 4099103,
+      "hot_index": 4074094,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -274,7 +329,7 @@
           "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00511-2",
-          "published_at": "2026-10-10T20:12:40.626982+00:00",
+          "published_at": "2026-10-10T23:41:31.532675+00:00",
           "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
           "match_score": 34
@@ -290,10 +345,172 @@
           "match_score": 34
         }
       ],
-      "updated_at": "2026-10-10T20:12:46.778967+00:00"
+      "updated_at": "2026-10-10T23:41:37.649894+00:00"
     }
   ],
   "items": [
+    {
+      "id": "5f59c414ae8c81b9",
+      "title": "被低估的AI语音，AI商业化的下一张船票已来",
+      "display_title": "被低估的AI语音，AI商业化的下一张船票已来",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6254282.html",
+      "published_at": "2026-10-10T23:37:56.916384+00:00",
+      "detected_at": "2026-10-10T23:37:56.916386+00:00",
+      "summary": "被低估的AI语音，AI商业化的下一张船票已来",
+      "image_url": "https://image.woshipm.com/2024/10/05/b46eabe0-832c-11ef-9237-00163e142b65.png",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "95c9b744ba5aaa50",
+      "title": "2025职业大重构：AI 正在悄悄给每个人重新定价",
+      "display_title": "2025职业大重构：AI 正在悄悄给每个人重新定价",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6300672.html",
+      "published_at": "2026-10-10T23:37:56.915943+00:00",
+      "detected_at": "2026-10-10T23:37:56.915960+00:00",
+      "summary": "2025职业大重构：AI 正在悄悄给每个人重新定价",
+      "image_url": "https://image.woshipm.com/2023/04/14/76dafe6a-da9e-11ed-9b82-00163e0b5ff3.png",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "3499f8bb94895d76",
+      "title": "​Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
+      "display_title": "​Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31528",
+      "published_at": "2026-10-10T23:37:55.760912+00:00",
+      "detected_at": "2026-10-10T23:37:55.760915+00:00",
+      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 5 小时前 9.4K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
+      "image_url": "https://upload.chinaz.com/2026/1010/6392723832158642352468926.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "9e155682b5f615fd",
+      "title": "腾讯元宝上线桌宠:PC端 v2.87.10开启，全天陪伴+拖拽文件摘要 腾讯元宝10月10日宣布，元宝桌宠PC端上线，Beta形态。",
+      "display_title": "腾讯元宝上线桌宠:PC端 v2.87.10开启，全天陪伴+拖拽文件摘要 腾讯元宝10月10日宣布，元宝桌宠PC端上线，Beta形态。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31530",
+      "published_at": "2026-10-10T23:37:55.757971+00:00",
+      "detected_at": "2026-10-10T23:37:55.757974+00:00",
+      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 5 小时前 9.4K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
+      "image_url": "https://upload.chinaz.com/2026/1010/6392723992106257544947803.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "375b11f0323edfee",
+      "title": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入 Cloudflare于10月9日发布开放权重决策模型Clef-omni。",
+      "display_title": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入 Cloudflare于10月9日发布开放权重决策模型Clef-omni。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31531",
+      "published_at": "2026-10-10T23:37:55.756536+00:00",
+      "detected_at": "2026-10-10T23:37:55.756540+00:00",
+      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 5 小时前 9.4K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
+      "image_url": "https://upload.chinaz.com/2026/1010/6392723997692384934700053.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "c61131765229497f",
+      "title": "多模态决策大模型迎来开源新突破！",
+      "display_title": "多模态决策大模型迎来开源新突破！",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31537",
+      "published_at": "2026-10-10T23:37:55.747044+00:00",
+      "detected_at": "2026-10-10T23:37:55.747047+00:00",
+      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 5 小时前 9.4K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
+      "image_url": "https://upload.chinaz.com/2026/1010/6392724223667879565666786.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "717681ad5f455aaf",
+      "title": "阿里 Qoder 迎来重大升级：首发上线 Fast 模式，响应仅需 3 秒且消耗大降 阿里Qoder正式上线全新Fast模式，首发支持桌面端0.4.4及以上版本，个人版、企业版、CN版与国际版均可同步使用。",
+      "display_title": "阿里 Qoder 迎来重大升级：首发上线 Fast 模式，响应仅需 3 秒且消耗大降 阿里Qoder正式上线全新Fast模式，首发支持桌面端0.4.4及以上版本，个人版、企业版、CN版与国际版均可同步使用。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31538",
+      "published_at": "2026-10-10T23:37:55.745631+00:00",
+      "detected_at": "2026-10-10T23:37:55.745635+00:00",
+      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 5 小时前 9.4K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
+      "image_url": "https://upload.chinaz.com/2026/1010/6392724322390295366275557.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "ebe229ae22058637",
+      "title": "千问首款AI耳机亮相NBA中国赛，可在淘宝、京东官方店预约 今日澳门NBA中国赛现场，千问首款AI耳机与新款AI眼镜亮相。",
+      "display_title": "千问首款AI耳机亮相NBA中国赛，可在淘宝、京东官方店预约 今日澳门NBA中国赛现场，千问首款AI耳机与新款AI眼镜亮相。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31543",
+      "published_at": "2026-10-10T23:37:55.739726+00:00",
+      "detected_at": "2026-10-10T23:37:55.739730+00:00",
+      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 5 小时前 9.4K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
+      "image_url": "https://upload.chinaz.com/2026/1010/6392724505975090687747661.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "4858a395553d37c8",
+      "title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。",
+      "display_title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31546",
+      "published_at": "2026-10-10T23:37:55.735257+00:00",
+      "detected_at": "2026-10-10T23:37:55.735262+00:00",
+      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 5 小时前 9.4K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
+      "image_url": "https://upload.chinaz.com/2026/1010/6392724964764138783413937.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "d3fec543cc214363",
       "title": "豆包开始收费了，我反而觉得是好事",
@@ -310,132 +527,6 @@
       "priority": "B",
       "language": "zh",
       "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "3499f8bb94895d76",
-      "title": "​Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
-      "display_title": "​Claude 管理智能体上线动态工作流：单次最高可并行调度 1000 个 AI Agents",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31528",
-      "published_at": "2026-10-10T20:08:54.220070+00:00",
-      "detected_at": "2026-10-10T20:08:54.220076+00:00",
-      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 2 小时前 9.7K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
-      "image_url": "https://upload.chinaz.com/2026/1010/6392723832158642352468926.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "9e155682b5f615fd",
-      "title": "腾讯元宝上线桌宠:PC端 v2.87.10开启，全天陪伴+拖拽文件摘要 腾讯元宝10月10日宣布，元宝桌宠PC端上线，Beta形态。",
-      "display_title": "腾讯元宝上线桌宠:PC端 v2.87.10开启，全天陪伴+拖拽文件摘要 腾讯元宝10月10日宣布，元宝桌宠PC端上线，Beta形态。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31530",
-      "published_at": "2026-10-10T20:08:54.216528+00:00",
-      "detected_at": "2026-10-10T20:08:54.216534+00:00",
-      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 2 小时前 9.7K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
-      "image_url": "https://upload.chinaz.com/2026/1010/6392723992106257544947803.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "375b11f0323edfee",
-      "title": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入 Cloudflare于10月9日发布开放权重决策模型Clef-omni。",
-      "display_title": "Cloudflare 发布开放权重决策模型 Clef-omni，新增支持音视频多模态输入 Cloudflare于10月9日发布开放权重决策模型Clef-omni。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31531",
-      "published_at": "2026-10-10T20:08:54.214781+00:00",
-      "detected_at": "2026-10-10T20:08:54.214787+00:00",
-      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 2 小时前 9.7K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
-      "image_url": "https://upload.chinaz.com/2026/1010/6392723997692384934700053.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "c61131765229497f",
-      "title": "多模态决策大模型迎来开源新突破！",
-      "display_title": "多模态决策大模型迎来开源新突破！",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31537",
-      "published_at": "2026-10-10T20:08:54.203810+00:00",
-      "detected_at": "2026-10-10T20:08:54.203816+00:00",
-      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 2 小时前 9.7K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
-      "image_url": "https://upload.chinaz.com/2026/1010/6392724223667879565666786.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "717681ad5f455aaf",
-      "title": "阿里 Qoder 迎来重大升级：首发上线 Fast 模式，响应仅需 3 秒且消耗大降 阿里Qoder正式上线全新Fast模式，首发支持桌面端0.4.4及以上版本，个人版、企业版、CN版与国际版均可同步使用。",
-      "display_title": "阿里 Qoder 迎来重大升级：首发上线 Fast 模式，响应仅需 3 秒且消耗大降 阿里Qoder正式上线全新Fast模式，首发支持桌面端0.4.4及以上版本，个人版、企业版、CN版与国际版均可同步使用。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31538",
-      "published_at": "2026-10-10T20:08:54.202098+00:00",
-      "detected_at": "2026-10-10T20:08:54.202121+00:00",
-      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 2 小时前 9.7K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
-      "image_url": "https://upload.chinaz.com/2026/1010/6392724322390295366275557.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "ebe229ae22058637",
-      "title": "千问首款AI耳机亮相NBA中国赛，可在淘宝、京东官方店预约 今日澳门NBA中国赛现场，千问首款AI耳机与新款AI眼镜亮相。",
-      "display_title": "千问首款AI耳机亮相NBA中国赛，可在淘宝、京东官方店预约 今日澳门NBA中国赛现场，千问首款AI耳机与新款AI眼镜亮相。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31543",
-      "published_at": "2026-10-10T20:08:54.195018+00:00",
-      "detected_at": "2026-10-10T20:08:54.195024+00:00",
-      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 2 小时前 9.7K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
-      "image_url": "https://upload.chinaz.com/2026/1010/6392724505975090687747661.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "4858a395553d37c8",
-      "title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。",
-      "display_title": "腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31546",
-      "published_at": "2026-10-10T20:08:54.189521+00:00",
-      "detected_at": "2026-10-10T20:08:54.189528+00:00",
-      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 2 小时前 9.7K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
-      "image_url": "https://upload.chinaz.com/2026/1010/6392724964764138783413937.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": true,
       "meta": {}
     },
     {
@@ -501,7 +592,7 @@
       "url": "https://news.aibase.com/zh/news/31539",
       "published_at": "2026-10-10T09:58:01.507968+00:00",
       "detected_at": "2026-10-10T09:58:01.507975+00:00",
-      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 2 小时前 9.7K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
+      "summary": "月之暗面注册资本飙至 1437 万，年内密集增资动作频频 北京月之暗面科技股份有限公司近日完成工商变更，注册资本由约1157.53万元增至约1437.23万元，增幅约24%。今年以来，该公司注册资本已多次密集增资，从最初100万元一路升至约1437.23万元。作为国内大模型头部企业及备受瞩目的AI独角兽，其资本变动引发关注。 5 小时前 9.4K 腾讯云开源内部自用 TeamAI 工具，支持跨 Agent 共享 Skill 腾讯云开源内部AI协作工具TeamAI。它基于Git，将团队Skill、工作规范、工具配置和项目知识统一纳入仓库，实现像代码一...",
       "image_url": "https://upload.chinaz.com/2026/1010/6392724349435115144067542.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -718,7 +809,7 @@
       "published_at": "2026-10-09T06:18:09.026746+00:00",
       "detected_at": "2026-10-09T06:18:09.026761+00:00",
       "summary": "App+1｜所得即所见，更适合中文的字体预览工具：Anyway.Fonts JJYing 10:08 Matrix精选",
-      "image_url": "https://rssfile.sspai.com/2026/09/22/8456c8d1eae9964341b13d0ed5092cf6.png?imageMogr2/auto-orient/format/webp/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/09/22/8456c8d1eae9964341b13d0ed5092cf6.png?imageMogr2/auto-orient/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -9251,42 +9342,6 @@
       "detected_at": "2026-08-30T05:54:22.999506+00:00",
       "summary": "In real-world market environments, publicly available vegetable datasets rarely include both fresh and defective samples, as most existing collections are captured under controlled laboratory settings. This lack of naturally collected data limits model generalizability in prac...",
       "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-024-51668-6/MediaObjects/41598_2024_51668_Fig1_HTML.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "419453c52551789c",
-      "title": "A multi-category eye image dataset for AI-based segmentation and analysis of eyelid disorders",
-      "display_title": "A multi-category eye image dataset for AI-based segmentation and analysis of eyelid disorders",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08179-y",
-      "published_at": "2026-08-29T00:00:00+00:00",
-      "detected_at": "2026-08-30T05:54:22.999746+00:00",
-      "summary": "Abnormal eyelid position and morphology can cause visual dysfunction, ocular surface damage, and facial deformities, highlighting the need for accurate eyelid assessment. Advances in artificial intelligence (AI) have enabled automated analysis of eyelid abnormalities using ext...",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-08179-y/MediaObjects/41597_2026_8179_Fig1_HTML.png?as=webp",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "69456446e1eacb9f",
-      "title": "In-situ high-speed thermal video data in Laser Powder Bed Fusion on copper-ceramic substrates",
-      "display_title": "In-situ high-speed thermal video data in Laser Powder Bed Fusion on copper-ceramic substrates",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08029-x",
-      "published_at": "2026-08-29T00:00:00+00:00",
-      "detected_at": "2026-08-30T05:54:22.999993+00:00",
-      "summary": "In-situ monitoring and inspection have been widely recognized as critical enabling technologies for the industrial adoption of additive manufacturing (AM). Among available sensing methods, thermal video imaging plays a central role as it provides spatially resolved information...",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-32382-3/MediaObjects/41598_2025_32382_Fig1_HTML.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
