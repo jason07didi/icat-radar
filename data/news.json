@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-17T18:56:13.621593+00:00",
+  "updated_at": "2026-10-17T21:34:34.970204+00:00",
   "count": 500,
-  "hotspot_count": 12,
-  "breakthrough_count": 168,
+  "hotspot_count": 11,
+  "breakthrough_count": 167,
   "category_counts": {
-    "AI变现": 159,
+    "AI变现": 160,
     "提效工具": 71,
-    "前沿动态": 60
+    "前沿动态": 59
   },
   "source_counts": {
     "Scientific Data": 198,
@@ -17,17 +17,17 @@
       "id": "523d08aabd65fe40",
       "title": "“全民喝大水”火了 医生提醒",
       "summary": "最近，“全民喝大水”这个梗火了。医生提醒，短时间过量饮水会引发稀释性低钠血症，即“水中毒”，严重可致脑水肿甚至死亡。医生... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%85%A8%E6%B0%91%E5%96%9D%E5%A4%A7%E6%B0%B4%E2%80%9D%E7%81%AB%E4%BA%86+%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 3,
-      "hot_index": 7714083,
-      "platform": "百度热搜",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%85%A8%E6%B0%91%E5%96%9D%E5%A4%A7%E6%B0%B4%E2%80%9D%E7%81%AB%E4%BA%86+%E5%8C%BB%E7%94%9F%E6%8F%90%E9%86%92&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 1,
+      "hot_index": 7712043,
+      "platform": "百度民生",
       "platforms": [
-        "百度热搜",
-        "百度民生"
+        "百度民生",
+        "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 3,
-        "百度民生": 4
+        "百度民生": 1,
+        "百度热搜": 3
       },
       "topic": "健康医学",
       "score": 98,
@@ -68,7 +68,64 @@
           "match_score": 38
         }
       ],
-      "updated_at": "2026-10-17T18:56:04.328985+00:00"
+      "updated_at": "2026-10-17T21:34:25.698569+00:00"
+    },
+    {
+      "id": "8f83babafa7705f5",
+      "title": "保健品不是药怎么选才靠谱",
+      "summary": "针对保健食品市场存在非法宣传疗效的现象，专家提醒消费者挑选时应认准“蓝帽子”标识及国食健注。保健食品仅能标注24项保健功... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%BF%9D%E5%81%A5%E5%93%81%E4%B8%8D%E6%98%AF%E8%8D%AF%E6%80%8E%E4%B9%88%E9%80%89%E6%89%8D%E9%9D%A0%E8%B0%B1&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 9,
+      "hot_index": 5130376,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 9,
+        "百度热搜": 30
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "保健品不是药怎么选才靠谱为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02568-4",
+      "main_paper_title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
+      "related_papers": [
+        {
+          "id": "313ef8f31ce5c5df",
+          "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02568-4",
+          "published_at": "2026-10-17T21:34:19.467274+00:00",
+          "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
+          "match_score": 49
+        },
+        {
+          "id": "710c270555eca25f",
+          "title": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11162-7",
+          "published_at": "2026-10-14T00:00:00+00:00",
+          "summary": "Artificial intelligence-enabled quantification and analyses of brown adipose tissue (BAT) activity uncover links between BAT and a healthier metabolic profile along with lower rates of psychiatric disease, and can identify pharmacologic agents that could be repurposed to activ...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11162-7/MediaObjects/41586_2026_11162_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "8df8b0a7a8059cb0",
+          "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04715-w",
+          "published_at": "2026-10-16T00:00:00+00:00",
+          "summary": "Results of a phase 1 trial of the antibody−toxin conjugate D2C7-ATC targeting EGFR/EGFRvIII in patients with recurrent malignant glioma show encouraging safety and efficacy signals, with translational analyses of patient samples indicating intratumoral and systemic immune acti...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04715-w/MediaObjects/41591_2026_4715_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-10-17T21:34:25.705921+00:00"
     },
     {
       "id": "32af188bd6da19e3",
@@ -76,7 +133,7 @@
       "summary": "10月16日，习近平总书记在内蒙古自治区乌兰察布市考察时强调，要统筹高质量发展和高水平保护，坚定不移走生态优先、绿色发展... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%80%BB%E4%B9%A6%E8%AE%B0%E5%BF%83%E7%B3%BB%E4%B8%87%E9%87%8C%E7%BB%BF%E8%89%B2%E9%95%BF%E5%9F%8E&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 1,
-      "hot_index": 7904726,
+      "hot_index": 7904043,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -123,7 +180,7 @@
           "match_score": 27
         }
       ],
-      "updated_at": "2026-10-17T18:56:04.320484+00:00"
+      "updated_at": "2026-10-17T21:34:25.694805+00:00"
     },
     {
       "id": "60491cde1747e8ad",
@@ -131,7 +188,7 @@
       "summary": "多地出台教育改革举措应对学龄人口梯次达峰，高中阶段学龄人口预计2029年迎来峰值。嵊泗中考改革实现普高愿读尽读，多地试点... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%9C%B0%E8%AF%95%E7%82%B9%E7%9B%B4%E5%8D%87%E9%AB%98%E4%B8%AD&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 2,
-      "hot_index": 7809305,
+      "hot_index": 7809056,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -178,7 +235,7 @@
           "match_score": 50
         }
       ],
-      "updated_at": "2026-10-17T18:56:04.324626+00:00"
+      "updated_at": "2026-10-17T21:34:25.702136+00:00"
     },
     {
       "id": "7ecbe44e7330434c",
@@ -186,7 +243,7 @@
       "summary": "向太陈岚近日爆料，李连杰、利智的小女儿Jada因在社交平台公开抑郁症病史，申请高校时遭到学校拒收，李连杰夫妇事先并不知情... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%90%91%E5%A4%AA%EF%BC%9A%E6%9D%8E%E8%BF%9E%E6%9D%B0%E5%A5%B3%E5%84%BF%E6%82%A3%E6%8A%91%E9%83%81%E7%97%87%E9%81%AD%E9%AB%98%E6%A0%A1%E6%8B%92%E6%94%B6&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 13,
-      "hot_index": 6763069,
+      "hot_index": 6755304,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -217,7 +274,7 @@
           "title": "Depression risk associated with idealized sentiment toward urban places on social media",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00516-x",
-          "published_at": "2026-10-17T18:55:56.938387+00:00",
+          "published_at": "2026-10-17T21:34:21.181524+00:00",
           "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
           "match_score": 44
@@ -227,85 +284,30 @@
           "title": "Divergence between physical and emotional heat resilience in Chinese cities",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02732-8",
-          "published_at": "2026-10-17T18:55:54.994399+00:00",
+          "published_at": "2026-10-17T21:34:19.081394+00:00",
           "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
           "match_score": 41
         }
       ],
-      "updated_at": "2026-10-17T18:56:04.333131+00:00"
-    },
-    {
-      "id": "2db7fc02479962c1",
-      "title": "大学生7个月开20家店月流水破百万",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E7%94%9F7%E4%B8%AA%E6%9C%88%E5%BC%8020%E5%AE%B6%E5%BA%97%E6%9C%88%E6%B5%81%E6%B0%B4%E7%A0%B4%E7%99%BE%E4%B8%87&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 13,
-      "hot_index": 2946417,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 13
-      },
-      "topic": "城市社会",
-      "score": 94,
-      "recommended_title": "大学生7个月开20家店月流水破百万背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00527-8",
-      "main_paper_title": "A global view of urban land subsidence and its changing trajectories",
-      "related_papers": [
-        {
-          "id": "301c12754a62e105",
-          "title": "A global view of urban land subsidence and its changing trajectories",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00527-8",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-17T18:55:56.936618+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
-        },
-        {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-17T18:55:56.936962+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-10-17T18:56:04.337006+00:00"
+      "updated_at": "2026-10-17T21:34:25.709402+00:00"
     },
     {
       "id": "59d68fb8f64ee318",
       "title": "13岁中国女孩在韩出道 父母却在欠薪",
       "summary": "近日，韩国女团A2O LITE的13岁中国成员盛艾敬（aijing），在出道当天，其父母名下公司被曝拖欠员工薪资，且被法... 查看更多>",
       "url": "https://www.baidu.com/s?wd=13%E5%B2%81%E4%B8%AD%E5%9B%BD%E5%A5%B3%E5%AD%A9%E5%9C%A8%E9%9F%A9%E5%87%BA%E9%81%93+%E7%88%B6%E6%AF%8D%E5%8D%B4%E5%9C%A8%E6%AC%A0%E8%96%AA&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 17,
-      "hot_index": 6381250,
+      "rank": 14,
+      "hot_index": 6660998,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 17
+        "百度热搜": 14
       },
       "topic": "人工智能",
-      "score": 91,
+      "score": 94,
       "recommended_title": "13岁中国女孩在韩出道 父母却在欠薪刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
@@ -333,35 +335,90 @@
           "match_score": 35
         },
         {
-          "id": "710c270555eca25f",
-          "title": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11162-7",
-          "published_at": "2026-10-14T00:00:00+00:00",
-          "summary": "Artificial intelligence-enabled quantification and analyses of brown adipose tissue (BAT) activity uncover links between BAT and a healthier metabolic profile along with lower rates of psychiatric disease, and can identify pharmacologic agents that could be repurposed to activ...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11162-7/MediaObjects/41586_2026_11162_Fig1_HTML.png?as=webp",
-          "match_score": 28
+          "id": "1f76435836346d2f",
+          "title": "De novo design of lipopeptides with antimicrobial potency enabled by a chain-as-prompt deep learning framework",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78763-8",
+          "published_at": "2026-10-17T00:00:00+00:00",
+          "summary": "Authors present their chain-as-prompt deep learning framework, which identifies antimicrobial lipopeptides that show efficacy against drug-resistant bacterial pathogens in laboratory and animal model.",
+          "image_url": "",
+          "match_score": 25
         }
       ],
-      "updated_at": "2026-10-17T18:56:04.338466+00:00"
+      "updated_at": "2026-10-17T21:34:25.710683+00:00"
     },
     {
-      "id": "8f83babafa7705f5",
-      "title": "保健品不是药怎么选才靠谱",
+      "id": "2db7fc02479962c1",
+      "title": "大学生7个月开20家店月流水破百万",
       "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E4%BF%9D%E5%81%A5%E5%93%81%E4%B8%8D%E6%98%AF%E8%8D%AF%E6%80%8E%E4%B9%88%E9%80%89%E6%89%8D%E9%9D%A0%E8%B0%B1&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 17,
-      "hot_index": 2339691,
+      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E7%94%9F7%E4%B8%AA%E6%9C%88%E5%BC%8020%E5%AE%B6%E5%BA%97%E6%9C%88%E6%B5%81%E6%B0%B4%E7%A0%B4%E7%99%BE%E4%B8%87&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 15,
+      "hot_index": 2635934,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 17
+        "百度民生": 15
+      },
+      "topic": "城市社会",
+      "score": 92,
+      "recommended_title": "大学生7个月开20家店月流水破百万背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00527-8",
+      "main_paper_title": "A global view of urban land subsidence and its changing trajectories",
+      "related_papers": [
+        {
+          "id": "301c12754a62e105",
+          "title": "A global view of urban land subsidence and its changing trajectories",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00527-8",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-10-17T21:34:21.180119+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+          "match_score": 34
+        },
+        {
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-10-17T21:34:21.180407+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-17T21:34:25.713826+00:00"
+    },
+    {
+      "id": "3230d967f2fccb48",
+      "title": "欧洲西尼罗病毒",
+      "summary": "10月15日，欧洲疾病预防控制中心等机构发布报告：截至10月初，18个欧洲国家今年累计报告1855人感染西尼罗病毒，14... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%AC%A7%E6%B4%B2%E8%A5%BF%E5%B0%BC%E7%BD%97%E7%97%85%E6%AF%92&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 35,
+      "hot_index": 4638757,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 35
       },
       "topic": "健康医学",
-      "score": 91,
-      "recommended_title": "保健品不是药怎么选才靠谱为什么值得关注？从Nature研究看真正的科学证据",
+      "score": 77,
+      "recommended_title": "欧洲西尼罗病毒为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04717-8/MediaObjects/41591_2026_4717_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41591-026-04717-8",
@@ -378,66 +435,11 @@
           "match_score": 43
         },
         {
-          "id": "313ef8f31ce5c5df",
-          "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-10-17T18:55:55.351091+00:00",
-          "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "8df8b0a7a8059cb0",
-          "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04715-w",
-          "published_at": "2026-10-16T00:00:00+00:00",
-          "summary": "Results of a phase 1 trial of the antibody−toxin conjugate D2C7-ATC targeting EGFR/EGFRvIII in patients with recurrent malignant glioma show encouraging safety and efficacy signals, with translational analyses of patient samples indicating intratumoral and systemic immune acti...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04715-w/MediaObjects/41591_2026_4715_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-10-17T18:56:04.342570+00:00"
-    },
-    {
-      "id": "dd949b1b3520d5e3",
-      "title": "这样喝水不健康 严重可能导致脑水肿",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E8%BF%99%E6%A0%B7%E5%96%9D%E6%B0%B4%E4%B8%8D%E5%81%A5%E5%BA%B7+%E4%B8%A5%E9%87%8D%E5%8F%AF%E8%83%BD%E5%AF%BC%E8%87%B4%E8%84%91%E6%B0%B4%E8%82%BF&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 26,
-      "hot_index": 899383,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 26
-      },
-      "topic": "健康医学",
-      "score": 82,
-      "recommended_title": "这样喝水不健康 严重可能导致脑水肿为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11162-7/MediaObjects/41586_2026_11162_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11162-7",
-      "main_paper_title": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
-      "related_papers": [
-        {
-          "id": "710c270555eca25f",
-          "title": "Artificial intelligence-enabled clinical phenotyping of human brown fat",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11162-7",
-          "published_at": "2026-10-14T00:00:00+00:00",
-          "summary": "Artificial intelligence-enabled quantification and analyses of brown adipose tissue (BAT) activity uncover links between BAT and a healthier metabolic profile along with lower rates of psychiatric disease, and can identify pharmacologic agents that could be repurposed to activ...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11162-7/MediaObjects/41586_2026_11162_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        },
-        {
           "id": "f3b4f4e53096f06d",
           "title": "Intravenous hyaluronidase-expressing oncolytic adenovirus with chemotherapy in metastatic pancreatic cancer: a randomized phase 2b trial",
           "source": "Nature Medicine",
           "url": "https://www.nature.com/articles/s41591-026-04705-y",
-          "published_at": "2026-10-17T18:55:55.821601+00:00",
+          "published_at": "2026-10-17T21:34:19.834123+00:00",
           "summary": "In the randomized phase 2b VIRAGE trial, patients with treatment-naive metastatic pancreatic cancer received the hyaluronidase-expressing oncolytic adenovirus zabilugene almadenorepvec (VCN-01) intravenously with gemcitabine and nab-paclitaxel (GnP) or GnP alone, showing that...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04705-y/MediaObjects/41591_2026_4705_Fig1_HTML.png?as=webp",
           "match_score": 35
@@ -453,39 +455,39 @@
           "match_score": 33
         }
       ],
-      "updated_at": "2026-10-17T18:56:04.346647+00:00"
+      "updated_at": "2026-10-17T21:34:25.717324+00:00"
     },
     {
       "id": "6b5baa413b09526c",
       "title": "网红“减重神器”西梅饮靠谱吗",
       "summary": "近期，不少消费者寻求“减重神器”西梅饮帮助排便。医生指出，市面上不少西梅饮配料表中西梅含量并不高，多为糖和甜味剂。其含有... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E7%BD%91%E7%BA%A2%E2%80%9C%E5%87%8F%E9%87%8D%E7%A5%9E%E5%99%A8%E2%80%9D%E8%A5%BF%E6%A2%85%E9%A5%AE%E9%9D%A0%E8%B0%B1%E5%90%97&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 32,
-      "hot_index": 4954223,
+      "rank": 37,
+      "hot_index": 4452726,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 32
+        "百度热搜": 37
       },
       "topic": "健康医学",
-      "score": 79,
+      "score": 75,
       "recommended_title": "网红“减重神器”西梅饮靠谱吗为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02568-4",
-      "main_paper_title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04626-w",
+      "main_paper_title": "An open vision-language model for diverse medical applications",
       "related_papers": [
         {
-          "id": "313ef8f31ce5c5df",
-          "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-10-17T18:55:55.351091+00:00",
-          "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
-          "match_score": 49
+          "id": "333668f26859f44d",
+          "title": "An open vision-language model for diverse medical applications",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04626-w",
+          "published_at": "2026-10-06T00:00:00+00:00",
+          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
+          "match_score": 38
         },
         {
           "id": "25268b3dc4ccc482",
@@ -508,24 +510,79 @@
           "match_score": 51
         }
       ],
-      "updated_at": "2026-10-17T18:56:04.351054+00:00"
+      "updated_at": "2026-10-17T21:34:25.721094+00:00"
+    },
+    {
+      "id": "737ded6de326b462",
+      "title": "“AI宛如高速夜行、没刹车的F1赛车”",
+      "summary": "近日，在国际货币基金组织（IMF）与世界银行年会上，AI成为讨论核心。IMF总裁格奥尔基耶娃坦言AI发展令其失眠，指出A... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E5%AE%9B%E5%A6%82%E9%AB%98%E9%80%9F%E5%A4%9C%E8%A1%8C%E3%80%81%E6%B2%A1%E5%88%B9%E8%BD%A6%E7%9A%84F1%E8%B5%9B%E8%BD%A6%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 39,
+      "hot_index": 4288752,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 39
+      },
+      "topic": "人工智能",
+      "score": 74,
+      "recommended_title": "“AI宛如高速夜行、没刹车的F1赛车”刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02611-4",
+      "main_paper_title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
+      "related_papers": [
+        {
+          "id": "c45ea6fd5b919bff",
+          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02611-4",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "0e5cda4c033de8bb",
+          "title": "Adaptive storage optimization for deep learning workloads in converged HPC-cloud environments: a reinforcement learning approach",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-75703-w",
+          "published_at": "2026-10-17T00:00:00+00:00",
+          "summary": "Storage systems remain a significant bottleneck in large-scale deep learning training. Most evaluation studies rely on synthetic benchmarks that do not capture the I/O heterogeneity present in real training pipelines. Automated configuration methods often treat parameter selec...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-27229-w/MediaObjects/41598_2025_27229_Fig1_HTML.png",
+          "match_score": 21
+        },
+        {
+          "id": "e1250f199385cbed",
+          "title": "An interpretable hierarchical deep learning framework for lung and colon cancer detection",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-75965-4",
+          "published_at": "2026-10-17T00:00:00+00:00",
+          "summary": "Accurate and interpretable classification of lung and colon cancer from histopathological images remains challenging because of substantial inter-class similarities, morphological heterogeneity, and the limited transparency of conventional deep learning (DL) models. Most exist...",
+          "image_url": "",
+          "match_score": 21
+        }
+      ],
+      "updated_at": "2026-10-17T21:34:25.722418+00:00"
     },
     {
       "id": "a4ac0d32f87d4046",
       "title": "中国“天衍”比最快超算还快4.5亿倍",
       "summary": "目前，中国“天衍”超导量子计算机已接入云平台，处理特定问题速度比最快超算快4.5亿倍，服务60多国。此前量子计算核心技术... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E2%80%9C%E5%A4%A9%E8%A1%8D%E2%80%9D%E6%AF%94%E6%9C%80%E5%BF%AB%E8%B6%85%E7%AE%97%E8%BF%98%E5%BF%AB4.5%E4%BA%BF%E5%80%8D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 33,
-      "hot_index": 4856234,
+      "rank": 49,
+      "hot_index": 3333314,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 33
+        "百度热搜": 49
       },
       "topic": "前沿科技",
-      "score": 79,
+      "score": 68,
       "recommended_title": "中国“天衍”比最快超算还快4.5亿倍意味着什么？Nature研究中的技术路线与现实边界",
       "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11138-7/MediaObjects/41586_2026_11138_Fig3_HTML.png?as=webp",
@@ -557,126 +614,34 @@
           "title": "Flash energy droughts in solar and wind resources under climate change",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-10-17T18:55:54.993048+00:00",
+          "published_at": "2026-10-17T21:34:19.080333+00:00",
           "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
           "match_score": 27
         }
       ],
-      "updated_at": "2026-10-17T18:56:04.352619+00:00"
-    },
-    {
-      "id": "49c1a3edac18a184",
-      "title": "人工智能让红绿灯更聪明",
-      "summary": "近日，北京试点“AI智能信控系统”让红绿灯学会“思考”。此前信号灯绿灯时间固定不动，现系统通过感知数据与大模型推演生成配... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E8%AE%A9%E7%BA%A2%E7%BB%BF%E7%81%AF%E6%9B%B4%E8%81%AA%E6%98%8E&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 38,
-      "hot_index": 4349997,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 38
-      },
-      "topic": "人工智能",
-      "score": 75,
-      "recommended_title": "人工智能让红绿灯更聪明刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02611-4",
-      "main_paper_title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
-      "related_papers": [
-        {
-          "id": "c45ea6fd5b919bff",
-          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02611-4",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "1f76435836346d2f",
-          "title": "De novo design of lipopeptides with antimicrobial potency enabled by a chain-as-prompt deep learning framework",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78763-8",
-          "published_at": "2026-10-17T00:00:00+00:00",
-          "summary": "Authors present their chain-as-prompt deep learning framework, which identifies antimicrobial lipopeptides that show efficacy against drug-resistant bacterial pathogens in laboratory and animal model.",
-          "image_url": "",
-          "match_score": 25
-        },
-        {
-          "id": "0e5cda4c033de8bb",
-          "title": "Adaptive storage optimization for deep learning workloads in converged HPC-cloud environments: a reinforcement learning approach",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-75703-w",
-          "published_at": "2026-10-17T00:00:00+00:00",
-          "summary": "Storage systems remain a significant bottleneck in large-scale deep learning training. Most evaluation studies rely on synthetic benchmarks that do not capture the I/O heterogeneity present in real training pipelines. Automated configuration methods often treat parameter selec...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-27229-w/MediaObjects/41598_2025_27229_Fig1_HTML.png",
-          "match_score": 21
-        }
-      ],
-      "updated_at": "2026-10-17T18:56:04.354064+00:00"
-    },
-    {
-      "id": "737ded6de326b462",
-      "title": "“AI宛如高速夜行、没刹车的F1赛车”",
-      "summary": "近日，在国际货币基金组织（IMF）与世界银行年会上，AI成为讨论核心。IMF总裁格奥尔基耶娃坦言AI发展令其失眠，指出A... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9CAI%E5%AE%9B%E5%A6%82%E9%AB%98%E9%80%9F%E5%A4%9C%E8%A1%8C%E3%80%81%E6%B2%A1%E5%88%B9%E8%BD%A6%E7%9A%84F1%E8%B5%9B%E8%BD%A6%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 43,
-      "hot_index": 3875260,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 43
-      },
-      "topic": "人工智能",
-      "score": 70,
-      "recommended_title": "“AI宛如高速夜行、没刹车的F1赛车”刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04626-w",
-      "main_paper_title": "An open vision-language model for diverse medical applications",
-      "related_papers": [
-        {
-          "id": "333668f26859f44d",
-          "title": "An open vision-language model for diverse medical applications",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04626-w",
-          "published_at": "2026-10-06T00:00:00+00:00",
-          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
-          "match_score": 24
-        },
-        {
-          "id": "e1250f199385cbed",
-          "title": "An interpretable hierarchical deep learning framework for lung and colon cancer detection",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-75965-4",
-          "published_at": "2026-10-17T00:00:00+00:00",
-          "summary": "Accurate and interpretable classification of lung and colon cancer from histopathological images remains challenging because of substantial inter-class similarities, morphological heterogeneity, and the limited transparency of conventional deep learning (DL) models. Most exist...",
-          "image_url": "",
-          "match_score": 21
-        },
-        {
-          "id": "a30cccbbed89803f",
-          "title": "DashGuard: spatio-temporal deep learning for dashcam-based road accident anticipation",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-74110-5",
-          "published_at": "2026-10-17T00:00:00+00:00",
-          "summary": "Road traffic accidents claim roughly 1.35 million lives each year, with delayed hazard perception rather than mechanical failure implicated in most collisions. Dashcam-based accident anticipation offers a low-cost complement to sensor-heavy ADAS, yet controlled comparisons acr...",
-          "image_url": "",
-          "match_score": 21
-        }
-      ],
-      "updated_at": "2026-10-17T18:56:04.355533+00:00"
+      "updated_at": "2026-10-17T21:34:25.723770+00:00"
     }
   ],
   "items": [
+    {
+      "id": "043ea90f64ef9ded",
+      "title": "HarmonyOS开发资源目录：新版本适配、上架审核、AI提效工具一次看齐",
+      "display_title": "HarmonyOS开发资源目录：新版本适配、上架审核、AI提效工具一次看齐",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/share/6419523.html",
+      "published_at": "2026-10-17T21:30:29.017678+00:00",
+      "detected_at": "2026-10-17T21:30:29.017681+00:00",
+      "summary": "HarmonyOS开发资源目录：新版本适配、上架审核、AI提效工具一次看齐",
+      "image_url": "https://image.woshipm.com/wp-files/2026/06/ca88uzTQ24vkYKBVYXo1.jpg",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
     {
       "id": "b1b9f658a469b3ff",
       "title": "六位AI超级个体的真实账本：一人公司怎么赚钱？",
@@ -848,7 +813,7 @@
       "url": "https://news.aibase.com/zh/news/31687",
       "published_at": "2026-10-16T11:34:10.249898+00:00",
       "detected_at": "2026-10-16T11:34:10.249904+00:00",
-      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 13.3K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
+      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 12.7K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
       "image_url": "https://upload.chinaz.com/2026/1016/6392774360133014786867807.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -866,7 +831,7 @@
       "url": "https://news.aibase.com/zh/news/31690",
       "published_at": "2026-10-16T11:34:10.244520+00:00",
       "detected_at": "2026-10-16T11:34:10.244525+00:00",
-      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 13.3K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
+      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 12.7K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
       "image_url": "https://upload.chinaz.com/2026/1016/6392774726128901184659109.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -884,7 +849,7 @@
       "url": "https://news.aibase.com/zh/news/31692",
       "published_at": "2026-10-16T11:34:10.241008+00:00",
       "detected_at": "2026-10-16T11:34:10.241014+00:00",
-      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 13.3K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
+      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 12.7K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
       "image_url": "https://upload.chinaz.com/2026/1016/6392775507316991758386395.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -902,7 +867,7 @@
       "url": "https://news.aibase.com/zh/news/31694",
       "published_at": "2026-10-16T11:34:10.237337+00:00",
       "detected_at": "2026-10-16T11:34:10.237343+00:00",
-      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 13.3K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
+      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 12.7K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
       "image_url": "https://upload.chinaz.com/2026/1016/6392775587097887611707894.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -920,7 +885,7 @@
       "url": "https://news.aibase.com/zh/news/31697",
       "published_at": "2026-10-16T11:34:10.232058+00:00",
       "detected_at": "2026-10-16T11:34:10.232063+00:00",
-      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 13.3K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
+      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 12.7K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
       "image_url": "https://upload.chinaz.com/2026/1016/6392775728703915943461040.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -938,7 +903,7 @@
       "url": "https://news.aibase.com/zh/news/31699",
       "published_at": "2026-10-16T11:34:10.228391+00:00",
       "detected_at": "2026-10-16T11:34:10.228397+00:00",
-      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 13.3K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
+      "summary": "AI 代理网购遭亚马逊封杀！马斯克被逼急：大不了自己建个电商帝国去竞争 AI智能体正试图颠覆传统网购，但传统电商平台不愿轻易开门。有用户称，亚马逊正通过技术手段阻止马斯克旗下AI智能体Grok Bot在其平台替用户下单。Grok Bot可在云端操作网页、执行多步骤复杂任务，已整合进特斯拉车辆，并能代用户完成操作。此事凸显AI代理与电商平台在自动下单上的冲突。 昨天 12.7K 小红书强化 AI 技术与产品协同，明确模型应用优先方向 小红书发布全员信，宣布将内部AI一级部门Dots与核心基础设施Infra团队打通，推动模型研发、基建与产品需求协同，完...",
       "image_url": "https://upload.chinaz.com/2026/1016/6392773810360738927293079.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -1227,7 +1192,7 @@
       "published_at": "2026-10-15T04:50:19.462564+00:00",
       "detected_at": "2026-10-15T04:50:19.462570+00:00",
       "summary": "App+1｜Mangata：把每次散步当作一次探索旅行 zac 11:00",
-      "image_url": "https://rssfile.sspai.com/2026/10/01/af189c32dd3d07a138f33a75a5af8d3c.jpg?imageMogr2/auto-orient/ignore-error/1",
+      "image_url": "https://rssfile.sspai.com/2026/10/01/af189c32dd3d07a138f33a75a5af8d3c.jpg?imageMogr2/auto-orient/format/webp/ignore-error/1",
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
@@ -9657,24 +9622,6 @@
       "priority": "A",
       "language": "en",
       "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "a2ad86dd73f71c79",
-      "title": "深圳理工大学成立华南首个高校科普中心",
-      "display_title": "深圳理工大学成立华南首个高校科普中心",
-      "source": "科学网",
-      "category": "前沿动态",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571015.shtm",
-      "published_at": "2026-09-07T12:44:18.468673+00:00",
-      "detected_at": "2026-09-07T12:44:18.468678+00:00",
-      "summary": "科学网-深圳理工大学成立华南首个高校科普中心",
-      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6a97e168e4b078fce44afe34.jpeg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
       "meta": {}
     }
   ]
