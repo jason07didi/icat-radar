@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-10-26T17:43:41.857096+00:00",
+  "updated_at": "2026-10-26T21:59:23.428236+00:00",
   "count": 500,
   "hotspot_count": 12,
-  "breakthrough_count": 137,
+  "breakthrough_count": 136,
   "category_counts": {
-    "AI变现": 164,
+    "AI变现": 165,
     "提效工具": 64,
-    "前沿动态": 51
+    "前沿动态": 50
   },
   "source_counts": {
     "Scientific Data": 205,
@@ -14,77 +14,20 @@
   },
   "hotspots": [
     {
-      "id": "131c6effc4b39008",
-      "title": "夫妻俩看不见世界却培养出博士女儿",
-      "summary": "西安盲人夫妻杜小朗与丈夫共同经营按摩店，把日子过得有模有样，还养育出一名成绩优异、考上国科大的博士生女儿，相关视频走红，... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%AB%E5%A6%BB%E4%BF%A9%E7%9C%8B%E4%B8%8D%E8%A7%81%E4%B8%96%E7%95%8C%E5%8D%B4%E5%9F%B9%E5%85%BB%E5%87%BA%E5%8D%9A%E5%A3%AB%E5%A5%B3%E5%84%BF&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 15,
-      "hot_index": 5610231,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 15,
-        "百度热搜": 25
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "夫妻俩看不见世界却培养出博士女儿背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
-      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
-      "related_papers": [
-        {
-          "id": "c0c8ded620e6a3e8",
-          "title": "The spatial reach of mobility interactions in urban systems",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00531-y",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-          "match_score": 47
-        },
-        {
-          "id": "fe1f066aaf34be59",
-          "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11186-z",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "summary": "CD51 + astrocytes promote synapse formation in the developing cortex, circuit plasticity in the hippocampus and circuit remodelling after stroke.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11186-z/MediaObjects/41586_2026_11186_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "a79a68514f163b84",
-          "title": "Nested economies of scale in global city mass",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00532-x",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
-          "match_score": 42
-        }
-      ],
-      "updated_at": "2026-10-26T17:43:36.374686+00:00"
-    },
-    {
       "id": "1eedef32a5de5692",
       "title": "AI伪人广告正在集体“霸凌”人类",
       "summary": "",
       "url": "https://www.baidu.com/s?wd=AI%E4%BC%AA%E4%BA%BA%E5%B9%BF%E5%91%8A%E6%AD%A3%E5%9C%A8%E9%9B%86%E4%BD%93%E2%80%9C%E9%9C%B8%E5%87%8C%E2%80%9D%E4%BA%BA%E7%B1%BB&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 16,
-      "hot_index": 5123446,
+      "rank": 7,
+      "hot_index": 6373316,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 16,
-        "百度热搜": 30
+        "百度民生": 7,
+        "百度热搜": 17
       },
       "topic": "人工智能",
       "score": 98,
@@ -125,7 +68,64 @@
           "match_score": 28
         }
       ],
-      "updated_at": "2026-10-26T17:43:36.375439+00:00"
+      "updated_at": "2026-10-26T21:59:18.020898+00:00"
+    },
+    {
+      "id": "131c6effc4b39008",
+      "title": "夫妻俩看不见世界却培养出博士女儿",
+      "summary": "西安盲人夫妻杜小朗与丈夫共同经营按摩店，把日子过得有模有样，还养育出一名成绩优异、考上国科大的博士生女儿，相关视频走红，... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%AB%E5%A6%BB%E4%BF%A9%E7%9C%8B%E4%B8%8D%E8%A7%81%E4%B8%96%E7%95%8C%E5%8D%B4%E5%9F%B9%E5%85%BB%E5%87%BA%E5%8D%9A%E5%A3%AB%E5%A5%B3%E5%84%BF&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 10,
+      "hot_index": 6092672,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 10,
+        "百度热搜": 20
+      },
+      "topic": "城市社会",
+      "score": 98,
+      "recommended_title": "夫妻俩看不见世界却培养出博士女儿背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
+      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
+      "related_papers": [
+        {
+          "id": "c0c8ded620e6a3e8",
+          "title": "The spatial reach of mobility interactions in urban systems",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00531-y",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+          "match_score": 47
+        },
+        {
+          "id": "fe1f066aaf34be59",
+          "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11186-z",
+          "published_at": "2026-10-21T00:00:00+00:00",
+          "summary": "CD51 + astrocytes promote synapse formation in the developing cortex, circuit plasticity in the hippocampus and circuit remodelling after stroke.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11186-z/MediaObjects/41586_2026_11186_Fig1_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "a79a68514f163b84",
+          "title": "Nested economies of scale in global city mass",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00532-x",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
+          "match_score": 42
+        }
+      ],
+      "updated_at": "2026-10-26T21:59:18.024197+00:00"
     },
     {
       "id": "90a48a0f8e5f0892",
@@ -133,7 +133,7 @@
       "summary": "词元出海，是指中国AI大模型企业将电力、算力等优势转化为高性价比词元，并通过API接口向全球提供推理服务，按处理量计费，... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E2%80%9C%E7%9C%8B%E4%B8%8D%E8%A7%81%E7%9A%84%E5%A4%96%E8%B4%B8%E2%80%9D%E7%95%85%E8%B7%91%E5%85%A8%E7%90%83&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 4,
-      "hot_index": 7616763,
+      "hot_index": 7616869,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -180,7 +180,7 @@
           "match_score": 23
         }
       ],
-      "updated_at": "2026-10-26T17:43:36.365495+00:00"
+      "updated_at": "2026-10-26T21:59:18.016389+00:00"
     },
     {
       "id": "b128e9ce8f62f7f1",
@@ -188,7 +188,7 @@
       "summary": "近日，二十届中央第八轮巡视完成进驻工作。15个中央巡视组将对教育部和31所中管高校党组织开展常规巡视，工作2个月左右。 查看更多>",
       "url": "https://www.baidu.com/s?wd=15%E4%B8%AA%E4%B8%AD%E5%A4%AE%E5%B7%A1%E8%A7%86%E7%BB%84%E7%BB%84%E9%95%BF%E5%85%AC%E5%B8%83&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 5,
-      "hot_index": 7522486,
+      "hot_index": 7520291,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -235,25 +235,25 @@
           "match_score": 38
         }
       ],
-      "updated_at": "2026-10-26T17:43:36.367609+00:00"
+      "updated_at": "2026-10-26T21:59:18.019691+00:00"
     },
     {
-      "id": "2c3105c77bb22788",
-      "title": "不刷牙睡觉vs不刷牙吃早餐哪个更伤身",
-      "summary": "不刷牙睡觉和不刷牙就吃早餐，这两个常见的口腔卫生偷懒行为，究竟哪一个对我们的健康伤害更大？先说一下答案：不刷牙就睡觉的危... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%8D%E5%88%B7%E7%89%99%E7%9D%A1%E8%A7%89vs%E4%B8%8D%E5%88%B7%E7%89%99%E5%90%83%E6%97%A9%E9%A4%90%E5%93%AA%E4%B8%AA%E6%9B%B4%E4%BC%A4%E8%BA%AB&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 7,
-      "hot_index": 7331075,
+      "id": "4fda4e96a69a4249",
+      "title": "长期吃素能“排毒”系谣言",
+      "summary": "近日，流传长期吃素可以“排毒”的说法引发关注。经核查，该说法并不科学，人体自有代谢排泄系统，长期纯素食还易出现营养缺乏问... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E6%9C%9F%E5%90%83%E7%B4%A0%E8%83%BD%E2%80%9C%E6%8E%92%E6%AF%92%E2%80%9D%E7%B3%BB%E8%B0%A3%E8%A8%80&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 12,
+      "hot_index": 6857086,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 7
+        "百度热搜": 12
       },
       "topic": "健康医学",
-      "score": 98,
-      "recommended_title": "不刷牙睡觉vs不刷牙吃早餐哪个更伤身为什么值得关注？从Nature研究看真正的科学证据",
+      "score": 95,
+      "recommended_title": "长期吃素能“排毒”系谣言为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04689-9/MediaObjects/41591_2026_4689_Fig2_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41591-026-04689-9",
@@ -267,7 +267,7 @@
           "published_at": "2026-10-12T00:00:00+00:00",
           "summary": "Using longitudinal data from 52,236 patients with cancer, this study created a multimodal atlas of cancer cachexia, demonstrating that weight loss episodes are linked to systemic serologic signatures and specific tumor genotypes and can be predicted using integrated clinical a...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04689-9/MediaObjects/41591_2026_4689_Fig2_HTML.png?as=webp",
-          "match_score": 48
+          "match_score": 62
         },
         {
           "id": "6b27790d0eb9ca71",
@@ -290,299 +290,24 @@
           "match_score": 40
         }
       ],
-      "updated_at": "2026-10-26T17:43:36.369781+00:00"
-    },
-    {
-      "id": "e053809a3d4ebf15",
-      "title": "为什么手机越卖越少越卖越贵",
-      "summary": "今年的手机市场有一点值得关注：出货量在崩塌，销售额却在膨胀。为什么手机越卖越少越卖越贵？存储成本被AI基础设施截走只是表... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E4%BB%80%E4%B9%88%E6%89%8B%E6%9C%BA%E8%B6%8A%E5%8D%96%E8%B6%8A%E5%B0%91%E8%B6%8A%E5%8D%96%E8%B6%8A%E8%B4%B5&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 8,
-      "hot_index": 7234883,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 8
-      },
-      "topic": "人工智能",
-      "score": 98,
-      "recommended_title": "为什么手机越卖越少越卖越贵刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11205-z",
-      "main_paper_title": "Programmable design of functional proteins from natural language",
-      "related_papers": [
-        {
-          "id": "0700f64da84e9371",
-          "title": "Programmable design of functional proteins from natural language",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11205-z",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "summary": "Pinal, a 16-billion-parameter artificial intelligence model, designs functional proteins from natural-language descriptions, demonstrating experimentally validated activities and improved CO 2 -fixation product yields without iterative optimization.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
-          "match_score": 28
-        },
-        {
-          "id": "333668f26859f44d",
-          "title": "An open vision-language model for diverse medical applications",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04626-w",
-          "published_at": "2026-10-06T00:00:00+00:00",
-          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
-          "match_score": 21
-        },
-        {
-          "id": "dcb7200303d89a78",
-          "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04680-4",
-          "published_at": "2026-10-13T00:00:00+00:00",
-          "summary": "A small epilepsy monitoring study shows that a moderated, large language model-based chat interface lets patients converse with their electroencephalography monitoring in real time, using a smartphone, and patient feedback cut seizure-detector false alarms by about 80% without...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
-          "match_score": 40
-        }
-      ],
-      "updated_at": "2026-10-26T17:43:36.370529+00:00"
-    },
-    {
-      "id": "4fda4e96a69a4249",
-      "title": "长期吃素能“排毒”系谣言",
-      "summary": "近日，流传长期吃素可以“排毒”的说法引发关注。经核查，该说法并不科学，人体自有代谢排泄系统，长期纯素食还易出现营养缺乏问... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E9%95%BF%E6%9C%9F%E5%90%83%E7%B4%A0%E8%83%BD%E2%80%9C%E6%8E%92%E6%AF%92%E2%80%9D%E7%B3%BB%E8%B0%A3%E8%A8%80&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 12,
-      "hot_index": 6855618,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 12
-      },
-      "topic": "健康医学",
-      "score": 95,
-      "recommended_title": "长期吃素能“排毒”系谣言为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04734-7",
-      "main_paper_title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
-      "related_papers": [
-        {
-          "id": "6b27790d0eb9ca71",
-          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04734-7",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
-          "match_score": 43
-        },
-        {
-          "id": "34d90b1425d4dbc7",
-          "title": "Neoadjuvant nivolumab with or without visugromab in muscle-invasive bladder cancer: the phase 2a GDFATHER-NEO trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04740-9",
-          "published_at": "2026-10-24T00:00:00+00:00",
-          "summary": "As presented at the ESMO Congress 2026: In this exploratory, nonrandomized phase 2a trial, treatment of patients with immune checkpoint inhibitor-naive muscle-invasive bladder cancer with the GDF-15-neutralizing antibody visugromab and nivolumab produced encouraging pathologic...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04740-9/MediaObjects/41591_2026_4740_Fig2_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "767bf27e66144810",
-          "title": "Global and regional burden of measles and vaccine coverage among children under 5 years, 1990−2023: a Global Burden of Disease Study",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04661-7",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "summary": "Updates to the Global Burden of Disease Study showed that although global measles incidence and mortality had declined in 1990−2019, its resurgence since 2020 reflects stalled vaccination progress worldwide.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04661-7/MediaObjects/41591_2026_4661_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-10-26T17:43:36.372755+00:00"
-    },
-    {
-      "id": "975cebb7e69c08dc",
-      "title": "“西游记这么拍 去影院五刷”",
-      "summary": "近日，时长仅1分23秒的AI短片《齐天大圣》在社交平台引发关注。片中孙悟空为保护百姓主动迎向如来神掌被镇压，其电影质感与... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%A5%BF%E6%B8%B8%E8%AE%B0%E8%BF%99%E4%B9%88%E6%8B%8D+%E5%8E%BB%E5%BD%B1%E9%99%A2%E4%BA%94%E5%88%B7%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 19,
-      "hot_index": 6187266,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 19
-      },
-      "topic": "人工智能",
-      "score": 90,
-      "recommended_title": "“西游记这么拍 去影院五刷”刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02566-6",
-      "main_paper_title": "Generative AI and the temporary upskilling of knowledge workers",
-      "related_papers": [
-        {
-          "id": "0dd07ed1e0c4d641",
-          "title": "Generative AI and the temporary upskilling of knowledge workers",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02566-6",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "This randomized trial by Wiles et al. shows that generative AI helps knowledge workers perform data science tasks outside their skill set, but workers do not retain the underlying knowledge when the tool is removed.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "dcb7200303d89a78",
-          "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04680-4",
-          "published_at": "2026-10-13T00:00:00+00:00",
-          "summary": "A small epilepsy monitoring study shows that a moderated, large language model-based chat interface lets patients converse with their electroencephalography monitoring in real time, using a smartphone, and patient feedback cut seizure-detector false alarms by about 80% without...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
-          "match_score": 40
-        },
-        {
-          "id": "c45ea6fd5b919bff",
-          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02611-4",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
-          "match_score": 32
-        }
-      ],
-      "updated_at": "2026-10-26T17:43:36.376185+00:00"
-    },
-    {
-      "id": "d2c45ae880487449",
-      "title": "苹果发布新款iPad mini",
-      "summary": "10月26日，苹果公司发布新款iPad mini，配备8.5英寸OLED显示屏和A20 Pro芯片，机身厚度仅5.4毫米... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E6%96%B0%E6%AC%BEiPad+mini&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 23,
-      "hot_index": 5800254,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 23
-      },
-      "topic": "前沿科技",
-      "score": 87,
-      "recommended_title": "苹果发布新款iPad mini意味着什么？Nature研究中的技术路线与现实边界",
-      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02753-3",
-      "main_paper_title": "Flash energy droughts in solar and wind resources under climate change",
-      "related_papers": [
-        {
-          "id": "e944aee080af09a4",
-          "title": "Flash energy droughts in solar and wind resources under climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-10-26T17:43:29.138814+00:00",
-          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "fa8646bebafba69a",
-          "title": "Statistical-Plausibility Oracles for Quantum Key-Recovery: A Corpus-Driven Complexity Analysis",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-62974-6",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "The efficiency of a Grover-based quantum key-recovery attack is governed not only by the size of the key space, but by the fraction of keys the oracle accepts as plausible. For ciphers whose keys are judged by statistical plausibility, that fraction reflects how strongly the l...",
-          "image_url": "",
-          "match_score": 21
-        },
-        {
-          "id": "f9eb16110e064d5f",
-          "title": "An experimental investigation of photovoltaic array with mixed mono-facial and bi-facial modules",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-75433-z",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Bifacial photovoltaic (PV) panels are widely favoured for their higher energy yield and improved power generation capability. However, their high-cost limits large-scale deployment. To achieve a balance between enhanced power output and economic feasibility, a hybrid PV array...",
-          "image_url": "",
-          "match_score": 21
-        }
-      ],
-      "updated_at": "2026-10-26T17:43:36.376925+00:00"
-    },
-    {
-      "id": "b3e91c0c882ffb47",
-      "title": "熬夜熬的是甲状腺寿命",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E7%86%AC%E5%A4%9C%E7%86%AC%E7%9A%84%E6%98%AF%E7%94%B2%E7%8A%B6%E8%85%BA%E5%AF%BF%E5%91%BD&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 23,
-      "hot_index": 1400796,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 23
-      },
-      "topic": "健康医学",
-      "score": 85,
-      "recommended_title": "熬夜熬的是甲状腺寿命为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04717-8/MediaObjects/41591_2026_4717_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04717-8",
-      "main_paper_title": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial",
-      "related_papers": [
-        {
-          "id": "ab9b767d6344d0aa",
-          "title": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04717-8",
-          "published_at": "2026-10-14T00:00:00+00:00",
-          "summary": "A phase 1 trial shows that treatment of patients with high-grade serous ovarian cancer with personalized neoantigen vaccines combined with PD-1 blockade was feasible and led to tumor-specific immune responses in many patients and putative mechanisms of resistance related to an...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04717-8/MediaObjects/41591_2026_4717_Fig1_HTML.png?as=webp",
-          "match_score": 40
-        },
-        {
-          "id": "af998bfa45cc2af6",
-          "title": "Association of fetal activity patterns in utero with postnatal sleep behavior",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78754-9",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Here the authors used long-term monitoring of 32 mother-child pairs to report that fetal day-night activity rhythms align with maternal circadian patterns, and that fetal sleep timing associates maternal sleep regularity and post-natal infant sleep patterns. These findings sug...",
-          "image_url": "",
-          "match_score": 43
-        },
-        {
-          "id": "2aa054e9fc8d1ebc",
-          "title": "Multidimensional recovery monitoring in elite female football: an ecological understanding of sleep–recovery relationship",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-76175-8",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "This study investigated the associations between objective actigraphy-based sleep, morning heart rate variability, perception of recovery and sleep quality in elite female football players during a competitive season. Fifteen elite players from one Italian Serie A team were mo...",
-          "image_url": "",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-10-26T17:43:36.379094+00:00"
+      "updated_at": "2026-10-26T21:59:18.027856+00:00"
     },
     {
       "id": "19f9ec9930b4d7f9",
       "title": "三颗“本不该存在”的行星被发现",
       "summary": "近日，云南大学物理与天文学院钱声帮教授率团队在美国《国家科学院学报》发表论文，宣布发现三颗本该被恒星吞噬，却“活”下来的... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%B8%89%E9%A2%97%E2%80%9C%E6%9C%AC%E4%B8%8D%E8%AF%A5%E5%AD%98%E5%9C%A8%E2%80%9D%E7%9A%84%E8%A1%8C%E6%98%9F%E8%A2%AB%E5%8F%91%E7%8E%B0&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 29,
-      "hot_index": 5237742,
+      "rank": 15,
+      "hot_index": 6572833,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 29
+        "百度热搜": 15
       },
       "topic": "城市社会",
-      "score": 82,
+      "score": 93,
       "recommended_title": "三颗“本不该存在”的行星被发现背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11186-z/MediaObjects/41586_2026_11186_Fig1_HTML.png?as=webp",
@@ -620,25 +345,245 @@
           "match_score": 34
         }
       ],
-      "updated_at": "2026-10-26T17:43:36.381799+00:00"
+      "updated_at": "2026-10-26T21:59:18.031013+00:00"
+    },
+    {
+      "id": "2c3105c77bb22788",
+      "title": "不刷牙睡觉vs不刷牙吃早餐哪个更伤身",
+      "summary": "不刷牙睡觉和不刷牙就吃早餐，这两个常见的口腔卫生偷懒行为，究竟哪一个对我们的健康伤害更大？先说一下答案：不刷牙就睡觉的危... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%8D%E5%88%B7%E7%89%99%E7%9D%A1%E8%A7%89vs%E4%B8%8D%E5%88%B7%E7%89%99%E5%90%83%E6%97%A9%E9%A4%90%E5%93%AA%E4%B8%AA%E6%9B%B4%E4%BC%A4%E8%BA%AB&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 16,
+      "hot_index": 6467687,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 16
+      },
+      "topic": "健康医学",
+      "score": 92,
+      "recommended_title": "不刷牙睡觉vs不刷牙吃早餐哪个更伤身为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04734-7",
+      "main_paper_title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+      "related_papers": [
+        {
+          "id": "6b27790d0eb9ca71",
+          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04734-7",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "34d90b1425d4dbc7",
+          "title": "Neoadjuvant nivolumab with or without visugromab in muscle-invasive bladder cancer: the phase 2a GDFATHER-NEO trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04740-9",
+          "published_at": "2026-10-24T00:00:00+00:00",
+          "summary": "As presented at the ESMO Congress 2026: In this exploratory, nonrandomized phase 2a trial, treatment of patients with immune checkpoint inhibitor-naive muscle-invasive bladder cancer with the GDF-15-neutralizing antibody visugromab and nivolumab produced encouraging pathologic...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04740-9/MediaObjects/41591_2026_4740_Fig2_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "767bf27e66144810",
+          "title": "Global and regional burden of measles and vaccine coverage among children under 5 years, 1990−2023: a Global Burden of Disease Study",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04661-7",
+          "published_at": "2026-10-21T00:00:00+00:00",
+          "summary": "Updates to the Global Burden of Disease Study showed that although global measles incidence and mortality had declined in 1990−2019, its resurgence since 2020 reflects stalled vaccination progress worldwide.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04661-7/MediaObjects/41591_2026_4661_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-10-26T21:59:18.034667+00:00"
+    },
+    {
+      "id": "d2c45ae880487449",
+      "title": "苹果发布新款iPad mini",
+      "summary": "10月26日，苹果公司发布新款iPad mini，配备8.5英寸OLED显示屏和A20 Pro芯片，机身厚度仅5.4毫米... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%8B%B9%E6%9E%9C%E5%8F%91%E5%B8%83%E6%96%B0%E6%AC%BEiPad+mini&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 19,
+      "hot_index": 6188723,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 19
+      },
+      "topic": "前沿科技",
+      "score": 90,
+      "recommended_title": "苹果发布新款iPad mini意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02753-3",
+      "main_paper_title": "Flash energy droughts in solar and wind resources under climate change",
+      "related_papers": [
+        {
+          "id": "e944aee080af09a4",
+          "title": "Flash energy droughts in solar and wind resources under climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02753-3",
+          "published_at": "2026-10-26T21:59:11.392710+00:00",
+          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "4b1a71863b9e3b1a",
+          "title": "Real time small target fire detection in photovoltaic plants using attention enhanced multiscale fusion",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-74289-7",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "Photovoltaic (PV) power plants concentrate flammable polymers and arc-prone electrical components, making early fire detection a safety-critical condition-monitoring task. Yet incipient fires appear as small, weakly contrasted smoke or flame, while specular reflections from gl...",
+          "image_url": "",
+          "match_score": 21
+        },
+        {
+          "id": "fa8646bebafba69a",
+          "title": "Statistical-Plausibility Oracles for Quantum Key-Recovery: A Corpus-Driven Complexity Analysis",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-62974-6",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "The efficiency of a Grover-based quantum key-recovery attack is governed not only by the size of the key space, but by the fraction of keys the oracle accepts as plausible. For ciphers whose keys are judged by statistical plausibility, that fraction reflects how strongly the l...",
+          "image_url": "",
+          "match_score": 21
+        }
+      ],
+      "updated_at": "2026-10-26T21:59:18.035828+00:00"
+    },
+    {
+      "id": "e053809a3d4ebf15",
+      "title": "为什么手机越卖越少越卖越贵",
+      "summary": "今年的手机市场有一点值得关注：出货量在崩塌，销售额却在膨胀。为什么手机越卖越少越卖越贵？存储成本被AI基础设施截走只是表... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%BA%E4%BB%80%E4%B9%88%E6%89%8B%E6%9C%BA%E8%B6%8A%E5%8D%96%E8%B6%8A%E5%B0%91%E8%B6%8A%E5%8D%96%E8%B6%8A%E8%B4%B5&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 23,
+      "hot_index": 5805263,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 23
+      },
+      "topic": "人工智能",
+      "score": 87,
+      "recommended_title": "为什么手机越卖越少越卖越贵刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11205-z",
+      "main_paper_title": "Programmable design of functional proteins from natural language",
+      "related_papers": [
+        {
+          "id": "0700f64da84e9371",
+          "title": "Programmable design of functional proteins from natural language",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11205-z",
+          "published_at": "2026-10-21T00:00:00+00:00",
+          "summary": "Pinal, a 16-billion-parameter artificial intelligence model, designs functional proteins from natural-language descriptions, demonstrating experimentally validated activities and improved CO 2 -fixation product yields without iterative optimization.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "333668f26859f44d",
+          "title": "An open vision-language model for diverse medical applications",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04626-w",
+          "published_at": "2026-10-06T00:00:00+00:00",
+          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
+          "match_score": 21
+        },
+        {
+          "id": "dcb7200303d89a78",
+          "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04680-4",
+          "published_at": "2026-10-13T00:00:00+00:00",
+          "summary": "A small epilepsy monitoring study shows that a moderated, large language model-based chat interface lets patients converse with their electroencephalography monitoring in real time, using a smartphone, and patient feedback cut seizure-detector false alarms by about 80% without...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
+          "match_score": 40
+        }
+      ],
+      "updated_at": "2026-10-26T21:59:18.037008+00:00"
     },
     {
       "id": "9dd8553172552d49",
       "title": "男子用AI编造父亲去世 诈骗170多万",
       "summary": "",
       "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E7%94%A8AI%E7%BC%96%E9%80%A0%E7%88%B6%E4%BA%B2%E5%8E%BB%E4%B8%96+%E8%AF%88%E9%AA%97170%E5%A4%9A%E4%B8%87&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 28,
-      "hot_index": 595464,
+      "rank": 23,
+      "hot_index": 1372347,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 28
+        "百度民生": 23
       },
       "topic": "人工智能",
-      "score": 80,
+      "score": 85,
       "recommended_title": "男子用AI编造父亲去世 诈骗170多万刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02566-6",
+      "main_paper_title": "Generative AI and the temporary upskilling of knowledge workers",
+      "related_papers": [
+        {
+          "id": "0dd07ed1e0c4d641",
+          "title": "Generative AI and the temporary upskilling of knowledge workers",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02566-6",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "This randomized trial by Wiles et al. shows that generative AI helps knowledge workers perform data science tasks outside their skill set, but workers do not retain the underlying knowledge when the tool is removed.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "dcb7200303d89a78",
+          "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04680-4",
+          "published_at": "2026-10-13T00:00:00+00:00",
+          "summary": "A small epilepsy monitoring study shows that a moderated, large language model-based chat interface lets patients converse with their electroencephalography monitoring in real time, using a smartphone, and patient feedback cut seizure-detector false alarms by about 80% without...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "c45ea6fd5b919bff",
+          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02611-4",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
+          "match_score": 32
+        }
+      ],
+      "updated_at": "2026-10-26T21:59:18.038147+00:00"
+    },
+    {
+      "id": "975cebb7e69c08dc",
+      "title": "“西游记这么拍 去影院五刷”",
+      "summary": "近日，时长仅1分23秒的AI短片《齐天大圣》在社交平台引发关注。片中孙悟空为保护百姓主动迎向如来神掌被镇压，其电影质感与... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E8%A5%BF%E6%B8%B8%E8%AE%B0%E8%BF%99%E4%B9%88%E6%8B%8D+%E5%8E%BB%E5%BD%B1%E9%99%A2%E4%BA%94%E5%88%B7%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 27,
+      "hot_index": 5427695,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 27
+      },
+      "topic": "人工智能",
+      "score": 83,
+      "recommended_title": "“西游记这么拍 去影院五刷”刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-023-01951-4/MediaObjects/41597_2023_1951_Fig1_HTML.png",
       "main_paper_url": "https://www.nature.com/articles/s41597-026-08480-w",
@@ -675,10 +620,83 @@
           "match_score": 32
         }
       ],
-      "updated_at": "2026-10-26T17:43:36.379840+00:00"
+      "updated_at": "2026-10-26T21:59:18.039360+00:00"
+    },
+    {
+      "id": "b3e91c0c882ffb47",
+      "title": "熬夜熬的是甲状腺寿命",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E7%86%AC%E5%A4%9C%E7%86%AC%E7%9A%84%E6%98%AF%E7%94%B2%E7%8A%B6%E8%85%BA%E5%AF%BF%E5%91%BD&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 28,
+      "hot_index": 594737,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 28
+      },
+      "topic": "健康医学",
+      "score": 80,
+      "recommended_title": "熬夜熬的是甲状腺寿命为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04717-8/MediaObjects/41591_2026_4717_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04717-8",
+      "main_paper_title": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial",
+      "related_papers": [
+        {
+          "id": "ab9b767d6344d0aa",
+          "title": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04717-8",
+          "published_at": "2026-10-14T00:00:00+00:00",
+          "summary": "A phase 1 trial shows that treatment of patients with high-grade serous ovarian cancer with personalized neoantigen vaccines combined with PD-1 blockade was feasible and led to tumor-specific immune responses in many patients and putative mechanisms of resistance related to an...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04717-8/MediaObjects/41591_2026_4717_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "af998bfa45cc2af6",
+          "title": "Association of fetal activity patterns in utero with postnatal sleep behavior",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78754-9",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "Here the authors used long-term monitoring of 32 mother-child pairs to report that fetal day-night activity rhythms align with maternal circadian patterns, and that fetal sleep timing associates maternal sleep regularity and post-natal infant sleep patterns. These findings sug...",
+          "image_url": "",
+          "match_score": 43
+        },
+        {
+          "id": "2aa054e9fc8d1ebc",
+          "title": "Multidimensional recovery monitoring in elite female football: an ecological understanding of sleep–recovery relationship",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-76175-8",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "This study investigated the associations between objective actigraphy-based sleep, morning heart rate variability, perception of recovery and sleep quality in elite female football players during a competitive season. Fifteen elite players from one Italian Serie A team were mo...",
+          "image_url": "",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-10-26T21:59:18.042898+00:00"
     }
   ],
   "items": [
+    {
+      "id": "b159c4040f195903",
+      "title": "AI互联网日报：OpenAI 拟降价逼近 Anthropic；Meta 收紧青少年内容；豆包 Pro 开始付费测试",
+      "display_title": "AI互联网日报：OpenAI 拟降价逼近 Anthropic；Meta 收紧青少年内容；豆包 Pro 开始付费测试",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6411508.html",
+      "published_at": "2026-10-26T21:55:49.952847+00:00",
+      "detected_at": "2026-10-26T21:55:49.952863+00:00",
+      "summary": "AI互联网日报：OpenAI 拟降价逼近 Anthropic；Meta 收紧青少年内容；豆包 Pro 开始付费测试",
+      "image_url": "https://tu.aixq.cc/wp-content/uploads/2026/06/20260604110857604.png!ys",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
     {
       "id": "125fca4640d80c38",
       "title": "派评 | 近期值得关注的 App 少数派编辑部 18:17",
@@ -760,7 +778,7 @@
       "url": "https://news.aibase.com/zh/news/31852",
       "published_at": "2026-10-26T11:34:18.921018+00:00",
       "detected_at": "2026-10-26T11:34:18.921020+00:00",
-      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 5 分钟前 10.4K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
+      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 4 小时前 10.1K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
       "image_url": "https://upload.chinaz.com/2026/1026/6392860246970517683308594.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -778,7 +796,7 @@
       "url": "https://news.aibase.com/zh/news/31856",
       "published_at": "2026-10-26T11:34:18.917637+00:00",
       "detected_at": "2026-10-26T11:34:18.917638+00:00",
-      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 5 分钟前 10.4K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
+      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 4 小时前 10.1K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
       "image_url": "https://upload.chinaz.com/2026/1026/6392860488433263958689925.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -796,7 +814,7 @@
       "url": "https://news.aibase.com/zh/news/31857",
       "published_at": "2026-10-26T11:34:18.916795+00:00",
       "detected_at": "2026-10-26T11:34:18.916797+00:00",
-      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 5 分钟前 10.4K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
+      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 4 小时前 10.1K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
       "image_url": "https://upload.chinaz.com/2026/1026/6392860617210781443740619.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -814,7 +832,7 @@
       "url": "https://news.aibase.com/zh/news/31860",
       "published_at": "2026-10-26T11:34:18.914236+00:00",
       "detected_at": "2026-10-26T11:34:18.914237+00:00",
-      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 5 分钟前 10.4K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
+      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 4 小时前 10.1K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
       "image_url": "https://upload.chinaz.com/2026/1026/6392860944292715687975778.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -832,7 +850,7 @@
       "url": "https://news.aibase.com/zh/news/31864",
       "published_at": "2026-10-26T11:34:18.910892+00:00",
       "detected_at": "2026-10-26T11:34:18.910894+00:00",
-      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 5 分钟前 10.4K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
+      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 4 小时前 10.1K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
       "image_url": "https://upload.chinaz.com/2026/1026/6392861986314686742100830.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -850,7 +868,7 @@
       "url": "https://news.aibase.com/zh/news/31869",
       "published_at": "2026-10-26T11:34:18.906649+00:00",
       "detected_at": "2026-10-26T11:34:18.906651+00:00",
-      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 5 分钟前 10.4K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
+      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 4 小时前 10.1K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
       "image_url": "https://upload.chinaz.com/2026/1026/6392862886929727143085508.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -904,7 +922,7 @@
       "url": "https://news.aibase.com/zh/news/31853",
       "published_at": "2026-10-26T05:26:04.745129+00:00",
       "detected_at": "2026-10-26T05:26:04.745135+00:00",
-      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 5 分钟前 10.4K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
+      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 4 小时前 10.1K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
       "image_url": "https://upload.chinaz.com/2026/1026/6392860287226830794248668.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -922,7 +940,7 @@
       "url": "https://news.aibase.com/zh/news/31855",
       "published_at": "2026-10-26T05:26:04.742546+00:00",
       "detected_at": "2026-10-26T05:26:04.742550+00:00",
-      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 5 分钟前 10.4K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
+      "summary": "字节跳动回应:Seed核心负责人周畅未离职 10月26日，针对字节跳动Seed AI核心负责人之一周畅已离职、将投身具身智能创业的传闻，接近字节跳动人士回应称周畅并未离职，直接澄清相关消息。此前有知情人士称，其离职传闻传出后，曾获知名基金、大厂战投及头部大模型独角兽接触。事件折射大模型产业加速向具身智能等前沿领域延展，核心技术人才流动备受关注。 4 小时前 10.1K 中国 AI 包揽全球调用榜前五，周调用量连续 26 周超美 据OpenRouter测算，10月19日至25日，全球AI大模型周调用量达188万亿Token，环比增14.63%，商业化...",
       "image_url": "https://upload.chinaz.com/2026/1026/6392860391562955733837409.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -9659,24 +9677,6 @@
       "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "2b5a9904c90f9518",
-      "title": "全球首台零衰减“弹卡”制冷装置研制成功",
-      "display_title": "全球首台零衰减“弹卡”制冷装置研制成功",
-      "source": "科学网",
-      "category": "前沿动态",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/9/571798.shtm",
-      "published_at": "2026-09-20T11:51:34.218186+00:00",
-      "detected_at": "2026-09-20T11:51:34.218191+00:00",
-      "summary": "科学网-全球首台零衰减“弹卡”制冷装置研制成功",
-      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6aae92e5e4b078fce44b0c79.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
       "meta": {}
     }
   ]
