@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-25T22:09:33.583037+00:00",
+  "updated_at": "2026-10-26T00:31:47.835149+00:00",
   "count": 500,
-  "hotspot_count": 11,
+  "hotspot_count": 12,
   "breakthrough_count": 139,
   "category_counts": {
     "AI变现": 160,
@@ -9,82 +9,25 @@
     "前沿动态": 53
   },
   "source_counts": {
-    "Scientific Data": 212,
-    "Nature Cities": 12
+    "Scientific Data": 210,
+    "Nature Cities": 14
   },
   "hotspots": [
-    {
-      "id": "9eb8bb409040e5f8",
-      "title": "年轻人热衷付费社交",
-      "summary": "近日，年轻人兴起明码标价的付费搭子服务，用低负担的一次性陪伴替代熟人社交，避开人情维系压力。目前该业态尚处自发阶段，存在... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%83%AD%E8%A1%B7%E4%BB%98%E8%B4%B9%E7%A4%BE%E4%BA%A4&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 3,
-      "hot_index": 5604866,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 3,
-        "百度热搜": 25
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "年轻人热衷付费社交背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
-      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
-      "related_papers": [
-        {
-          "id": "c0c8ded620e6a3e8",
-          "title": "The spatial reach of mobility interactions in urban systems",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00531-y",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-          "match_score": 47
-        },
-        {
-          "id": "86169746c0e8f177",
-          "title": "Depression risk associated with idealized sentiment toward urban places on social media",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00516-x",
-          "published_at": "2026-10-25T22:09:22.206650+00:00",
-          "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
-          "match_score": 44
-        },
-        {
-          "id": "ac59ef1c1d6d6189",
-          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02732-8",
-          "published_at": "2026-10-25T22:09:20.258527+00:00",
-          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
-          "match_score": 41
-        }
-      ],
-      "updated_at": "2026-10-25T22:09:26.576989+00:00"
-    },
     {
       "id": "ebb1b3d17af52af4",
       "title": "丈母娘也开始抢AI人了",
       "summary": "最近，AI从业者成婚恋市场抢手货。在跨国婚恋中，硅谷AI人成择偶“第一梯队”，有中国女企业家计划赴硅谷寻找持AI公司股票... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%B8%88%E6%AF%8D%E5%A8%98%E4%B9%9F%E5%BC%80%E5%A7%8B%E6%8A%A2AI%E4%BA%BA%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 4,
-      "hot_index": 5314028,
+      "rank": 7,
+      "hot_index": 4839870,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 4,
-        "百度热搜": 28
+        "百度民生": 7,
+        "百度热搜": 33
       },
       "topic": "人工智能",
       "score": 98,
@@ -125,23 +68,80 @@
           "match_score": 29
         }
       ],
-      "updated_at": "2026-10-25T22:09:26.577865+00:00"
+      "updated_at": "2026-10-26T00:31:40.113816+00:00"
     },
     {
-      "id": "bc4b57765f8f2018",
-      "title": "糖尿病患者为什么更容易跌倒",
-      "summary": "糖尿病患者，比一般人更容易跌倒。除了大家熟知的低血糖，糖尿病视网膜病变、周围神经病变、自主神经病变等问题，也会增加跌倒风... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%B3%96%E5%B0%BF%E7%97%85%E6%82%A3%E8%80%85%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9B%B4%E5%AE%B9%E6%98%93%E8%B7%8C%E5%80%92&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 7,
-      "hot_index": 4764792,
+      "id": "9861f3541893e606",
+      "title": "被年轻人抛弃的农家乐杀回来了",
+      "summary": "近期，重庆等地农家乐引入“胡闹厨房”真人体验，客流爆满。此前传统农家乐因同质化被年轻人抛弃，大量注销。商家把厨房变游乐场... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%A2%AB%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%8A%9B%E5%BC%83%E7%9A%84%E5%86%9C%E5%AE%B6%E4%B9%90%E6%9D%80%E5%9B%9E%E6%9D%A5%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 8,
+      "hot_index": 4654193,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 7,
-        "百度热搜": 34
+        "百度民生": 8,
+        "百度热搜": 35
+      },
+      "topic": "城市社会",
+      "score": 98,
+      "recommended_title": "被年轻人抛弃的农家乐杀回来了背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
+      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
+      "related_papers": [
+        {
+          "id": "c0c8ded620e6a3e8",
+          "title": "The spatial reach of mobility interactions in urban systems",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00531-y",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+          "match_score": 47
+        },
+        {
+          "id": "301c12754a62e105",
+          "title": "A global view of urban land subsidence and its changing trajectories",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00527-8",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
+          "match_score": 39
+        },
+        {
+          "id": "c81d9b137734ee60",
+          "title": "Cities alter the latitudinal diversity gradient of birds in North America",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00529-6",
+          "published_at": "2026-10-19T00:00:00+00:00",
+          "summary": "Urbanization considerably modifies the latitudinal diversity gradient of birds in North America, with native species exhibiting a flatter gradient in cities compared to surrounding areas, particularly during winter, highlighting complex interactions between human impacts and e...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00529-6/MediaObjects/44284_2026_529_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-10-26T00:31:40.116483+00:00"
+    },
+    {
+      "id": "bc4b57765f8f2018",
+      "title": "糖尿病患者为什么更容易跌倒",
+      "summary": "糖尿病患者，比一般人更容易跌倒。除了大家熟知的低血糖，糖尿病视网膜病变、周围神经病变、自主神经病变等问题，也会增加跌倒风... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%B3%96%E5%B0%BF%E7%97%85%E6%82%A3%E8%80%85%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9B%B4%E5%AE%B9%E6%98%93%E8%B7%8C%E5%80%92&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 12,
+      "hot_index": 3881307,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 12,
+        "百度热搜": 43
       },
       "topic": "健康医学",
       "score": 98,
@@ -182,27 +182,27 @@
           "match_score": 40
         }
       ],
-      "updated_at": "2026-10-25T22:09:26.579936+00:00"
+      "updated_at": "2026-10-26T00:31:40.118986+00:00"
     },
     {
-      "id": "9861f3541893e606",
-      "title": "被年轻人抛弃的农家乐杀回来了",
-      "summary": "近期，重庆等地农家乐引入“胡闹厨房”真人体验，客流爆满。此前传统农家乐因同质化被年轻人抛弃，大量注销。商家把厨房变游乐场... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%A2%AB%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%8A%9B%E5%BC%83%E7%9A%84%E5%86%9C%E5%AE%B6%E4%B9%90%E6%9D%80%E5%9B%9E%E6%9D%A5%E4%BA%86&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 9,
-      "hot_index": 4172575,
+      "id": "663d16cddb71b351",
+      "title": "住房支持生育还有几张牌",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E4%BD%8F%E6%88%BF%E6%94%AF%E6%8C%81%E7%94%9F%E8%82%B2%E8%BF%98%E6%9C%89%E5%87%A0%E5%BC%A0%E7%89%8C&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 13,
+      "hot_index": 3689367,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 9,
-        "百度热搜": 40
+        "百度民生": 13,
+        "百度热搜": 45
       },
       "topic": "城市社会",
       "score": 98,
-      "recommended_title": "被年轻人抛弃的农家乐杀回来了背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "住房支持生育还有几张牌背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00527-8",
@@ -216,48 +216,105 @@
           "published_at": "2026-10-12T00:00:00+00:00",
           "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
-          "match_score": 39
+          "match_score": 53
         },
         {
-          "id": "c81d9b137734ee60",
-          "title": "Cities alter the latitudinal diversity gradient of birds in North America",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00529-6",
-          "published_at": "2026-10-19T00:00:00+00:00",
-          "summary": "Urbanization considerably modifies the latitudinal diversity gradient of birds in North America, with native species exhibiting a flatter gradient in cities compared to surrounding areas, particularly during winter, highlighting complex interactions between human impacts and e...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00529-6/MediaObjects/44284_2026_529_Fig1_HTML.png?as=webp",
-          "match_score": 34
+          "id": "8df8b0a7a8059cb0",
+          "title": "EGFR-targeted antibody−toxin conjugate in recurrent glioma: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04715-w",
+          "published_at": "2026-10-16T00:00:00+00:00",
+          "summary": "Results of a phase 1 trial of the antibody−toxin conjugate D2C7-ATC targeting EGFR/EGFRvIII in patients with recurrent malignant glioma show encouraging safety and efficacy signals, with translational analyses of patient samples indicating intratumoral and systemic immune acti...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04715-w/MediaObjects/41591_2026_4715_Fig1_HTML.png?as=webp",
+          "match_score": 52
         },
         {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
+          "id": "704547445a19dff1",
+          "title": "Hidden living-condition deficits in small and medium-sized cities",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-25T22:09:22.205807+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
+          "url": "https://www.nature.com/articles/s44284-026-00498-w",
+          "published_at": "2026-08-20T00:00:00+00:00",
+          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
+          "match_score": 46
         }
       ],
-      "updated_at": "2026-10-25T22:09:26.581998+00:00"
+      "updated_at": "2026-10-26T00:31:40.121516+00:00"
     },
     {
-      "id": "6682bde1076cd1d0",
-      "title": "机器人老板们烧香、磕头、翻旧账",
-      "summary": "近期，具身智能公司IPO降温，智元被传放弃年内上市转而推进新融资。此前7月智元启动赴港上市筹备，8月宇树挂牌后行业节奏生... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%80%81%E6%9D%BF%E4%BB%AC%E7%83%A7%E9%A6%99%E3%80%81%E7%A3%95%E5%A4%B4%E3%80%81%E7%BF%BB%E6%97%A7%E8%B4%A6&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 17,
-      "hot_index": 6375679,
+      "id": "9eb8bb409040e5f8",
+      "title": "年轻人热衷付费社交",
+      "summary": "近日，年轻人兴起明码标价的付费搭子服务，用低负担的一次性陪伴替代熟人社交，避开人情维系压力。目前该业态尚处自发阶段，存在... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%83%AD%E8%A1%B7%E4%BB%98%E8%B4%B9%E7%A4%BE%E4%BA%A4&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 14,
+      "hot_index": 3487960,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 14,
+        "百度热搜": 47
+      },
+      "topic": "城市社会",
+      "score": 98,
+      "recommended_title": "年轻人热衷付费社交背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00516-x",
+      "main_paper_title": "Depression risk associated with idealized sentiment toward urban places on social media",
+      "related_papers": [
+        {
+          "id": "86169746c0e8f177",
+          "title": "Depression risk associated with idealized sentiment toward urban places on social media",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00516-x",
+          "published_at": "2026-10-26T00:31:34.954895+00:00",
+          "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
+          "match_score": 44
+        },
+        {
+          "id": "ac59ef1c1d6d6189",
+          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02732-8",
+          "published_at": "2026-10-26T00:31:32.834181+00:00",
+          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
+          "id": "497bc61b27fb6343",
+          "title": "Dental aesthetics moderate the association between negative views of aging and psychological distress",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-75716-5",
+          "published_at": "2026-10-25T00:00:00+00:00",
+          "summary": "In late adulthood, a positive body image has been shown to moderate the association between broader ageist attitudes and psychological wellbeing. An important aspect of body image often overlooked in this age group is how attractive and healthy one’s teeth appear. Since age-re...",
+          "image_url": "",
+          "match_score": 39
+        }
+      ],
+      "updated_at": "2026-10-26T00:31:40.123962+00:00"
+    },
+    {
+      "id": "949e73f6a6e4521a",
+      "title": "浙江宣传：AI短剧真的“降智”吗",
+      "summary": "AI短剧“降智”引发热议，不少网友觉得刷完脑子发懵、耗费大量时间。浙江宣传指出，它不会造成医学层面的智力损伤，但容易让人... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%B5%99%E6%B1%9F%E5%AE%A3%E4%BC%A0%EF%BC%9AAI%E7%9F%AD%E5%89%A7%E7%9C%9F%E7%9A%84%E2%80%9C%E9%99%8D%E6%99%BA%E2%80%9D%E5%90%97&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 22,
+      "hot_index": 5886446,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 17
+        "百度热搜": 22
       },
       "topic": "人工智能",
-      "score": 91,
-      "recommended_title": "机器人老板们烧香、磕头、翻旧账刷屏之后：Nature研究正在回答哪些关键问题？",
+      "score": 87,
+      "recommended_title": "浙江宣传：AI短剧真的“降智”吗刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02611-4",
@@ -294,24 +351,24 @@
           "match_score": 25
         }
       ],
-      "updated_at": "2026-10-25T22:09:26.583547+00:00"
+      "updated_at": "2026-10-26T00:31:40.124989+00:00"
     },
     {
       "id": "c62cb57dcabd07a7",
       "title": "一条匿名差评 胖哥俩咋追踪到人的",
       "summary": "近日，深圳一网友称给胖哥俩肉蟹煲匿名差评后，手机号、就餐照片及工作信息出现在商家申诉材料中。商家回应称：网友是“肯德基员... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%B8%80%E6%9D%A1%E5%8C%BF%E5%90%8D%E5%B7%AE%E8%AF%84+%E8%83%96%E5%93%A5%E4%BF%A9%E5%92%8B%E8%BF%BD%E8%B8%AA%E5%88%B0%E4%BA%BA%E7%9A%84&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 19,
-      "hot_index": 6177200,
+      "rank": 24,
+      "hot_index": 5694779,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 19
+        "百度热搜": 24
       },
       "topic": "城市社会",
-      "score": 90,
+      "score": 86,
       "recommended_title": "一条匿名差评 胖哥俩咋追踪到人的背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04614-0/MediaObjects/41591_2026_4614_Fig2_HTML.png?as=webp",
@@ -339,117 +396,17 @@
           "match_score": 35
         },
         {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-25T22:09:22.205981+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-10-26T00:31:34.953849+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
           "match_score": 34
         }
       ],
-      "updated_at": "2026-10-25T22:09:26.585580+00:00"
-    },
-    {
-      "id": "23ab2a1a45806948",
-      "title": "KPL电竞选手cos机长空少登场",
-      "summary": "近日，在王者荣耀共创之夜上，KPL选手全员化身机长空少登场。其中选手Fly原计划吊威亚从天而降出场，但因工作人员手忙脚乱... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=KPL%E7%94%B5%E7%AB%9E%E9%80%89%E6%89%8Bcos%E6%9C%BA%E9%95%BF%E7%A9%BA%E5%B0%91%E7%99%BB%E5%9C%BA&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 20,
-      "hot_index": 6092159,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 20
-      },
-      "topic": "城市社会",
-      "score": 89,
-      "recommended_title": "KPL电竞选手cos机长空少登场背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00529-6/MediaObjects/44284_2026_529_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00529-6",
-      "main_paper_title": "Cities alter the latitudinal diversity gradient of birds in North America",
-      "related_papers": [
-        {
-          "id": "c81d9b137734ee60",
-          "title": "Cities alter the latitudinal diversity gradient of birds in North America",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00529-6",
-          "published_at": "2026-10-19T00:00:00+00:00",
-          "summary": "Urbanization considerably modifies the latitudinal diversity gradient of birds in North America, with native species exhibiting a flatter gradient in cities compared to surrounding areas, particularly during winter, highlighting complex interactions between human impacts and e...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00529-6/MediaObjects/44284_2026_529_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "1b46eeb6ce82e0c4",
-          "title": "Sustaining green stormwater infrastructure adoption in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00520-1",
-          "published_at": "2026-10-25T22:09:22.206322+00:00",
-          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        },
-        {
-          "id": "d31d704e3d193848",
-          "title": "Urbanization promotes biological invasions in global cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00517-w",
-          "published_at": "2026-10-25T22:09:22.206485+00:00",
-          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-10-25T22:09:26.587746+00:00"
-    },
-    {
-      "id": "194f7a7fb1d4e2dd",
-      "title": "上百万老电车集中脱保",
-      "summary": "2018年前后上牌的首批百万级老电车，2026年起集体走完8年三电质保周期。这批老车普遍陷入“换电池比车贵、二手车商不敢... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E7%99%BE%E4%B8%87%E8%80%81%E7%94%B5%E8%BD%A6%E9%9B%86%E4%B8%AD%E8%84%B1%E4%BF%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 15,
-      "hot_index": 6573168,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 15
-      },
-      "topic": "前沿科技",
-      "score": 86,
-      "recommended_title": "上百万老电车集中脱保意味着什么？Nature研究中的技术路线与现实边界",
-      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02753-3",
-      "main_paper_title": "Flash energy droughts in solar and wind resources under climate change",
-      "related_papers": [
-        {
-          "id": "e944aee080af09a4",
-          "title": "Flash energy droughts in solar and wind resources under climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-10-25T22:09:20.257868+00:00",
-          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "49765c8e8f9654f8",
-          "title": "Human-reviewed Rooftop Photovoltaic Annotations Initialized by a Vision–language Model",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08480-w",
-          "published_at": "2026-10-24T00:00:00+00:00",
-          "summary": "Variation in rooftop interpretation limits reliable models for photovoltaic (PV) assessment. We present RoofeNet-Multi, comprising 12,761 annotation sets for 5,359 building-centered Czech orthophoto tiles. The release contains 7,402 human review outputs and one matched Google...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-023-01951-4/MediaObjects/41597_2023_1951_Fig1_HTML.png",
-          "match_score": 23
-        }
-      ],
-      "updated_at": "2026-10-25T22:09:26.582694+00:00"
+      "updated_at": "2026-10-26T00:31:40.127518+00:00"
     },
     {
       "id": "b5d3901dd80f090c",
@@ -457,7 +414,7 @@
       "summary": "当下冰杯成为了都市消费热单品，一线城市人均年消费达48杯。冰杯占据便利店C位，企业产销量持续翻倍。起因是现制茶咖发展及2... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E5%9D%8748%E6%9D%AF+%E5%86%B0%E6%9D%AF%E5%8D%96%E5%BE%97%E6%AF%94%E5%92%96%E5%95%A1%E8%BF%98%E7%96%AF&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 26,
-      "hot_index": 5524787,
+      "hot_index": 5520332,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -478,7 +435,7 @@
           "title": "Effects of a randomized controlled trial of unconditional cash transfers on epigenetic measures of ageing and cognition in children and mothers",
           "source": "Nature Human Behaviour",
           "url": "https://www.nature.com/articles/s41562-026-02568-4",
-          "published_at": "2026-10-25T22:09:20.585736+00:00",
+          "published_at": "2026-10-26T00:31:33.367387+00:00",
           "summary": "Raffington et al. find that providing low-income mothers with cash gifts for the first four years of their children’s lives appears to change the children’s epigenetic biological ageing in ways associated with better health in adulthood.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02568-4/MediaObjects/41562_2026_2568_Fig1_HTML.png?as=webp",
           "match_score": 41
@@ -494,25 +451,190 @@
           "match_score": 38
         },
         {
-          "id": "70e364dc4227dc20",
-          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00511-2",
-          "published_at": "2026-10-25T22:09:22.206816+00:00",
-          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-10-26T00:31:34.954083+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
           "match_score": 34
         }
       ],
-      "updated_at": "2026-10-25T22:09:26.589819+00:00"
+      "updated_at": "2026-10-26T00:31:40.131462+00:00"
     },
     {
-      "id": "84a4175a9f253843",
-      "title": "老板回应南开大学学生时薪高10元",
+      "id": "85c6841fc8ae0099",
+      "title": "小区景观雨棚被台风吹毁2年多未修",
       "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E8%80%81%E6%9D%BF%E5%9B%9E%E5%BA%94%E5%8D%97%E5%BC%80%E5%A4%A7%E5%AD%A6%E5%AD%A6%E7%94%9F%E6%97%B6%E8%96%AA%E9%AB%9810%E5%85%83&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E5%8C%BA%E6%99%AF%E8%A7%82%E9%9B%A8%E6%A3%9A%E8%A2%AB%E5%8F%B0%E9%A3%8E%E5%90%B9%E6%AF%812%E5%B9%B4%E5%A4%9A%E6%9C%AA%E4%BF%AE&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 25,
+      "hot_index": 1081698,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 25
+      },
+      "topic": "气候环境",
+      "score": 83,
+      "recommended_title": "小区景观雨棚被台风吹毁2年多未修背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02767-x",
+      "main_paper_title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
+      "related_papers": [
+        {
+          "id": "c3447ba973a80d2c",
+          "title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02767-x",
+          "published_at": "2026-10-20T00:00:00+00:00",
+          "summary": "Extreme southward swings of the South Indian convergence zone can lead to severe rainfall and flooding in southern Africa. Here the authors show that climate change leads to an increase in the frequency and intensity of such swings.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
+          "match_score": 51
+        },
+        {
+          "id": "21fd9b290cb0ce81",
+          "title": "Earlier and faster heatwave onset on land under a warming climate",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02762-2",
+          "published_at": "2026-10-26T00:31:32.833056+00:00",
+          "summary": "Heatwaves are expected to become more frequent and intense with global warming. Here the authors assess changes in their timing, finding that the heatwave season expands and that many regions see a faster onset of heatwaves.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "e7f506bcee6f5917",
+          "title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02576-4",
+          "published_at": "2026-10-26T00:31:33.366252+00:00",
+          "summary": "Dong, Qiao and Zhou show how variations in the level of air pollution impact the productivity of scholarly researchers in China.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-10-26T00:31:40.128930+00:00"
+    },
+    {
+      "id": "6682bde1076cd1d0",
+      "title": "机器人老板们烧香、磕头、翻旧账",
+      "summary": "近期，具身智能公司IPO降温，智元被传放弃年内上市转而推进新融资。此前7月智元启动赴港上市筹备，8月宇树挂牌后行业节奏生... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%80%81%E6%9D%BF%E4%BB%AC%E7%83%A7%E9%A6%99%E3%80%81%E7%A3%95%E5%A4%B4%E3%80%81%E7%BF%BB%E6%97%A7%E8%B4%A6&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 29,
+      "hot_index": 5224508,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 29
+      },
+      "topic": "人工智能",
+      "score": 82,
+      "recommended_title": "机器人老板们烧香、磕头、翻旧账刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11205-z",
+      "main_paper_title": "Programmable design of functional proteins from natural language",
+      "related_papers": [
+        {
+          "id": "0700f64da84e9371",
+          "title": "Programmable design of functional proteins from natural language",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11205-z",
+          "published_at": "2026-10-21T00:00:00+00:00",
+          "summary": "Pinal, a 16-billion-parameter artificial intelligence model, designs functional proteins from natural-language descriptions, demonstrating experimentally validated activities and improved CO 2 -fixation product yields without iterative optimization.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "49765c8e8f9654f8",
+          "title": "Human-reviewed Rooftop Photovoltaic Annotations Initialized by a Vision–language Model",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08480-w",
+          "published_at": "2026-10-24T00:00:00+00:00",
+          "summary": "Variation in rooftop interpretation limits reliable models for photovoltaic (PV) assessment. We present RoofeNet-Multi, comprising 12,761 annotation sets for 5,359 building-centered Czech orthophoto tiles. The release contains 7,402 human review outputs and one matched Google...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-023-01951-4/MediaObjects/41597_2023_1951_Fig1_HTML.png",
+          "match_score": 23
+        },
+        {
+          "id": "333668f26859f44d",
+          "title": "An open vision-language model for diverse medical applications",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04626-w",
+          "published_at": "2026-10-06T00:00:00+00:00",
+          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
+          "match_score": 21
+        }
+      ],
+      "updated_at": "2026-10-26T00:31:40.135700+00:00"
+    },
+    {
+      "id": "f11d435ab9eaef37",
+      "title": "起猛了 爬泰山被机器人超过去了",
+      "summary": "最近不少游客爬泰山时遇到正在测试的参赛机器人，甚至被机器人超过，这是首届CMG世界机器人登泰山大赛开赛之前的赛前实测场景... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%B5%B7%E7%8C%9B%E4%BA%86+%E7%88%AC%E6%B3%B0%E5%B1%B1%E8%A2%AB%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%B6%85%E8%BF%87%E5%8E%BB%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 30,
+      "hot_index": 5129580,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 30
+      },
+      "topic": "人工智能",
+      "score": 81,
+      "recommended_title": "起猛了 爬泰山被机器人超过去了刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41467-026-73744-3/MediaObjects/41467_2026_73744_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41467-026-78406-y",
+      "main_paper_title": "Predicting protein electrostatics with protein language models",
+      "related_papers": [
+        {
+          "id": "123d92951fedfe2a",
+          "title": "Predicting protein electrostatics with protein language models",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78406-y",
+          "published_at": "2026-10-24T00:00:00+00:00",
+          "summary": "Ionization states are crucial to protein function, yet predicting their equilibrium constants remains challenging. Shen et al. developed KaML-ESMs, sequence-based models that predict pKa values with accuracy rivaling experiment.",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41467-026-73744-3/MediaObjects/41467_2026_73744_Fig1_HTML.png",
+          "match_score": 25
+        },
+        {
+          "id": "1d3e6fbb4ebd8d7b",
+          "title": "Interpretable machine learning for predicting intraoperative oxygenation impairment during one-lung ventilation in thoracic surgery: a retrospective cohort study",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-74032-2",
+          "published_at": "2026-10-25T00:00:00+00:00",
+          "summary": "Intraoperative oxygenation impairment during one-lung ventilation poses significant challenges in thoracic anesthesia. Traditional statistical models often fail to capture complex non-linear clinical relationships. This study aimed to evaluate machine learning algorithms for p...",
+          "image_url": "",
+          "match_score": 21
+        },
+        {
+          "id": "dcb7200303d89a78",
+          "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04680-4",
+          "published_at": "2026-10-13T00:00:00+00:00",
+          "summary": "A small epilepsy monitoring study shows that a moderated, large language model-based chat interface lets patients converse with their electroencephalography monitoring in real time, using a smartphone, and patient feedback cut seizure-detector false alarms by about 80% without...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
+          "match_score": 40
+        }
+      ],
+      "updated_at": "2026-10-26T00:31:40.136729+00:00"
+    },
+    {
+      "id": "c7e4de9b6c59bd9b",
+      "title": "年轻人已成红色旅游主力军",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E5%B7%B2%E6%88%90%E7%BA%A2%E8%89%B2%E6%97%85%E6%B8%B8%E4%B8%BB%E5%8A%9B%E5%86%9B&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
       "rank": 28,
-      "hot_index": 577540,
+      "hot_index": 575615,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
@@ -522,102 +644,191 @@
       },
       "topic": "城市社会",
       "score": 80,
-      "recommended_title": "老板回应南开大学学生时薪高10元背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "年轻人已成红色旅游主力军背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00486-0",
-      "main_paper_title": "Connecting application behavior to undermatching in New York City school choice",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00529-6/MediaObjects/44284_2026_529_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00529-6",
+      "main_paper_title": "Cities alter the latitudinal diversity gradient of birds in North America",
       "related_papers": [
         {
-          "id": "375dc94e6b81abc6",
-          "title": "Connecting application behavior to undermatching in New York City school choice",
+          "id": "c81d9b137734ee60",
+          "title": "Cities alter the latitudinal diversity gradient of birds in North America",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00486-0",
-          "published_at": "2026-08-18T00:00:00+00:00",
-          "summary": "Cities are challenged to allocate educational resources efficiently and equitably. This study of the 2022–2023 New York City High School Match program finds that Black and Hispanic students undermatch 1.5 times more than peers, especially among competitive applicants, and that...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00486-0/MediaObjects/44284_2026_486_Fig1_HTML.png?as=webp",
-          "match_score": 58
-        },
-        {
-          "id": "fe1f066aaf34be59",
-          "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11186-z",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "summary": "CD51 + astrocytes promote synapse formation in the developing cortex, circuit plasticity in the hippocampus and circuit remodelling after stroke.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11186-z/MediaObjects/41586_2026_11186_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "c0c8ded620e6a3e8",
-          "title": "The spatial reach of mobility interactions in urban systems",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00531-y",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-          "match_score": 47
-        }
-      ],
-      "updated_at": "2026-10-25T22:09:26.591822+00:00"
-    },
-    {
-      "id": "6e30aae40cf21647",
-      "title": "一张6元小卡凭什么硬控00后",
-      "summary": "6元影视小卡靠低门槛定价、盲盒玩法和热门IP吸引力，让年轻人愿意为稀有卡支付数千元。头部玩家Hitcard在行业下行期a... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%80%E5%BC%A06%E5%85%83%E5%B0%8F%E5%8D%A1%E5%87%AD%E4%BB%80%E4%B9%88%E7%A1%AC%E6%8E%A700%E5%90%8E&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 41,
-      "hot_index": 4086901,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 41
-      },
-      "topic": "城市社会",
-      "score": 72,
-      "recommended_title": "一张6元小卡凭什么硬控00后背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00515-y",
-      "main_paper_title": "Systematic overview of climate actions for health in cities",
-      "related_papers": [
-        {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-25T22:09:22.205807+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+          "url": "https://www.nature.com/articles/s44284-026-00529-6",
+          "published_at": "2026-10-19T00:00:00+00:00",
+          "summary": "Urbanization considerably modifies the latitudinal diversity gradient of birds in North America, with native species exhibiting a flatter gradient in cities compared to surrounding areas, particularly during winter, highlighting complex interactions between human impacts and e...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00529-6/MediaObjects/44284_2026_529_Fig1_HTML.png?as=webp",
           "match_score": 34
         },
         {
-          "id": "704547445a19dff1",
-          "title": "Hidden living-condition deficits in small and medium-sized cities",
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00498-w",
-          "published_at": "2026-08-20T00:00:00+00:00",
-          "summary": "This study provides neighborhood-scale mapping of populations living in infrastructurally and environmentally constrained urban areas, identified from the physical form of the built environment, across 5,132 cities in Africa, Asia, and Latin America and the Caribbean. It revea...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00498-w/MediaObjects/44284_2026_498_Fig3_HTML.png?as=webp",
-          "match_score": 32
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-10-26T00:31:34.954501+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 34
         },
         {
-          "id": "c0c8ded620e6a3e8",
-          "title": "The spatial reach of mobility interactions in urban systems",
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00531-y",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-          "match_score": 47
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-10-26T00:31:34.954696+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
         }
       ],
-      "updated_at": "2026-10-25T22:09:26.593779+00:00"
+      "updated_at": "2026-10-26T00:31:40.134642+00:00"
     }
   ],
   "items": [
+    {
+      "id": "4e865fc42bc1e4e0",
+      "title": "Weighing 600 million buildings reveals global urban material inequality and efficiency paths",
+      "display_title": "Weighing 600 million buildings reveals global urban material inequality and efficiency paths",
+      "source": "Nature Cities",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s44284-026-00510-3",
+      "published_at": "2026-10-26T00:28:05.868491+00:00",
+      "detected_at": "2026-10-26T00:28:06.364165+00:00",
+      "summary": "Urbanization is rapidly increasing the accumulation of materials in buildings worldwide. This study’s global mapping of over 600 million buildings reveals that urban form, alongside affluence, critically shapes patterns of material stock growth.",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00510-3/MediaObjects/44284_2026_510_Fig1_HTML.png?as=webp",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "84e8211174a6c91b",
+      "title": "Reduced flood-related bacillary dysentery risk with sponge city development in China",
+      "display_title": "Reduced flood-related bacillary dysentery risk with sponge city development in China",
+      "source": "Nature Cities",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s44284-026-00514-z",
+      "published_at": "2026-10-26T00:28:05.868262+00:00",
+      "detected_at": "2026-10-26T00:28:06.363997+00:00",
+      "summary": "Flooding exacerbates bacillary dysentery risks, particularly among vulnerable groups. Analysis of 4.2 million cases in China utilized case-crossover and quasi-experimental methods, revealing a 12.2% risk reduction post-sponge city development, especially in areas with weaker i...",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00514-z/MediaObjects/44284_2026_514_Fig1_HTML.png?as=webp",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "1167445629addd36",
+      "title": "Canva推出Craft图像生成模型，支持2K分辨率与超宽画幅 Canva周四推出图像生成模型Canva Craft，正式加入与OpenAI、微软、谷歌的AI图像生成竞争。",
+      "display_title": "Canva推出Craft图像生成模型，支持2K分辨率与超宽画幅 Canva周四推出图像生成模型Canva Craft，正式加入与OpenAI、微软、谷歌的AI图像生成竞争。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31829",
+      "published_at": "2026-10-26T00:27:21.402179+00:00",
+      "detected_at": "2026-10-26T00:27:21.402183+00:00",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
+      "image_url": "https://upload.chinaz.com/2026/1023/6392834916799213159923814.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "294d4baf097ba4c0",
+      "title": "Anthropic 把智能体\"说明书\"交出去：Agent Skills 标准捐给社区",
+      "display_title": "Anthropic 把智能体\"说明书\"交出去：Agent Skills 标准捐给社区",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31831",
+      "published_at": "2026-10-26T00:27:21.399621+00:00",
+      "detected_at": "2026-10-26T00:27:21.399625+00:00",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
+      "image_url": "https://upload.chinaz.com/2026/1023/6392835115175022347369412.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "b047a5fc6e126ea3",
+      "title": "谷歌推出 ACE：给每个 AI 智能体配一台\"专属电脑\"，唤醒不到 500 毫秒 谷歌10月22日发布Google Cloud旗下智能体计算引擎ACE，专为AI智能体打造“电脑”。",
+      "display_title": "谷歌推出 ACE：给每个 AI 智能体配一台\"专属电脑\"，唤醒不到 500 毫秒 谷歌10月22日发布Google Cloud旗下智能体计算引擎ACE，专为AI智能体打造“电脑”。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31832",
+      "published_at": "2026-10-26T00:27:21.398326+00:00",
+      "detected_at": "2026-10-26T00:27:21.398330+00:00",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
+      "image_url": "https://upload.chinaz.com/2026/1023/6392835153509391724734709.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "b50370856b71ca8d",
+      "title": "火山引擎发布Seedance2.54K:480P样片打磨后生成4K正片 10月23日，火山引擎发布Seedance2.5 4K，称其为该代最强模型。",
+      "display_title": "火山引擎发布Seedance2.54K:480P样片打磨后生成4K正片 10月23日，火山引擎发布Seedance2.5 4K，称其为该代最强模型。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31839",
+      "published_at": "2026-10-26T00:27:21.387855+00:00",
+      "detected_at": "2026-10-26T00:27:21.387860+00:00",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
+      "image_url": "https://upload.chinaz.com/2026/1023/6392836687874218871402414.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "64358e899de62f31",
+      "title": "月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1”，暗示新模型将至。",
+      "display_title": "月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1”，暗示新模型将至。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31846",
+      "published_at": "2026-10-26T00:27:21.379944+00:00",
+      "detected_at": "2026-10-26T00:27:21.379948+00:00",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
+      "image_url": "https://upload.chinaz.com/2026/1023/6392837270004884674493360.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "ac7fb0d4dd6579a9",
+      "title": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。",
+      "display_title": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31847",
+      "published_at": "2026-10-26T00:27:21.378494+00:00",
+      "detected_at": "2026-10-26T00:27:21.378511+00:00",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
+      "image_url": "https://upload.chinaz.com/2026/1023/6392837526187006367415705.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
     {
       "id": "70e364dc4227dc20",
       "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
@@ -650,114 +861,6 @@
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "1167445629addd36",
-      "title": "Canva推出Craft图像生成模型，支持2K分辨率与超宽画幅 Canva周四推出图像生成模型Canva Craft，正式加入与OpenAI、微软、谷歌的AI图像生成竞争。",
-      "display_title": "Canva推出Craft图像生成模型，支持2K分辨率与超宽画幅 Canva周四推出图像生成模型Canva Craft，正式加入与OpenAI、微软、谷歌的AI图像生成竞争。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31829",
-      "published_at": "2026-10-25T22:05:55.229226+00:00",
-      "detected_at": "2026-10-25T22:05:55.229229+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
-      "image_url": "https://upload.chinaz.com/2026/1023/6392834916799213159923814.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "294d4baf097ba4c0",
-      "title": "Anthropic 把智能体\"说明书\"交出去：Agent Skills 标准捐给社区",
-      "display_title": "Anthropic 把智能体\"说明书\"交出去：Agent Skills 标准捐给社区",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31831",
-      "published_at": "2026-10-25T22:05:55.227440+00:00",
-      "detected_at": "2026-10-25T22:05:55.227442+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
-      "image_url": "https://upload.chinaz.com/2026/1023/6392835115175022347369412.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "b047a5fc6e126ea3",
-      "title": "谷歌推出 ACE：给每个 AI 智能体配一台\"专属电脑\"，唤醒不到 500 毫秒 谷歌10月22日发布Google Cloud旗下智能体计算引擎ACE，专为AI智能体打造“电脑”。",
-      "display_title": "谷歌推出 ACE：给每个 AI 智能体配一台\"专属电脑\"，唤醒不到 500 毫秒 谷歌10月22日发布Google Cloud旗下智能体计算引擎ACE，专为AI智能体打造“电脑”。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31832",
-      "published_at": "2026-10-25T22:05:55.226563+00:00",
-      "detected_at": "2026-10-25T22:05:55.226564+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
-      "image_url": "https://upload.chinaz.com/2026/1023/6392835153509391724734709.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "b50370856b71ca8d",
-      "title": "火山引擎发布Seedance2.54K:480P样片打磨后生成4K正片 10月23日，火山引擎发布Seedance2.5 4K，称其为该代最强模型。",
-      "display_title": "火山引擎发布Seedance2.54K:480P样片打磨后生成4K正片 10月23日，火山引擎发布Seedance2.5 4K，称其为该代最强模型。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31839",
-      "published_at": "2026-10-25T22:05:55.219556+00:00",
-      "detected_at": "2026-10-25T22:05:55.219558+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
-      "image_url": "https://upload.chinaz.com/2026/1023/6392836687874218871402414.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "64358e899de62f31",
-      "title": "月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1”，暗示新模型将至。",
-      "display_title": "月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1”，暗示新模型将至。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31846",
-      "published_at": "2026-10-25T22:05:55.214253+00:00",
-      "detected_at": "2026-10-25T22:05:55.214257+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
-      "image_url": "https://upload.chinaz.com/2026/1023/6392837270004884674493360.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "ac7fb0d4dd6579a9",
-      "title": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。",
-      "display_title": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31847",
-      "published_at": "2026-10-25T22:05:55.213163+00:00",
-      "detected_at": "2026-10-25T22:05:55.213184+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
-      "image_url": "https://upload.chinaz.com/2026/1023/6392837526187006367415705.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
       "meta": {}
@@ -1023,7 +1126,7 @@
       "url": "https://news.aibase.com/zh/news/31837",
       "published_at": "2026-10-23T12:11:51.003705+00:00",
       "detected_at": "2026-10-23T12:11:51.003712+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
       "image_url": "https://upload.chinaz.com/2026/1023/6392836447062157758794956.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -1041,7 +1144,7 @@
       "url": "https://news.aibase.com/zh/news/31838",
       "published_at": "2026-10-23T12:11:51.001676+00:00",
       "detected_at": "2026-10-23T12:11:51.001684+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
       "image_url": "https://upload.chinaz.com/2026/1023/6392836500125162232607920.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -1401,7 +1504,7 @@
       "url": "https://news.aibase.com/zh/news/31802",
       "published_at": "2026-10-22T10:17:21.472618+00:00",
       "detected_at": "2026-10-22T10:17:21.472634+00:00",
-      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 前天 17.5K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3.1...",
+      "summary": "WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 WorldTUI 是一个伪装成普通终端的项目：用户可输入 ls、cd、mkdir，甚至打开 Vim、运行 Python、拉起 tmux，体验与真实环境几乎一致。但背后没有 Linux、没有文件系统，也未真正执行任何命令，屏幕上的一切都是 AI 实时编出来的。其核心是训练模型学会“演戏”，开发者 Simon Ed…… 2 天前 18.2K 月之暗面放 K3.1 预热视频，发布日期仍捂着 月之暗面10月23日发布24秒预热视频，老式电脑运行Kimi Code，模型栏显示“Kimi K3...",
       "image_url": "https://upload.chinaz.com/2026/1022/6392827971931315686401372.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -4607,24 +4710,6 @@
       "detected_at": "2026-10-14T06:15:30.362432+00:00",
       "summary": "Adoption of automated quality control in the textile and apparel industry has lagged owing to inherent features, such as labor-intensive tasks and deformability of flexible fabrics. Precise detection and localized diagnosis of sewing stitch defects remain critical challenges b...",
       "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-026-47596-2/MediaObjects/41598_2026_47596_Fig1_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "ac2acbde4169f08a",
-      "title": "A global 0.1-degree gridded dataset of single and compound temperature and precipitation extremes from 1950 to 2025",
-      "display_title": "A global 0.1-degree gridded dataset of single and compound temperature and precipitation extremes from 1950 to 2025",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08312-x",
-      "published_at": "2026-10-13T00:00:00+00:00",
-      "detected_at": "2026-10-14T06:15:30.362547+00:00",
-      "summary": "Extreme weather and climate events are increasingly intensified by human-induced global warming, exacerbating risks to ecosystems and society. Yet many global extremes datasets remain coarse and fragmented, limiting local assessments of temperature and precipitation hazards. H...",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-024-03883-z/MediaObjects/41597_2024_3883_Fig1_HTML.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -9593,24 +9678,6 @@
       "detected_at": "2026-09-19T14:50:24.803036+00:00",
       "summary": "Extreme sea level (ESL), a major driver of coastal flooding, is widely used as a benchmark for coastal engineering design, coastal zone management, and risk assessment. With global warming, ESL events are projected to become more frequent and intense along most of the world’s...",
       "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41467-023-37649-9/MediaObjects/41467_2023_37649_Fig1_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "4763d4e6f689c9eb",
-      "title": "The ParlLawSpeech Parliamentary Text Data Collection > 3 Million Parliamentary Bills, Laws, and Speeches from 8 Legislatures",
-      "display_title": "The ParlLawSpeech Parliamentary Text Data Collection > 3 Million Parliamentary Bills, Laws, and Speeches from 8 Legislatures",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08335-4",
-      "published_at": "2026-09-19T14:50:24.382026+00:00",
-      "detected_at": "2026-09-19T14:50:24.798610+00:00",
-      "summary": "Parliamentary texts are central sources for studying democratic representation, policy-making, and institutional decision-making, and they also constitute a highly valuable domain for natural language processing research. Despite their importance, access to comprehensive, clea...",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-026-08335-4/MediaObjects/41597_2026_8335_Fig1_HTML.png?as=webp",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
