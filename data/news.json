@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-27T13:23:58.342918+00:00",
+  "updated_at": "2026-10-27T19:04:22.795575+00:00",
   "count": 500,
-  "hotspot_count": 10,
-  "breakthrough_count": 141,
+  "hotspot_count": 8,
+  "breakthrough_count": 140,
   "category_counts": {
-    "AI变现": 164,
+    "AI变现": 162,
     "提效工具": 67,
-    "前沿动态": 49
+    "前沿动态": 50
   },
   "source_counts": {
     "Scientific Data": 205,
-    "Nature Cities": 15
+    "Nature Cities": 16
   },
   "hotspots": [
     {
@@ -18,16 +18,16 @@
       "title": "医院回应骨科医生诊室内抽烟",
       "summary": "10月27日‌，市民反映‌山东烟台海港医院‌一‌骨科医生诊室内抽烟‌且‌不叫号‌。医院回应称诊室禁烟，将对涉事医生‌整改... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E9%99%A2%E5%9B%9E%E5%BA%94%E9%AA%A8%E7%A7%91%E5%8C%BB%E7%94%9F%E8%AF%8A%E5%AE%A4%E5%86%85%E6%8A%BD%E7%83%9F&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 5,
-      "hot_index": 6080037,
+      "rank": 13,
+      "hot_index": 4831517,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 5,
-        "百度热搜": 20
+        "百度民生": 13,
+        "百度热搜": 33
       },
       "topic": "健康医学",
       "score": 98,
@@ -68,356 +68,24 @@
           "match_score": 41
         }
       ],
-      "updated_at": "2026-10-27T13:23:50.850942+00:00"
-    },
-    {
-      "id": "c55f01718675c53d",
-      "title": "大学生成了家里的“临时工”",
-      "summary": "当前，不少父母把子女生活费“KPI化”：按模拟考成绩以周发放、达标才涨钱，还要报备开销；多名受访大学生称学习生活被量化绩... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%88%90%E4%BA%86%E5%AE%B6%E9%87%8C%E7%9A%84%E2%80%9C%E4%B8%B4%E6%97%B6%E5%B7%A5%E2%80%9D&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 16,
-      "hot_index": 3978445,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 16,
-        "百度热搜": 42
-      },
-      "topic": "城市社会",
-      "score": 98,
-      "recommended_title": "大学生成了家里的“临时工”背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
-      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
-      "related_papers": [
-        {
-          "id": "c0c8ded620e6a3e8",
-          "title": "The spatial reach of mobility interactions in urban systems",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00531-y",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-          "match_score": 44
-        },
-        {
-          "id": "fe1f066aaf34be59",
-          "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11186-z",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "summary": "CD51 + astrocytes promote synapse formation in the developing cortex, circuit plasticity in the hippocampus and circuit remodelling after stroke.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11186-z/MediaObjects/41586_2026_11186_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "a79a68514f163b84",
-          "title": "Nested economies of scale in global city mass",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00532-x",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
-          "match_score": 42
-        }
-      ],
-      "updated_at": "2026-10-27T13:23:50.853149+00:00"
-    },
-    {
-      "id": "c8523c7947ea203a",
-      "title": "德国总统参访大众汽车笑得合不拢嘴",
-      "summary": "10月27日，德国总统施泰因迈尔在安徽合肥参访大众汽车，观看自动泊车等功能演示，还上驾驶座体验自动驾驶。 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%BE%B7%E5%9B%BD%E6%80%BB%E7%BB%9F%E5%8F%82%E8%AE%BF%E5%A4%A7%E4%BC%97%E6%B1%BD%E8%BD%A6%E7%AC%91%E5%BE%97%E5%90%88%E4%B8%8D%E6%8B%A2%E5%98%B4&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 19,
-      "hot_index": 6183978,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 19
-      },
-      "topic": "人工智能",
-      "score": 90,
-      "recommended_title": "德国总统参访大众汽车笑得合不拢嘴刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04680-4",
-      "main_paper_title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
-      "related_papers": [
-        {
-          "id": "dcb7200303d89a78",
-          "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04680-4",
-          "published_at": "2026-10-13T00:00:00+00:00",
-          "summary": "A small epilepsy monitoring study shows that a moderated, large language model-based chat interface lets patients converse with their electroencephalography monitoring in real time, using a smartphone, and patient feedback cut seizure-detector false alarms by about 80% without...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
-          "match_score": 40
-        },
-        {
-          "id": "d8979cde9899ff9e",
-          "title": "Multi-objective incremental path planning with learning-guided sampling and heading-constrained expansion for autonomous vehicles in dynamic occupancy grid environments",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-77284-0",
-          "published_at": "2026-10-27T00:00:00+00:00",
-          "summary": "Path planning for autonomous vehicles in dynamic grid environments must balance reliability, efficiency, smoothness, safety, and rapid recovery after map changes. We propose LKSD-PRRT*, a modular framework built on APF-PRRT* that integrates learning-guided sampling (LG), multi...",
-          "image_url": "",
-          "match_score": 35
-        },
-        {
-          "id": "c45ea6fd5b919bff",
-          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02611-4",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
-          "match_score": 29
-        }
-      ],
-      "updated_at": "2026-10-27T13:23:50.853999+00:00"
-    },
-    {
-      "id": "0292982999ac2e24",
-      "title": "“钱包请等等”用户破百万",
-      "summary": "10月，00后产品经理火山用AI开发的消费审批小程序“钱包请等等”用户数突破百万，日活达几十万。此前8月，她捕捉到年轻人... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E9%92%B1%E5%8C%85%E8%AF%B7%E7%AD%89%E7%AD%89%E2%80%9D%E7%94%A8%E6%88%B7%E7%A0%B4%E7%99%BE%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 24,
-      "hot_index": 5700622,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 24
-      },
-      "topic": "人工智能",
-      "score": 86,
-      "recommended_title": "“钱包请等等”用户破百万刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02611-4",
-      "main_paper_title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
-      "related_papers": [
-        {
-          "id": "c45ea6fd5b919bff",
-          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02611-4",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
-          "match_score": 43
-        },
-        {
-          "id": "0700f64da84e9371",
-          "title": "Programmable design of functional proteins from natural language",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11205-z",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "summary": "Pinal, a 16-billion-parameter artificial intelligence model, designs functional proteins from natural-language descriptions, demonstrating experimentally validated activities and improved CO 2 -fixation product yields without iterative optimization.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
-          "match_score": 28
-        },
-        {
-          "id": "0dd07ed1e0c4d641",
-          "title": "Generative AI and the temporary upskilling of knowledge workers",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02566-6",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "This randomized trial by Wiles et al. shows that generative AI helps knowledge workers perform data science tasks outside their skill set, but workers do not retain the underlying knowledge when the tool is removed.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
-          "match_score": 27
-        }
-      ],
-      "updated_at": "2026-10-27T13:23:50.854854+00:00"
-    },
-    {
-      "id": "c3c52309d2a46f64",
-      "title": "中国教育报：刹住滥用举报权不良风气",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%95%99%E8%82%B2%E6%8A%A5%EF%BC%9A%E5%88%B9%E4%BD%8F%E6%BB%A5%E7%94%A8%E4%B8%BE%E6%8A%A5%E6%9D%83%E4%B8%8D%E8%89%AF%E9%A3%8E%E6%B0%94&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 28,
-      "hot_index": 618627,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 28
-      },
-      "topic": "城市社会",
-      "score": 80,
-      "recommended_title": "中国教育报：刹住滥用举报权不良风气背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11186-z/MediaObjects/41586_2026_11186_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11186-z",
-      "main_paper_title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
-      "related_papers": [
-        {
-          "id": "fe1f066aaf34be59",
-          "title": "CD51 delineates functionally distinct astrocyte subtypes in neural circuits",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11186-z",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "summary": "CD51 + astrocytes promote synapse formation in the developing cortex, circuit plasticity in the hippocampus and circuit remodelling after stroke.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41586-026-11186-z/MediaObjects/41586_2026_11186_Fig1_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "7da237ab0a90cd0e",
-          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02610-5",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-          "match_score": 41
-        },
-        {
-          "id": "301c12754a62e105",
-          "title": "A global view of urban land subsidence and its changing trajectories",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00527-8",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        }
-      ],
-      "updated_at": "2026-10-27T13:23:50.856824+00:00"
-    },
-    {
-      "id": "2b63779d5cb6486a",
-      "title": "家长月花3000元住酒店陪读",
-      "summary": "武汉一名家长为省去每天跨城接送、让孩子多睡40分钟，工作日带读初中的孩子住学校旁酒店、周末回家，其称月均约3000元与租... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%AE%B6%E9%95%BF%E6%9C%88%E8%8A%B13000%E5%85%83%E4%BD%8F%E9%85%92%E5%BA%97%E9%99%AA%E8%AF%BB&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 36,
-      "hot_index": 4567397,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 36
-      },
-      "topic": "城市社会",
-      "score": 76,
-      "recommended_title": "家长月花3000元住酒店陪读背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02610-5",
-      "main_paper_title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
-      "related_papers": [
-        {
-          "id": "7da237ab0a90cd0e",
-          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02610-5",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-          "match_score": 45
-        },
-        {
-          "id": "ef1bea270f3b5e09",
-          "title": "Population-scale reconstruction of menopause dynamics reveals a physiological cliff at the final menstrual period",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04614-0",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "By using a novel computational framework, a cross-sectional analysis on laboratory data from two independent cohorts reveals that the final menstrual period marks an abrupt, multisystem physiological shift, with sex hormone changes beginning more than 10 years before menopause...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04614-0/MediaObjects/41591_2026_4614_Fig2_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "ae8c4d4dedd0b2e6",
-          "title": "Urban scaling and the dynamics of individual cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00533-w",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Cross-sectional urban scaling exponents do not describe how individual cities evolve over time. Using theory and empirical evidence, the authors show that scaling laws reflect statistical relationships among cities with heterogeneous trajectories, limiting their mechanistic in...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00533-w/MediaObjects/44284_2026_533_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-10-27T13:23:50.858815+00:00"
-    },
-    {
-      "id": "4d66426d847652ef",
-      "title": "“王的猜想”被AI一夜通关",
-      "summary": "10月27日，OpenAI宣告其模型破解卡凯亚猜想（又名挂谷猜想）。而2025年初，中国数学家王虹刚刚因为证明三维卡凯亚... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E7%8E%8B%E7%9A%84%E7%8C%9C%E6%83%B3%E2%80%9D%E8%A2%ABAI%E4%B8%80%E5%A4%9C%E9%80%9A%E5%85%B3&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 39,
-      "hot_index": 4269373,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 39
-      },
-      "topic": "人工智能",
-      "score": 74,
-      "recommended_title": "“王的猜想”被AI一夜通关刷屏之后：Nature研究正在回答哪些关键问题？",
-      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11205-z",
-      "main_paper_title": "Programmable design of functional proteins from natural language",
-      "related_papers": [
-        {
-          "id": "0700f64da84e9371",
-          "title": "Programmable design of functional proteins from natural language",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11205-z",
-          "published_at": "2026-10-21T00:00:00+00:00",
-          "summary": "Pinal, a 16-billion-parameter artificial intelligence model, designs functional proteins from natural-language descriptions, demonstrating experimentally validated activities and improved CO 2 -fixation product yields without iterative optimization.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
-          "match_score": 28
-        },
-        {
-          "id": "49765c8e8f9654f8",
-          "title": "Human-reviewed Rooftop Photovoltaic Annotations Initialized by a Vision–language Model",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08480-w",
-          "published_at": "2026-10-24T00:00:00+00:00",
-          "summary": "Variation in rooftop interpretation limits reliable models for photovoltaic (PV) assessment. We present RoofeNet-Multi, comprising 12,761 annotation sets for 5,359 building-centered Czech orthophoto tiles. The release contains 7,402 human review outputs and one matched Google...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-023-01951-4/MediaObjects/41597_2023_1951_Fig1_HTML.png",
-          "match_score": 23
-        },
-        {
-          "id": "333668f26859f44d",
-          "title": "An open vision-language model for diverse medical applications",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04626-w",
-          "published_at": "2026-10-06T00:00:00+00:00",
-          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
-          "match_score": 21
-        }
-      ],
-      "updated_at": "2026-10-27T13:23:50.859647+00:00"
+      "updated_at": "2026-10-27T19:04:15.805929+00:00"
     },
     {
       "id": "3ff3b4ec264529c9",
       "title": "台风烟花：是的 我又重生回来了",
       "summary": "前世的“烟花”作为台风的强度并不算强，巅峰强度也止步于强台风，但其影响范围广、降水影响大，给人留下深刻印象！而今，“烟花... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E7%83%9F%E8%8A%B1%EF%BC%9A%E6%98%AF%E7%9A%84+%E6%88%91%E5%8F%88%E9%87%8D%E7%94%9F%E5%9B%9E%E6%9D%A5%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 47,
-      "hot_index": 3509653,
+      "rank": 5,
+      "hot_index": 7523900,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 47
+        "百度热搜": 5
       },
       "topic": "气候环境",
-      "score": 68,
+      "score": 98,
       "recommended_title": "台风烟花：是的 我又重生回来了背后：Nature研究揭示了怎样的风险链条？",
       "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
@@ -439,7 +107,7 @@
           "title": "Earlier and faster heatwave onset on land under a warming climate",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02762-2",
-          "published_at": "2026-10-27T13:23:43.635618+00:00",
+          "published_at": "2026-10-27T19:04:06.892060+00:00",
           "summary": "Heatwaves are expected to become more frequent and intense with global warming. Here the authors assess changes in their timing, finding that the heatwave season expands and that many regions see a faster onset of heatwaves.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
           "match_score": 35
@@ -449,31 +117,141 @@
           "title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
           "source": "Nature Human Behaviour",
           "url": "https://www.nature.com/articles/s41562-026-02576-4",
-          "published_at": "2026-10-27T13:23:44.071944+00:00",
+          "published_at": "2026-10-27T19:04:07.260572+00:00",
           "summary": "Dong, Qiao and Zhou show how variations in the level of air pollution impact the productivity of scholarly researchers in China.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
           "match_score": 35
         }
       ],
-      "updated_at": "2026-10-27T13:23:50.860866+00:00"
+      "updated_at": "2026-10-27T19:04:15.803060+00:00"
     },
     {
-      "id": "070e30394ddeb591",
-      "title": "中西部外贸第一城变了",
-      "summary": "2026年前三季度，西安进出口总值冲到764413亿元，跃升至中西部城市第一位。 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E8%A5%BF%E9%83%A8%E5%A4%96%E8%B4%B8%E7%AC%AC%E4%B8%80%E5%9F%8E%E5%8F%98%E4%BA%86&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 49,
-      "hot_index": 3330235,
+      "id": "8d44034c1153cd09",
+      "title": "小多吉病房堆满全国网友送来的东西",
+      "summary": "西藏3岁唇腭裂男童西热多吉经热心网友拍视频求助，北京嫣然天使儿童医院两小时内回应“全部免费”；10月26日多吉已赴京，全... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%B0%8F%E5%A4%9A%E5%90%89%E7%97%85%E6%88%BF%E5%A0%86%E6%BB%A1%E5%85%A8%E5%9B%BD%E7%BD%91%E5%8F%8B%E9%80%81%E6%9D%A5%E7%9A%84%E4%B8%9C%E8%A5%BF&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 26,
+      "hot_index": 5523041,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 49
+        "百度热搜": 26
+      },
+      "topic": "健康医学",
+      "score": 84,
+      "recommended_title": "小多吉病房堆满全国网友送来的东西为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04734-7",
+      "main_paper_title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+      "related_papers": [
+        {
+          "id": "6b27790d0eb9ca71",
+          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04734-7",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "d5f32c6134d6c8dc",
+          "title": "Bispecific dual T cell agonist invikafusp alfa in solid tumors: the phase 1/2 START-001 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04711-0",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the European Society for Medical Oncology Congress 2026, in a phase 1/2 trial in participants with solid tumors, invika, a first-in-class bispecific agonistic antibody that selectively targets the prevalent Vβ6/Vβ10 T cell subsets, was well tolerated, enabling...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04711-0/MediaObjects/41591_2026_4711_Fig1_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
+          "id": "ab9b767d6344d0aa",
+          "title": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04717-8",
+          "published_at": "2026-10-14T00:00:00+00:00",
+          "summary": "A phase 1 trial shows that treatment of patients with high-grade serous ovarian cancer with personalized neoantigen vaccines combined with PD-1 blockade was feasible and led to tumor-specific immune responses in many patients and putative mechanisms of resistance related to an...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04717-8/MediaObjects/41591_2026_4717_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        }
+      ],
+      "updated_at": "2026-10-27T19:04:15.808816+00:00"
+    },
+    {
+      "id": "2c88ef7909f61758",
+      "title": "胡润百富榜每10位上榜者就有1位靠AI",
+      "summary": "10月27日，胡润研究院公布了最新的《2026胡润百富榜》。其中，有160多位上榜企业家的财富与AI赛道相关，近80位上... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%83%A1%E6%B6%A6%E7%99%BE%E5%AF%8C%E6%A6%9C%E6%AF%8F10%E4%BD%8D%E4%B8%8A%E6%A6%9C%E8%80%85%E5%B0%B1%E6%9C%891%E4%BD%8D%E9%9D%A0AI&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 31,
+      "hot_index": 5028969,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 31
+      },
+      "topic": "人工智能",
+      "score": 80,
+      "recommended_title": "胡润百富榜每10位上榜者就有1位靠AI刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04680-4",
+      "main_paper_title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
+      "related_papers": [
+        {
+          "id": "dcb7200303d89a78",
+          "title": "Human–artificial intelligence collaboration for comanaging epilepsy in real time",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04680-4",
+          "published_at": "2026-10-13T00:00:00+00:00",
+          "summary": "A small epilepsy monitoring study shows that a moderated, large language model-based chat interface lets patients converse with their electroencephalography monitoring in real time, using a smartphone, and patient feedback cut seizure-detector false alarms by about 80% without...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04680-4/MediaObjects/41591_2026_4680_Fig2_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "c45ea6fd5b919bff",
+          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02611-4",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
+          "match_score": 29
+        },
+        {
+          "id": "0700f64da84e9371",
+          "title": "Programmable design of functional proteins from natural language",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11205-z",
+          "published_at": "2026-10-21T00:00:00+00:00",
+          "summary": "Pinal, a 16-billion-parameter artificial intelligence model, designs functional proteins from natural-language descriptions, demonstrating experimentally validated activities and improved CO 2 -fixation product yields without iterative optimization.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11205-z/MediaObjects/41586_2026_11205_Fig2_HTML.png?as=webp",
+          "match_score": 28
+        }
+      ],
+      "updated_at": "2026-10-27T19:04:15.809852+00:00"
+    },
+    {
+      "id": "97a4f6c40d0221d4",
+      "title": "养老这件事到底“卡”在哪里",
+      "summary": "对照到2035年养老体系成熟定型的目标，当前养老仍存五大“卡点”：社区居家养老支撑不足、失能失智专业照护缺口大、农村养老... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%85%BB%E8%80%81%E8%BF%99%E4%BB%B6%E4%BA%8B%E5%88%B0%E5%BA%95%E2%80%9C%E5%8D%A1%E2%80%9D%E5%9C%A8%E5%93%AA%E9%87%8C&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 34,
+      "hot_index": 4745973,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 34
       },
       "topic": "城市社会",
-      "score": 68,
-      "recommended_title": "中西部外贸第一城变了背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 78,
+      "recommended_title": "养老这件事到底“卡”在哪里背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s44284-026-00532-x",
@@ -487,44 +265,44 @@
           "published_at": "2026-10-26T00:00:00+00:00",
           "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
-          "match_score": 42
+          "match_score": 60
         },
         {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
+          "id": "c0c8ded620e6a3e8",
+          "title": "The spatial reach of mobility interactions in urban systems",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-10-27T13:23:45.563797+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
+          "url": "https://www.nature.com/articles/s44284-026-00531-y",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+          "match_score": 58
         },
         {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
           "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-10-27T13:23:45.563961+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 34
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-10-27T19:04:08.752495+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 52
         }
       ],
-      "updated_at": "2026-10-27T13:23:50.862758+00:00"
+      "updated_at": "2026-10-27T19:04:15.812266+00:00"
     },
     {
       "id": "86df642e68a72933",
       "title": "红米K100开启预售 售价3499元起",
       "summary": "10月27日晚，REDMI K100开启预售，搭载小米澎湃OS4，配置10000mAh小米金沙江电池，将于10月31日1... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E7%BA%A2%E7%B1%B3K100%E5%BC%80%E5%90%AF%E9%A2%84%E5%94%AE+%E5%94%AE%E4%BB%B73499%E5%85%83%E8%B5%B7&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 50,
-      "hot_index": 3218812,
+      "rank": 47,
+      "hot_index": 3485599,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 50
+        "百度热搜": 47
       },
       "topic": "前沿科技",
       "score": 68,
@@ -539,7 +317,7 @@
           "title": "Flash energy droughts in solar and wind resources under climate change",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-10-27T13:23:43.635776+00:00",
+          "published_at": "2026-10-27T19:04:06.892255+00:00",
           "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
           "match_score": 27
@@ -565,10 +343,228 @@
           "match_score": 25
         }
       ],
-      "updated_at": "2026-10-27T13:23:50.863492+00:00"
+      "updated_at": "2026-10-27T19:04:15.813158+00:00"
+    },
+    {
+      "id": "c535079028de57c0",
+      "title": "院长：发现唇腭裂孩子请与嫣然联系",
+      "summary": "10月27日，西藏唇腭裂患儿多吉抵达北京嫣然天使儿童医院接受治疗。院长呼吁全国网友，若发现当地有此类唇腭裂患儿可第一时间... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%99%A2%E9%95%BF%EF%BC%9A%E5%8F%91%E7%8E%B0%E5%94%87%E8%85%AD%E8%A3%82%E5%AD%A9%E5%AD%90%E8%AF%B7%E4%B8%8E%E5%AB%A3%E7%84%B6%E8%81%94%E7%B3%BB&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 50,
+      "hot_index": 3200887,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 50
+      },
+      "topic": "健康医学",
+      "score": 68,
+      "recommended_title": "院长：发现唇腭裂孩子请与嫣然联系为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04711-0/MediaObjects/41591_2026_4711_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04711-0",
+      "main_paper_title": "Bispecific dual T cell agonist invikafusp alfa in solid tumors: the phase 1/2 START-001 trial",
+      "related_papers": [
+        {
+          "id": "d5f32c6134d6c8dc",
+          "title": "Bispecific dual T cell agonist invikafusp alfa in solid tumors: the phase 1/2 START-001 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04711-0",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the European Society for Medical Oncology Congress 2026, in a phase 1/2 trial in participants with solid tumors, invika, a first-in-class bispecific agonistic antibody that selectively targets the prevalent Vβ6/Vβ10 T cell subsets, was well tolerated, enabling...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04711-0/MediaObjects/41591_2026_4711_Fig1_HTML.png?as=webp",
+          "match_score": 41
+        },
+        {
+          "id": "6dba938ac3d2eeae",
+          "title": "Persistent and compartmentalized T cell immunity in ALS",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04728-5",
+          "published_at": "2026-10-27T00:00:00+00:00",
+          "summary": "In ALS, persistent T cell responses relate to disease outcome differently in blood than in cerebrospinal fluid, with both intrathecal antigen presentation and cytomegalovirus-specific immunity linked to worse clinical outcomes.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04728-5/MediaObjects/41591_2026_4728_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "34d90b1425d4dbc7",
+          "title": "Neoadjuvant nivolumab with or without visugromab in muscle-invasive bladder cancer: the phase 2a GDFATHER-NEO trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04740-9",
+          "published_at": "2026-10-24T00:00:00+00:00",
+          "summary": "As presented at the ESMO Congress 2026: In this exploratory, nonrandomized phase 2a trial, treatment of patients with immune checkpoint inhibitor-naive muscle-invasive bladder cancer with the GDF-15-neutralizing antibody visugromab and nivolumab produced encouraging pathologic...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04740-9/MediaObjects/41591_2026_4740_Fig2_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-10-27T19:04:15.815961+00:00"
+    },
+    {
+      "id": "518128f38c5776e6",
+      "title": "西藏唇腭裂孩子将在嫣然接受免费治疗",
+      "summary": "10月27日，西藏唇腭裂患儿小多吉已抵达北京，将在嫣然医院接受免费治疗。患儿爸爸高中毕业，学过《我爱北京天安门》，想去天... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%A5%BF%E8%97%8F%E5%94%87%E8%85%AD%E8%A3%82%E5%AD%A9%E5%AD%90%E5%B0%86%E5%9C%A8%E5%AB%A3%E7%84%B6%E6%8E%A5%E5%8F%97%E5%85%8D%E8%B4%B9%E6%B2%BB%E7%96%97&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 51,
+      "hot_index": 3118263,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 51
+      },
+      "topic": "健康医学",
+      "score": 67,
+      "recommended_title": "西藏唇腭裂孩子将在嫣然接受免费治疗为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04717-8/MediaObjects/41591_2026_4717_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04717-8",
+      "main_paper_title": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial",
+      "related_papers": [
+        {
+          "id": "ab9b767d6344d0aa",
+          "title": "Personalized neoantigen-targeting cancer vaccines in ovarian cancer: a phase 1 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04717-8",
+          "published_at": "2026-10-14T00:00:00+00:00",
+          "summary": "A phase 1 trial shows that treatment of patients with high-grade serous ovarian cancer with personalized neoantigen vaccines combined with PD-1 blockade was feasible and led to tumor-specific immune responses in many patients and putative mechanisms of resistance related to an...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04717-8/MediaObjects/41591_2026_4717_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "767bf27e66144810",
+          "title": "Global and regional burden of measles and vaccine coverage among children under 5 years, 1990−2023: a Global Burden of Disease Study",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04661-7",
+          "published_at": "2026-10-21T00:00:00+00:00",
+          "summary": "Updates to the Global Burden of Disease Study showed that although global measles incidence and mortality had declined in 1990−2019, its resurgence since 2020 reflects stalled vaccination progress worldwide.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04661-7/MediaObjects/41591_2026_4661_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "333668f26859f44d",
+          "title": "An open vision-language model for diverse medical applications",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04626-w",
+          "published_at": "2026-10-06T00:00:00+00:00",
+          "summary": "MedGemma, a collection of medical vision-language foundation models based on Gemma 3, demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while mai...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04626-w/MediaObjects/41591_2026_4626_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-10-27T19:04:15.818765+00:00"
     }
   ],
   "items": [
+    {
+      "id": "1b46eeb6ce82e0c4",
+      "title": "Sustaining green stormwater infrastructure adoption in cities",
+      "display_title": "Sustaining green stormwater infrastructure adoption in cities",
+      "source": "Nature Cities",
+      "category": "期刊论文",
+      "url": "https://www.nature.com/articles/s44284-026-00520-1",
+      "published_at": "2026-10-27T19:00:43.080057+00:00",
+      "detected_at": "2026-10-27T19:00:43.562537+00:00",
+      "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "en",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "d3b1a25c3982f274",
+      "title": "人脑为何比AI更灵活？国科大师生团队破解底层奥秘",
+      "display_title": "人脑为何比AI更灵活？国科大师生团队破解底层奥秘",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/10/573736.shtm",
+      "published_at": "2026-10-27T19:00:39.845528+00:00",
+      "detected_at": "2026-10-27T19:00:39.845542+00:00",
+      "summary": "科学网-人脑为何比AI更灵活？国科大师生团队破解底层奥秘",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6ae0ab2be4b078fce44b2a6d.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "db3a094282b9c3b7",
+      "title": "一周冲上全球前5！这款“卖声音赚钱”的App，暴露了AI时代的真相",
+      "display_title": "一周冲上全球前5！这款“卖声音赚钱”的App，暴露了AI时代的真相",
+      "source": "人人都是产品经理",
+      "category": "AI变现",
+      "url": "https://www.woshipm.com/ai/6276040.html",
+      "published_at": "2026-10-27T19:00:25.503528+00:00",
+      "detected_at": "2026-10-27T19:00:25.503542+00:00",
+      "summary": "一周冲上全球前5！这款“卖声音赚钱”的App，暴露了AI时代的真相",
+      "image_url": "https://image.woshipm.com/2023/04/13/f364ddbe-d9dd-11ed-9d2f-00163e0b5ff3.jpg",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "7b3c3f6ca5d8ea27",
+      "title": "蚂蚁灵光 2.0 发布：AI 助理开始\"主动管事\" 蚂蚁集团推出灵光2.0，将AI助理从被动执行推向主动服务。",
+      "display_title": "蚂蚁灵光 2.0 发布：AI 助理开始\"主动管事\" 蚂蚁集团推出灵光2.0，将AI助理从被动执行推向主动服务。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31888",
+      "published_at": "2026-10-27T19:00:24.587675+00:00",
+      "detected_at": "2026-10-27T19:00:24.587679+00:00",
+      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 57 分钟前 8.5K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计...",
+      "image_url": "https://upload.chinaz.com/2026/1027/6392869619665799446149256.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "a6ae860db8fd471f",
+      "title": "​即梦AI上线“短剧工作室”，一站式打通全流程AI创作 10月26日，即梦AI上线“短剧工作室”。",
+      "display_title": "​即梦AI上线“短剧工作室”，一站式打通全流程AI创作 10月26日，即梦AI上线“短剧工作室”。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31900",
+      "published_at": "2026-10-27T19:00:24.573655+00:00",
+      "detected_at": "2026-10-27T19:00:24.573659+00:00",
+      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 57 分钟前 8.5K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计...",
+      "image_url": "https://upload.chinaz.com/2026/1027/6392871196760529116493966.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "b75362022b39ceb3",
+      "title": "苹果 iOS 27.2 给 AI 图片打上隐身水印 MacRumors称，苹果已在iOS 27.2中悄悄接入谷歌SynthID技术。",
+      "display_title": "苹果 iOS 27.2 给 AI 图片打上隐身水印 MacRumors称，苹果已在iOS 27.2中悄悄接入谷歌SynthID技术。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/31904",
+      "published_at": "2026-10-27T19:00:24.570028+00:00",
+      "detected_at": "2026-10-27T19:00:24.570032+00:00",
+      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 57 分钟前 8.5K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计...",
+      "image_url": "https://upload.chinaz.com/2026/1027/6392871534623331632025760.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "61a366bdab100044",
       "title": "Apple Sports：不看新闻、不聊球，只看我关心的比赛 Vanilla 15:27",
@@ -596,49 +592,13 @@
       "url": "https://news.aibase.com/zh/news/31832",
       "published_at": "2026-10-27T13:19:47.479317+00:00",
       "detected_at": "2026-10-27T13:19:47.479318+00:00",
-      "summary": "#1 万象有声发布 Audimind，有声书制作工具出海 #2 砸下 150 亿美元！DeepSeek 携手宁德时代转战内蒙古，1GW 国产智算中心掀起基建狂潮 #3 WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 #4 红果短剧上线\"小果AI\":短剧平台补上对话式交互这一层 #5 Gemini 4 Argon 首发 72 小时吞下 25 万亿 Token，皮查伊首谈砍掉 3.5 Pro 内幕 #6 小米发布150元开源硬件 HachimoDock，打造万能AI桌宠与桌面Agent中控 #7 火山引擎发布Seedance2.54...",
+      "summary": "#1 万象有声发布 Audimind，有声书制作工具出海 #2 砸下 150 亿美元！DeepSeek 携手宁德时代转战内蒙古，1GW 国产智算中心掀起基建狂潮 #3 WorldTUI：有人专门训练小模型\"演\"终端，你敲命令它假装执行 #4 小米发布150元开源硬件 HachimoDock，打造万能AI桌宠与桌面Agent中控 #5 红果短剧上线\"小果AI\":短剧平台补上对话式交互这一层 #6 Gemini 4 Argon 首发 72 小时吞下 25 万亿 Token，皮查伊首谈砍掉 3.5 Pro 内幕 #7 火山引擎发布Seedance2.54...",
       "image_url": "https://upload.chinaz.com/2026/1023/6392835153509391724734709.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "B",
       "language": "zh",
       "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "a6ae860db8fd471f",
-      "title": "​即梦AI上线“短剧工作室”，一站式打通全流程AI创作 10月26日，即梦AI上线“短剧工作室”。",
-      "display_title": "​即梦AI上线“短剧工作室”，一站式打通全流程AI创作 10月26日，即梦AI上线“短剧工作室”。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31900",
-      "published_at": "2026-10-27T13:19:47.464296+00:00",
-      "detected_at": "2026-10-27T13:19:47.464298+00:00",
-      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 刚刚 7.7K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计算机架最...",
-      "image_url": "https://upload.chinaz.com/2026/1027/6392871196760529116493966.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "b75362022b39ceb3",
-      "title": "苹果 iOS 27.2 给 AI 图片打上隐身水印 MacRumors称，苹果已在iOS 27.2中悄悄接入谷歌SynthID技术。",
-      "display_title": "苹果 iOS 27.2 给 AI 图片打上隐身水印 MacRumors称，苹果已在iOS 27.2中悄悄接入谷歌SynthID技术。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31904",
-      "published_at": "2026-10-27T13:19:47.461812+00:00",
-      "detected_at": "2026-10-27T13:19:47.461813+00:00",
-      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 刚刚 7.7K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计算机架最...",
-      "image_url": "https://upload.chinaz.com/2026/1027/6392871534623331632025760.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
       "meta": {}
     },
     {
@@ -714,24 +674,6 @@
       "meta": {}
     },
     {
-      "id": "7b3c3f6ca5d8ea27",
-      "title": "蚂蚁灵光 2.0 发布：AI 助理开始\"主动管事\" 蚂蚁集团推出灵光2.0，将AI助理从被动执行推向主动服务。",
-      "display_title": "蚂蚁灵光 2.0 发布：AI 助理开始\"主动管事\" 蚂蚁集团推出灵光2.0，将AI助理从被动执行推向主动服务。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31888",
-      "published_at": "2026-10-27T06:52:17.091556+00:00",
-      "detected_at": "2026-10-27T06:52:17.091562+00:00",
-      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 刚刚 7.7K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计算机架最...",
-      "image_url": "https://upload.chinaz.com/2026/1027/6392869619665799446149256.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
       "id": "2a5b5a8f7944eda5",
       "title": "当智力第一次被标价:《Token经济》论坛激辩“Token 是否经济” 文章指出，Token作为计量单位正改写成本、定价与组织假设，使智力产出可计量、比价和交易。",
       "display_title": "当智力第一次被标价:《Token经济》论坛激辩“Token 是否经济” 文章指出，Token作为计量单位正改写成本、定价与组织假设，使智力产出可计量、比价和交易。",
@@ -740,7 +682,7 @@
       "url": "https://news.aibase.com/zh/news/31889",
       "published_at": "2026-10-27T06:52:17.089917+00:00",
       "detected_at": "2026-10-27T06:52:17.089923+00:00",
-      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 刚刚 7.7K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计算机架最...",
+      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 57 分钟前 8.5K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计...",
       "image_url": "https://upload.chinaz.com/2026/1027/6392869640039389236495640.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -758,7 +700,7 @@
       "url": "https://news.aibase.com/zh/news/31895",
       "published_at": "2026-10-27T06:52:17.079189+00:00",
       "detected_at": "2026-10-27T06:52:17.079207+00:00",
-      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 刚刚 7.7K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计算机架最...",
+      "summary": "纯国产算力跑出星火X2.6：刘庆峰直言“小米加步枪”硬刚封锁，端侧模型成破局关键 10月22日，在2026科大讯飞全球1024开发者节大会上，刘庆峰谈及国产算力现状与破局之道。他指出，国产算力与英伟达仍有“将近两代”差距，主要集中在显存和带宽；面对百万上下文的代码与智能体任务，常遇“装不下、训不动”困境。为此，讯飞发布端云一体“讯飞星火X2.6”寻求应对。 57 分钟前 8.5K 马斯克明年扫货 2 万套英伟达机架，成 Vera Rubin 最大买家 广发证券分析师Jeff Pu预计，SpaceX将在2027年成为英伟达Vera Rubin AI计...",
       "image_url": "https://upload.chinaz.com/2026/1027/6392870685694150432124335.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -9508,60 +9450,6 @@
       "detected_at": "2026-09-22T06:50:02.773050+00:00",
       "summary": "办公桌上的 AI 新物种！阿里千问办公首款桌面机器人 QwenNote Eva 正式发布，售价 899 元 阿里千问办公在2026云栖大会发布首款桌面机器人QwenNote Eva（不含屏幕），主打“懂工作，更懂你”，融合千问办公内核与钉钉生态，宣称“1台Eva=1个团队”。产品定价899元，当晚开售，适配安卓、iOS及鸿蒙，核心强调“一句话”智能协同交互。 5 小时前 12.0K 比尔·盖茨谈 AI：像亲手创造的“外星人”，社会讨论还远未跟上 比尔·盖茨在纽约盖茨基金会目标守卫者会议上表示，本希望只谈对外援助和减少儿童死亡，但AI发展迅猛，与各国...",
       "image_url": "https://upload.chinaz.com/2026/0922/6392567073134811804741412.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "62f5c27d5722de81",
-      "title": "蚂蚁阿福健康专区进入2000多家商超，AI营养师走向线下 9月22日，蚂蚁阿福健康专区规模化进驻线下商超，全国超2000家门店上线，覆盖盒马、物美、Olé等连锁及区域零售品牌。",
-      "display_title": "蚂蚁阿福健康专区进入2000多家商超，AI营养师走向线下 9月22日，蚂蚁阿福健康专区规模化进驻线下商超，全国超2000家门店上线，覆盖盒马、物美、Olé等连锁及区域零售品牌。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31267",
-      "published_at": "2026-09-22T06:50:02.757891+00:00",
-      "detected_at": "2026-09-22T06:50:02.757910+00:00",
-      "summary": "办公桌上的 AI 新物种！阿里千问办公首款桌面机器人 QwenNote Eva 正式发布，售价 899 元 阿里千问办公在2026云栖大会发布首款桌面机器人QwenNote Eva（不含屏幕），主打“懂工作，更懂你”，融合千问办公内核与钉钉生态，宣称“1台Eva=1个团队”。产品定价899元，当晚开售，适配安卓、iOS及鸿蒙，核心强调“一句话”智能协同交互。 5 小时前 12.0K 比尔·盖茨谈 AI：像亲手创造的“外星人”，社会讨论还远未跟上 比尔·盖茨在纽约盖茨基金会目标守卫者会议上表示，本希望只谈对外援助和减少儿童死亡，但AI发展迅猛，与各国...",
-      "image_url": "https://upload.chinaz.com/2026/0922/6392568516865671553207146.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "80b0bbdb6afea92e",
-      "title": "AI agent基建持续火热，又一笔4000万美金大额融资，16个月估值3亿",
-      "display_title": "AI agent基建持续火热，又一笔4000万美金大额融资，16个月估值3亿",
-      "source": "人人都是产品经理",
-      "category": "AI变现",
-      "url": "https://www.woshipm.com/ai/6233656.html",
-      "published_at": "2026-09-22T01:37:54.048081+00:00",
-      "detected_at": "2026-09-22T01:37:54.048089+00:00",
-      "summary": "AI agent基建持续火热，又一笔4000万美金大额融资，16个月估值3亿",
-      "image_url": "https://image.woshipm.com/2025/06/09/9bbe5b0a-44dc-11f0-ad57-00163e09d72f.png",
-      "image_method": "og-validated",
-      "image_rule_version": 13,
-      "priority": "B",
-      "language": "zh",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "4d61ce6e8d92889d",
-      "title": "Oura拟IPO募资22亿美元，近三分之二股份由现有股东出售 Oura拟IPO最高募资22亿美元，但近三分之二流向现有股东。",
-      "display_title": "Oura拟IPO募资22亿美元，近三分之二股份由现有股东出售 Oura拟IPO最高募资22亿美元，但近三分之二流向现有股东。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/31245",
-      "published_at": "2026-09-22T01:37:52.991742+00:00",
-      "detected_at": "2026-09-22T01:37:52.991745+00:00",
-      "summary": "OpenAI 成立数学与 AI 顾问组：神秘新模型 24 天攻破 100 多个世界级难题 OpenAI 9月22日宣布在普林斯顿高等研究院成立由九位数学家组成的“数学与AI顾问组”，独立运作。同时披露，8月28日起训练的神秘模型已解决数学多个领域100多个长期未解难题，其中包括纳维-斯托克斯千年大奖难题。 刚刚 4.9K AI 编程平台 Bitrig 支持 iPhone Duo：交互式 3D 模拟器可折叠、旋转测应用 苹果上周发布Xcode 27.1 Beta 1支持开发iPhone Duo应用后，AI编程平台Bitrig也宣布支持构建和测试该类应...",
-      "image_url": "https://upload.chinaz.com/2026/0922/6392566518895297259239343.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
