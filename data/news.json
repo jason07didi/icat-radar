@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T18:09:07.810411+00:00",
+  "updated_at": "2026-11-05T23:47:26.530761+00:00",
   "count": 500,
   "hotspot_count": 9,
   "breakthrough_count": 132,
@@ -14,20 +14,77 @@
   },
   "hotspots": [
     {
-      "id": "ed01d5f8750cb544",
-      "title": "医院给67岁患者输过期生理盐水",
-      "summary": "11月4日，四川省交通医院回应称，为67岁老人输入过期生理盐水确系工作疏忽。此前，老人在该院做完脂肪瘤切除术后输液，家属... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E9%99%A2%E7%BB%9967%E5%B2%81%E6%82%A3%E8%80%85%E8%BE%93%E8%BF%87%E6%9C%9F%E7%94%9F%E7%90%86%E7%9B%90%E6%B0%B4&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 8,
-      "hot_index": 6082913,
+      "id": "42025f3a9318e3c0",
+      "title": "老人试药次日半身瘫痪 医院：系巧合",
+      "summary": "近日，陕西一名68岁老人参与新药试验，注射次日突发脑梗，导致半身瘫痪。医院称紧急揭盲确认老人使用的是安慰剂，病情与试验药... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E8%AF%95%E8%8D%AF%E6%AC%A1%E6%97%A5%E5%8D%8A%E8%BA%AB%E7%98%AB%E7%97%AA+%E5%8C%BB%E9%99%A2%EF%BC%9A%E7%B3%BB%E5%B7%A7%E5%90%88&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 12,
+      "hot_index": 4456808,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 8,
-        "百度热搜": 20
+        "百度民生": 12,
+        "百度热搜": 37
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "老人试药次日半身瘫痪 医院：系巧合为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04745-4",
+      "main_paper_title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
+      "related_papers": [
+        {
+          "id": "f05681e70574e32a",
+          "title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04745-4",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "In a nonrandomized phase 2 trial, patients with resectable non-small cell lung cancer received perioperative ivonescimab as monotherapy or with chemotherapy, leading to encouraging pathological response rates in both cohorts, and sustained circulating tumor DNA negativity thro...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "6b27790d0eb9ca71",
+          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04734-7",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "d5f32c6134d6c8dc",
+          "title": "Bispecific dual T cell agonist invikafusp alfa in solid tumors: the phase 1/2 START-001 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04711-0",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the European Society for Medical Oncology Congress 2026, in a phase 1/2 trial in participants with solid tumors, invika, a first-in-class bispecific agonistic antibody that selectively targets the prevalent Vβ6/Vβ10 T cell subsets, was well tolerated, enabling...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04711-0/MediaObjects/41591_2026_4711_Fig1_HTML.png?as=webp",
+          "match_score": 38
+        }
+      ],
+      "updated_at": "2026-11-05T23:47:20.068892+00:00"
+    },
+    {
+      "id": "ed01d5f8750cb544",
+      "title": "医院给67岁患者输过期生理盐水",
+      "summary": "11月4日，四川省交通医院回应称，为67岁老人输入过期生理盐水确系工作疏忽。此前，老人在该院做完脂肪瘤切除术后输液，家属... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E9%99%A2%E7%BB%9967%E5%B2%81%E6%82%A3%E8%80%85%E8%BE%93%E8%BF%87%E6%9C%9F%E7%94%9F%E7%90%86%E7%9B%90%E6%B0%B4&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 13,
+      "hot_index": 4356613,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 13,
+        "百度热搜": 38
       },
       "topic": "健康医学",
       "score": 98,
@@ -48,214 +105,45 @@
           "match_score": 51
         },
         {
-          "id": "f05681e70574e32a",
-          "title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04745-4",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "In a nonrandomized phase 2 trial, patients with resectable non-small cell lung cancer received perioperative ivonescimab as monotherapy or with chemotherapy, leading to encouraging pathological response rates in both cohorts, and sustained circulating tumor DNA negativity thro...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
-          "match_score": 43
-        },
-        {
-          "id": "6b27790d0eb9ca71",
-          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04734-7",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
-          "match_score": 40
-        }
-      ],
-      "updated_at": "2026-11-05T18:08:59.545616+00:00"
-    },
-    {
-      "id": "46c3029797da8e10",
-      "title": "多名医生涉论文造假 国家卫健委通报",
-      "summary": "近日，国家卫健委通报第六批涉“论文工厂”科研失信案件，涉及多家医院及医学院校，多名医生被查出购买论文、伪造实验数据、委托... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%90%8D%E5%8C%BB%E7%94%9F%E6%B6%89%E8%AE%BA%E6%96%87%E9%80%A0%E5%81%87+%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E9%80%9A%E6%8A%A5&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 9,
-      "hot_index": 5598687,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 9,
-        "百度热搜": 25
-      },
-      "topic": "健康医学",
-      "score": 98,
-      "recommended_title": "多名医生涉论文造假 国家卫健委通报为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04745-4",
-      "main_paper_title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
-      "related_papers": [
-        {
-          "id": "f05681e70574e32a",
-          "title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04745-4",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "In a nonrandomized phase 2 trial, patients with resectable non-small cell lung cancer received perioperative ivonescimab as monotherapy or with chemotherapy, leading to encouraging pathological response rates in both cohorts, and sustained circulating tumor DNA negativity thro...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
-          "match_score": 43
-        },
-        {
-          "id": "d5f32c6134d6c8dc",
-          "title": "Bispecific dual T cell agonist invikafusp alfa in solid tumors: the phase 1/2 START-001 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04711-0",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "summary": "As presented at the European Society for Medical Oncology Congress 2026, in a phase 1/2 trial in participants with solid tumors, invika, a first-in-class bispecific agonistic antibody that selectively targets the prevalent Vβ6/Vβ10 T cell subsets, was well tolerated, enabling...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04711-0/MediaObjects/41591_2026_4711_Fig1_HTML.png?as=webp",
-          "match_score": 38
-        },
-        {
-          "id": "5545753797288b91",
-          "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04744-5",
+          "id": "e68f679ddb0ff84c",
+          "title": "Electrolyte-dependent physico-chemical interfacial kinetics shape degradation pathways and lifetime in lithium-ion batteries",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-79025-3",
           "published_at": "2026-11-05T00:00:00+00:00",
-          "summary": "Fecal shotgun metagenomics from 6,803 adults in the Japanese 4D cohort and microbiome-based prediction scores validated across 13 independent and geographically diverse cohorts revealed two opposing microbiome-mediated axes linking lifestyle to health and 15 diseases.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04744-5/MediaObjects/41591_2026_4744_Fig1_HTML.png?as=webp",
+          "summary": "Electrolytes shape battery ageing, yet continuum models often describe them mainly through transport. Here, the authors combine custom cells, gas/surface analysis and physics-based modelling to identify interfacial degradation as a missing modelling dimension for lifetime pred...",
+          "image_url": "",
+          "match_score": 39
+        },
+        {
+          "id": "a84d1ee1400c1d19",
+          "title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04800-0",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "summary": "As presented at 2026 AHA Scientific Sessions: Analysis of U.S. Census and other national health data identifies communities with high cardiovascular care needs and assess health system readiness for digital care deployment.",
+          "image_url": "",
           "match_score": 35
         }
       ],
-      "updated_at": "2026-11-05T18:08:59.549789+00:00"
+      "updated_at": "2026-11-05T23:47:20.071781+00:00"
     },
     {
-      "id": "42025f3a9318e3c0",
-      "title": "老人试药次日半身瘫痪 医院：系巧合",
-      "summary": "近日，陕西一名68岁老人参与新药试验，注射次日突发脑梗，导致半身瘫痪。医院称紧急揭盲确认老人使用的是安慰剂，病情与试验药... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E8%AF%95%E8%8D%AF%E6%AC%A1%E6%97%A5%E5%8D%8A%E8%BA%AB%E7%98%AB%E7%97%AA+%E5%8C%BB%E9%99%A2%EF%BC%9A%E7%B3%BB%E5%B7%A7%E5%90%88&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 10,
-      "hot_index": 5327598,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 10,
-        "百度热搜": 28
-      },
-      "topic": "健康医学",
-      "score": 98,
-      "recommended_title": "老人试药次日半身瘫痪 医院：系巧合为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04734-7",
-      "main_paper_title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
-      "related_papers": [
-        {
-          "id": "6b27790d0eb9ca71",
-          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04734-7",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
-          "match_score": 40
-        },
-        {
-          "id": "4ef25f4ab95b8c84",
-          "title": "Regulatable membrane-bound IL-15 engineered TIL cell therapy for immune checkpoint inhibitor-resistant advanced melanoma: pooled analysis of phase 1 and 1/2 trials",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04743-6",
-          "published_at": "2026-11-03T00:00:00+00:00",
-          "summary": "As presented at the Society for Immunotherapy of Cancer 2026 Annual Meeting, in a non-prespecified pooled analysis of two trials, amsokigene autoleucel, an autologous tumor-infiltrating lymphocyte therapy engineered to eliminate the need for IL-2, was successfully manufactured...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04743-6/MediaObjects/41591_2026_4743_Fig2_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "c5715ea08eca2632",
-          "title": "Global, regional and national burden of cervical cancer in 1990–2023 with forecasts to 2050: a Global Burden of Disease study",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04729-4",
-          "published_at": "2026-11-02T00:00:00+00:00",
-          "summary": "Analyses of the Global Burden of Disease study reported 887,000 new cases and 369,000 deaths from cervical cancer worldwide in 2023, which are forecasted to rise by 2050.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04729-4/MediaObjects/41591_2026_4729_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        }
-      ],
-      "updated_at": "2026-11-05T18:08:59.553926+00:00"
-    },
-    {
-      "id": "6fa8f90ad61e959e",
-      "title": "美股存储板块大跌 闪迪跌超17%",
-      "summary": "11月5日消息，美股存储板块持续遭遇抛售，费城半导体指数跌8.31%。个股方面，闪迪跌幅扩大至17.09%，铠侠ADR跌... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%AD%98%E5%82%A8%E6%9D%BF%E5%9D%97%E5%A4%A7%E8%B7%8C+%E9%97%AA%E8%BF%AA%E8%B7%8C%E8%B6%8517%25&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 15,
-      "hot_index": 6559005,
+      "id": "23359b4fc6344dc4",
+      "title": "美股创纪录“血洗”2.8万亿美元",
+      "summary": "美东时间11月5日，美股单日市值蒸发约2.8万亿美元创历史纪录，AI产业链全线重挫，纳指跌超5%进入技术性调整。多重利空... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%88%9B%E7%BA%AA%E5%BD%95%E2%80%9C%E8%A1%80%E6%B4%97%E2%80%9D2.8%E4%B8%87%E4%BA%BF%E7%BE%8E%E5%85%83&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 3,
+      "hot_index": 7713734,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 15
-      },
-      "topic": "前沿科技",
-      "score": 93,
-      "recommended_title": "美股存储板块大跌 闪迪跌超17%意味着什么？Nature研究中的技术路线与现实边界",
-      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11226-8/MediaObjects/41586_2026_11226_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11226-8",
-      "main_paper_title": "Conjugation-regulated self-assembled molecules for tandem solar cells",
-      "related_papers": [
-        {
-          "id": "4061b3f528c22fc5",
-          "title": "Conjugation-regulated self-assembled molecules for tandem solar cells",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11226-8",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "Rationally engineered molecular spatial conjugation is used for the formation of highly ordered, conformal self-assembled molecules, enabling the fabrication of high-performance perovskite/silicon tandem solar cells.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11226-8/MediaObjects/41586_2026_11226_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        },
-        {
-          "id": "dc690a0dd505e094",
-          "title": "Observation of prethermal dynamical phase transitions and resonant melting",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11225-9",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "A programmable neutral-atom quantum simulator is used to explore quench dynamics in spin models with up to 180 qubits, revealing prethermal dynamical phase transitions and resonant melting.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11225-9/MediaObjects/41586_2026_11225_Fig1_HTML.png?as=webp",
-          "match_score": 28
-        },
-        {
-          "id": "6d4c600fd67df730",
-          "title": "Hard X-ray attosecond metrology",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11245-5",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "Metrology techniques are developed to characterize and control attosecond hard X-ray pulses, directly measuring a 170-attosecond duration and enabling ultrafast studies of electronic dynamics in quantum systems.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11245-5/MediaObjects/41586_2026_11245_Fig1_HTML.png?as=webp",
-          "match_score": 28
-        }
-      ],
-      "updated_at": "2026-11-05T18:08:59.555225+00:00"
-    },
-    {
-      "id": "b7383ccf2a99a8da",
-      "title": "全球首个仿生人形机器人新闻主播发布",
-      "summary": "11月5日，在第七届世界媒体峰会人工智能与中国式现代化论坛上，全球首个仿生人形机器人新闻主播正式亮相。 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E4%BB%BF%E7%94%9F%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%96%B0%E9%97%BB%E4%B8%BB%E6%92%AD%E5%8F%91%E5%B8%83&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 22,
-      "hot_index": 5893679,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 22
+        "百度热搜": 3
       },
       "topic": "人工智能",
-      "score": 87,
-      "recommended_title": "全球首个仿生人形机器人新闻主播发布刷屏之后：Nature研究正在回答哪些关键问题？",
+      "score": 98,
+      "recommended_title": "美股创纪录“血洗”2.8万亿美元刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02611-4",
@@ -292,150 +180,85 @@
           "match_score": 25
         }
       ],
-      "updated_at": "2026-11-05T18:08:59.556451+00:00"
+      "updated_at": "2026-11-05T23:47:20.066094+00:00"
     },
     {
-      "id": "3301db770ae7417f",
-      "title": "河南开展新能源汽车下乡活动",
+      "id": "46c3029797da8e10",
+      "title": "多名医生涉论文造假 国家卫健委通报",
       "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E5%BC%80%E5%B1%95%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E4%B8%8B%E4%B9%A1%E6%B4%BB%E5%8A%A8&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 26,
-      "hot_index": 901704,
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%90%8D%E5%8C%BB%E7%94%9F%E6%B6%89%E8%AE%BA%E6%96%87%E9%80%A0%E5%81%87+%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E9%80%9A%E6%8A%A5&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 19,
+      "hot_index": 1997420,
       "platform": "百度民生",
       "platforms": [
         "百度民生"
       ],
       "platform_ranks": {
-        "百度民生": 26
+        "百度民生": 19
       },
-      "topic": "前沿科技",
-      "score": 82,
-      "recommended_title": "河南开展新能源汽车下乡活动意味着什么？Nature研究中的技术路线与现实边界",
-      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11225-9/MediaObjects/41586_2026_11225_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41586-026-11225-9",
-      "main_paper_title": "Observation of prethermal dynamical phase transitions and resonant melting",
+      "topic": "健康医学",
+      "score": 89,
+      "recommended_title": "多名医生涉论文造假 国家卫健委通报为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04734-7",
+      "main_paper_title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
       "related_papers": [
         {
-          "id": "dc690a0dd505e094",
-          "title": "Observation of prethermal dynamical phase transitions and resonant melting",
-          "source": "Nature",
-          "url": "https://www.nature.com/articles/s41586-026-11225-9",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "A programmable neutral-atom quantum simulator is used to explore quench dynamics in spin models with up to 180 qubits, revealing prethermal dynamical phase transitions and resonant melting.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11225-9/MediaObjects/41586_2026_11225_Fig1_HTML.png?as=webp",
-          "match_score": 28
+          "id": "6b27790d0eb9ca71",
+          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04734-7",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+          "match_score": 40
         },
         {
-          "id": "e944aee080af09a4",
-          "title": "Flash energy droughts in solar and wind resources under climate change",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02753-3",
-          "published_at": "2026-11-05T18:08:51.057779+00:00",
-          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
-          "match_score": 27
-        },
-        {
-          "id": "e68f679ddb0ff84c",
-          "title": "Electrolyte-dependent physico-chemical interfacial kinetics shape degradation pathways and lifetime in lithium-ion batteries",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-79025-3",
+          "id": "5545753797288b91",
+          "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04744-5",
           "published_at": "2026-11-05T00:00:00+00:00",
-          "summary": "Electrolytes shape battery ageing, yet continuum models often describe them mainly through transport. Here, the authors combine custom cells, gas/surface analysis and physics-based modelling to identify interfacial degradation as a missing modelling dimension for lifetime pred...",
-          "image_url": "",
-          "match_score": 25
-        }
-      ],
-      "updated_at": "2026-11-05T18:08:59.557727+00:00"
-    },
-    {
-      "id": "efbe9bfd75822b14",
-      "title": "水利部称明年长江流域有洪水风险",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E6%B0%B4%E5%88%A9%E9%83%A8%E7%A7%B0%E6%98%8E%E5%B9%B4%E9%95%BF%E6%B1%9F%E6%B5%81%E5%9F%9F%E6%9C%89%E6%B4%AA%E6%B0%B4%E9%A3%8E%E9%99%A9&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 29,
-      "hot_index": 424284,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 29
-      },
-      "topic": "气候环境",
-      "score": 79,
-      "recommended_title": "水利部称明年长江流域有洪水风险背后：Nature研究揭示了怎样的风险链条？",
-      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41558-026-02767-x",
-      "main_paper_title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
-      "related_papers": [
-        {
-          "id": "c3447ba973a80d2c",
-          "title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02767-x",
-          "published_at": "2026-10-20T00:00:00+00:00",
-          "summary": "Extreme southward swings of the South Indian convergence zone can lead to severe rainfall and flooding in southern Africa. Here the authors show that climate change leads to an increase in the frequency and intensity of such swings.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
-          "match_score": 67
+          "summary": "Fecal shotgun metagenomics from 6,803 adults in the Japanese 4D cohort and microbiome-based prediction scores validated across 13 independent and geographically diverse cohorts revealed two opposing microbiome-mediated axes linking lifestyle to health and 15 diseases.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04744-5/MediaObjects/41591_2026_4744_Fig1_HTML.png?as=webp",
+          "match_score": 35
         },
         {
-          "id": "84e8211174a6c91b",
-          "title": "Reduced flood-related bacillary dysentery risk with sponge city development in China",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00514-z",
-          "published_at": "2026-11-05T18:08:53.325327+00:00",
-          "summary": "Flooding exacerbates bacillary dysentery risks, particularly among vulnerable groups. Analysis of 4.2 million cases in China utilized case-crossover and quasi-experimental methods, revealing a 12.2% risk reduction post-sponge city development, especially in areas with weaker i...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00514-z/MediaObjects/44284_2026_514_Fig1_HTML.png?as=webp",
-          "match_score": 52
-        },
-        {
-          "id": "b47d272d07074fac",
-          "title": "Panel data on mobility, socio-economic, and political impacts of riverbank erosion and flooding in Bangladesh",
-          "source": "Scientific Data",
-          "url": "https://www.nature.com/articles/s41597-026-08511-6",
-          "published_at": "2026-11-02T00:00:00+00:00",
-          "summary": "We present the Bangladesh Environmental Mobility Panel (BEMP), a household panel along Bangladesh’s Jamuna River that traces the impacts of riverbank erosion and flooding on (im)mobility, including short- and long-distance movements, socio-economic outcomes, and political atti...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs44168-025-00306-6/MediaObjects/44168_2025_306_Fig1_HTML.png",
-          "match_score": 49
+          "id": "4ef25f4ab95b8c84",
+          "title": "Regulatable membrane-bound IL-15 engineered TIL cell therapy for immune checkpoint inhibitor-resistant advanced melanoma: pooled analysis of phase 1 and 1/2 trials",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04743-6",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "summary": "As presented at the Society for Immunotherapy of Cancer 2026 Annual Meeting, in a non-prespecified pooled analysis of two trials, amsokigene autoleucel, an autologous tumor-infiltrating lymphocyte therapy engineered to eliminate the need for IL-2, was successfully manufactured...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04743-6/MediaObjects/41591_2026_4743_Fig2_HTML.png?as=webp",
+          "match_score": 35
         }
       ],
-      "updated_at": "2026-11-05T18:08:59.559731+00:00"
+      "updated_at": "2026-11-05T23:47:20.074419+00:00"
     },
     {
-      "id": "7b712b8fdd8015c7",
-      "title": "“不必给张雪招聘强加上傲慢标签”",
-      "summary": "近日，张雪在重庆大学校招因10万元起薪被指低于预期。接着其以“老员工十年逆袭”案例强调成长空间，被批“错位的傲慢”。媒体... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%8D%E5%BF%85%E7%BB%99%E5%BC%A0%E9%9B%AA%E6%8B%9B%E8%81%98%E5%BC%BA%E5%8A%A0%E4%B8%8A%E5%82%B2%E6%85%A2%E6%A0%87%E7%AD%BE%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 33,
-      "hot_index": 4850268,
+      "id": "1d29dc46586a3878",
+      "title": "水利部回应“史上最强厄尔尼诺”",
+      "summary": "11月5日，水利部回应“史上最强厄尔尼诺”影响，称明年防汛形势更严峻，已提前谋划防御工作。水利部表示，厄尔尼诺滞后影响通... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E6%B0%B4%E5%88%A9%E9%83%A8%E5%9B%9E%E5%BA%94%E2%80%9C%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 20,
+      "hot_index": 6091542,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 33
+        "百度热搜": 20
       },
       "topic": "城市社会",
-      "score": 79,
-      "recommended_title": "“不必给张雪招聘强加上傲慢标签”背后，Nature研究如何解释正在发生的社会变化？",
+      "score": 89,
+      "recommended_title": "水利部回应“史上最强厄尔尼诺”背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02610-5",
-      "main_paper_title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
+      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
       "related_papers": [
-        {
-          "id": "7da237ab0a90cd0e",
-          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02610-5",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-          "match_score": 56
-        },
         {
           "id": "c0c8ded620e6a3e8",
           "title": "The spatial reach of mobility interactions in urban systems",
@@ -447,35 +270,45 @@
           "match_score": 44
         },
         {
-          "id": "f3462bc0136e1e31",
-          "title": "Preprimary education laws and women’s gender attitudes, empowerment and reproductive autonomy in 117 low- and middle-income countries",
+          "id": "7da237ab0a90cd0e",
+          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
           "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02583-5",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "Lou et al. find that eligibility for preprimary education is linked to more gender-equitable attitudes, greater empowerment and reproductive autonomy, and lower levels of adolescent marriage and childbearing across low- and middle-income countries.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02583-5/MediaObjects/41562_2026_2583_Fig1_HTML.png",
-          "match_score": 41
+          "url": "https://www.nature.com/articles/s41562-026-02610-5",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "a79a68514f163b84",
+          "title": "Nested economies of scale in global city mass",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00532-x",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
+          "match_score": 39
         }
       ],
-      "updated_at": "2026-11-05T18:08:59.564063+00:00"
+      "updated_at": "2026-11-05T23:47:20.077025+00:00"
     },
     {
-      "id": "a6c42f41dfc8c829",
-      "title": "DeepSeek Harness官宣日活达154万",
-      "summary": "11月5日晚，DeepSeek Harness团队发文透露，截至11月4日，其日活跃用户已达154万，日消耗Token约... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=DeepSeek+Harness%E5%AE%98%E5%AE%A3%E6%97%A5%E6%B4%BB%E8%BE%BE154%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 51,
-      "hot_index": 3140662,
+      "id": "b7383ccf2a99a8da",
+      "title": "全球首个仿生人形机器人新闻主播发布",
+      "summary": "11月5日，在第七届世界媒体峰会人工智能与中国式现代化论坛上，全球首个仿生人形机器人新闻主播正式亮相。 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E4%BB%BF%E7%94%9F%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%96%B0%E9%97%BB%E4%B8%BB%E6%92%AD%E5%8F%91%E5%B8%83&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 28,
+      "hot_index": 5320142,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 51
+        "百度热搜": 28
       },
       "topic": "人工智能",
-      "score": 67,
-      "recommended_title": "DeepSeek Harness官宣日活达154万刷屏之后：Nature研究正在回答哪些关键问题？",
+      "score": 83,
+      "recommended_title": "全球首个仿生人形机器人新闻主播发布刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11228-6/MediaObjects/41586_2026_11228_Fig2_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41586-026-11228-6",
@@ -492,15 +325,160 @@
           "match_score": 28
         },
         {
-          "id": "27af7c6c42fc787c",
-          "title": "A language model-informed minimalistic design of functional coacervate vesicles",
-          "source": "Nature Communications",
-          "url": "https://www.nature.com/articles/s41467-026-78912-z",
-          "published_at": "2026-11-05T00:00:00+00:00",
-          "summary": "The study presents a protein language model guided design of minimal coacervate vesicles that are composed entirely of oligomeric biomolecules, with functions programmable through oligopeptide sequences.",
-          "image_url": "",
-          "match_score": 25
+          "id": "0dd07ed1e0c4d641",
+          "title": "Generative AI and the temporary upskilling of knowledge workers",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02566-6",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "This randomized trial by Wiles et al. shows that generative AI helps knowledge workers perform data science tasks outside their skill set, but workers do not retain the underlying knowledge when the tool is removed.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
+          "match_score": 24
         },
+        {
+          "id": "c45ea6fd5b919bff",
+          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02611-4",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
+          "match_score": 29
+        }
+      ],
+      "updated_at": "2026-11-05T23:47:20.077865+00:00"
+    },
+    {
+      "id": "13ae1cb7946eee53",
+      "title": "免费、半价！多地景区官宣",
+      "summary": "11月起，全国百余城市中小学陆续开启秋假，直接带动秋冬文旅和研学游市场升温。安徽黄山、西藏等多地密集推出景区免票、半价等... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%85%8D%E8%B4%B9%E3%80%81%E5%8D%8A%E4%BB%B7%EF%BC%81%E5%A4%9A%E5%9C%B0%E6%99%AF%E5%8C%BA%E5%AE%98%E5%AE%A3&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 36,
+      "hot_index": 4569867,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 36
+      },
+      "topic": "城市社会",
+      "score": 76,
+      "recommended_title": "免费、半价！多地景区官宣背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00532-x",
+      "main_paper_title": "Nested economies of scale in global city mass",
+      "related_papers": [
+        {
+          "id": "a79a68514f163b84",
+          "title": "Nested economies of scale in global city mass",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00532-x",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
+          "match_score": 39
+        },
+        {
+          "id": "301c12754a62e105",
+          "title": "A global view of urban land subsidence and its changing trajectories",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00527-8",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "b08f3a5595a47d30",
+          "title": "Maternal mental health liveability shaped by composite residential environmental profiles",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00534-9",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "summary": "In a cohort of 216,000+ pregnant women across China, air pollution and heat were linked to higher risks of prenatal mental distress, while nearby green space was protective. Urban greening could support maternal mental health and healthier cities.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00534-9/MediaObjects/44284_2026_534_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-11-05T23:47:20.080423+00:00"
+    },
+    {
+      "id": "eef6b4c3c62afe22",
+      "title": "黄渤因阿尔兹海默遗传风险恐惧多年",
+      "summary": "近日，黄渤在《热浪之外》访谈中坦言，因父母双双患阿尔茨海默病，自己对遗传风险已恐惧多年‌，并认为自己遗传概率非常高。‌‌ 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E9%BB%84%E6%B8%A4%E5%9B%A0%E9%98%BF%E5%B0%94%E5%85%B9%E6%B5%B7%E9%BB%98%E9%81%97%E4%BC%A0%E9%A3%8E%E9%99%A9%E6%81%90%E6%83%A7%E5%A4%9A%E5%B9%B4&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 39,
+      "hot_index": 4278151,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 39
+      },
+      "topic": "气候环境",
+      "score": 74,
+      "recommended_title": "黄渤因阿尔兹海默遗传风险恐惧多年背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02762-2",
+      "main_paper_title": "Earlier and faster heatwave onset on land under a warming climate",
+      "related_papers": [
+        {
+          "id": "21fd9b290cb0ce81",
+          "title": "Earlier and faster heatwave onset on land under a warming climate",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02762-2",
+          "published_at": "2026-11-05T23:47:13.537571+00:00",
+          "summary": "Heatwaves are expected to become more frequent and intense with global warming. Here the authors assess changes in their timing, finding that the heatwave season expands and that many regions see a faster onset of heatwaves.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
+          "match_score": 49
+        },
+        {
+          "id": "c3447ba973a80d2c",
+          "title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02767-x",
+          "published_at": "2026-10-20T00:00:00+00:00",
+          "summary": "Extreme southward swings of the South Indian convergence zone can lead to severe rainfall and flooding in southern Africa. Here the authors show that climate change leads to an increase in the frequency and intensity of such swings.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
+          "match_score": 45
+        },
+        {
+          "id": "ac59ef1c1d6d6189",
+          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02732-8",
+          "published_at": "2026-11-05T23:47:13.538656+00:00",
+          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
+          "match_score": 45
+        }
+      ],
+      "updated_at": "2026-11-05T23:47:20.081830+00:00"
+    },
+    {
+      "id": "a6c42f41dfc8c829",
+      "title": "DeepSeek Harness官宣日活达154万",
+      "summary": "11月5日晚，DeepSeek Harness团队发文透露，截至11月4日，其日活跃用户已达154万，日消耗Token约... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=DeepSeek+Harness%E5%AE%98%E5%AE%A3%E6%97%A5%E6%B4%BB%E8%BE%BE154%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 49,
+      "hot_index": 3308087,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 49
+      },
+      "topic": "人工智能",
+      "score": 68,
+      "recommended_title": "DeepSeek Harness官宣日活达154万刷屏之后：Nature研究正在回答哪些关键问题？",
+      "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02566-6",
+      "main_paper_title": "Generative AI and the temporary upskilling of knowledge workers",
+      "related_papers": [
         {
           "id": "0dd07ed1e0c4d641",
           "title": "Generative AI and the temporary upskilling of knowledge workers",
@@ -510,9 +488,29 @@
           "summary": "This randomized trial by Wiles et al. shows that generative AI helps knowledge workers perform data science tasks outside their skill set, but workers do not retain the underlying knowledge when the tool is removed.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
           "match_score": 24
+        },
+        {
+          "id": "c45ea6fd5b919bff",
+          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02611-4",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
+          "match_score": 29
+        },
+        {
+          "id": "b3cf93a81d00c298",
+          "title": "An AI-native experimental laboratory for autonomous biomolecular operations",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11228-6",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "AutoDNA is an artificial intelligence (AI)-native autonomous biomolecular engineering laboratory targeting multi-objective experiments across diverse instruments, realizing the co-evolution of AI and the automation system within an end-to-end multi-user framework.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11228-6/MediaObjects/41586_2026_11228_Fig2_HTML.png?as=webp",
+          "match_score": 28
         }
       ],
-      "updated_at": "2026-11-05T18:08:59.565294+00:00"
+      "updated_at": "2026-11-05T23:47:20.082773+00:00"
     }
   ],
   "items": [
@@ -561,7 +559,7 @@
       "url": "https://news.aibase.com/zh/news/32105",
       "published_at": "2026-11-05T18:05:03.224158+00:00",
       "detected_at": "2026-11-05T18:05:03.224163+00:00",
-      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 5 小时前 10.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产...",
       "image_url": "https://upload.chinaz.com/2026/1105/6392947165206324301600225.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -579,7 +577,7 @@
       "url": "https://news.aibase.com/zh/news/32107",
       "published_at": "2026-11-05T18:05:03.220796+00:00",
       "detected_at": "2026-11-05T18:05:03.220801+00:00",
-      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 5 小时前 10.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产...",
       "image_url": "https://upload.chinaz.com/2026/1105/6392947311887851267916285.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -597,7 +595,7 @@
       "url": "https://news.aibase.com/zh/news/32109",
       "published_at": "2026-11-05T18:05:03.217315+00:00",
       "detected_at": "2026-11-05T18:05:03.217321+00:00",
-      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 5 小时前 10.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产...",
       "image_url": "https://upload.chinaz.com/2026/1105/6392947372512760199411943.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -615,7 +613,7 @@
       "url": "https://news.aibase.com/zh/news/32112",
       "published_at": "2026-11-05T18:05:03.212155+00:00",
       "detected_at": "2026-11-05T18:05:03.212161+00:00",
-      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 5 小时前 10.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产...",
       "image_url": "https://upload.chinaz.com/2026/1105/6392947532149370154125113.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -633,7 +631,7 @@
       "url": "https://news.aibase.com/zh/news/32115",
       "published_at": "2026-11-05T18:05:03.206995+00:00",
       "detected_at": "2026-11-05T18:05:03.207001+00:00",
-      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 5 小时前 10.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产...",
       "image_url": "https://upload.chinaz.com/2026/1105/6392948331475343763874708.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -651,7 +649,7 @@
       "url": "https://news.aibase.com/zh/news/32116",
       "published_at": "2026-11-05T18:05:03.205202+00:00",
       "detected_at": "2026-11-05T18:05:03.205208+00:00",
-      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 5 小时前 10.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产...",
       "image_url": "https://upload.chinaz.com/2026/1105/6392948543377094502691690.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -669,7 +667,7 @@
       "url": "https://news.aibase.com/zh/news/32118",
       "published_at": "2026-11-05T18:05:03.201839+00:00",
       "detected_at": "2026-11-05T18:05:03.201845+00:00",
-      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 5 小时前 10.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产...",
       "image_url": "https://upload.chinaz.com/2026/1105/6392948997404927414541710.jpg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -705,7 +703,7 @@
       "url": "https://www.qbitai.com/2026/11/507823.html",
       "published_at": "2026-11-05T09:53:54.410989+00:00",
       "detected_at": "2026-11-05T09:53:54.410994+00:00",
-      "summary": "拼多多让年轻人造草莓工厂，170天后“答案”熟了 拼多多把农创赛搬出了PPT。 程浅 8小时前 多多农研科技大赛 拼多多",
+      "summary": "拼多多让年轻人造草莓工厂，170天后“答案”熟了 拼多多把农创赛搬出了PPT。 程浅 14小时前 多多农研科技大赛 拼多多",
       "image_url": "https://www.qbitai.com/wp-content/uploads/2026/11/17ae6929311c76ae0df617f06d989b21-768x498.jpeg",
       "image_method": "body-validated",
       "image_rule_version": 13,
