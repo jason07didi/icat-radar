@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-05T09:57:33.181663+00:00",
+  "updated_at": "2026-11-05T18:09:07.810411+00:00",
   "count": 500,
-  "hotspot_count": 5,
-  "breakthrough_count": 134,
+  "hotspot_count": 9,
+  "breakthrough_count": 132,
   "category_counts": {
     "AI变现": 170,
-    "提效工具": 75,
-    "前沿动态": 38
+    "提效工具": 77,
+    "前沿动态": 36
   },
   "source_counts": {
     "Scientific Data": 199,
@@ -14,78 +14,25 @@
   },
   "hotspots": [
     {
-      "id": "73af48ebf2cf786a",
-      "title": "杨坤谈抑郁症躯体化：心脏像灌了水泥",
-      "summary": "近日，歌手杨坤在访谈节目中透露自己与抑郁症抗争20年的经历。他表示，病情最严重阶段，他的躯体化反应极为强烈：举杠铃时手臂... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%9D%A8%E5%9D%A4%E8%B0%88%E6%8A%91%E9%83%81%E7%97%87%E8%BA%AF%E4%BD%93%E5%8C%96%EF%BC%9A%E5%BF%83%E8%84%8F%E5%83%8F%E7%81%8C%E4%BA%86%E6%B0%B4%E6%B3%A5&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 10,
-      "hot_index": 7048801,
-      "platform": "百度热搜",
+      "id": "ed01d5f8750cb544",
+      "title": "医院给67岁患者输过期生理盐水",
+      "summary": "11月4日，四川省交通医院回应称，为67岁老人输入过期生理盐水确系工作疏忽。此前，老人在该院做完脂肪瘤切除术后输液，家属... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%BB%E9%99%A2%E7%BB%9967%E5%B2%81%E6%82%A3%E8%80%85%E8%BE%93%E8%BF%87%E6%9C%9F%E7%94%9F%E7%90%86%E7%9B%90%E6%B0%B4&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 8,
+      "hot_index": 6082913,
+      "platform": "百度民生",
       "platforms": [
+        "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 10
+        "百度民生": 8,
+        "百度热搜": 20
       },
       "topic": "健康医学",
-      "score": 97,
-      "recommended_title": "杨坤谈抑郁症躯体化：心脏像灌了水泥为什么值得关注？从Nature研究看真正的科学证据",
+      "score": 98,
+      "recommended_title": "医院给67岁患者输过期生理盐水为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00516-x",
-      "main_paper_title": "Depression risk associated with idealized sentiment toward urban places on social media",
-      "related_papers": [
-        {
-          "id": "86169746c0e8f177",
-          "title": "Depression risk associated with idealized sentiment toward urban places on social media",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00516-x",
-          "published_at": "2026-11-05T09:57:22.150308+00:00",
-          "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
-          "match_score": 52
-        },
-        {
-          "id": "b08f3a5595a47d30",
-          "title": "Maternal mental health liveability shaped by composite residential environmental profiles",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00534-9",
-          "published_at": "2026-11-02T00:00:00+00:00",
-          "summary": "In a cohort of 216,000+ pregnant women across China, air pollution and heat were linked to higher risks of prenatal mental distress, while nearby green space was protective. Urban greening could support maternal mental health and healthier cities.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00534-9/MediaObjects/44284_2026_534_Fig1_HTML.png?as=webp",
-          "match_score": 44
-        },
-        {
-          "id": "f05681e70574e32a",
-          "title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04745-4",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "In a nonrandomized phase 2 trial, patients with resectable non-small cell lung cancer received perioperative ivonescimab as monotherapy or with chemotherapy, leading to encouraging pathological response rates in both cohorts, and sustained circulating tumor DNA negativity thro...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
-          "match_score": 43
-        }
-      ],
-      "updated_at": "2026-11-05T09:57:28.601675+00:00"
-    },
-    {
-      "id": "3826a3bff0b8939e",
-      "title": "发错骨灰殡仪馆馆长被免职",
-      "summary": "近日，安徽明光市通报殡仪馆发错骨灰事件处置结果。经查系工作人员未认真核对导致，市殡仪馆当即组织换回并道歉，现已就赔偿达成... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8F%91%E9%94%99%E9%AA%A8%E7%81%B0%E6%AE%A1%E4%BB%AA%E9%A6%86%E9%A6%86%E9%95%BF%E8%A2%AB%E5%85%8D%E8%81%8C&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 24,
-      "hot_index": 5706943,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 24
-      },
-      "topic": "城市社会",
-      "score": 86,
-      "recommended_title": "发错骨灰殡仪馆馆长被免职背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
       "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-025-05745-8/MediaObjects/41597_2025_5745_Fig1_HTML.png",
       "main_paper_url": "https://www.nature.com/articles/s41597-026-08558-5",
       "main_paper_title": "China’s Public Livelihood Concern Index for Education, Employment and Healthcare (2011–2023)",
@@ -98,48 +45,217 @@
           "published_at": "2026-10-31T00:00:00+00:00",
           "summary": "We release a 2011–2023 panel dataset of public livelihood concern indices derived from messages submitted to China’s Leadership Message Board. Annual observations cover national, provincial, and prefectural levels and three domains: education, employment, and healthcare. The d...",
           "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41597-025-05745-8/MediaObjects/41597_2025_5745_Fig1_HTML.png",
-          "match_score": 45
+          "match_score": 51
         },
         {
-          "id": "c0c8ded620e6a3e8",
-          "title": "The spatial reach of mobility interactions in urban systems",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00531-y",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-          "match_score": 44
+          "id": "f05681e70574e32a",
+          "title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04745-4",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "In a nonrandomized phase 2 trial, patients with resectable non-small cell lung cancer received perioperative ivonescimab as monotherapy or with chemotherapy, leading to encouraging pathological response rates in both cohorts, and sustained circulating tumor DNA negativity thro...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
+          "match_score": 43
         },
         {
-          "id": "7da237ab0a90cd0e",
-          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02610-5",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-          "match_score": 42
+          "id": "6b27790d0eb9ca71",
+          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04734-7",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+          "match_score": 40
         }
       ],
-      "updated_at": "2026-11-05T09:57:28.605778+00:00"
+      "updated_at": "2026-11-05T18:08:59.545616+00:00"
     },
     {
-      "id": "ea85978d87e6f28a",
-      "title": "王菲一阵《季候风》把全网吹回老歌时代",
-      "summary": "近日，盆栽哥采样王菲《季候风》引发全网回忆。众多老歌如《我不难过》《大花轿》等，通过短视频翻唱、编舞挑战、AI改编及热梗... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%8E%8B%E8%8F%B2%E4%B8%80%E9%98%B5%E3%80%8A%E5%AD%A3%E5%80%99%E9%A3%8E%E3%80%8B%E6%8A%8A%E5%85%A8%E7%BD%91%E5%90%B9%E5%9B%9E%E8%80%81%E6%AD%8C%E6%97%B6%E4%BB%A3&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 30,
-      "hot_index": 5128872,
+      "id": "46c3029797da8e10",
+      "title": "多名医生涉论文造假 国家卫健委通报",
+      "summary": "近日，国家卫健委通报第六批涉“论文工厂”科研失信案件，涉及多家医院及医学院校，多名医生被查出购买论文、伪造实验数据、委托... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%A4%9A%E5%90%8D%E5%8C%BB%E7%94%9F%E6%B6%89%E8%AE%BA%E6%96%87%E9%80%A0%E5%81%87+%E5%9B%BD%E5%AE%B6%E5%8D%AB%E5%81%A5%E5%A7%94%E9%80%9A%E6%8A%A5&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 9,
+      "hot_index": 5598687,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 9,
+        "百度热搜": 25
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "多名医生涉论文造假 国家卫健委通报为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04745-4",
+      "main_paper_title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
+      "related_papers": [
+        {
+          "id": "f05681e70574e32a",
+          "title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04745-4",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "In a nonrandomized phase 2 trial, patients with resectable non-small cell lung cancer received perioperative ivonescimab as monotherapy or with chemotherapy, leading to encouraging pathological response rates in both cohorts, and sustained circulating tumor DNA negativity thro...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
+          "match_score": 43
+        },
+        {
+          "id": "d5f32c6134d6c8dc",
+          "title": "Bispecific dual T cell agonist invikafusp alfa in solid tumors: the phase 1/2 START-001 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04711-0",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the European Society for Medical Oncology Congress 2026, in a phase 1/2 trial in participants with solid tumors, invika, a first-in-class bispecific agonistic antibody that selectively targets the prevalent Vβ6/Vβ10 T cell subsets, was well tolerated, enabling...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04711-0/MediaObjects/41591_2026_4711_Fig1_HTML.png?as=webp",
+          "match_score": 38
+        },
+        {
+          "id": "5545753797288b91",
+          "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04744-5",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "summary": "Fecal shotgun metagenomics from 6,803 adults in the Japanese 4D cohort and microbiome-based prediction scores validated across 13 independent and geographically diverse cohorts revealed two opposing microbiome-mediated axes linking lifestyle to health and 15 diseases.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04744-5/MediaObjects/41591_2026_4744_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-11-05T18:08:59.549789+00:00"
+    },
+    {
+      "id": "42025f3a9318e3c0",
+      "title": "老人试药次日半身瘫痪 医院：系巧合",
+      "summary": "近日，陕西一名68岁老人参与新药试验，注射次日突发脑梗，导致半身瘫痪。医院称紧急揭盲确认老人使用的是安慰剂，病情与试验药... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%80%81%E4%BA%BA%E8%AF%95%E8%8D%AF%E6%AC%A1%E6%97%A5%E5%8D%8A%E8%BA%AB%E7%98%AB%E7%97%AA+%E5%8C%BB%E9%99%A2%EF%BC%9A%E7%B3%BB%E5%B7%A7%E5%90%88&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 10,
+      "hot_index": 5327598,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 10,
+        "百度热搜": 28
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "老人试药次日半身瘫痪 医院：系巧合为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04734-7",
+      "main_paper_title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+      "related_papers": [
+        {
+          "id": "6b27790d0eb9ca71",
+          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04734-7",
+          "published_at": "2026-10-23T00:00:00+00:00",
+          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
+          "match_score": 40
+        },
+        {
+          "id": "4ef25f4ab95b8c84",
+          "title": "Regulatable membrane-bound IL-15 engineered TIL cell therapy for immune checkpoint inhibitor-resistant advanced melanoma: pooled analysis of phase 1 and 1/2 trials",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04743-6",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "summary": "As presented at the Society for Immunotherapy of Cancer 2026 Annual Meeting, in a non-prespecified pooled analysis of two trials, amsokigene autoleucel, an autologous tumor-infiltrating lymphocyte therapy engineered to eliminate the need for IL-2, was successfully manufactured...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04743-6/MediaObjects/41591_2026_4743_Fig2_HTML.png?as=webp",
+          "match_score": 35
+        },
+        {
+          "id": "c5715ea08eca2632",
+          "title": "Global, regional and national burden of cervical cancer in 1990–2023 with forecasts to 2050: a Global Burden of Disease study",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04729-4",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "summary": "Analyses of the Global Burden of Disease study reported 887,000 new cases and 369,000 deaths from cervical cancer worldwide in 2023, which are forecasted to rise by 2050.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04729-4/MediaObjects/41591_2026_4729_Fig1_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-11-05T18:08:59.553926+00:00"
+    },
+    {
+      "id": "6fa8f90ad61e959e",
+      "title": "美股存储板块大跌 闪迪跌超17%",
+      "summary": "11月5日消息，美股存储板块持续遭遇抛售，费城半导体指数跌8.31%。个股方面，闪迪跌幅扩大至17.09%，铠侠ADR跌... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E5%AD%98%E5%82%A8%E6%9D%BF%E5%9D%97%E5%A4%A7%E8%B7%8C+%E9%97%AA%E8%BF%AA%E8%B7%8C%E8%B6%8517%25&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 15,
+      "hot_index": 6559005,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 30
+        "百度热搜": 15
+      },
+      "topic": "前沿科技",
+      "score": 93,
+      "recommended_title": "美股存储板块大跌 闪迪跌超17%意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11226-8/MediaObjects/41586_2026_11226_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11226-8",
+      "main_paper_title": "Conjugation-regulated self-assembled molecules for tandem solar cells",
+      "related_papers": [
+        {
+          "id": "4061b3f528c22fc5",
+          "title": "Conjugation-regulated self-assembled molecules for tandem solar cells",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11226-8",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "Rationally engineered molecular spatial conjugation is used for the formation of highly ordered, conformal self-assembled molecules, enabling the fabrication of high-performance perovskite/silicon tandem solar cells.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11226-8/MediaObjects/41586_2026_11226_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "dc690a0dd505e094",
+          "title": "Observation of prethermal dynamical phase transitions and resonant melting",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11225-9",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "A programmable neutral-atom quantum simulator is used to explore quench dynamics in spin models with up to 180 qubits, revealing prethermal dynamical phase transitions and resonant melting.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11225-9/MediaObjects/41586_2026_11225_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "6d4c600fd67df730",
+          "title": "Hard X-ray attosecond metrology",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11245-5",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "Metrology techniques are developed to characterize and control attosecond hard X-ray pulses, directly measuring a 170-attosecond duration and enabling ultrafast studies of electronic dynamics in quantum systems.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11245-5/MediaObjects/41586_2026_11245_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        }
+      ],
+      "updated_at": "2026-11-05T18:08:59.555225+00:00"
+    },
+    {
+      "id": "b7383ccf2a99a8da",
+      "title": "全球首个仿生人形机器人新闻主播发布",
+      "summary": "11月5日，在第七届世界媒体峰会人工智能与中国式现代化论坛上，全球首个仿生人形机器人新闻主播正式亮相。 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E4%BB%BF%E7%94%9F%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%96%B0%E9%97%BB%E4%B8%BB%E6%92%AD%E5%8F%91%E5%B8%83&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 22,
+      "hot_index": 5893679,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 22
       },
       "topic": "人工智能",
-      "score": 81,
-      "recommended_title": "王菲一阵《季候风》把全网吹回老歌时代刷屏之后：Nature研究正在回答哪些关键问题？",
+      "score": 87,
+      "recommended_title": "全球首个仿生人形机器人新闻主播发布刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02611-4",
@@ -166,40 +282,160 @@
           "match_score": 28
         },
         {
-          "id": "0dd07ed1e0c4d641",
-          "title": "Generative AI and the temporary upskilling of knowledge workers",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02566-6",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "This randomized trial by Wiles et al. shows that generative AI helps knowledge workers perform data science tasks outside their skill set, but workers do not retain the underlying knowledge when the tool is removed.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02566-6/MediaObjects/41562_2026_2566_Fig2_HTML.png?as=webp",
-          "match_score": 24
+          "id": "202432e6684d4d4f",
+          "title": "Effective enzyme engineering through modeling kinetic parameter changes upon mutations with geometric deep learning",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-79287-x",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "summary": "Predicting how mutations affect enzyme catalytic efficiency remains challenging. Here the authors build a benchmark dataset and develop DeltaCata, a geometric deep learning model that predicts changes in enzyme kinetics and guides enzyme engineering.",
+          "image_url": "",
+          "match_score": 25
         }
       ],
-      "updated_at": "2026-11-05T09:57:28.606797+00:00"
+      "updated_at": "2026-11-05T18:08:59.556451+00:00"
     },
     {
-      "id": "bbc932d1c192080b",
-      "title": "把手机掉在沙漠 一个月后失而复得",
-      "summary": "9月16日，新疆塔里木大学新生马钟达军训徒步时，在沙漠不慎遗失存有大量珍贵影像的手机，本不抱找回希望。一个多月后，台州援... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%8A%8A%E6%89%8B%E6%9C%BA%E6%8E%89%E5%9C%A8%E6%B2%99%E6%BC%A0+%E4%B8%80%E4%B8%AA%E6%9C%88%E5%90%8E%E5%A4%B1%E8%80%8C%E5%A4%8D%E5%BE%97&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 32,
-      "hot_index": 4949844,
+      "id": "3301db770ae7417f",
+      "title": "河南开展新能源汽车下乡活动",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E5%BC%80%E5%B1%95%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E4%B8%8B%E4%B9%A1%E6%B4%BB%E5%8A%A8&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 26,
+      "hot_index": 901704,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 26
+      },
+      "topic": "前沿科技",
+      "score": 82,
+      "recommended_title": "河南开展新能源汽车下乡活动意味着什么？Nature研究中的技术路线与现实边界",
+      "angle": "从技术突破或产业热点切入，结合Nature论文解释关键技术路线、性能提升以及距离实际应用还有多远。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11225-9/MediaObjects/41586_2026_11225_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41586-026-11225-9",
+      "main_paper_title": "Observation of prethermal dynamical phase transitions and resonant melting",
+      "related_papers": [
+        {
+          "id": "dc690a0dd505e094",
+          "title": "Observation of prethermal dynamical phase transitions and resonant melting",
+          "source": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-11225-9",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "A programmable neutral-atom quantum simulator is used to explore quench dynamics in spin models with up to 180 qubits, revealing prethermal dynamical phase transitions and resonant melting.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11225-9/MediaObjects/41586_2026_11225_Fig1_HTML.png?as=webp",
+          "match_score": 28
+        },
+        {
+          "id": "e944aee080af09a4",
+          "title": "Flash energy droughts in solar and wind resources under climate change",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02753-3",
+          "published_at": "2026-11-05T18:08:51.057779+00:00",
+          "summary": "Flash energy droughts, rapid drops followed by sustained low wind and solar production, could pose potential challenges to power system operations. Here researchers find that climate change may intensify such events across wind, solar and compound forms.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02753-3/MediaObjects/41558_2026_2753_Fig1_HTML.png?as=webp",
+          "match_score": 27
+        },
+        {
+          "id": "e68f679ddb0ff84c",
+          "title": "Electrolyte-dependent physico-chemical interfacial kinetics shape degradation pathways and lifetime in lithium-ion batteries",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-79025-3",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "summary": "Electrolytes shape battery ageing, yet continuum models often describe them mainly through transport. Here, the authors combine custom cells, gas/surface analysis and physics-based modelling to identify interfacial degradation as a missing modelling dimension for lifetime pred...",
+          "image_url": "",
+          "match_score": 25
+        }
+      ],
+      "updated_at": "2026-11-05T18:08:59.557727+00:00"
+    },
+    {
+      "id": "efbe9bfd75822b14",
+      "title": "水利部称明年长江流域有洪水风险",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E6%B0%B4%E5%88%A9%E9%83%A8%E7%A7%B0%E6%98%8E%E5%B9%B4%E9%95%BF%E6%B1%9F%E6%B5%81%E5%9F%9F%E6%9C%89%E6%B4%AA%E6%B0%B4%E9%A3%8E%E9%99%A9&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 29,
+      "hot_index": 424284,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 29
+      },
+      "topic": "气候环境",
+      "score": 79,
+      "recommended_title": "水利部称明年长江流域有洪水风险背后：Nature研究揭示了怎样的风险链条？",
+      "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41558-026-02767-x",
+      "main_paper_title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
+      "related_papers": [
+        {
+          "id": "c3447ba973a80d2c",
+          "title": "Increased southward swings of the South Indian convergence zone under greenhouse warming",
+          "source": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02767-x",
+          "published_at": "2026-10-20T00:00:00+00:00",
+          "summary": "Extreme southward swings of the South Indian convergence zone can lead to severe rainfall and flooding in southern Africa. Here the authors show that climate change leads to an increase in the frequency and intensity of such swings.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
+          "match_score": 67
+        },
+        {
+          "id": "84e8211174a6c91b",
+          "title": "Reduced flood-related bacillary dysentery risk with sponge city development in China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00514-z",
+          "published_at": "2026-11-05T18:08:53.325327+00:00",
+          "summary": "Flooding exacerbates bacillary dysentery risks, particularly among vulnerable groups. Analysis of 4.2 million cases in China utilized case-crossover and quasi-experimental methods, revealing a 12.2% risk reduction post-sponge city development, especially in areas with weaker i...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00514-z/MediaObjects/44284_2026_514_Fig1_HTML.png?as=webp",
+          "match_score": 52
+        },
+        {
+          "id": "b47d272d07074fac",
+          "title": "Panel data on mobility, socio-economic, and political impacts of riverbank erosion and flooding in Bangladesh",
+          "source": "Scientific Data",
+          "url": "https://www.nature.com/articles/s41597-026-08511-6",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "summary": "We present the Bangladesh Environmental Mobility Panel (BEMP), a household panel along Bangladesh’s Jamuna River that traces the impacts of riverbank erosion and flooding on (im)mobility, including short- and long-distance movements, socio-economic outcomes, and political atti...",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs44168-025-00306-6/MediaObjects/44168_2025_306_Fig1_HTML.png",
+          "match_score": 49
+        }
+      ],
+      "updated_at": "2026-11-05T18:08:59.559731+00:00"
+    },
+    {
+      "id": "7b712b8fdd8015c7",
+      "title": "“不必给张雪招聘强加上傲慢标签”",
+      "summary": "近日，张雪在重庆大学校招因10万元起薪被指低于预期。接着其以“老员工十年逆袭”案例强调成长空间，被批“错位的傲慢”。媒体... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E2%80%9C%E4%B8%8D%E5%BF%85%E7%BB%99%E5%BC%A0%E9%9B%AA%E6%8B%9B%E8%81%98%E5%BC%BA%E5%8A%A0%E4%B8%8A%E5%82%B2%E6%85%A2%E6%A0%87%E7%AD%BE%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 33,
+      "hot_index": 4850268,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 32
+        "百度热搜": 33
       },
       "topic": "城市社会",
       "score": 79,
-      "recommended_title": "把手机掉在沙漠 一个月后失而复得背后，Nature研究如何解释正在发生的社会变化？",
+      "recommended_title": "“不必给张雪招聘强加上傲慢标签”背后，Nature研究如何解释正在发生的社会变化？",
       "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
-      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02610-5",
+      "main_paper_title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
       "related_papers": [
+        {
+          "id": "7da237ab0a90cd0e",
+          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02610-5",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
+          "match_score": 56
+        },
         {
           "id": "c0c8ded620e6a3e8",
           "title": "The spatial reach of mobility interactions in urban systems",
@@ -219,37 +455,27 @@
           "summary": "Lou et al. find that eligibility for preprimary education is linked to more gender-equitable attitudes, greater empowerment and reproductive autonomy, and lower levels of adolescent marriage and childbearing across low- and middle-income countries.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02583-5/MediaObjects/41562_2026_2583_Fig1_HTML.png",
           "match_score": 41
-        },
-        {
-          "id": "a79a68514f163b84",
-          "title": "Nested economies of scale in global city mass",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00532-x",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
-          "match_score": 39
         }
       ],
-      "updated_at": "2026-11-05T09:57:28.610852+00:00"
+      "updated_at": "2026-11-05T18:08:59.564063+00:00"
     },
     {
-      "id": "9dcee17a0a443099",
-      "title": "《嫁金钗》忘删AI水印背后的真问题",
-      "summary": "截至目前，《嫁金钗》剧方尚未就正片残留AI水印一事作出正式回应。该剧大结局播出后，画面残留AI水印引发热议，有评论认为，... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E5%AB%81%E9%87%91%E9%92%97%E3%80%8B%E5%BF%98%E5%88%A0AI%E6%B0%B4%E5%8D%B0%E8%83%8C%E5%90%8E%E7%9A%84%E7%9C%9F%E9%97%AE%E9%A2%98&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 48,
-      "hot_index": 3398427,
+      "id": "a6c42f41dfc8c829",
+      "title": "DeepSeek Harness官宣日活达154万",
+      "summary": "11月5日晚，DeepSeek Harness团队发文透露，截至11月4日，其日活跃用户已达154万，日消耗Token约... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=DeepSeek+Harness%E5%AE%98%E5%AE%A3%E6%97%A5%E6%B4%BB%E8%BE%BE154%E4%B8%87&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 51,
+      "hot_index": 3140662,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 48
+        "百度热搜": 51
       },
       "topic": "人工智能",
-      "score": 68,
-      "recommended_title": "《嫁金钗》忘删AI水印背后的真问题刷屏之后：Nature研究正在回答哪些关键问题？",
+      "score": 67,
+      "recommended_title": "DeepSeek Harness官宣日活达154万刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41586-026-11228-6/MediaObjects/41586_2026_11228_Fig2_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41586-026-11228-6",
@@ -266,14 +492,14 @@
           "match_score": 28
         },
         {
-          "id": "c45ea6fd5b919bff",
-          "title": "Simulated responses from large language models are weak proxies for human economic preferences across 74 countries",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02611-4",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Simulating a global survey of economic preferences across 74 countries, this study shows that large language models reproduce some demographic patterns in human preferences but fail to capture cultural differences, especially in lower-income countries.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
-          "match_score": 29
+          "id": "27af7c6c42fc787c",
+          "title": "A language model-informed minimalistic design of functional coacervate vesicles",
+          "source": "Nature Communications",
+          "url": "https://www.nature.com/articles/s41467-026-78912-z",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "summary": "The study presents a protein language model guided design of minimal coacervate vesicles that are composed entirely of oligomeric biomolecules, with functions programmable through oligopeptide sequences.",
+          "image_url": "",
+          "match_score": 25
         },
         {
           "id": "0dd07ed1e0c4d641",
@@ -286,10 +512,172 @@
           "match_score": 24
         }
       ],
-      "updated_at": "2026-11-05T09:57:28.611862+00:00"
+      "updated_at": "2026-11-05T18:08:59.565294+00:00"
     }
   ],
   "items": [
+    {
+      "id": "a8bcb2ee8633bd16",
+      "title": "施一公团队新发现：水稻蛋白能“凭空”造出RNA",
+      "display_title": "施一公团队新发现：水稻蛋白能“凭空”造出RNA",
+      "source": "科技日报",
+      "category": "前沿动态",
+      "url": "https://www.stdaily.com/web/gdxw/2026-10/29/content_604895.html",
+      "published_at": "2026-11-05T18:05:13.171769+00:00",
+      "detected_at": "2026-11-05T18:05:13.171781+00:00",
+      "summary": "长期以来，教科书上通常认为：合成RNA，要么照模板“抄”，要么接在现成的RNA上往下续。西湖大学施一公团队却在体外实验中发现，水稻蛋白OsNTP4不用模板、不用引物，光靠4种核苷酸，就能自动合成主要长度为50—300个核苷酸的RNA链。为排除杂质干扰，团队用质谱检测、酶解切碎、结晶反复洗涤等方法，经过多轮验证才把结论钉死。更关键的是，水稻OsNTP10、拟南芥AtURT1也具备同样能力——这可能是一整类植物蛋白的隐藏技能。成果已发表于《Vita》。",
+      "image_url": "https://statics.kjrb.com.cn/resource/kjw/images/pinglun.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "ade3ba46ab8ed249",
+      "title": "IvyCraft：把 PDF、论文和网页变成 PPT、信息图、播客和视频",
+      "display_title": "IvyCraft：把 PDF、论文和网页变成 PPT、信息图、播客和视频",
+      "source": "小众软件",
+      "category": "提效工具",
+      "url": "https://www.appinn.com/ivycraft/",
+      "published_at": "2026-11-05T18:05:09.099493+00:00",
+      "detected_at": "2026-11-05T18:05:09.099498+00:00",
+      "summary": "IvyCraft：把 PDF、论文和网页变成 PPT、信息图、播客和视频 AI",
+      "image_url": "https://www.appinn.com/wp-content/uploads/2026/09/20260928172257_120_3690.jpg",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "a35ab6c3e94406c2",
+      "title": "灵光2.0上线一周托管超116万项事务，用户突破2000万 11月5日，蚂蚁集团AI助手灵光公布数据：灵光2.0自10月27日上线一周内，已帮用户管理超116万项事务，执行超360万次任务，用户突破2000万。",
+      "display_title": "灵光2.0上线一周托管超116万项事务，用户突破2000万 11月5日，蚂蚁集团AI助手灵光公布数据：灵光2.0自10月27日上线一周内，已帮用户管理超116万项事务，执行超360万次任务，用户突破2000万。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32105",
+      "published_at": "2026-11-05T18:05:03.224158+00:00",
+      "detected_at": "2026-11-05T18:05:03.224163+00:00",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "image_url": "https://upload.chinaz.com/2026/1105/6392947165206324301600225.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "f5ff230487c5fc52",
+      "title": "国产RNA生物大模型重大突破：中国科大团队研发 structRFM 登上《自然》并全面开源 中国科学技术大学研究团队在生命科学与AI交叉领域取得突破，推出开源RNA序列基础模型structRFM，成果发表于《自然》。",
+      "display_title": "国产RNA生物大模型重大突破：中国科大团队研发 structRFM 登上《自然》并全面开源 中国科学技术大学研究团队在生命科学与AI交叉领域取得突破，推出开源RNA序列基础模型structRFM，成果发表于《自然》。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32107",
+      "published_at": "2026-11-05T18:05:03.220796+00:00",
+      "detected_at": "2026-11-05T18:05:03.220801+00:00",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "image_url": "https://upload.chinaz.com/2026/1105/6392947311887851267916285.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "cfb7b98fe523f764",
+      "title": "可灵 AI 宣布 Kling 4.0 Flash 全面开放，深度融入专业影视工作流 人工智能视频生成领域迎重要进展。",
+      "display_title": "可灵 AI 宣布 Kling 4.0 Flash 全面开放，深度融入专业影视工作流 人工智能视频生成领域迎重要进展。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32109",
+      "published_at": "2026-11-05T18:05:03.217315+00:00",
+      "detected_at": "2026-11-05T18:05:03.217321+00:00",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "image_url": "https://upload.chinaz.com/2026/1105/6392947372512760199411943.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "5958e9c318947295",
+      "title": "Kimi Hosted Agents 发布:Harness 运行时转向云端托管 11月5日，Kimi开放平台发布Kimi Hosted Agents（托管智能体），以Harness as a Service提供云端运行框架。",
+      "display_title": "Kimi Hosted Agents 发布:Harness 运行时转向云端托管 11月5日，Kimi开放平台发布Kimi Hosted Agents（托管智能体），以Harness as a Service提供云端运行框架。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32112",
+      "published_at": "2026-11-05T18:05:03.212155+00:00",
+      "detected_at": "2026-11-05T18:05:03.212161+00:00",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "image_url": "https://upload.chinaz.com/2026/1105/6392947532149370154125113.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "f317a68bee412bff",
+      "title": "千问AI Office升级端内编辑与模板能力，Word、Excel、PPT均可按需修改 11月5日，千问AI Office升级端内编辑与自定义模板能力，覆盖Word、Excel、PPT。",
+      "display_title": "千问AI Office升级端内编辑与模板能力，Word、Excel、PPT均可按需修改 11月5日，千问AI Office升级端内编辑与自定义模板能力，覆盖Word、Excel、PPT。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32115",
+      "published_at": "2026-11-05T18:05:03.206995+00:00",
+      "detected_at": "2026-11-05T18:05:03.207001+00:00",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "image_url": "https://upload.chinaz.com/2026/1105/6392948331475343763874708.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "4c7f24c1f2f7776a",
+      "title": "从\"能画\"到\"能改\"：OpenAI 用 Images 2.6 补齐生图工作流 OpenAI披露，全球用户每周通过ChatGPT、Codex和API生成图片达40亿张，日均超5亿张。",
+      "display_title": "从\"能画\"到\"能改\"：OpenAI 用 Images 2.6 补齐生图工作流 OpenAI披露，全球用户每周通过ChatGPT、Codex和API生成图片达40亿张，日均超5亿张。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32116",
+      "published_at": "2026-11-05T18:05:03.205202+00:00",
+      "detected_at": "2026-11-05T18:05:03.205208+00:00",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "image_url": "https://upload.chinaz.com/2026/1105/6392948543377094502691690.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "cd5bc924e442b2c2",
+      "title": "百度开源2800亿参数文心5.5Flash Base，多项基准测试刷新同尺寸SOTA",
+      "display_title": "百度开源2800亿参数文心5.5Flash Base，多项基准测试刷新同尺寸SOTA",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32118",
+      "published_at": "2026-11-05T18:05:03.201839+00:00",
+      "detected_at": "2026-11-05T18:05:03.201845+00:00",
+      "summary": "AI 帮用户成功“越狱”跑步机：Claude 轻松干掉 iFIT 订阅墙，大屏幕秒变自由流媒体 海外网友在Reddit分享，借AI编程工具Claude Code对NordicTrack Commercial2250跑步机“越狱”，绕过iFIT强制订阅限制，把10英寸封闭大屏改造成可自由使用的流媒体娱乐界面。这台跑步机原为女友购买，改造耗时约一天半，解决订阅墙烦恼。 1 分钟前 9.2K Claude Code 造星操盘手被挖：OpenAI 拿下 Cat Wu OpenAI挖来前Claude Code产品负责人Cat Wu。她宣布加盟，任核心产品产品...",
+      "image_url": "https://upload.chinaz.com/2026/1105/6392948997404927414541710.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "4f0fbeb6261c8dc7",
       "title": "声子热霍尔效应机制研究取得突破，华科大团队成...",
@@ -317,7 +705,7 @@
       "url": "https://www.qbitai.com/2026/11/507823.html",
       "published_at": "2026-11-05T09:53:54.410989+00:00",
       "detected_at": "2026-11-05T09:53:54.410994+00:00",
-      "summary": "拼多多让年轻人造草莓工厂，170天后“答案”熟了 拼多多把农创赛搬出了PPT。 程浅 48分钟前 多多农研科技大赛 拼多多",
+      "summary": "拼多多让年轻人造草莓工厂，170天后“答案”熟了 拼多多把农创赛搬出了PPT。 程浅 8小时前 多多农研科技大赛 拼多多",
       "image_url": "https://www.qbitai.com/wp-content/uploads/2026/11/17ae6929311c76ae0df617f06d989b21-768x498.jpeg",
       "image_method": "body-validated",
       "image_rule_version": 13,
@@ -342,132 +730,6 @@
       "priority": "B",
       "language": "zh",
       "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "a35ab6c3e94406c2",
-      "title": "灵光2.0上线一周托管超116万项事务，用户突破2000万 11月5日，蚂蚁集团AI助手灵光公布数据：灵光2.0自10月27日上线一周内，已帮用户管理超116万项事务，执行超360万次任务，用户突破2000万。",
-      "display_title": "灵光2.0上线一周托管超116万项事务，用户突破2000万 11月5日，蚂蚁集团AI助手灵光公布数据：灵光2.0自10月27日上线一周内，已帮用户管理超116万项事务，执行超360万次任务，用户突破2000万。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32105",
-      "published_at": "2026-11-05T09:53:41.196915+00:00",
-      "detected_at": "2026-11-05T09:53:41.196921+00:00",
-      "summary": "研发超级 AI 或判 20 年：美国民主党抛出最严封杀令 美国民主党提出《禁止人工超级智能法案》草案，拟全面封杀超级AI研发与部署。罚则严厉：涉案企业将被强制解散，违规个人最高面临20年联邦监禁，量刑明确对标“非法研发核武器”。提案者认为，私自研发超越人类的智能体几与私造核武同罪。但该法案仍属草案，距真正立法落地尚远。 刚刚 6.0K Claude Code 产品负责人 Cat Wu 闪电跳槽，两周内三位核心骨干相继离职 AI人才争夺战升温。前Claude Code产品负责人Cat Wu从Anthropic离职仅一天，即闪电加入OpenAI，负责核...",
-      "image_url": "https://upload.chinaz.com/2026/1105/6392947165206324301600225.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "f5ff230487c5fc52",
-      "title": "国产RNA生物大模型重大突破：中国科大团队研发 structRFM 登上《自然》并全面开源 中国科学技术大学研究团队在生命科学与AI交叉领域取得突破，推出开源RNA序列基础模型structRFM，成果发表于《自然》。",
-      "display_title": "国产RNA生物大模型重大突破：中国科大团队研发 structRFM 登上《自然》并全面开源 中国科学技术大学研究团队在生命科学与AI交叉领域取得突破，推出开源RNA序列基础模型structRFM，成果发表于《自然》。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32107",
-      "published_at": "2026-11-05T09:53:41.193302+00:00",
-      "detected_at": "2026-11-05T09:53:41.193307+00:00",
-      "summary": "研发超级 AI 或判 20 年：美国民主党抛出最严封杀令 美国民主党提出《禁止人工超级智能法案》草案，拟全面封杀超级AI研发与部署。罚则严厉：涉案企业将被强制解散，违规个人最高面临20年联邦监禁，量刑明确对标“非法研发核武器”。提案者认为，私自研发超越人类的智能体几与私造核武同罪。但该法案仍属草案，距真正立法落地尚远。 刚刚 6.0K Claude Code 产品负责人 Cat Wu 闪电跳槽，两周内三位核心骨干相继离职 AI人才争夺战升温。前Claude Code产品负责人Cat Wu从Anthropic离职仅一天，即闪电加入OpenAI，负责核...",
-      "image_url": "https://upload.chinaz.com/2026/1105/6392947311887851267916285.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "cfb7b98fe523f764",
-      "title": "可灵 AI 宣布 Kling 4.0 Flash 全面开放，深度融入专业影视工作流 人工智能视频生成领域迎重要进展。",
-      "display_title": "可灵 AI 宣布 Kling 4.0 Flash 全面开放，深度融入专业影视工作流 人工智能视频生成领域迎重要进展。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32109",
-      "published_at": "2026-11-05T09:53:41.189880+00:00",
-      "detected_at": "2026-11-05T09:53:41.189886+00:00",
-      "summary": "研发超级 AI 或判 20 年：美国民主党抛出最严封杀令 美国民主党提出《禁止人工超级智能法案》草案，拟全面封杀超级AI研发与部署。罚则严厉：涉案企业将被强制解散，违规个人最高面临20年联邦监禁，量刑明确对标“非法研发核武器”。提案者认为，私自研发超越人类的智能体几与私造核武同罪。但该法案仍属草案，距真正立法落地尚远。 刚刚 6.0K Claude Code 产品负责人 Cat Wu 闪电跳槽，两周内三位核心骨干相继离职 AI人才争夺战升温。前Claude Code产品负责人Cat Wu从Anthropic离职仅一天，即闪电加入OpenAI，负责核...",
-      "image_url": "https://upload.chinaz.com/2026/1105/6392947372512760199411943.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "5958e9c318947295",
-      "title": "Kimi Hosted Agents 发布:Harness 运行时转向云端托管 11月5日，Kimi开放平台发布Kimi Hosted Agents（托管智能体），以Harness as a Service提供云端运行框架。",
-      "display_title": "Kimi Hosted Agents 发布:Harness 运行时转向云端托管 11月5日，Kimi开放平台发布Kimi Hosted Agents（托管智能体），以Harness as a Service提供云端运行框架。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32112",
-      "published_at": "2026-11-05T09:53:41.184601+00:00",
-      "detected_at": "2026-11-05T09:53:41.184607+00:00",
-      "summary": "研发超级 AI 或判 20 年：美国民主党抛出最严封杀令 美国民主党提出《禁止人工超级智能法案》草案，拟全面封杀超级AI研发与部署。罚则严厉：涉案企业将被强制解散，违规个人最高面临20年联邦监禁，量刑明确对标“非法研发核武器”。提案者认为，私自研发超越人类的智能体几与私造核武同罪。但该法案仍属草案，距真正立法落地尚远。 刚刚 6.0K Claude Code 产品负责人 Cat Wu 闪电跳槽，两周内三位核心骨干相继离职 AI人才争夺战升温。前Claude Code产品负责人Cat Wu从Anthropic离职仅一天，即闪电加入OpenAI，负责核...",
-      "image_url": "https://upload.chinaz.com/2026/1105/6392947532149370154125113.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "f317a68bee412bff",
-      "title": "千问AI Office升级端内编辑与模板能力，Word、Excel、PPT均可按需修改 11月5日，千问AI Office升级端内编辑与自定义模板能力，覆盖Word、Excel、PPT。",
-      "display_title": "千问AI Office升级端内编辑与模板能力，Word、Excel、PPT均可按需修改 11月5日，千问AI Office升级端内编辑与自定义模板能力，覆盖Word、Excel、PPT。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32115",
-      "published_at": "2026-11-05T09:53:41.179249+00:00",
-      "detected_at": "2026-11-05T09:53:41.179256+00:00",
-      "summary": "研发超级 AI 或判 20 年：美国民主党抛出最严封杀令 美国民主党提出《禁止人工超级智能法案》草案，拟全面封杀超级AI研发与部署。罚则严厉：涉案企业将被强制解散，违规个人最高面临20年联邦监禁，量刑明确对标“非法研发核武器”。提案者认为，私自研发超越人类的智能体几与私造核武同罪。但该法案仍属草案，距真正立法落地尚远。 刚刚 6.0K Claude Code 产品负责人 Cat Wu 闪电跳槽，两周内三位核心骨干相继离职 AI人才争夺战升温。前Claude Code产品负责人Cat Wu从Anthropic离职仅一天，即闪电加入OpenAI，负责核...",
-      "image_url": "https://upload.chinaz.com/2026/1105/6392948331475343763874708.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "4c7f24c1f2f7776a",
-      "title": "从\"能画\"到\"能改\"：OpenAI 用 Images 2.6 补齐生图工作流 OpenAI披露，全球用户每周通过ChatGPT、Codex和API生成图片达40亿张，日均超5亿张。",
-      "display_title": "从\"能画\"到\"能改\"：OpenAI 用 Images 2.6 补齐生图工作流 OpenAI披露，全球用户每周通过ChatGPT、Codex和API生成图片达40亿张，日均超5亿张。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32116",
-      "published_at": "2026-11-05T09:53:41.177461+00:00",
-      "detected_at": "2026-11-05T09:53:41.177467+00:00",
-      "summary": "研发超级 AI 或判 20 年：美国民主党抛出最严封杀令 美国民主党提出《禁止人工超级智能法案》草案，拟全面封杀超级AI研发与部署。罚则严厉：涉案企业将被强制解散，违规个人最高面临20年联邦监禁，量刑明确对标“非法研发核武器”。提案者认为，私自研发超越人类的智能体几与私造核武同罪。但该法案仍属草案，距真正立法落地尚远。 刚刚 6.0K Claude Code 产品负责人 Cat Wu 闪电跳槽，两周内三位核心骨干相继离职 AI人才争夺战升温。前Claude Code产品负责人Cat Wu从Anthropic离职仅一天，即闪电加入OpenAI，负责核...",
-      "image_url": "https://upload.chinaz.com/2026/1105/6392948543377094502691690.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "cd5bc924e442b2c2",
-      "title": "百度开源2800亿参数文心5.5Flash Base，多项基准测试刷新同尺寸SOTA",
-      "display_title": "百度开源2800亿参数文心5.5Flash Base，多项基准测试刷新同尺寸SOTA",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32118",
-      "published_at": "2026-11-05T09:53:41.173834+00:00",
-      "detected_at": "2026-11-05T09:53:41.173840+00:00",
-      "summary": "研发超级 AI 或判 20 年：美国民主党抛出最严封杀令 美国民主党提出《禁止人工超级智能法案》草案，拟全面封杀超级AI研发与部署。罚则严厉：涉案企业将被强制解散，违规个人最高面临20年联邦监禁，量刑明确对标“非法研发核武器”。提案者认为，私自研发超越人类的智能体几与私造核武同罪。但该法案仍属草案，距真正立法落地尚远。 刚刚 6.0K Claude Code 产品负责人 Cat Wu 闪电跳槽，两周内三位核心骨干相继离职 AI人才争夺战升温。前Claude Code产品负责人Cat Wu从Anthropic离职仅一天，即闪电加入OpenAI，负责核...",
-      "image_url": "https://upload.chinaz.com/2026/1105/6392948997404927414541710.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
       "meta": {}
     },
     {
@@ -592,6 +854,24 @@
       "image_method": "og-validated",
       "image_rule_version": 13,
       "priority": "B",
+      "language": "zh",
+      "is_breakthrough": false,
+      "meta": {}
+    },
+    {
+      "id": "e2c068de84f54b53",
+      "title": "10 天 948 个提权漏洞，7% 的 Linux 代码，被 OpenAI 扫成筛子了",
+      "display_title": "10 天 948 个提权漏洞，7% 的 Linux 代码，被 OpenAI 扫成筛子了",
+      "source": "小众软件",
+      "category": "提效工具",
+      "url": "https://www.appinn.com/openai-linux-kernel-948-privilege-escalation-vulnerabilities/",
+      "published_at": "2026-11-05T00:00:00+00:00",
+      "detected_at": "2026-11-05T18:05:09.100241+00:00",
+      "summary": "10 天 948 个提权漏洞，7% 的 Linux 代码，被 OpenAI 扫成筛子了 安全情报 2026/11/05 0",
+      "image_url": "https://www.appinn.com/wp-content/uploads/2026/11/Copy-of-appinn-homework-2026-11-05T184509.852.jpg",
+      "image_method": "og-validated",
+      "image_rule_version": 13,
+      "priority": "A",
       "language": "zh",
       "is_breakthrough": false,
       "meta": {}
@@ -1443,24 +1723,6 @@
       "meta": {}
     },
     {
-      "id": "985f32ec9189297e",
-      "title": "破解昔日“绝症”，67岁的他还在啃临床“硬骨头...",
-      "display_title": "破解昔日“绝症”，67岁的他还在啃临床“硬骨头...",
-      "source": "科学网",
-      "category": "前沿动态",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573956.shtm",
-      "published_at": "2026-10-31T19:21:31.127382+00:00",
-      "detected_at": "2026-10-31T19:21:31.127398+00:00",
-      "summary": "科学网-破解昔日“绝症”，67岁的他还在啃临床“硬骨头”",
-      "image_url": "https://rmtzx.sciencenet.cn/kxwsprintast/6ae35ae5e4b078fce44b2c82.jpeg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
       "id": "db5bfe904f5a80ef",
       "title": "OpenAI的不归路——关于ChatGPT加入广告的五个冷思考",
       "display_title": "OpenAI的不归路——关于ChatGPT加入广告的五个冷思考",
@@ -1577,7 +1839,7 @@
       "url": "https://www.appinn.com/apple-intelligence-china-november-4-qwen/",
       "published_at": "2026-10-31T00:00:00+00:00",
       "detected_at": "2026-10-31T08:30:29.966357+00:00",
-      "summary": "Apple 智能 11 月 4 日登陆中国，iPhone 15 Pro 起可用，部分功能接入千问，新版 Siri AI 缺席 业界消息 AI 2026/10/31 2",
+      "summary": "Apple 智能 11 月 4 日登陆中国，iPhone 15 Pro 起可用，部分功能接入千问，新版 Siri AI 缺席 业界消息 AI 2026/10/31 6",
       "image_url": "https://www.appinn.com/wp-content/uploads/2026/10/Copy-of-appinn-homework-2026-10-31T121646.375.jpg",
       "image_method": "og-validated",
       "image_rule_version": 13,
@@ -4356,24 +4618,6 @@
       "priority": "A",
       "language": "en",
       "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "12e05de9b9959303",
-      "title": "6位“掌门人”谈基础医学如何寻找原始创新突破口",
-      "display_title": "6位“掌门人”谈基础医学如何寻找原始创新突破口",
-      "source": "科学网",
-      "category": "前沿动态",
-      "url": "http://news.sciencenet.cn/htmlnews/2026/10/573200.shtm",
-      "published_at": "2026-10-19T15:42:20.313393+00:00",
-      "detected_at": "2026-10-19T15:42:20.313400+00:00",
-      "summary": "科学网-6位“掌门人”谈基础医学如何寻找原始创新突破口",
-      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6ad5a746e4b078fce44b22a8.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
       "meta": {}
     },
     {
@@ -7231,24 +7475,6 @@
       "detected_at": "2026-10-09T06:18:17.973743+00:00",
       "summary": "科学网-我国科研团队首次构建水稻全生命周期细胞图谱",
       "image_url": "https://rmtzx.sciencenet.cn/kxwmam/6ac6fd3ee4b095388d568e98.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "45553bdefb4a7ea4",
-      "title": "“中国天眼”发现首例仍在演化的脉冲星三体系统",
-      "display_title": "“中国天眼”发现首例仍在演化的脉冲星三体系统",
-      "source": "科学网",
-      "category": "前沿动态",
-      "url": "https://news.sciencenet.cn/htmlnews/2026/10/572621.shtm",
-      "published_at": "2026-10-09T06:18:17.966999+00:00",
-      "detected_at": "2026-10-09T06:18:17.967013+00:00",
-      "summary": "科学网-“中国天眼”发现首例仍在演化的脉冲星三体系统",
-      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6ac875a2e4b078fce44b17a1.jpeg",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
