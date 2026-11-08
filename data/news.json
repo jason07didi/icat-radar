@@ -1,25 +1,82 @@
 {
-  "updated_at": "2026-11-08T13:44:06.106533+00:00",
+  "updated_at": "2026-11-08T18:35:24.464700+00:00",
   "count": 500,
   "hotspot_count": 12,
-  "breakthrough_count": 130,
+  "breakthrough_count": 131,
   "category_counts": {
     "AI变现": 175,
     "提效工具": 76,
-    "前沿动态": 30
+    "前沿动态": 31
   },
   "source_counts": {
-    "Scientific Data": 201,
+    "Scientific Data": 200,
     "Nature Cities": 18
   },
   "hotspots": [
+    {
+      "id": "91b797d920aada82",
+      "title": "减肥药进入器官保护时代",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E5%87%8F%E8%82%A5%E8%8D%AF%E8%BF%9B%E5%85%A5%E5%99%A8%E5%AE%98%E4%BF%9D%E6%8A%A4%E6%97%B6%E4%BB%A3&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 5,
+      "hot_index": 5999616,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生",
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度民生": 5,
+        "百度热搜": 21
+      },
+      "topic": "健康医学",
+      "score": 98,
+      "recommended_title": "减肥药进入器官保护时代为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04762-3/MediaObjects/41591_2026_4762_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04762-3",
+      "main_paper_title": "Hemodynamic effects of semaglutide in individuals with heart failure with preserved ejection fraction and obesity: a placebo-controlled randomized clinical trial",
+      "related_papers": [
+        {
+          "id": "0e16f9b7b53289de",
+          "title": "Hemodynamic effects of semaglutide in individuals with heart failure with preserved ejection fraction and obesity: a placebo-controlled randomized clinical trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04762-3",
+          "published_at": "2026-11-08T00:00:00+00:00",
+          "summary": "As presented at the 2026 American Heart Association Scientific Sessions, in a placebo-controlled randomized clinical trial, semaglutide significantly improved pulmonary artery wedge pressure and other hemodynamic parameters during low-intensity exercise in individuals with hea...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04762-3/MediaObjects/41591_2026_4762_Fig1_HTML.png?as=webp",
+          "match_score": 57
+        },
+        {
+          "id": "53f7c7d9de7ce8fc",
+          "title": "Effects of semaglutide on cardiac structure and function in heart failure with preserved ejection fraction and obesity: a pre-specified cardiac magnetic resonance substudy of the CAMEO-SEMA trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04787-8",
+          "published_at": "2026-11-08T00:00:00+00:00",
+          "summary": "As presented at the 2026 AHA Scientific Sessions, a cardiac magnetic resonance substudy of the CAMEO-SEMA trial showed that semaglutide significantly improved cardiac structure and function, including left atrial reservoir strain and left ventricular filling dynamics, in indiv...",
+          "image_url": "",
+          "match_score": 49
+        },
+        {
+          "id": "f05681e70574e32a",
+          "title": "Perioperative ivonescimab with or without chemotherapy in resectable non-small cell lung cancer: a phase 2 trial",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04745-4",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "In a nonrandomized phase 2 trial, patients with resectable non-small cell lung cancer received perioperative ivonescimab as monotherapy or with chemotherapy, leading to encouraging pathological response rates in both cohorts, and sustained circulating tumor DNA negativity thro...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04745-4/MediaObjects/41591_2026_4745_Fig2_HTML.png?as=webp",
+          "match_score": 43
+        }
+      ],
+      "updated_at": "2026-11-08T18:35:16.100921+00:00"
+    },
     {
       "id": "510f7b7e532b04cb",
       "title": "感悟五年规划的中国智慧",
       "summary": "“政贵有恒。”10月30日，习近平主席同来华进行国事访问的德国总统施泰因迈尔会谈，引用这句古语道出双方关系持续健康发展的... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E6%84%9F%E6%82%9F%E4%BA%94%E5%B9%B4%E8%A7%84%E5%88%92%E7%9A%84%E4%B8%AD%E5%9B%BD%E6%99%BA%E6%85%A7&sa=fyb_news&rsv_dl=fyb_news",
       "rank": 1,
-      "hot_index": 7904095,
+      "hot_index": 7904388,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
@@ -46,16 +103,6 @@
           "match_score": 43
         },
         {
-          "id": "6b27790d0eb9ca71",
-          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04734-7",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
-          "match_score": 37
-        },
-        {
           "id": "a84d1ee1400c1d19",
           "title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints",
           "source": "Nature Medicine",
@@ -64,41 +111,6 @@
           "summary": "As presented at 2026 AHA Scientific Sessions: Analysis of U.S. Census and other national health data identifies communities with high cardiovascular care needs and assess health system readiness for digital care deployment.",
           "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41746-022-00734-2/MediaObjects/41746_2022_734_Fig1_HTML.png",
           "match_score": 35
-        }
-      ],
-      "updated_at": "2026-11-08T13:43:58.092189+00:00"
-    },
-    {
-      "id": "ad41f31b14717118",
-      "title": "立冬后建议改一下睡觉时间",
-      "summary": "立冬后建议调整作息，早睡晚起。冬季低温会加重心血管负荷，光照减弱致褪黑素分泌高峰延迟，此时熬夜代价更大。建议在22至23... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%AB%8B%E5%86%AC%E5%90%8E%E5%BB%BA%E8%AE%AE%E6%94%B9%E4%B8%80%E4%B8%8B%E7%9D%A1%E8%A7%89%E6%97%B6%E9%97%B4&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 5,
-      "hot_index": 7523322,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 5
-      },
-      "topic": "健康医学",
-      "score": 98,
-      "recommended_title": "立冬后建议改一下睡觉时间为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04734-7",
-      "main_paper_title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
-      "related_papers": [
-        {
-          "id": "6b27790d0eb9ca71",
-          "title": "Lymph node-targeted, mKRAS-specific amphiphile vaccine in pancreatic cancer: the randomized phase 2 AMPLIFY-7P trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04734-7",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "summary": "As presented at the ESMO Congress 2026, in a randomized phase 2 trial evaluating an off-the-shelf lymph node-targeting peptide vaccine in patients with mutated KRAS pancreatic cancer within 6 months of standard curative intent therapy, the primary endpoint of disease-free surv...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04734-7/MediaObjects/41591_2026_4734_Fig1_HTML.png?as=webp",
-          "match_score": 37
         },
         {
           "id": "5545753797288b91",
@@ -109,38 +121,83 @@
           "summary": "Fecal shotgun metagenomics from 6,803 adults in the Japanese 4D cohort and microbiome-based prediction scores validated across 13 independent and geographically diverse cohorts revealed two opposing microbiome-mediated axes linking lifestyle to health and 15 diseases.",
           "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04744-5/MediaObjects/41591_2026_4744_Fig1_HTML.png?as=webp",
           "match_score": 35
-        },
-        {
-          "id": "4ef25f4ab95b8c84",
-          "title": "Regulatable membrane-bound IL-15 engineered TIL cell therapy for immune checkpoint inhibitor-resistant advanced melanoma: pooled analysis of phase 1 and 1/2 trials",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04743-6",
-          "published_at": "2026-11-03T00:00:00+00:00",
-          "summary": "As presented at the Society for Immunotherapy of Cancer 2026 Annual Meeting, in a non-prespecified pooled analysis of two trials, amsokigene autoleucel, an autologous tumor-infiltrating lymphocyte therapy engineered to eliminate the need for IL-2, was successfully manufactured...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04743-6/MediaObjects/41591_2026_4743_Fig2_HTML.png?as=webp",
-          "match_score": 35
         }
       ],
-      "updated_at": "2026-11-08T13:43:58.096623+00:00"
+      "updated_at": "2026-11-08T18:35:16.092278+00:00"
+    },
+    {
+      "id": "836ba3280ea1d1f0",
+      "title": "疑秦始皇儿子头骨面容复原图公布",
+      "summary": "西北大学科研团队用颅面复原技术，还原了秦陵东侧陪葬墓中一名约30岁年轻男子的面容。该男子头骨嵌有青铜箭头、尸骨遭肢解，大... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%96%91%E7%A7%A6%E5%A7%8B%E7%9A%87%E5%84%BF%E5%AD%90%E5%A4%B4%E9%AA%A8%E9%9D%A2%E5%AE%B9%E5%A4%8D%E5%8E%9F%E5%9B%BE%E5%85%AC%E5%B8%83&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 5,
+      "hot_index": 7523519,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 5
+      },
+      "topic": "城市社会",
+      "score": 98,
+      "recommended_title": "疑秦始皇儿子头骨面容复原图公布背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
+      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
+      "related_papers": [
+        {
+          "id": "c0c8ded620e6a3e8",
+          "title": "The spatial reach of mobility interactions in urban systems",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00531-y",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+          "match_score": 44
+        },
+        {
+          "id": "f3462bc0136e1e31",
+          "title": "Preprimary education laws and women’s gender attitudes, empowerment and reproductive autonomy in 117 low- and middle-income countries",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02583-5",
+          "published_at": "2026-11-04T00:00:00+00:00",
+          "summary": "Lou et al. find that eligibility for preprimary education is linked to more gender-equitable attitudes, greater empowerment and reproductive autonomy, and lower levels of adolescent marriage and childbearing across low- and middle-income countries.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02583-5/MediaObjects/41562_2026_2583_Fig1_HTML.png",
+          "match_score": 41
+        },
+        {
+          "id": "a79a68514f163b84",
+          "title": "Nested economies of scale in global city mass",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00532-x",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
+          "match_score": 39
+        }
+      ],
+      "updated_at": "2026-11-08T18:35:16.096645+00:00"
     },
     {
       "id": "fb70ac861134a2c9",
       "title": "立冬过后台风又又又来",
       "summary": "立冬过后，西北太平洋依旧有台风“加班”，第32号台风“查帕卡”生成，2026年台风总数达到32个，刷新21世纪以来年度台... 查看更多>",
       "url": "https://www.baidu.com/s?wd=%E7%AB%8B%E5%86%AC%E8%BF%87%E5%90%8E%E5%8F%B0%E9%A3%8E%E5%8F%88%E5%8F%88%E5%8F%88%E6%9D%A5&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 18,
-      "hot_index": 3428459,
+      "rank": 19,
+      "hot_index": 3331143,
       "platform": "百度民生",
       "platforms": [
         "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 18,
-        "百度热搜": 48
+        "百度民生": 19,
+        "百度热搜": 49
       },
       "topic": "气候环境",
-      "score": 97,
+      "score": 96,
       "recommended_title": "立冬过后台风又又又来背后：Nature研究揭示了怎样的风险链条？",
       "angle": "从正在发生的天气或环境事件切入，利用Nature研究解释形成机制、风险变化和长期趋势。",
       "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02767-x/MediaObjects/41558_2026_2767_Fig1_HTML.png?as=webp",
@@ -162,7 +219,7 @@
           "title": "Earlier and faster heatwave onset on land under a warming climate",
           "source": "Nature Climate Change",
           "url": "https://www.nature.com/articles/s41558-026-02762-2",
-          "published_at": "2026-11-08T13:43:51.464393+00:00",
+          "published_at": "2026-11-08T18:35:08.415602+00:00",
           "summary": "Heatwaves are expected to become more frequent and intense with global warming. Here the authors assess changes in their timing, finding that the heatwave season expands and that many regions see a faster onset of heatwaves.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41558-026-02762-2/MediaObjects/41558_2026_2762_Fig1_HTML.png?as=webp",
           "match_score": 35
@@ -172,31 +229,86 @@
           "title": "Impacts of PM2.5 air pollution on high-skilled worker productivity in China",
           "source": "Nature Human Behaviour",
           "url": "https://www.nature.com/articles/s41562-026-02576-4",
-          "published_at": "2026-11-08T13:43:51.869469+00:00",
+          "published_at": "2026-11-08T18:35:08.834872+00:00",
           "summary": "Dong, Qiao and Zhou show how variations in the level of air pollution impact the productivity of scholarly researchers in China.",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02576-4/MediaObjects/41562_2026_2576_Fig1_HTML.png?as=webp",
           "match_score": 35
         }
       ],
-      "updated_at": "2026-11-08T13:43:58.108836+00:00"
+      "updated_at": "2026-11-08T18:35:16.107130+00:00"
     },
     {
-      "id": "72205384ec9e0287",
-      "title": "张艺谋：电影不再是精英艺术",
-      "summary": "近日，在金鸡国际电影节展对话中，张艺谋表示电影不再是精英艺术，普通人也能做导演编剧。此外，他预测三五年内AI影像或将做到... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E8%89%BA%E8%B0%8B%EF%BC%9A%E7%94%B5%E5%BD%B1%E4%B8%8D%E5%86%8D%E6%98%AF%E7%B2%BE%E8%8B%B1%E8%89%BA%E6%9C%AF&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 10,
-      "hot_index": 7048856,
+      "id": "6424246a6c69e7f8",
+      "title": "南京辟谣“31岁医生被刺身亡”",
+      "summary": "近日，一则“南京医生张明磊被刺伤身亡”的网络帖文在多个社交媒体平台流传。11月7日，南京卫生健康部门辟谣：没有名叫“张明... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8D%97%E4%BA%AC%E8%BE%9F%E8%B0%A3%E2%80%9C31%E5%B2%81%E5%8C%BB%E7%94%9F%E8%A2%AB%E5%88%BA%E8%BA%AB%E4%BA%A1%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 12,
+      "hot_index": 6855038,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 10
+        "百度热搜": 12
+      },
+      "topic": "健康医学",
+      "score": 95,
+      "recommended_title": "南京辟谣“31岁医生被刺身亡”为什么值得关注？从Nature研究看真正的科学证据",
+      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
+      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41746-022-00734-2/MediaObjects/41746_2022_734_Fig1_HTML.png",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04800-0",
+      "main_paper_title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints",
+      "related_papers": [
+        {
+          "id": "a84d1ee1400c1d19",
+          "title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04800-0",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "summary": "As presented at 2026 AHA Scientific Sessions: Analysis of U.S. Census and other national health data identifies communities with high cardiovascular care needs and assess health system readiness for digital care deployment.",
+          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41746-022-00734-2/MediaObjects/41746_2022_734_Fig1_HTML.png",
+          "match_score": 35
+        },
+        {
+          "id": "01e9ab793614efdc",
+          "title": "A systematic review and meta analysis of early exercise based cardiac rehabilitation in patients hospitalized with acute heart failure",
+          "source": "Scientific Reports",
+          "url": "https://www.nature.com/articles/s41598-026-78168-z",
+          "published_at": "2026-11-08T00:00:00+00:00",
+          "summary": "Early exercise-based cardiac rehabilitation (ExCR) has been increasingly investigated in patients hospitalized with acute heart failure (AHF), but its effects on functional recovery and whether these effects vary across selected study-level characteristics remain uncertain. Th...",
+          "image_url": "",
+          "match_score": 43
+        },
+        {
+          "id": "4ef25f4ab95b8c84",
+          "title": "Regulatable membrane-bound IL-15 engineered TIL cell therapy for immune checkpoint inhibitor-resistant advanced melanoma: pooled analysis of phase 1 and 1/2 trials",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04743-6",
+          "published_at": "2026-11-03T00:00:00+00:00",
+          "summary": "As presented at the Society for Immunotherapy of Cancer 2026 Annual Meeting, in a non-prespecified pooled analysis of two trials, amsokigene autoleucel, an autologous tumor-infiltrating lymphocyte therapy engineered to eliminate the need for IL-2, was successfully manufactured...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04743-6/MediaObjects/41591_2026_4743_Fig2_HTML.png?as=webp",
+          "match_score": 35
+        }
+      ],
+      "updated_at": "2026-11-08T18:35:16.105267+00:00"
+    },
+    {
+      "id": "16287cd2cb8bea1e",
+      "title": "《持械入宋》背后的6人“草台班子”",
+      "summary": "近期，AI短剧《持械入宋》全网播放量突破120亿。该剧已经被不少媒体贴上“草台班子打造”的标签，因为6人主创团队都不是影... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E3%80%8A%E6%8C%81%E6%A2%B0%E5%85%A5%E5%AE%8B%E3%80%8B%E8%83%8C%E5%90%8E%E7%9A%846%E4%BA%BA%E2%80%9C%E8%8D%89%E5%8F%B0%E7%8F%AD%E5%AD%90%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 20,
+      "hot_index": 6088263,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 20
       },
       "topic": "人工智能",
-      "score": 97,
-      "recommended_title": "张艺谋：电影不再是精英艺术刷屏之后：Nature研究正在回答哪些关键问题？",
+      "score": 89,
+      "recommended_title": "《持械入宋》背后的6人“草台班子”刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41562-026-02611-4/MediaObjects/41562_2026_2611_Fig7_HTML.png?as=webp",
       "main_paper_url": "https://www.nature.com/articles/s41562-026-02611-4",
@@ -233,41 +345,39 @@
           "match_score": 28
         }
       ],
-      "updated_at": "2026-11-08T13:43:58.098152+00:00"
+      "updated_at": "2026-11-08T18:35:16.108480+00:00"
     },
     {
-      "id": "91b797d920aada82",
-      "title": "减肥药进入器官保护时代",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E5%87%8F%E8%82%A5%E8%8D%AF%E8%BF%9B%E5%85%A5%E5%99%A8%E5%AE%98%E4%BF%9D%E6%8A%A4%E6%97%B6%E4%BB%A3&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 19,
-      "hot_index": 3321127,
-      "platform": "百度民生",
+      "id": "ad41f31b14717118",
+      "title": "立冬后建议改一下睡觉时间",
+      "summary": "立冬后建议调整作息，早睡晚起。冬季低温会加重心血管负荷，光照减弱致褪黑素分泌高峰延迟，此时熬夜代价更大。建议在22至23... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E7%AB%8B%E5%86%AC%E5%90%8E%E5%BB%BA%E8%AE%AE%E6%94%B9%E4%B8%80%E4%B8%8B%E7%9D%A1%E8%A7%89%E6%97%B6%E9%97%B4&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 22,
+      "hot_index": 5907280,
+      "platform": "百度热搜",
       "platforms": [
-        "百度民生",
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度民生": 19,
-        "百度热搜": 49
+        "百度热搜": 22
       },
       "topic": "健康医学",
-      "score": 96,
-      "recommended_title": "减肥药进入器官保护时代为什么值得关注？从Nature研究看真正的科学证据",
+      "score": 87,
+      "recommended_title": "立冬后建议改一下睡觉时间为什么值得关注？从Nature研究看真正的科学证据",
       "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00535-8/MediaObjects/44284_2026_535_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00535-8",
-      "main_paper_title": "Wild–urban gradient leads to ecological stratification in Singapore’s long-tailed macaques",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04744-5/MediaObjects/41591_2026_4744_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41591-026-04744-5",
+      "main_paper_title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
       "related_papers": [
         {
-          "id": "ab160899adda64d0",
-          "title": "Wild–urban gradient leads to ecological stratification in Singapore’s long-tailed macaques",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00535-8",
-          "published_at": "2026-11-03T00:00:00+00:00",
-          "summary": "This study assessed the diet, gut bacteria and habitat preferences of long-tailed macaques in Singapore across a gradient of urbanization. Animal dietary diversity and gut bacterial diversity both declined with urbanization, while dietary plant diversity varied with urbanizati...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00535-8/MediaObjects/44284_2026_535_Fig1_HTML.png?as=webp",
-          "match_score": 40
+          "id": "5545753797288b91",
+          "title": "Opposing microbiome-mediated axes link modifiable lifestyles to health and chronic diseases",
+          "source": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-04744-5",
+          "published_at": "2026-11-05T00:00:00+00:00",
+          "summary": "Fecal shotgun metagenomics from 6,803 adults in the Japanese 4D cohort and microbiome-based prediction scores validated across 13 independent and geographically diverse cohorts revealed two opposing microbiome-mediated axes linking lifestyle to health and 15 diseases.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04744-5/MediaObjects/41591_2026_4744_Fig1_HTML.png?as=webp",
+          "match_score": 35
         },
         {
           "id": "c5715ea08eca2632",
@@ -284,363 +394,31 @@
           "title": "Depression risk associated with idealized sentiment toward urban places on social media",
           "source": "Nature Cities",
           "url": "https://www.nature.com/articles/s44284-026-00516-x",
-          "published_at": "2026-11-08T13:43:53.260078+00:00",
+          "published_at": "2026-11-08T18:35:10.478676+00:00",
           "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
           "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
           "match_score": 34
         }
       ],
-      "updated_at": "2026-11-08T13:43:58.117352+00:00"
+      "updated_at": "2026-11-08T18:35:16.112773+00:00"
     },
     {
-      "id": "0bb883db7eae5a7f",
-      "title": "河南一检察官工作中突感不适去世",
-      "summary": "10月31日上午，河南鹿邑县人民检察院为43岁检察官丁德坤举行遗体告别仪式，200余人送别。10月29日，丁德坤在单位加... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E4%B8%80%E6%A3%80%E5%AF%9F%E5%AE%98%E5%B7%A5%E4%BD%9C%E4%B8%AD%E7%AA%81%E6%84%9F%E4%B8%8D%E9%80%82%E5%8E%BB%E4%B8%96&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 20,
-      "hot_index": 3106974,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生",
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度民生": 20,
-        "百度热搜": 51
-      },
-      "topic": "城市社会",
-      "score": 95,
-      "recommended_title": "河南一检察官工作中突感不适去世背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00531-y",
-      "main_paper_title": "The spatial reach of mobility interactions in urban systems",
-      "related_papers": [
-        {
-          "id": "c0c8ded620e6a3e8",
-          "title": "The spatial reach of mobility interactions in urban systems",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00531-y",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
-          "match_score": 44
-        },
-        {
-          "id": "7da237ab0a90cd0e",
-          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02610-5",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "a79a68514f163b84",
-          "title": "Nested economies of scale in global city mass",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00532-x",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
-          "match_score": 39
-        }
-      ],
-      "updated_at": "2026-11-08T13:43:58.121796+00:00"
-    },
-    {
-      "id": "6424246a6c69e7f8",
-      "title": "南京辟谣“31岁医生被刺身亡”",
-      "summary": "近日，一则“南京医生张明磊被刺伤身亡”的网络帖文在多个社交媒体平台流传。11月7日，南京卫生健康部门辟谣：没有名叫“张明... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8D%97%E4%BA%AC%E8%BE%9F%E8%B0%A3%E2%80%9C31%E5%B2%81%E5%8C%BB%E7%94%9F%E8%A2%AB%E5%88%BA%E8%BA%AB%E4%BA%A1%E2%80%9D&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 12,
-      "hot_index": 6848171,
+      "id": "72205384ec9e0287",
+      "title": "张艺谋：电影不再是精英艺术",
+      "summary": "近日，在金鸡国际电影节展对话中，张艺谋表示电影不再是精英艺术，普通人也能做导演编剧。此外，他预测三五年内AI影像或将做到... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E8%89%BA%E8%B0%8B%EF%BC%9A%E7%94%B5%E5%BD%B1%E4%B8%8D%E5%86%8D%E6%98%AF%E7%B2%BE%E8%8B%B1%E8%89%BA%E6%9C%AF&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 27,
+      "hot_index": 5412988,
       "platform": "百度热搜",
       "platforms": [
         "百度热搜"
       ],
       "platform_ranks": {
-        "百度热搜": 12
-      },
-      "topic": "健康医学",
-      "score": 95,
-      "recommended_title": "南京辟谣“31岁医生被刺身亡”为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41746-022-00734-2/MediaObjects/41746_2022_734_Fig1_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s41591-026-04800-0",
-      "main_paper_title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints",
-      "related_papers": [
-        {
-          "id": "a84d1ee1400c1d19",
-          "title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04800-0",
-          "published_at": "2026-11-05T00:00:00+00:00",
-          "summary": "As presented at 2026 AHA Scientific Sessions: Analysis of U.S. Census and other national health data identifies communities with high cardiovascular care needs and assess health system readiness for digital care deployment.",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41746-022-00734-2/MediaObjects/41746_2022_734_Fig1_HTML.png",
-          "match_score": 35
-        },
-        {
-          "id": "d5f32c6134d6c8dc",
-          "title": "Bispecific dual T cell agonist invikafusp alfa in solid tumors: the phase 1/2 START-001 trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04711-0",
-          "published_at": "2026-10-23T00:00:00+00:00",
-          "summary": "As presented at the European Society for Medical Oncology Congress 2026, in a phase 1/2 trial in participants with solid tumors, invika, a first-in-class bispecific agonistic antibody that selectively targets the prevalent Vβ6/Vβ10 T cell subsets, was well tolerated, enabling...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04711-0/MediaObjects/41591_2026_4711_Fig1_HTML.png?as=webp",
-          "match_score": 35
-        },
-        {
-          "id": "01c8860b0a489e76",
-          "title": "5-year outcomes of chemotherapy de-escalation in HER2-positive early breast cancer and exploratory circulating tumor DNA analyses from the randomized phase 2 PHERGain trial",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04723-w",
-          "published_at": "2026-10-29T00:00:00+00:00",
-          "summary": "A 5-year secondary analysis of the phase 2 PHERGain trial supports the clinical utility of a PET-guided adaptive strategy for treatment de-escalation in HER2-positive early breast cancer and provides circulating tumor DNA insights that could inform further treatment approaches.",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41591-026-04723-w/MediaObjects/41591_2026_4723_Fig5_HTML.png?as=webp",
-          "match_score": 32
-        }
-      ],
-      "updated_at": "2026-11-08T13:43:58.102604+00:00"
-    },
-    {
-      "id": "540ce1a69adfc0cd",
-      "title": "北京降雪长城积雪厚达20厘米",
-      "summary": "11月8日，北京迎来降雪，北京降雪致长城沿线积雪明显，厚处达20厘米。为保障游览安全，长城工作人员清晨4点起开始铲雪并疏... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E9%99%8D%E9%9B%AA%E9%95%BF%E5%9F%8E%E7%A7%AF%E9%9B%AA%E5%8E%9A%E8%BE%BE20%E5%8E%98%E7%B1%B3&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 17,
-      "hot_index": 6381057,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 17
-      },
-      "topic": "城市社会",
-      "score": 91,
-      "recommended_title": "北京降雪长城积雪厚达20厘米背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02610-5",
-      "main_paper_title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
-      "related_papers": [
-        {
-          "id": "7da237ab0a90cd0e",
-          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02610-5",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
-          "match_score": 42
-        },
-        {
-          "id": "301c12754a62e105",
-          "title": "A global view of urban land subsidence and its changing trajectories",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00527-8",
-          "published_at": "2026-10-12T00:00:00+00:00",
-          "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
-          "match_score": 36
-        },
-        {
-          "id": "b08f3a5595a47d30",
-          "title": "Maternal mental health liveability shaped by composite residential environmental profiles",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00534-9",
-          "published_at": "2026-11-02T00:00:00+00:00",
-          "summary": "In a cohort of 216,000+ pregnant women across China, air pollution and heat were linked to higher risks of prenatal mental distress, while nearby green space was protective. Urban greening could support maternal mental health and healthier cities.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00534-9/MediaObjects/44284_2026_534_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-11-08T13:43:58.106972+00:00"
-    },
-    {
-      "id": "fd36808e172b8d65",
-      "title": "老君山现“一山两季”奇观",
-      "summary": "11月8日，河南老君山现“一山两季”奇观，一半秋景红叶，一半雾凇银装，引发网友感叹“南北分界线具象化了”。景区工作人员表... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E8%80%81%E5%90%9B%E5%B1%B1%E7%8E%B0%E2%80%9C%E4%B8%80%E5%B1%B1%E4%B8%A4%E5%AD%A3%E2%80%9D%E5%A5%87%E8%A7%82&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 19,
-      "hot_index": 6191230,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 19
-      },
-      "topic": "城市社会",
-      "score": 90,
-      "recommended_title": "老君山现“一山两季”奇观背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00532-x",
-      "main_paper_title": "Nested economies of scale in global city mass",
-      "related_papers": [
-        {
-          "id": "a79a68514f163b84",
-          "title": "Nested economies of scale in global city mass",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00532-x",
-          "published_at": "2026-10-26T00:00:00+00:00",
-          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
-          "match_score": 39
-        },
-        {
-          "id": "00b4c8faa58e4964",
-          "title": "Systematic overview of climate actions for health in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00515-y",
-          "published_at": "2026-11-08T13:43:53.258155+00:00",
-          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
-          "match_score": 34
-        },
-        {
-          "id": "c39f69870f6fc94b",
-          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00518-9",
-          "published_at": "2026-11-08T13:43:53.258519+00:00",
-          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-11-08T13:43:58.113176+00:00"
-    },
-    {
-      "id": "7aa07b4880a4eb80",
-      "title": "学生延迟到校 为何有家长不买账",
-      "summary": "近期，多地中小学推迟到校、取消统一早读，初衷是保障学生睡眠。部分家长不买账：双职工家庭接送时间错配，早托缺位；升学压力、... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E5%AD%A6%E7%94%9F%E5%BB%B6%E8%BF%9F%E5%88%B0%E6%A0%A1+%E4%B8%BA%E4%BD%95%E6%9C%89%E5%AE%B6%E9%95%BF%E4%B8%8D%E4%B9%B0%E8%B4%A6&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 21,
-      "hot_index": 5985592,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 21
-      },
-      "topic": "健康医学",
-      "score": 88,
-      "recommended_title": "学生延迟到校 为何有家长不买账为什么值得关注？从Nature研究看真正的科学证据",
-      "angle": "从大众健康焦虑或生活方式热点切入，用Nature论文区分科学证据、相关性与网络流行说法。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
-      "main_paper_url": "https://www.nature.com/articles/s44284-026-00516-x",
-      "main_paper_title": "Depression risk associated with idealized sentiment toward urban places on social media",
-      "related_papers": [
-        {
-          "id": "86169746c0e8f177",
-          "title": "Depression risk associated with idealized sentiment toward urban places on social media",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00516-x",
-          "published_at": "2026-11-08T13:43:53.260078+00:00",
-          "summary": "Urban environments substantially influence mental health, yet quantifying subjective perceptions linked to depression remains challenging. Utilizing social media data, a novel framework identifies emotional responses to urban places, revealing complex associations between sent...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00516-x/MediaObjects/44284_2026_516_Fig1_HTML.png?as=webp",
-          "match_score": 52
-        },
-        {
-          "id": "ac59ef1c1d6d6189",
-          "title": "Divergence between physical and emotional heat resilience in Chinese cities",
-          "source": "Nature Climate Change",
-          "url": "https://www.nature.com/articles/s41558-026-02732-8",
-          "published_at": "2026-11-08T13:43:51.466199+00:00",
-          "summary": "Heatwaves threaten both physical and mental health, yet physical heat exposure and emotional responses often diverge. The study shows that 84.9% of Chinese cities experienced severe emotional shocks, compared with 52.1% facing severe heat exposure, driven by socioeconomic and...",
-          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41558-026-02732-8/MediaObjects/41558_2026_2732_Fig2_HTML.png?as=webp",
-          "match_score": 41
-        },
-        {
-          "id": "d97f69084dc4d4f7",
-          "title": "A gait foundation model for prediction of multisystem health phenotypes from 3D skeletal motion",
-          "source": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-04724-9",
-          "published_at": "2026-11-06T00:00:00+00:00",
-          "summary": "A gait foundation model, developed using three-dimensional skeletal motion data from 3,328 adults, predicts a wide array of clinical characteristics and diagnoses, including cardiometabolic, mental health and frailty phenotypes.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41591-026-04724-9/MediaObjects/41591_2026_4724_Fig3_HTML.png?as=webp",
-          "match_score": 41
-        }
-      ],
-      "updated_at": "2026-11-08T13:43:58.126271+00:00"
-    },
-    {
-      "id": "836ba3280ea1d1f0",
-      "title": "疑秦始皇儿子头骨面容复原图公布",
-      "summary": "西北大学科研团队用颅面复原技术，还原了秦陵东侧陪葬墓中一名约30岁年轻男子的面容。该男子头骨嵌有青铜箭头、尸骨遭肢解，大... 查看更多>",
-      "url": "https://www.baidu.com/s?wd=%E7%96%91%E7%A7%A6%E5%A7%8B%E7%9A%87%E5%84%BF%E5%AD%90%E5%A4%B4%E9%AA%A8%E9%9D%A2%E5%AE%B9%E5%A4%8D%E5%8E%9F%E5%9B%BE%E5%85%AC%E5%B8%83&sa=fyb_news&rsv_dl=fyb_news",
-      "rank": 22,
-      "hot_index": 5886635,
-      "platform": "百度热搜",
-      "platforms": [
-        "百度热搜"
-      ],
-      "platform_ranks": {
-        "百度热搜": 22
-      },
-      "topic": "城市社会",
-      "score": 87,
-      "recommended_title": "疑秦始皇儿子头骨面容复原图公布背后，Nature研究如何解释正在发生的社会变化？",
-      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
-      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02583-5/MediaObjects/41562_2026_2583_Fig1_HTML.png",
-      "main_paper_url": "https://www.nature.com/articles/s41562-026-02583-5",
-      "main_paper_title": "Preprimary education laws and women’s gender attitudes, empowerment and reproductive autonomy in 117 low- and middle-income countries",
-      "related_papers": [
-        {
-          "id": "f3462bc0136e1e31",
-          "title": "Preprimary education laws and women’s gender attitudes, empowerment and reproductive autonomy in 117 low- and middle-income countries",
-          "source": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02583-5",
-          "published_at": "2026-11-04T00:00:00+00:00",
-          "summary": "Lou et al. find that eligibility for preprimary education is linked to more gender-equitable attitudes, greater empowerment and reproductive autonomy, and lower levels of adolescent marriage and childbearing across low- and middle-income countries.",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02583-5/MediaObjects/41562_2026_2583_Fig1_HTML.png",
-          "match_score": 41
-        },
-        {
-          "id": "239f8f7e1ef75541",
-          "title": "A long-term memory variational GAN for high-quality music generation and its application in music education",
-          "source": "Scientific Reports",
-          "url": "https://www.nature.com/articles/s41598-026-79563-2",
-          "published_at": "2026-11-07T00:00:00+00:00",
-          "summary": "Traditional music generation models suffer from error accumulation and degraded quality in long-sequence generation, limiting their potential applications in intelligent music education. This study proposes a Long-term Memory Variational Generative Adversarial Network (LM-VGAN...",
-          "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41598-025-13064-6/MediaObjects/41598_2025_13064_Fig1_HTML.png",
-          "match_score": 35
-        },
-        {
-          "id": "1b46eeb6ce82e0c4",
-          "title": "Sustaining green stormwater infrastructure adoption in cities",
-          "source": "Nature Cities",
-          "url": "https://www.nature.com/articles/s44284-026-00520-1",
-          "published_at": "2026-11-08T13:43:53.259238+00:00",
-          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
-          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
-          "match_score": 34
-        }
-      ],
-      "updated_at": "2026-11-08T13:43:58.130531+00:00"
-    },
-    {
-      "id": "a38efeb78f0f251b",
-      "title": "鼓励员工用AI办公 出错谁担责",
-      "summary": "",
-      "url": "https://www.baidu.com/s?wd=%E9%BC%93%E5%8A%B1%E5%91%98%E5%B7%A5%E7%94%A8AI%E5%8A%9E%E5%85%AC+%E5%87%BA%E9%94%99%E8%B0%81%E6%8B%85%E8%B4%A3&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
-      "rank": 25,
-      "hot_index": 1088132,
-      "platform": "百度民生",
-      "platforms": [
-        "百度民生"
-      ],
-      "platform_ranks": {
-        "百度民生": 25
+        "百度热搜": 27
       },
       "topic": "人工智能",
       "score": 83,
-      "recommended_title": "鼓励员工用AI办公 出错谁担责刷屏之后：Nature研究正在回答哪些关键问题？",
+      "recommended_title": "张艺谋：电影不再是精英艺术刷屏之后：Nature研究正在回答哪些关键问题？",
       "angle": "从公众正在讨论的AI事件切入，用近期Nature研究解释能力边界、现实影响和未来趋势。",
       "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs44298-026-00224-2/MediaObjects/44298_2026_224_Fig1_HTML.png",
       "main_paper_url": "https://www.nature.com/articles/s41598-026-78926-z",
@@ -677,10 +455,338 @@
           "match_score": 25
         }
       ],
-      "updated_at": "2026-11-08T13:43:58.131972+00:00"
+      "updated_at": "2026-11-08T18:35:16.114133+00:00"
+    },
+    {
+      "id": "8dac551f9359b992",
+      "title": "北京向台生台青推介就业实习机会",
+      "summary": "",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E5%90%91%E5%8F%B0%E7%94%9F%E5%8F%B0%E9%9D%92%E6%8E%A8%E4%BB%8B%E5%B0%B1%E4%B8%9A%E5%AE%9E%E4%B9%A0%E6%9C%BA%E4%BC%9A&sa=fyb_livelihood&rsv_dl=fyb_livelihood",
+      "rank": 29,
+      "hot_index": 461814,
+      "platform": "百度民生",
+      "platforms": [
+        "百度民生"
+      ],
+      "platform_ranks": {
+        "百度民生": 29
+      },
+      "topic": "城市社会",
+      "score": 79,
+      "recommended_title": "北京向台生台青推介就业实习机会背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s41562-026-02610-5",
+      "main_paper_title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
+      "related_papers": [
+        {
+          "id": "7da237ab0a90cd0e",
+          "title": "Decredentialed jobs and upward mobility among non-college workers in the USA",
+          "source": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02610-5",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "Linking job postings to US Census earnings records from 2011 to 2021, Lyttelton et al. find that non-college workers hired into jobs that dropped degree requirements earned around US$4,600 more per year, yet employers rarely hired non-college workers after decredentialing.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41562-026-02610-5/MediaObjects/41562_2026_2610_Fig2_HTML.png?as=webp",
+          "match_score": 42
+        },
+        {
+          "id": "301c12754a62e105",
+          "title": "A global view of urban land subsidence and its changing trajectories",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00527-8",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "b08f3a5595a47d30",
+          "title": "Maternal mental health liveability shaped by composite residential environmental profiles",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00534-9",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "summary": "In a cohort of 216,000+ pregnant women across China, air pollution and heat were linked to higher risks of prenatal mental distress, while nearby green space was protective. Urban greening could support maternal mental health and healthier cities.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00534-9/MediaObjects/44284_2026_534_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-11-08T18:35:16.118375+00:00"
+    },
+    {
+      "id": "540ce1a69adfc0cd",
+      "title": "北京降雪长城积雪厚达20厘米",
+      "summary": "11月8日，北京迎来降雪，北京降雪致长城沿线积雪明显，厚处达20厘米。为保障游览安全，长城工作人员清晨4点起开始铲雪并疏... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E5%8C%97%E4%BA%AC%E9%99%8D%E9%9B%AA%E9%95%BF%E5%9F%8E%E7%A7%AF%E9%9B%AA%E5%8E%9A%E8%BE%BE20%E5%8E%98%E7%B1%B3&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 32,
+      "hot_index": 4940142,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 32
+      },
+      "topic": "城市社会",
+      "score": 79,
+      "recommended_title": "北京降雪长城积雪厚达20厘米背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00532-x",
+      "main_paper_title": "Nested economies of scale in global city mass",
+      "related_papers": [
+        {
+          "id": "a79a68514f163b84",
+          "title": "Nested economies of scale in global city mass",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00532-x",
+          "published_at": "2026-10-26T00:00:00+00:00",
+          "summary": "The average city dweller is supported by more than 5,000 times their body mass in buildings and roads; this analysis of >3,000 cities reveals a consistent match between population and built mass, from neighborhoods up to whole cities, with size and density bringing material ef...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00532-x/MediaObjects/44284_2026_532_Fig4_HTML.png?as=webp",
+          "match_score": 39
+        },
+        {
+          "id": "00b4c8faa58e4964",
+          "title": "Systematic overview of climate actions for health in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00515-y",
+          "published_at": "2026-11-08T18:35:10.476976+00:00",
+          "summary": "Urban climate actions can enhance health, particularly through improved air quality and increased physical activity. However, evidence indicates modest impacts from single-sector interventions. This overview of systematic reviews highlights the need for cross-sectoral policies...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00515-y/MediaObjects/44284_2026_515_Fig3_HTML.png",
+          "match_score": 34
+        },
+        {
+          "id": "c39f69870f6fc94b",
+          "title": "Economic-boom-driven electricity demand linked to urban air pollution and health in India",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00518-9",
+          "published_at": "2026-11-08T18:35:10.477327+00:00",
+          "summary": "Rapid economic growth in India since 2000 has increased electricity demand, with most of the electricity generated from coal. This study finds that rising sulfur dioxide emissions and sulfate aerosol pollution increased mortality attributable to PM 2.5 , whereas cleaner cookin...",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00518-9/MediaObjects/44284_2026_518_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-11-08T18:35:16.122671+00:00"
+    },
+    {
+      "id": "4ebdc2f294584429",
+      "title": "中国新闻奖、长江韬奋奖评选结果揭晓",
+      "summary": "11月8日，由中华全国新闻工作者协会主办的第36届中国新闻奖、第19届长江韬奋奖评选结果揭晓。378件作品获中国新闻奖，... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%96%B0%E9%97%BB%E5%A5%96%E3%80%81%E9%95%BF%E6%B1%9F%E9%9F%AC%E5%A5%8B%E5%A5%96%E8%AF%84%E9%80%89%E7%BB%93%E6%9E%9C%E6%8F%AD%E6%99%93&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 33,
+      "hot_index": 4852763,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 33
+      },
+      "topic": "城市社会",
+      "score": 79,
+      "recommended_title": "中国新闻奖、长江韬奋奖评选结果揭晓背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00527-8",
+      "main_paper_title": "A global view of urban land subsidence and its changing trajectories",
+      "related_papers": [
+        {
+          "id": "301c12754a62e105",
+          "title": "A global view of urban land subsidence and its changing trajectories",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00527-8",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Urban land subsidence poses a widespread but poorly quantified threat to cities worldwide. This study generates 40-m-resolution land subsidence maps and trend estimates for 465 cities with populations above one million.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00527-8/MediaObjects/44284_2026_527_Fig1_HTML.png?as=webp",
+          "match_score": 36
+        },
+        {
+          "id": "1b46eeb6ce82e0c4",
+          "title": "Sustaining green stormwater infrastructure adoption in cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00520-1",
+          "published_at": "2026-11-08T18:35:10.478009+00:00",
+          "summary": "Widespread adoption of green stormwater infrastructure is critical for realizing citywide stormwater resilience, but adoption remains highly uneven. The study shows how neighborhood visibility, conversion capacity and social capital interact to drive or constrain widespread up...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00520-1/MediaObjects/44284_2026_520_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "d31d704e3d193848",
+          "title": "Urbanization promotes biological invasions in global cities",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00517-w",
+          "published_at": "2026-11-08T18:35:10.478347+00:00",
+          "summary": "Urbanization significantly influences biological invasions, with developed cities exhibiting higher non-native vertebrate richness. Key factors include propagule pressure, habitat modification and climate, emphasizing the need for targeted management strategies to mitigate inv...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00517-w/MediaObjects/44284_2026_517_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        }
+      ],
+      "updated_at": "2026-11-08T18:35:16.126996+00:00"
+    },
+    {
+      "id": "fd36808e172b8d65",
+      "title": "老君山现“一山两季”奇观",
+      "summary": "11月8日，河南老君山现“一山两季”奇观，一半秋景红叶，一半雾凇银装，引发网友感叹“南北分界线具象化了”。景区工作人员表... 查看更多>",
+      "url": "https://www.baidu.com/s?wd=%E8%80%81%E5%90%9B%E5%B1%B1%E7%8E%B0%E2%80%9C%E4%B8%80%E5%B1%B1%E4%B8%A4%E5%AD%A3%E2%80%9D%E5%A5%87%E8%A7%82&sa=fyb_news&rsv_dl=fyb_news",
+      "rank": 38,
+      "hot_index": 4374087,
+      "platform": "百度热搜",
+      "platforms": [
+        "百度热搜"
+      ],
+      "platform_ranks": {
+        "百度热搜": 38
+      },
+      "topic": "城市社会",
+      "score": 75,
+      "recommended_title": "老君山现“一山两季”奇观背后，Nature研究如何解释正在发生的社会变化？",
+      "angle": "从公众正在讨论的城市或社会问题切入，用Nature相关研究解释个体现象背后的结构性变化。",
+      "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00534-9/MediaObjects/44284_2026_534_Fig1_HTML.png?as=webp",
+      "main_paper_url": "https://www.nature.com/articles/s44284-026-00534-9",
+      "main_paper_title": "Maternal mental health liveability shaped by composite residential environmental profiles",
+      "related_papers": [
+        {
+          "id": "b08f3a5595a47d30",
+          "title": "Maternal mental health liveability shaped by composite residential environmental profiles",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00534-9",
+          "published_at": "2026-11-02T00:00:00+00:00",
+          "summary": "In a cohort of 216,000+ pregnant women across China, air pollution and heat were linked to higher risks of prenatal mental distress, while nearby green space was protective. Urban greening could support maternal mental health and healthier cities.",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00534-9/MediaObjects/44284_2026_534_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "70e364dc4227dc20",
+          "title": "Topographic accessibility and proto-urban settlement organization in Neolithic China",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00511-2",
+          "published_at": "2026-11-08T18:35:10.479041+00:00",
+          "summary": "The origins of modern cities can be found in proto-urban settlements that formed before the consolidation of states. This study demonstrates that spatial terrain accessibility guided settlement organization in Neolithic China, a relationship that can be tested in other contexts.",
+          "image_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs44284-026-00511-2/MediaObjects/44284_2026_511_Fig1_HTML.png?as=webp",
+          "match_score": 34
+        },
+        {
+          "id": "c0c8ded620e6a3e8",
+          "title": "The spatial reach of mobility interactions in urban systems",
+          "source": "Nature Cities",
+          "url": "https://www.nature.com/articles/s44284-026-00531-y",
+          "published_at": "2026-10-12T00:00:00+00:00",
+          "summary": "Human mobility interactions describe how movements across locations collectively generate citywide spatial organization. This study introduces the spatial range exponent ( ρ ) to measure this organization and shows how it can be used to compare cities, track mobility reorganiz...",
+          "image_url": "https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs44284-026-00531-y/MediaObjects/44284_2026_531_Fig1_HTML.png?as=webp",
+          "match_score": 44
+        }
+      ],
+      "updated_at": "2026-11-08T18:35:16.131448+00:00"
     }
   ],
   "items": [
+    {
+      "id": "c7917e30ea9bee34",
+      "title": "我国首款可互联中性原子量子计算机原型机发布",
+      "display_title": "我国首款可互联中性原子量子计算机原型机发布",
+      "source": "科学网",
+      "category": "前沿动态",
+      "url": "https://news.sciencenet.cn/htmlnews/2026/11/574419.shtm",
+      "published_at": "2026-11-08T18:32:00.790315+00:00",
+      "detected_at": "2026-11-08T18:32:00.790321+00:00",
+      "summary": "科学网-我国首款可互联中性原子量子计算机“乾阵”原型机发布",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6af08ef4e4b078fce44b3695.jpeg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "9628b76772de0b6e",
+      "title": "苹果生态终于松口！",
+      "display_title": "苹果生态终于松口！",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32138",
+      "published_at": "2026-11-08T18:31:48.963948+00:00",
+      "detected_at": "2026-11-08T18:31:48.963954+00:00",
+      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 前天 16.2K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，AI...",
+      "image_url": "https://upload.chinaz.com/2026/1106/6392955549296052853592823.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "89affb868aba61ea",
+      "title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30% 谷歌正式发布全新AI视频生成模型Gemini Omni1.2Flash，被视为推动AI视频迈向大规模商业制作的关键进展。",
+      "display_title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30% 谷歌正式发布全新AI视频生成模型Gemini Omni1.2Flash，被视为推动AI视频迈向大规模商业制作的关键进展。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32146",
+      "published_at": "2026-11-08T18:31:48.949908+00:00",
+      "detected_at": "2026-11-08T18:31:48.949914+00:00",
+      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 前天 16.2K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，AI...",
+      "image_url": "https://upload.chinaz.com/2026/1106/6392957237507109925210969.jpg",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "3df70d1bd83de39d",
+      "title": "谷歌重磅发布 Omni 1.2 Flash：视频生成上限延长至 15 秒，API 价格大降 30% Google DeepMind发布多模态视频生成模型Gemini Omni1.2Flash，在生成时长、画面一致性、多轮对话修改及API价格上全面升级。",
+      "display_title": "谷歌重磅发布 Omni 1.2 Flash：视频生成上限延长至 15 秒，API 价格大降 30% Google DeepMind发布多模态视频生成模型Gemini Omni1.2Flash，在生成时长、画面一致性、多轮对话修改及API价格上全面升级。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32149",
+      "published_at": "2026-11-08T18:31:48.944690+00:00",
+      "detected_at": "2026-11-08T18:31:48.944696+00:00",
+      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 前天 16.2K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，AI...",
+      "image_url": "https://upload.chinaz.com/2026/1106/6392957329222636495834541.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "2af400eed0d98545",
+      "title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s 淘宝MNN团队开源手机端轻量化大语言模型MNN-Pocket-0.3B，参数约3亿，专为移动设备资源与任务设计。",
+      "display_title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s 淘宝MNN团队开源手机端轻量化大语言模型MNN-Pocket-0.3B，参数约3亿，专为移动设备资源与任务设计。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32151",
+      "published_at": "2026-11-08T18:31:48.941220+00:00",
+      "detected_at": "2026-11-08T18:31:48.941227+00:00",
+      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 前天 16.2K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，AI...",
+      "image_url": "https://upload.chinaz.com/2026/1106/6392957416249487594529696.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
+    {
+      "id": "11b2c13253829830",
+      "title": "13 岁女孩被指通过学校 Chromebook 经 Gemini 策划轻生，家属正式起诉 Google AI进校园引发安全伦理审视。",
+      "display_title": "13 岁女孩被指通过学校 Chromebook 经 Gemini 策划轻生，家属正式起诉 Google AI进校园引发安全伦理审视。",
+      "source": "AIBase",
+      "category": "AI变现",
+      "url": "https://news.aibase.com/zh/news/32155",
+      "published_at": "2026-11-08T18:31:48.935707+00:00",
+      "detected_at": "2026-11-08T18:31:48.935713+00:00",
+      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 前天 16.2K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，AI...",
+      "image_url": "https://upload.chinaz.com/2026/1106/6392958183356662103196437.png",
+      "image_method": "body-validated",
+      "image_rule_version": 13,
+      "priority": "A",
+      "language": "zh",
+      "is_breakthrough": true,
+      "meta": {}
+    },
     {
       "id": "49da624db4b6a9d4",
       "title": "全国首个冷门绝学学院成立｜一周动态",
@@ -700,96 +806,6 @@
       "meta": {}
     },
     {
-      "id": "9628b76772de0b6e",
-      "title": "苹果生态终于松口！",
-      "display_title": "苹果生态终于松口！",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32138",
-      "published_at": "2026-11-08T13:39:27.888811+00:00",
-      "detected_at": "2026-11-08T13:39:27.888817+00:00",
-      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 1 天前 16.3K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，...",
-      "image_url": "https://upload.chinaz.com/2026/1106/6392955549296052853592823.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "89affb868aba61ea",
-      "title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30% 谷歌正式发布全新AI视频生成模型Gemini Omni1.2Flash，被视为推动AI视频迈向大规模商业制作的关键进展。",
-      "display_title": "谷歌发布 Gemini Omni1.2Flash:单次时长增至15秒，成本降幅达30% 谷歌正式发布全新AI视频生成模型Gemini Omni1.2Flash，被视为推动AI视频迈向大规模商业制作的关键进展。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32146",
-      "published_at": "2026-11-08T13:39:27.874869+00:00",
-      "detected_at": "2026-11-08T13:39:27.874875+00:00",
-      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 1 天前 16.3K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，...",
-      "image_url": "https://upload.chinaz.com/2026/1106/6392957237507109925210969.jpg",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "3df70d1bd83de39d",
-      "title": "谷歌重磅发布 Omni 1.2 Flash：视频生成上限延长至 15 秒，API 价格大降 30% Google DeepMind发布多模态视频生成模型Gemini Omni1.2Flash，在生成时长、画面一致性、多轮对话修改及API价格上全面升级。",
-      "display_title": "谷歌重磅发布 Omni 1.2 Flash：视频生成上限延长至 15 秒，API 价格大降 30% Google DeepMind发布多模态视频生成模型Gemini Omni1.2Flash，在生成时长、画面一致性、多轮对话修改及API价格上全面升级。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32149",
-      "published_at": "2026-11-08T13:39:27.869340+00:00",
-      "detected_at": "2026-11-08T13:39:27.869348+00:00",
-      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 1 天前 16.3K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，...",
-      "image_url": "https://upload.chinaz.com/2026/1106/6392957329222636495834541.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "2af400eed0d98545",
-      "title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s 淘宝MNN团队开源手机端轻量化大语言模型MNN-Pocket-0.3B，参数约3亿，专为移动设备资源与任务设计。",
-      "display_title": "淘宝MNN 团队开源 MNN-Pocket-0.3B，iPhone 18 Pro 离线解码飙升至 350 token/s 淘宝MNN团队开源手机端轻量化大语言模型MNN-Pocket-0.3B，参数约3亿，专为移动设备资源与任务设计。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32151",
-      "published_at": "2026-11-08T13:39:27.865804+00:00",
-      "detected_at": "2026-11-08T13:39:27.865810+00:00",
-      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 1 天前 16.3K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，...",
-      "image_url": "https://upload.chinaz.com/2026/1106/6392957416249487594529696.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
-      "id": "11b2c13253829830",
-      "title": "13 岁女孩被指通过学校 Chromebook 经 Gemini 策划轻生，家属正式起诉 Google AI进校园引发安全伦理审视。",
-      "display_title": "13 岁女孩被指通过学校 Chromebook 经 Gemini 策划轻生，家属正式起诉 Google AI进校园引发安全伦理审视。",
-      "source": "AIBase",
-      "category": "AI变现",
-      "url": "https://news.aibase.com/zh/news/32155",
-      "published_at": "2026-11-08T13:39:27.860264+00:00",
-      "detected_at": "2026-11-08T13:39:27.860271+00:00",
-      "summary": "准确率刷新行业上限，Pangram凭何接连攻克图像与视频AI检测难关? Pangram Labs于11月4日发布Pangram Image1.0图像检测模型及Pangram Image Flash1.0视频检测模型，标志数字内容真伪鉴别迎来更高精度突破。Image1.0利用12种前沿AI图像生成器、基于100张真实图片构建1200张测试集，准确率达99.96%，并能通过热力图精准定位AI生成内容。 1 天前 16.3K 6G 还没来，AI 已写进它的基因：高通瞄准 2029 在2026移动网络大会上，高通CEO安蒙判断：6G从设计之初就是AI原生，...",
-      "image_url": "https://upload.chinaz.com/2026/1106/6392958183356662103196437.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "zh",
-      "is_breakthrough": true,
-      "meta": {}
-    },
-    {
       "id": "0fb40c67d61313f3",
       "title": "从技术员到教授级高工，这位没受过正规高等教育的院士，靠一生的自我鞭策与钻研精神，攻克下一道道看似不可逾越的难关，让世界看到了“中国锻造”。",
       "display_title": "从技术员到教授级高工，这位没受过正规高等教育的院士，靠一生的自我鞭策与钻研精神，攻克下一道道看似不可逾越的难关，让世界看到了“中国锻造”。",
@@ -799,7 +815,7 @@
       "published_at": "2026-11-08T06:16:19.231111+00:00",
       "detected_at": "2026-11-08T06:16:19.231125+00:00",
       "summary": "科学网-加工厂走出的模锻大师，用“东方魔术”托起“波音”、“神舟”",
-      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6aefbad2e4b078fce44b3647.png",
+      "image_url": "https://rmtzx.sciencenet.cn/kxwsprint/6aefbae3e4b078fce44b3649.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
@@ -9656,24 +9672,6 @@
       "detected_at": "2026-09-30T07:31:20.006271+00:00",
       "summary": "The human gut microbiome and traditional food systems are threatened by lifestyle changes linked with industrialization. The gut microbiome plays a key role in human health, yet publicly available microbiome data lack global representation. Similarly, while fermented foods ser...",
       "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs41579-026-01333-8/MediaObjects/41579_2026_1333_Fig1_HTML.png",
-      "image_method": "body-validated",
-      "image_rule_version": 13,
-      "priority": "A",
-      "language": "en",
-      "is_breakthrough": false,
-      "meta": {}
-    },
-    {
-      "id": "fb49768ee5ee06cd",
-      "title": "A Spatially Explicit 1-km Gridded Multi-sector Carbon Emission Dataset for China (2000–2020) with an Extension to 2021–2023",
-      "display_title": "A Spatially Explicit 1-km Gridded Multi-sector Carbon Emission Dataset for China (2000–2020) with an Extension to 2021–2023",
-      "source": "Scientific Data",
-      "category": "期刊论文",
-      "url": "https://www.nature.com/articles/s41597-026-08401-x",
-      "published_at": "2026-09-30T07:31:19.628230+00:00",
-      "detected_at": "2026-09-30T07:31:20.006029+00:00",
-      "summary": "Integrating carbon mitigation into territorial spatial governance can facilitate the achievement of emission reduction targets. High-resolution datasets with detailed spatiotemporal and sectoral information enable more precise and effective spatial planning and management of c...",
-      "image_url": "https://media.springernature.com/w215h120/springer-static/image/art%3A10.1038%2Fs43247-026-03435-w/MediaObjects/43247_2026_3435_Fig1_HTML.png",
       "image_method": "body-validated",
       "image_rule_version": 13,
       "priority": "A",
